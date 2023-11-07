@@ -1,0 +1,33 @@
+name: Fetch data and update site
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '*/20 * * * *'
+
+
+jobs:
+  scan_new_pypi_pkgs:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        cache: 'pip'
+
+    - run: pip3 install -r requirements.txt
+
+    - run: python3 index_data.py
+
+    - name: Push new data to site
+      run: | 
+        git config --global user.name 'fedisecfeeds bot'
+        git config --global user.email 'fedisecfeeds-bot@localhost'
+        git config --global branch.autoSetupMerge always
+        git config --global core.mergeoptions --no-edit
+        git config --global pull.rebase false
+
+        git add *
+        git commit -m "site update"
+        git pull
+        git push 
