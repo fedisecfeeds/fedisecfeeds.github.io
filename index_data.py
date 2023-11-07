@@ -58,7 +58,11 @@ def nvd_cve_detail(cve):
 	'''
 	url = f'https://services.nvd.nist.gov/rest/json/cves/2.0?cveId={cve}'
 	r = requests.get(url, headers={"User-Agent":f"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 {random.randrange(0,20000)}"})
-	if r.status_code != 200:
+	if r.status_code == 403:
+		print("rate limited by assholes at NVD, waiting..")
+		time.sleep(6)
+		r = requests.get(url, headers={"User-Agent":f"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 {random.randrange(0,20000)}"})
+	if r.status_code not in [200, 403]:
 		print(f"WARN: bad nvd api status for {cve}", r.status_code, r.text[:100])
 		return None
 	else:
@@ -167,17 +171,25 @@ print(epss_data.keys())
 print("done getting EPSS data: ", time.time()-lstart)
 
 
-print("getting CVE details from NVD...")
+print("getting CVE details from...")
 lstart = time.time()
 cve_details = {}
 for cve in cve_posts:
-	cveapi_data = cveapi_cve_detail(cve)
-	# print(cveapi_data)
-	if cveapi_data != None:
-		try:
-			cve_details[cve] = cveapi_data
-		except Exception as e:
-			print(f"WARN no valid cve info on {cve}:",e)
+	cve_data = cveapi_cve_detail(cve)
+	if cve_data == None:
+		# might need to try nvd
+		print(f"cveapi doesn't have {cve}, trying nvd")
+		cve_data = nvd_cve_detail(cve) # cveapi_cve_detail(cve)
+		if cve_data:
+			if cve_data['totalResults'] > 0:
+				cve_data = cve_data['vulnerabilities'][0]
+			else:
+				cve_data == None
+
+	if cve_data != None:
+		cve_details[cve] = cve_data
+	else:
+		print(f"WARNING: no cve data found on {cve}")
 
 
 # one big JSON blob for the page to render
@@ -201,11 +213,31 @@ for cve in cve_posts:
 		fedi_cve_feed[cve]['severity'] = None
 
 		if cve in cve_details:
-			if 'baseMetricV3' in cve_details[cve]['impact']:
-				fedi_cve_feed[cve]['cvss3'] = cve_details[cve]['impact']['baseMetricV3']['cvssV3']['baseScore']
-				fedi_cve_feed[cve]['severity'] = cve_details[cve]['impact']['baseMetricV3']['cvssV3']['baseSeverity']
-			if len(cve_details[cve]['cve']['description']['description_data']) > 0:
-				fedi_cve_feed[cve]['description'] = cve_details[cve]['cve']['description']['description_data'][0]['value']
+			try:
+				
+				if 'impact' in cve_details[cve]:
+					if 'baseMetricV3' in cve_details[cve]['impact']:
+						fedi_cve_feed[cve]['cvss3'] = cve_details[cve]['impact']['baseMetricV3']['cvssV3']['baseScore']
+						fedi_cve_feed[cve]['severity'] = cve_details[cve]['impact']['baseMetricV3']['cvssV3']['baseSeverity']
+
+				elif 'metrics' in cve_details[cve]:
+					if 'cvssMetricV30' in cve_details[cve]['metrics']:
+						fedi_cve_feed[cve]['cvss3'] = cve_details[cve]['metrics']['cvssMetricV30'][0]['cvssData']['baseScore']
+						fedi_cve_feed[cve]['severity'] = cve_details[cve]['metrics']['cvssMetricV30'][0]['cvssData']['baseScore']
+					if 'cvssMetricV31' in cve_details[cve]['metrics']:
+						fedi_cve_feed[cve]['cvss3'] = cve_details[cve]['metrics']['cvssMetricV31'][0]['cvssData']['baseScore']
+						fedi_cve_feed[cve]['severity'] = cve_details[cve]['metrics']['cvssMetricV31'][0]['cvssData']['baseScore']
+
+
+
+				if 'description' in cve_details[cve]['cve'] and len(cve_details[cve]['cve']['description']['description_data']) > 0:
+					fedi_cve_feed[cve]['description'] = cve_details[cve]['cve']['description']['description_data'][0]['value']
+				elif 'descriptions' in cve_details[cve]['cve'] and len(cve_details[cve]['cve']['descriptions']) > 0:
+					fedi_cve_feed[cve]['description'] = cve_details[cve]['cve']['descriptions'][0]['value']
+
+
+			except Exception as e:
+				print(f"Error parsing cve detail on {cve}:", e, cve_details[cve])
 		fedi_cve_feed[cve]['epss'] = None
 		for d in epss_data['data']:
 			if d['cve'] == cve:
