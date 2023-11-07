@@ -1,5 +1,6 @@
 name: Fetch data and update site
 on:
+  push:
   workflow_dispatch:
   schedule:
     - cron:  '*/20 * * * *'
