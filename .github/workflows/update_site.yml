@@ -21,6 +21,9 @@ jobs:
     - run: pip3 install -r requirements.txt
 
     - run: python3 index_data.py
+      env:
+        IFSX_AUTH_TOKEN: ${{ secrets.IFSX_AUTH_TOKEN }}
+        IOCX_AUTH_TOKEN: ${{ secrets.IOCX_AUTH_TOKEN }}
 
     - name: Push new data to site
       run: | 
