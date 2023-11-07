@@ -50,6 +50,36 @@
 /*	  justify-content:center;*/
 	}
 
+
+	@media only screen and (max-width: 768px) {
+
+		#cves {
+	  
+		  margin: auto;
+		  display: grid;
+		  
+	/*	  grid-template-columns:repeat(3, 1fr);*/
+		  grid-template-columns:repeat(1, 1fr);
+		  grid-gap:0.5em;
+		  padding:0.5em;
+		  counter-reset:divs
+		  
+		}
+
+	  	div.cve {
+		  
+		  width: 80vw;
+		  height: 80vw;
+		  border: 2px solid #36c183;
+		  min-height:10vw;
+		  display:flex;
+		  flex-direction: column;
+		  padding: 0.3em;
+	/*	  align-items:center;*/
+	/*	  justify-content:center;*/
+		}
+	}
+
 	div.posts {
 		counter-increment:divs;
 		overflow: scroll;
