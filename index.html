@@ -50,6 +50,36 @@
 /*	  justify-content:center;*/
 	}
 
+
+	@media only screen and (max-width: 768px) {
+
+		#cves {
+	  
+		  margin: auto;
+		  display: grid;
+		  
+	/*	  grid-template-columns:repeat(3, 1fr);*/
+		  grid-template-columns:repeat(1, 1fr);
+		  grid-gap:0.5em;
+		  padding:0.5em;
+		  counter-reset:divs
+		  
+		}
+
+	  	div.cve {
+		  
+		  width: 80vw;
+		  height: 80vw;
+		  border: 2px solid #36c183;
+		  min-height:10vw;
+		  display:flex;
+		  flex-direction: column;
+		  padding: 0.3em;
+	/*	  align-items:center;*/
+	/*	  justify-content:center;*/
+		}
+	}
+
 	div.posts {
 		counter-increment:divs;
 		overflow: scroll;
@@ -109,7 +139,7 @@
 
 
 <body>
-Updated at UTC 2023-11-07T21:43:40.636310
+Updated at UTC 2023-11-07T22:14:42.771324
 
 <section id=cves>
 
@@ -7394,7 +7424,7 @@ drivers.html)
 		<p class=numposts>2 posts</p>
 
 		<p class=description>
-		
+		A vulnerability in Veeam ONE allows an unauthenticated user to gain information about the SQL server connection Veeam ONE uses to access its configuration database. This may lead to remote code execution on the SQL server hosting the Veeam ONE configuration database.
 		</p>
 		
 		
@@ -7461,7 +7491,7 @@ critical, acquire the NTLM hash). No mention of exploitation in the wild.
 		<p class=numposts>4 posts</p>
 
 		<p class=description>
-		
+		A vulnerability in Veeam ONE allows an unprivileged user who has access to the Veeam ONE Web Client the ability to acquire the NTLM hash of the account used by the Veeam ONE Reporting Service.
 		</p>
 		
 		
@@ -7556,5 +7586,8 @@ critical, acquire the NTLM hash). No mention of exploitation in the wild.
 
 
 </section>
+<!-- hitwebcounter Code START -->
+<a href="https://www.hitwebcounter.com" target="_blank">
+<img src="https://hitwebcounter.com/counter/counter.php?page=9752729&style=0010&nbdigits=5&type=ip&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a> 
 </body>
 </html>
