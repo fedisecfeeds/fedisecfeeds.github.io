@@ -21,6 +21,8 @@ jobs:
 
     - run: pip3 install -r requirements.txt
 
+    - run: rm index.html fedi_cve_feed.json
+
     - run: python3 index_data.py
       env:
         IFSX_AUTH_TOKEN: ${{ secrets.IFSX_AUTH_TOKEN }}
@@ -28,13 +30,14 @@ jobs:
 
     - name: Push new data to site
       run: | 
+
         git config --global user.name 'fedisecfeeds bot'
         git config --global user.email 'fedisecfeeds-bot@localhost'
         git config --global branch.autoSetupMerge always
         git config --global core.mergeoptions --no-edit
         git config --global pull.rebase false
 
-        git add *
+        git add index.html fedi_cve_feed.json
         git commit -m "site update"
         git pull
         git push 
