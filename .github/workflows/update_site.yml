@@ -9,8 +9,9 @@ jobs:
   update_site:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
-      contents: write
+      contents:
+        - read
+        - write
 
     steps:
     - uses: actions/checkout@v3
