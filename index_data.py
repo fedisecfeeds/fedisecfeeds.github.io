@@ -166,17 +166,18 @@ print(len(epss_data))
 print(epss_data.keys())
 print("done getting EPSS data: ", time.time()-lstart)
 
+
 print("getting CVE details from NVD...")
 lstart = time.time()
 cve_details = {}
 for cve in cve_posts:
 	cveapi_data = cveapi_cve_detail(cve)
+	# print(cveapi_data)
 	if cveapi_data != None:
 		try:
-			cve_details[cve] = {"cvss3":cveapi_data['impact']['baseMetricsV3']['cvssV3']['baseScore'], 
-							"severity":cveapi_data['impact']['baseMetricsV3']['cvssV3']['baseSeverity']}
+			cve_details[cve] = cveapi_data
 		except Exception as e:
-			print(f"WARN no valid cve info on {cve}")
+			print(f"WARN no valid cve info on {cve}:",e)
 
 
 # one big JSON blob for the page to render
@@ -188,8 +189,6 @@ for cve in cve_posts:
 	fedi_cve_feed[cve]['posts'] = []
 
 	for post in cve_posts[cve]:
-		author_acct = post['account']['acct']
-		author_url = post['account']['url']
 		# created_at
 		# convert content to markdown to make XSS-ing this website slightly harder 
 		content = "ERROR with html2text parsing"
@@ -197,16 +196,20 @@ for cve in cve_posts:
 			content = h2t.handle(post['content'])
 		except Exception as e:
 			print("ERROR with html2text parsing:", e)
-		fedi_cve_feed[cve]['posts'].append({'account':post['account'], 'content':content, 'created_at':post['created_at']})
+		fedi_cve_feed[cve]['posts'].append({'account':post['account'],'url':post['url'], 'content':content, 'created_at':post['created_at']})
+		fedi_cve_feed[cve]['cvss3'] = 0
+		fedi_cve_feed[cve]['severity'] = None
+
 		if cve in cve_details:
-			fedi_cve_feed[cve]['cvss3'] = cve_details[cve]['cvss3']
-			fedi_cve_feed[cve]['severity'] = cve_details[cve]['severity']
-		else:
-			fedi_cve_feed[cve]['cvss3'] = None
-			fedi_cve_feed[cve]['severity'] = None
-
-
-
+			if 'baseMetricV3' in cve_details[cve]['impact']:
+				fedi_cve_feed[cve]['cvss3'] = cve_details[cve]['impact']['baseMetricV3']['cvssV3']['baseScore']
+				fedi_cve_feed[cve]['severity'] = cve_details[cve]['impact']['baseMetricV3']['cvssV3']['baseSeverity']
+			if len(cve_details[cve]['cve']['description']['description_data']) > 0:
+				fedi_cve_feed[cve]['description'] = cve_details[cve]['cve']['description']['description_data'][0]['value']
+		fedi_cve_feed[cve]['epss'] = None
+		for d in epss_data['data']:
+			if d['cve'] == cve:
+				fedi_cve_feed[cve]['epss'] = float(d['epss']) * 100
 
 
 		# print(f"{cve} {author_acct} {content}")
