@@ -220,13 +220,13 @@ for cve in cve_posts:
 						fedi_cve_feed[cve]['cvss3'] = cve_details[cve]['impact']['baseMetricV3']['cvssV3']['baseScore']
 						fedi_cve_feed[cve]['severity'] = cve_details[cve]['impact']['baseMetricV3']['cvssV3']['baseSeverity']
 
-				elif 'metrics' in cve_details[cve]:
-					if 'cvssMetricV30' in cve_details[cve]['metrics']:
-						fedi_cve_feed[cve]['cvss3'] = cve_details[cve]['metrics']['cvssMetricV30'][0]['cvssData']['baseScore']
-						fedi_cve_feed[cve]['severity'] = cve_details[cve]['metrics']['cvssMetricV30'][0]['cvssData']['baseScore']
-					if 'cvssMetricV31' in cve_details[cve]['metrics']:
-						fedi_cve_feed[cve]['cvss3'] = cve_details[cve]['metrics']['cvssMetricV31'][0]['cvssData']['baseScore']
-						fedi_cve_feed[cve]['severity'] = cve_details[cve]['metrics']['cvssMetricV31'][0]['cvssData']['baseScore']
+				elif 'metrics' in cve_details[cve]['cve']:
+					if 'cvssMetricV30' in cve_details[cve]['cve']['metrics']:
+						fedi_cve_feed[cve]['cvss3'] = cve_details[cve]['cve']['metrics']['cvssMetricV30'][0]['cvssData']['baseScore']
+						fedi_cve_feed[cve]['severity'] = cve_details[cve]['cve']['metrics']['cvssMetricV30'][0]['cvssData']['baseSeverity']
+					if 'cvssMetricV31' in cve_details[cve]['cve']['metrics']:
+						fedi_cve_feed[cve]['cvss3'] = cve_details[cve['cve']]['metrics']['cvssMetricV31'][0]['cvssData']['baseScore']
+						fedi_cve_feed[cve]['severity'] = cve_details[cve]['cve']['metrics']['cvssMetricV31'][0]['cvssData']['baseSeverity']
 
 
 
