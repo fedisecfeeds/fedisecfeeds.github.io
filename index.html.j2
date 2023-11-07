@@ -4,36 +4,82 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>FediSecfeeds</title>
-	<script src="/md-block.js"></script>
-</head>
-
-<style type="text/css">
+	<script type="module" src="js/md-block.js"></script>
+	<!--
+	<script src="js/bootstrap.bundle.min.js"></script> 
+	<link href="css/bootstrap.min.css">
+	-->
+	<style type="text/css">
 	
 	body {
-		background-color: #3e5051;
+		background-color: #253233;
 		color: #02f99b;
+		font-family: monospace;
 	}
 
-</style>
+	a {
+		color: #07edf9;
+	}
+
+	section {
+	  
+	  margin:auto;
+	  display:grid;
+	  
+	  grid-template-columns:repeat(3, 1fr);
+	  grid-gap:0.5em;
+	  padding:0.5em;
+	  counter-reset:divs
+	  
+	}
+	div.cve {
+	  overflow: scroll;
+	  width: 30vw;
+	  height: 30vw;
+	  border: 4px solid #36c183;
+/*	  background:teal;*/
+	  counter-increment:divs;
+	  min-height:10vw;
+	  display:flex;
+/*	  align-items:center;*/
+/*	  justify-content:center;*/
+	}
+/*	div.cve:before {
+	  content:counter(divs)
+	}
+*/
+
+	</style>
+</head>
+
+
 
 <body>
-{% for cve in cve_posts %}
-	<section class=cve>
-		{% if  cve in cve_details %}
-		<h3 class={{ cve_details[cve]['severity'] }}>{{ cve }} ({{ cve_details[cve]['cvss3'] }})</h3>
+<section>
+{% for cve in data %}
+	<div class="cve">
+		{% if data[cve]['cvss3'] %}
+		<h3 class={{ data[cve]['severity'] }}>{{ cve }} ({{ data[cve]['cvss3'] }})</h3>
 		{% else %}
 		<h3 class="unknown">{{ cve }}</h3>
 		{% endif %}
-		<div class=posts>
-			{%  for post in  cve_posts[cve] %}
-				<a href={{post['account']['url']}}>{{ post['account']['acct'] }}</a>
+
+		<div class="posts">
+			{%  for post in  data[cve]['posts'] %}
+				<a href={{post['account']['url']}}>{{ post['account']['tag'] }}</a>
 				<code>{{post['created_at']}}</code>
+
 <md-block>
 {{ post['content'] }}
 </md-block>
+			<hr>
 			{%  endfor %}
+
 		</div>
-	</section>
+	</div>
+	
 {% endfor %}
+
+</section>
 </body>
 </html>

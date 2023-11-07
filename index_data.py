@@ -8,7 +8,7 @@ import datetime
 import random
 
 import html2text
-from jinja2 import Environment, FileSystemLoader
+
 
 # infosec.exchange
 IFSX_AUTH_TOKEN = os.getenv("IFSX_AUTH_TOKEN")
@@ -155,8 +155,6 @@ for cve in sorted(cve_counts, key=cve_counts.get, reverse=True): # most popular 
 
 h2t = html2text.HTML2Text()
 
-# have some kind of one big JSON data output for the page to render
-cve_data = {}
 
 print(f"total {len(cve_posts)} CVEs")
 
@@ -181,8 +179,14 @@ for cve in cve_posts:
 			print(f"WARN no valid cve info on {cve}")
 
 
+# one big JSON blob for the page to render
+fedi_cve_feed = {} #cve:...
+
 print("done getting CVE details:", time.time()-lstart)
 for cve in cve_posts:
+	fedi_cve_feed[cve] = {}
+	fedi_cve_feed[cve]['posts'] = []
+
 	for post in cve_posts[cve]:
 		author_acct = post['account']['acct']
 		author_url = post['account']['url']
@@ -193,15 +197,28 @@ for cve in cve_posts:
 			content = h2t.handle(post['content'])
 		except Exception as e:
 			print("ERROR with html2text parsing:", e)
+		fedi_cve_feed[cve]['posts'].append({'account':post['account'], 'content':content, 'created_at':post['created_at']})
+		if cve in cve_details:
+			fedi_cve_feed[cve]['cvss3'] = cve_details[cve]['cvss3']
+			fedi_cve_feed[cve]['severity'] = cve_details[cve]['severity']
+		else:
+			fedi_cve_feed[cve]['cvss3'] = None
+			fedi_cve_feed[cve]['severity'] = None
+
+
+
+
 
 		# print(f"{cve} {author_acct} {content}")
 
-# jinja2 rendering
-environment = Environment()
-template = environment.from_string(open("index.html.j2","r").read())
-html = template.render(cve_posts=cve_posts, cve_details=cve_details)
-with open('index.html', 'w+') as f:
-	f.write(html)
-print('done, total elapsed:', time.time() - start)
-# import code; code.interact(local=locals())
+
+
+outfile = 'fedi_cve_feed.json'
+with open(outfile, 'w+') as f:
+	json.dump(fedi_cve_feed, f, indent=2)
+
+from renderer import render
+render(outfile)
+
+print(f'done, written output to {outfile}. total elapsed:', time.time() - start)
 
