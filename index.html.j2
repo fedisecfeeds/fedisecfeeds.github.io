@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FediSecfeeds</title>
+	<script src="/md-block.js"></script>
+</head>
+
+<style type="text/css">
+	
+	body {
+		background-color: #3e5051;
+		color: #02f99b;
+	}
+
+</style>
+
+<body>
+{% for cve in cve_posts %}
+	<section class=cve>
+		{% if  cve in cve_details %}
+		<h3 class={{ cve_details[cve]['severity'] }}>{{ cve }} ({{ cve_details[cve]['cvss3'] }})</h3>
+		{% else %}
+		<h3 class="unknown">{{ cve }}</h3>
+		{% endif %}
+		<div class=posts>
+			{%  for post in  cve_posts[cve] %}
+				<a href={{post['account']['url']}}>{{ post['account']['acct'] }}</a>
+				<code>{{post['created_at']}}</code>
+<md-block>
+{{ post['content'] }}
+</md-block>
+			{%  endfor %}
+		</div>
+	</section>
+{% endfor %}
+</body>
+</html>
