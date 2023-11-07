@@ -12,42 +12,86 @@
 	<style type="text/css">
 	
 	body {
-		background-color: #253233;
-		color: #02f99b;
+		background-color: #1b2626;
+		color: #1ace8a;
 		font-family: monospace;
+		font-size: 12px;
 	}
 
 	a {
 		color: #07edf9;
 	}
 
-	section {
+	#cves {
 	  
-	  margin:auto;
-	  display:grid;
+	  margin: auto;
+	  display: grid;
 	  
+/*	  grid-template-columns:repeat(3, 1fr);*/
 	  grid-template-columns:repeat(3, 1fr);
 	  grid-gap:0.5em;
 	  padding:0.5em;
 	  counter-reset:divs
 	  
 	}
+
 	div.cve {
-	  overflow: scroll;
+	  
 	  width: 30vw;
 	  height: 30vw;
-	  border: 4px solid #36c183;
+	  border: 2px solid #36c183;
 /*	  background:teal;*/
-	  counter-increment:divs;
+/*	  counter-increment:divs;*/
 	  min-height:10vw;
 	  display:flex;
+	  flex-direction: column;
+	  padding: 0.3em;
 /*	  align-items:center;*/
 /*	  justify-content:center;*/
 	}
-/*	div.cve:before {
-	  content:counter(divs)
+
+	div.posts {
+		counter-increment:divs;
+		overflow: scroll;
+		color: white;
+		padding: 0.2em;
 	}
-*/
+
+	h3 {
+		margin-bottom: 0.1em;
+	}
+
+	h3.CRITICAL {
+		color: #ff0000;
+	}
+
+	h3.HIGH {
+		color: #c66253;
+	}
+
+	h3.MEDIUM {
+		color: #f9b60c;
+	}
+
+	h3.LOW {
+		color: #33db27;
+	}
+
+	span.cvss.UNKNOWN {
+		color: grey;
+	}
+
+	p.description {
+		font-size: 10px;
+		border-bottom: 1px solid white;
+		padding-bottom: 0.5em;
+		margin-top: 0.1em;
+		margin-bottom: 0.2em;
+	}
+
+	a.posturl {
+		color: white;
+	}
 
 	</style>
 </head>
@@ -55,20 +99,36 @@
 
 
 <body>
-<section>
+Updated at UTC {{ updated }}
+
+<section id=cves>
 {% for cve in data %}
 	<div class="cve">
-		{% if data[cve]['cvss3'] %}
-		<h3 class={{ data[cve]['severity'] }}>{{ cve }} ({{ data[cve]['cvss3'] }})</h3>
+
+			
+		{% if data[cve]['cvss3'] != None %}
+		<h3 class={{ data[cve]['severity'] }}>{{ cve }}<br>({{ data[cve]['cvss3'] }} {{ data[cve]['severity'] }})</h3>
 		{% else %}
-		<h3 class="unknown">{{ cve }}</h3>
+		<h3 class="UNKNOWN">{{ cve }} <span class="UNKNOWN cvss">(CVSS UNKNOWN)</span></h3>
 		{% endif %}
 
-		<div class="posts">
-			{%  for post in  data[cve]['posts'] %}
-				<a href={{post['account']['url']}}>{{ post['account']['tag'] }}</a>
-				<code>{{post['created_at']}}</code>
+		{% if data[cve]['epss'] != None %}
+		<h4 class=epss>EPSS: {{ data[cve]['epss'] }}%</h4>
+		{% endif %}
 
+		<p class=numposts>{{ data[cve]['posts']|length  }} posts</p>
+
+		<p class=description>
+		{{ data[cve]['description'] }}
+		</p>
+		
+		
+
+		<div class="posts">
+
+			{%  for post in data[cve]['posts'] %}
+				<a target=_blank href={{post['account']['url']}}>{{ post['account']['acct'] }}</a>
+				<a class=posturl target=_blank href={{post['url']}}>at {{post['created_at']}}</a>
 <md-block>
 {{ post['content'] }}
 </md-block>
