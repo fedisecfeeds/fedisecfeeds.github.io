@@ -1331,7 +1331,7 @@
     "cvss3": 0,
     "severity": null,
     "description": "Apache ActiveMQ is vulnerable to Remote Code Execution.The vulnerability may allow a remote attacker with network access to a broker to run arbitrary shell commands by manipulating serialized class types in the OpenWire protocol to cause the broker to instantiate\u00a0any class on the classpath.\u00a0\n\nUsers are recommended to upgrade to version 5.15.16, 5.16.7, 5.17.6, or 5.18.3, which fixes this issue.",
-    "epss": 1.5959999999999999
+    "epss": 1.0370000000000001
   },
   "CVE-2023-4966": {
     "posts": [
@@ -5475,7 +5475,7 @@
     "cvss3": 0,
     "severity": null,
     "description": "All versions of Confluence Data Center and Server are affected by this unexploited vulnerability. There is no impact to confidentiality as an attacker cannot exfiltrate any instance data.\n\nAtlassian Cloud sites are not affected by this vulnerability. If your Confluence site is accessed via an atlassian.net domain, it is hosted by Atlassian and is not vulnerable to this issue.",
-    "epss": 0.054
+    "epss": 0.061
   },
   "CVE-2017-9841": {
     "posts": [
@@ -5825,7 +5825,7 @@
     ],
     "cvss3": 0,
     "severity": null,
-    "epss": null
+    "epss": 0.045
   },
   "CVE-2023-38548": {
     "posts": [
@@ -5952,7 +5952,7 @@
     ],
     "cvss3": 0,
     "severity": null,
-    "epss": null
+    "epss": 0.043
   },
   "CVE-2022-26704": {
     "posts": [
