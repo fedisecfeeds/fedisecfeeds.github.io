@@ -85,12 +85,22 @@
 		font-size: 10px;
 		border-bottom: 1px solid white;
 		padding-bottom: 0.5em;
-		margin-top: 0.1em;
+		margin-top: 0.2em;
+/*		margin-bottom: 0.2em;*/
+	}
+
+	p {
 		margin-bottom: 0.2em;
+		margin-top: 0.2em;
 	}
 
 	a.posturl {
 		color: white;
+	}
+
+	h4.epss {
+		margin-top: 0.2em;
+		margin-bottom: 0.2em;
 	}
 
 	</style>
@@ -113,7 +123,7 @@ Updated at UTC {{ updated }}
 		{% endif %}
 
 		{% if data[cve]['epss'] != None %}
-		<h4 class=epss>EPSS: {{ data[cve]['epss'] }}%</h4>
+		<h4 class=epss>EPSS: {{ "%.2f"|format(data[cve]['epss']) }}%</h4>
 		{% endif %}
 
 		<p class=numposts>{{ data[cve]['posts']|length  }} posts</p>
