@@ -139,7 +139,7 @@
 
 
 <body>
-Updated at UTC 2023-11-09T14:08:30.801120
+Updated at UTC 2023-11-09T14:33:31.139998
 
 <p><a target=_blank href=https://github.com/fedisecfeeds/fedisecfeeds.github.io/blob/main/fedi_cve_feed.json>Access data as JSON</a></p>
 
@@ -153,7 +153,7 @@ Updated at UTC 2023-11-09T14:08:30.801120
 		
 
 		
-		<h4 class=epss>EPSS: 91.62%</h4>
+		<h4 class=epss>EPSS: 92.59%</h4>
 		
 
 		<p class=numposts>51 posts</p>
@@ -6200,7 +6200,7 @@ MP:CM> sa -lanipmi d
 		
 
 		
-		<h4 class=epss>EPSS: 0.50%</h4>
+		<h4 class=epss>EPSS: 16.32%</h4>
 		
 
 		<p class=numposts>2 posts</p>
@@ -7051,7 +7051,7 @@ in/support/advisory.PN1653.html)
 		
 
 		
-		<h4 class=epss>EPSS: 44.71%</h4>
+		<h4 class=epss>EPSS: 96.78%</h4>
 		
 
 		<p class=numposts>38 posts</p>
@@ -8216,10 +8216,10 @@ exploited.
 		
 
 		
-		<h4 class=epss>EPSS: 1.85%</h4>
+		<h4 class=epss>EPSS: 96.76%</h4>
 		
 
-		<p class=numposts>19 posts</p>
+		<p class=numposts>20 posts</p>
 
 		<p class=description>
 		All versions of Confluence Data Center and Server are affected by this unexploited vulnerability. There is no impact to confidentiality as an attacker cannot exfiltrate any instance data.
@@ -8531,6 +8531,40 @@ server-1311473907.html)
 </md-block>
 			<hr>
 			
+				<a target=_blank href=https://infosec.exchange/@Walker>Walker@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@Walker/111380956734153264>at 2023-11-09T14:02:04.000Z</a>
+<md-block>
+
+
+To help mitigate the [#atlassian](https://infosec.exchange/tags/atlassian)
+[#confluence](https://infosec.exchange/tags/confluence)
+[#ransomware](https://infosec.exchange/tags/ransomware) as a result of
+[#cve202322518](https://infosec.exchange/tags/cve202322518)
+
+1\. Dont run Jira or Confluence as root on the linux box. (Good advice for any
+web app).
+
+2\. Install the database on a different machine from the web server. Even if
+your web server gets compromised and encrypted the data in Jira will remain
+safe and recoverable.
+
+3\. Encrypt the database tables for added protection against data theft.
+
+4\. Keep multiple daily server backups / snapshots so you can recover from a
+clean backup.
+
+5\. Monitor outbound traffic for spikes realted to data exfiltration.
+
+6\. Monitor CPU for spikes that might represent encryption activity.
+
+MOST IMPORTANT - DONT RUN Atlassian products on the open Internet!
+
+[#incidentresponse](https://infosec.exchange/tags/incidentresponse)
+
+
+</md-block>
+			<hr>
+			
 				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
 				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111370451354408639>at 2023-11-07T17:30:25.000Z</a>
 <md-block>
@@ -8809,6 +8843,8 @@ server-1311473907.html)
 		
 
 		
+		<h4 class=epss>EPSS: 0.05%</h4>
+		
 
 		<p class=numposts>2 posts</p>
 
@@ -8958,7 +8994,7 @@ drivers.html)
 
 		
 
-		<p class=numposts>2 posts</p>
+		<p class=numposts>6 posts</p>
 
 		<p class=description>
 		
@@ -9022,6 +9058,74 @@ that distributes Clop ransomware. Microsoft notified SysAid about the issue
 [#activeexploitation](https://infosec.exchange/tags/activeexploitation) cc:
 [@AAKL](https://noc.social/@AAKL)
 [@avoidthehack](https://infosec.exchange/@avoidthehack)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@catc0n>catc0n</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@catc0n/111381054149535477>at 2023-11-09T14:26:50.827Z</a>
+<md-block>
+
+
+New [#SysAid](https://infosec.exchange/tags/SysAid) 0day
+([#CVE_2023_47246](https://infosec.exchange/tags/CVE_2023_47246)) exploited by
+Lace Tempest — good news is there aren't a ton of internet-facing servers.
+[https://www.rapid7.com/blog/post/2023/11/09/etr-cve-2023-47246-sysaid-zero-
+day-vulnerability-exploited-by-lace-
+tempest/](https://www.rapid7.com/blog/post/2023/11/09/etr-
+cve-2023-47246-sysaid-zero-day-vulnerability-exploited-by-lace-tempest/)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@StaceyHolleran>StaceyHolleran</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@StaceyHolleran/111381033516937259>at 2023-11-09T14:21:35.999Z</a>
+<md-block>
+
+
+What to know about
+[#CVE_2023_47246](https://infosec.exchange/tags/CVE_2023_47246) — a SysAid
+zero-day vulnerability exploited by Lace Tempest
+[https://www.rapid7.com/blog/post/2023/11/09/etr-cve-2023-47246-sysaid-zero-
+day-vulnerability-exploited-by-lace-
+tempest/](https://www.rapid7.com/blog/post/2023/11/09/etr-
+cve-2023-47246-sysaid-zero-day-vulnerability-exploited-by-lace-tempest/)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@catc0n>catc0n@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@catc0n/111381054149535477>at 2023-11-09T14:26:50.000Z</a>
+<md-block>
+
+
+New [#SysAid](https://infosec.exchange/tags/SysAid) 0day
+([#CVE_2023_47246](https://infosec.exchange/tags/CVE_2023_47246)) exploited by
+Lace Tempest — good news is there aren't a ton of internet-facing servers.
+[https://www.rapid7.com/blog/post/2023/11/09/etr-cve-2023-47246-sysaid-zero-
+day-vulnerability-exploited-by-lace-
+tempest/](https://www.rapid7.com/blog/post/2023/11/09/etr-
+cve-2023-47246-sysaid-zero-day-vulnerability-exploited-by-lace-tempest/)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@StaceyHolleran>StaceyHolleran@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@StaceyHolleran/111381033516937259>at 2023-11-09T14:21:35.000Z</a>
+<md-block>
+
+
+What to know about
+[#CVE_2023_47246](https://infosec.exchange/tags/CVE_2023_47246) — a SysAid
+zero-day vulnerability exploited by Lace Tempest
+[https://www.rapid7.com/blog/post/2023/11/09/etr-cve-2023-47246-sysaid-zero-
+day-vulnerability-exploited-by-lace-
+tempest/](https://www.rapid7.com/blog/post/2023/11/09/etr-
+cve-2023-47246-sysaid-zero-day-vulnerability-exploited-by-lace-tempest/)
 
 
 </md-block>
