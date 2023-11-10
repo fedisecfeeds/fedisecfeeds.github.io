@@ -139,7 +139,7 @@
 
 
 <body>
-Updated at UTC 2023-11-10T17:08:20.200286
+Updated at UTC 2023-11-10T17:33:41.577490
 
 <p><a target=_blank href=https://github.com/fedisecfeeds/fedisecfeeds.github.io/blob/main/fedi_cve_feed.json>Access data as JSON</a></p>
 
@@ -159,7 +159,9 @@ Updated at UTC 2023-11-10T17:08:20.200286
 		<p class=numposts>51 posts</p>
 
 		<p class=description>
-		Cisco is providing an update for the ongoing investigation into observed exploitation of the web UI feature in Cisco IOS XE Software. We are updating the list of fixed releases and adding the Software Checker. Our investigation has determined that the actors exploited two previously unknown issues. The attacker first exploited CVE-2023-20198 to gain initial access and issued a privilege 15 command to create a local user and password combination. This allowed the user to log in with normal user access. The attacker then exploited another component of the web UI feature, leveraging the new local user to elevate privilege to root and write the implant to the file system. Cisco has assigned CVE-2023-20273 to this issue. CVE-2023-20198 has been assigned a CVSS Score of 10.0. CVE-2023-20273 has been assigned a CVSS Score of 7.2. Both of these CVEs are being tracked by CSCwh87343.
+		Cisco is aware of active exploitation of a previously unknown vulnerability in the web UI feature of Cisco IOS XE Software when exposed to the internet or to untrusted networks. This vulnerability allows a remote, unauthenticated attacker to create an account on an affected system with privilege level 15 access. The attacker can then use that account to gain control of the affected system.
+ For steps to close the attack vector for this vulnerability, see the Recommendations section of this advisory 
+ Cisco will provide updates on the status of this investigation and when a software patch is available.
 		</p>
 		
 		
@@ -1896,1790 +1898,6 @@ maximum-10-severity-gives-full-network-control/>
 
 			
 		
-		<h3 class=CRITICAL>CVE-2023-46604<br>(9.8 CRITICAL)</h3>
-		
-
-		
-		<h4 class=epss>EPSS: 96.78%</h4>
-		
-
-		<p class=numposts>38 posts</p>
-
-		<p class=description>
-		Apache ActiveMQ is vulnerable to Remote Code Execution.The vulnerability may allow a remote attacker with network access to a broker to run arbitrary shell commands by manipulating serialized class types in the OpenWire protocol to cause the broker to instantiate any class on the classpath. 
-
-Users are recommended to upgrade to version 5.15.16, 5.16.7, 5.17.6, or 5.18.3, which fixes this issue.
-		</p>
-		
-		
-
-		<div class="posts">
-
-			
-				<a target=_blank href=https://mastodon.social/@jbzfn>jbzfn@mastodon.social</a>
-				<a class=posturl target=_blank href=https://mastodon.social/@jbzfn/111364729378497399>at 2023-11-06T17:15:14.000Z</a>
-<md-block>
-🔎 HelloKitty ransomware now exploiting Apache ActiveMQ flaw in attacks  
-➥ [@BleepingComputer](https://infosec.exchange/@BleepingComputer)
-
-「 The flaw, tracked CVE-2023-46604, is a critical severity (CVSS v3 score:
-10.0) RCE allowing attackers to execute arbitrary shell commands by exploiting
-the serialized class types in the OpenWire protocol 」
-
-[https://www.bleepingcomputer.com/news/security/hellokitty-ransomware-now-
-exploiting-apache-activemq-flaw-in-
-attacks/](https://www.bleepingcomputer.com/news/security/hellokitty-
-ransomware-now-exploiting-apache-activemq-flaw-in-attacks/)
-
-[#ActiveMQ](https://mastodon.social/tags/ActiveMQ)
-[#RCE](https://mastodon.social/tags/RCE)
-[#CVE202346604](https://mastodon.social/tags/CVE202346604)
-[#Ransomware](https://mastodon.social/tags/Ransomware)
-[#Cybersecurity](https://mastodon.social/tags/Cybersecurity)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111354519498262460>at 2023-11-04T21:58:44.182Z</a>
-<md-block>
-
-
- **Huntress** states that CVE-2023-46604 (CVSS: **10.0 critical** severity,
-disclosed 26 October 2023 by Apache, Proof of Concept available, added to
-CISA's KEV Catalog on 02 November) was being exploited as a Zero-Day since at
-least 10 October 2023. They provide IOC and additional information/technical
-details.  
-**Link:** [https://www.huntress.com/blog/critical-vulnerability-exploitation-
-of-apache-activemq-cve-2023-46604](https://www.huntress.com/blog/critical-
-vulnerability-exploitation-of-apache-activemq-cve-2023-46604)
-
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
-[#Apache](https://infosec.exchange/tags/Apache)
-[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
-[#eitw](https://infosec.exchange/tags/eitw)
-[#zeroday](https://infosec.exchange/tags/zeroday)
-[#CISA](https://infosec.exchange/tags/CISA)
-[#pocexploit](https://infosec.exchange/tags/pocexploit)
-[#threatintel](https://infosec.exchange/tags/threatintel)
-[#threathunting](https://infosec.exchange/tags/threathunting)
-[#IOC](https://infosec.exchange/tags/IOC)
-[#KEV](https://infosec.exchange/tags/KEV)
-[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
-[#RCE](https://infosec.exchange/tags/RCE)
-[#vulnerability](https://infosec.exchange/tags/vulnerability)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111347853242996565>at 2023-11-03T17:43:25.199Z</a>
-<md-block>
-
-
-[@ntkramer](https://infosec.exchange/@ntkramer) Rapid7 reported CVE-2023-46604
-exploitation on 01 November 2023, notably from HelloKitty ransomware actors,
-and provided indicators of compromise:
-[https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-exploitation-of-
-apache-activemq-
-cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
-exploitation-of-apache-activemq-cve-2023-46604/)
-
-CISA added CVE-2023-46604 to its Known Exploited Vulnerabilities (KEV) Catalog
-on 02 November 2023: [https://www.cisa.gov/news-events/alerts/2023/11/02/cisa-
-adds-one-known-exploited-vulnerability-catalog](https://www.cisa.gov/news-
-events/alerts/2023/11/02/cisa-adds-one-known-exploited-vulnerability-catalog)
-
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
-[#Apache](https://infosec.exchange/tags/Apache)
-[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
-[#IOC](https://infosec.exchange/tags/IOC)
-[#RCE](https://infosec.exchange/tags/RCE)
-[#vulnerability](https://infosec.exchange/tags/vulnerability)
-[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
-[#CISA](https://infosec.exchange/tags/CISA)
-[#KEV](https://infosec.exchange/tags/KEV)
-[#eitw](https://infosec.exchange/tags/eitw)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111341708158014276>at 2023-11-02T15:40:38.642Z</a>
-<md-block>
-
-
-CISA added CVE-2023-46604 (CVSS: **10.0 critical** severity, disclosed 26
-October 2023 by Apache) to the Known Exploited Vulnerabilities (KEV) Catalog.
-This is after the Netherlands NCSC and Rapid7 reported exploitation in the
-wild yesterday 01 November 2023. Rapid7 attributed the exploitation to
-'HelloKitty' (hellokittycat?) ransomware actors.  
-**Link:** [https://www.cisa.gov/news-events/alerts/2023/11/02/cisa-adds-one-
-known-exploited-vulnerability-catalog](https://www.cisa.gov/news-
-events/alerts/2023/11/02/cisa-adds-one-known-exploited-vulnerability-catalog)
-
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
-[#Apache](https://infosec.exchange/tags/Apache)
-[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
-[#IOC](https://infosec.exchange/tags/IOC)
-[#RCE](https://infosec.exchange/tags/RCE)
-[#vulnerability](https://infosec.exchange/tags/vulnerability)
-[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
-[#CISA](https://infosec.exchange/tags/CISA)
-[#KEV](https://infosec.exchange/tags/KEV)
-[#eitw](https://infosec.exchange/tags/eitw)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@H3liumb0y>H3liumb0y</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@H3liumb0y/111339332600587207>at 2023-11-02T05:36:30.512Z</a>
-<md-block>
-
-
-"⚠️ Critical RCE Alert: 3,000 Apache ActiveMQ Servers at Risk! ⚠️"
-
-Over 3,000 Apache ActiveMQ servers are exposed online, vulnerable to a
-critical RCE flaw (CVE-2023-46604, CVSS v3: 10.0). Immediate patching is urged
-to prevent potential data theft and network compromise. Stay vigilant! 🛡️💻
-
-Apache ActiveMQ is an open-source message broker for secure communication
-between clients and servers, supporting Java and various cross-language
-clients and protocols like AMQP, MQTT, OpenWire, and STOMP.
-
-The flaw in question is CVE-2023-46604, a critical severity (CVSS v3 score:
-10.0) RCE that allows attackers to execute arbitrary shell commands by
-exploiting class types in the OpenWire protocol.
-
-According to Apache's disclosure on October 27, 2023, this vulnerability
-affects the following Apache ActiveMQ and Legacy OpenWire Module versions:
-
-  * Versions before 5.18.3 in the 5.18.x series
-  * Versions before 5.17.6 in the 5.17.x series
-  * Versions before 5.16.7 in the 5.16.x series
-  * All versions before 5.15.16
-
-To address this issue, fixes have been released in versions 5.15.16, 5.16.7,
-5.17.6, and 5.18.3. It's recommended to upgrade to one of these versions to
-enhance your IT security.
-
-Tags: [#CyberSecurity](https://infosec.exchange/tags/CyberSecurity)
-[#RCE](https://infosec.exchange/tags/RCE)
-[#ApacheActiveMQ](https://infosec.exchange/tags/ApacheActiveMQ)
-[#Vulnerability](https://infosec.exchange/tags/Vulnerability)
-[#PatchNow](https://infosec.exchange/tags/PatchNow)
-[#InfoSec](https://infosec.exchange/tags/InfoSec)
-[#ServerSecurity](https://infosec.exchange/tags/ServerSecurity)
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604) 🚨🔐
-
-Source:
-[BleepingComputer](https://www.bleepingcomputer.com/news/security/3-000-apache-
-activemq-servers-vulnerable-to-rce-attacks-exposed-online/)
-
-Author: Bill Toulas
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://fosstodon.org/@frehi>frehi@fosstodon.org</a>
-				<a class=posturl target=_blank href=https://fosstodon.org/@frehi/111336971618156265>at 2023-11-01T19:36:04.000Z</a>
-<md-block>
-
-
-This is worrying. CVE-2023-46604 in ActiveMQ is being exploited in the wild,
-while [#Debian](https://fosstodon.org/tags/Debian) does not have a fixed
-package yet:
-
-[https://security-tracker.debian.org/tracker/CVE-2023-46604](https://security-
-tracker.debian.org/tracker/CVE-2023-46604)
-
-[#activemq](https://fosstodon.org/tags/activemq)
-[#cve202346604](https://fosstodon.org/tags/cve202346604)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@catc0n>catc0n</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@catc0n/111336835730646379>at 2023-11-01T19:01:31.301Z</a>
-<md-block>
-
-
-Rapid7 MDR has identified what appears to be exploitation of Apache
-[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604) in customer
-environments. The attacker behavior our team has observed includes attempts to
-deploy [#ransomware](https://infosec.exchange/tags/ransomware) on victim
-systems. [https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
-exploitation-of-apache-activemq-
-cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
-exploitation-of-apache-activemq-cve-2023-46604/)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111336781949612347>at 2023-11-01T18:47:50.668Z</a>
-<md-block>
-
-
- **Rapid7** identified suspected exploitation of CVE-2023-46604 (CVSS: **10.0
-critical** severity, disclosed 26 October 2023 by Apache). Rapid7 also
-included links to a Proof of Concept exploit, external technical details, and
-their own vulnerability analysis. They provided Indicators of Compromise.  
- **Link:** [https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
-exploitation-of-apache-activemq-
-cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
-exploitation-of-apache-activemq-cve-2023-46604/)
-
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
-[#Apache](https://infosec.exchange/tags/Apache)
-[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
-[#vulnerability](https://infosec.exchange/tags/vulnerability)
-[#eitw](https://infosec.exchange/tags/eitw)
-[#RCE](https://infosec.exchange/tags/RCE)
-[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
-[#IOC](https://infosec.exchange/tags/IOC)
-[#pocexploit](https://infosec.exchange/tags/pocexploit)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111336769862710877>at 2023-11-01T18:44:46.237Z</a>
-<md-block>
-
-
-[@BleepingComputer](https://infosec.exchange/@BleepingComputer) Hot off the
-press: "Beginning Friday, October 27, Rapid7 Managed Detection and Response
-(MDR) identified suspected exploitation of Apache ActiveMQ CVE-2023-46604 in
-two different customer environments."  
- **Link:** [https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
-exploitation-of-apache-activemq-
-cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
-exploitation-of-apache-activemq-cve-2023-46604/)
-
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
-[#Apache](https://infosec.exchange/tags/Apache)
-[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
-[#vulnerability](https://infosec.exchange/tags/vulnerability)
-[#eitw](https://infosec.exchange/tags/eitw)
-[#RCE](https://infosec.exchange/tags/RCE)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111336632423607345>at 2023-11-01T18:09:49.083Z</a>
-<md-block>
-
-
-[@BleepingComputer](https://infosec.exchange/@BleepingComputer) CVE-2023-46604
-(CVSS: 10.0 critical severity, disclosed 26 October 2023 by Apache)  
-Apache ActiveMQ is vulnerable to Remote Code Execution.The vulnerability may
-allow a remote attacker with network access to a broker to run arbitrary shell
-commands by manipulating serialized class types in the OpenWire protocol to
-cause the broker to instantiate any class on the classpath. Users are
-recommended to upgrade to version 5.15.16, 5.16.7, 5.17.6, or 5.18.3, which
-fixes this issue.
-
-The Netherlands' National Cyber Security Centrum (NCSC) states that Proof of
-Concept has been published publicly, and that they received a report from a
-trusted partner that the vulnerability has been actively and specifically
-exploited.
-[https://advisories.ncsc.nl/advisory?id=NCSC-2023-0561](https://advisories.ncsc.nl/advisory?id=NCSC-2023-0561)
-
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
-[#Apache](https://infosec.exchange/tags/Apache)
-[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
-[#vulnerability](https://infosec.exchange/tags/vulnerability)
-[#eitw](https://infosec.exchange/tags/eitw)
-[#RCE](https://infosec.exchange/tags/RCE)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://mastodon.social/@jbzfn>jbzfn@mastodon.social</a>
-				<a class=posturl target=_blank href=https://mastodon.social/@jbzfn/111364729378497399>at 2023-11-06T17:15:14.000Z</a>
-<md-block>
-
-
-🔎 HelloKitty ransomware now exploiting Apache ActiveMQ flaw in attacks  
-➥ [@BleepingComputer](https://infosec.exchange/@BleepingComputer)
-
-「 The flaw, tracked CVE-2023-46604, is a critical severity (CVSS v3 score:
-10.0) RCE allowing attackers to execute arbitrary shell commands by exploiting
-the serialized class types in the OpenWire protocol 」
-
-[https://www.bleepingcomputer.com/news/security/hellokitty-ransomware-now-
-exploiting-apache-activemq-flaw-in-
-attacks/](https://www.bleepingcomputer.com/news/security/hellokitty-
-ransomware-now-exploiting-apache-activemq-flaw-in-attacks/)
-
-[#ActiveMQ](https://mastodon.social/tags/ActiveMQ)
-[#RCE](https://mastodon.social/tags/RCE)
-[#CVE202346604](https://mastodon.social/tags/CVE202346604)
-[#Ransomware](https://mastodon.social/tags/Ransomware)
-[#Cybersecurity](https://mastodon.social/tags/Cybersecurity)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111354519498262460>at 2023-11-04T21:58:44.000Z</a>
-<md-block>
-
-
- **Huntress** states that CVE-2023-46604 (CVSS: **10.0 critical** severity,
-disclosed 26 October 2023 by Apache, Proof of Concept available, added to
-CISA's KEV Catalog on 02 November) was being exploited as a Zero-Day since at
-least 10 October 2023. They provide IOC and additional information/technical
-details.  
-**Link:** [https://www.huntress.com/blog/critical-vulnerability-exploitation-
-of-apache-activemq-cve-2023-46604](https://www.huntress.com/blog/critical-
-vulnerability-exploitation-of-apache-activemq-cve-2023-46604)
-
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
-[#Apache](https://infosec.exchange/tags/Apache)
-[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
-[#eitw](https://infosec.exchange/tags/eitw)
-[#zeroday](https://infosec.exchange/tags/zeroday)
-[#CISA](https://infosec.exchange/tags/CISA)
-[#pocexploit](https://infosec.exchange/tags/pocexploit)
-[#threatintel](https://infosec.exchange/tags/threatintel)
-[#threathunting](https://infosec.exchange/tags/threathunting)
-[#IOC](https://infosec.exchange/tags/IOC)
-[#KEV](https://infosec.exchange/tags/KEV)
-[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
-[#RCE](https://infosec.exchange/tags/RCE)
-[#vulnerability](https://infosec.exchange/tags/vulnerability)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111347853242996565>at 2023-11-03T17:43:25.000Z</a>
-<md-block>
-
-
-[@ntkramer](https://infosec.exchange/@ntkramer) Rapid7 reported CVE-2023-46604
-exploitation on 01 November 2023, notably from HelloKitty ransomware actors,
-and provided indicators of compromise:
-[https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-exploitation-of-
-apache-activemq-
-cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
-exploitation-of-apache-activemq-cve-2023-46604/)
-
-CISA added CVE-2023-46604 to its Known Exploited Vulnerabilities (KEV) Catalog
-on 02 November 2023: [https://www.cisa.gov/news-events/alerts/2023/11/02/cisa-
-adds-one-known-exploited-vulnerability-catalog](https://www.cisa.gov/news-
-events/alerts/2023/11/02/cisa-adds-one-known-exploited-vulnerability-catalog)
-
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
-[#Apache](https://infosec.exchange/tags/Apache)
-[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
-[#IOC](https://infosec.exchange/tags/IOC)
-[#RCE](https://infosec.exchange/tags/RCE)
-[#vulnerability](https://infosec.exchange/tags/vulnerability)
-[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
-[#CISA](https://infosec.exchange/tags/CISA)
-[#KEV](https://infosec.exchange/tags/KEV)
-[#eitw](https://infosec.exchange/tags/eitw)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111341708158014276>at 2023-11-02T15:40:38.000Z</a>
-<md-block>
-
-
-CISA added CVE-2023-46604 (CVSS: **10.0 critical** severity, disclosed 26
-October 2023 by Apache) to the Known Exploited Vulnerabilities (KEV) Catalog.
-This is after the Netherlands NCSC and Rapid7 reported exploitation in the
-wild yesterday 01 November 2023. Rapid7 attributed the exploitation to
-'HelloKitty' (hellokittycat?) ransomware actors.  
-**Link:** [https://www.cisa.gov/news-events/alerts/2023/11/02/cisa-adds-one-
-known-exploited-vulnerability-catalog](https://www.cisa.gov/news-
-events/alerts/2023/11/02/cisa-adds-one-known-exploited-vulnerability-catalog)
-
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
-[#Apache](https://infosec.exchange/tags/Apache)
-[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
-[#IOC](https://infosec.exchange/tags/IOC)
-[#RCE](https://infosec.exchange/tags/RCE)
-[#vulnerability](https://infosec.exchange/tags/vulnerability)
-[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
-[#CISA](https://infosec.exchange/tags/CISA)
-[#KEV](https://infosec.exchange/tags/KEV)
-[#eitw](https://infosec.exchange/tags/eitw)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@H3liumb0y>H3liumb0y@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@H3liumb0y/111339332600587207>at 2023-11-02T05:36:30.000Z</a>
-<md-block>
-
-
-"⚠️ Critical RCE Alert: 3,000 Apache ActiveMQ Servers at Risk! ⚠️"
-
-Over 3,000 Apache ActiveMQ servers are exposed online, vulnerable to a
-critical RCE flaw (CVE-2023-46604, CVSS v3: 10.0). Immediate patching is urged
-to prevent potential data theft and network compromise. Stay vigilant! 🛡️💻
-
-Apache ActiveMQ is an open-source message broker for secure communication
-between clients and servers, supporting Java and various cross-language
-clients and protocols like AMQP, MQTT, OpenWire, and STOMP.
-
-The flaw in question is CVE-2023-46604, a critical severity (CVSS v3 score:
-10.0) RCE that allows attackers to execute arbitrary shell commands by
-exploiting class types in the OpenWire protocol.
-
-According to Apache's disclosure on October 27, 2023, this vulnerability
-affects the following Apache ActiveMQ and Legacy OpenWire Module versions:
-
-  * Versions before 5.18.3 in the 5.18.x series
-  * Versions before 5.17.6 in the 5.17.x series
-  * Versions before 5.16.7 in the 5.16.x series
-  * All versions before 5.15.16
-
-To address this issue, fixes have been released in versions 5.15.16, 5.16.7,
-5.17.6, and 5.18.3. It's recommended to upgrade to one of these versions to
-enhance your IT security.
-
-Tags: [#CyberSecurity](https://infosec.exchange/tags/CyberSecurity)
-[#RCE](https://infosec.exchange/tags/RCE)
-[#ApacheActiveMQ](https://infosec.exchange/tags/ApacheActiveMQ)
-[#Vulnerability](https://infosec.exchange/tags/Vulnerability)
-[#PatchNow](https://infosec.exchange/tags/PatchNow)
-[#InfoSec](https://infosec.exchange/tags/InfoSec)
-[#ServerSecurity](https://infosec.exchange/tags/ServerSecurity)
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604) 🚨🔐
-
-Source:
-[BleepingComputer](https://www.bleepingcomputer.com/news/security/3-000-apache-
-activemq-servers-vulnerable-to-rce-attacks-exposed-online/)
-
-Author: Bill Toulas
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@catc0n>catc0n@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@catc0n/111336835730646379>at 2023-11-01T19:01:31.000Z</a>
-<md-block>
-
-
-Rapid7 MDR has identified what appears to be exploitation of Apache
-[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604) in customer
-environments. The attacker behavior our team has observed includes attempts to
-deploy [#ransomware](https://infosec.exchange/tags/ransomware) on victim
-systems. [https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
-exploitation-of-apache-activemq-
-cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
-exploitation-of-apache-activemq-cve-2023-46604/)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111336781949612347>at 2023-11-01T18:47:50.000Z</a>
-<md-block>
-
-
- **Rapid7** identified suspected exploitation of CVE-2023-46604 (CVSS: **10.0
-critical** severity, disclosed 26 October 2023 by Apache). Rapid7 also
-included links to a Proof of Concept exploit, external technical details, and
-their own vulnerability analysis. They provided Indicators of Compromise.  
- **Link:** [https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
-exploitation-of-apache-activemq-
-cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
-exploitation-of-apache-activemq-cve-2023-46604/)
-
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
-[#Apache](https://infosec.exchange/tags/Apache)
-[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
-[#vulnerability](https://infosec.exchange/tags/vulnerability)
-[#eitw](https://infosec.exchange/tags/eitw)
-[#RCE](https://infosec.exchange/tags/RCE)
-[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
-[#IOC](https://infosec.exchange/tags/IOC)
-[#pocexploit](https://infosec.exchange/tags/pocexploit)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111336769862710877>at 2023-11-01T18:44:46.000Z</a>
-<md-block>
-
-
-[@BleepingComputer](https://infosec.exchange/@BleepingComputer) Hot off the
-press: "Beginning Friday, October 27, Rapid7 Managed Detection and Response
-(MDR) identified suspected exploitation of Apache ActiveMQ CVE-2023-46604 in
-two different customer environments."  
- **Link:** [https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
-exploitation-of-apache-activemq-
-cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
-exploitation-of-apache-activemq-cve-2023-46604/)
-
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
-[#Apache](https://infosec.exchange/tags/Apache)
-[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
-[#vulnerability](https://infosec.exchange/tags/vulnerability)
-[#eitw](https://infosec.exchange/tags/eitw)
-[#RCE](https://infosec.exchange/tags/RCE)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111336632423607345>at 2023-11-01T18:09:49.000Z</a>
-<md-block>
-
-
-[@BleepingComputer](https://infosec.exchange/@BleepingComputer) CVE-2023-46604
-(CVSS: 10.0 critical severity, disclosed 26 October 2023 by Apache)  
-Apache ActiveMQ is vulnerable to Remote Code Execution.The vulnerability may
-allow a remote attacker with network access to a broker to run arbitrary shell
-commands by manipulating serialized class types in the OpenWire protocol to
-cause the broker to instantiate any class on the classpath. Users are
-recommended to upgrade to version 5.15.16, 5.16.7, 5.17.6, or 5.18.3, which
-fixes this issue.
-
-The Netherlands' National Cyber Security Centrum (NCSC) states that Proof of
-Concept has been published publicly, and that they received a report from a
-trusted partner that the vulnerability has been actively and specifically
-exploited.
-[https://advisories.ncsc.nl/advisory?id=NCSC-2023-0561](https://advisories.ncsc.nl/advisory?id=NCSC-2023-0561)
-
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
-[#Apache](https://infosec.exchange/tags/Apache)
-[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
-[#vulnerability](https://infosec.exchange/tags/vulnerability)
-[#eitw](https://infosec.exchange/tags/eitw)
-[#RCE](https://infosec.exchange/tags/RCE)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://mastodon.social/@jbzfn>jbzfn@mastodon.social</a>
-				<a class=posturl target=_blank href=https://mastodon.social/@jbzfn/111364729378497399>at 2023-11-06T17:15:14.000Z</a>
-<md-block>
-
-
-🔎 HelloKitty ransomware now exploiting Apache ActiveMQ flaw in attacks  
-➥ [@BleepingComputer](https://infosec.exchange/@BleepingComputer)
-
-「 The flaw, tracked CVE-2023-46604, is a critical severity (CVSS v3 score:
-10.0) RCE allowing attackers to execute arbitrary shell commands by exploiting
-the serialized class types in the OpenWire protocol 」
-
-[https://www.bleepingcomputer.com/news/security/hellokitty-ransomware-now-
-exploiting-apache-activemq-flaw-in-
-attacks/](https://www.bleepingcomputer.com/news/security/hellokitty-
-ransomware-now-exploiting-apache-activemq-flaw-in-attacks/)
-
-[#ActiveMQ](https://mastodon.social/tags/ActiveMQ)
-[#RCE](https://mastodon.social/tags/RCE)
-[#CVE202346604](https://mastodon.social/tags/CVE202346604)
-[#Ransomware](https://mastodon.social/tags/Ransomware)
-[#Cybersecurity](https://mastodon.social/tags/Cybersecurity)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111354519498262460>at 2023-11-04T21:58:44.182Z</a>
-<md-block>
-
-
- **Huntress** states that CVE-2023-46604 (CVSS: **10.0 critical** severity,
-disclosed 26 October 2023 by Apache, Proof of Concept available, added to
-CISA's KEV Catalog on 02 November) was being exploited as a Zero-Day since at
-least 10 October 2023. They provide IOC and additional information/technical
-details.  
-**Link:** [https://www.huntress.com/blog/critical-vulnerability-exploitation-
-of-apache-activemq-cve-2023-46604](https://www.huntress.com/blog/critical-
-vulnerability-exploitation-of-apache-activemq-cve-2023-46604)
-
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
-[#Apache](https://infosec.exchange/tags/Apache)
-[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
-[#eitw](https://infosec.exchange/tags/eitw)
-[#zeroday](https://infosec.exchange/tags/zeroday)
-[#CISA](https://infosec.exchange/tags/CISA)
-[#pocexploit](https://infosec.exchange/tags/pocexploit)
-[#threatintel](https://infosec.exchange/tags/threatintel)
-[#threathunting](https://infosec.exchange/tags/threathunting)
-[#IOC](https://infosec.exchange/tags/IOC)
-[#KEV](https://infosec.exchange/tags/KEV)
-[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
-[#RCE](https://infosec.exchange/tags/RCE)
-[#vulnerability](https://infosec.exchange/tags/vulnerability)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111347853242996565>at 2023-11-03T17:43:25.199Z</a>
-<md-block>
-
-
-[@ntkramer](https://infosec.exchange/@ntkramer) Rapid7 reported CVE-2023-46604
-exploitation on 01 November 2023, notably from HelloKitty ransomware actors,
-and provided indicators of compromise:
-[https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-exploitation-of-
-apache-activemq-
-cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
-exploitation-of-apache-activemq-cve-2023-46604/)
-
-CISA added CVE-2023-46604 to its Known Exploited Vulnerabilities (KEV) Catalog
-on 02 November 2023: [https://www.cisa.gov/news-events/alerts/2023/11/02/cisa-
-adds-one-known-exploited-vulnerability-catalog](https://www.cisa.gov/news-
-events/alerts/2023/11/02/cisa-adds-one-known-exploited-vulnerability-catalog)
-
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
-[#Apache](https://infosec.exchange/tags/Apache)
-[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
-[#IOC](https://infosec.exchange/tags/IOC)
-[#RCE](https://infosec.exchange/tags/RCE)
-[#vulnerability](https://infosec.exchange/tags/vulnerability)
-[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
-[#CISA](https://infosec.exchange/tags/CISA)
-[#KEV](https://infosec.exchange/tags/KEV)
-[#eitw](https://infosec.exchange/tags/eitw)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111341708158014276>at 2023-11-02T15:40:38.642Z</a>
-<md-block>
-
-
-CISA added CVE-2023-46604 (CVSS: **10.0 critical** severity, disclosed 26
-October 2023 by Apache) to the Known Exploited Vulnerabilities (KEV) Catalog.
-This is after the Netherlands NCSC and Rapid7 reported exploitation in the
-wild yesterday 01 November 2023. Rapid7 attributed the exploitation to
-'HelloKitty' (hellokittycat?) ransomware actors.  
-**Link:** [https://www.cisa.gov/news-events/alerts/2023/11/02/cisa-adds-one-
-known-exploited-vulnerability-catalog](https://www.cisa.gov/news-
-events/alerts/2023/11/02/cisa-adds-one-known-exploited-vulnerability-catalog)
-
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
-[#Apache](https://infosec.exchange/tags/Apache)
-[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
-[#IOC](https://infosec.exchange/tags/IOC)
-[#RCE](https://infosec.exchange/tags/RCE)
-[#vulnerability](https://infosec.exchange/tags/vulnerability)
-[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
-[#CISA](https://infosec.exchange/tags/CISA)
-[#KEV](https://infosec.exchange/tags/KEV)
-[#eitw](https://infosec.exchange/tags/eitw)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@H3liumb0y>H3liumb0y</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@H3liumb0y/111339332600587207>at 2023-11-02T05:36:30.512Z</a>
-<md-block>
-
-
-"⚠️ Critical RCE Alert: 3,000 Apache ActiveMQ Servers at Risk! ⚠️"
-
-Over 3,000 Apache ActiveMQ servers are exposed online, vulnerable to a
-critical RCE flaw (CVE-2023-46604, CVSS v3: 10.0). Immediate patching is urged
-to prevent potential data theft and network compromise. Stay vigilant! 🛡️💻
-
-Apache ActiveMQ is an open-source message broker for secure communication
-between clients and servers, supporting Java and various cross-language
-clients and protocols like AMQP, MQTT, OpenWire, and STOMP.
-
-The flaw in question is CVE-2023-46604, a critical severity (CVSS v3 score:
-10.0) RCE that allows attackers to execute arbitrary shell commands by
-exploiting class types in the OpenWire protocol.
-
-According to Apache's disclosure on October 27, 2023, this vulnerability
-affects the following Apache ActiveMQ and Legacy OpenWire Module versions:
-
-  * Versions before 5.18.3 in the 5.18.x series
-  * Versions before 5.17.6 in the 5.17.x series
-  * Versions before 5.16.7 in the 5.16.x series
-  * All versions before 5.15.16
-
-To address this issue, fixes have been released in versions 5.15.16, 5.16.7,
-5.17.6, and 5.18.3. It's recommended to upgrade to one of these versions to
-enhance your IT security.
-
-Tags: [#CyberSecurity](https://infosec.exchange/tags/CyberSecurity)
-[#RCE](https://infosec.exchange/tags/RCE)
-[#ApacheActiveMQ](https://infosec.exchange/tags/ApacheActiveMQ)
-[#Vulnerability](https://infosec.exchange/tags/Vulnerability)
-[#PatchNow](https://infosec.exchange/tags/PatchNow)
-[#InfoSec](https://infosec.exchange/tags/InfoSec)
-[#ServerSecurity](https://infosec.exchange/tags/ServerSecurity)
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604) 🚨🔐
-
-Source:
-[BleepingComputer](https://www.bleepingcomputer.com/news/security/3-000-apache-
-activemq-servers-vulnerable-to-rce-attacks-exposed-online/)
-
-Author: Bill Toulas
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://fosstodon.org/@frehi>frehi@fosstodon.org</a>
-				<a class=posturl target=_blank href=https://fosstodon.org/@frehi/111336971618156265>at 2023-11-01T19:36:04.000Z</a>
-<md-block>
-
-
-This is worrying. CVE-2023-46604 in ActiveMQ is being exploited in the wild,
-while [#Debian](https://fosstodon.org/tags/Debian) does not have a fixed
-package yet:
-
-[https://security-tracker.debian.org/tracker/CVE-2023-46604](https://security-
-tracker.debian.org/tracker/CVE-2023-46604)
-
-[#activemq](https://fosstodon.org/tags/activemq)
-[#cve202346604](https://fosstodon.org/tags/cve202346604)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@catc0n>catc0n</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@catc0n/111336835730646379>at 2023-11-01T19:01:31.301Z</a>
-<md-block>
-
-
-Rapid7 MDR has identified what appears to be exploitation of Apache
-[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604) in customer
-environments. The attacker behavior our team has observed includes attempts to
-deploy [#ransomware](https://infosec.exchange/tags/ransomware) on victim
-systems. [https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
-exploitation-of-apache-activemq-
-cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
-exploitation-of-apache-activemq-cve-2023-46604/)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111336781949612347>at 2023-11-01T18:47:50.668Z</a>
-<md-block>
-
-
- **Rapid7** identified suspected exploitation of CVE-2023-46604 (CVSS: **10.0
-critical** severity, disclosed 26 October 2023 by Apache). Rapid7 also
-included links to a Proof of Concept exploit, external technical details, and
-their own vulnerability analysis. They provided Indicators of Compromise.  
- **Link:** [https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
-exploitation-of-apache-activemq-
-cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
-exploitation-of-apache-activemq-cve-2023-46604/)
-
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
-[#Apache](https://infosec.exchange/tags/Apache)
-[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
-[#vulnerability](https://infosec.exchange/tags/vulnerability)
-[#eitw](https://infosec.exchange/tags/eitw)
-[#RCE](https://infosec.exchange/tags/RCE)
-[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
-[#IOC](https://infosec.exchange/tags/IOC)
-[#pocexploit](https://infosec.exchange/tags/pocexploit)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111336769862710877>at 2023-11-01T18:44:46.237Z</a>
-<md-block>
-
-
-[@BleepingComputer](https://infosec.exchange/@BleepingComputer) Hot off the
-press: "Beginning Friday, October 27, Rapid7 Managed Detection and Response
-(MDR) identified suspected exploitation of Apache ActiveMQ CVE-2023-46604 in
-two different customer environments."  
- **Link:** [https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
-exploitation-of-apache-activemq-
-cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
-exploitation-of-apache-activemq-cve-2023-46604/)
-
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
-[#Apache](https://infosec.exchange/tags/Apache)
-[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
-[#vulnerability](https://infosec.exchange/tags/vulnerability)
-[#eitw](https://infosec.exchange/tags/eitw)
-[#RCE](https://infosec.exchange/tags/RCE)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111336632423607345>at 2023-11-01T18:09:49.083Z</a>
-<md-block>
-
-
-[@BleepingComputer](https://infosec.exchange/@BleepingComputer) CVE-2023-46604
-(CVSS: 10.0 critical severity, disclosed 26 October 2023 by Apache)  
-Apache ActiveMQ is vulnerable to Remote Code Execution.The vulnerability may
-allow a remote attacker with network access to a broker to run arbitrary shell
-commands by manipulating serialized class types in the OpenWire protocol to
-cause the broker to instantiate any class on the classpath. Users are
-recommended to upgrade to version 5.15.16, 5.16.7, 5.17.6, or 5.18.3, which
-fixes this issue.
-
-The Netherlands' National Cyber Security Centrum (NCSC) states that Proof of
-Concept has been published publicly, and that they received a report from a
-trusted partner that the vulnerability has been actively and specifically
-exploited.
-[https://advisories.ncsc.nl/advisory?id=NCSC-2023-0561](https://advisories.ncsc.nl/advisory?id=NCSC-2023-0561)
-
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
-[#Apache](https://infosec.exchange/tags/Apache)
-[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
-[#vulnerability](https://infosec.exchange/tags/vulnerability)
-[#eitw](https://infosec.exchange/tags/eitw)
-[#RCE](https://infosec.exchange/tags/RCE)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://mastodon.social/@jbzfn>jbzfn@mastodon.social</a>
-				<a class=posturl target=_blank href=https://mastodon.social/@jbzfn/111364729378497399>at 2023-11-06T17:15:14.000Z</a>
-<md-block>
-
-
-🔎 HelloKitty ransomware now exploiting Apache ActiveMQ flaw in attacks  
-➥ [@BleepingComputer](https://infosec.exchange/@BleepingComputer)
-
-「 The flaw, tracked CVE-2023-46604, is a critical severity (CVSS v3 score:
-10.0) RCE allowing attackers to execute arbitrary shell commands by exploiting
-the serialized class types in the OpenWire protocol 」
-
-[https://www.bleepingcomputer.com/news/security/hellokitty-ransomware-now-
-exploiting-apache-activemq-flaw-in-
-attacks/](https://www.bleepingcomputer.com/news/security/hellokitty-
-ransomware-now-exploiting-apache-activemq-flaw-in-attacks/)
-
-[#ActiveMQ](https://mastodon.social/tags/ActiveMQ)
-[#RCE](https://mastodon.social/tags/RCE)
-[#CVE202346604](https://mastodon.social/tags/CVE202346604)
-[#Ransomware](https://mastodon.social/tags/Ransomware)
-[#Cybersecurity](https://mastodon.social/tags/Cybersecurity)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111354519498262460>at 2023-11-04T21:58:44.000Z</a>
-<md-block>
-
-
- **Huntress** states that CVE-2023-46604 (CVSS: **10.0 critical** severity,
-disclosed 26 October 2023 by Apache, Proof of Concept available, added to
-CISA's KEV Catalog on 02 November) was being exploited as a Zero-Day since at
-least 10 October 2023. They provide IOC and additional information/technical
-details.  
-**Link:** [https://www.huntress.com/blog/critical-vulnerability-exploitation-
-of-apache-activemq-cve-2023-46604](https://www.huntress.com/blog/critical-
-vulnerability-exploitation-of-apache-activemq-cve-2023-46604)
-
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
-[#Apache](https://infosec.exchange/tags/Apache)
-[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
-[#eitw](https://infosec.exchange/tags/eitw)
-[#zeroday](https://infosec.exchange/tags/zeroday)
-[#CISA](https://infosec.exchange/tags/CISA)
-[#pocexploit](https://infosec.exchange/tags/pocexploit)
-[#threatintel](https://infosec.exchange/tags/threatintel)
-[#threathunting](https://infosec.exchange/tags/threathunting)
-[#IOC](https://infosec.exchange/tags/IOC)
-[#KEV](https://infosec.exchange/tags/KEV)
-[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
-[#RCE](https://infosec.exchange/tags/RCE)
-[#vulnerability](https://infosec.exchange/tags/vulnerability)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111347853242996565>at 2023-11-03T17:43:25.000Z</a>
-<md-block>
-
-
-[@ntkramer](https://infosec.exchange/@ntkramer) Rapid7 reported CVE-2023-46604
-exploitation on 01 November 2023, notably from HelloKitty ransomware actors,
-and provided indicators of compromise:
-[https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-exploitation-of-
-apache-activemq-
-cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
-exploitation-of-apache-activemq-cve-2023-46604/)
-
-CISA added CVE-2023-46604 to its Known Exploited Vulnerabilities (KEV) Catalog
-on 02 November 2023: [https://www.cisa.gov/news-events/alerts/2023/11/02/cisa-
-adds-one-known-exploited-vulnerability-catalog](https://www.cisa.gov/news-
-events/alerts/2023/11/02/cisa-adds-one-known-exploited-vulnerability-catalog)
-
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
-[#Apache](https://infosec.exchange/tags/Apache)
-[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
-[#IOC](https://infosec.exchange/tags/IOC)
-[#RCE](https://infosec.exchange/tags/RCE)
-[#vulnerability](https://infosec.exchange/tags/vulnerability)
-[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
-[#CISA](https://infosec.exchange/tags/CISA)
-[#KEV](https://infosec.exchange/tags/KEV)
-[#eitw](https://infosec.exchange/tags/eitw)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111341708158014276>at 2023-11-02T15:40:38.000Z</a>
-<md-block>
-
-
-CISA added CVE-2023-46604 (CVSS: **10.0 critical** severity, disclosed 26
-October 2023 by Apache) to the Known Exploited Vulnerabilities (KEV) Catalog.
-This is after the Netherlands NCSC and Rapid7 reported exploitation in the
-wild yesterday 01 November 2023. Rapid7 attributed the exploitation to
-'HelloKitty' (hellokittycat?) ransomware actors.  
-**Link:** [https://www.cisa.gov/news-events/alerts/2023/11/02/cisa-adds-one-
-known-exploited-vulnerability-catalog](https://www.cisa.gov/news-
-events/alerts/2023/11/02/cisa-adds-one-known-exploited-vulnerability-catalog)
-
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
-[#Apache](https://infosec.exchange/tags/Apache)
-[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
-[#IOC](https://infosec.exchange/tags/IOC)
-[#RCE](https://infosec.exchange/tags/RCE)
-[#vulnerability](https://infosec.exchange/tags/vulnerability)
-[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
-[#CISA](https://infosec.exchange/tags/CISA)
-[#KEV](https://infosec.exchange/tags/KEV)
-[#eitw](https://infosec.exchange/tags/eitw)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@H3liumb0y>H3liumb0y@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@H3liumb0y/111339332600587207>at 2023-11-02T05:36:30.000Z</a>
-<md-block>
-
-
-"⚠️ Critical RCE Alert: 3,000 Apache ActiveMQ Servers at Risk! ⚠️"
-
-Over 3,000 Apache ActiveMQ servers are exposed online, vulnerable to a
-critical RCE flaw (CVE-2023-46604, CVSS v3: 10.0). Immediate patching is urged
-to prevent potential data theft and network compromise. Stay vigilant! 🛡️💻
-
-Apache ActiveMQ is an open-source message broker for secure communication
-between clients and servers, supporting Java and various cross-language
-clients and protocols like AMQP, MQTT, OpenWire, and STOMP.
-
-The flaw in question is CVE-2023-46604, a critical severity (CVSS v3 score:
-10.0) RCE that allows attackers to execute arbitrary shell commands by
-exploiting class types in the OpenWire protocol.
-
-According to Apache's disclosure on October 27, 2023, this vulnerability
-affects the following Apache ActiveMQ and Legacy OpenWire Module versions:
-
-  * Versions before 5.18.3 in the 5.18.x series
-  * Versions before 5.17.6 in the 5.17.x series
-  * Versions before 5.16.7 in the 5.16.x series
-  * All versions before 5.15.16
-
-To address this issue, fixes have been released in versions 5.15.16, 5.16.7,
-5.17.6, and 5.18.3. It's recommended to upgrade to one of these versions to
-enhance your IT security.
-
-Tags: [#CyberSecurity](https://infosec.exchange/tags/CyberSecurity)
-[#RCE](https://infosec.exchange/tags/RCE)
-[#ApacheActiveMQ](https://infosec.exchange/tags/ApacheActiveMQ)
-[#Vulnerability](https://infosec.exchange/tags/Vulnerability)
-[#PatchNow](https://infosec.exchange/tags/PatchNow)
-[#InfoSec](https://infosec.exchange/tags/InfoSec)
-[#ServerSecurity](https://infosec.exchange/tags/ServerSecurity)
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604) 🚨🔐
-
-Source:
-[BleepingComputer](https://www.bleepingcomputer.com/news/security/3-000-apache-
-activemq-servers-vulnerable-to-rce-attacks-exposed-online/)
-
-Author: Bill Toulas
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@catc0n>catc0n@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@catc0n/111336835730646379>at 2023-11-01T19:01:31.000Z</a>
-<md-block>
-
-
-Rapid7 MDR has identified what appears to be exploitation of Apache
-[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604) in customer
-environments. The attacker behavior our team has observed includes attempts to
-deploy [#ransomware](https://infosec.exchange/tags/ransomware) on victim
-systems. [https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
-exploitation-of-apache-activemq-
-cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
-exploitation-of-apache-activemq-cve-2023-46604/)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111336781949612347>at 2023-11-01T18:47:50.000Z</a>
-<md-block>
-
-
- **Rapid7** identified suspected exploitation of CVE-2023-46604 (CVSS: **10.0
-critical** severity, disclosed 26 October 2023 by Apache). Rapid7 also
-included links to a Proof of Concept exploit, external technical details, and
-their own vulnerability analysis. They provided Indicators of Compromise.  
- **Link:** [https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
-exploitation-of-apache-activemq-
-cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
-exploitation-of-apache-activemq-cve-2023-46604/)
-
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
-[#Apache](https://infosec.exchange/tags/Apache)
-[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
-[#vulnerability](https://infosec.exchange/tags/vulnerability)
-[#eitw](https://infosec.exchange/tags/eitw)
-[#RCE](https://infosec.exchange/tags/RCE)
-[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
-[#IOC](https://infosec.exchange/tags/IOC)
-[#pocexploit](https://infosec.exchange/tags/pocexploit)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111336769862710877>at 2023-11-01T18:44:46.000Z</a>
-<md-block>
-
-
-[@BleepingComputer](https://infosec.exchange/@BleepingComputer) Hot off the
-press: "Beginning Friday, October 27, Rapid7 Managed Detection and Response
-(MDR) identified suspected exploitation of Apache ActiveMQ CVE-2023-46604 in
-two different customer environments."  
- **Link:** [https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
-exploitation-of-apache-activemq-
-cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
-exploitation-of-apache-activemq-cve-2023-46604/)
-
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
-[#Apache](https://infosec.exchange/tags/Apache)
-[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
-[#vulnerability](https://infosec.exchange/tags/vulnerability)
-[#eitw](https://infosec.exchange/tags/eitw)
-[#RCE](https://infosec.exchange/tags/RCE)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111336632423607345>at 2023-11-01T18:09:49.000Z</a>
-<md-block>
-
-
-[@BleepingComputer](https://infosec.exchange/@BleepingComputer) CVE-2023-46604
-(CVSS: 10.0 critical severity, disclosed 26 October 2023 by Apache)  
-Apache ActiveMQ is vulnerable to Remote Code Execution.The vulnerability may
-allow a remote attacker with network access to a broker to run arbitrary shell
-commands by manipulating serialized class types in the OpenWire protocol to
-cause the broker to instantiate any class on the classpath. Users are
-recommended to upgrade to version 5.15.16, 5.16.7, 5.17.6, or 5.18.3, which
-fixes this issue.
-
-The Netherlands' National Cyber Security Centrum (NCSC) states that Proof of
-Concept has been published publicly, and that they received a report from a
-trusted partner that the vulnerability has been actively and specifically
-exploited.
-[https://advisories.ncsc.nl/advisory?id=NCSC-2023-0561](https://advisories.ncsc.nl/advisory?id=NCSC-2023-0561)
-
-[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
-[#Apache](https://infosec.exchange/tags/Apache)
-[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
-[#vulnerability](https://infosec.exchange/tags/vulnerability)
-[#eitw](https://infosec.exchange/tags/eitw)
-[#RCE](https://infosec.exchange/tags/RCE)
-
-
-</md-block>
-			<hr>
-			
-
-		</div>
-	</div>
-	
-
-	<div class="cve">
-
-			
-		
-		<h3 class=CRITICAL>CVE-2023-22518<br>(9.8 CRITICAL)</h3>
-		
-
-		
-		<h4 class=epss>EPSS: 96.76%</h4>
-		
-
-		<p class=numposts>20 posts</p>
-
-		<p class=description>
-		All versions of Confluence Data Center and Server are affected by this unexploited vulnerability. This Improper Authorization vulnerability allows an unauthenticated attacker to reset Confluence and create a Confluence instance administrator account. Using this account, an attacker can then perform all administrative actions that are available to Confluence instance administrator leading to - but not limited to - full loss of confidentiality, integrity and availability. 
-
-Atlassian Cloud sites are not affected by this vulnerability. If your Confluence site is accessed via an atlassian.net domain, it is hosted by Atlassian and is not vulnerable to this issue.
-		</p>
-		
-		
-
-		<div class="posts">
-
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111386183179258231>at 2023-11-10T12:11:13.610Z</a>
-<md-block>
-
-
- **Trend Micro** also observed Atlassian Confluence CVE-2023-22518
-exploitation leading to Cerber ransomware. They provide an infection chain and
-scattered IOC.  
- **Link:** [https://www.trendmicro.com/en_us/research/23/k/cerber-ransomware-
-exploits-
-cve-2023-22518.html](https://www.trendmicro.com/en_us/research/23/k/cerber-
-ransomware-exploits-cve-2023-22518.html)
-
-[#AtlassianConfluence](https://infosec.exchange/tags/AtlassianConfluence)
-[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
-[#Cerber](https://infosec.exchange/tags/Cerber)
-[#ransomware](https://infosec.exchange/tags/ransomware)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@Walker>Walker</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@Walker/111380956734153264>at 2023-11-09T14:02:04.386Z</a>
-<md-block>
-
-
-To help mitigate the [#atlassian](https://infosec.exchange/tags/atlassian)
-[#confluence](https://infosec.exchange/tags/confluence)
-[#ransomware](https://infosec.exchange/tags/ransomware) as a result of
-[#cve202322518](https://infosec.exchange/tags/cve202322518)
-
-1\. Dont run Jira or Confluence as root on the linux box. (Good advice for any
-web app).
-
-2\. Install the database on a different machine from the web server. Even if
-your web server gets compromised and encrypted the data in Jira will remain
-safe and recoverable.
-
-3\. Encrypt the database tables for added protection against data theft.
-
-4\. Keep multiple daily server backups / snapshots so you can recover from a
-clean backup.
-
-5\. Monitor outbound traffic for spikes realted to data exfiltration.
-
-6\. Monitor CPU for spikes that might represent encryption activity.
-
-MOST IMPORTANT - DONT RUN Atlassian products on the open Internet!
-
-[#incidentresponse](https://infosec.exchange/tags/incidentresponse)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111370451354408639>at 2023-11-07T17:30:25.013Z</a>
-<md-block>
-
-
-A heavy Confluence news day: **Huntress** can also confirm active exploitation
-of Atlassian Confluence Data Center and Confluence Server (CVE-2023-22518)
-starting on November 3. Huntress was able to identify exploitation shortly
-after patch release due to adversary reliance on common post-exploitation
-behaviors. IOC and PowerShell commands.  
- **Link:** [https://www.huntress.com/blog/confluence-to-cerber-exploitation-
-of-cve-2023-22518-for-ransomware-
-deployment](https://www.huntress.com/blog/confluence-to-cerber-exploitation-
-of-cve-2023-22518-for-ransomware-deployment)
-
-[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
-[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
-[#Atlassian](https://infosec.exchange/tags/Atlassian)
-[#Confluence](https://infosec.exchange/tags/Confluence)
-[#zeroday](https://infosec.exchange/tags/zeroday)
-[#IOC](https://infosec.exchange/tags/IOC)
-[#KEV](https://infosec.exchange/tags/KEV)
-[#pocexploit](https://infosec.exchange/tags/pocexploit)
-[#ransomware](https://infosec.exchange/tags/ransomware)
-[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
-[#CISA](https://infosec.exchange/tags/CISA)
-[#China](https://infosec.exchange/tags/China)
-[#ransomware](https://infosec.exchange/tags/ransomware)
-[#Cerber](https://infosec.exchange/tags/Cerber)
-[#eitw](https://infosec.exchange/tags/eitw)
-[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111370187877035787>at 2023-11-07T16:23:24.667Z</a>
-<md-block>
-
-
- **CISA** adds CVE-2023-22518 to its Known Exploited Vulnerabilities (KEV)
-Catalog. First disclosed 30 October 2023 by Atlassian, its CVSS score changed
-from 9.1 critical severity to 10.0 due to changed scope. Proof of Concept and
-technical details are available, and it's been observed exploited in
-ransomware attacks by Rapid7.  
- **Link:** [https://www.cisa.gov/news-events/alerts/2023/11/07/cisa-adds-one-
-known-exploited-vulnerability-catalog](https://www.cisa.gov/news-
-events/alerts/2023/11/07/cisa-adds-one-known-exploited-vulnerability-catalog)
-
-[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
-[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
-[#Atlassian](https://infosec.exchange/tags/Atlassian)
-[#Confluence](https://infosec.exchange/tags/Confluence)
-[#zeroday](https://infosec.exchange/tags/zeroday)
-[#IOC](https://infosec.exchange/tags/IOC)
-[#KEV](https://infosec.exchange/tags/KEV)
-[#pocexploit](https://infosec.exchange/tags/pocexploit)
-[#ransomware](https://infosec.exchange/tags/ransomware)
-[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
-[#CISA](https://infosec.exchange/tags/CISA)
-[#China](https://infosec.exchange/tags/China)
-[#ransomware](https://infosec.exchange/tags/ransomware)
-[#Cerber](https://infosec.exchange/tags/Cerber)
-[#eitw](https://infosec.exchange/tags/eitw)
-[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111370148279972148>at 2023-11-07T16:13:20.464Z</a>
-<md-block>
-
-
-In case you missed it (because I had), **Atlassian** updated their security
-advisory on CVE-2023-22518: _" we observed several active exploits and reports
-of threat actors using ransomware. We have escalated CVE-2023-22518 from CVSS
-9.1 to 10, the highest critical rating, due to the change in the scope of the
-attack."_ CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
- **Link:** [https://confluence.atlassian.com/security/cve-2023-22518-improper-
-authorization-vulnerability-in-confluence-data-center-and-
-server-1311473907.html](https://confluence.atlassian.com/security/cve-2023-22518-improper-
-authorization-vulnerability-in-confluence-data-center-and-
-server-1311473907.html)
-
-[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
-[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
-[#Atlassian](https://infosec.exchange/tags/Atlassian)
-[#Confluence](https://infosec.exchange/tags/Confluence)
-[#zeroday](https://infosec.exchange/tags/zeroday)
-[#IOC](https://infosec.exchange/tags/IOC)
-[#KEV](https://infosec.exchange/tags/KEV)
-[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
-[#CISA](https://infosec.exchange/tags/CISA)
-[#China](https://infosec.exchange/tags/China)
-[#ransomware](https://infosec.exchange/tags/ransomware)
-[#Cerber](https://infosec.exchange/tags/Cerber)
-[#eitw](https://infosec.exchange/tags/eitw)
-[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@H3liumb0y>H3liumb0y</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@H3liumb0y/111368299939142474>at 2023-11-07T08:23:17.021Z</a>
-<md-block>
-
-
-Atlassian has raised the severity of CVE-2023-22518 from CVSS 9.1 to 🔟, the
-highest critical rating, due to a change in the attack's scope. This critical
-security advisory concerns CVE-2023-22518, which highlights an improper
-authorization vulnerability in Confluence Data Center and Server. The
-vulnerability, now rated at a CVSS score of 🔟, the highest critical rating,
-enables an unauthenticated attacker to reset Confluence and create an
-administrator account, potentially leading to a complete data compromise.
-Atlassian has detected active exploitation and strongly recommends immediate
-application of the provided fixes. If immediate patching is not possible,
-temporary mitigations such as network restrictions and specific configuration
-changes can be implemented. It is imperative for customers to thoroughly
-review their threat detection systems for any signs of compromise and follow
-their security incident response plan if any evidence of a breach is
-discovered. 🛡️
-
-Source: [https://confluence.atlassian.com/security/cve-2023-22518-improper-
-authorization-vulnerability-in-confluence-data-center-and-
-server-1311473907.html](https://confluence.atlassian.com/security/cve-2023-22518-improper-
-authorization-vulnerability-in-confluence-data-center-and-
-server-1311473907.html)
-
-[#Atlassian](https://infosec.exchange/tags/Atlassian)
-[#SecurityUpdate](https://infosec.exchange/tags/SecurityUpdate)
-[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111364446201072638>at 2023-11-06T16:03:13.647Z</a>
-<md-block>
-
-
- **Rapid7** is observing exploitation of Atlassian Confluence in multiple
-customer environments, with some of the exploits targeting CVE-2023-22518 and
-even CVE-2023-22515, potentially leading to ransomware deployment. Edit: Post-
-exploitation behavior and IOC included.
-
-CVE-2023-22515 is an actively exploited broken access control zero-day
-vulnerability that was disclosed on 04 October 2023 with a CVSS score of
-**10.0 critical** , that Microsoft observed being exploited by Chinese state
-hackers.  
-**Link:** [https://www.rapid7.com/blog/post/2023/11/06/etr-rapid7-observed-
-exploitation-of-atlassian-confluence-
-cve-2023-22518/](https://www.rapid7.com/blog/post/2023/11/06/etr-
-rapid7-observed-exploitation-of-atlassian-confluence-cve-2023-22518/)
-
-[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
-[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
-[#Atlassian](https://infosec.exchange/tags/Atlassian)
-[#Confluence](https://infosec.exchange/tags/Confluence)
-[#zeroday](https://infosec.exchange/tags/zeroday)
-[#IOC](https://infosec.exchange/tags/IOC)
-[#KEV](https://infosec.exchange/tags/KEV)
-[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
-[#CISA](https://infosec.exchange/tags/CISA)
-[#China](https://infosec.exchange/tags/China)
-[#ransomware](https://infosec.exchange/tags/ransomware)
-[#Cerber](https://infosec.exchange/tags/Cerber)
-[#eitw](https://infosec.exchange/tags/eitw)
-[#activeexploitation](https://infosec.exchange/tags/activeexploitation) cc:
-[@AAKL](https://noc.social/@AAKL)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@catc0n>catc0n</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@catc0n/111364343475991515>at 2023-11-06T15:37:06.185Z</a>
-<md-block>
-
-
-Rapid7 MDR is observing exploitation of Atlassian
-[#Confluence](https://infosec.exchange/tags/Confluence)
-[#CVE202322518](https://infosec.exchange/tags/CVE202322518) to drop Cerber
-[#ransomware](https://infosec.exchange/tags/ransomware) in multiple customer
-environments [https://www.rapid7.com/blog/post/2023/11/06/etr-rapid7-observed-
-exploitation-of-atlassian-confluence-
-cve-2023-22518/](https://www.rapid7.com/blog/post/2023/11/06/etr-
-rapid7-observed-exploitation-of-atlassian-confluence-cve-2023-22518/)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111364281471214402>at 2023-11-06T15:21:20.067Z</a>
-<md-block>
-
-
- **Security Week:** The Atlassian Confluence improper authorization
-vulnerability CVE-2023-22518 (9.1 critical severity, disclosed 31 October 2023
-by Atlassian, significant data loss) is reported under active exploitation.
-CVE-2023-22518 has a now-public Proof of Concept, as well as technical details
-(released by Project Discovery). See GreyNoise observations of CVE-2023-22518
-exploitation.  
- **Link:** [https://www.securityweek.com/exploitation-of-critical-confluence-
-vulnerability-begins/](https://www.securityweek.com/exploitation-of-critical-
-confluence-vulnerability-begins/)
-
-[#AtlassianConfluence](https://infosec.exchange/tags/AtlassianConfluence)
-[#Atlassian](https://infosec.exchange/tags/Atlassian)
-[#vulnerability](https://infosec.exchange/tags/vulnerability)
-[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
-[#pocexploit](https://infosec.exchange/tags/pocexploit)
-[#eitw](https://infosec.exchange/tags/eitw)
-[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@sans_isc>sans_isc</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@sans_isc/111363885963004617>at 2023-11-06T13:40:45.090Z</a>
-<md-block>
-
-
-Exploit Activity for [#CVE](https://infosec.exchange/tags/CVE)-2023-22518,
-[#Atlassian](https://infosec.exchange/tags/Atlassian)
-[#Confluence](https://infosec.exchange/tags/Confluence) Data Center and Server
-[#cve202322518](https://infosec.exchange/tags/cve202322518)
-[https://i5c.us/d30376](https://i5c.us/d30376)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111386183179258231>at 2023-11-10T12:11:13.000Z</a>
-<md-block>
-
-
- **Trend Micro** also observed Atlassian Confluence CVE-2023-22518
-exploitation leading to Cerber ransomware. They provide an infection chain and
-scattered IOC.  
- **Link:** [https://www.trendmicro.com/en_us/research/23/k/cerber-ransomware-
-exploits-
-cve-2023-22518.html](https://www.trendmicro.com/en_us/research/23/k/cerber-
-ransomware-exploits-cve-2023-22518.html)
-
-[#AtlassianConfluence](https://infosec.exchange/tags/AtlassianConfluence)
-[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
-[#Cerber](https://infosec.exchange/tags/Cerber)
-[#ransomware](https://infosec.exchange/tags/ransomware)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@Walker>Walker@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@Walker/111380956734153264>at 2023-11-09T14:02:04.000Z</a>
-<md-block>
-
-
-To help mitigate the [#atlassian](https://infosec.exchange/tags/atlassian)
-[#confluence](https://infosec.exchange/tags/confluence)
-[#ransomware](https://infosec.exchange/tags/ransomware) as a result of
-[#cve202322518](https://infosec.exchange/tags/cve202322518)
-
-1\. Dont run Jira or Confluence as root on the linux box. (Good advice for any
-web app).
-
-2\. Install the database on a different machine from the web server. Even if
-your web server gets compromised and encrypted the data in Jira will remain
-safe and recoverable.
-
-3\. Encrypt the database tables for added protection against data theft.
-
-4\. Keep multiple daily server backups / snapshots so you can recover from a
-clean backup.
-
-5\. Monitor outbound traffic for spikes realted to data exfiltration.
-
-6\. Monitor CPU for spikes that might represent encryption activity.
-
-MOST IMPORTANT - DONT RUN Atlassian products on the open Internet!
-
-[#incidentresponse](https://infosec.exchange/tags/incidentresponse)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111370451354408639>at 2023-11-07T17:30:25.000Z</a>
-<md-block>
-
-
-A heavy Confluence news day: **Huntress** can also confirm active exploitation
-of Atlassian Confluence Data Center and Confluence Server (CVE-2023-22518)
-starting on November 3. Huntress was able to identify exploitation shortly
-after patch release due to adversary reliance on common post-exploitation
-behaviors. IOC and PowerShell commands.  
- **Link:** [https://www.huntress.com/blog/confluence-to-cerber-exploitation-
-of-cve-2023-22518-for-ransomware-
-deployment](https://www.huntress.com/blog/confluence-to-cerber-exploitation-
-of-cve-2023-22518-for-ransomware-deployment)
-
-[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
-[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
-[#Atlassian](https://infosec.exchange/tags/Atlassian)
-[#Confluence](https://infosec.exchange/tags/Confluence)
-[#zeroday](https://infosec.exchange/tags/zeroday)
-[#IOC](https://infosec.exchange/tags/IOC)
-[#KEV](https://infosec.exchange/tags/KEV)
-[#pocexploit](https://infosec.exchange/tags/pocexploit)
-[#ransomware](https://infosec.exchange/tags/ransomware)
-[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
-[#CISA](https://infosec.exchange/tags/CISA)
-[#China](https://infosec.exchange/tags/China)
-[#ransomware](https://infosec.exchange/tags/ransomware)
-[#Cerber](https://infosec.exchange/tags/Cerber)
-[#eitw](https://infosec.exchange/tags/eitw)
-[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111370187877035787>at 2023-11-07T16:23:24.000Z</a>
-<md-block>
-
-
- **CISA** adds CVE-2023-22518 to its Known Exploited Vulnerabilities (KEV)
-Catalog. First disclosed 30 October 2023 by Atlassian, its CVSS score changed
-from 9.1 critical severity to 10.0 due to changed scope. Proof of Concept and
-technical details are available, and it's been observed exploited in
-ransomware attacks by Rapid7.  
- **Link:** [https://www.cisa.gov/news-events/alerts/2023/11/07/cisa-adds-one-
-known-exploited-vulnerability-catalog](https://www.cisa.gov/news-
-events/alerts/2023/11/07/cisa-adds-one-known-exploited-vulnerability-catalog)
-
-[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
-[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
-[#Atlassian](https://infosec.exchange/tags/Atlassian)
-[#Confluence](https://infosec.exchange/tags/Confluence)
-[#zeroday](https://infosec.exchange/tags/zeroday)
-[#IOC](https://infosec.exchange/tags/IOC)
-[#KEV](https://infosec.exchange/tags/KEV)
-[#pocexploit](https://infosec.exchange/tags/pocexploit)
-[#ransomware](https://infosec.exchange/tags/ransomware)
-[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
-[#CISA](https://infosec.exchange/tags/CISA)
-[#China](https://infosec.exchange/tags/China)
-[#ransomware](https://infosec.exchange/tags/ransomware)
-[#Cerber](https://infosec.exchange/tags/Cerber)
-[#eitw](https://infosec.exchange/tags/eitw)
-[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111370148279972148>at 2023-11-07T16:13:20.000Z</a>
-<md-block>
-
-
-In case you missed it (because I had), **Atlassian** updated their security
-advisory on CVE-2023-22518: _" we observed several active exploits and reports
-of threat actors using ransomware. We have escalated CVE-2023-22518 from CVSS
-9.1 to 10, the highest critical rating, due to the change in the scope of the
-attack."_ CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
- **Link:** [https://confluence.atlassian.com/security/cve-2023-22518-improper-
-authorization-vulnerability-in-confluence-data-center-and-
-server-1311473907.html](https://confluence.atlassian.com/security/cve-2023-22518-improper-
-authorization-vulnerability-in-confluence-data-center-and-
-server-1311473907.html)
-
-[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
-[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
-[#Atlassian](https://infosec.exchange/tags/Atlassian)
-[#Confluence](https://infosec.exchange/tags/Confluence)
-[#zeroday](https://infosec.exchange/tags/zeroday)
-[#IOC](https://infosec.exchange/tags/IOC)
-[#KEV](https://infosec.exchange/tags/KEV)
-[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
-[#CISA](https://infosec.exchange/tags/CISA)
-[#China](https://infosec.exchange/tags/China)
-[#ransomware](https://infosec.exchange/tags/ransomware)
-[#Cerber](https://infosec.exchange/tags/Cerber)
-[#eitw](https://infosec.exchange/tags/eitw)
-[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@H3liumb0y>H3liumb0y@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@H3liumb0y/111368299939142474>at 2023-11-07T08:23:17.000Z</a>
-<md-block>
-
-
-Atlassian has raised the severity of CVE-2023-22518 from CVSS 9.1 to 🔟, the
-highest critical rating, due to a change in the attack's scope. This critical
-security advisory concerns CVE-2023-22518, which highlights an improper
-authorization vulnerability in Confluence Data Center and Server. The
-vulnerability, now rated at a CVSS score of 🔟, the highest critical rating,
-enables an unauthenticated attacker to reset Confluence and create an
-administrator account, potentially leading to a complete data compromise.
-Atlassian has detected active exploitation and strongly recommends immediate
-application of the provided fixes. If immediate patching is not possible,
-temporary mitigations such as network restrictions and specific configuration
-changes can be implemented. It is imperative for customers to thoroughly
-review their threat detection systems for any signs of compromise and follow
-their security incident response plan if any evidence of a breach is
-discovered. 🛡️
-
-Source: [https://confluence.atlassian.com/security/cve-2023-22518-improper-
-authorization-vulnerability-in-confluence-data-center-and-
-server-1311473907.html](https://confluence.atlassian.com/security/cve-2023-22518-improper-
-authorization-vulnerability-in-confluence-data-center-and-
-server-1311473907.html)
-
-[#Atlassian](https://infosec.exchange/tags/Atlassian)
-[#SecurityUpdate](https://infosec.exchange/tags/SecurityUpdate)
-[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111364446201072638>at 2023-11-06T16:03:13.000Z</a>
-<md-block>
-
-
- **Rapid7** is observing exploitation of Atlassian Confluence in multiple
-customer environments, with some of the exploits targeting CVE-2023-22518 and
-even CVE-2023-22515, potentially leading to ransomware deployment. Edit: Post-
-exploitation behavior and IOC included.
-
-CVE-2023-22515 is an actively exploited broken access control zero-day
-vulnerability that was disclosed on 04 October 2023 with a CVSS score of
-**10.0 critical** , that Microsoft observed being exploited by Chinese state
-hackers.  
-**Link:** [https://www.rapid7.com/blog/post/2023/11/06/etr-rapid7-observed-
-exploitation-of-atlassian-confluence-
-cve-2023-22518/](https://www.rapid7.com/blog/post/2023/11/06/etr-
-rapid7-observed-exploitation-of-atlassian-confluence-cve-2023-22518/)
-
-[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
-[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
-[#Atlassian](https://infosec.exchange/tags/Atlassian)
-[#Confluence](https://infosec.exchange/tags/Confluence)
-[#zeroday](https://infosec.exchange/tags/zeroday)
-[#IOC](https://infosec.exchange/tags/IOC)
-[#KEV](https://infosec.exchange/tags/KEV)
-[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
-[#CISA](https://infosec.exchange/tags/CISA)
-[#China](https://infosec.exchange/tags/China)
-[#ransomware](https://infosec.exchange/tags/ransomware)
-[#Cerber](https://infosec.exchange/tags/Cerber)
-[#eitw](https://infosec.exchange/tags/eitw)
-[#activeexploitation](https://infosec.exchange/tags/activeexploitation) cc:
-[@AAKL](https://noc.social/@AAKL)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@catc0n>catc0n@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@catc0n/111364343475991515>at 2023-11-06T15:37:06.000Z</a>
-<md-block>
-
-
-Rapid7 MDR is observing exploitation of Atlassian
-[#Confluence](https://infosec.exchange/tags/Confluence)
-[#CVE202322518](https://infosec.exchange/tags/CVE202322518) to drop Cerber
-[#ransomware](https://infosec.exchange/tags/ransomware) in multiple customer
-environments [https://www.rapid7.com/blog/post/2023/11/06/etr-rapid7-observed-
-exploitation-of-atlassian-confluence-
-cve-2023-22518/](https://www.rapid7.com/blog/post/2023/11/06/etr-
-rapid7-observed-exploitation-of-atlassian-confluence-cve-2023-22518/)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111364281471214402>at 2023-11-06T15:21:20.000Z</a>
-<md-block>
-
-
- **Security Week:** The Atlassian Confluence improper authorization
-vulnerability CVE-2023-22518 (9.1 critical severity, disclosed 31 October 2023
-by Atlassian, significant data loss) is reported under active exploitation.
-CVE-2023-22518 has a now-public Proof of Concept, as well as technical details
-(released by Project Discovery). See GreyNoise observations of CVE-2023-22518
-exploitation.  
- **Link:** [https://www.securityweek.com/exploitation-of-critical-confluence-
-vulnerability-begins/](https://www.securityweek.com/exploitation-of-critical-
-confluence-vulnerability-begins/)
-
-[#AtlassianConfluence](https://infosec.exchange/tags/AtlassianConfluence)
-[#Atlassian](https://infosec.exchange/tags/Atlassian)
-[#vulnerability](https://infosec.exchange/tags/vulnerability)
-[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
-[#pocexploit](https://infosec.exchange/tags/pocexploit)
-[#eitw](https://infosec.exchange/tags/eitw)
-[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@sans_isc>sans_isc@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@sans_isc/111363885963004617>at 2023-11-06T13:40:45.000Z</a>
-<md-block>
-
-
-Exploit Activity for [#CVE](https://infosec.exchange/tags/CVE)-2023-22518,
-[#Atlassian](https://infosec.exchange/tags/Atlassian)
-[#Confluence](https://infosec.exchange/tags/Confluence) Data Center and Server
-[#cve202322518](https://infosec.exchange/tags/cve202322518)
-[https://i5c.us/d30376](https://i5c.us/d30376)
-
-
-</md-block>
-			<hr>
-			
-
-		</div>
-	</div>
-	
-
-	<div class="cve">
-
-			
-		
 		<h3 class=CRITICAL>CVE-2023-46747<br>(9.8 CRITICAL)</h3>
 		
 
@@ -4748,6 +2966,645 @@ compromising-f5-big-ip-with-request-smuggling-cve-2023-46747/)
 [#BIGIP](https://infosec.exchange/tags/BIGIP)
 [#vulnerability](https://infosec.exchange/tags/vulnerability)
 [#CVE202346747](https://infosec.exchange/tags/CVE202346747)
+
+
+</md-block>
+			<hr>
+			
+
+		</div>
+	</div>
+	
+
+	<div class="cve">
+
+			
+		
+		<h3 class=CRITICAL>CVE-2023-22515<br>(9.8 CRITICAL)</h3>
+		
+
+		
+		<h4 class=epss>EPSS: 95.53%</h4>
+		
+
+		<p class=numposts>20 posts</p>
+
+		<p class=description>
+		Atlassian has been made aware of an issue reported by a handful of customers where external attackers may have exploited a previously unknown vulnerability in publicly accessible Confluence Data Center and Server instances to create unauthorized Confluence administrator accounts and access Confluence instances. 
+
+Atlassian Cloud sites are not affected by this vulnerability. If your Confluence site is accessed via an atlassian.net domain, it is hosted by Atlassian and is not vulnerable to this issue. 
+		</p>
+		
+		
+
+		<div class="posts">
+
+			
+				<a target=_blank href=https://mastodon.social/@jbzfn>jbzfn@mastodon.social</a>
+				<a class=posturl target=_blank href=https://mastodon.social/@jbzfn/111387377889455796>at 2023-11-10T17:15:04.000Z</a>
+<md-block>
+
+
+🚪 Alert: 'Effluence' Backdoor Persists Despite Patching Atlassian Confluence
+Servers  
+➥ [@thehackernews](https://infosec.exchange/@thehackernews)
+
+The web shell, made up of a loader and payload, is passive, allowing requests
+to pass through it unnoticed until a request matching a specific parameter is
+provided, at which point it triggers its malicious behavior by executing a
+series of actions.
+
+[http://thehackernews.com/2023/11/alert-effluence-backdoor-
+persists.html](http://thehackernews.com/2023/11/alert-effluence-backdoor-
+persists.html)
+
+[#Confluence](https://mastodon.social/tags/Confluence)
+[#Backdoor](https://mastodon.social/tags/Backdoor)
+[#CVE202322515](https://mastodon.social/tags/CVE202322515)
+[#CVE](https://mastodon.social/tags/CVE)
+[#Cybersecurity](https://mastodon.social/tags/Cybersecurity)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111386258276736453>at 2023-11-10T12:30:19.506Z</a>
+<md-block>
+
+
+ **Aon** identified a unique Atlassian Confluence backdoor that persists even
+after patching CVE-2023-22515. It grants persistent remote access to every web
+page on the server, including the unauthenticated login page, without the need
+for a valid user account. The web shell (dubbed "Effluence") is passive,
+allowing requests to pass through it unnoticed until a request matching a
+specific parameter is provided, at which point it triggers its malicious
+behavior by executing a series of actions. No IOC, but detection methods and
+YARA Rule provided.  
+ **Links:** [https://www.aon.com/cyber-solutions/aon_cyber_labs/detecting-
+effluence-an-unauthenticated-confluence-web-shell/](https://www.aon.com/cyber-
+solutions/aon_cyber_labs/detecting-effluence-an-unauthenticated-confluence-
+web-shell/) and [https://thehackernews.com/2023/11/alert-effluence-backdoor-
+persists.html](https://thehackernews.com/2023/11/alert-effluence-backdoor-
+persists.html)
+
+[#AtlassianConfluence](https://infosec.exchange/tags/AtlassianConfluence)
+[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
+[#Effluence](https://infosec.exchange/tags/Effluence)
+[#backdoor](https://infosec.exchange/tags/backdoor)
+[#webshell](https://infosec.exchange/tags/webshell)
+[#YARA](https://infosec.exchange/tags/YARA)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111370451354408639>at 2023-11-07T17:30:25.013Z</a>
+<md-block>
+
+
+A heavy Confluence news day: **Huntress** can also confirm active exploitation
+of Atlassian Confluence Data Center and Confluence Server (CVE-2023-22518)
+starting on November 3. Huntress was able to identify exploitation shortly
+after patch release due to adversary reliance on common post-exploitation
+behaviors. IOC and PowerShell commands.  
+ **Link:** [https://www.huntress.com/blog/confluence-to-cerber-exploitation-
+of-cve-2023-22518-for-ransomware-
+deployment](https://www.huntress.com/blog/confluence-to-cerber-exploitation-
+of-cve-2023-22518-for-ransomware-deployment)
+
+[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
+[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
+[#Atlassian](https://infosec.exchange/tags/Atlassian)
+[#Confluence](https://infosec.exchange/tags/Confluence)
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#pocexploit](https://infosec.exchange/tags/pocexploit)
+[#ransomware](https://infosec.exchange/tags/ransomware)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#China](https://infosec.exchange/tags/China)
+[#ransomware](https://infosec.exchange/tags/ransomware)
+[#Cerber](https://infosec.exchange/tags/Cerber)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111370187877035787>at 2023-11-07T16:23:24.667Z</a>
+<md-block>
+
+
+ **CISA** adds CVE-2023-22518 to its Known Exploited Vulnerabilities (KEV)
+Catalog. First disclosed 30 October 2023 by Atlassian, its CVSS score changed
+from 9.1 critical severity to 10.0 due to changed scope. Proof of Concept and
+technical details are available, and it's been observed exploited in
+ransomware attacks by Rapid7.  
+ **Link:** [https://www.cisa.gov/news-events/alerts/2023/11/07/cisa-adds-one-
+known-exploited-vulnerability-catalog](https://www.cisa.gov/news-
+events/alerts/2023/11/07/cisa-adds-one-known-exploited-vulnerability-catalog)
+
+[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
+[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
+[#Atlassian](https://infosec.exchange/tags/Atlassian)
+[#Confluence](https://infosec.exchange/tags/Confluence)
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#pocexploit](https://infosec.exchange/tags/pocexploit)
+[#ransomware](https://infosec.exchange/tags/ransomware)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#China](https://infosec.exchange/tags/China)
+[#ransomware](https://infosec.exchange/tags/ransomware)
+[#Cerber](https://infosec.exchange/tags/Cerber)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111370148279972148>at 2023-11-07T16:13:20.464Z</a>
+<md-block>
+
+
+In case you missed it (because I had), **Atlassian** updated their security
+advisory on CVE-2023-22518: _" we observed several active exploits and reports
+of threat actors using ransomware. We have escalated CVE-2023-22518 from CVSS
+9.1 to 10, the highest critical rating, due to the change in the scope of the
+attack."_ CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+ **Link:** [https://confluence.atlassian.com/security/cve-2023-22518-improper-
+authorization-vulnerability-in-confluence-data-center-and-
+server-1311473907.html](https://confluence.atlassian.com/security/cve-2023-22518-improper-
+authorization-vulnerability-in-confluence-data-center-and-
+server-1311473907.html)
+
+[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
+[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
+[#Atlassian](https://infosec.exchange/tags/Atlassian)
+[#Confluence](https://infosec.exchange/tags/Confluence)
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#China](https://infosec.exchange/tags/China)
+[#ransomware](https://infosec.exchange/tags/ransomware)
+[#Cerber](https://infosec.exchange/tags/Cerber)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111364446201072638>at 2023-11-06T16:03:13.647Z</a>
+<md-block>
+
+
+ **Rapid7** is observing exploitation of Atlassian Confluence in multiple
+customer environments, with some of the exploits targeting CVE-2023-22518 and
+even CVE-2023-22515, potentially leading to ransomware deployment. Edit: Post-
+exploitation behavior and IOC included.
+
+CVE-2023-22515 is an actively exploited broken access control zero-day
+vulnerability that was disclosed on 04 October 2023 with a CVSS score of
+**10.0 critical** , that Microsoft observed being exploited by Chinese state
+hackers.  
+**Link:** [https://www.rapid7.com/blog/post/2023/11/06/etr-rapid7-observed-
+exploitation-of-atlassian-confluence-
+cve-2023-22518/](https://www.rapid7.com/blog/post/2023/11/06/etr-
+rapid7-observed-exploitation-of-atlassian-confluence-cve-2023-22518/)
+
+[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
+[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
+[#Atlassian](https://infosec.exchange/tags/Atlassian)
+[#Confluence](https://infosec.exchange/tags/Confluence)
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#China](https://infosec.exchange/tags/China)
+[#ransomware](https://infosec.exchange/tags/ransomware)
+[#Cerber](https://infosec.exchange/tags/Cerber)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#activeexploitation](https://infosec.exchange/tags/activeexploitation) cc:
+[@AAKL](https://noc.social/@AAKL)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111245107024914129>at 2023-10-16T14:13:42.329Z</a>
+<md-block>
+
+
+CISA, FBI, and MS-ISAC Release Joint Advisory on **Atlassian Confluence**
+Vulnerability CVE-2023-22515: Threat actors exploited CVE-2023-22515 as a
+zero-day to obtain access to victim systems and continue active exploitation
+post-patch. Includes IOC.  
+ **Link:** [https://www.cisa.gov/news-events/cybersecurity-
+advisories/aa23-289a](https://www.cisa.gov/news-events/cybersecurity-
+advisories/aa23-289a)
+
+ **Tags:** [#CVE202322515](https://infosec.exchange/tags/CVE202322515)
+[#Atlassian](https://infosec.exchange/tags/Atlassian)
+[#Confluence](https://infosec.exchange/tags/Confluence)
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#cyberthreatintelligence](https://infosec.exchange/tags/cyberthreatintelligence)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://mastodon.social/@jbzfn>jbzfn@mastodon.social</a>
+				<a class=posturl target=_blank href=https://mastodon.social/@jbzfn/111233968458838130>at 2023-10-14T15:01:01.000Z</a>
+<md-block>
+
+
+🔥From [@thehackernews](https://infosec.exchange/@thehackernews);
+
+「 Microsoft has linked the exploitation of a recently disclosed critical flaw
+in Atlassian Confluence Data Center and Server to a nation-state actor it
+tracks as Storm-0062 (aka DarkShadow or Oro0lxy).  
+The tech giant's threat intelligence team said it observed in-the-wild abuse
+of the vulnerability since September 14, 2023 」
+
+[https://thehackernews.com/2023/10/microsoft-warns-of-nation-state-
+hackers.html](https://thehackernews.com/2023/10/microsoft-warns-of-nation-
+state-hackers.html)
+
+[#Confluence](https://mastodon.social/tags/Confluence)
+[#Cyberattack](https://mastodon.social/tags/Cyberattack)
+[#China](https://mastodon.social/tags/China)
+[#CVE202322515](https://mastodon.social/tags/CVE202322515)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111218186701365642>at 2023-10-11T20:07:30.787Z</a>
+<md-block>
+
+
+[@campuscodi](https://mastodon.social/@campuscodi) The Record provides more
+context: _"Microsoft gave the hackers exploiting the issue a temporary name,
+Storm-0062, but noted that other companies track the hackers as DarkShadow or
+Oro0lxy. The company didn’t mention China specifically in the notice, but
+Oro0lxy was previously identified in a 2020 Justice Department indictment as
+the alias of 37-year-old Li Xiaoyu, a hacker working with China’s Ministry of
+State Security (MSS)."_ [https://therecord.media/chinese-govt-hackers-
+exploiting-atlassian](https://therecord.media/chinese-govt-hackers-exploiting-
+atlassian)  
+[#AtlassianConfluence](https://infosec.exchange/tags/AtlassianConfluence)
+[#Atlassian](https://infosec.exchange/tags/Atlassian)
+[#Confluence](https://infosec.exchange/tags/Confluence)
+[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#eitw](https://infosec.exchange/tags/eitw)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111218064392663824>at 2023-10-11T19:36:24.506Z</a>
+<md-block>
+
+
+ **Chinese gov’t hackers exploiting new Atlassian vulnerability, Microsoft
+says**  
+ _"Microsoft gave the hackers exploiting the issue a temporary name,
+Storm-0062, but noted that other companies track the hackers as DarkShadow or
+Oro0lxy. The company didn’t mention China specifically in the notice, but
+Oro0lxy was previously identified in a 2020 Justice Department indictment as
+the alias of 37-year-old Li Xiaoyu, a hacker working with China’s Ministry of
+State Security (MSS)."_  
+ **Link:** [https://therecord.media/chinese-govt-hackers-exploiting-
+atlassian](https://therecord.media/chinese-govt-hackers-exploiting-atlassian)
+
+[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
+[#Atlassian](https://infosec.exchange/tags/Atlassian)
+[#Confluence](https://infosec.exchange/tags/Confluence)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#zeroday](https://infosec.exchange/tags/zeroday)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://mastodon.social/@jbzfn>jbzfn@mastodon.social</a>
+				<a class=posturl target=_blank href=https://mastodon.social/@jbzfn/111387377889455796>at 2023-11-10T17:15:04.000Z</a>
+<md-block>
+
+
+🚪 Alert: 'Effluence' Backdoor Persists Despite Patching Atlassian Confluence
+Servers  
+➥ [@thehackernews](https://infosec.exchange/@thehackernews)
+
+The web shell, made up of a loader and payload, is passive, allowing requests
+to pass through it unnoticed until a request matching a specific parameter is
+provided, at which point it triggers its malicious behavior by executing a
+series of actions.
+
+[http://thehackernews.com/2023/11/alert-effluence-backdoor-
+persists.html](http://thehackernews.com/2023/11/alert-effluence-backdoor-
+persists.html)
+
+[#Confluence](https://mastodon.social/tags/Confluence)
+[#Backdoor](https://mastodon.social/tags/Backdoor)
+[#CVE202322515](https://mastodon.social/tags/CVE202322515)
+[#CVE](https://mastodon.social/tags/CVE)
+[#Cybersecurity](https://mastodon.social/tags/Cybersecurity)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111386258276736453>at 2023-11-10T12:30:19.000Z</a>
+<md-block>
+
+
+ **Aon** identified a unique Atlassian Confluence backdoor that persists even
+after patching CVE-2023-22515. It grants persistent remote access to every web
+page on the server, including the unauthenticated login page, without the need
+for a valid user account. The web shell (dubbed "Effluence") is passive,
+allowing requests to pass through it unnoticed until a request matching a
+specific parameter is provided, at which point it triggers its malicious
+behavior by executing a series of actions. No IOC, but detection methods and
+YARA Rule provided.  
+ **Links:** [https://www.aon.com/cyber-solutions/aon_cyber_labs/detecting-
+effluence-an-unauthenticated-confluence-web-shell/](https://www.aon.com/cyber-
+solutions/aon_cyber_labs/detecting-effluence-an-unauthenticated-confluence-
+web-shell/) and [https://thehackernews.com/2023/11/alert-effluence-backdoor-
+persists.html](https://thehackernews.com/2023/11/alert-effluence-backdoor-
+persists.html)
+
+[#AtlassianConfluence](https://infosec.exchange/tags/AtlassianConfluence)
+[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
+[#Effluence](https://infosec.exchange/tags/Effluence)
+[#backdoor](https://infosec.exchange/tags/backdoor)
+[#webshell](https://infosec.exchange/tags/webshell)
+[#YARA](https://infosec.exchange/tags/YARA)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111370451354408639>at 2023-11-07T17:30:25.000Z</a>
+<md-block>
+
+
+A heavy Confluence news day: **Huntress** can also confirm active exploitation
+of Atlassian Confluence Data Center and Confluence Server (CVE-2023-22518)
+starting on November 3. Huntress was able to identify exploitation shortly
+after patch release due to adversary reliance on common post-exploitation
+behaviors. IOC and PowerShell commands.  
+ **Link:** [https://www.huntress.com/blog/confluence-to-cerber-exploitation-
+of-cve-2023-22518-for-ransomware-
+deployment](https://www.huntress.com/blog/confluence-to-cerber-exploitation-
+of-cve-2023-22518-for-ransomware-deployment)
+
+[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
+[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
+[#Atlassian](https://infosec.exchange/tags/Atlassian)
+[#Confluence](https://infosec.exchange/tags/Confluence)
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#pocexploit](https://infosec.exchange/tags/pocexploit)
+[#ransomware](https://infosec.exchange/tags/ransomware)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#China](https://infosec.exchange/tags/China)
+[#ransomware](https://infosec.exchange/tags/ransomware)
+[#Cerber](https://infosec.exchange/tags/Cerber)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111370187877035787>at 2023-11-07T16:23:24.000Z</a>
+<md-block>
+
+
+ **CISA** adds CVE-2023-22518 to its Known Exploited Vulnerabilities (KEV)
+Catalog. First disclosed 30 October 2023 by Atlassian, its CVSS score changed
+from 9.1 critical severity to 10.0 due to changed scope. Proof of Concept and
+technical details are available, and it's been observed exploited in
+ransomware attacks by Rapid7.  
+ **Link:** [https://www.cisa.gov/news-events/alerts/2023/11/07/cisa-adds-one-
+known-exploited-vulnerability-catalog](https://www.cisa.gov/news-
+events/alerts/2023/11/07/cisa-adds-one-known-exploited-vulnerability-catalog)
+
+[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
+[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
+[#Atlassian](https://infosec.exchange/tags/Atlassian)
+[#Confluence](https://infosec.exchange/tags/Confluence)
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#pocexploit](https://infosec.exchange/tags/pocexploit)
+[#ransomware](https://infosec.exchange/tags/ransomware)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#China](https://infosec.exchange/tags/China)
+[#ransomware](https://infosec.exchange/tags/ransomware)
+[#Cerber](https://infosec.exchange/tags/Cerber)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111370148279972148>at 2023-11-07T16:13:20.000Z</a>
+<md-block>
+
+
+In case you missed it (because I had), **Atlassian** updated their security
+advisory on CVE-2023-22518: _" we observed several active exploits and reports
+of threat actors using ransomware. We have escalated CVE-2023-22518 from CVSS
+9.1 to 10, the highest critical rating, due to the change in the scope of the
+attack."_ CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+ **Link:** [https://confluence.atlassian.com/security/cve-2023-22518-improper-
+authorization-vulnerability-in-confluence-data-center-and-
+server-1311473907.html](https://confluence.atlassian.com/security/cve-2023-22518-improper-
+authorization-vulnerability-in-confluence-data-center-and-
+server-1311473907.html)
+
+[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
+[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
+[#Atlassian](https://infosec.exchange/tags/Atlassian)
+[#Confluence](https://infosec.exchange/tags/Confluence)
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#China](https://infosec.exchange/tags/China)
+[#ransomware](https://infosec.exchange/tags/ransomware)
+[#Cerber](https://infosec.exchange/tags/Cerber)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111364446201072638>at 2023-11-06T16:03:13.000Z</a>
+<md-block>
+
+
+ **Rapid7** is observing exploitation of Atlassian Confluence in multiple
+customer environments, with some of the exploits targeting CVE-2023-22518 and
+even CVE-2023-22515, potentially leading to ransomware deployment. Edit: Post-
+exploitation behavior and IOC included.
+
+CVE-2023-22515 is an actively exploited broken access control zero-day
+vulnerability that was disclosed on 04 October 2023 with a CVSS score of
+**10.0 critical** , that Microsoft observed being exploited by Chinese state
+hackers.  
+**Link:** [https://www.rapid7.com/blog/post/2023/11/06/etr-rapid7-observed-
+exploitation-of-atlassian-confluence-
+cve-2023-22518/](https://www.rapid7.com/blog/post/2023/11/06/etr-
+rapid7-observed-exploitation-of-atlassian-confluence-cve-2023-22518/)
+
+[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
+[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
+[#Atlassian](https://infosec.exchange/tags/Atlassian)
+[#Confluence](https://infosec.exchange/tags/Confluence)
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#China](https://infosec.exchange/tags/China)
+[#ransomware](https://infosec.exchange/tags/ransomware)
+[#Cerber](https://infosec.exchange/tags/Cerber)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#activeexploitation](https://infosec.exchange/tags/activeexploitation) cc:
+[@AAKL](https://noc.social/@AAKL)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111245107024914129>at 2023-10-16T14:13:42.000Z</a>
+<md-block>
+
+
+CISA, FBI, and MS-ISAC Release Joint Advisory on **Atlassian Confluence**
+Vulnerability CVE-2023-22515: Threat actors exploited CVE-2023-22515 as a
+zero-day to obtain access to victim systems and continue active exploitation
+post-patch. Includes IOC.  
+ **Link:** [https://www.cisa.gov/news-events/cybersecurity-
+advisories/aa23-289a](https://www.cisa.gov/news-events/cybersecurity-
+advisories/aa23-289a)
+
+ **Tags:** [#CVE202322515](https://infosec.exchange/tags/CVE202322515)
+[#Atlassian](https://infosec.exchange/tags/Atlassian)
+[#Confluence](https://infosec.exchange/tags/Confluence)
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#cyberthreatintelligence](https://infosec.exchange/tags/cyberthreatintelligence)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://mastodon.social/@jbzfn>jbzfn@mastodon.social</a>
+				<a class=posturl target=_blank href=https://mastodon.social/@jbzfn/111233968458838130>at 2023-10-14T15:01:01.000Z</a>
+<md-block>
+
+
+🔥From [@thehackernews](https://infosec.exchange/@thehackernews);
+
+「 Microsoft has linked the exploitation of a recently disclosed critical flaw
+in Atlassian Confluence Data Center and Server to a nation-state actor it
+tracks as Storm-0062 (aka DarkShadow or Oro0lxy).  
+The tech giant's threat intelligence team said it observed in-the-wild abuse
+of the vulnerability since September 14, 2023 」
+
+[https://thehackernews.com/2023/10/microsoft-warns-of-nation-state-
+hackers.html](https://thehackernews.com/2023/10/microsoft-warns-of-nation-
+state-hackers.html)
+
+[#Confluence](https://mastodon.social/tags/Confluence)
+[#Cyberattack](https://mastodon.social/tags/Cyberattack)
+[#China](https://mastodon.social/tags/China)
+[#CVE202322515](https://mastodon.social/tags/CVE202322515)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111218186701365642>at 2023-10-11T20:07:30.000Z</a>
+<md-block>
+
+
+[@campuscodi](https://mastodon.social/@campuscodi) The Record provides more
+context: _"Microsoft gave the hackers exploiting the issue a temporary name,
+Storm-0062, but noted that other companies track the hackers as DarkShadow or
+Oro0lxy. The company didn’t mention China specifically in the notice, but
+Oro0lxy was previously identified in a 2020 Justice Department indictment as
+the alias of 37-year-old Li Xiaoyu, a hacker working with China’s Ministry of
+State Security (MSS)."_ [https://therecord.media/chinese-govt-hackers-
+exploiting-atlassian](https://therecord.media/chinese-govt-hackers-exploiting-
+atlassian)  
+[#AtlassianConfluence](https://infosec.exchange/tags/AtlassianConfluence)
+[#Atlassian](https://infosec.exchange/tags/Atlassian)
+[#Confluence](https://infosec.exchange/tags/Confluence)
+[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#eitw](https://infosec.exchange/tags/eitw)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111218064392663824>at 2023-10-11T19:36:24.000Z</a>
+<md-block>
+
+
+ **Chinese gov’t hackers exploiting new Atlassian vulnerability, Microsoft
+says**  
+ _"Microsoft gave the hackers exploiting the issue a temporary name,
+Storm-0062, but noted that other companies track the hackers as DarkShadow or
+Oro0lxy. The company didn’t mention China specifically in the notice, but
+Oro0lxy was previously identified in a 2020 Justice Department indictment as
+the alias of 37-year-old Li Xiaoyu, a hacker working with China’s Ministry of
+State Security (MSS)."_  
+ **Link:** [https://therecord.media/chinese-govt-hackers-exploiting-
+atlassian](https://therecord.media/chinese-govt-hackers-exploiting-atlassian)
+
+[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
+[#Atlassian](https://infosec.exchange/tags/Atlassian)
+[#Confluence](https://infosec.exchange/tags/Confluence)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#zeroday](https://infosec.exchange/tags/zeroday)
 
 
 </md-block>
@@ -8655,6 +7512,1790 @@ in/support/advisory.PN1653.html)
 
 			
 		
+		<h3 class=None>CVE-2023-46604<br>(0 None)</h3>
+		
+
+		
+		<h4 class=epss>EPSS: 96.78%</h4>
+		
+
+		<p class=numposts>38 posts</p>
+
+		<p class=description>
+		Apache ActiveMQ is vulnerable to Remote Code Execution.The vulnerability may allow a remote attacker with network access to a broker to run arbitrary shell commands by manipulating serialized class types in the OpenWire protocol to cause the broker to instantiate any class on the classpath. 
+
+Users are recommended to upgrade to version 5.15.16, 5.16.7, 5.17.6, or 5.18.3, which fixes this issue.
+		</p>
+		
+		
+
+		<div class="posts">
+
+			
+				<a target=_blank href=https://mastodon.social/@jbzfn>jbzfn@mastodon.social</a>
+				<a class=posturl target=_blank href=https://mastodon.social/@jbzfn/111364729378497399>at 2023-11-06T17:15:14.000Z</a>
+<md-block>
+🔎 HelloKitty ransomware now exploiting Apache ActiveMQ flaw in attacks  
+➥ [@BleepingComputer](https://infosec.exchange/@BleepingComputer)
+
+「 The flaw, tracked CVE-2023-46604, is a critical severity (CVSS v3 score:
+10.0) RCE allowing attackers to execute arbitrary shell commands by exploiting
+the serialized class types in the OpenWire protocol 」
+
+[https://www.bleepingcomputer.com/news/security/hellokitty-ransomware-now-
+exploiting-apache-activemq-flaw-in-
+attacks/](https://www.bleepingcomputer.com/news/security/hellokitty-
+ransomware-now-exploiting-apache-activemq-flaw-in-attacks/)
+
+[#ActiveMQ](https://mastodon.social/tags/ActiveMQ)
+[#RCE](https://mastodon.social/tags/RCE)
+[#CVE202346604](https://mastodon.social/tags/CVE202346604)
+[#Ransomware](https://mastodon.social/tags/Ransomware)
+[#Cybersecurity](https://mastodon.social/tags/Cybersecurity)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111354519498262460>at 2023-11-04T21:58:44.182Z</a>
+<md-block>
+
+
+ **Huntress** states that CVE-2023-46604 (CVSS: **10.0 critical** severity,
+disclosed 26 October 2023 by Apache, Proof of Concept available, added to
+CISA's KEV Catalog on 02 November) was being exploited as a Zero-Day since at
+least 10 October 2023. They provide IOC and additional information/technical
+details.  
+**Link:** [https://www.huntress.com/blog/critical-vulnerability-exploitation-
+of-apache-activemq-cve-2023-46604](https://www.huntress.com/blog/critical-
+vulnerability-exploitation-of-apache-activemq-cve-2023-46604)
+
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
+[#Apache](https://infosec.exchange/tags/Apache)
+[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#pocexploit](https://infosec.exchange/tags/pocexploit)
+[#threatintel](https://infosec.exchange/tags/threatintel)
+[#threathunting](https://infosec.exchange/tags/threathunting)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#RCE](https://infosec.exchange/tags/RCE)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111347853242996565>at 2023-11-03T17:43:25.199Z</a>
+<md-block>
+
+
+[@ntkramer](https://infosec.exchange/@ntkramer) Rapid7 reported CVE-2023-46604
+exploitation on 01 November 2023, notably from HelloKitty ransomware actors,
+and provided indicators of compromise:
+[https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-exploitation-of-
+apache-activemq-
+cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
+exploitation-of-apache-activemq-cve-2023-46604/)
+
+CISA added CVE-2023-46604 to its Known Exploited Vulnerabilities (KEV) Catalog
+on 02 November 2023: [https://www.cisa.gov/news-events/alerts/2023/11/02/cisa-
+adds-one-known-exploited-vulnerability-catalog](https://www.cisa.gov/news-
+events/alerts/2023/11/02/cisa-adds-one-known-exploited-vulnerability-catalog)
+
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
+[#Apache](https://infosec.exchange/tags/Apache)
+[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#RCE](https://infosec.exchange/tags/RCE)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#eitw](https://infosec.exchange/tags/eitw)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111341708158014276>at 2023-11-02T15:40:38.642Z</a>
+<md-block>
+
+
+CISA added CVE-2023-46604 (CVSS: **10.0 critical** severity, disclosed 26
+October 2023 by Apache) to the Known Exploited Vulnerabilities (KEV) Catalog.
+This is after the Netherlands NCSC and Rapid7 reported exploitation in the
+wild yesterday 01 November 2023. Rapid7 attributed the exploitation to
+'HelloKitty' (hellokittycat?) ransomware actors.  
+**Link:** [https://www.cisa.gov/news-events/alerts/2023/11/02/cisa-adds-one-
+known-exploited-vulnerability-catalog](https://www.cisa.gov/news-
+events/alerts/2023/11/02/cisa-adds-one-known-exploited-vulnerability-catalog)
+
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
+[#Apache](https://infosec.exchange/tags/Apache)
+[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#RCE](https://infosec.exchange/tags/RCE)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#eitw](https://infosec.exchange/tags/eitw)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@H3liumb0y>H3liumb0y</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@H3liumb0y/111339332600587207>at 2023-11-02T05:36:30.512Z</a>
+<md-block>
+
+
+"⚠️ Critical RCE Alert: 3,000 Apache ActiveMQ Servers at Risk! ⚠️"
+
+Over 3,000 Apache ActiveMQ servers are exposed online, vulnerable to a
+critical RCE flaw (CVE-2023-46604, CVSS v3: 10.0). Immediate patching is urged
+to prevent potential data theft and network compromise. Stay vigilant! 🛡️💻
+
+Apache ActiveMQ is an open-source message broker for secure communication
+between clients and servers, supporting Java and various cross-language
+clients and protocols like AMQP, MQTT, OpenWire, and STOMP.
+
+The flaw in question is CVE-2023-46604, a critical severity (CVSS v3 score:
+10.0) RCE that allows attackers to execute arbitrary shell commands by
+exploiting class types in the OpenWire protocol.
+
+According to Apache's disclosure on October 27, 2023, this vulnerability
+affects the following Apache ActiveMQ and Legacy OpenWire Module versions:
+
+  * Versions before 5.18.3 in the 5.18.x series
+  * Versions before 5.17.6 in the 5.17.x series
+  * Versions before 5.16.7 in the 5.16.x series
+  * All versions before 5.15.16
+
+To address this issue, fixes have been released in versions 5.15.16, 5.16.7,
+5.17.6, and 5.18.3. It's recommended to upgrade to one of these versions to
+enhance your IT security.
+
+Tags: [#CyberSecurity](https://infosec.exchange/tags/CyberSecurity)
+[#RCE](https://infosec.exchange/tags/RCE)
+[#ApacheActiveMQ](https://infosec.exchange/tags/ApacheActiveMQ)
+[#Vulnerability](https://infosec.exchange/tags/Vulnerability)
+[#PatchNow](https://infosec.exchange/tags/PatchNow)
+[#InfoSec](https://infosec.exchange/tags/InfoSec)
+[#ServerSecurity](https://infosec.exchange/tags/ServerSecurity)
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604) 🚨🔐
+
+Source:
+[BleepingComputer](https://www.bleepingcomputer.com/news/security/3-000-apache-
+activemq-servers-vulnerable-to-rce-attacks-exposed-online/)
+
+Author: Bill Toulas
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://fosstodon.org/@frehi>frehi@fosstodon.org</a>
+				<a class=posturl target=_blank href=https://fosstodon.org/@frehi/111336971618156265>at 2023-11-01T19:36:04.000Z</a>
+<md-block>
+
+
+This is worrying. CVE-2023-46604 in ActiveMQ is being exploited in the wild,
+while [#Debian](https://fosstodon.org/tags/Debian) does not have a fixed
+package yet:
+
+[https://security-tracker.debian.org/tracker/CVE-2023-46604](https://security-
+tracker.debian.org/tracker/CVE-2023-46604)
+
+[#activemq](https://fosstodon.org/tags/activemq)
+[#cve202346604](https://fosstodon.org/tags/cve202346604)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@catc0n>catc0n</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@catc0n/111336835730646379>at 2023-11-01T19:01:31.301Z</a>
+<md-block>
+
+
+Rapid7 MDR has identified what appears to be exploitation of Apache
+[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604) in customer
+environments. The attacker behavior our team has observed includes attempts to
+deploy [#ransomware](https://infosec.exchange/tags/ransomware) on victim
+systems. [https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
+exploitation-of-apache-activemq-
+cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
+exploitation-of-apache-activemq-cve-2023-46604/)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111336781949612347>at 2023-11-01T18:47:50.668Z</a>
+<md-block>
+
+
+ **Rapid7** identified suspected exploitation of CVE-2023-46604 (CVSS: **10.0
+critical** severity, disclosed 26 October 2023 by Apache). Rapid7 also
+included links to a Proof of Concept exploit, external technical details, and
+their own vulnerability analysis. They provided Indicators of Compromise.  
+ **Link:** [https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
+exploitation-of-apache-activemq-
+cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
+exploitation-of-apache-activemq-cve-2023-46604/)
+
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
+[#Apache](https://infosec.exchange/tags/Apache)
+[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#RCE](https://infosec.exchange/tags/RCE)
+[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#pocexploit](https://infosec.exchange/tags/pocexploit)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111336769862710877>at 2023-11-01T18:44:46.237Z</a>
+<md-block>
+
+
+[@BleepingComputer](https://infosec.exchange/@BleepingComputer) Hot off the
+press: "Beginning Friday, October 27, Rapid7 Managed Detection and Response
+(MDR) identified suspected exploitation of Apache ActiveMQ CVE-2023-46604 in
+two different customer environments."  
+ **Link:** [https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
+exploitation-of-apache-activemq-
+cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
+exploitation-of-apache-activemq-cve-2023-46604/)
+
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
+[#Apache](https://infosec.exchange/tags/Apache)
+[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#RCE](https://infosec.exchange/tags/RCE)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111336632423607345>at 2023-11-01T18:09:49.083Z</a>
+<md-block>
+
+
+[@BleepingComputer](https://infosec.exchange/@BleepingComputer) CVE-2023-46604
+(CVSS: 10.0 critical severity, disclosed 26 October 2023 by Apache)  
+Apache ActiveMQ is vulnerable to Remote Code Execution.The vulnerability may
+allow a remote attacker with network access to a broker to run arbitrary shell
+commands by manipulating serialized class types in the OpenWire protocol to
+cause the broker to instantiate any class on the classpath. Users are
+recommended to upgrade to version 5.15.16, 5.16.7, 5.17.6, or 5.18.3, which
+fixes this issue.
+
+The Netherlands' National Cyber Security Centrum (NCSC) states that Proof of
+Concept has been published publicly, and that they received a report from a
+trusted partner that the vulnerability has been actively and specifically
+exploited.
+[https://advisories.ncsc.nl/advisory?id=NCSC-2023-0561](https://advisories.ncsc.nl/advisory?id=NCSC-2023-0561)
+
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
+[#Apache](https://infosec.exchange/tags/Apache)
+[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#RCE](https://infosec.exchange/tags/RCE)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://mastodon.social/@jbzfn>jbzfn@mastodon.social</a>
+				<a class=posturl target=_blank href=https://mastodon.social/@jbzfn/111364729378497399>at 2023-11-06T17:15:14.000Z</a>
+<md-block>
+
+
+🔎 HelloKitty ransomware now exploiting Apache ActiveMQ flaw in attacks  
+➥ [@BleepingComputer](https://infosec.exchange/@BleepingComputer)
+
+「 The flaw, tracked CVE-2023-46604, is a critical severity (CVSS v3 score:
+10.0) RCE allowing attackers to execute arbitrary shell commands by exploiting
+the serialized class types in the OpenWire protocol 」
+
+[https://www.bleepingcomputer.com/news/security/hellokitty-ransomware-now-
+exploiting-apache-activemq-flaw-in-
+attacks/](https://www.bleepingcomputer.com/news/security/hellokitty-
+ransomware-now-exploiting-apache-activemq-flaw-in-attacks/)
+
+[#ActiveMQ](https://mastodon.social/tags/ActiveMQ)
+[#RCE](https://mastodon.social/tags/RCE)
+[#CVE202346604](https://mastodon.social/tags/CVE202346604)
+[#Ransomware](https://mastodon.social/tags/Ransomware)
+[#Cybersecurity](https://mastodon.social/tags/Cybersecurity)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111354519498262460>at 2023-11-04T21:58:44.000Z</a>
+<md-block>
+
+
+ **Huntress** states that CVE-2023-46604 (CVSS: **10.0 critical** severity,
+disclosed 26 October 2023 by Apache, Proof of Concept available, added to
+CISA's KEV Catalog on 02 November) was being exploited as a Zero-Day since at
+least 10 October 2023. They provide IOC and additional information/technical
+details.  
+**Link:** [https://www.huntress.com/blog/critical-vulnerability-exploitation-
+of-apache-activemq-cve-2023-46604](https://www.huntress.com/blog/critical-
+vulnerability-exploitation-of-apache-activemq-cve-2023-46604)
+
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
+[#Apache](https://infosec.exchange/tags/Apache)
+[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#pocexploit](https://infosec.exchange/tags/pocexploit)
+[#threatintel](https://infosec.exchange/tags/threatintel)
+[#threathunting](https://infosec.exchange/tags/threathunting)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#RCE](https://infosec.exchange/tags/RCE)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111347853242996565>at 2023-11-03T17:43:25.000Z</a>
+<md-block>
+
+
+[@ntkramer](https://infosec.exchange/@ntkramer) Rapid7 reported CVE-2023-46604
+exploitation on 01 November 2023, notably from HelloKitty ransomware actors,
+and provided indicators of compromise:
+[https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-exploitation-of-
+apache-activemq-
+cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
+exploitation-of-apache-activemq-cve-2023-46604/)
+
+CISA added CVE-2023-46604 to its Known Exploited Vulnerabilities (KEV) Catalog
+on 02 November 2023: [https://www.cisa.gov/news-events/alerts/2023/11/02/cisa-
+adds-one-known-exploited-vulnerability-catalog](https://www.cisa.gov/news-
+events/alerts/2023/11/02/cisa-adds-one-known-exploited-vulnerability-catalog)
+
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
+[#Apache](https://infosec.exchange/tags/Apache)
+[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#RCE](https://infosec.exchange/tags/RCE)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#eitw](https://infosec.exchange/tags/eitw)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111341708158014276>at 2023-11-02T15:40:38.000Z</a>
+<md-block>
+
+
+CISA added CVE-2023-46604 (CVSS: **10.0 critical** severity, disclosed 26
+October 2023 by Apache) to the Known Exploited Vulnerabilities (KEV) Catalog.
+This is after the Netherlands NCSC and Rapid7 reported exploitation in the
+wild yesterday 01 November 2023. Rapid7 attributed the exploitation to
+'HelloKitty' (hellokittycat?) ransomware actors.  
+**Link:** [https://www.cisa.gov/news-events/alerts/2023/11/02/cisa-adds-one-
+known-exploited-vulnerability-catalog](https://www.cisa.gov/news-
+events/alerts/2023/11/02/cisa-adds-one-known-exploited-vulnerability-catalog)
+
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
+[#Apache](https://infosec.exchange/tags/Apache)
+[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#RCE](https://infosec.exchange/tags/RCE)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#eitw](https://infosec.exchange/tags/eitw)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@H3liumb0y>H3liumb0y@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@H3liumb0y/111339332600587207>at 2023-11-02T05:36:30.000Z</a>
+<md-block>
+
+
+"⚠️ Critical RCE Alert: 3,000 Apache ActiveMQ Servers at Risk! ⚠️"
+
+Over 3,000 Apache ActiveMQ servers are exposed online, vulnerable to a
+critical RCE flaw (CVE-2023-46604, CVSS v3: 10.0). Immediate patching is urged
+to prevent potential data theft and network compromise. Stay vigilant! 🛡️💻
+
+Apache ActiveMQ is an open-source message broker for secure communication
+between clients and servers, supporting Java and various cross-language
+clients and protocols like AMQP, MQTT, OpenWire, and STOMP.
+
+The flaw in question is CVE-2023-46604, a critical severity (CVSS v3 score:
+10.0) RCE that allows attackers to execute arbitrary shell commands by
+exploiting class types in the OpenWire protocol.
+
+According to Apache's disclosure on October 27, 2023, this vulnerability
+affects the following Apache ActiveMQ and Legacy OpenWire Module versions:
+
+  * Versions before 5.18.3 in the 5.18.x series
+  * Versions before 5.17.6 in the 5.17.x series
+  * Versions before 5.16.7 in the 5.16.x series
+  * All versions before 5.15.16
+
+To address this issue, fixes have been released in versions 5.15.16, 5.16.7,
+5.17.6, and 5.18.3. It's recommended to upgrade to one of these versions to
+enhance your IT security.
+
+Tags: [#CyberSecurity](https://infosec.exchange/tags/CyberSecurity)
+[#RCE](https://infosec.exchange/tags/RCE)
+[#ApacheActiveMQ](https://infosec.exchange/tags/ApacheActiveMQ)
+[#Vulnerability](https://infosec.exchange/tags/Vulnerability)
+[#PatchNow](https://infosec.exchange/tags/PatchNow)
+[#InfoSec](https://infosec.exchange/tags/InfoSec)
+[#ServerSecurity](https://infosec.exchange/tags/ServerSecurity)
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604) 🚨🔐
+
+Source:
+[BleepingComputer](https://www.bleepingcomputer.com/news/security/3-000-apache-
+activemq-servers-vulnerable-to-rce-attacks-exposed-online/)
+
+Author: Bill Toulas
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@catc0n>catc0n@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@catc0n/111336835730646379>at 2023-11-01T19:01:31.000Z</a>
+<md-block>
+
+
+Rapid7 MDR has identified what appears to be exploitation of Apache
+[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604) in customer
+environments. The attacker behavior our team has observed includes attempts to
+deploy [#ransomware](https://infosec.exchange/tags/ransomware) on victim
+systems. [https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
+exploitation-of-apache-activemq-
+cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
+exploitation-of-apache-activemq-cve-2023-46604/)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111336781949612347>at 2023-11-01T18:47:50.000Z</a>
+<md-block>
+
+
+ **Rapid7** identified suspected exploitation of CVE-2023-46604 (CVSS: **10.0
+critical** severity, disclosed 26 October 2023 by Apache). Rapid7 also
+included links to a Proof of Concept exploit, external technical details, and
+their own vulnerability analysis. They provided Indicators of Compromise.  
+ **Link:** [https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
+exploitation-of-apache-activemq-
+cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
+exploitation-of-apache-activemq-cve-2023-46604/)
+
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
+[#Apache](https://infosec.exchange/tags/Apache)
+[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#RCE](https://infosec.exchange/tags/RCE)
+[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#pocexploit](https://infosec.exchange/tags/pocexploit)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111336769862710877>at 2023-11-01T18:44:46.000Z</a>
+<md-block>
+
+
+[@BleepingComputer](https://infosec.exchange/@BleepingComputer) Hot off the
+press: "Beginning Friday, October 27, Rapid7 Managed Detection and Response
+(MDR) identified suspected exploitation of Apache ActiveMQ CVE-2023-46604 in
+two different customer environments."  
+ **Link:** [https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
+exploitation-of-apache-activemq-
+cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
+exploitation-of-apache-activemq-cve-2023-46604/)
+
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
+[#Apache](https://infosec.exchange/tags/Apache)
+[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#RCE](https://infosec.exchange/tags/RCE)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111336632423607345>at 2023-11-01T18:09:49.000Z</a>
+<md-block>
+
+
+[@BleepingComputer](https://infosec.exchange/@BleepingComputer) CVE-2023-46604
+(CVSS: 10.0 critical severity, disclosed 26 October 2023 by Apache)  
+Apache ActiveMQ is vulnerable to Remote Code Execution.The vulnerability may
+allow a remote attacker with network access to a broker to run arbitrary shell
+commands by manipulating serialized class types in the OpenWire protocol to
+cause the broker to instantiate any class on the classpath. Users are
+recommended to upgrade to version 5.15.16, 5.16.7, 5.17.6, or 5.18.3, which
+fixes this issue.
+
+The Netherlands' National Cyber Security Centrum (NCSC) states that Proof of
+Concept has been published publicly, and that they received a report from a
+trusted partner that the vulnerability has been actively and specifically
+exploited.
+[https://advisories.ncsc.nl/advisory?id=NCSC-2023-0561](https://advisories.ncsc.nl/advisory?id=NCSC-2023-0561)
+
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
+[#Apache](https://infosec.exchange/tags/Apache)
+[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#RCE](https://infosec.exchange/tags/RCE)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://mastodon.social/@jbzfn>jbzfn@mastodon.social</a>
+				<a class=posturl target=_blank href=https://mastodon.social/@jbzfn/111364729378497399>at 2023-11-06T17:15:14.000Z</a>
+<md-block>
+
+
+🔎 HelloKitty ransomware now exploiting Apache ActiveMQ flaw in attacks  
+➥ [@BleepingComputer](https://infosec.exchange/@BleepingComputer)
+
+「 The flaw, tracked CVE-2023-46604, is a critical severity (CVSS v3 score:
+10.0) RCE allowing attackers to execute arbitrary shell commands by exploiting
+the serialized class types in the OpenWire protocol 」
+
+[https://www.bleepingcomputer.com/news/security/hellokitty-ransomware-now-
+exploiting-apache-activemq-flaw-in-
+attacks/](https://www.bleepingcomputer.com/news/security/hellokitty-
+ransomware-now-exploiting-apache-activemq-flaw-in-attacks/)
+
+[#ActiveMQ](https://mastodon.social/tags/ActiveMQ)
+[#RCE](https://mastodon.social/tags/RCE)
+[#CVE202346604](https://mastodon.social/tags/CVE202346604)
+[#Ransomware](https://mastodon.social/tags/Ransomware)
+[#Cybersecurity](https://mastodon.social/tags/Cybersecurity)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111354519498262460>at 2023-11-04T21:58:44.182Z</a>
+<md-block>
+
+
+ **Huntress** states that CVE-2023-46604 (CVSS: **10.0 critical** severity,
+disclosed 26 October 2023 by Apache, Proof of Concept available, added to
+CISA's KEV Catalog on 02 November) was being exploited as a Zero-Day since at
+least 10 October 2023. They provide IOC and additional information/technical
+details.  
+**Link:** [https://www.huntress.com/blog/critical-vulnerability-exploitation-
+of-apache-activemq-cve-2023-46604](https://www.huntress.com/blog/critical-
+vulnerability-exploitation-of-apache-activemq-cve-2023-46604)
+
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
+[#Apache](https://infosec.exchange/tags/Apache)
+[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#pocexploit](https://infosec.exchange/tags/pocexploit)
+[#threatintel](https://infosec.exchange/tags/threatintel)
+[#threathunting](https://infosec.exchange/tags/threathunting)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#RCE](https://infosec.exchange/tags/RCE)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111347853242996565>at 2023-11-03T17:43:25.199Z</a>
+<md-block>
+
+
+[@ntkramer](https://infosec.exchange/@ntkramer) Rapid7 reported CVE-2023-46604
+exploitation on 01 November 2023, notably from HelloKitty ransomware actors,
+and provided indicators of compromise:
+[https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-exploitation-of-
+apache-activemq-
+cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
+exploitation-of-apache-activemq-cve-2023-46604/)
+
+CISA added CVE-2023-46604 to its Known Exploited Vulnerabilities (KEV) Catalog
+on 02 November 2023: [https://www.cisa.gov/news-events/alerts/2023/11/02/cisa-
+adds-one-known-exploited-vulnerability-catalog](https://www.cisa.gov/news-
+events/alerts/2023/11/02/cisa-adds-one-known-exploited-vulnerability-catalog)
+
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
+[#Apache](https://infosec.exchange/tags/Apache)
+[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#RCE](https://infosec.exchange/tags/RCE)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#eitw](https://infosec.exchange/tags/eitw)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111341708158014276>at 2023-11-02T15:40:38.642Z</a>
+<md-block>
+
+
+CISA added CVE-2023-46604 (CVSS: **10.0 critical** severity, disclosed 26
+October 2023 by Apache) to the Known Exploited Vulnerabilities (KEV) Catalog.
+This is after the Netherlands NCSC and Rapid7 reported exploitation in the
+wild yesterday 01 November 2023. Rapid7 attributed the exploitation to
+'HelloKitty' (hellokittycat?) ransomware actors.  
+**Link:** [https://www.cisa.gov/news-events/alerts/2023/11/02/cisa-adds-one-
+known-exploited-vulnerability-catalog](https://www.cisa.gov/news-
+events/alerts/2023/11/02/cisa-adds-one-known-exploited-vulnerability-catalog)
+
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
+[#Apache](https://infosec.exchange/tags/Apache)
+[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#RCE](https://infosec.exchange/tags/RCE)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#eitw](https://infosec.exchange/tags/eitw)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@H3liumb0y>H3liumb0y</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@H3liumb0y/111339332600587207>at 2023-11-02T05:36:30.512Z</a>
+<md-block>
+
+
+"⚠️ Critical RCE Alert: 3,000 Apache ActiveMQ Servers at Risk! ⚠️"
+
+Over 3,000 Apache ActiveMQ servers are exposed online, vulnerable to a
+critical RCE flaw (CVE-2023-46604, CVSS v3: 10.0). Immediate patching is urged
+to prevent potential data theft and network compromise. Stay vigilant! 🛡️💻
+
+Apache ActiveMQ is an open-source message broker for secure communication
+between clients and servers, supporting Java and various cross-language
+clients and protocols like AMQP, MQTT, OpenWire, and STOMP.
+
+The flaw in question is CVE-2023-46604, a critical severity (CVSS v3 score:
+10.0) RCE that allows attackers to execute arbitrary shell commands by
+exploiting class types in the OpenWire protocol.
+
+According to Apache's disclosure on October 27, 2023, this vulnerability
+affects the following Apache ActiveMQ and Legacy OpenWire Module versions:
+
+  * Versions before 5.18.3 in the 5.18.x series
+  * Versions before 5.17.6 in the 5.17.x series
+  * Versions before 5.16.7 in the 5.16.x series
+  * All versions before 5.15.16
+
+To address this issue, fixes have been released in versions 5.15.16, 5.16.7,
+5.17.6, and 5.18.3. It's recommended to upgrade to one of these versions to
+enhance your IT security.
+
+Tags: [#CyberSecurity](https://infosec.exchange/tags/CyberSecurity)
+[#RCE](https://infosec.exchange/tags/RCE)
+[#ApacheActiveMQ](https://infosec.exchange/tags/ApacheActiveMQ)
+[#Vulnerability](https://infosec.exchange/tags/Vulnerability)
+[#PatchNow](https://infosec.exchange/tags/PatchNow)
+[#InfoSec](https://infosec.exchange/tags/InfoSec)
+[#ServerSecurity](https://infosec.exchange/tags/ServerSecurity)
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604) 🚨🔐
+
+Source:
+[BleepingComputer](https://www.bleepingcomputer.com/news/security/3-000-apache-
+activemq-servers-vulnerable-to-rce-attacks-exposed-online/)
+
+Author: Bill Toulas
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://fosstodon.org/@frehi>frehi@fosstodon.org</a>
+				<a class=posturl target=_blank href=https://fosstodon.org/@frehi/111336971618156265>at 2023-11-01T19:36:04.000Z</a>
+<md-block>
+
+
+This is worrying. CVE-2023-46604 in ActiveMQ is being exploited in the wild,
+while [#Debian](https://fosstodon.org/tags/Debian) does not have a fixed
+package yet:
+
+[https://security-tracker.debian.org/tracker/CVE-2023-46604](https://security-
+tracker.debian.org/tracker/CVE-2023-46604)
+
+[#activemq](https://fosstodon.org/tags/activemq)
+[#cve202346604](https://fosstodon.org/tags/cve202346604)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@catc0n>catc0n</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@catc0n/111336835730646379>at 2023-11-01T19:01:31.301Z</a>
+<md-block>
+
+
+Rapid7 MDR has identified what appears to be exploitation of Apache
+[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604) in customer
+environments. The attacker behavior our team has observed includes attempts to
+deploy [#ransomware](https://infosec.exchange/tags/ransomware) on victim
+systems. [https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
+exploitation-of-apache-activemq-
+cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
+exploitation-of-apache-activemq-cve-2023-46604/)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111336781949612347>at 2023-11-01T18:47:50.668Z</a>
+<md-block>
+
+
+ **Rapid7** identified suspected exploitation of CVE-2023-46604 (CVSS: **10.0
+critical** severity, disclosed 26 October 2023 by Apache). Rapid7 also
+included links to a Proof of Concept exploit, external technical details, and
+their own vulnerability analysis. They provided Indicators of Compromise.  
+ **Link:** [https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
+exploitation-of-apache-activemq-
+cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
+exploitation-of-apache-activemq-cve-2023-46604/)
+
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
+[#Apache](https://infosec.exchange/tags/Apache)
+[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#RCE](https://infosec.exchange/tags/RCE)
+[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#pocexploit](https://infosec.exchange/tags/pocexploit)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111336769862710877>at 2023-11-01T18:44:46.237Z</a>
+<md-block>
+
+
+[@BleepingComputer](https://infosec.exchange/@BleepingComputer) Hot off the
+press: "Beginning Friday, October 27, Rapid7 Managed Detection and Response
+(MDR) identified suspected exploitation of Apache ActiveMQ CVE-2023-46604 in
+two different customer environments."  
+ **Link:** [https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
+exploitation-of-apache-activemq-
+cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
+exploitation-of-apache-activemq-cve-2023-46604/)
+
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
+[#Apache](https://infosec.exchange/tags/Apache)
+[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#RCE](https://infosec.exchange/tags/RCE)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111336632423607345>at 2023-11-01T18:09:49.083Z</a>
+<md-block>
+
+
+[@BleepingComputer](https://infosec.exchange/@BleepingComputer) CVE-2023-46604
+(CVSS: 10.0 critical severity, disclosed 26 October 2023 by Apache)  
+Apache ActiveMQ is vulnerable to Remote Code Execution.The vulnerability may
+allow a remote attacker with network access to a broker to run arbitrary shell
+commands by manipulating serialized class types in the OpenWire protocol to
+cause the broker to instantiate any class on the classpath. Users are
+recommended to upgrade to version 5.15.16, 5.16.7, 5.17.6, or 5.18.3, which
+fixes this issue.
+
+The Netherlands' National Cyber Security Centrum (NCSC) states that Proof of
+Concept has been published publicly, and that they received a report from a
+trusted partner that the vulnerability has been actively and specifically
+exploited.
+[https://advisories.ncsc.nl/advisory?id=NCSC-2023-0561](https://advisories.ncsc.nl/advisory?id=NCSC-2023-0561)
+
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
+[#Apache](https://infosec.exchange/tags/Apache)
+[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#RCE](https://infosec.exchange/tags/RCE)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://mastodon.social/@jbzfn>jbzfn@mastodon.social</a>
+				<a class=posturl target=_blank href=https://mastodon.social/@jbzfn/111364729378497399>at 2023-11-06T17:15:14.000Z</a>
+<md-block>
+
+
+🔎 HelloKitty ransomware now exploiting Apache ActiveMQ flaw in attacks  
+➥ [@BleepingComputer](https://infosec.exchange/@BleepingComputer)
+
+「 The flaw, tracked CVE-2023-46604, is a critical severity (CVSS v3 score:
+10.0) RCE allowing attackers to execute arbitrary shell commands by exploiting
+the serialized class types in the OpenWire protocol 」
+
+[https://www.bleepingcomputer.com/news/security/hellokitty-ransomware-now-
+exploiting-apache-activemq-flaw-in-
+attacks/](https://www.bleepingcomputer.com/news/security/hellokitty-
+ransomware-now-exploiting-apache-activemq-flaw-in-attacks/)
+
+[#ActiveMQ](https://mastodon.social/tags/ActiveMQ)
+[#RCE](https://mastodon.social/tags/RCE)
+[#CVE202346604](https://mastodon.social/tags/CVE202346604)
+[#Ransomware](https://mastodon.social/tags/Ransomware)
+[#Cybersecurity](https://mastodon.social/tags/Cybersecurity)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111354519498262460>at 2023-11-04T21:58:44.000Z</a>
+<md-block>
+
+
+ **Huntress** states that CVE-2023-46604 (CVSS: **10.0 critical** severity,
+disclosed 26 October 2023 by Apache, Proof of Concept available, added to
+CISA's KEV Catalog on 02 November) was being exploited as a Zero-Day since at
+least 10 October 2023. They provide IOC and additional information/technical
+details.  
+**Link:** [https://www.huntress.com/blog/critical-vulnerability-exploitation-
+of-apache-activemq-cve-2023-46604](https://www.huntress.com/blog/critical-
+vulnerability-exploitation-of-apache-activemq-cve-2023-46604)
+
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
+[#Apache](https://infosec.exchange/tags/Apache)
+[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#pocexploit](https://infosec.exchange/tags/pocexploit)
+[#threatintel](https://infosec.exchange/tags/threatintel)
+[#threathunting](https://infosec.exchange/tags/threathunting)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#RCE](https://infosec.exchange/tags/RCE)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111347853242996565>at 2023-11-03T17:43:25.000Z</a>
+<md-block>
+
+
+[@ntkramer](https://infosec.exchange/@ntkramer) Rapid7 reported CVE-2023-46604
+exploitation on 01 November 2023, notably from HelloKitty ransomware actors,
+and provided indicators of compromise:
+[https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-exploitation-of-
+apache-activemq-
+cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
+exploitation-of-apache-activemq-cve-2023-46604/)
+
+CISA added CVE-2023-46604 to its Known Exploited Vulnerabilities (KEV) Catalog
+on 02 November 2023: [https://www.cisa.gov/news-events/alerts/2023/11/02/cisa-
+adds-one-known-exploited-vulnerability-catalog](https://www.cisa.gov/news-
+events/alerts/2023/11/02/cisa-adds-one-known-exploited-vulnerability-catalog)
+
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
+[#Apache](https://infosec.exchange/tags/Apache)
+[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#RCE](https://infosec.exchange/tags/RCE)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#eitw](https://infosec.exchange/tags/eitw)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111341708158014276>at 2023-11-02T15:40:38.000Z</a>
+<md-block>
+
+
+CISA added CVE-2023-46604 (CVSS: **10.0 critical** severity, disclosed 26
+October 2023 by Apache) to the Known Exploited Vulnerabilities (KEV) Catalog.
+This is after the Netherlands NCSC and Rapid7 reported exploitation in the
+wild yesterday 01 November 2023. Rapid7 attributed the exploitation to
+'HelloKitty' (hellokittycat?) ransomware actors.  
+**Link:** [https://www.cisa.gov/news-events/alerts/2023/11/02/cisa-adds-one-
+known-exploited-vulnerability-catalog](https://www.cisa.gov/news-
+events/alerts/2023/11/02/cisa-adds-one-known-exploited-vulnerability-catalog)
+
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
+[#Apache](https://infosec.exchange/tags/Apache)
+[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#RCE](https://infosec.exchange/tags/RCE)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#eitw](https://infosec.exchange/tags/eitw)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@H3liumb0y>H3liumb0y@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@H3liumb0y/111339332600587207>at 2023-11-02T05:36:30.000Z</a>
+<md-block>
+
+
+"⚠️ Critical RCE Alert: 3,000 Apache ActiveMQ Servers at Risk! ⚠️"
+
+Over 3,000 Apache ActiveMQ servers are exposed online, vulnerable to a
+critical RCE flaw (CVE-2023-46604, CVSS v3: 10.0). Immediate patching is urged
+to prevent potential data theft and network compromise. Stay vigilant! 🛡️💻
+
+Apache ActiveMQ is an open-source message broker for secure communication
+between clients and servers, supporting Java and various cross-language
+clients and protocols like AMQP, MQTT, OpenWire, and STOMP.
+
+The flaw in question is CVE-2023-46604, a critical severity (CVSS v3 score:
+10.0) RCE that allows attackers to execute arbitrary shell commands by
+exploiting class types in the OpenWire protocol.
+
+According to Apache's disclosure on October 27, 2023, this vulnerability
+affects the following Apache ActiveMQ and Legacy OpenWire Module versions:
+
+  * Versions before 5.18.3 in the 5.18.x series
+  * Versions before 5.17.6 in the 5.17.x series
+  * Versions before 5.16.7 in the 5.16.x series
+  * All versions before 5.15.16
+
+To address this issue, fixes have been released in versions 5.15.16, 5.16.7,
+5.17.6, and 5.18.3. It's recommended to upgrade to one of these versions to
+enhance your IT security.
+
+Tags: [#CyberSecurity](https://infosec.exchange/tags/CyberSecurity)
+[#RCE](https://infosec.exchange/tags/RCE)
+[#ApacheActiveMQ](https://infosec.exchange/tags/ApacheActiveMQ)
+[#Vulnerability](https://infosec.exchange/tags/Vulnerability)
+[#PatchNow](https://infosec.exchange/tags/PatchNow)
+[#InfoSec](https://infosec.exchange/tags/InfoSec)
+[#ServerSecurity](https://infosec.exchange/tags/ServerSecurity)
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604) 🚨🔐
+
+Source:
+[BleepingComputer](https://www.bleepingcomputer.com/news/security/3-000-apache-
+activemq-servers-vulnerable-to-rce-attacks-exposed-online/)
+
+Author: Bill Toulas
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@catc0n>catc0n@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@catc0n/111336835730646379>at 2023-11-01T19:01:31.000Z</a>
+<md-block>
+
+
+Rapid7 MDR has identified what appears to be exploitation of Apache
+[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604) in customer
+environments. The attacker behavior our team has observed includes attempts to
+deploy [#ransomware](https://infosec.exchange/tags/ransomware) on victim
+systems. [https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
+exploitation-of-apache-activemq-
+cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
+exploitation-of-apache-activemq-cve-2023-46604/)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111336781949612347>at 2023-11-01T18:47:50.000Z</a>
+<md-block>
+
+
+ **Rapid7** identified suspected exploitation of CVE-2023-46604 (CVSS: **10.0
+critical** severity, disclosed 26 October 2023 by Apache). Rapid7 also
+included links to a Proof of Concept exploit, external technical details, and
+their own vulnerability analysis. They provided Indicators of Compromise.  
+ **Link:** [https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
+exploitation-of-apache-activemq-
+cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
+exploitation-of-apache-activemq-cve-2023-46604/)
+
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
+[#Apache](https://infosec.exchange/tags/Apache)
+[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#RCE](https://infosec.exchange/tags/RCE)
+[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#pocexploit](https://infosec.exchange/tags/pocexploit)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111336769862710877>at 2023-11-01T18:44:46.000Z</a>
+<md-block>
+
+
+[@BleepingComputer](https://infosec.exchange/@BleepingComputer) Hot off the
+press: "Beginning Friday, October 27, Rapid7 Managed Detection and Response
+(MDR) identified suspected exploitation of Apache ActiveMQ CVE-2023-46604 in
+two different customer environments."  
+ **Link:** [https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
+exploitation-of-apache-activemq-
+cve-2023-46604/](https://www.rapid7.com/blog/post/2023/11/01/etr-suspected-
+exploitation-of-apache-activemq-cve-2023-46604/)
+
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
+[#Apache](https://infosec.exchange/tags/Apache)
+[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#RCE](https://infosec.exchange/tags/RCE)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111336632423607345>at 2023-11-01T18:09:49.000Z</a>
+<md-block>
+
+
+[@BleepingComputer](https://infosec.exchange/@BleepingComputer) CVE-2023-46604
+(CVSS: 10.0 critical severity, disclosed 26 October 2023 by Apache)  
+Apache ActiveMQ is vulnerable to Remote Code Execution.The vulnerability may
+allow a remote attacker with network access to a broker to run arbitrary shell
+commands by manipulating serialized class types in the OpenWire protocol to
+cause the broker to instantiate any class on the classpath. Users are
+recommended to upgrade to version 5.15.16, 5.16.7, 5.17.6, or 5.18.3, which
+fixes this issue.
+
+The Netherlands' National Cyber Security Centrum (NCSC) states that Proof of
+Concept has been published publicly, and that they received a report from a
+trusted partner that the vulnerability has been actively and specifically
+exploited.
+[https://advisories.ncsc.nl/advisory?id=NCSC-2023-0561](https://advisories.ncsc.nl/advisory?id=NCSC-2023-0561)
+
+[#CVE202346604](https://infosec.exchange/tags/CVE202346604)
+[#Apache](https://infosec.exchange/tags/Apache)
+[#ActiveMQ](https://infosec.exchange/tags/ActiveMQ)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#RCE](https://infosec.exchange/tags/RCE)
+
+
+</md-block>
+			<hr>
+			
+
+		</div>
+	</div>
+	
+
+	<div class="cve">
+
+			
+		
+		<h3 class=None>CVE-2023-22518<br>(0 None)</h3>
+		
+
+		
+		<h4 class=epss>EPSS: 96.76%</h4>
+		
+
+		<p class=numposts>20 posts</p>
+
+		<p class=description>
+		All versions of Confluence Data Center and Server are affected by this unexploited vulnerability. There is no impact to confidentiality as an attacker cannot exfiltrate any instance data.
+
+Atlassian Cloud sites are not affected by this vulnerability. If your Confluence site is accessed via an atlassian.net domain, it is hosted by Atlassian and is not vulnerable to this issue.
+		</p>
+		
+		
+
+		<div class="posts">
+
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111386183179258231>at 2023-11-10T12:11:13.610Z</a>
+<md-block>
+
+
+ **Trend Micro** also observed Atlassian Confluence CVE-2023-22518
+exploitation leading to Cerber ransomware. They provide an infection chain and
+scattered IOC.  
+ **Link:** [https://www.trendmicro.com/en_us/research/23/k/cerber-ransomware-
+exploits-
+cve-2023-22518.html](https://www.trendmicro.com/en_us/research/23/k/cerber-
+ransomware-exploits-cve-2023-22518.html)
+
+[#AtlassianConfluence](https://infosec.exchange/tags/AtlassianConfluence)
+[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
+[#Cerber](https://infosec.exchange/tags/Cerber)
+[#ransomware](https://infosec.exchange/tags/ransomware)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@Walker>Walker</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@Walker/111380956734153264>at 2023-11-09T14:02:04.386Z</a>
+<md-block>
+
+
+To help mitigate the [#atlassian](https://infosec.exchange/tags/atlassian)
+[#confluence](https://infosec.exchange/tags/confluence)
+[#ransomware](https://infosec.exchange/tags/ransomware) as a result of
+[#cve202322518](https://infosec.exchange/tags/cve202322518)
+
+1\. Dont run Jira or Confluence as root on the linux box. (Good advice for any
+web app).
+
+2\. Install the database on a different machine from the web server. Even if
+your web server gets compromised and encrypted the data in Jira will remain
+safe and recoverable.
+
+3\. Encrypt the database tables for added protection against data theft.
+
+4\. Keep multiple daily server backups / snapshots so you can recover from a
+clean backup.
+
+5\. Monitor outbound traffic for spikes realted to data exfiltration.
+
+6\. Monitor CPU for spikes that might represent encryption activity.
+
+MOST IMPORTANT - DONT RUN Atlassian products on the open Internet!
+
+[#incidentresponse](https://infosec.exchange/tags/incidentresponse)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111370451354408639>at 2023-11-07T17:30:25.013Z</a>
+<md-block>
+
+
+A heavy Confluence news day: **Huntress** can also confirm active exploitation
+of Atlassian Confluence Data Center and Confluence Server (CVE-2023-22518)
+starting on November 3. Huntress was able to identify exploitation shortly
+after patch release due to adversary reliance on common post-exploitation
+behaviors. IOC and PowerShell commands.  
+ **Link:** [https://www.huntress.com/blog/confluence-to-cerber-exploitation-
+of-cve-2023-22518-for-ransomware-
+deployment](https://www.huntress.com/blog/confluence-to-cerber-exploitation-
+of-cve-2023-22518-for-ransomware-deployment)
+
+[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
+[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
+[#Atlassian](https://infosec.exchange/tags/Atlassian)
+[#Confluence](https://infosec.exchange/tags/Confluence)
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#pocexploit](https://infosec.exchange/tags/pocexploit)
+[#ransomware](https://infosec.exchange/tags/ransomware)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#China](https://infosec.exchange/tags/China)
+[#ransomware](https://infosec.exchange/tags/ransomware)
+[#Cerber](https://infosec.exchange/tags/Cerber)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111370187877035787>at 2023-11-07T16:23:24.667Z</a>
+<md-block>
+
+
+ **CISA** adds CVE-2023-22518 to its Known Exploited Vulnerabilities (KEV)
+Catalog. First disclosed 30 October 2023 by Atlassian, its CVSS score changed
+from 9.1 critical severity to 10.0 due to changed scope. Proof of Concept and
+technical details are available, and it's been observed exploited in
+ransomware attacks by Rapid7.  
+ **Link:** [https://www.cisa.gov/news-events/alerts/2023/11/07/cisa-adds-one-
+known-exploited-vulnerability-catalog](https://www.cisa.gov/news-
+events/alerts/2023/11/07/cisa-adds-one-known-exploited-vulnerability-catalog)
+
+[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
+[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
+[#Atlassian](https://infosec.exchange/tags/Atlassian)
+[#Confluence](https://infosec.exchange/tags/Confluence)
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#pocexploit](https://infosec.exchange/tags/pocexploit)
+[#ransomware](https://infosec.exchange/tags/ransomware)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#China](https://infosec.exchange/tags/China)
+[#ransomware](https://infosec.exchange/tags/ransomware)
+[#Cerber](https://infosec.exchange/tags/Cerber)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111370148279972148>at 2023-11-07T16:13:20.464Z</a>
+<md-block>
+
+
+In case you missed it (because I had), **Atlassian** updated their security
+advisory on CVE-2023-22518: _" we observed several active exploits and reports
+of threat actors using ransomware. We have escalated CVE-2023-22518 from CVSS
+9.1 to 10, the highest critical rating, due to the change in the scope of the
+attack."_ CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+ **Link:** [https://confluence.atlassian.com/security/cve-2023-22518-improper-
+authorization-vulnerability-in-confluence-data-center-and-
+server-1311473907.html](https://confluence.atlassian.com/security/cve-2023-22518-improper-
+authorization-vulnerability-in-confluence-data-center-and-
+server-1311473907.html)
+
+[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
+[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
+[#Atlassian](https://infosec.exchange/tags/Atlassian)
+[#Confluence](https://infosec.exchange/tags/Confluence)
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#China](https://infosec.exchange/tags/China)
+[#ransomware](https://infosec.exchange/tags/ransomware)
+[#Cerber](https://infosec.exchange/tags/Cerber)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@H3liumb0y>H3liumb0y</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@H3liumb0y/111368299939142474>at 2023-11-07T08:23:17.021Z</a>
+<md-block>
+
+
+Atlassian has raised the severity of CVE-2023-22518 from CVSS 9.1 to 🔟, the
+highest critical rating, due to a change in the attack's scope. This critical
+security advisory concerns CVE-2023-22518, which highlights an improper
+authorization vulnerability in Confluence Data Center and Server. The
+vulnerability, now rated at a CVSS score of 🔟, the highest critical rating,
+enables an unauthenticated attacker to reset Confluence and create an
+administrator account, potentially leading to a complete data compromise.
+Atlassian has detected active exploitation and strongly recommends immediate
+application of the provided fixes. If immediate patching is not possible,
+temporary mitigations such as network restrictions and specific configuration
+changes can be implemented. It is imperative for customers to thoroughly
+review their threat detection systems for any signs of compromise and follow
+their security incident response plan if any evidence of a breach is
+discovered. 🛡️
+
+Source: [https://confluence.atlassian.com/security/cve-2023-22518-improper-
+authorization-vulnerability-in-confluence-data-center-and-
+server-1311473907.html](https://confluence.atlassian.com/security/cve-2023-22518-improper-
+authorization-vulnerability-in-confluence-data-center-and-
+server-1311473907.html)
+
+[#Atlassian](https://infosec.exchange/tags/Atlassian)
+[#SecurityUpdate](https://infosec.exchange/tags/SecurityUpdate)
+[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111364446201072638>at 2023-11-06T16:03:13.647Z</a>
+<md-block>
+
+
+ **Rapid7** is observing exploitation of Atlassian Confluence in multiple
+customer environments, with some of the exploits targeting CVE-2023-22518 and
+even CVE-2023-22515, potentially leading to ransomware deployment. Edit: Post-
+exploitation behavior and IOC included.
+
+CVE-2023-22515 is an actively exploited broken access control zero-day
+vulnerability that was disclosed on 04 October 2023 with a CVSS score of
+**10.0 critical** , that Microsoft observed being exploited by Chinese state
+hackers.  
+**Link:** [https://www.rapid7.com/blog/post/2023/11/06/etr-rapid7-observed-
+exploitation-of-atlassian-confluence-
+cve-2023-22518/](https://www.rapid7.com/blog/post/2023/11/06/etr-
+rapid7-observed-exploitation-of-atlassian-confluence-cve-2023-22518/)
+
+[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
+[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
+[#Atlassian](https://infosec.exchange/tags/Atlassian)
+[#Confluence](https://infosec.exchange/tags/Confluence)
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#China](https://infosec.exchange/tags/China)
+[#ransomware](https://infosec.exchange/tags/ransomware)
+[#Cerber](https://infosec.exchange/tags/Cerber)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#activeexploitation](https://infosec.exchange/tags/activeexploitation) cc:
+[@AAKL](https://noc.social/@AAKL)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@catc0n>catc0n</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@catc0n/111364343475991515>at 2023-11-06T15:37:06.185Z</a>
+<md-block>
+
+
+Rapid7 MDR is observing exploitation of Atlassian
+[#Confluence](https://infosec.exchange/tags/Confluence)
+[#CVE202322518](https://infosec.exchange/tags/CVE202322518) to drop Cerber
+[#ransomware](https://infosec.exchange/tags/ransomware) in multiple customer
+environments [https://www.rapid7.com/blog/post/2023/11/06/etr-rapid7-observed-
+exploitation-of-atlassian-confluence-
+cve-2023-22518/](https://www.rapid7.com/blog/post/2023/11/06/etr-
+rapid7-observed-exploitation-of-atlassian-confluence-cve-2023-22518/)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111364281471214402>at 2023-11-06T15:21:20.067Z</a>
+<md-block>
+
+
+ **Security Week:** The Atlassian Confluence improper authorization
+vulnerability CVE-2023-22518 (9.1 critical severity, disclosed 31 October 2023
+by Atlassian, significant data loss) is reported under active exploitation.
+CVE-2023-22518 has a now-public Proof of Concept, as well as technical details
+(released by Project Discovery). See GreyNoise observations of CVE-2023-22518
+exploitation.  
+ **Link:** [https://www.securityweek.com/exploitation-of-critical-confluence-
+vulnerability-begins/](https://www.securityweek.com/exploitation-of-critical-
+confluence-vulnerability-begins/)
+
+[#AtlassianConfluence](https://infosec.exchange/tags/AtlassianConfluence)
+[#Atlassian](https://infosec.exchange/tags/Atlassian)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
+[#pocexploit](https://infosec.exchange/tags/pocexploit)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@sans_isc>sans_isc</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@sans_isc/111363885963004617>at 2023-11-06T13:40:45.090Z</a>
+<md-block>
+
+
+Exploit Activity for [#CVE](https://infosec.exchange/tags/CVE)-2023-22518,
+[#Atlassian](https://infosec.exchange/tags/Atlassian)
+[#Confluence](https://infosec.exchange/tags/Confluence) Data Center and Server
+[#cve202322518](https://infosec.exchange/tags/cve202322518)
+[https://i5c.us/d30376](https://i5c.us/d30376)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111386183179258231>at 2023-11-10T12:11:13.000Z</a>
+<md-block>
+
+
+ **Trend Micro** also observed Atlassian Confluence CVE-2023-22518
+exploitation leading to Cerber ransomware. They provide an infection chain and
+scattered IOC.  
+ **Link:** [https://www.trendmicro.com/en_us/research/23/k/cerber-ransomware-
+exploits-
+cve-2023-22518.html](https://www.trendmicro.com/en_us/research/23/k/cerber-
+ransomware-exploits-cve-2023-22518.html)
+
+[#AtlassianConfluence](https://infosec.exchange/tags/AtlassianConfluence)
+[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
+[#Cerber](https://infosec.exchange/tags/Cerber)
+[#ransomware](https://infosec.exchange/tags/ransomware)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@Walker>Walker@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@Walker/111380956734153264>at 2023-11-09T14:02:04.000Z</a>
+<md-block>
+
+
+To help mitigate the [#atlassian](https://infosec.exchange/tags/atlassian)
+[#confluence](https://infosec.exchange/tags/confluence)
+[#ransomware](https://infosec.exchange/tags/ransomware) as a result of
+[#cve202322518](https://infosec.exchange/tags/cve202322518)
+
+1\. Dont run Jira or Confluence as root on the linux box. (Good advice for any
+web app).
+
+2\. Install the database on a different machine from the web server. Even if
+your web server gets compromised and encrypted the data in Jira will remain
+safe and recoverable.
+
+3\. Encrypt the database tables for added protection against data theft.
+
+4\. Keep multiple daily server backups / snapshots so you can recover from a
+clean backup.
+
+5\. Monitor outbound traffic for spikes realted to data exfiltration.
+
+6\. Monitor CPU for spikes that might represent encryption activity.
+
+MOST IMPORTANT - DONT RUN Atlassian products on the open Internet!
+
+[#incidentresponse](https://infosec.exchange/tags/incidentresponse)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111370451354408639>at 2023-11-07T17:30:25.000Z</a>
+<md-block>
+
+
+A heavy Confluence news day: **Huntress** can also confirm active exploitation
+of Atlassian Confluence Data Center and Confluence Server (CVE-2023-22518)
+starting on November 3. Huntress was able to identify exploitation shortly
+after patch release due to adversary reliance on common post-exploitation
+behaviors. IOC and PowerShell commands.  
+ **Link:** [https://www.huntress.com/blog/confluence-to-cerber-exploitation-
+of-cve-2023-22518-for-ransomware-
+deployment](https://www.huntress.com/blog/confluence-to-cerber-exploitation-
+of-cve-2023-22518-for-ransomware-deployment)
+
+[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
+[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
+[#Atlassian](https://infosec.exchange/tags/Atlassian)
+[#Confluence](https://infosec.exchange/tags/Confluence)
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#pocexploit](https://infosec.exchange/tags/pocexploit)
+[#ransomware](https://infosec.exchange/tags/ransomware)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#China](https://infosec.exchange/tags/China)
+[#ransomware](https://infosec.exchange/tags/ransomware)
+[#Cerber](https://infosec.exchange/tags/Cerber)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111370187877035787>at 2023-11-07T16:23:24.000Z</a>
+<md-block>
+
+
+ **CISA** adds CVE-2023-22518 to its Known Exploited Vulnerabilities (KEV)
+Catalog. First disclosed 30 October 2023 by Atlassian, its CVSS score changed
+from 9.1 critical severity to 10.0 due to changed scope. Proof of Concept and
+technical details are available, and it's been observed exploited in
+ransomware attacks by Rapid7.  
+ **Link:** [https://www.cisa.gov/news-events/alerts/2023/11/07/cisa-adds-one-
+known-exploited-vulnerability-catalog](https://www.cisa.gov/news-
+events/alerts/2023/11/07/cisa-adds-one-known-exploited-vulnerability-catalog)
+
+[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
+[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
+[#Atlassian](https://infosec.exchange/tags/Atlassian)
+[#Confluence](https://infosec.exchange/tags/Confluence)
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#pocexploit](https://infosec.exchange/tags/pocexploit)
+[#ransomware](https://infosec.exchange/tags/ransomware)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#China](https://infosec.exchange/tags/China)
+[#ransomware](https://infosec.exchange/tags/ransomware)
+[#Cerber](https://infosec.exchange/tags/Cerber)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111370148279972148>at 2023-11-07T16:13:20.000Z</a>
+<md-block>
+
+
+In case you missed it (because I had), **Atlassian** updated their security
+advisory on CVE-2023-22518: _" we observed several active exploits and reports
+of threat actors using ransomware. We have escalated CVE-2023-22518 from CVSS
+9.1 to 10, the highest critical rating, due to the change in the scope of the
+attack."_ CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+ **Link:** [https://confluence.atlassian.com/security/cve-2023-22518-improper-
+authorization-vulnerability-in-confluence-data-center-and-
+server-1311473907.html](https://confluence.atlassian.com/security/cve-2023-22518-improper-
+authorization-vulnerability-in-confluence-data-center-and-
+server-1311473907.html)
+
+[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
+[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
+[#Atlassian](https://infosec.exchange/tags/Atlassian)
+[#Confluence](https://infosec.exchange/tags/Confluence)
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#China](https://infosec.exchange/tags/China)
+[#ransomware](https://infosec.exchange/tags/ransomware)
+[#Cerber](https://infosec.exchange/tags/Cerber)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@H3liumb0y>H3liumb0y@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@H3liumb0y/111368299939142474>at 2023-11-07T08:23:17.000Z</a>
+<md-block>
+
+
+Atlassian has raised the severity of CVE-2023-22518 from CVSS 9.1 to 🔟, the
+highest critical rating, due to a change in the attack's scope. This critical
+security advisory concerns CVE-2023-22518, which highlights an improper
+authorization vulnerability in Confluence Data Center and Server. The
+vulnerability, now rated at a CVSS score of 🔟, the highest critical rating,
+enables an unauthenticated attacker to reset Confluence and create an
+administrator account, potentially leading to a complete data compromise.
+Atlassian has detected active exploitation and strongly recommends immediate
+application of the provided fixes. If immediate patching is not possible,
+temporary mitigations such as network restrictions and specific configuration
+changes can be implemented. It is imperative for customers to thoroughly
+review their threat detection systems for any signs of compromise and follow
+their security incident response plan if any evidence of a breach is
+discovered. 🛡️
+
+Source: [https://confluence.atlassian.com/security/cve-2023-22518-improper-
+authorization-vulnerability-in-confluence-data-center-and-
+server-1311473907.html](https://confluence.atlassian.com/security/cve-2023-22518-improper-
+authorization-vulnerability-in-confluence-data-center-and-
+server-1311473907.html)
+
+[#Atlassian](https://infosec.exchange/tags/Atlassian)
+[#SecurityUpdate](https://infosec.exchange/tags/SecurityUpdate)
+[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111364446201072638>at 2023-11-06T16:03:13.000Z</a>
+<md-block>
+
+
+ **Rapid7** is observing exploitation of Atlassian Confluence in multiple
+customer environments, with some of the exploits targeting CVE-2023-22518 and
+even CVE-2023-22515, potentially leading to ransomware deployment. Edit: Post-
+exploitation behavior and IOC included.
+
+CVE-2023-22515 is an actively exploited broken access control zero-day
+vulnerability that was disclosed on 04 October 2023 with a CVSS score of
+**10.0 critical** , that Microsoft observed being exploited by Chinese state
+hackers.  
+**Link:** [https://www.rapid7.com/blog/post/2023/11/06/etr-rapid7-observed-
+exploitation-of-atlassian-confluence-
+cve-2023-22518/](https://www.rapid7.com/blog/post/2023/11/06/etr-
+rapid7-observed-exploitation-of-atlassian-confluence-cve-2023-22518/)
+
+[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
+[#CVE202322515](https://infosec.exchange/tags/CVE202322515)
+[#Atlassian](https://infosec.exchange/tags/Atlassian)
+[#Confluence](https://infosec.exchange/tags/Confluence)
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#China](https://infosec.exchange/tags/China)
+[#ransomware](https://infosec.exchange/tags/ransomware)
+[#Cerber](https://infosec.exchange/tags/Cerber)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#activeexploitation](https://infosec.exchange/tags/activeexploitation) cc:
+[@AAKL](https://noc.social/@AAKL)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@catc0n>catc0n@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@catc0n/111364343475991515>at 2023-11-06T15:37:06.000Z</a>
+<md-block>
+
+
+Rapid7 MDR is observing exploitation of Atlassian
+[#Confluence](https://infosec.exchange/tags/Confluence)
+[#CVE202322518](https://infosec.exchange/tags/CVE202322518) to drop Cerber
+[#ransomware](https://infosec.exchange/tags/ransomware) in multiple customer
+environments [https://www.rapid7.com/blog/post/2023/11/06/etr-rapid7-observed-
+exploitation-of-atlassian-confluence-
+cve-2023-22518/](https://www.rapid7.com/blog/post/2023/11/06/etr-
+rapid7-observed-exploitation-of-atlassian-confluence-cve-2023-22518/)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111364281471214402>at 2023-11-06T15:21:20.000Z</a>
+<md-block>
+
+
+ **Security Week:** The Atlassian Confluence improper authorization
+vulnerability CVE-2023-22518 (9.1 critical severity, disclosed 31 October 2023
+by Atlassian, significant data loss) is reported under active exploitation.
+CVE-2023-22518 has a now-public Proof of Concept, as well as technical details
+(released by Project Discovery). See GreyNoise observations of CVE-2023-22518
+exploitation.  
+ **Link:** [https://www.securityweek.com/exploitation-of-critical-confluence-
+vulnerability-begins/](https://www.securityweek.com/exploitation-of-critical-
+confluence-vulnerability-begins/)
+
+[#AtlassianConfluence](https://infosec.exchange/tags/AtlassianConfluence)
+[#Atlassian](https://infosec.exchange/tags/Atlassian)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+[#CVE202322518](https://infosec.exchange/tags/CVE202322518)
+[#pocexploit](https://infosec.exchange/tags/pocexploit)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@sans_isc>sans_isc@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@sans_isc/111363885963004617>at 2023-11-06T13:40:45.000Z</a>
+<md-block>
+
+
+Exploit Activity for [#CVE](https://infosec.exchange/tags/CVE)-2023-22518,
+[#Atlassian](https://infosec.exchange/tags/Atlassian)
+[#Confluence](https://infosec.exchange/tags/Confluence) Data Center and Server
+[#cve202322518](https://infosec.exchange/tags/cve202322518)
+[https://i5c.us/d30376](https://i5c.us/d30376)
+
+
+</md-block>
+			<hr>
+			
+
+		</div>
+	</div>
+	
+
+	<div class="cve">
+
+			
+		
 		<h3 class=None>CVE-2023-5996<br>(0 None)</h3>
 		
 
@@ -9042,7 +9683,7 @@ critical, acquire the NTLM hash). No mention of exploitation in the wild.
 		<h4 class=epss>EPSS: 0.05%</h4>
 		
 
-		<p class=numposts>8 posts</p>
+		<p class=numposts>10 posts</p>
 
 		<p class=description>
 		In SysAid On-Premise before 23.3.36, a path traversal vulnerability leads to code execution after an attacker writes a file to the Tomcat webroot, as exploited in the wild in November 2023.
@@ -9052,6 +9693,43 @@ critical, acquire the NTLM hash). No mention of exploitation in the wild.
 
 		<div class="posts">
 
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111387389731477254>at 2023-11-10T17:18:04.139Z</a>
+<md-block>
+
+
+[@avoidthehack](https://infosec.exchange/@avoidthehack)
+[@AAKL](https://noc.social/@AAKL) Yep, I tooted about it yesterday morning
+while the news was fresh. There's a Microsoft Threat Intelligence
+[tweet](https://twitter.com/msftsecintel/status/1722444141081076219). The
+official SysAid [security advisory](https://www.sysaid.com/blog/service-
+desk/on-premise-software-security-vulnerability-notification) describes post-
+compromise activity and includes PowerShell commands and Indicators of
+Compromise. The Huntress [article](https://www.huntress.com/blog/critical-
+vulnerability-sysaid-cve-2023-47246) contains technical analysis and
+additional IOC.
+
+CISA and federal agencies are aware of the exploited Zero-Day, and are likely
+to add at least 2-3 to the Known Exploited Vulnerabilities Catalog soon.
+
+[#SysAid](https://infosec.exchange/tags/SysAid)
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
+[#CVE202347246](https://infosec.exchange/tags/CVE202347246)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#CL0P](https://infosec.exchange/tags/CL0P)
+[#ransomware](https://infosec.exchange/tags/ransomware)
+[#cybercrime](https://infosec.exchange/tags/cybercrime)
+[#Microsoft](https://infosec.exchange/tags/Microsoft)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+
+
+</md-block>
+			<hr>
 			
 				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
 				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111381234313834916>at 2023-11-09T15:12:39.918Z</a>
@@ -9107,6 +9785,43 @@ that distributes Clop ransomware. Microsoft notified SysAid about the issue
 [#activeexploitation](https://infosec.exchange/tags/activeexploitation) cc:
 [@AAKL](https://noc.social/@AAKL)
 [@avoidthehack](https://infosec.exchange/@avoidthehack)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111387389731477254>at 2023-11-10T17:18:04.000Z</a>
+<md-block>
+
+
+[@avoidthehack](https://infosec.exchange/@avoidthehack)
+[@AAKL](https://noc.social/@AAKL) Yep, I tooted about it yesterday morning
+while the news was fresh. There's a Microsoft Threat Intelligence
+[tweet](https://twitter.com/msftsecintel/status/1722444141081076219). The
+official SysAid [security advisory](https://www.sysaid.com/blog/service-
+desk/on-premise-software-security-vulnerability-notification) describes post-
+compromise activity and includes PowerShell commands and Indicators of
+Compromise. The Huntress [article](https://www.huntress.com/blog/critical-
+vulnerability-sysaid-cve-2023-47246) contains technical analysis and
+additional IOC.
+
+CISA and federal agencies are aware of the exploited Zero-Day, and are likely
+to add at least 2-3 to the Known Exploited Vulnerabilities Catalog soon.
+
+[#SysAid](https://infosec.exchange/tags/SysAid)
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
+[#CVE202347246](https://infosec.exchange/tags/CVE202347246)
+[#IOC](https://infosec.exchange/tags/IOC)
+[#CL0P](https://infosec.exchange/tags/CL0P)
+[#ransomware](https://infosec.exchange/tags/ransomware)
+[#cybercrime](https://infosec.exchange/tags/cybercrime)
+[#Microsoft](https://infosec.exchange/tags/Microsoft)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
 
 
 </md-block>
