@@ -139,7 +139,7 @@
 
 
 <body>
-Updated at UTC 2023-11-12T11:07:43.461381
+Updated at UTC 2023-11-12T11:33:55.751582
 
 <p><a target=_blank href=https://github.com/fedisecfeeds/fedisecfeeds.github.io/blob/main/fedi_cve_feed.json>Access data as JSON</a></p>
 
@@ -5380,17 +5380,17 @@ like this is the case.
 
 			
 		
-		<h3 class=HIGH>CVE-2023-5044<br>(8.8 HIGH)</h3>
+		<h3 class=HIGH>CVE-2023-5043<br>(8.8 HIGH)</h3>
 		
 
 		
-		<h4 class=epss>EPSS: 0.06%</h4>
+		<h4 class=epss>EPSS: 0.26%</h4>
 		
 
-		<p class=numposts>2 posts</p>
+		<p class=numposts>1 posts</p>
 
 		<p class=description>
-		Code injection via nginx.ingress.kubernetes.io/permanent-redirect annotation.
+		Ingress nginx annotation injection causes arbitrary command execution.
 
 		</p>
 		
@@ -5428,26 +5428,6 @@ flaws-discovered-in.html)
 </md-block>
 			<hr>
 			
-				<a target=_blank href=https://infosec.exchange/@raesene>raesene</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@raesene/111318050925409851>at 2023-10-29T11:24:17.919Z</a>
-<md-block>
-
-
-As it's a Sunday, what better way to pass the time than seeing if I can come
-up with a Proof of Concept for one of the recent ingress nginx bugs
-(CVE-2023-5044).
-
-It turned out not to be too hard to do, classic injection vulnerability with
-no escaping. Some trickiness in finding the right nginx directive to use...
-
-[https://raesene.github.io/blog/2023/10/29/exploiting-
-CVE-2023-5044/](https://raesene.github.io/blog/2023/10/29/exploiting-
-CVE-2023-5044/)
-
-
-</md-block>
-			<hr>
-			
 
 		</div>
 	</div>
@@ -5457,17 +5437,17 @@ CVE-2023-5044/)
 
 			
 		
-		<h3 class=HIGH>CVE-2023-5043<br>(8.8 HIGH)</h3>
+		<h3 class=HIGH>CVE-2023-5044<br>(8.8 HIGH)</h3>
 		
 
 		
-		<h4 class=epss>EPSS: 0.26%</h4>
+		<h4 class=epss>EPSS: 0.06%</h4>
 		
 
 		<p class=numposts>1 posts</p>
 
 		<p class=description>
-		Ingress nginx annotation injection causes arbitrary command execution.
+		Code injection via nginx.ingress.kubernetes.io/permanent-redirect annotation.
 
 		</p>
 		
@@ -9064,6 +9044,86 @@ Host header parsing memory corruption
 
 			
 		
+		<h3 class=None>CVE-2023-23369<br>(0 None)</h3>
+		
+
+		
+		<h4 class=epss>EPSS: 0.04%</h4>
+		
+
+		<p class=numposts>2 posts</p>
+
+		<p class=description>
+		An OS command injection vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow users to execute commands via a network.
+
+We have already fixed the vulnerability in the following versions:
+Multimedia Console 2.1.2 ( 2023/05/04 ) and later
+Multimedia Console 1.4.8 ( 2023/05/05 ) and later
+QTS 5.1.0.2399 build 20230515 and later
+QTS 4.3.6.2441 build 20230621 and later
+QTS 4.3.4.2451 build 20230621 and later
+QTS 4.3.3.2420 build 20230621 and later
+QTS 4.2.6 build 20230621 and later
+Media Streaming add-on 500.1.1.2 ( 2023/06/12 ) and later
+Media Streaming add-on 500.0.0.11 ( 2023/06/16 ) and later
+
+		</p>
+		
+		
+
+		<div class="posts">
+
+			
+				<a target=_blank href=https://infosec.exchange/@ntkramer>ntkramer</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@ntkramer/111375548908502829>at 2023-11-08T15:06:47.515Z</a>
+<md-block>
+
+
+There is no surprise here: an anomalous increase in interest in QNAP due to
+recently announced critical vulnerabilities (CVE-2023-23369, CVE-2023-23368).  
+[https://viz.greynoise.io/tag/qnap-walter-ssh-backdoor-
+attempt?days=10](https://viz.greynoise.io/tag/qnap-walter-ssh-backdoor-
+attempt?days=10)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@avoidthehack>avoidthehack</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@avoidthehack/111370718874349780>at 2023-11-07T18:38:27.043Z</a>
+<md-block>
+
+
+[#QNAP](https://infosec.exchange/tags/QNAP) Releases Patch for 2 Critical
+Flaws Threatening Your [#NAS](https://infosec.exchange/tags/NAS) Devices
+
+If you've got a QNAP NAS, time to update.
+
+This security patch fixes two command injection vulnerabilities.
+(CVE-2023-23368 and CVE-2023-23369)
+
+[#cybersecurity](https://infosec.exchange/tags/cybersecurity)
+[#networkstorage](https://infosec.exchange/tags/networkstorage)
+[#security](https://infosec.exchange/tags/security)
+[#cve](https://infosec.exchange/tags/cve)
+
+[https://thehackernews.com/2023/11/qnap-releases-patch-
+for-2-critical.html](https://thehackernews.com/2023/11/qnap-releases-patch-
+for-2-critical.html)
+
+
+</md-block>
+			<hr>
+			
+
+		</div>
+	</div>
+	
+
+	<div class="cve">
+
+			
+		
 		<h3 class=None>CVE-2023-23368<br>(0 None)</h3>
 		
 
@@ -9155,86 +9215,6 @@ for-2-critical.html)
 
 			
 		
-		<h3 class=None>CVE-2023-23369<br>(0 None)</h3>
-		
-
-		
-		<h4 class=epss>EPSS: 0.04%</h4>
-		
-
-		<p class=numposts>2 posts</p>
-
-		<p class=description>
-		An OS command injection vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow users to execute commands via a network.
-
-We have already fixed the vulnerability in the following versions:
-Multimedia Console 2.1.2 ( 2023/05/04 ) and later
-Multimedia Console 1.4.8 ( 2023/05/05 ) and later
-QTS 5.1.0.2399 build 20230515 and later
-QTS 4.3.6.2441 build 20230621 and later
-QTS 4.3.4.2451 build 20230621 and later
-QTS 4.3.3.2420 build 20230621 and later
-QTS 4.2.6 build 20230621 and later
-Media Streaming add-on 500.1.1.2 ( 2023/06/12 ) and later
-Media Streaming add-on 500.0.0.11 ( 2023/06/16 ) and later
-
-		</p>
-		
-		
-
-		<div class="posts">
-
-			
-				<a target=_blank href=https://infosec.exchange/@ntkramer>ntkramer</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@ntkramer/111375548908502829>at 2023-11-08T15:06:47.515Z</a>
-<md-block>
-
-
-There is no surprise here: an anomalous increase in interest in QNAP due to
-recently announced critical vulnerabilities (CVE-2023-23369, CVE-2023-23368).  
-[https://viz.greynoise.io/tag/qnap-walter-ssh-backdoor-
-attempt?days=10](https://viz.greynoise.io/tag/qnap-walter-ssh-backdoor-
-attempt?days=10)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@avoidthehack>avoidthehack</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@avoidthehack/111370718874349780>at 2023-11-07T18:38:27.043Z</a>
-<md-block>
-
-
-[#QNAP](https://infosec.exchange/tags/QNAP) Releases Patch for 2 Critical
-Flaws Threatening Your [#NAS](https://infosec.exchange/tags/NAS) Devices
-
-If you've got a QNAP NAS, time to update.
-
-This security patch fixes two command injection vulnerabilities.
-(CVE-2023-23368 and CVE-2023-23369)
-
-[#cybersecurity](https://infosec.exchange/tags/cybersecurity)
-[#networkstorage](https://infosec.exchange/tags/networkstorage)
-[#security](https://infosec.exchange/tags/security)
-[#cve](https://infosec.exchange/tags/cve)
-
-[https://thehackernews.com/2023/11/qnap-releases-patch-
-for-2-critical.html](https://thehackernews.com/2023/11/qnap-releases-patch-
-for-2-critical.html)
-
-
-</md-block>
-			<hr>
-			
-
-		</div>
-	</div>
-	
-
-	<div class="cve">
-
-			
-		
 		<h3 class=None>CVE-2023-47272<br>(0 None)</h3>
 		
 
@@ -9283,7 +9263,7 @@ so viel besser geeignet ist.
 
 			
 		
-		<h3 class=None>CVE-2023-45283<br>(0 None)</h3>
+		<h3 class=None>CVE-2023-45284<br>(0 None)</h3>
 		
 
 		
@@ -9293,7 +9273,7 @@ so viel besser geeignet ist.
 		<p class=numposts>1 posts</p>
 
 		<p class=description>
-		The filepath package does not recognize paths with a \??\ prefix as special. On Windows, a path beginning with \??\ is a Root Local Device path equivalent to a path beginning with \\?\. Paths with a \??\ prefix may be used to access arbitrary locations on the system. For example, the path \??\c:\x is equivalent to the more common path c:\x. Before fix, Clean could convert a rooted path such as \a\..\??\b into the root local device path \??\b. Clean will now convert this to .\??\b. Similarly, Join(\, ??, b) could convert a seemingly innocent sequence of path elements into the root local device path \??\b. Join will now convert this to \.\??\b. In addition, with fix, IsAbs now correctly reports paths beginning with \??\ as absolute, and VolumeName correctly reports the \??\ prefix as a volume name.
+		On Windows, The IsLocal function does not correctly detect reserved device names in some cases. Reserved names followed by spaces, such as "COM1 ", and reserved names "COM" and "LPT" followed by superscript 1, 2, or 3, are incorrectly reported as local. With fix, IsLocal now correctly reports these names as non-local.
 		</p>
 		
 		
@@ -9332,7 +9312,7 @@ announce/c/4tU8LZfBFkY)
 
 			
 		
-		<h3 class=None>CVE-2023-45284<br>(0 None)</h3>
+		<h3 class=None>CVE-2023-45283<br>(0 None)</h3>
 		
 
 		
@@ -9342,7 +9322,7 @@ announce/c/4tU8LZfBFkY)
 		<p class=numposts>1 posts</p>
 
 		<p class=description>
-		On Windows, The IsLocal function does not correctly detect reserved device names in some cases. Reserved names followed by spaces, such as "COM1 ", and reserved names "COM" and "LPT" followed by superscript 1, 2, or 3, are incorrectly reported as local. With fix, IsLocal now correctly reports these names as non-local.
+		The filepath package does not recognize paths with a \??\ prefix as special. On Windows, a path beginning with \??\ is a Root Local Device path equivalent to a path beginning with \\?\. Paths with a \??\ prefix may be used to access arbitrary locations on the system. For example, the path \??\c:\x is equivalent to the more common path c:\x. Before fix, Clean could convert a rooted path such as \a\..\??\b into the root local device path \??\b. Clean will now convert this to .\??\b. Similarly, Join(\, ??, b) could convert a seemingly innocent sequence of path elements into the root local device path \??\b. Join will now convert this to \.\??\b. In addition, with fix, IsAbs now correctly reports paths beginning with \??\ as absolute, and VolumeName correctly reports the \??\ prefix as a volume name.
 		</p>
 		
 		
