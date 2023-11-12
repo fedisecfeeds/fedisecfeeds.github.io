@@ -6,6 +6,7 @@ import os
 import time
 import datetime
 import random
+import re
 
 import html2text
 
@@ -14,6 +15,8 @@ import html2text
 IFSX_AUTH_TOKEN = os.getenv("IFSX_AUTH_TOKEN")
 #ioc.exchange
 IOCX_AUTH_TOKEN = os.getenv("IOCX_AUTH_TOKEN")
+
+CVE_PATTERN = r'(?i)\bcve\-\d{4}-\d{4,7}'
 
 start = time.time()
 
@@ -60,8 +63,9 @@ def nvd_cve_detail(cve):
 	r = requests.get(url, headers={"User-Agent":f"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 {random.randrange(0,20000)}"})
 	if r.status_code == 403:
 		print("rate limited by assholes at NVD, waiting..")
-		time.sleep(6)
+		time.sleep(6.1)
 		r = requests.get(url, headers={"User-Agent":f"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 {random.randrange(0,20000)}"})
+		return r.json()
 	if r.status_code not in [200, 403]:
 		print(f"WARN: bad nvd api status for {cve}", r.status_code, r.text[:100])
 		return None
@@ -100,7 +104,10 @@ def get_hashtag_timeline(instance_url, hashtag, auth_token=None, limit=10):
 	return r.json()
 
 
-def search_poll(instance_url, q, search_type='hashtags', auth_token=None):
+def search_poll(instance_url, q, search_type='hashtags', auth_token=None, last_days=14):
+	'''
+	search_type: Specify whether to search for only accounts, hashtags, statuses
+	'''
 	lstart = time.time()
 	results = []
 
@@ -123,137 +130,170 @@ def search_poll(instance_url, q, search_type='hashtags', auth_token=None):
 	print(f'done polling {instance_url}, found {len(results)} {search_type} secs:', time.time() - lstart)
 	return results
 
-hashtags = []
-hashtags.extend(search_poll("https://infosec.exchange","CVE", auth_token=IFSX_AUTH_TOKEN))
-hashtags.extend(search_poll("https://ioc.exchange","CVE", auth_token=IOCX_AUTH_TOKEN))
+def main():
 
 
-# get most used, trending past 5 days
-
-cve_counts = {}
-cve_posts = {}
-
-for hashtag in hashtags:
-
-	cve = normalize_cve(hashtag['name'])
-	if cve == None:
-		# skip hashtag that are invalid
-		continue
-	if cve not in cve_counts:
-		cve_counts[cve] = 0
-	for hist in hashtag['history'][:5]:
-		count = int(hist['uses'])
-		cve_counts[cve] += count
-		# day = hist['day']
-
-	# get posts
-	if cve_counts[cve] > 0:
-		if cve not in cve_posts:
-			cve_posts[cve] = []
-		cve_posts[cve].extend(get_hashtag_timeline("https://infosec.exchange", hashtag['name'], auth_token=IFSX_AUTH_TOKEN))
-		cve_posts[cve].extend(get_hashtag_timeline("https://ioc.exchange", hashtag['name'], auth_token=IOCX_AUTH_TOKEN))
-
-for cve in sorted(cve_counts, key=cve_counts.get, reverse=True): # most popular cves
-	if cve_counts[cve] != 0:
-		print(f"{cve} uniq hashtags:{cve_counts[cve]} posts:{len(cve_posts[cve])}")
-
-h2t = html2text.HTML2Text()
+	hashtags = []
+	hashtags.extend(search_poll("https://infosec.exchange","CVE", auth_token=IFSX_AUTH_TOKEN))
+	hashtags.extend(search_poll("https://ioc.exchange","CVE", auth_token=IOCX_AUTH_TOKEN))
 
 
-print(f"total {len(cve_posts)} CVEs")
+	# get most used, trending past N days
+	last_days = 14
 
-# get epss data
-print('getting EPSS data..')
-lstart = time.time()
-epss_data = first_epss_for_cves_list(list(cve_posts))
-print(len(epss_data))
-print(epss_data.keys())
-print("done getting EPSS data: ", time.time()-lstart)
+	cve_counts = {}
+	cve_posts = {}
+
+	for hashtag in hashtags:
+
+		cve = normalize_cve(hashtag['name'])
+		if cve == None:
+			# skip hashtag that are invalid
+			continue
+		if cve not in cve_counts:
+			cve_counts[cve] = 0
+		for hist in hashtag['history'][:last_days]:
+			count = int(hist['uses'])
+			cve_counts[cve] += count
+			# day = hist['day']
+
+		# get posts by hashtag
+		if cve_counts[cve] > 0:
+			if cve not in cve_posts:
+				cve_posts[cve] = []
+			cve_posts[cve].extend(get_hashtag_timeline("https://infosec.exchange", hashtag['name'], auth_token=IFSX_AUTH_TOKEN))
+			cve_posts[cve].extend(get_hashtag_timeline("https://ioc.exchange", hashtag['name'], auth_token=IOCX_AUTH_TOKEN))
+
+	# get posts by statuses (toots) search
+	post_search_results = []
+	post_search_results.extend(search_poll("https://infosec.exchange", "CVE-", search_type="statuses", auth_token=IFSX_AUTH_TOKEN, last_days=last_days))
+	post_search_results.extend(search_poll("https://ioc.exchange", "CVE-", search_type="statuses", auth_token=IOCX_AUTH_TOKEN, last_days=last_days))
+	for result in post_search_results:
+		cves = re.findall(CVE_PATTERN, result["content"])
+		cves = list(set(cves)) #dedup
+		# print('extracted:', cves)
+		for cve in cves:
+			cve = normalize_cve(cve)
+			if cve not in cve_posts:
+				cve_posts[cve] = []
+			if result not in cve_posts[cve]: # no dup
+				cve_posts[cve].append(result)
+				if cve not in cve_counts:
+					cve_counts[cve] = 0
+				cve_counts[cve] += 1
 
 
-print("getting CVE details from...")
-lstart = time.time()
-cve_details = {}
-for cve in cve_posts:
-	cve_data = cveapi_cve_detail(cve)
-	if cve_data == None:
-		# might need to try nvd
-		print(f"cveapi doesn't have {cve}, trying nvd")
-		cve_data = nvd_cve_detail(cve) # cveapi_cve_detail(cve)
-		if cve_data:
-			if cve_data['totalResults'] > 0:
-				cve_data = cve_data['vulnerabilities'][0]
-			else:
-				cve_data == None
+	# for cve in sorted(cve_counts, key=cve_counts.get, reverse=True): # most popular cves
+		# if cve_counts[cve] != 0:
+		# 	print(f"{cve} uniq hashtags:{cve_counts[cve]} posts:{len(cve_posts[cve])}")
 
-	if cve_data != None:
-		cve_details[cve] = cve_data
-	else:
-		print(f"WARNING: no cve data found on {cve}")
+	h2t = html2text.HTML2Text()
 
 
-# one big JSON blob for the page to render
-fedi_cve_feed = {} #cve:...
+	print(f"total {len(cve_posts)} CVEs")
 
-print("done getting CVE details:", time.time()-lstart)
-for cve in cve_posts:
-	fedi_cve_feed[cve] = {}
-	fedi_cve_feed[cve]['posts'] = []
+	# get epss data
+	print('getting EPSS data..')
+	lstart = time.time()
+	epss_data = first_epss_for_cves_list(list(cve_posts))
+	print(len(epss_data))
+	print(epss_data.keys())
+	print("done getting EPSS data: ", time.time()-lstart)
 
-	for post in cve_posts[cve]:
-		# created_at
-		# convert content to markdown to make XSS-ing this website slightly harder 
-		content = "ERROR with html2text parsing"
-		try:
-			content = h2t.handle(post['content'])
-		except Exception as e:
-			print("ERROR with html2text parsing:", e)
-		fedi_cve_feed[cve]['posts'].append({'account':post['account'],'url':post['url'], 'content':content, 'created_at':post['created_at']})
+
+	print("getting CVE details...")
+	lstart = time.time()
+	cve_details = {}
+	for cve in cve_posts:
+		cve_data = cveapi_cve_detail(cve)
+		if cve_data == None:
+			# might need to try nvd
+			print(f"cveapi doesn't have {cve}, trying nvd")
+			cve_data = nvd_cve_detail(cve) # cveapi_cve_detail(cve)
+			if cve_data:
+				if cve_data['totalResults'] > 0:
+					cve_data = cve_data['vulnerabilities'][0]
+				else:
+					cve_data == None
+
+		if cve_data != None:
+			cve_details[cve] = cve_data
+		else:
+			print(f"WARNING: no cve data found on {cve}")
+
+
+	# one big JSON blob for the page to render
+	fedi_cve_feed = {} #cve:...
+
+	print("done getting CVE details:", time.time()-lstart)
+	for cve in cve_posts:
+		fedi_cve_feed[cve] = {}
 		fedi_cve_feed[cve]['cvss3'] = 0
 		fedi_cve_feed[cve]['severity'] = None
+		fedi_cve_feed[cve]['posts'] = []
 
-		if cve in cve_details:
+		for post in cve_posts[cve]:
+			# filter using created_at for recent days only
+			dt = datetime.datetime.fromisoformat(post['created_at'].split('.')[0])
+			if (datetime.datetime.utcnow() - dt) > datetime.timedelta(days=last_days): # more than N last days, skip
+				continue
+
+			# convert content to markdown to make XSS-ing this website slightly harder 
+			content = "ERROR with html2text parsing"
 			try:
-				
-				if 'impact' in cve_details[cve]:
-					if 'baseMetricV3' in cve_details[cve]['impact']:
-						fedi_cve_feed[cve]['cvss3'] = cve_details[cve]['impact']['baseMetricV3']['cvssV3']['baseScore']
-						fedi_cve_feed[cve]['severity'] = cve_details[cve]['impact']['baseMetricV3']['cvssV3']['baseSeverity']
-
-				elif 'metrics' in cve_details[cve]['cve']:
-					if 'cvssMetricV30' in cve_details[cve]['cve']['metrics']:
-						fedi_cve_feed[cve]['cvss3'] = cve_details[cve]['cve']['metrics']['cvssMetricV30'][0]['cvssData']['baseScore']
-						fedi_cve_feed[cve]['severity'] = cve_details[cve]['cve']['metrics']['cvssMetricV30'][0]['cvssData']['baseSeverity']
-					if 'cvssMetricV31' in cve_details[cve]['cve']['metrics']:
-						fedi_cve_feed[cve]['cvss3'] = cve_details[cve['cve']]['metrics']['cvssMetricV31'][0]['cvssData']['baseScore']
-						fedi_cve_feed[cve]['severity'] = cve_details[cve]['cve']['metrics']['cvssMetricV31'][0]['cvssData']['baseSeverity']
-
-
-
-				if 'description' in cve_details[cve]['cve'] and len(cve_details[cve]['cve']['description']['description_data']) > 0:
-					fedi_cve_feed[cve]['description'] = cve_details[cve]['cve']['description']['description_data'][0]['value']
-				elif 'descriptions' in cve_details[cve]['cve'] and len(cve_details[cve]['cve']['descriptions']) > 0:
-					fedi_cve_feed[cve]['description'] = cve_details[cve]['cve']['descriptions'][0]['value']
-
-
+				content = h2t.handle(post['content'])
 			except Exception as e:
-				print(f"Error parsing cve detail on {cve}:", e, cve_details[cve])
-		fedi_cve_feed[cve]['epss'] = None
-		for d in epss_data['data']:
-			if d['cve'] == cve:
-				fedi_cve_feed[cve]['epss'] = float(d['epss']) * 100
+				print("ERROR with html2text parsing:", e)
+			fedi_cve_feed[cve]['posts'].append({'account':post['account'],'url':post['url'], 'content':content, 'created_at':post['created_at']})
+			
+
+			if cve in cve_details:
+				try:
+					
+					if 'impact' in cve_details[cve]:
+						if 'baseMetricV3' in cve_details[cve]['impact']:
+							fedi_cve_feed[cve]['cvss3'] = cve_details[cve]['impact']['baseMetricV3']['cvssV3']['baseScore']
+							fedi_cve_feed[cve]['severity'] = cve_details[cve]['impact']['baseMetricV3']['cvssV3']['baseSeverity']
+
+					elif 'metrics' in cve_details[cve]['cve']:
+						if 'cvssMetricV30' in cve_details[cve]['cve']['metrics']:
+							fedi_cve_feed[cve]['cvss3'] = cve_details[cve]['cve']['metrics']['cvssMetricV30'][0]['cvssData']['baseScore']
+							fedi_cve_feed[cve]['severity'] = cve_details[cve]['cve']['metrics']['cvssMetricV30'][0]['cvssData']['baseSeverity']
+						if 'cvssMetricV31' in cve_details[cve]['cve']['metrics']:
+							fedi_cve_feed[cve]['cvss3'] = cve_details[cve['cve']]['metrics']['cvssMetricV31'][0]['cvssData']['baseScore']
+							fedi_cve_feed[cve]['severity'] = cve_details[cve]['cve']['metrics']['cvssMetricV31'][0]['cvssData']['baseSeverity']
 
 
-		# print(f"{cve} {author_acct} {content}")
+
+					if 'description' in cve_details[cve]['cve'] and len(cve_details[cve]['cve']['description']['description_data']) > 0:
+						fedi_cve_feed[cve]['description'] = cve_details[cve]['cve']['description']['description_data'][0]['value']
+					elif 'descriptions' in cve_details[cve]['cve'] and len(cve_details[cve]['cve']['descriptions']) > 0:
+						fedi_cve_feed[cve]['description'] = cve_details[cve]['cve']['descriptions'][0]['value']
+
+
+				except Exception as e:
+					print(f"Error parsing cve detail on {cve}:", e, cve_details[cve])
+			fedi_cve_feed[cve]['epss'] = None
+			for d in epss_data['data']:
+				if d['cve'] == cve:
+					fedi_cve_feed[cve]['epss'] = float(d['epss']) * 100
+
+
+			# print(f"{cve} {author_acct} {content}")
+		if len(fedi_cve_feed[cve]['posts']) == 0:
+			# remove cve if there are no posts
+			del fedi_cve_feed[cve]
 
 
 
-outfile = 'fedi_cve_feed.json'
-with open(outfile, 'w+') as f:
-	json.dump(fedi_cve_feed, f, indent=2)
+	outfile = 'fedi_cve_feed.json'
+	with open(outfile, 'w+') as f:
+		json.dump(fedi_cve_feed, f, indent=2)
 
-from renderer import render
-render(outfile)
+	from renderer import render
+	render(outfile)
 
-print(f'done, written output to {outfile}. total elapsed:', time.time() - start)
+	print(f'done, written output to {outfile}. total elapsed:', time.time() - start)
 
+if __name__ == "__main__":
+	main()
