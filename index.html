@@ -139,7 +139,7 @@
 
 
 <body>
-Updated at UTC 2023-11-12T15:08:38.919493
+Updated at UTC 2023-11-12T15:34:10.800401
 
 <p><a target=_blank href=https://github.com/fedisecfeeds/fedisecfeeds.github.io/blob/main/fedi_cve_feed.json>Access data as JSON</a></p>
 
@@ -5402,17 +5402,17 @@ like this is the case.
 
 			
 		
-		<h3 class=HIGH>CVE-2023-5043<br>(8.8 HIGH)</h3>
+		<h3 class=HIGH>CVE-2023-5044<br>(8.8 HIGH)</h3>
 		
 
 		
-		<h4 class=epss>EPSS: 0.26%</h4>
+		<h4 class=epss>EPSS: 0.06%</h4>
 		
 
 		<p class=numposts>1 posts</p>
 
 		<p class=description>
-		Ingress nginx annotation injection causes arbitrary command execution.
+		Code injection via nginx.ingress.kubernetes.io/permanent-redirect annotation.
 
 		</p>
 		
@@ -5459,17 +5459,17 @@ flaws-discovered-in.html)
 
 			
 		
-		<h3 class=HIGH>CVE-2023-5044<br>(8.8 HIGH)</h3>
+		<h3 class=HIGH>CVE-2023-5043<br>(8.8 HIGH)</h3>
 		
 
 		
-		<h4 class=epss>EPSS: 0.06%</h4>
+		<h4 class=epss>EPSS: 0.26%</h4>
 		
 
 		<p class=numposts>1 posts</p>
 
 		<p class=description>
-		Code injection via nginx.ingress.kubernetes.io/permanent-redirect annotation.
+		Ingress nginx annotation injection causes arbitrary command execution.
 
 		</p>
 		
@@ -9285,7 +9285,7 @@ so viel besser geeignet ist.
 
 			
 		
-		<h3 class=None>CVE-2023-45283<br>(0 None)</h3>
+		<h3 class=None>CVE-2023-45284<br>(0 None)</h3>
 		
 
 		
@@ -9295,7 +9295,7 @@ so viel besser geeignet ist.
 		<p class=numposts>1 posts</p>
 
 		<p class=description>
-		The filepath package does not recognize paths with a \??\ prefix as special. On Windows, a path beginning with \??\ is a Root Local Device path equivalent to a path beginning with \\?\. Paths with a \??\ prefix may be used to access arbitrary locations on the system. For example, the path \??\c:\x is equivalent to the more common path c:\x. Before fix, Clean could convert a rooted path such as \a\..\??\b into the root local device path \??\b. Clean will now convert this to .\??\b. Similarly, Join(\, ??, b) could convert a seemingly innocent sequence of path elements into the root local device path \??\b. Join will now convert this to \.\??\b. In addition, with fix, IsAbs now correctly reports paths beginning with \??\ as absolute, and VolumeName correctly reports the \??\ prefix as a volume name.
+		On Windows, The IsLocal function does not correctly detect reserved device names in some cases. Reserved names followed by spaces, such as "COM1 ", and reserved names "COM" and "LPT" followed by superscript 1, 2, or 3, are incorrectly reported as local. With fix, IsLocal now correctly reports these names as non-local.
 		</p>
 		
 		
@@ -9334,7 +9334,7 @@ announce/c/4tU8LZfBFkY)
 
 			
 		
-		<h3 class=None>CVE-2023-45284<br>(0 None)</h3>
+		<h3 class=None>CVE-2023-45283<br>(0 None)</h3>
 		
 
 		
@@ -9344,7 +9344,7 @@ announce/c/4tU8LZfBFkY)
 		<p class=numposts>1 posts</p>
 
 		<p class=description>
-		On Windows, The IsLocal function does not correctly detect reserved device names in some cases. Reserved names followed by spaces, such as "COM1 ", and reserved names "COM" and "LPT" followed by superscript 1, 2, or 3, are incorrectly reported as local. With fix, IsLocal now correctly reports these names as non-local.
+		The filepath package does not recognize paths with a \??\ prefix as special. On Windows, a path beginning with \??\ is a Root Local Device path equivalent to a path beginning with \\?\. Paths with a \??\ prefix may be used to access arbitrary locations on the system. For example, the path \??\c:\x is equivalent to the more common path c:\x. Before fix, Clean could convert a rooted path such as \a\..\??\b into the root local device path \??\b. Clean will now convert this to .\??\b. Similarly, Join(\, ??, b) could convert a seemingly innocent sequence of path elements into the root local device path \??\b. Join will now convert this to \.\??\b. In addition, with fix, IsAbs now correctly reports paths beginning with \??\ as absolute, and VolumeName correctly reports the \??\ prefix as a volume name.
 		</p>
 		
 		
