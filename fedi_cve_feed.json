@@ -1793,7 +1793,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/110/329/816/456/312/351/original/53c256bfa15a9caa.png",
           "followers_count": 4407,
           "following_count": 655,
-          "statuses_count": 3605,
+          "statuses_count": 3606,
           "last_status_at": "2023-11-13",
           "emojis": [
             {
@@ -2157,7 +2157,7 @@
           "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/109/387/541/123/391/825/original/e610df97bd68756c.png",
           "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/387/541/123/391/825/original/3a718d9c98eba57b.jpeg",
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/387/541/123/391/825/original/3a718d9c98eba57b.jpeg",
-          "followers_count": 33180,
+          "followers_count": 33181,
           "following_count": 745,
           "statuses_count": 1320,
           "last_status_at": "2023-11-13",
@@ -7088,45 +7088,6 @@
     "description": "Mastodon is a free, open-source social network server based on ActivityPub. Prior to versions 3.5.14, 4.0.10, 4.1.8, and 4.2.0-rc2, under certain circumstances, attackers can exploit a flaw in domain name normalization to spoof domains they do not own. Versions 3.5.14, 4.0.10, 4.1.8, and 4.2.0-rc2 contain a patch for this issue.",
     "epss": 0.048
   },
-  "CVE-2023-38547": {
-    "cvss3": 0,
-    "severity": null,
-    "posts": [
-      {
-        "account": {
-          "id": "110730368199044452",
-          "username": "simontsui",
-          "acct": "simontsui",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.<br /><a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"tag\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"tag\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/cyberthreatintelligence\" class=\"mention hashtag\" rel=\"tag\">#<span>cyberthreatintelligence</span></a> <a href=\"https://infosec.exchange/tags/vulnerability\" class=\"mention hashtag\" rel=\"tag\">#<span>vulnerability</span></a> <a href=\"https://infosec.exchange/tags/IOC\" class=\"mention hashtag\" rel=\"tag\">#<span>IOC</span></a> <a href=\"https://infosec.exchange/tags/cyberespionage\" class=\"mention hashtag\" rel=\"tag\">#<span>cyberespionage</span></a> <a href=\"https://infosec.exchange/tags/cybercrime\" class=\"mention hashtag\" rel=\"tag\">#<span>cybercrime</span></a> <a href=\"https://infosec.exchange/tags/zeroday\" class=\"mention hashtag\" rel=\"tag\">#<span>zeroday</span></a> <a href=\"https://infosec.exchange/tags/pocexploit\" class=\"mention hashtag\" rel=\"tag\">#<span>pocexploit</span></a> <a href=\"https://infosec.exchange/tags/apt\" class=\"mention hashtag\" rel=\"tag\">#<span>apt</span></a> <a href=\"https://infosec.exchange/tags/intelligence\" class=\"mention hashtag\" rel=\"tag\">#<span>intelligence</span></a></p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/cc42affde9a99bd0.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/cc42affde9a99bd0.png",
-          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "followers_count": 253,
-          "following_count": 39,
-          "statuses_count": 1078,
-          "last_status_at": "2023-11-13",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111366127735361409",
-        "content": "\n\n **Veeam** security advisory: 4 bugs in Veeam ONE, the most serious being\nCVE-2023-38547 (9.9 critical, allows for RCE) and CVE-2023-38548 (9.8\ncritical, acquire the NTLM hash). No mention of exploitation in the wild.  \n **Link:** [https://www.veeam.com/kb4508](https://www.veeam.com/kb4508)\n\n[#Veeam](https://infosec.exchange/tags/Veeam)\n[#CVE202338547](https://infosec.exchange/tags/CVE202338547)\n[#CVE202338548](https://infosec.exchange/tags/CVE202338548)\n[#vulnerability](https://infosec.exchange/tags/vulnerability)\n[#NTLM](https://infosec.exchange/tags/NTLM)\n\n",
-        "created_at": "2023-11-06T23:10:51.822Z"
-      }
-    ],
-    "description": "A vulnerability in Veeam ONE allows an unauthenticated user to gain information about the SQL server connection Veeam ONE uses to access its configuration database. This may lead to remote code execution on the SQL server hosting the Veeam ONE configuration database.",
-    "epss": 0.045
-  },
   "CVE-2023-38548": {
     "cvss3": 0,
     "severity": null,
@@ -7165,6 +7126,45 @@
     ],
     "description": "A vulnerability in Veeam ONE allows an unprivileged user who has access to the Veeam ONE Web Client the ability to acquire the NTLM hash of the account used by the Veeam ONE Reporting Service.",
     "epss": 0.043
+  },
+  "CVE-2023-38547": {
+    "cvss3": 0,
+    "severity": null,
+    "posts": [
+      {
+        "account": {
+          "id": "110730368199044452",
+          "username": "simontsui",
+          "acct": "simontsui",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.<br /><a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"tag\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"tag\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/cyberthreatintelligence\" class=\"mention hashtag\" rel=\"tag\">#<span>cyberthreatintelligence</span></a> <a href=\"https://infosec.exchange/tags/vulnerability\" class=\"mention hashtag\" rel=\"tag\">#<span>vulnerability</span></a> <a href=\"https://infosec.exchange/tags/IOC\" class=\"mention hashtag\" rel=\"tag\">#<span>IOC</span></a> <a href=\"https://infosec.exchange/tags/cyberespionage\" class=\"mention hashtag\" rel=\"tag\">#<span>cyberespionage</span></a> <a href=\"https://infosec.exchange/tags/cybercrime\" class=\"mention hashtag\" rel=\"tag\">#<span>cybercrime</span></a> <a href=\"https://infosec.exchange/tags/zeroday\" class=\"mention hashtag\" rel=\"tag\">#<span>zeroday</span></a> <a href=\"https://infosec.exchange/tags/pocexploit\" class=\"mention hashtag\" rel=\"tag\">#<span>pocexploit</span></a> <a href=\"https://infosec.exchange/tags/apt\" class=\"mention hashtag\" rel=\"tag\">#<span>apt</span></a> <a href=\"https://infosec.exchange/tags/intelligence\" class=\"mention hashtag\" rel=\"tag\">#<span>intelligence</span></a></p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/cc42affde9a99bd0.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/cc42affde9a99bd0.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "followers_count": 253,
+          "following_count": 39,
+          "statuses_count": 1078,
+          "last_status_at": "2023-11-13",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111366127735361409",
+        "content": "\n\n **Veeam** security advisory: 4 bugs in Veeam ONE, the most serious being\nCVE-2023-38547 (9.9 critical, allows for RCE) and CVE-2023-38548 (9.8\ncritical, acquire the NTLM hash). No mention of exploitation in the wild.  \n **Link:** [https://www.veeam.com/kb4508](https://www.veeam.com/kb4508)\n\n[#Veeam](https://infosec.exchange/tags/Veeam)\n[#CVE202338547](https://infosec.exchange/tags/CVE202338547)\n[#CVE202338548](https://infosec.exchange/tags/CVE202338548)\n[#vulnerability](https://infosec.exchange/tags/vulnerability)\n[#NTLM](https://infosec.exchange/tags/NTLM)\n\n",
+        "created_at": "2023-11-06T23:10:51.822Z"
+      }
+    ],
+    "description": "A vulnerability in Veeam ONE allows an unauthenticated user to gain information about the SQL server connection Veeam ONE uses to access its configuration database. This may lead to remote code execution on the SQL server hosting the Veeam ONE configuration database.",
+    "epss": 0.045
   },
   "CVE-2023-34048": {
     "cvss3": 9.8,
@@ -8517,9 +8517,9 @@
     "description": "Adobe Acrobat for Edge version 118.0.2088.46 (and earlier) is affected by a Use After Free vulnerability. An unauthenticated attacker could leverage this vulnerability to achieve an application denial-of-service in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
     "epss": 0.05
   },
-  "CVE-2022-4886": {
-    "cvss3": 6.5,
-    "severity": "MEDIUM",
+  "CVE-2023-5043": {
+    "cvss3": 8.8,
+    "severity": "HIGH",
     "posts": [
       {
         "account": {
@@ -8553,8 +8553,8 @@
         "created_at": "2023-10-30T11:21:59.075Z"
       }
     ],
-    "description": "Ingress-nginx `path` sanitization can be bypassed with `log_format` directive.\n",
-    "epss": 0.075
+    "description": "Ingress nginx annotation injection causes arbitrary command execution.\n",
+    "epss": 0.264
   },
   "CVE-2023-5044": {
     "cvss3": 8.8,
@@ -8595,9 +8595,9 @@
     "description": "Code injection via nginx.ingress.kubernetes.io/permanent-redirect annotation.\n",
     "epss": 0.061
   },
-  "CVE-2023-5043": {
-    "cvss3": 8.8,
-    "severity": "HIGH",
+  "CVE-2022-4886": {
+    "cvss3": 6.5,
+    "severity": "MEDIUM",
     "posts": [
       {
         "account": {
@@ -8631,8 +8631,8 @@
         "created_at": "2023-10-30T11:21:59.075Z"
       }
     ],
-    "description": "Ingress nginx annotation injection causes arbitrary command execution.\n",
-    "epss": 0.264
+    "description": "Ingress-nginx `path` sanitization can be bypassed with `log_format` directive.\n",
+    "epss": 0.075
   },
   "CVE-2023-40685": {
     "cvss3": 7.8,
