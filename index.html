@@ -139,7 +139,7 @@
 
 
 <body>
-Updated at UTC 2023-11-13T10:37:25.372757
+Updated at UTC 2023-11-13T11:09:17.031225
 
 <p><a target=_blank href=https://github.com/fedisecfeeds/fedisecfeeds.github.io/blob/main/fedi_cve_feed.json>Access data as JSON</a></p>
 
@@ -3915,17 +3915,17 @@ like this is the case.
 
 			
 		
-		<h3 class=HIGH>CVE-2023-5044<br>(8.8 HIGH)</h3>
+		<h3 class=HIGH>CVE-2023-5043<br>(8.8 HIGH)</h3>
 		
 
 		
-		<h4 class=epss>EPSS: 0.06%</h4>
+		<h4 class=epss>EPSS: 0.26%</h4>
 		
 
 		<p class=numposts>1 posts</p>
 
 		<p class=description>
-		Code injection via nginx.ingress.kubernetes.io/permanent-redirect annotation.
+		Ingress nginx annotation injection causes arbitrary command execution.
 
 		</p>
 		
@@ -3972,17 +3972,17 @@ flaws-discovered-in.html)
 
 			
 		
-		<h3 class=HIGH>CVE-2023-5043<br>(8.8 HIGH)</h3>
+		<h3 class=HIGH>CVE-2023-5044<br>(8.8 HIGH)</h3>
 		
 
 		
-		<h4 class=epss>EPSS: 0.26%</h4>
+		<h4 class=epss>EPSS: 0.06%</h4>
 		
 
 		<p class=numposts>1 posts</p>
 
 		<p class=description>
-		Ingress nginx annotation injection causes arbitrary command execution.
+		Code injection via nginx.ingress.kubernetes.io/permanent-redirect annotation.
 
 		</p>
 		
@@ -7092,55 +7092,6 @@ so viel besser geeignet ist.
 
 			
 		
-		<h3 class=None>CVE-2023-45283<br>(0 None)</h3>
-		
-
-		
-		<h4 class=epss>EPSS: 0.04%</h4>
-		
-
-		<p class=numposts>1 posts</p>
-
-		<p class=description>
-		The filepath package does not recognize paths with a \??\ prefix as special. On Windows, a path beginning with \??\ is a Root Local Device path equivalent to a path beginning with \\?\. Paths with a \??\ prefix may be used to access arbitrary locations on the system. For example, the path \??\c:\x is equivalent to the more common path c:\x. Before fix, Clean could convert a rooted path such as \a\..\??\b into the root local device path \??\b. Clean will now convert this to .\??\b. Similarly, Join(\, ??, b) could convert a seemingly innocent sequence of path elements into the root local device path \??\b. Join will now convert this to \.\??\b. In addition, with fix, IsAbs now correctly reports paths beginning with \??\ as absolute, and VolumeName correctly reports the \??\ prefix as a volume name.
-		</p>
-		
-		
-
-		<div class="posts">
-
-			
-				<a target=_blank href=https://mastodon.social/@firusvg>firusvg@mastodon.social</a>
-				<a class=posturl target=_blank href=https://mastodon.social/@firusvg/111370697118857106>at 2023-11-07T18:32:55.000Z</a>
-<md-block>
-
-
-🎉 Go 1.21.4 and 1.20.11 are released!
-
-🔐 Security: Includes security fixes for path/filepath (CVE-2023-45283,
-CVE-2023-45284)
-
-🗣 Announcement: [https://groups.google.com/g/golang-
-announce/c/4tU8LZfBFkY](https://groups.google.com/g/golang-
-announce/c/4tU8LZfBFkY)
-
-🗃 Download: [https://go.dev/dl/#go1.21.4](https://go.dev/dl/#go1.21.4)
-
-[#golang](https://mastodon.social/tags/golang)
-
-
-</md-block>
-			<hr>
-			
-
-		</div>
-	</div>
-	
-
-	<div class="cve">
-
-			
-		
 		<h3 class=None>CVE-2023-45284<br>(0 None)</h3>
 		
 
@@ -7190,7 +7141,7 @@ announce/c/4tU8LZfBFkY)
 
 			
 		
-		<h3 class=None>CVE-2023-38547<br>(0 None)</h3>
+		<h3 class=None>CVE-2023-45283<br>(0 None)</h3>
 		
 
 		
@@ -7200,7 +7151,56 @@ announce/c/4tU8LZfBFkY)
 		<p class=numposts>1 posts</p>
 
 		<p class=description>
-		A vulnerability in Veeam ONE allows an unauthenticated user to gain information about the SQL server connection Veeam ONE uses to access its configuration database. This may lead to remote code execution on the SQL server hosting the Veeam ONE configuration database.
+		The filepath package does not recognize paths with a \??\ prefix as special. On Windows, a path beginning with \??\ is a Root Local Device path equivalent to a path beginning with \\?\. Paths with a \??\ prefix may be used to access arbitrary locations on the system. For example, the path \??\c:\x is equivalent to the more common path c:\x. Before fix, Clean could convert a rooted path such as \a\..\??\b into the root local device path \??\b. Clean will now convert this to .\??\b. Similarly, Join(\, ??, b) could convert a seemingly innocent sequence of path elements into the root local device path \??\b. Join will now convert this to \.\??\b. In addition, with fix, IsAbs now correctly reports paths beginning with \??\ as absolute, and VolumeName correctly reports the \??\ prefix as a volume name.
+		</p>
+		
+		
+
+		<div class="posts">
+
+			
+				<a target=_blank href=https://mastodon.social/@firusvg>firusvg@mastodon.social</a>
+				<a class=posturl target=_blank href=https://mastodon.social/@firusvg/111370697118857106>at 2023-11-07T18:32:55.000Z</a>
+<md-block>
+
+
+🎉 Go 1.21.4 and 1.20.11 are released!
+
+🔐 Security: Includes security fixes for path/filepath (CVE-2023-45283,
+CVE-2023-45284)
+
+🗣 Announcement: [https://groups.google.com/g/golang-
+announce/c/4tU8LZfBFkY](https://groups.google.com/g/golang-
+announce/c/4tU8LZfBFkY)
+
+🗃 Download: [https://go.dev/dl/#go1.21.4](https://go.dev/dl/#go1.21.4)
+
+[#golang](https://mastodon.social/tags/golang)
+
+
+</md-block>
+			<hr>
+			
+
+		</div>
+	</div>
+	
+
+	<div class="cve">
+
+			
+		
+		<h3 class=None>CVE-2023-38548<br>(0 None)</h3>
+		
+
+		
+		<h4 class=epss>EPSS: 0.04%</h4>
+		
+
+		<p class=numposts>1 posts</p>
+
+		<p class=description>
+		A vulnerability in Veeam ONE allows an unprivileged user who has access to the Veeam ONE Web Client the ability to acquire the NTLM hash of the account used by the Veeam ONE Reporting Service.
 		</p>
 		
 		
@@ -7237,7 +7237,7 @@ critical, acquire the NTLM hash). No mention of exploitation in the wild.
 
 			
 		
-		<h3 class=None>CVE-2023-38548<br>(0 None)</h3>
+		<h3 class=None>CVE-2023-38547<br>(0 None)</h3>
 		
 
 		
@@ -7247,7 +7247,7 @@ critical, acquire the NTLM hash). No mention of exploitation in the wild.
 		<p class=numposts>1 posts</p>
 
 		<p class=description>
-		A vulnerability in Veeam ONE allows an unprivileged user who has access to the Veeam ONE Web Client the ability to acquire the NTLM hash of the account used by the Veeam ONE Reporting Service.
+		A vulnerability in Veeam ONE allows an unauthenticated user to gain information about the SQL server connection Veeam ONE uses to access its configuration database. This may lead to remote code execution on the SQL server hosting the Veeam ONE configuration database.
 		</p>
 		
 		
