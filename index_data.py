@@ -211,6 +211,7 @@ def main():
 			print(f"cveapi doesn't have {cve}, trying nvd")
 			try:
 				cve_data = nvd_cve_detail(cve) # cveapi_cve_detail(cve)
+				time.sleep(5.8)
 				if cve_data:
 					if cve_data['totalResults'] > 0:
 						cve_data = cve_data['vulnerabilities'][0]
