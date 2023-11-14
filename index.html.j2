@@ -91,20 +91,24 @@
 		margin-bottom: 0.1em;
 	}
 
-	h3.CRITICAL {
+	.CRITICAL {
 		color: #ff0000;
 	}
 
-	h3.HIGH {
+	.HIGH {
 		color: #c66253;
 	}
 
-	h3.MEDIUM {
+	.MEDIUM {
 		color: #f9b60c;
 	}
 
-	h3.LOW {
+	.LOW {
 		color: #33db27;
+	}
+
+	.None {
+		color: grey;
 	}
 
 	span.cvss.UNKNOWN {
@@ -133,6 +137,15 @@
 		margin-bottom: 0.2em;
 	}
 
+	#index {
+/*		border: 2px solid #36c183;*/
+/*		align-items:center;
+		justify-content:center;
+		margin-left: auto;
+		margin-right: auto;*/
+
+	}
+
 	</style>
 </head>
 
@@ -143,15 +156,52 @@ Updated at UTC {{ updated }}
 
 <p><a target=_blank href=https://github.com/fedisecfeeds/fedisecfeeds.github.io/blob/main/fedi_cve_feed.json>Access data as JSON</a></p>
 
+<section id=index>
+	<table>
+		<tr>
+		    <th>CVE</th>
+		    <th>CVSS</th>
+		    <th>EPSS</th>
+		    <th>Posts</th>
+		    <th>Description</th>
+		</tr>
+
+		{% for cve in data %}
+		<tr>
+			<th><a class="{{ data[cve]['severity'] }}" href="#{{cve}}">{{cve}}</a></th>
+
+			<th class={{ data[cve]['severity'] }}> {{ data[cve]['cvss3'] }} </th>
+
+			{% if data[cve]['epss'] != None %}
+				<th class={{ data[cve]['epss_severity'] }}>{{ "%.2f"|format(data[cve]['epss']) }}%</th>
+			{% else %}
+				<th>N/A</th>
+			{% endif %}
+
+			<th>{{ data[cve]['posts']|length  }}</th>
+			{% if data[cve]['description'] %}
+				<th>{{ data[cve]['description'][0:60] }}...</th>
+			{% else %}
+				<th>N/A</th>
+			{% endif %}
+
+		</tr>
+
+
+		{% endfor %}
+
+	</table>
+</section>
+
 <section id=cves>
 {% for cve in data %}
-	<div class="cve">
+	<div class="cve" id="{{cve}}">
 
 			
 		{% if data[cve]['cvss3'] != None %}
-		<h3 class={{ data[cve]['severity'] }}>{{ cve }}<br>({{ data[cve]['cvss3'] }} {{ data[cve]['severity'] }})</h3>
+		<h3 class={{ data[cve]['severity'] }}><a class="{{ data[cve]['severity'] }}" target=_blank href=https://nvd.nist.gov/vuln/detail/{{ cve }}>{{ cve }}</a><br>({{ data[cve]['cvss3'] }} {{ data[cve]['severity'] }})</h3>
 		{% else %}
-		<h3 class="UNKNOWN">{{ cve }} <span class="UNKNOWN cvss">(CVSS UNKNOWN)</span></h3>
+		<h3 class="UNKNOWN"><a a class="UNKNOWN" target=_blank href=https://nvd.nist.gov/vuln/detail/{{ cve }}>{{ cve }}</a><span class="UNKNOWN cvss">(CVSS UNKNOWN)</span></h3>
 		{% endif %}
 
 		{% if data[cve]['epss'] != None %}
@@ -161,7 +211,12 @@ Updated at UTC {{ updated }}
 		<p class=numposts>{{ data[cve]['posts']|length  }} posts</p>
 
 		<p class=description>
-		{{ data[cve]['description'] }}
+		 {% if data[cve]['description'] %}
+		 		<th>{{ data[cve]['description'][0:300] }}...</th>
+		 	{% else %}
+		 		<th>N/A</th>
+		 	{% endif %}
+
 		</p>
 		
 		

@@ -235,7 +235,10 @@ def main():
 		fedi_cve_feed[cve] = {}
 		fedi_cve_feed[cve]['cvss3'] = 0
 		fedi_cve_feed[cve]['severity'] = None
+		fedi_cve_feed[cve]['epss'] = 0
+		fedi_cve_feed[cve]['epss_severity'] = None
 		fedi_cve_feed[cve]['posts'] = []
+		fedi_cve_feed[cve]['description'] = "N/A"
 
 		for post in cve_posts[cve]:
 			# filter using created_at for recent days only
@@ -278,10 +281,18 @@ def main():
 
 				except Exception as e:
 					print(f"Error parsing cve detail on {cve}:", e, cve_details[cve])
-			fedi_cve_feed[cve]['epss'] = None
+			
 			for d in epss_data['data']:
 				if d['cve'] == cve:
 					fedi_cve_feed[cve]['epss'] = float(d['epss']) * 100
+					# epss severity is just done here for coloring; it's not part of any spec that defines levels
+					if fedi_cve_feed[cve]['epss'] >= 20:
+						fedi_cve_feed[cve]['epss_severity'] = "MEDIUM"
+					if fedi_cve_feed[cve]['epss'] >= 50:
+						fedi_cve_feed[cve]['epss_severity'] = "HIGH"
+					if fedi_cve_feed[cve]['epss'] >= 80:
+						fedi_cve_feed[cve]['epss_severity'] = "CRITICAL"
+
 
 
 			# print(f"{cve} {author_acct} {content}")

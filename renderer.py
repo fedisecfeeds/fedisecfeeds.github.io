@@ -7,7 +7,10 @@ import datetime
 def render(jsonblob):
 	fedi_cve_feed = json.loads(open(jsonblob, 'r').read())
 	# sort
-	fedi_cve_feed = {k: v for k, v in sorted(fedi_cve_feed.items(), key=lambda item: item[1]['cvss3'], reverse=True)} 
+	fedi_cve_feed = {k: v for k, v in sorted(fedi_cve_feed.items(), key=lambda item:
+																			item[1]['epss'] if item[1]['epss'] \
+																			else 0,
+																			reverse=True)} 
 	# jinja2 rendering
 	environment = Environment()
 	template = environment.from_string(open("index.html.j2","r").read())
