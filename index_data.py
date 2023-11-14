@@ -209,12 +209,16 @@ def main():
 		if cve_data == None:
 			# might need to try nvd
 			print(f"cveapi doesn't have {cve}, trying nvd")
-			cve_data = nvd_cve_detail(cve) # cveapi_cve_detail(cve)
-			if cve_data:
-				if cve_data['totalResults'] > 0:
-					cve_data = cve_data['vulnerabilities'][0]
-				else:
-					cve_data == None
+			try:
+				cve_data = nvd_cve_detail(cve) # cveapi_cve_detail(cve)
+				if cve_data:
+					if cve_data['totalResults'] > 0:
+						cve_data = cve_data['vulnerabilities'][0]
+					else:
+						cve_data = None
+			except Exception as e:
+				print("Exception trying to get cve details:", e)
+				cve_data = None
 
 		if cve_data != None:
 			cve_details[cve] = cve_data
