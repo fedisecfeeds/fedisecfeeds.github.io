@@ -292,6 +292,8 @@ def main():
 						fedi_cve_feed[cve]['epss_severity'] = "HIGH"
 					if fedi_cve_feed[cve]['epss'] >= 80:
 						fedi_cve_feed[cve]['epss_severity'] = "CRITICAL"
+			if 'epss' not in fedi_cve_feed[cve]:
+				fedi_cve_feed[cve]['epss'] = 0
 
 
 

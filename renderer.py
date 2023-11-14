@@ -5,7 +5,7 @@ import json
 import datetime
 
 def get_key(kv_item):
-	d = item[1]
+	d = kv_item[1]
 	if 'epss' in d:
 		return d['epss']
 	else:
