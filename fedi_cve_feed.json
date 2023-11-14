@@ -8009,6 +8009,156 @@
     "description": "A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code with elevated privileges.",
     "epss": 0.181
   },
+  "CVE-2023-20273": {
+    "cvss3": 7.2,
+    "severity": "HIGH",
+    "posts": [
+      {
+        "account": {
+          "id": "110730368199044452",
+          "username": "simontsui",
+          "acct": "simontsui",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.<br /><a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"tag\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"tag\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/cyberthreatintelligence\" class=\"mention hashtag\" rel=\"tag\">#<span>cyberthreatintelligence</span></a> <a href=\"https://infosec.exchange/tags/vulnerability\" class=\"mention hashtag\" rel=\"tag\">#<span>vulnerability</span></a> <a href=\"https://infosec.exchange/tags/IOC\" class=\"mention hashtag\" rel=\"tag\">#<span>IOC</span></a> <a href=\"https://infosec.exchange/tags/cyberespionage\" class=\"mention hashtag\" rel=\"tag\">#<span>cyberespionage</span></a> <a href=\"https://infosec.exchange/tags/cybercrime\" class=\"mention hashtag\" rel=\"tag\">#<span>cybercrime</span></a> <a href=\"https://infosec.exchange/tags/zeroday\" class=\"mention hashtag\" rel=\"tag\">#<span>zeroday</span></a> <a href=\"https://infosec.exchange/tags/pocexploit\" class=\"mention hashtag\" rel=\"tag\">#<span>pocexploit</span></a> <a href=\"https://infosec.exchange/tags/apt\" class=\"mention hashtag\" rel=\"tag\">#<span>apt</span></a> <a href=\"https://infosec.exchange/tags/intelligence\" class=\"mention hashtag\" rel=\"tag\">#<span>intelligence</span></a></p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/cc42affde9a99bd0.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/cc42affde9a99bd0.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "followers_count": 254,
+          "following_count": 39,
+          "statuses_count": 1090,
+          "last_status_at": "2023-11-14",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111364750546160551",
+        "content": "\n\nIn case you missed it (because I did): On 02 November, **Cisco** updated their\nblog post about the actively exploited zero-days CVE-2023-20198 and\nCVE-2023-20273, stating that they identified a new version of the implant, now\ncalled BadCandy, and added expected response from the new version of the\nimplant against one of the HTTP requests used to check for infected device.  \n **Link:** [https://blog.talosintelligence.com/active-exploitation-of-cisco-\nios-xe-software/](https://blog.talosintelligence.com/active-exploitation-of-\ncisco-ios-xe-software/)\n\n[#BadCandy](https://infosec.exchange/tags/BadCandy)\n[#Cisco](https://infosec.exchange/tags/Cisco)\n[#CISA](https://infosec.exchange/tags/CISA)\n[#CVE202320198](https://infosec.exchange/tags/CVE202320198)\n[#CVE202320273](https://infosec.exchange/tags/CVE202320273)\n[#activeexploitation](https://infosec.exchange/tags/activeexploitation)\n[#KEV](https://infosec.exchange/tags/KEV)\n[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)\n[#eitw](https://infosec.exchange/tags/eitw)\n\n",
+        "created_at": "2023-11-06T17:20:37.582Z"
+      },
+      {
+        "account": {
+          "id": "109121",
+          "username": "campuscodi",
+          "acct": "campuscodi@mastodon.social",
+          "display_name": "Catalin Cimpanu",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2017-09-10T00:00:00.000Z",
+          "note": "",
+          "url": "https://mastodon.social/@campuscodi",
+          "uri": "https://mastodon.social/users/campuscodi",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/000/109/121/original/ba8c8162cc04fe09.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/000/109/121/original/ba8c8162cc04fe09.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/000/109/121/original/c15e4b5022e0c975.jpg",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/000/109/121/original/c15e4b5022e0c975.jpg",
+          "followers_count": 14416,
+          "following_count": 326,
+          "statuses_count": 3935,
+          "last_status_at": "2023-11-14",
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Newsletter:",
+              "value": "<a href=\"https://riskybiznews.substack.com/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">riskybiznews.substack.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Podcast:",
+              "value": "<a href=\"https://risky.biz/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">risky.biz/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://mastodon.social/@campuscodi/111358411905502778",
+        "content": "\n\nCisco Talos has published a technical analysis of BadCandy, the implant\ndeployed on Cisco IOS XE routers via the two recent zero-days CVE-2023-20198\nand CVE-2023-20273: [https://blog.talosintelligence.com/active-exploitation-\nof-cisco-ios-xe-software/](https://blog.talosintelligence.com/active-\nexploitation-of-cisco-ios-xe-software/)\n\nTalos says the malware is now at v3, showing that threat actors are still\nactively modifying their attacks and malware to maintain access to the\ncompromised boxes. The latest v3 modifications appear to have worked, as\nShadowserver has stopped detecting infected systems:\n[https://mastodon.social/@shadowserver@infosec.exchange/111354144609010594](https://mastodon.social/@shadowserver@infosec.exchange/111354144609010594)\n\n",
+        "created_at": "2023-11-05T14:28:37.000Z"
+      },
+      {
+        "account": {
+          "id": "110730368199044452",
+          "username": "simontsui",
+          "acct": "simontsui",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.<br /><a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"tag\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"tag\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/cyberthreatintelligence\" class=\"mention hashtag\" rel=\"tag\">#<span>cyberthreatintelligence</span></a> <a href=\"https://infosec.exchange/tags/vulnerability\" class=\"mention hashtag\" rel=\"tag\">#<span>vulnerability</span></a> <a href=\"https://infosec.exchange/tags/IOC\" class=\"mention hashtag\" rel=\"tag\">#<span>IOC</span></a> <a href=\"https://infosec.exchange/tags/cyberespionage\" class=\"mention hashtag\" rel=\"tag\">#<span>cyberespionage</span></a> <a href=\"https://infosec.exchange/tags/cybercrime\" class=\"mention hashtag\" rel=\"tag\">#<span>cybercrime</span></a> <a href=\"https://infosec.exchange/tags/zeroday\" class=\"mention hashtag\" rel=\"tag\">#<span>zeroday</span></a> <a href=\"https://infosec.exchange/tags/pocexploit\" class=\"mention hashtag\" rel=\"tag\">#<span>pocexploit</span></a> <a href=\"https://infosec.exchange/tags/apt\" class=\"mention hashtag\" rel=\"tag\">#<span>apt</span></a> <a href=\"https://infosec.exchange/tags/intelligence\" class=\"mention hashtag\" rel=\"tag\">#<span>intelligence</span></a></p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/cc42affde9a99bd0.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/cc42affde9a99bd0.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "followers_count": 254,
+          "following_count": 39,
+          "statuses_count": 1090,
+          "last_status_at": "2023-11-14",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111336698659285794",
+        "content": "\n\nCisco updated their security advisory on Cisco IOS XE zero-days CVE-2023-20198\nand CVE-2023-20273: Posted 17.3.8a for Base Release 17.3.8 on 30 October 2023,\nand 17.9.3a for IOS XE Software Maintenance Upgrade (SMU) on 01 November 2023.\n\nUpdated fixed release table:\n\n  * 17.9.4a (Published)\n  * 17.6.6a (Published)\n  * 17.6.5a (Published for Routing/SDWAN only, the rest are marked N/A)\n  * 16.12.10a (for Cat3850/3650 only, Published)\n  * 17.3.8a (Published)\n  * 17.12.2 (Planned 15 November 2023)\n\nIOS XE Software Maintenance Upgrade (SMU) has the following information:\n\n  * 17.9.4 SMU (Published)\n  * 17.9.3 SMU (Published, Routing is marked N/A)\n  * 17.9.3a SMU (Routing only, Published)\n  * 17.6.5 SMU (Published)\n\n **See Links:**\n[https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-\nsa-iosxe-webui-\nprivesc-j22SaA4z](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-\nsa-iosxe-webui-privesc-j22SaA4z) and\n[https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-xe-\ndublin-17121/221128-software-fix-availability-for-cisco-\nios.html](https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-\nxe-dublin-17121/221128-software-fix-availability-for-cisco-ios.html)\n\n[#Cisco](https://infosec.exchange/tags/Cisco)\n[#CISA](https://infosec.exchange/tags/CISA)\n[#CVE202320198](https://infosec.exchange/tags/CVE202320198)\n[#CVE202320273](https://infosec.exchange/tags/CVE202320273)\n[#CVE20211435](https://infosec.exchange/tags/CVE20211435)\n[#KEV](https://infosec.exchange/tags/KEV)\n[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)\n[#eitw](https://infosec.exchange/tags/eitw)\n[#activeexploitation](https://infosec.exchange/tags/activeexploitation)  \n[#zeroday](https://infosec.exchange/tags/zeroday)\n[#RockwellAutomation](https://infosec.exchange/tags/RockwellAutomation)\n[#Stratix](https://infosec.exchange/tags/Stratix)\n\n",
+        "created_at": "2023-11-01T18:26:39.757Z"
+      },
+      {
+        "account": {
+          "id": "109121",
+          "username": "campuscodi",
+          "acct": "campuscodi@mastodon.social",
+          "display_name": "Catalin Cimpanu",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2017-09-10T00:00:00.000Z",
+          "note": "",
+          "url": "https://mastodon.social/@campuscodi",
+          "uri": "https://mastodon.social/users/campuscodi",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/000/109/121/original/ba8c8162cc04fe09.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/000/109/121/original/ba8c8162cc04fe09.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/000/109/121/original/c15e4b5022e0c975.jpg",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/000/109/121/original/c15e4b5022e0c975.jpg",
+          "followers_count": 14416,
+          "following_count": 326,
+          "statuses_count": 3935,
+          "last_status_at": "2023-11-14",
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Newsletter:",
+              "value": "<a href=\"https://riskybiznews.substack.com/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">riskybiznews.substack.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Podcast:",
+              "value": "<a href=\"https://risky.biz/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">risky.biz/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://mastodon.social/@campuscodi/111330344469737713",
+        "content": "\n\nNot to be left behind, there's one for the two Cisco IOS XE zero-days too\n(CVE-2023-20273 and CVE-2023-20198)\n\n[https://www.horizon3.ai/cisco-ios-xe-cve-2023-20198-deep-dive-and-\npoc/](https://www.horizon3.ai/cisco-ios-xe-cve-2023-20198-deep-dive-and-poc/)\n\n",
+        "created_at": "2023-10-31T15:30:42.000Z"
+      }
+    ],
+    "description": "A vulnerability in the web UI feature of Cisco IOS XE Software could allow an authenticated, remote attacker to inject commands with the privileges of root. This vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by sending crafted input to the web UI. A successful exploit could allow the attacker to inject commands to the underlying operating system with root privileges.",
+    "epss": null
+  },
   "CVE-2023-20198": {
     "cvss3": 10,
     "severity": "CRITICAL",
@@ -8246,156 +8396,6 @@
       }
     ],
     "description": "Cisco is providing an update for the ongoing investigation into observed exploitation of the web UI feature in Cisco IOS XE Software. We are updating the list of fixed releases and adding the Software Checker. Our investigation has determined that the actors exploited two previously unknown issues. The attacker first exploited CVE-2023-20198 to gain initial access and issued a privilege 15 command to create a local user and password combination. This allowed the user to log in with normal user access. The attacker then exploited another component of the web UI feature, leveraging the new local user to elevate privilege to root and write the implant to the file system. Cisco has assigned CVE-2023-20273 to this issue. CVE-2023-20198 has been assigned a CVSS Score of 10.0. CVE-2023-20273 has been assigned a CVSS Score of 7.2. Both of these CVEs are being tracked by CSCwh87343.",
-    "epss": null
-  },
-  "CVE-2023-20273": {
-    "cvss3": 7.2,
-    "severity": "HIGH",
-    "posts": [
-      {
-        "account": {
-          "id": "110730368199044452",
-          "username": "simontsui",
-          "acct": "simontsui",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.<br /><a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"tag\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"tag\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/cyberthreatintelligence\" class=\"mention hashtag\" rel=\"tag\">#<span>cyberthreatintelligence</span></a> <a href=\"https://infosec.exchange/tags/vulnerability\" class=\"mention hashtag\" rel=\"tag\">#<span>vulnerability</span></a> <a href=\"https://infosec.exchange/tags/IOC\" class=\"mention hashtag\" rel=\"tag\">#<span>IOC</span></a> <a href=\"https://infosec.exchange/tags/cyberespionage\" class=\"mention hashtag\" rel=\"tag\">#<span>cyberespionage</span></a> <a href=\"https://infosec.exchange/tags/cybercrime\" class=\"mention hashtag\" rel=\"tag\">#<span>cybercrime</span></a> <a href=\"https://infosec.exchange/tags/zeroday\" class=\"mention hashtag\" rel=\"tag\">#<span>zeroday</span></a> <a href=\"https://infosec.exchange/tags/pocexploit\" class=\"mention hashtag\" rel=\"tag\">#<span>pocexploit</span></a> <a href=\"https://infosec.exchange/tags/apt\" class=\"mention hashtag\" rel=\"tag\">#<span>apt</span></a> <a href=\"https://infosec.exchange/tags/intelligence\" class=\"mention hashtag\" rel=\"tag\">#<span>intelligence</span></a></p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/cc42affde9a99bd0.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/cc42affde9a99bd0.png",
-          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "followers_count": 254,
-          "following_count": 39,
-          "statuses_count": 1090,
-          "last_status_at": "2023-11-14",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111364750546160551",
-        "content": "\n\nIn case you missed it (because I did): On 02 November, **Cisco** updated their\nblog post about the actively exploited zero-days CVE-2023-20198 and\nCVE-2023-20273, stating that they identified a new version of the implant, now\ncalled BadCandy, and added expected response from the new version of the\nimplant against one of the HTTP requests used to check for infected device.  \n **Link:** [https://blog.talosintelligence.com/active-exploitation-of-cisco-\nios-xe-software/](https://blog.talosintelligence.com/active-exploitation-of-\ncisco-ios-xe-software/)\n\n[#BadCandy](https://infosec.exchange/tags/BadCandy)\n[#Cisco](https://infosec.exchange/tags/Cisco)\n[#CISA](https://infosec.exchange/tags/CISA)\n[#CVE202320198](https://infosec.exchange/tags/CVE202320198)\n[#CVE202320273](https://infosec.exchange/tags/CVE202320273)\n[#activeexploitation](https://infosec.exchange/tags/activeexploitation)\n[#KEV](https://infosec.exchange/tags/KEV)\n[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)\n[#eitw](https://infosec.exchange/tags/eitw)\n\n",
-        "created_at": "2023-11-06T17:20:37.582Z"
-      },
-      {
-        "account": {
-          "id": "109121",
-          "username": "campuscodi",
-          "acct": "campuscodi@mastodon.social",
-          "display_name": "Catalin Cimpanu",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2017-09-10T00:00:00.000Z",
-          "note": "",
-          "url": "https://mastodon.social/@campuscodi",
-          "uri": "https://mastodon.social/users/campuscodi",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/000/109/121/original/ba8c8162cc04fe09.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/000/109/121/original/ba8c8162cc04fe09.png",
-          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/000/109/121/original/c15e4b5022e0c975.jpg",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/000/109/121/original/c15e4b5022e0c975.jpg",
-          "followers_count": 14416,
-          "following_count": 326,
-          "statuses_count": 3935,
-          "last_status_at": "2023-11-14",
-          "emojis": [],
-          "fields": [
-            {
-              "name": "Newsletter:",
-              "value": "<a href=\"https://riskybiznews.substack.com/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">riskybiznews.substack.com/</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Podcast:",
-              "value": "<a href=\"https://risky.biz/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">risky.biz/</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://mastodon.social/@campuscodi/111358411905502778",
-        "content": "\n\nCisco Talos has published a technical analysis of BadCandy, the implant\ndeployed on Cisco IOS XE routers via the two recent zero-days CVE-2023-20198\nand CVE-2023-20273: [https://blog.talosintelligence.com/active-exploitation-\nof-cisco-ios-xe-software/](https://blog.talosintelligence.com/active-\nexploitation-of-cisco-ios-xe-software/)\n\nTalos says the malware is now at v3, showing that threat actors are still\nactively modifying their attacks and malware to maintain access to the\ncompromised boxes. The latest v3 modifications appear to have worked, as\nShadowserver has stopped detecting infected systems:\n[https://mastodon.social/@shadowserver@infosec.exchange/111354144609010594](https://mastodon.social/@shadowserver@infosec.exchange/111354144609010594)\n\n",
-        "created_at": "2023-11-05T14:28:37.000Z"
-      },
-      {
-        "account": {
-          "id": "110730368199044452",
-          "username": "simontsui",
-          "acct": "simontsui",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.<br /><a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"tag\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"tag\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/cyberthreatintelligence\" class=\"mention hashtag\" rel=\"tag\">#<span>cyberthreatintelligence</span></a> <a href=\"https://infosec.exchange/tags/vulnerability\" class=\"mention hashtag\" rel=\"tag\">#<span>vulnerability</span></a> <a href=\"https://infosec.exchange/tags/IOC\" class=\"mention hashtag\" rel=\"tag\">#<span>IOC</span></a> <a href=\"https://infosec.exchange/tags/cyberespionage\" class=\"mention hashtag\" rel=\"tag\">#<span>cyberespionage</span></a> <a href=\"https://infosec.exchange/tags/cybercrime\" class=\"mention hashtag\" rel=\"tag\">#<span>cybercrime</span></a> <a href=\"https://infosec.exchange/tags/zeroday\" class=\"mention hashtag\" rel=\"tag\">#<span>zeroday</span></a> <a href=\"https://infosec.exchange/tags/pocexploit\" class=\"mention hashtag\" rel=\"tag\">#<span>pocexploit</span></a> <a href=\"https://infosec.exchange/tags/apt\" class=\"mention hashtag\" rel=\"tag\">#<span>apt</span></a> <a href=\"https://infosec.exchange/tags/intelligence\" class=\"mention hashtag\" rel=\"tag\">#<span>intelligence</span></a></p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/cc42affde9a99bd0.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/cc42affde9a99bd0.png",
-          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "followers_count": 254,
-          "following_count": 39,
-          "statuses_count": 1090,
-          "last_status_at": "2023-11-14",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111336698659285794",
-        "content": "\n\nCisco updated their security advisory on Cisco IOS XE zero-days CVE-2023-20198\nand CVE-2023-20273: Posted 17.3.8a for Base Release 17.3.8 on 30 October 2023,\nand 17.9.3a for IOS XE Software Maintenance Upgrade (SMU) on 01 November 2023.\n\nUpdated fixed release table:\n\n  * 17.9.4a (Published)\n  * 17.6.6a (Published)\n  * 17.6.5a (Published for Routing/SDWAN only, the rest are marked N/A)\n  * 16.12.10a (for Cat3850/3650 only, Published)\n  * 17.3.8a (Published)\n  * 17.12.2 (Planned 15 November 2023)\n\nIOS XE Software Maintenance Upgrade (SMU) has the following information:\n\n  * 17.9.4 SMU (Published)\n  * 17.9.3 SMU (Published, Routing is marked N/A)\n  * 17.9.3a SMU (Routing only, Published)\n  * 17.6.5 SMU (Published)\n\n **See Links:**\n[https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-\nsa-iosxe-webui-\nprivesc-j22SaA4z](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-\nsa-iosxe-webui-privesc-j22SaA4z) and\n[https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-xe-\ndublin-17121/221128-software-fix-availability-for-cisco-\nios.html](https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-\nxe-dublin-17121/221128-software-fix-availability-for-cisco-ios.html)\n\n[#Cisco](https://infosec.exchange/tags/Cisco)\n[#CISA](https://infosec.exchange/tags/CISA)\n[#CVE202320198](https://infosec.exchange/tags/CVE202320198)\n[#CVE202320273](https://infosec.exchange/tags/CVE202320273)\n[#CVE20211435](https://infosec.exchange/tags/CVE20211435)\n[#KEV](https://infosec.exchange/tags/KEV)\n[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)\n[#eitw](https://infosec.exchange/tags/eitw)\n[#activeexploitation](https://infosec.exchange/tags/activeexploitation)  \n[#zeroday](https://infosec.exchange/tags/zeroday)\n[#RockwellAutomation](https://infosec.exchange/tags/RockwellAutomation)\n[#Stratix](https://infosec.exchange/tags/Stratix)\n\n",
-        "created_at": "2023-11-01T18:26:39.757Z"
-      },
-      {
-        "account": {
-          "id": "109121",
-          "username": "campuscodi",
-          "acct": "campuscodi@mastodon.social",
-          "display_name": "Catalin Cimpanu",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2017-09-10T00:00:00.000Z",
-          "note": "",
-          "url": "https://mastodon.social/@campuscodi",
-          "uri": "https://mastodon.social/users/campuscodi",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/000/109/121/original/ba8c8162cc04fe09.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/000/109/121/original/ba8c8162cc04fe09.png",
-          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/000/109/121/original/c15e4b5022e0c975.jpg",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/000/109/121/original/c15e4b5022e0c975.jpg",
-          "followers_count": 14416,
-          "following_count": 326,
-          "statuses_count": 3935,
-          "last_status_at": "2023-11-14",
-          "emojis": [],
-          "fields": [
-            {
-              "name": "Newsletter:",
-              "value": "<a href=\"https://riskybiznews.substack.com/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">riskybiznews.substack.com/</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Podcast:",
-              "value": "<a href=\"https://risky.biz/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">risky.biz/</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://mastodon.social/@campuscodi/111330344469737713",
-        "content": "\n\nNot to be left behind, there's one for the two Cisco IOS XE zero-days too\n(CVE-2023-20273 and CVE-2023-20198)\n\n[https://www.horizon3.ai/cisco-ios-xe-cve-2023-20198-deep-dive-and-\npoc/](https://www.horizon3.ai/cisco-ios-xe-cve-2023-20198-deep-dive-and-poc/)\n\n",
-        "created_at": "2023-10-31T15:30:42.000Z"
-      }
-    ],
-    "description": "A vulnerability in the web UI feature of Cisco IOS XE Software could allow an authenticated, remote attacker to inject commands with the privileges of root. This vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by sending crafted input to the web UI. A successful exploit could allow the attacker to inject commands to the underlying operating system with root privileges.",
     "epss": null
   },
   "CVE-2023-23752": {
