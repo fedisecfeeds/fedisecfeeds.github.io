@@ -178,8 +178,8 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/695/079/647/714/688/original/c0d7ad3441a9a9e5.png",
           "followers_count": 132,
           "following_count": 133,
-          "statuses_count": 466,
-          "last_status_at": "2023-11-10",
+          "statuses_count": 467,
+          "last_status_at": "2023-11-14",
           "noindex": false,
           "emojis": [
             {
@@ -508,8 +508,8 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/703/301/146/411/393/original/a1ea4c416b84c8fd.png",
           "followers_count": 132,
           "following_count": 133,
-          "statuses_count": 466,
-          "last_status_at": "2023-11-10",
+          "statuses_count": 467,
+          "last_status_at": "2023-11-14",
           "emojis": [
             {
               "shortcode": "blinking_cursor",
@@ -1220,8 +1220,8 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/000/039/719/original/4d7991c3c26a8a59.jpg",
           "followers_count": 4778,
           "following_count": 4132,
-          "statuses_count": 14295,
-          "last_status_at": "2023-11-13",
+          "statuses_count": 14296,
+          "last_status_at": "2023-11-14",
           "emojis": [],
           "fields": [
             {
@@ -7445,43 +7445,6 @@
     "description": "Roundcube 1.5.x before 1.5.6 and 1.6.x before 1.6.5 allows XSS via a Content-Type or Content-Disposition header (used for attachment preview or download).",
     "epss": 0.045
   },
-  "CVE-2023-45283": {
-    "cvss3": 0,
-    "severity": null,
-    "posts": [
-      {
-        "account": {
-          "id": "109310645059381511",
-          "username": "firusvg",
-          "acct": "firusvg@mastodon.social",
-          "display_name": "Vladimir Savi\u0107",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2017-09-10T00:00:00.000Z",
-          "note": "<p>Ako treba, nema potrebe ...</p>",
-          "url": "https://mastodon.social/@firusvg",
-          "uri": "https://mastodon.social/users/firusvg",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/109/310/645/059/381/511/original/4659ffb997f2b2f0.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/109/310/645/059/381/511/original/4659ffb997f2b2f0.png",
-          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/310/645/059/381/511/original/a94a65a481abe26e.jpeg",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/310/645/059/381/511/original/a94a65a481abe26e.jpeg",
-          "followers_count": 213,
-          "following_count": 464,
-          "statuses_count": 2119,
-          "last_status_at": "2023-11-14",
-          "emojis": [],
-          "fields": []
-        },
-        "url": "https://mastodon.social/@firusvg/111370697118857106",
-        "content": "\n\n\ud83c\udf89 Go 1.21.4 and 1.20.11 are released!\n\n\ud83d\udd10 Security: Includes security fixes for path/filepath (CVE-2023-45283,\nCVE-2023-45284)\n\n\ud83d\udde3 Announcement: [https://groups.google.com/g/golang-\nannounce/c/4tU8LZfBFkY](https://groups.google.com/g/golang-\nannounce/c/4tU8LZfBFkY)\n\n\ud83d\uddc3 Download: [https://go.dev/dl/#go1.21.4](https://go.dev/dl/#go1.21.4)\n\n[#golang](https://mastodon.social/tags/golang)\n\n",
-        "created_at": "2023-11-07T18:32:55.000Z"
-      }
-    ],
-    "description": "The filepath package does not recognize paths with a \\??\\ prefix as special. On Windows, a path beginning with \\??\\ is a Root Local Device path equivalent to a path beginning with \\\\?\\. Paths with a \\??\\ prefix may be used to access arbitrary locations on the system. For example, the path \\??\\c:\\x is equivalent to the more common path c:\\x. Before fix, Clean could convert a rooted path such as \\a\\..\\??\\b into the root local device path \\??\\b. Clean will now convert this to .\\??\\b. Similarly, Join(\\, ??, b) could convert a seemingly innocent sequence of path elements into the root local device path \\??\\b. Join will now convert this to \\.\\??\\b. In addition, with fix, IsAbs now correctly reports paths beginning with \\??\\ as absolute, and VolumeName correctly reports the \\??\\ prefix as a volume name.",
-    "epss": 0.045
-  },
   "CVE-2023-45284": {
     "cvss3": 0,
     "severity": null,
@@ -7517,6 +7480,43 @@
       }
     ],
     "description": "On Windows, The IsLocal function does not correctly detect reserved device names in some cases. Reserved names followed by spaces, such as \"COM1 \", and reserved names \"COM\" and \"LPT\" followed by superscript 1, 2, or 3, are incorrectly reported as local. With fix, IsLocal now correctly reports these names as non-local.",
+    "epss": 0.045
+  },
+  "CVE-2023-45283": {
+    "cvss3": 0,
+    "severity": null,
+    "posts": [
+      {
+        "account": {
+          "id": "109310645059381511",
+          "username": "firusvg",
+          "acct": "firusvg@mastodon.social",
+          "display_name": "Vladimir Savi\u0107",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2017-09-10T00:00:00.000Z",
+          "note": "<p>Ako treba, nema potrebe ...</p>",
+          "url": "https://mastodon.social/@firusvg",
+          "uri": "https://mastodon.social/users/firusvg",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/109/310/645/059/381/511/original/4659ffb997f2b2f0.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/109/310/645/059/381/511/original/4659ffb997f2b2f0.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/310/645/059/381/511/original/a94a65a481abe26e.jpeg",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/310/645/059/381/511/original/a94a65a481abe26e.jpeg",
+          "followers_count": 213,
+          "following_count": 464,
+          "statuses_count": 2119,
+          "last_status_at": "2023-11-14",
+          "emojis": [],
+          "fields": []
+        },
+        "url": "https://mastodon.social/@firusvg/111370697118857106",
+        "content": "\n\n\ud83c\udf89 Go 1.21.4 and 1.20.11 are released!\n\n\ud83d\udd10 Security: Includes security fixes for path/filepath (CVE-2023-45283,\nCVE-2023-45284)\n\n\ud83d\udde3 Announcement: [https://groups.google.com/g/golang-\nannounce/c/4tU8LZfBFkY](https://groups.google.com/g/golang-\nannounce/c/4tU8LZfBFkY)\n\n\ud83d\uddc3 Download: [https://go.dev/dl/#go1.21.4](https://go.dev/dl/#go1.21.4)\n\n[#golang](https://mastodon.social/tags/golang)\n\n",
+        "created_at": "2023-11-07T18:32:55.000Z"
+      }
+    ],
+    "description": "The filepath package does not recognize paths with a \\??\\ prefix as special. On Windows, a path beginning with \\??\\ is a Root Local Device path equivalent to a path beginning with \\\\?\\. Paths with a \\??\\ prefix may be used to access arbitrary locations on the system. For example, the path \\??\\c:\\x is equivalent to the more common path c:\\x. Before fix, Clean could convert a rooted path such as \\a\\..\\??\\b into the root local device path \\??\\b. Clean will now convert this to .\\??\\b. Similarly, Join(\\, ??, b) could convert a seemingly innocent sequence of path elements into the root local device path \\??\\b. Join will now convert this to \\.\\??\\b. In addition, with fix, IsAbs now correctly reports paths beginning with \\??\\ as absolute, and VolumeName correctly reports the \\??\\ prefix as a volume name.",
     "epss": 0.045
   },
   "CVE-2022-21449": {
@@ -7703,45 +7703,6 @@
     "description": "A validation issue existed in the handling of symlinks and was addressed with improved validation of symlinks. This issue is fixed in macOS Monterey 12.4. An app may be able to gain elevated privileges.",
     "epss": null
   },
-  "CVE-2023-38547": {
-    "cvss3": 0,
-    "severity": null,
-    "posts": [
-      {
-        "account": {
-          "id": "110730368199044452",
-          "username": "simontsui",
-          "acct": "simontsui",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.<br /><a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"tag\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"tag\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/cyberthreatintelligence\" class=\"mention hashtag\" rel=\"tag\">#<span>cyberthreatintelligence</span></a> <a href=\"https://infosec.exchange/tags/vulnerability\" class=\"mention hashtag\" rel=\"tag\">#<span>vulnerability</span></a> <a href=\"https://infosec.exchange/tags/IOC\" class=\"mention hashtag\" rel=\"tag\">#<span>IOC</span></a> <a href=\"https://infosec.exchange/tags/cyberespionage\" class=\"mention hashtag\" rel=\"tag\">#<span>cyberespionage</span></a> <a href=\"https://infosec.exchange/tags/cybercrime\" class=\"mention hashtag\" rel=\"tag\">#<span>cybercrime</span></a> <a href=\"https://infosec.exchange/tags/zeroday\" class=\"mention hashtag\" rel=\"tag\">#<span>zeroday</span></a> <a href=\"https://infosec.exchange/tags/pocexploit\" class=\"mention hashtag\" rel=\"tag\">#<span>pocexploit</span></a> <a href=\"https://infosec.exchange/tags/apt\" class=\"mention hashtag\" rel=\"tag\">#<span>apt</span></a> <a href=\"https://infosec.exchange/tags/intelligence\" class=\"mention hashtag\" rel=\"tag\">#<span>intelligence</span></a></p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/cc42affde9a99bd0.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/cc42affde9a99bd0.png",
-          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "followers_count": 254,
-          "following_count": 39,
-          "statuses_count": 1090,
-          "last_status_at": "2023-11-14",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111366127735361409",
-        "content": "\n\n **Veeam** security advisory: 4 bugs in Veeam ONE, the most serious being\nCVE-2023-38547 (9.9 critical, allows for RCE) and CVE-2023-38548 (9.8\ncritical, acquire the NTLM hash). No mention of exploitation in the wild.  \n **Link:** [https://www.veeam.com/kb4508](https://www.veeam.com/kb4508)\n\n[#Veeam](https://infosec.exchange/tags/Veeam)\n[#CVE202338547](https://infosec.exchange/tags/CVE202338547)\n[#CVE202338548](https://infosec.exchange/tags/CVE202338548)\n[#vulnerability](https://infosec.exchange/tags/vulnerability)\n[#NTLM](https://infosec.exchange/tags/NTLM)\n\n",
-        "created_at": "2023-11-06T23:10:51.822Z"
-      }
-    ],
-    "description": "A vulnerability in Veeam ONE allows an unauthenticated user to gain information about the SQL server connection Veeam ONE uses to access its configuration database. This may lead to remote code execution on the SQL server hosting the Veeam ONE configuration database.",
-    "epss": 0.045
-  },
   "CVE-2023-38548": {
     "cvss3": 0,
     "severity": null,
@@ -7780,6 +7741,45 @@
     ],
     "description": "A vulnerability in Veeam ONE allows an unprivileged user who has access to the Veeam ONE Web Client the ability to acquire the NTLM hash of the account used by the Veeam ONE Reporting Service.",
     "epss": 0.043
+  },
+  "CVE-2023-38547": {
+    "cvss3": 0,
+    "severity": null,
+    "posts": [
+      {
+        "account": {
+          "id": "110730368199044452",
+          "username": "simontsui",
+          "acct": "simontsui",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.<br /><a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"tag\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"tag\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/cyberthreatintelligence\" class=\"mention hashtag\" rel=\"tag\">#<span>cyberthreatintelligence</span></a> <a href=\"https://infosec.exchange/tags/vulnerability\" class=\"mention hashtag\" rel=\"tag\">#<span>vulnerability</span></a> <a href=\"https://infosec.exchange/tags/IOC\" class=\"mention hashtag\" rel=\"tag\">#<span>IOC</span></a> <a href=\"https://infosec.exchange/tags/cyberespionage\" class=\"mention hashtag\" rel=\"tag\">#<span>cyberespionage</span></a> <a href=\"https://infosec.exchange/tags/cybercrime\" class=\"mention hashtag\" rel=\"tag\">#<span>cybercrime</span></a> <a href=\"https://infosec.exchange/tags/zeroday\" class=\"mention hashtag\" rel=\"tag\">#<span>zeroday</span></a> <a href=\"https://infosec.exchange/tags/pocexploit\" class=\"mention hashtag\" rel=\"tag\">#<span>pocexploit</span></a> <a href=\"https://infosec.exchange/tags/apt\" class=\"mention hashtag\" rel=\"tag\">#<span>apt</span></a> <a href=\"https://infosec.exchange/tags/intelligence\" class=\"mention hashtag\" rel=\"tag\">#<span>intelligence</span></a></p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/cc42affde9a99bd0.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/cc42affde9a99bd0.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "followers_count": 254,
+          "following_count": 39,
+          "statuses_count": 1090,
+          "last_status_at": "2023-11-14",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111366127735361409",
+        "content": "\n\n **Veeam** security advisory: 4 bugs in Veeam ONE, the most serious being\nCVE-2023-38547 (9.9 critical, allows for RCE) and CVE-2023-38548 (9.8\ncritical, acquire the NTLM hash). No mention of exploitation in the wild.  \n **Link:** [https://www.veeam.com/kb4508](https://www.veeam.com/kb4508)\n\n[#Veeam](https://infosec.exchange/tags/Veeam)\n[#CVE202338547](https://infosec.exchange/tags/CVE202338547)\n[#CVE202338548](https://infosec.exchange/tags/CVE202338548)\n[#vulnerability](https://infosec.exchange/tags/vulnerability)\n[#NTLM](https://infosec.exchange/tags/NTLM)\n\n",
+        "created_at": "2023-11-06T23:10:51.822Z"
+      }
+    ],
+    "description": "A vulnerability in Veeam ONE allows an unauthenticated user to gain information about the SQL server connection Veeam ONE uses to access its configuration database. This may lead to remote code execution on the SQL server hosting the Veeam ONE configuration database.",
+    "epss": 0.045
   },
   "CVE-2023-34048": {
     "cvss3": 9.8,
@@ -7944,8 +7944,8 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/108/202/871/265/998/646/original/3417a622f00630bd.png",
           "followers_count": 504,
           "following_count": 571,
-          "statuses_count": 7654,
-          "last_status_at": "2023-11-13",
+          "statuses_count": 7656,
+          "last_status_at": "2023-11-14",
           "emojis": [],
           "fields": [
             {
