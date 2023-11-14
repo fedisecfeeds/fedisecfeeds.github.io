@@ -161,7 +161,7 @@
 
 
 <body>
-Updated at UTC 2023-11-14T22:35:56.067867
+Updated at UTC 2023-11-14T23:12:12.630678
 
 <p><a target=_blank href=https://github.com/fedisecfeeds/fedisecfeeds.github.io/blob/main/fedi_cve_feed.json>Access data as JSON</a></p>
 
@@ -738,25 +738,6 @@ Undisclosed requests may bypass configuration utility authentication, allowin</t
 
 		
 		<tr>
-			<td><a class="CRITICAL" href="#CVE-2023-38545">CVE-2023-38545</a></td>
-
-			<td class=CRITICAL> 9.8 </td>
-
-			
-				<td class=None>0.00%</td>
-			
-
-			<td>1</td>
-			
-				<td>This flaw makes curl overflow a heap based buffer in the SOCKS5 proxy
-handshake.</td>
-			
-
-		</tr>
-
-
-		
-		<tr>
 			<td><a class="LOW" href="#CVE-2023-38546">CVE-2023-38546</a></td>
 
 			<td class=LOW> 3.7 </td>
@@ -769,6 +750,25 @@ handshake.</td>
 			
 				<td>This flaw allows an attacker to insert cookies at will into a running program
 us</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="CRITICAL" href="#CVE-2023-38545">CVE-2023-38545</a></td>
+
+			<td class=CRITICAL> 9.8 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>1</td>
+			
+				<td>This flaw makes curl overflow a heap based buffer in the SOCKS5 proxy
+handshake.</td>
 			
 
 		</tr>
@@ -922,24 +922,6 @@ Roundcube before 1.4.15, 1.5.x before 1.5.5, and 1.6.x before 1.6.4 allows stor<
 
 		
 		<tr>
-			<td><a class="HIGH" href="#CVE-2023-2640">CVE-2023-2640</a></td>
-
-			<td class=HIGH> 7.8 </td>
-
-			
-				<td class=None>0.00%</td>
-			
-
-			<td>2</td>
-			
-				<td>On Ubuntu kernels carrying both c914c0e27eb0 and "UBUNTU: SAUCE: overlayfs: Skip</td>
-			
-
-		</tr>
-
-
-		
-		<tr>
 			<td><a class="HIGH" href="#CVE-2023-32629">CVE-2023-32629</a></td>
 
 			<td class=HIGH> 7.8 </td>
@@ -951,6 +933,24 @@ Roundcube before 1.4.15, 1.5.x before 1.5.5, and 1.6.x before 1.6.4 allows stor<
 			<td>2</td>
 			
 				<td>Local privilege escalation vulnerability in Ubuntu Kernels overlayfs ovl_copy_up</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="HIGH" href="#CVE-2023-2640">CVE-2023-2640</a></td>
+
+			<td class=HIGH> 7.8 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>2</td>
+			
+				<td>On Ubuntu kernels carrying both c914c0e27eb0 and "UBUNTU: SAUCE: overlayfs: Skip</td>
 			
 
 		</tr>
@@ -7921,11 +7921,11 @@ vulnerability CVE-2023-36671. No mention of exploitation or proofs of concept.
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-38545">
+	<div class="cve" id="CVE-2023-38546">
 
 			
 		
-		<h3 class=CRITICAL><a class="CRITICAL" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-38545>CVE-2023-38545</a><br>(9.8 CRITICAL)</h3>
+		<h3 class=LOW><a class="LOW" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-38546>CVE-2023-38546</a><br>(3.7 LOW)</h3>
 		
 
 		
@@ -7936,15 +7936,14 @@ vulnerability CVE-2023-36671. No mention of exploitation or proofs of concept.
 
 		<p class=description>
 		 
-		 		<th>This flaw makes curl overflow a heap based buffer in the SOCKS5 proxy
-handshake.
+		 		<th>This flaw allows an attacker to insert cookies at will into a running program
+using libcurl, if the specific series of conditions are met.
 
-When curl is asked to pass along the host name to the SOCKS5 proxy to allow
-that to resolve the address instead of it getting done by curl itself, the
-maximum length that host name can be is 255 bytes.
+libcurl performs transfers. In its API, an application creates "easy handles"
+that are the individual handles for single transfers.
 
-If the host name is detected to be longer, curl switches to local name
-resolving and instead passes on the resolved</th>
+libcurl provides a function call that duplicates en easy handle called
+[curl_easy_duphandle](https://curl.se/libcurl/c/curl_eas</th>
 		 	
 
 		</p>
@@ -7988,11 +7987,11 @@ vulnerability CVE-2023-36671. No mention of exploitation or proofs of concept.
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-38546">
+	<div class="cve" id="CVE-2023-38545">
 
 			
 		
-		<h3 class=LOW><a class="LOW" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-38546>CVE-2023-38546</a><br>(3.7 LOW)</h3>
+		<h3 class=CRITICAL><a class="CRITICAL" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-38545>CVE-2023-38545</a><br>(9.8 CRITICAL)</h3>
 		
 
 		
@@ -8003,14 +8002,15 @@ vulnerability CVE-2023-36671. No mention of exploitation or proofs of concept.
 
 		<p class=description>
 		 
-		 		<th>This flaw allows an attacker to insert cookies at will into a running program
-using libcurl, if the specific series of conditions are met.
+		 		<th>This flaw makes curl overflow a heap based buffer in the SOCKS5 proxy
+handshake.
 
-libcurl performs transfers. In its API, an application creates "easy handles"
-that are the individual handles for single transfers.
+When curl is asked to pass along the host name to the SOCKS5 proxy to allow
+that to resolve the address instead of it getting done by curl itself, the
+maximum length that host name can be is 255 bytes.
 
-libcurl provides a function call that duplicates en easy handle called
-[curl_easy_duphandle](https://curl.se/libcurl/c/curl_eas</th>
+If the host name is detected to be longer, curl switches to local name
+resolving and instead passes on the resolved</th>
 		 	
 
 		</p>
@@ -9275,11 +9275,11 @@ poc/](https://www.horizon3.ai/cisco-ios-xe-cve-2023-20198-deep-dive-and-poc/)
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-2640">
+	<div class="cve" id="CVE-2023-32629">
 
 			
 		
-		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-2640>CVE-2023-2640</a><br>(7.8 HIGH)</h3>
+		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-32629>CVE-2023-32629</a><br>(7.8 HIGH)</h3>
 		
 
 		
@@ -9290,7 +9290,7 @@ poc/](https://www.horizon3.ai/cisco-ios-xe-cve-2023-20198-deep-dive-and-poc/)
 
 		<p class=description>
 		 
-		 		<th>On Ubuntu kernels carrying both c914c0e27eb0 and "UBUNTU: SAUCE: overlayfs: Skip permission checking for trusted.overlayfs.* xattrs", an unprivileged user may set privileged extended attributes on the mounted files, leading them to be set on the upper files without the appropriate security checks.</th>
+		 		<th>Local privilege escalation vulnerability in Ubuntu Kernels overlayfs ovl_copy_up_meta_inode_data skip permission checks when calling ovl_do_setxattr on Ubuntu kernels</th>
 		 	
 
 		</p>
@@ -9351,11 +9351,11 @@ Nifty [#PoC](https://infosec.exchange/tags/PoC)!
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-32629">
+	<div class="cve" id="CVE-2023-2640">
 
 			
 		
-		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-32629>CVE-2023-32629</a><br>(7.8 HIGH)</h3>
+		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-2640>CVE-2023-2640</a><br>(7.8 HIGH)</h3>
 		
 
 		
@@ -9366,7 +9366,7 @@ Nifty [#PoC](https://infosec.exchange/tags/PoC)!
 
 		<p class=description>
 		 
-		 		<th>Local privilege escalation vulnerability in Ubuntu Kernels overlayfs ovl_copy_up_meta_inode_data skip permission checks when calling ovl_do_setxattr on Ubuntu kernels</th>
+		 		<th>On Ubuntu kernels carrying both c914c0e27eb0 and "UBUNTU: SAUCE: overlayfs: Skip permission checking for trusted.overlayfs.* xattrs", an unprivileged user may set privileged extended attributes on the mounted files, leading them to be set on the upper files without the appropriate security checks.</th>
 		 	
 
 		</p>
