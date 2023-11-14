@@ -146,60 +146,51 @@
 
 	}
 
+	th {
+	  	cursor: pointer;
+	  	text-decoration: underline;
+	}
+
+	td {
+		padding: .2em;
+	}
+
 	</style>
 </head>
 
 
 
 <body>
-Updated at UTC 2023-11-14T11:08:42.604812
+Updated at UTC 2023-11-14T11:24:01.209888
 
 <p><a target=_blank href=https://github.com/fedisecfeeds/fedisecfeeds.github.io/blob/main/fedi_cve_feed.json>Access data as JSON</a></p>
 
 <section id=index>
-	<table>
+	<table id=cvetable>
 		<tr>
-		    <th>CVE</th>
-		    <th>CVSS</th>
-		    <th>EPSS</th>
-		    <th>Posts</th>
-		    <th>Description</th>
+		    <th onclick="sortTable(0)">CVE</th>
+		    <th onclick="sortTable(1)">CVSS</th>
+		    <th onclick="sortTable(2)">EPSS</th>
+		    <th onclick="sortTable(3)">Posts</th>
+		    <th onclick="sortTable(4)">Description</th>
 		</tr>
 
 		
 		<tr>
-			<th><a class="CRITICAL" href="#CVE-2023-46747">CVE-2023-46747</a></th>
+			<td><a class="CRITICAL" href="#CVE-2023-46747">CVE-2023-46747</a></td>
 
-			<th class=CRITICAL> 9.8 </th>
-
-			
-				<th class=CRITICAL>96.98%</th>
-			
-
-			<th>23</th>
-			
-				<th>
-
-
-Undisclosed requests may bypass configuration utility aut...</th>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<th><a class="CRITICAL" href="#CVE-2023-22518">CVE-2023-22518</a></th>
-
-			<th class=CRITICAL> 9.8 </th>
+			<td class=CRITICAL> 9.8 </td>
 
 			
-				<th class=CRITICAL>96.76%</th>
+				<td class=CRITICAL>96.98%</td>
 			
 
-			<th>36</th>
+			<td>23</td>
 			
-				<th>All versions of Confluence Data Center and Server are affect...</th>
+				<td>
+
+
+Undisclosed requests may bypass configuration utility authentication, allowin</td>
 			
 
 		</tr>
@@ -207,35 +198,17 @@ Undisclosed requests may bypass configuration utility aut...</th>
 
 		
 		<tr>
-			<th><a class="CRITICAL" href="#CVE-2023-46604">CVE-2023-46604</a></th>
+			<td><a class="CRITICAL" href="#CVE-2023-22518">CVE-2023-22518</a></td>
 
-			<th class=CRITICAL> 9.8 </th>
-
-			
-				<th class=CRITICAL>96.73%</th>
-			
-
-			<th>21</th>
-			
-				<th>The Java OpenWire protocol marshaller is vulnerable to Remot...</th>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<th><a class="CRITICAL" href="#CVE-2023-22515">CVE-2023-22515</a></th>
-
-			<th class=CRITICAL> 9.8 </th>
+			<td class=CRITICAL> 9.8 </td>
 
 			
-				<th class=CRITICAL>95.53%</th>
+				<td class=CRITICAL>96.76%</td>
 			
 
-			<th>17</th>
+			<td>36</td>
 			
-				<th>Atlassian has been made aware of an issue reported by a hand...</th>
+				<td>All versions of Confluence Data Center and Server are affected by this unexploit</td>
 			
 
 		</tr>
@@ -243,35 +216,18 @@ Undisclosed requests may bypass configuration utility aut...</th>
 
 		
 		<tr>
-			<th><a class="HIGH" href="#CVE-2023-4966">CVE-2023-4966</a></th>
+			<td><a class="CRITICAL" href="#CVE-2023-46604">CVE-2023-46604</a></td>
 
-			<th class=HIGH> 7.5 </th>
-
-			
-				<th class=CRITICAL>92.27%</th>
-			
-
-			<th>24</th>
-			
-				<th>Sensitive information disclosure in NetScaler ADC and NetSca...</th>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<th><a class="HIGH" href="#CVE-2023-36884">CVE-2023-36884</a></th>
-
-			<th class=HIGH> 7.5 </th>
+			<td class=CRITICAL> 9.8 </td>
 
 			
-				<th class=MEDIUM>42.75%</th>
+				<td class=CRITICAL>96.73%</td>
 			
 
-			<th>1</th>
+			<td>21</td>
 			
-				<th>Windows Search Remote Code Execution Vulnerability...</th>
+				<td>The Java OpenWire protocol marshaller is vulnerable to Remote Code 
+Execution. T</td>
 			
 
 		</tr>
@@ -279,35 +235,17 @@ Undisclosed requests may bypass configuration utility aut...</th>
 
 		
 		<tr>
-			<th><a class="None" href="#CVE-2023-36845">CVE-2023-36845</a></th>
+			<td><a class="CRITICAL" href="#CVE-2023-22515">CVE-2023-22515</a></td>
 
-			<th class=None> 0 </th>
-
-			
-				<th class=MEDIUM>37.94%</th>
-			
-
-			<th>1</th>
-			
-				<th>A PHP External Variable Modification vulnerability in J-Web ...</th>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<th><a class="HIGH" href="#CVE-2023-29552">CVE-2023-29552</a></th>
-
-			<th class=HIGH> 7.5 </th>
+			<td class=CRITICAL> 9.8 </td>
 
 			
-				<th class=None>16.32%</th>
+				<td class=CRITICAL>95.53%</td>
 			
 
-			<th>5</th>
+			<td>17</td>
 			
-				<th>The Service Location Protocol (SLP, RFC 2608) allows an unau...</th>
+				<td>Atlassian has been made aware of an issue reported by a handful of customers whe</td>
 			
 
 		</tr>
@@ -315,35 +253,17 @@ Undisclosed requests may bypass configuration utility aut...</th>
 
 		
 		<tr>
-			<th><a class="HIGH" href="#CVE-2023-46748">CVE-2023-46748</a></th>
+			<td><a class="HIGH" href="#CVE-2023-4966">CVE-2023-4966</a></td>
 
-			<th class=HIGH> 8.8 </th>
-
-			
-				<th class=None>2.93%</th>
-			
-
-			<th>9</th>
-			
-				<th>An authenticated SQL injection vulnerability exists in the B...</th>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<th><a class="MEDIUM" href="#CVE-2023-36844">CVE-2023-36844</a></th>
-
-			<th class=MEDIUM> 5.3 </th>
+			<td class=HIGH> 7.5 </td>
 
 			
-				<th class=None>2.56%</th>
+				<td class=CRITICAL>92.27%</td>
 			
 
-			<th>2</th>
+			<td>24</td>
 			
-				<th>A PHP External Variable Modification vulnerability in J-Web ...</th>
+				<td>Sensitive information disclosure in NetScaler ADC and NetScaler Gateway when con</td>
 			
 
 		</tr>
@@ -351,35 +271,17 @@ Undisclosed requests may bypass configuration utility aut...</th>
 
 		
 		<tr>
-			<th><a class="CRITICAL" href="#CVE-2023-26801">CVE-2023-26801</a></th>
+			<td><a class="HIGH" href="#CVE-2023-36884">CVE-2023-36884</a></td>
 
-			<th class=CRITICAL> 9.8 </th>
-
-			
-				<th class=None>1.36%</th>
-			
-
-			<th>1</th>
-			
-				<th>LB-LINK BL-AC1900_2.0 v1.0.1, LB-LINK BL-WR9000 v2.4.9, LB-L...</th>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<th><a class="HIGH" href="#CVE-2023-32629">CVE-2023-32629</a></th>
-
-			<th class=HIGH> 7.8 </th>
+			<td class=HIGH> 7.5 </td>
 
 			
-				<th class=None>0.79%</th>
+				<td class=MEDIUM>42.75%</td>
 			
 
-			<th>2</th>
+			<td>1</td>
 			
-				<th>Local privilege escalation vulnerability in Ubuntu Kernels o...</th>
+				<td>Windows Search Remote Code Execution Vulnerability</td>
 			
 
 		</tr>
@@ -387,35 +289,17 @@ Undisclosed requests may bypass configuration utility aut...</th>
 
 		
 		<tr>
-			<th><a class="HIGH" href="#CVE-2021-42574">CVE-2021-42574</a></th>
+			<td><a class="None" href="#CVE-2023-36845">CVE-2023-36845</a></td>
 
-			<th class=HIGH> 8.3 </th>
-
-			
-				<th class=None>0.25%</th>
-			
-
-			<th>1</th>
-			
-				<th>An issue was discovered in the Bidirectional Algorithm in th...</th>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<th><a class="MEDIUM" href="#CVE-2023-36584">CVE-2023-36584</a></th>
-
-			<th class=MEDIUM> 5.4 </th>
+			<td class=None> 0 </td>
 
 			
-				<th class=None>0.11%</th>
+				<td class=MEDIUM>37.94%</td>
 			
 
-			<th>2</th>
+			<td>1</td>
 			
-				<th>Windows Mark of the Web Security Feature Bypass Vulnerabilit...</th>
+				<td>A PHP External Variable Modification vulnerability in J-Web of Juniper Networks </td>
 			
 
 		</tr>
@@ -423,35 +307,17 @@ Undisclosed requests may bypass configuration utility aut...</th>
 
 		
 		<tr>
-			<th><a class="None" href="#CVE-2023-5996">CVE-2023-5996</a></th>
+			<td><a class="HIGH" href="#CVE-2023-29552">CVE-2023-29552</a></td>
 
-			<th class=None> 0 </th>
-
-			
-				<th class=None>0.06%</th>
-			
-
-			<th>4</th>
-			
-				<th>Use after free in WebAudio in Google Chrome prior to 119.0.6...</th>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<th><a class="None" href="#CVE-2023-46850">CVE-2023-46850</a></th>
-
-			<th class=None> 0 </th>
+			<td class=HIGH> 7.5 </td>
 
 			
-				<th class=None>0.05%</th>
+				<td class=None>16.32%</td>
 			
 
-			<th>2</th>
+			<td>5</td>
 			
-				<th>Use after free in OpenVPN version 2.6.0 to 2.6.6 may lead to...</th>
+				<td>The Service Location Protocol (SLP, RFC 2608) allows an unauthenticated, remote </td>
 			
 
 		</tr>
@@ -459,35 +325,17 @@ Undisclosed requests may bypass configuration utility aut...</th>
 
 		
 		<tr>
-			<th><a class="HIGH" href="#CVE-2023-2640">CVE-2023-2640</a></th>
+			<td><a class="HIGH" href="#CVE-2023-46748">CVE-2023-46748</a></td>
 
-			<th class=HIGH> 7.8 </th>
-
-			
-				<th class=None>0.05%</th>
-			
-
-			<th>2</th>
-			
-				<th>On Ubuntu kernels carrying both c914c0e27eb0 and "UBUNTU: SA...</th>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<th><a class="None" href="#CVE-2023-47246">CVE-2023-47246</a></th>
-
-			<th class=None> 0 </th>
+			<td class=HIGH> 8.8 </td>
 
 			
-				<th class=None>0.05%</th>
+				<td class=None>2.93%</td>
 			
 
-			<th>21</th>
+			<td>9</td>
 			
-				<th>In SysAid On-Premise before 23.3.36, a path traversal vulner...</th>
+				<td>An authenticated SQL injection vulnerability exists in the BIG-IP Configuration </td>
 			
 
 		</tr>
@@ -495,36 +343,17 @@ Undisclosed requests may bypass configuration utility aut...</th>
 
 		
 		<tr>
-			<th><a class="MEDIUM" href="#CVE-2023-36851">CVE-2023-36851</a></th>
+			<td><a class="MEDIUM" href="#CVE-2023-36844">CVE-2023-36844</a></td>
 
-			<th class=MEDIUM> 5.3 </th>
-
-			
-				<th class=None>0.05%</th>
-			
-
-			<th>2</th>
-			
-				<th>A Missing Authentication for Critical Function vulnerability...</th>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<th><a class="MEDIUM" href="#CVE-2023-3466">CVE-2023-3466</a></th>
-
-			<th class=MEDIUM> 6.1 </th>
+			<td class=MEDIUM> 5.3 </td>
 
 			
-				<th class=None>0.05%</th>
+				<td class=None>2.56%</td>
 			
 
-			<th>1</th>
+			<td>2</td>
 			
-				<th>Reflected Cross-Site Scripting (XSS)
-...</th>
+				<td>A PHP External Variable Modification vulnerability in J-Web of Juniper Networks </td>
 			
 
 		</tr>
@@ -532,35 +361,17 @@ Undisclosed requests may bypass configuration utility aut...</th>
 
 		
 		<tr>
-			<th><a class="None" href="#CVE-2023-36014">CVE-2023-36014</a></th>
+			<td><a class="CRITICAL" href="#CVE-2023-26801">CVE-2023-26801</a></td>
 
-			<th class=None> 0 </th>
-
-			
-				<th class=None>0.04%</th>
-			
-
-			<th>2</th>
-			
-				<th>Microsoft Edge (Chromium-based) Remote Code Execution Vulner...</th>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<th><a class="None" href="#CVE-2023-36024">CVE-2023-36024</a></th>
-
-			<th class=None> 0 </th>
+			<td class=CRITICAL> 9.8 </td>
 
 			
-				<th class=None>0.04%</th>
+				<td class=None>1.36%</td>
 			
 
-			<th>3</th>
+			<td>1</td>
 			
-				<th>Microsoft Edge (Chromium-based) Elevation of Privilege Vulne...</th>
+				<td>LB-LINK BL-AC1900_2.0 v1.0.1, LB-LINK BL-WR9000 v2.4.9, LB-LINK BL-X26 v1.2.5, a</td>
 			
 
 		</tr>
@@ -568,35 +379,17 @@ Undisclosed requests may bypass configuration utility aut...</th>
 
 		
 		<tr>
-			<th><a class="None" href="#CVE-2023-36027">CVE-2023-36027</a></th>
+			<td><a class="HIGH" href="#CVE-2023-32629">CVE-2023-32629</a></td>
 
-			<th class=None> 0 </th>
-
-			
-				<th class=None>0.04%</th>
-			
-
-			<th>2</th>
-			
-				<th>Microsoft Edge (Chromium-based) Elevation of Privilege Vulne...</th>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<th><a class="None" href="#CVE-2023-46849">CVE-2023-46849</a></th>
-
-			<th class=None> 0 </th>
+			<td class=HIGH> 7.8 </td>
 
 			
-				<th class=None>0.04%</th>
+				<td class=None>0.79%</td>
 			
 
-			<th>2</th>
+			<td>2</td>
 			
-				<th>Using the --fragment option in certain configuration setups ...</th>
+				<td>Local privilege escalation vulnerability in Ubuntu Kernels overlayfs ovl_copy_up</td>
 			
 
 		</tr>
@@ -604,35 +397,17 @@ Undisclosed requests may bypass configuration utility aut...</th>
 
 		
 		<tr>
-			<th><a class="None" href="#CVE-2023-36846">CVE-2023-36846</a></th>
+			<td><a class="HIGH" href="#CVE-2021-42574">CVE-2021-42574</a></td>
 
-			<th class=None> 0 </th>
-
-			
-				<th class=None>0.04%</th>
-			
-
-			<th>2</th>
-			
-				<th>A Missing Authentication for Critical Function vulnerability...</th>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<th><a class="None" href="#CVE-2023-36847">CVE-2023-36847</a></th>
-
-			<th class=None> 0 </th>
+			<td class=HIGH> 8.3 </td>
 
 			
-				<th class=None>0.04%</th>
+				<td class=None>0.25%</td>
 			
 
-			<th>2</th>
+			<td>1</td>
 			
-				<th>A Missing Authentication for Critical Function vulnerability...</th>
+				<td>An issue was discovered in the Bidirectional Algorithm in the Unicode Specificat</td>
 			
 
 		</tr>
@@ -640,35 +415,17 @@ Undisclosed requests may bypass configuration utility aut...</th>
 
 		
 		<tr>
-			<th><a class="None" href="#CVE-2023-5950">CVE-2023-5950</a></th>
+			<td><a class="MEDIUM" href="#CVE-2023-36584">CVE-2023-36584</a></td>
 
-			<th class=None> 0 </th>
-
-			
-				<th class=None>0.04%</th>
-			
-
-			<th>2</th>
-			
-				<th>Rapid7 Velociraptor versions prior to 0.7.0-4 suffer from a ...</th>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<th><a class="None" href="#CVE-2023-39335">CVE-2023-39335</a></th>
-
-			<th class=None> 0 </th>
+			<td class=MEDIUM> 5.4 </td>
 
 			
-				<th class=None>0.00%</th>
+				<td class=None>0.11%</td>
 			
 
-			<th>2</th>
+			<td>2</td>
 			
-				<th>N/A...</th>
+				<td>Windows Mark of the Web Security Feature Bypass Vulnerability</td>
 			
 
 		</tr>
@@ -676,35 +433,17 @@ Undisclosed requests may bypass configuration utility aut...</th>
 
 		
 		<tr>
-			<th><a class="None" href="#CVE-2023-39337">CVE-2023-39337</a></th>
+			<td><a class="None" href="#CVE-2023-5996">CVE-2023-5996</a></td>
 
-			<th class=None> 0 </th>
-
-			
-				<th class=None>0.00%</th>
-			
-
-			<th>2</th>
-			
-				<th>N/A...</th>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<th><a class="None" href="#CVE-2023-31247">CVE-2023-31247</a></th>
-
-			<th class=None> 0 </th>
+			<td class=None> 0 </td>
 
 			
-				<th class=None>0.00%</th>
+				<td class=None>0.06%</td>
 			
 
-			<th>1</th>
+			<td>4</td>
 			
-				<th>N/A...</th>
+				<td>Use after free in WebAudio in Google Chrome prior to 119.0.6045.123 allowed a re</td>
 			
 
 		</tr>
@@ -712,35 +451,17 @@ Undisclosed requests may bypass configuration utility aut...</th>
 
 		
 		<tr>
-			<th><a class="None" href="#CVE-2023-23369">CVE-2023-23369</a></th>
+			<td><a class="None" href="#CVE-2023-46850">CVE-2023-46850</a></td>
 
-			<th class=None> 0 </th>
-
-			
-				<th class=None>0.00%</th>
-			
-
-			<th>2</th>
-			
-				<th>An OS command injection vulnerability has been reported to a...</th>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<th><a class="None" href="#CVE-2023-23368">CVE-2023-23368</a></th>
-
-			<th class=None> 0 </th>
+			<td class=None> 0 </td>
 
 			
-				<th class=None>0.00%</th>
+				<td class=None>0.05%</td>
 			
 
-			<th>3</th>
+			<td>2</td>
 			
-				<th>An OS command injection vulnerability has been reported to a...</th>
+				<td>Use after free in OpenVPN version 2.6.0 to 2.6.6 may lead to undefined behavoir,</td>
 			
 
 		</tr>
@@ -748,35 +469,17 @@ Undisclosed requests may bypass configuration utility aut...</th>
 
 		
 		<tr>
-			<th><a class="CRITICAL" href="#CVE-2019-0708">CVE-2019-0708</a></th>
+			<td><a class="HIGH" href="#CVE-2023-2640">CVE-2023-2640</a></td>
 
-			<th class=CRITICAL> 9.8 </th>
-
-			
-				<th class=None>0.00%</th>
-			
-
-			<th>1</th>
-			
-				<th>A remote code execution vulnerability exists in Remote Deskt...</th>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<th><a class="None" href="#CVE-2023-47272">CVE-2023-47272</a></th>
-
-			<th class=None> 0 </th>
+			<td class=HIGH> 7.8 </td>
 
 			
-				<th class=None>0.00%</th>
+				<td class=None>0.05%</td>
 			
 
-			<th>1</th>
+			<td>2</td>
 			
-				<th>Roundcube 1.5.x before 1.5.6 and 1.6.x before 1.6.5 allows X...</th>
+				<td>On Ubuntu kernels carrying both c914c0e27eb0 and "UBUNTU: SAUCE: overlayfs: Skip</td>
 			
 
 		</tr>
@@ -784,35 +487,17 @@ Undisclosed requests may bypass configuration utility aut...</th>
 
 		
 		<tr>
-			<th><a class="None" href="#CVE-2023-45283">CVE-2023-45283</a></th>
+			<td><a class="None" href="#CVE-2023-47246">CVE-2023-47246</a></td>
 
-			<th class=None> 0 </th>
-
-			
-				<th class=None>0.00%</th>
-			
-
-			<th>1</th>
-			
-				<th>The filepath package does not recognize paths with a \??\ pr...</th>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<th><a class="None" href="#CVE-2023-45284">CVE-2023-45284</a></th>
-
-			<th class=None> 0 </th>
+			<td class=None> 0 </td>
 
 			
-				<th class=None>0.00%</th>
+				<td class=None>0.05%</td>
 			
 
-			<th>1</th>
+			<td>21</td>
 			
-				<th>On Windows, The IsLocal function does not correctly detect r...</th>
+				<td>In SysAid On-Premise before 23.3.36, a path traversal vulnerability leads to cod</td>
 			
 
 		</tr>
@@ -820,35 +505,17 @@ Undisclosed requests may bypass configuration utility aut...</th>
 
 		
 		<tr>
-			<th><a class="HIGH" href="#CVE-2022-21449">CVE-2022-21449</a></th>
+			<td><a class="MEDIUM" href="#CVE-2023-36851">CVE-2023-36851</a></td>
 
-			<th class=HIGH> 7.5 </th>
-
-			
-				<th class=None>0.00%</th>
-			
-
-			<th>1</th>
-			
-				<th>Vulnerability in the Oracle Java SE, Oracle GraalVM Enterpri...</th>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<th><a class="HIGH" href="#CVE-2023-42451">CVE-2023-42451</a></th>
-
-			<th class=HIGH> 7.5 </th>
+			<td class=MEDIUM> 5.3 </td>
 
 			
-				<th class=None>0.00%</th>
+				<td class=None>0.05%</td>
 			
 
-			<th>1</th>
+			<td>2</td>
 			
-				<th>Mastodon is a free, open-source social network server based ...</th>
+				<td>A Missing Authentication for Critical Function vulnerability in Juniper Networks</td>
 			
 
 		</tr>
@@ -856,35 +523,18 @@ Undisclosed requests may bypass configuration utility aut...</th>
 
 		
 		<tr>
-			<th><a class="HIGH" href="#CVE-2022-26704">CVE-2022-26704</a></th>
+			<td><a class="MEDIUM" href="#CVE-2023-3466">CVE-2023-3466</a></td>
 
-			<th class=HIGH> 7.8 </th>
-
-			
-				<th class=None>0.00%</th>
-			
-
-			<th>2</th>
-			
-				<th>A validation issue existed in the handling of symlinks and w...</th>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<th><a class="None" href="#CVE-2023-38548">CVE-2023-38548</a></th>
-
-			<th class=None> 0 </th>
+			<td class=MEDIUM> 6.1 </td>
 
 			
-				<th class=None>0.00%</th>
+				<td class=None>0.05%</td>
 			
 
-			<th>1</th>
+			<td>1</td>
 			
-				<th>A vulnerability in Veeam ONE allows an unprivileged user who...</th>
+				<td>Reflected Cross-Site Scripting (XSS)
+</td>
 			
 
 		</tr>
@@ -892,35 +542,17 @@ Undisclosed requests may bypass configuration utility aut...</th>
 
 		
 		<tr>
-			<th><a class="None" href="#CVE-2023-38547">CVE-2023-38547</a></th>
+			<td><a class="None" href="#CVE-2023-36014">CVE-2023-36014</a></td>
 
-			<th class=None> 0 </th>
-
-			
-				<th class=None>0.00%</th>
-			
-
-			<th>1</th>
-			
-				<th>A vulnerability in Veeam ONE allows an unauthenticated user ...</th>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<th><a class="CRITICAL" href="#CVE-2023-34048">CVE-2023-34048</a></th>
-
-			<th class=CRITICAL> 9.8 </th>
+			<td class=None> 0 </td>
 
 			
-				<th class=None>0.00%</th>
+				<td class=None>0.04%</td>
 			
 
-			<th>1</th>
+			<td>2</td>
 			
-				<th>vCenter Server contains an out-of-bounds write vulnerability...</th>
+				<td>Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability</td>
 			
 
 		</tr>
@@ -928,35 +560,17 @@ Undisclosed requests may bypass configuration utility aut...</th>
 
 		
 		<tr>
-			<th><a class="HIGH" href="#CVE-2023-4911">CVE-2023-4911</a></th>
+			<td><a class="None" href="#CVE-2023-36024">CVE-2023-36024</a></td>
 
-			<th class=HIGH> 7.8 </th>
-
-			
-				<th class=None>0.00%</th>
-			
-
-			<th>4</th>
-			
-				<th>A buffer overflow was discovered in the GNU C Library's dyna...</th>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<th><a class="HIGH" href="#CVE-2023-20273">CVE-2023-20273</a></th>
-
-			<th class=HIGH> 7.2 </th>
+			<td class=None> 0 </td>
 
 			
-				<th class=None>0.00%</th>
+				<td class=None>0.04%</td>
 			
 
-			<th>4</th>
+			<td>3</td>
 			
-				<th>A vulnerability in the web UI feature of Cisco IOS XE Softwa...</th>
+				<td>Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability</td>
 			
 
 		</tr>
@@ -964,35 +578,17 @@ Undisclosed requests may bypass configuration utility aut...</th>
 
 		
 		<tr>
-			<th><a class="CRITICAL" href="#CVE-2023-20198">CVE-2023-20198</a></th>
+			<td><a class="None" href="#CVE-2023-36027">CVE-2023-36027</a></td>
 
-			<th class=CRITICAL> 10 </th>
-
-			
-				<th class=None>0.00%</th>
-			
-
-			<th>6</th>
-			
-				<th>Cisco is providing an update for the ongoing investigation i...</th>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<th><a class="MEDIUM" href="#CVE-2023-23752">CVE-2023-23752</a></th>
-
-			<th class=MEDIUM> 5.3 </th>
+			<td class=None> 0 </td>
 
 			
-				<th class=None>0.00%</th>
+				<td class=None>0.04%</td>
 			
 
-			<th>1</th>
+			<td>2</td>
 			
-				<th>An issue was discovered in Joomla! 4.0.0 through 4.2.7. An i...</th>
+				<td>Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability</td>
 			
 
 		</tr>
@@ -1000,35 +596,17 @@ Undisclosed requests may bypass configuration utility aut...</th>
 
 		
 		<tr>
-			<th><a class="CRITICAL" href="#CVE-2017-9841">CVE-2017-9841</a></th>
+			<td><a class="None" href="#CVE-2023-46849">CVE-2023-46849</a></td>
 
-			<th class=CRITICAL> 9.8 </th>
-
-			
-				<th class=None>0.00%</th>
-			
-
-			<th>1</th>
-			
-				<th>Util/PHP/eval-stdin.php in PHPUnit before 4.8.28 and 5.x bef...</th>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<th><a class="None" href="#CVE-2023-4674">CVE-2023-4674</a></th>
-
-			<th class=None> 0 </th>
+			<td class=None> 0 </td>
 
 			
-				<th class=None>0.00%</th>
+				<td class=None>0.04%</td>
 			
 
-			<th>1</th>
+			<td>2</td>
 			
-				<th>N/A...</th>
+				<td>Using the --fragment option in certain configuration setups OpenVPN version 2.6.</td>
 			
 
 		</tr>
@@ -1036,35 +614,17 @@ Undisclosed requests may bypass configuration utility aut...</th>
 
 		
 		<tr>
-			<th><a class="HIGH" href="#CVE-2023-4967">CVE-2023-4967</a></th>
+			<td><a class="None" href="#CVE-2023-36846">CVE-2023-36846</a></td>
 
-			<th class=HIGH> 7.5 </th>
-
-			
-				<th class=None>0.00%</th>
-			
-
-			<th>1</th>
-			
-				<th>Denial of Service in NetScaler ADC and NetScaler Gateway whe...</th>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<th><a class="CRITICAL" href="#CVE-2023-20048">CVE-2023-20048</a></th>
-
-			<th class=CRITICAL> 9.9 </th>
+			<td class=None> 0 </td>
 
 			
-				<th class=None>0.00%</th>
+				<td class=None>0.04%</td>
 			
 
-			<th>1</th>
+			<td>2</td>
 			
-				<th>A vulnerability in the web services interface of Cisco Firep...</th>
+				<td>A Missing Authentication for Critical Function vulnerability in Juniper Networks</td>
 			
 
 		</tr>
@@ -1072,17 +632,17 @@ Undisclosed requests may bypass configuration utility aut...</th>
 
 		
 		<tr>
-			<th><a class="MEDIUM" href="#CVE-2023-20886">CVE-2023-20886</a></th>
+			<td><a class="None" href="#CVE-2023-36847">CVE-2023-36847</a></td>
 
-			<th class=MEDIUM> 6.1 </th>
+			<td class=None> 0 </td>
 
 			
-				<th class=None>0.00%</th>
+				<td class=None>0.04%</td>
 			
 
-			<th>1</th>
+			<td>2</td>
 			
-				<th>VMware Workspace ONE UEM console contains an open redirect v...</th>
+				<td>A Missing Authentication for Critical Function vulnerability in Juniper Networks</td>
 			
 
 		</tr>
@@ -1090,17 +650,470 @@ Undisclosed requests may bypass configuration utility aut...</th>
 
 		
 		<tr>
-			<th><a class="CRITICAL" href="#CVE-2023-43208">CVE-2023-43208</a></th>
+			<td><a class="None" href="#CVE-2023-5950">CVE-2023-5950</a></td>
 
-			<th class=CRITICAL> 9.8 </th>
+			<td class=None> 0 </td>
 
 			
-				<th class=None>0.00%</th>
+				<td class=None>0.04%</td>
 			
 
-			<th>2</th>
+			<td>2</td>
 			
-				<th>NextGen Healthcare Mirth Connect before version 4.4.1 is vul...</th>
+				<td>Rapid7 Velociraptor versions prior to 0.7.0-4 suffer from a reflected cross site</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="None" href="#CVE-2023-39335">CVE-2023-39335</a></td>
+
+			<td class=None> 0 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>2</td>
+			
+				<td>N/A</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="None" href="#CVE-2023-39337">CVE-2023-39337</a></td>
+
+			<td class=None> 0 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>2</td>
+			
+				<td>N/A</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="None" href="#CVE-2023-31247">CVE-2023-31247</a></td>
+
+			<td class=None> 0 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>1</td>
+			
+				<td>N/A</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="None" href="#CVE-2023-23369">CVE-2023-23369</a></td>
+
+			<td class=None> 0 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>2</td>
+			
+				<td>An OS command injection vulnerability has been reported to affect several QNAP o</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="None" href="#CVE-2023-23368">CVE-2023-23368</a></td>
+
+			<td class=None> 0 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>3</td>
+			
+				<td>An OS command injection vulnerability has been reported to affect several QNAP o</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="CRITICAL" href="#CVE-2019-0708">CVE-2019-0708</a></td>
+
+			<td class=CRITICAL> 9.8 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>1</td>
+			
+				<td>A remote code execution vulnerability exists in Remote Desktop Services formerly</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="None" href="#CVE-2023-47272">CVE-2023-47272</a></td>
+
+			<td class=None> 0 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>1</td>
+			
+				<td>Roundcube 1.5.x before 1.5.6 and 1.6.x before 1.6.5 allows XSS via a Content-Typ</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="None" href="#CVE-2023-45283">CVE-2023-45283</a></td>
+
+			<td class=None> 0 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>1</td>
+			
+				<td>The filepath package does not recognize paths with a \??\ prefix as special. On </td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="None" href="#CVE-2023-45284">CVE-2023-45284</a></td>
+
+			<td class=None> 0 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>1</td>
+			
+				<td>On Windows, The IsLocal function does not correctly detect reserved device names</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="HIGH" href="#CVE-2022-21449">CVE-2022-21449</a></td>
+
+			<td class=HIGH> 7.5 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>1</td>
+			
+				<td>Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product o</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="HIGH" href="#CVE-2023-42451">CVE-2023-42451</a></td>
+
+			<td class=HIGH> 7.5 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>1</td>
+			
+				<td>Mastodon is a free, open-source social network server based on ActivityPub. Prio</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="HIGH" href="#CVE-2022-26704">CVE-2022-26704</a></td>
+
+			<td class=HIGH> 7.8 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>2</td>
+			
+				<td>A validation issue existed in the handling of symlinks and was addressed with im</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="None" href="#CVE-2023-38547">CVE-2023-38547</a></td>
+
+			<td class=None> 0 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>1</td>
+			
+				<td>A vulnerability in Veeam ONE allows an unauthenticated user to gain information </td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="None" href="#CVE-2023-38548">CVE-2023-38548</a></td>
+
+			<td class=None> 0 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>1</td>
+			
+				<td>A vulnerability in Veeam ONE allows an unprivileged user who has access to the V</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="CRITICAL" href="#CVE-2023-34048">CVE-2023-34048</a></td>
+
+			<td class=CRITICAL> 9.8 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>1</td>
+			
+				<td>vCenter Server contains an out-of-bounds write vulnerability in the implementati</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="HIGH" href="#CVE-2023-4911">CVE-2023-4911</a></td>
+
+			<td class=HIGH> 7.8 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>4</td>
+			
+				<td>A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so whi</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="CRITICAL" href="#CVE-2023-20198">CVE-2023-20198</a></td>
+
+			<td class=CRITICAL> 10 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>6</td>
+			
+				<td>Cisco is providing an update for the ongoing investigation into observed exploit</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="HIGH" href="#CVE-2023-20273">CVE-2023-20273</a></td>
+
+			<td class=HIGH> 7.2 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>4</td>
+			
+				<td>A vulnerability in the web UI feature of Cisco IOS XE Software could allow an au</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="MEDIUM" href="#CVE-2023-23752">CVE-2023-23752</a></td>
+
+			<td class=MEDIUM> 5.3 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>1</td>
+			
+				<td>An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="CRITICAL" href="#CVE-2017-9841">CVE-2017-9841</a></td>
+
+			<td class=CRITICAL> 9.8 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>1</td>
+			
+				<td>Util/PHP/eval-stdin.php in PHPUnit before 4.8.28 and 5.x before 5.6.3 allows rem</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="None" href="#CVE-2023-4674">CVE-2023-4674</a></td>
+
+			<td class=None> 0 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>1</td>
+			
+				<td>N/A</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="HIGH" href="#CVE-2023-4967">CVE-2023-4967</a></td>
+
+			<td class=HIGH> 7.5 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>1</td>
+			
+				<td>Denial of Service in NetScaler ADC and NetScaler Gateway when configured as a Ga</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="CRITICAL" href="#CVE-2023-20048">CVE-2023-20048</a></td>
+
+			<td class=CRITICAL> 9.9 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>1</td>
+			
+				<td>A vulnerability in the web services interface of Cisco Firepower Management Cent</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="MEDIUM" href="#CVE-2023-20886">CVE-2023-20886</a></td>
+
+			<td class=MEDIUM> 6.1 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>1</td>
+			
+				<td>VMware Workspace ONE UEM console contains an open redirect vulnerability.
+
+
+A ma</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="CRITICAL" href="#CVE-2023-43208">CVE-2023-43208</a></td>
+
+			<td class=CRITICAL> 9.8 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>2</td>
+			
+				<td>NextGen Healthcare Mirth Connect before version 4.4.1 is vulnerable to unauthent</td>
 			
 
 		</tr>
@@ -1131,7 +1144,9 @@ Undisclosed requests may bypass configuration utility aut...</th>
 		 		<th>
 
 
-Undisclosed requests may bypass configuration utility authentication, allowing an attacker with network access to the BIG-IP system through the management port and/or self IP addresses to execute arbitrary system commands.  Note: Software versions which have reached End of Technical Support (EoTS...</th>
+Undisclosed requests may bypass configuration utility authentication, allowing an attacker with network access to the BIG-IP system through the management port and/or self IP addresses to execute arbitrary system commands.  Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated
+
+</th>
 		 	
 
 		</p>
@@ -1806,7 +1821,7 @@ compromising-f5-big-ip-with-request-smuggling-cve-2023-46747/)
 
 		<p class=description>
 		 
-		 		<th>All versions of Confluence Data Center and Server are affected by this unexploited vulnerability. This Improper Authorization vulnerability allows an unauthenticated attacker to reset Confluence and create a Confluence instance administrator account. Using this account, an attacker can then perform ...</th>
+		 		<th>All versions of Confluence Data Center and Server are affected by this unexploited vulnerability. This Improper Authorization vulnerability allows an unauthenticated attacker to reset Confluence and create a Confluence instance administrator account. Using this account, an attacker can then perform all administrative actions that are available to Confluence instance administrator leading to - but </th>
 		 	
 
 		</p>
@@ -2738,7 +2753,10 @@ server-1311473907.html)
 Execution. This vulnerability may allow a remote attacker with network 
 access to either a Java-based OpenWire broker or client to run arbitrary
  shell commands by manipulating serialized class types in the OpenWire 
-protocol to cau...</th>
+protocol to cause either the client or the broker (respectively) to 
+instantiate any class on the classpath.
+
+Users</th>
 		 	
 
 		</p>
@@ -3264,7 +3282,9 @@ exploited.
 
 		<p class=description>
 		 
-		 		<th>Atlassian has been made aware of an issue reported by a handful of customers where external attackers may have exploited a previously unknown vulnerability in publicly accessible Confluence Data Center and Server instances to create unauthorized Confluence administrator accounts and access Confluenc...</th>
+		 		<th>Atlassian has been made aware of an issue reported by a handful of customers where external attackers may have exploited a previously unknown vulnerability in publicly accessible Confluence Data Center and Server instances to create unauthorized Confluence administrator accounts and access Confluence instances. 
+
+Atlassian Cloud sites are not affected by this vulnerability. If your Confluence si</th>
 		 	
 
 		</p>
@@ -3823,7 +3843,7 @@ hackers.html)
 
 
 
-...</th>
+</th>
 		 	
 
 		</p>
@@ -4487,7 +4507,7 @@ Americas, Europe, Africa, and the Asia-Pacific region.
 
 		<p class=description>
 		 
-		 		<th>Windows Search Remote Code Execution Vulnerability...</th>
+		 		<th>Windows Search Remote Code Execution Vulnerability</th>
 		 	
 
 		</p>
@@ -4559,7 +4579,10 @@ and SRX Series
 
 allows an unauthenticated, network-based attacker to remotely execute code.
 
-Using a crafted request which sets the variable PHPRC an attacker is able to modify the PHP execution ...</th>
+Using a crafted request which sets the variable PHPRC an attacker is able to modify the PHP execution environment allowing the injection und execution of code.
+
+
+This issue affects Juniper Networks Juno</th>
 		 	
 
 		</p>
@@ -4627,7 +4650,7 @@ catalog)
 
 		<p class=description>
 		 
-		 		<th>The Service Location Protocol (SLP, RFC 2608) allows an unauthenticated, remote attacker to register arbitrary services. This could allow the attacker to use spoofed UDP traffic to conduct a denial-of-service attack with a significant amplification factor....</th>
+		 		<th>The Service Location Protocol (SLP, RFC 2608) allows an unauthenticated, remote attacker to register arbitrary services. This could allow the attacker to use spoofed UDP traffic to conduct a denial-of-service attack with a significant amplification factor.</th>
 		 	
 
 		</p>
@@ -4770,7 +4793,7 @@ events/alerts/2023/11/08/cisa-adds-one-known-exploited-vulnerability-catalog)
 
 may allow an authenticated attacker with network access to the Configuration utility through the BIG-IP management port and/or self IP addresses to execute arbitrary system commands.
 
- Note: Software vers...</th>
+ Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated</th>
 		 	
 
 		</p>
@@ -5066,7 +5089,8 @@ like this is the case.
 
 Using a crafted request an attacker is able to modify 
 
-certain PHP environment variables lead...</th>
+certain PHP environment variables leading to partial loss of integrity, which may allow chaining to other vulnerabilities.
+This issue affe</th>
 		 	
 
 		</p>
@@ -5172,7 +5196,7 @@ catalog)
 
 		<p class=description>
 		 
-		 		<th>LB-LINK BL-AC1900_2.0 v1.0.1, LB-LINK BL-WR9000 v2.4.9, LB-LINK BL-X26 v1.2.5, and LB-LINK BL-LTE300 v1.0.8 were discovered to contain a command injection vulnerability via the mac, time1, and time2 parameters at /goform/set_LimitClient_cfg....</th>
+		 		<th>LB-LINK BL-AC1900_2.0 v1.0.1, LB-LINK BL-WR9000 v2.4.9, LB-LINK BL-X26 v1.2.5, and LB-LINK BL-LTE300 v1.0.8 were discovered to contain a command injection vulnerability via the mac, time1, and time2 parameters at /goform/set_LimitClient_cfg.</th>
 		 	
 
 		</p>
@@ -5224,7 +5248,7 @@ United States, Israel, Spain, United Kingdom, Belarus
 
 		<p class=description>
 		 
-		 		<th>Local privilege escalation vulnerability in Ubuntu Kernels overlayfs ovl_copy_up_meta_inode_data skip permission checks when calling ovl_do_setxattr on Ubuntu kernels...</th>
+		 		<th>Local privilege escalation vulnerability in Ubuntu Kernels overlayfs ovl_copy_up_meta_inode_data skip permission checks when calling ovl_do_setxattr on Ubuntu kernels</th>
 		 	
 
 		</p>
@@ -5300,7 +5324,7 @@ Nifty [#PoC](https://infosec.exchange/tags/PoC)!
 
 		<p class=description>
 		 
-		 		<th>An issue was discovered in the Bidirectional Algorithm in the Unicode Specification through 14.0. It permits the visual reordering of characters via control sequences, which can be used to craft source code that renders different logic than the logical ordering of tokens ingested by compilers and in...</th>
+		 		<th>An issue was discovered in the Bidirectional Algorithm in the Unicode Specification through 14.0. It permits the visual reordering of characters via control sequences, which can be used to craft source code that renders different logic than the logical ordering of tokens ingested by compilers and interpreters. Adversaries can leverage this to encode source code for compilers accepting Unicode such</th>
 		 	
 
 		</p>
@@ -5352,7 +5376,7 @@ compiler, and also conceals code from human review (per the CVE)
 
 		<p class=description>
 		 
-		 		<th>Windows Mark of the Web Security Feature Bypass Vulnerability...</th>
+		 		<th>Windows Mark of the Web Security Feature Bypass Vulnerability</th>
 		 	
 
 		</p>
@@ -5454,7 +5478,7 @@ cve-2023-36584-discovered-in-attack-chain-used-by-russian-apt/)
 
 		<p class=description>
 		 
-		 		<th>Use after free in WebAudio in Google Chrome prior to 119.0.6045.123 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)...</th>
+		 		<th>Use after free in WebAudio in Google Chrome prior to 119.0.6045.123 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)</th>
 		 	
 
 		</p>
@@ -5586,7 +5610,7 @@ channel-update-for-desktop.html)
 
 		<p class=description>
 		 
-		 		<th>Use after free in OpenVPN version 2.6.0 to 2.6.6 may lead to undefined behavoir, leaking memory buffers or remote execution when sending network buffers to a remote peer....</th>
+		 		<th>Use after free in OpenVPN version 2.6.0 to 2.6.6 may lead to undefined behavoir, leaking memory buffers or remote execution when sending network buffers to a remote peer.</th>
 		 	
 
 		</p>
@@ -5670,7 +5694,7 @@ advisory/access-server-security-update-cve-2023-46849-cve-2023-46850/)
 
 		<p class=description>
 		 
-		 		<th>On Ubuntu kernels carrying both c914c0e27eb0 and "UBUNTU: SAUCE: overlayfs: Skip permission checking for trusted.overlayfs.* xattrs", an unprivileged user may set privileged extended attributes on the mounted files, leading them to be set on the upper files without the appropriate security checks....</th>
+		 		<th>On Ubuntu kernels carrying both c914c0e27eb0 and "UBUNTU: SAUCE: overlayfs: Skip permission checking for trusted.overlayfs.* xattrs", an unprivileged user may set privileged extended attributes on the mounted files, leading them to be set on the upper files without the appropriate security checks.</th>
 		 	
 
 		</p>
@@ -5746,7 +5770,7 @@ Nifty [#PoC](https://infosec.exchange/tags/PoC)!
 
 		<p class=description>
 		 
-		 		<th>In SysAid On-Premise before 23.3.36, a path traversal vulnerability leads to code execution after an attacker writes a file to the Tomcat webroot, as exploited in the wild in November 2023....</th>
+		 		<th>In SysAid On-Premise before 23.3.36, a path traversal vulnerability leads to code execution after an attacker writes a file to the Tomcat webroot, as exploited in the wild in November 2023.</th>
 		 	
 
 		</p>
@@ -6327,7 +6351,11 @@ With a specific request to
 
 webauth_operation.php
 
-that doesn't require authentication, ...</th>
+that doesn't require authentication, an attacker is able to upload arbitrary files via J-Web, leading to a loss of 
+
+integrity
+
+for a cer</th>
 		 	
 
 		</p>
@@ -6434,7 +6462,7 @@ catalog)
 		<p class=description>
 		 
 		 		<th>Reflected Cross-Site Scripting (XSS)
-...</th>
+</th>
 		 	
 
 		</p>
@@ -6476,7 +6504,7 @@ patched CVE-2023-3466 from July and not CVE-2023-4966 from October?
 
 		<p class=description>
 		 
-		 		<th>Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability...</th>
+		 		<th>Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability</th>
 		 	
 
 		</p>
@@ -6562,7 +6590,7 @@ likely. CVE-2023-5996 doesn't include any addtl information.
 
 		<p class=description>
 		 
-		 		<th>Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability...</th>
+		 		<th>Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability</th>
 		 	
 
 		</p>
@@ -6671,7 +6699,7 @@ US/advisory/CVE-2023-36024) disclosed yesterday.
 
 		<p class=description>
 		 
-		 		<th>Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability...</th>
+		 		<th>Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability</th>
 		 	
 
 		</p>
@@ -6747,7 +6775,7 @@ US/advisory/CVE-2023-36024) disclosed yesterday.
 
 		<p class=description>
 		 
-		 		<th>Using the --fragment option in certain configuration setups OpenVPN version 2.6.0 to 2.6.6 allows an attacker to trigger a divide by zero behaviour which could cause an application crash, leading to a denial of service....</th>
+		 		<th>Using the --fragment option in certain configuration setups OpenVPN version 2.6.0 to 2.6.6 allows an attacker to trigger a divide by zero behaviour which could cause an application crash, leading to a denial of service.</th>
 		 	
 
 		</p>
@@ -6835,7 +6863,13 @@ advisory/access-server-security-update-cve-2023-46849-cve-2023-46850/)
 
 
 
-With a specific request to user.php that doesn't require authentication an attacker is ab...</th>
+With a specific request to user.php that doesn't require authentication an attacker is able to upload arbitrary files via J-Web, leading to a loss of 
+
+integrity
+
+for a certain 
+
+part of th</th>
 		 	
 
 		</p>
@@ -6947,7 +6981,11 @@ catalog)
 
 
 
-With a specific request to installAppPackage.php that doesn't require authentication an ...</th>
+With a specific request to installAppPackage.php that doesn't require authentication an attacker is able to upload arbitrary files via J-Web, leading to a loss of 
+
+integrity
+
+for a certai</th>
 		 	
 
 		</p>
@@ -7053,7 +7091,7 @@ catalog)
 
 		<p class=description>
 		 
-		 		<th>Rapid7 Velociraptor versions prior to 0.7.0-4 suffer from a reflected cross site scripting vulnerability. This vulnerability allows attackers to inject JS into the error path, potentially leading to unauthorized execution of scripts within a user's web browser. This vulnerability is fixed in version...</th>
+		 		<th>Rapid7 Velociraptor versions prior to 0.7.0-4 suffer from a reflected cross site scripting vulnerability. This vulnerability allows attackers to inject JS into the error path, potentially leading to unauthorized execution of scripts within a user's web browser. This vulnerability is fixed in version 0.7.0-04 and a patch is available to download. Patches are also available for version 0.6.9 (0.6.9-</th>
 		 	
 
 		</p>
@@ -7143,7 +7181,7 @@ reflected-xss/)
 
 		<p class=description>
 		 
-		 		<th>N/A...</th>
+		 		<th>N/A</th>
 		 	
 
 		</p>
@@ -7243,7 +7281,7 @@ cve-2023-39335-39337)
 
 		<p class=description>
 		 
-		 		<th>N/A...</th>
+		 		<th>N/A</th>
 		 	
 
 		</p>
@@ -7343,7 +7381,7 @@ cve-2023-39335-39337)
 
 		<p class=description>
 		 
-		 		<th>N/A...</th>
+		 		<th>N/A</th>
 		 	
 
 		</p>
@@ -7391,7 +7429,10 @@ Host header parsing memory corruption
 		 		<th>An OS command injection vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow users to execute commands via a network.
 
 We have already fixed the vulnerability in the following versions:
-Multimedia Console 2.1.2 ( 2023/05/04 ) a...</th>
+Multimedia Console 2.1.2 ( 2023/05/04 ) and later
+Multimedia Console 1.4.8 ( 2023/05/05 ) and later
+QTS 5.1.0.2399 build 20230515 and later
+Q</th>
 		 	
 
 		</p>
@@ -7466,7 +7507,9 @@ for-2-critical.html)
 
 We have already fixed the vulnerability in the following versions:
 QTS 5.0.1.2376 build 20230421 and later
-Q...</th>
+QTS 4.5.4.2374 build 20230416 and later
+QuTS hero h5.0.1.2376 build 20230421 and later
+QuTS hero h4.5</th>
 		 	
 
 		</p>
@@ -7552,7 +7595,7 @@ for-2-critical.html)
 
 		<p class=description>
 		 
-		 		<th>A remote code execution vulnerability exists in Remote Desktop Services formerly known as Terminal Services when an unauthenticated attacker connects to the target system using RDP and sends specially crafted requests, aka 'Remote Desktop Services Remote Code Execution Vulnerability'....</th>
+		 		<th>A remote code execution vulnerability exists in Remote Desktop Services formerly known as Terminal Services when an unauthenticated attacker connects to the target system using RDP and sends specially crafted requests, aka 'Remote Desktop Services Remote Code Execution Vulnerability'.</th>
 		 	
 
 		</p>
@@ -7614,7 +7657,7 @@ AnyDesk and Quasar RAT etc., and encrypting systems with BlackBit ransomware.
 
 		<p class=description>
 		 
-		 		<th>Roundcube 1.5.x before 1.5.6 and 1.6.x before 1.6.5 allows XSS via a Content-Type or Content-Disposition header (used for attachment preview or download)....</th>
+		 		<th>Roundcube 1.5.x before 1.5.6 and 1.6.x before 1.6.5 allows XSS via a Content-Type or Content-Disposition header (used for attachment preview or download).</th>
 		 	
 
 		</p>
@@ -7665,7 +7708,7 @@ so viel besser geeignet ist.
 
 		<p class=description>
 		 
-		 		<th>The filepath package does not recognize paths with a \??\ prefix as special. On Windows, a path beginning with \??\ is a Root Local Device path equivalent to a path beginning with \\?\. Paths with a \??\ prefix may be used to access arbitrary locations on the system. For example, the path \??\c:\x i...</th>
+		 		<th>The filepath package does not recognize paths with a \??\ prefix as special. On Windows, a path beginning with \??\ is a Root Local Device path equivalent to a path beginning with \\?\. Paths with a \??\ prefix may be used to access arbitrary locations on the system. For example, the path \??\c:\x is equivalent to the more common path c:\x. Before fix, Clean could convert a rooted path such as \a\</th>
 		 	
 
 		</p>
@@ -7717,7 +7760,7 @@ announce/c/4tU8LZfBFkY)
 
 		<p class=description>
 		 
-		 		<th>On Windows, The IsLocal function does not correctly detect reserved device names in some cases. Reserved names followed by spaces, such as "COM1 ", and reserved names "COM" and "LPT" followed by superscript 1, 2, or 3, are incorrectly reported as local. With fix, IsLocal now correctly reports these ...</th>
+		 		<th>On Windows, The IsLocal function does not correctly detect reserved device names in some cases. Reserved names followed by spaces, such as "COM1 ", and reserved names "COM" and "LPT" followed by superscript 1, 2, or 3, are incorrectly reported as local. With fix, IsLocal now correctly reports these names as non-local.</th>
 		 	
 
 		</p>
@@ -7769,7 +7812,7 @@ announce/c/4tU8LZfBFkY)
 
 		<p class=description>
 		 
-		 		<th>Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries). Supported versions that are affected are Oracle Java SE: 17.0.2 and 18; Oracle GraalVM Enterprise Edition: 21.3.1 and 22.0.0.2. Easily exploitable vulnerability allows unauthentic...</th>
+		 		<th>Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries). Supported versions that are affected are Oracle Java SE: 17.0.2 and 18; Oracle GraalVM Enterprise Edition: 21.3.1 and 22.0.0.2. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalV</th>
 		 	
 
 		</p>
@@ -7831,7 +7874,7 @@ review, bespoke development, and training. I’m always happy to answer emails
 
 		<p class=description>
 		 
-		 		<th>Mastodon is a free, open-source social network server based on ActivityPub. Prior to versions 3.5.14, 4.0.10, 4.1.8, and 4.2.0-rc2, under certain circumstances, attackers can exploit a flaw in domain name normalization to spoof domains they do not own. Versions 3.5.14, 4.0.10, 4.1.8, and 4.2.0-rc2 c...</th>
+		 		<th>Mastodon is a free, open-source social network server based on ActivityPub. Prior to versions 3.5.14, 4.0.10, 4.1.8, and 4.2.0-rc2, under certain circumstances, attackers can exploit a flaw in domain name normalization to spoof domains they do not own. Versions 3.5.14, 4.0.10, 4.1.8, and 4.2.0-rc2 contain a patch for this issue.</th>
 		 	
 
 		</p>
@@ -7879,7 +7922,7 @@ instances-cve-2023-42451/)
 
 		<p class=description>
 		 
-		 		<th>A validation issue existed in the handling of symlinks and was addressed with improved validation of symlinks. This issue is fixed in macOS Monterey 12.4. An app may be able to gain elevated privileges....</th>
+		 		<th>A validation issue existed in the handling of symlinks and was addressed with improved validation of symlinks. This issue is fixed in macOS Monterey 12.4. An app may be able to gain elevated privileges.</th>
 		 	
 
 		</p>
@@ -7934,11 +7977,11 @@ lpe.html](https://gergelykalman.com/no-CVE-batsignal-a-macos-lpe.html)
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-38548">
+	<div class="cve" id="CVE-2023-38547">
 
 			
 		
-		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-38548>CVE-2023-38548</a><br>(0 None)</h3>
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-38547>CVE-2023-38547</a><br>(0 None)</h3>
 		
 
 		
@@ -7949,7 +7992,7 @@ lpe.html](https://gergelykalman.com/no-CVE-batsignal-a-macos-lpe.html)
 
 		<p class=description>
 		 
-		 		<th>A vulnerability in Veeam ONE allows an unprivileged user who has access to the Veeam ONE Web Client the ability to acquire the NTLM hash of the account used by the Veeam ONE Reporting Service....</th>
+		 		<th>A vulnerability in Veeam ONE allows an unauthenticated user to gain information about the SQL server connection Veeam ONE uses to access its configuration database. This may lead to remote code execution on the SQL server hosting the Veeam ONE configuration database.</th>
 		 	
 
 		</p>
@@ -7984,11 +8027,11 @@ critical, acquire the NTLM hash). No mention of exploitation in the wild.
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-38547">
+	<div class="cve" id="CVE-2023-38548">
 
 			
 		
-		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-38547>CVE-2023-38547</a><br>(0 None)</h3>
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-38548>CVE-2023-38548</a><br>(0 None)</h3>
 		
 
 		
@@ -7999,7 +8042,7 @@ critical, acquire the NTLM hash). No mention of exploitation in the wild.
 
 		<p class=description>
 		 
-		 		<th>A vulnerability in Veeam ONE allows an unauthenticated user to gain information about the SQL server connection Veeam ONE uses to access its configuration database. This may lead to remote code execution on the SQL server hosting the Veeam ONE configuration database....</th>
+		 		<th>A vulnerability in Veeam ONE allows an unprivileged user who has access to the Veeam ONE Web Client the ability to acquire the NTLM hash of the account used by the Veeam ONE Reporting Service.</th>
 		 	
 
 		</p>
@@ -8049,7 +8092,7 @@ critical, acquire the NTLM hash). No mention of exploitation in the wild.
 
 		<p class=description>
 		 
-		 		<th>vCenter Server contains an out-of-bounds write vulnerability in the implementation of the DCERPC protocol. A malicious actor with network access to vCenter Server may trigger an out-of-bounds write potentially leading to remote code execution....</th>
+		 		<th>vCenter Server contains an out-of-bounds write vulnerability in the implementation of the DCERPC protocol. A malicious actor with network access to vCenter Server may trigger an out-of-bounds write potentially leading to remote code execution.</th>
 		 	
 
 		</p>
@@ -8104,7 +8147,7 @@ Out-of-Bounds Write (CVSS 9.8), Pre-Auth RCE, in the DCERPC protocol
 
 		<p class=description>
 		 
-		 		<th>A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code ...</th>
+		 		<th>A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code with elevated privileges.</th>
 		 	
 
 		</p>
@@ -8208,152 +8251,6 @@ by-kinsing)
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-20273">
-
-			
-		
-		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-20273>CVE-2023-20273</a><br>(7.2 HIGH)</h3>
-		
-
-		
-		<h4 class=epss>EPSS: 0.00%</h4>
-		
-
-		<p class=numposts>4 posts</p>
-
-		<p class=description>
-		 
-		 		<th>A vulnerability in the web UI feature of Cisco IOS XE Software could allow an authenticated, remote attacker to inject commands with the privileges of root. This vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by sending crafted input to the web UI...</th>
-		 	
-
-		</p>
-		
-		
-
-		<div class="posts">
-
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111364750546160551>at 2023-11-06T17:20:37.582Z</a>
-<md-block>
-
-
-In case you missed it (because I did): On 02 November, **Cisco** updated their
-blog post about the actively exploited zero-days CVE-2023-20198 and
-CVE-2023-20273, stating that they identified a new version of the implant, now
-called BadCandy, and added expected response from the new version of the
-implant against one of the HTTP requests used to check for infected device.  
- **Link:** [https://blog.talosintelligence.com/active-exploitation-of-cisco-
-ios-xe-software/](https://blog.talosintelligence.com/active-exploitation-of-
-cisco-ios-xe-software/)
-
-[#BadCandy](https://infosec.exchange/tags/BadCandy)
-[#Cisco](https://infosec.exchange/tags/Cisco)
-[#CISA](https://infosec.exchange/tags/CISA)
-[#CVE202320198](https://infosec.exchange/tags/CVE202320198)
-[#CVE202320273](https://infosec.exchange/tags/CVE202320273)
-[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
-[#KEV](https://infosec.exchange/tags/KEV)
-[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
-[#eitw](https://infosec.exchange/tags/eitw)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://mastodon.social/@campuscodi>campuscodi@mastodon.social</a>
-				<a class=posturl target=_blank href=https://mastodon.social/@campuscodi/111358411905502778>at 2023-11-05T14:28:37.000Z</a>
-<md-block>
-
-
-Cisco Talos has published a technical analysis of BadCandy, the implant
-deployed on Cisco IOS XE routers via the two recent zero-days CVE-2023-20198
-and CVE-2023-20273: [https://blog.talosintelligence.com/active-exploitation-
-of-cisco-ios-xe-software/](https://blog.talosintelligence.com/active-
-exploitation-of-cisco-ios-xe-software/)
-
-Talos says the malware is now at v3, showing that threat actors are still
-actively modifying their attacks and malware to maintain access to the
-compromised boxes. The latest v3 modifications appear to have worked, as
-Shadowserver has stopped detecting infected systems:
-[https://mastodon.social/@shadowserver@infosec.exchange/111354144609010594](https://mastodon.social/@shadowserver@infosec.exchange/111354144609010594)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111336698659285794>at 2023-11-01T18:26:39.757Z</a>
-<md-block>
-
-
-Cisco updated their security advisory on Cisco IOS XE zero-days CVE-2023-20198
-and CVE-2023-20273: Posted 17.3.8a for Base Release 17.3.8 on 30 October 2023,
-and 17.9.3a for IOS XE Software Maintenance Upgrade (SMU) on 01 November 2023.
-
-Updated fixed release table:
-
-  * 17.9.4a (Published)
-  * 17.6.6a (Published)
-  * 17.6.5a (Published for Routing/SDWAN only, the rest are marked N/A)
-  * 16.12.10a (for Cat3850/3650 only, Published)
-  * 17.3.8a (Published)
-  * 17.12.2 (Planned 15 November 2023)
-
-IOS XE Software Maintenance Upgrade (SMU) has the following information:
-
-  * 17.9.4 SMU (Published)
-  * 17.9.3 SMU (Published, Routing is marked N/A)
-  * 17.9.3a SMU (Routing only, Published)
-  * 17.6.5 SMU (Published)
-
- **See Links:**
-[https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-
-sa-iosxe-webui-
-privesc-j22SaA4z](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-
-sa-iosxe-webui-privesc-j22SaA4z) and
-[https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-xe-
-dublin-17121/221128-software-fix-availability-for-cisco-
-ios.html](https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-
-xe-dublin-17121/221128-software-fix-availability-for-cisco-ios.html)
-
-[#Cisco](https://infosec.exchange/tags/Cisco)
-[#CISA](https://infosec.exchange/tags/CISA)
-[#CVE202320198](https://infosec.exchange/tags/CVE202320198)
-[#CVE202320273](https://infosec.exchange/tags/CVE202320273)
-[#CVE20211435](https://infosec.exchange/tags/CVE20211435)
-[#KEV](https://infosec.exchange/tags/KEV)
-[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
-[#eitw](https://infosec.exchange/tags/eitw)
-[#activeexploitation](https://infosec.exchange/tags/activeexploitation)  
-[#zeroday](https://infosec.exchange/tags/zeroday)
-[#RockwellAutomation](https://infosec.exchange/tags/RockwellAutomation)
-[#Stratix](https://infosec.exchange/tags/Stratix)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://mastodon.social/@campuscodi>campuscodi@mastodon.social</a>
-				<a class=posturl target=_blank href=https://mastodon.social/@campuscodi/111330344469737713>at 2023-10-31T15:30:42.000Z</a>
-<md-block>
-
-
-Not to be left behind, there's one for the two Cisco IOS XE zero-days too
-(CVE-2023-20273 and CVE-2023-20198)
-
-[https://www.horizon3.ai/cisco-ios-xe-cve-2023-20198-deep-dive-and-
-poc/](https://www.horizon3.ai/cisco-ios-xe-cve-2023-20198-deep-dive-and-poc/)
-
-
-</md-block>
-			<hr>
-			
-
-		</div>
-	</div>
-	
-
 	<div class="cve" id="CVE-2023-20198">
 
 			
@@ -8369,7 +8266,7 @@ poc/](https://www.horizon3.ai/cisco-ios-xe-cve-2023-20198-deep-dive-and-poc/)
 
 		<p class=description>
 		 
-		 		<th>Cisco is providing an update for the ongoing investigation into observed exploitation of the web UI feature in Cisco IOS XE Software. We are updating the list of fixed releases and adding the Software Checker. Our investigation has determined that the actors exploited two previously unknown issues. ...</th>
+		 		<th>Cisco is providing an update for the ongoing investigation into observed exploitation of the web UI feature in Cisco IOS XE Software. We are updating the list of fixed releases and adding the Software Checker. Our investigation has determined that the actors exploited two previously unknown issues. The attacker first exploited CVE-2023-20198 to gain initial access and issued a privilege 15 command</th>
 		 	
 
 		</p>
@@ -8550,6 +8447,152 @@ poc/](https://www.horizon3.ai/cisco-ios-xe-cve-2023-20198-deep-dive-and-poc/)
 	</div>
 	
 
+	<div class="cve" id="CVE-2023-20273">
+
+			
+		
+		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-20273>CVE-2023-20273</a><br>(7.2 HIGH)</h3>
+		
+
+		
+		<h4 class=epss>EPSS: 0.00%</h4>
+		
+
+		<p class=numposts>4 posts</p>
+
+		<p class=description>
+		 
+		 		<th>A vulnerability in the web UI feature of Cisco IOS XE Software could allow an authenticated, remote attacker to inject commands with the privileges of root. This vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by sending crafted input to the web UI. A successful exploit could allow the attacker to inject commands to the underlying operating syste</th>
+		 	
+
+		</p>
+		
+		
+
+		<div class="posts">
+
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111364750546160551>at 2023-11-06T17:20:37.582Z</a>
+<md-block>
+
+
+In case you missed it (because I did): On 02 November, **Cisco** updated their
+blog post about the actively exploited zero-days CVE-2023-20198 and
+CVE-2023-20273, stating that they identified a new version of the implant, now
+called BadCandy, and added expected response from the new version of the
+implant against one of the HTTP requests used to check for infected device.  
+ **Link:** [https://blog.talosintelligence.com/active-exploitation-of-cisco-
+ios-xe-software/](https://blog.talosintelligence.com/active-exploitation-of-
+cisco-ios-xe-software/)
+
+[#BadCandy](https://infosec.exchange/tags/BadCandy)
+[#Cisco](https://infosec.exchange/tags/Cisco)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#CVE202320198](https://infosec.exchange/tags/CVE202320198)
+[#CVE202320273](https://infosec.exchange/tags/CVE202320273)
+[#activeexploitation](https://infosec.exchange/tags/activeexploitation)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#eitw](https://infosec.exchange/tags/eitw)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://mastodon.social/@campuscodi>campuscodi@mastodon.social</a>
+				<a class=posturl target=_blank href=https://mastodon.social/@campuscodi/111358411905502778>at 2023-11-05T14:28:37.000Z</a>
+<md-block>
+
+
+Cisco Talos has published a technical analysis of BadCandy, the implant
+deployed on Cisco IOS XE routers via the two recent zero-days CVE-2023-20198
+and CVE-2023-20273: [https://blog.talosintelligence.com/active-exploitation-
+of-cisco-ios-xe-software/](https://blog.talosintelligence.com/active-
+exploitation-of-cisco-ios-xe-software/)
+
+Talos says the malware is now at v3, showing that threat actors are still
+actively modifying their attacks and malware to maintain access to the
+compromised boxes. The latest v3 modifications appear to have worked, as
+Shadowserver has stopped detecting infected systems:
+[https://mastodon.social/@shadowserver@infosec.exchange/111354144609010594](https://mastodon.social/@shadowserver@infosec.exchange/111354144609010594)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111336698659285794>at 2023-11-01T18:26:39.757Z</a>
+<md-block>
+
+
+Cisco updated their security advisory on Cisco IOS XE zero-days CVE-2023-20198
+and CVE-2023-20273: Posted 17.3.8a for Base Release 17.3.8 on 30 October 2023,
+and 17.9.3a for IOS XE Software Maintenance Upgrade (SMU) on 01 November 2023.
+
+Updated fixed release table:
+
+  * 17.9.4a (Published)
+  * 17.6.6a (Published)
+  * 17.6.5a (Published for Routing/SDWAN only, the rest are marked N/A)
+  * 16.12.10a (for Cat3850/3650 only, Published)
+  * 17.3.8a (Published)
+  * 17.12.2 (Planned 15 November 2023)
+
+IOS XE Software Maintenance Upgrade (SMU) has the following information:
+
+  * 17.9.4 SMU (Published)
+  * 17.9.3 SMU (Published, Routing is marked N/A)
+  * 17.9.3a SMU (Routing only, Published)
+  * 17.6.5 SMU (Published)
+
+ **See Links:**
+[https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-
+sa-iosxe-webui-
+privesc-j22SaA4z](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-
+sa-iosxe-webui-privesc-j22SaA4z) and
+[https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-xe-
+dublin-17121/221128-software-fix-availability-for-cisco-
+ios.html](https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-
+xe-dublin-17121/221128-software-fix-availability-for-cisco-ios.html)
+
+[#Cisco](https://infosec.exchange/tags/Cisco)
+[#CISA](https://infosec.exchange/tags/CISA)
+[#CVE202320198](https://infosec.exchange/tags/CVE202320198)
+[#CVE202320273](https://infosec.exchange/tags/CVE202320273)
+[#CVE20211435](https://infosec.exchange/tags/CVE20211435)
+[#KEV](https://infosec.exchange/tags/KEV)
+[#KnownExploitedVulnerabilitiesCatalog](https://infosec.exchange/tags/KnownExploitedVulnerabilitiesCatalog)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#activeexploitation](https://infosec.exchange/tags/activeexploitation)  
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#RockwellAutomation](https://infosec.exchange/tags/RockwellAutomation)
+[#Stratix](https://infosec.exchange/tags/Stratix)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://mastodon.social/@campuscodi>campuscodi@mastodon.social</a>
+				<a class=posturl target=_blank href=https://mastodon.social/@campuscodi/111330344469737713>at 2023-10-31T15:30:42.000Z</a>
+<md-block>
+
+
+Not to be left behind, there's one for the two Cisco IOS XE zero-days too
+(CVE-2023-20273 and CVE-2023-20198)
+
+[https://www.horizon3.ai/cisco-ios-xe-cve-2023-20198-deep-dive-and-
+poc/](https://www.horizon3.ai/cisco-ios-xe-cve-2023-20198-deep-dive-and-poc/)
+
+
+</md-block>
+			<hr>
+			
+
+		</div>
+	</div>
+	
+
 	<div class="cve" id="CVE-2023-23752">
 
 			
@@ -8565,7 +8608,7 @@ poc/](https://www.horizon3.ai/cisco-ios-xe-cve-2023-20198-deep-dive-and-poc/)
 
 		<p class=description>
 		 
-		 		<th>An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check allows unauthorized access to webservice endpoints....</th>
+		 		<th>An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check allows unauthorized access to webservice endpoints.</th>
 		 	
 
 		</p>
@@ -8616,7 +8659,7 @@ credential-disclosure-cve-2023-23752-attempt?days=10) 👀
 
 		<p class=description>
 		 
-		 		<th>Util/PHP/eval-stdin.php in PHPUnit before 4.8.28 and 5.x before 5.6.3 allows remote attackers to execute arbitrary PHP code via HTTP POST data beginning with a "<?php " substring, as demonstrated by an attack on a site with an exposed /vendor folder, i.e., external access to the /vendor/phpunit/phpu...</th>
+		 		<th>Util/PHP/eval-stdin.php in PHPUnit before 4.8.28 and 5.x before 5.6.3 allows remote attackers to execute arbitrary PHP code via HTTP POST data beginning with a "<?php " substring, as demonstrated by an attack on a site with an exposed /vendor folder, i.e., external access to the /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php URI.</th>
 		 	
 
 		</p>
@@ -8676,7 +8719,7 @@ by-kinsing)
 
 		<p class=description>
 		 
-		 		<th>N/A...</th>
+		 		<th>N/A</th>
 		 	
 
 		</p>
@@ -8722,7 +8765,7 @@ recent-f5-big-ip-flaws-in-stealthy-attacks/) < CVE-2023-4674 + CVE-2023-46748
 
 		<p class=description>
 		 
-		 		<th>Denial of Service in NetScaler ADC and NetScaler Gateway when configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) or AAA Virtual Server...</th>
+		 		<th>Denial of Service in NetScaler ADC and NetScaler Gateway when configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) or AAA Virtual Server</th>
 		 	
 
 		</p>
@@ -8773,7 +8816,7 @@ cve-2023-4966-information-disclosure-attempt?days=30)
 
 		<p class=description>
 		 
-		 		<th>A vulnerability in the web services interface of Cisco Firepower Management Center (FMC) Software could allow an authenticated, remote attacker to execute certain unauthorized configuration commands on a Firepower Threat Defense (FTD) device that is managed by the FMC Software. This vulnerability is...</th>
+		 		<th>A vulnerability in the web services interface of Cisco Firepower Management Center (FMC) Software could allow an authenticated, remote attacker to execute certain unauthorized configuration commands on a Firepower Threat Defense (FTD) device that is managed by the FMC Software. This vulnerability is due to insufficient authorization of configuration commands that are sent through the web service i</th>
 		 	
 
 		</p>
@@ -8836,7 +8879,7 @@ sa-fmc-cmd-inj-29MP49hN)
 
 A malicious actor may be able to redirect a victim to an attacker and retrieve their SAML response to login as the victim user.
 
-...</th>
+</th>
 		 	
 
 		</p>
@@ -8888,7 +8931,7 @@ exploitation.
 
 		<p class=description>
 		 
-		 		<th>NextGen Healthcare Mirth Connect before version 4.4.1 is vulnerable to unauthenticated remote code execution. Note that this vulnerability is caused by the incomplete patch of CVE-2023-37679....</th>
+		 		<th>NextGen Healthcare Mirth Connect before version 4.4.1 is vulnerable to unauthenticated remote code execution. Note that this vulnerability is caused by the incomplete patch of CVE-2023-37679.</th>
 		 	
 
 		</p>
@@ -8959,4 +9002,95 @@ connect-rce-vulnerability-exposes-healthcare-data-to-risks/)
 <a href="https://www.hitwebcounter.com" target="_blank">
 <img src="https://hitwebcounter.com/counter/counter.php?page=9752729&style=0010&nbdigits=5&type=ip&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a> 
 </body>
+
+
+<script>
+function sortTable(n) {
+  var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+  table = document.getElementById("cvetable");
+  switching = true;
+  // Set the sorting direction to ascending:
+  dir = "asc";
+  /* Make a loop that will continue until
+  no switching has been done: */
+  while (switching) {
+    // Start by saying: no switching is done:
+    switching = false;
+    rows = table.rows;
+    /* Loop through all table rows (except the
+    first, which contains table headers): */
+    for (i = 1; i < (rows.length - 1); i++) {
+      // Start by saying there should be no switching:
+      shouldSwitch = false;
+      /* Get the two elements you want to compare,
+      one from current row and one from the next: */
+      x = rows[i].getElementsByTagName("TD")[n];
+      y = rows[i + 1].getElementsByTagName("TD")[n];
+      /* Check if the two rows should switch place,
+      based on the direction, asc or desc: */
+      if (dir == "asc") {
+      	if (n == 2) { // epss %
+      		if (Number(x.innerText.split('%')[0]) > Number(y.innerText.split('%')[0])) {
+	          // If so, mark as a switch and break the loop:
+	          shouldSwitch = true;
+	          break;
+	        }
+      	} else if (n == 1 || n == 3) { // posts and cvss
+			if (Number(x.innerText) > Number(y.innerText)) {
+	          // If so, mark as a switch and break the loop:
+	          shouldSwitch = true;
+	          break;
+	        }
+      	} else {
+      		if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+	          // If so, mark as a switch and break the loop:
+	          shouldSwitch = true;
+	          break;
+	        }
+
+      	}
+        
+      } else if (dir == "desc") {
+      	if (n == 2) {
+      		if (Number(x.innerText.split('%')[0]) < Number(y.innerText.split('%')[0])) {
+	          // If so, mark as a switch and break the loop:
+	          shouldSwitch = true;
+	          break;
+	        }
+      	} else if (n == 1 || n == 3) { // posts and cvss
+			if (Number(x.innerText) < Number(y.innerText)) {
+	          // If so, mark as a switch and break the loop:
+	          shouldSwitch = true;
+	          break;
+	        }
+	    } else {
+	    	if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+          // If so, mark as a switch and break the loop:
+	          shouldSwitch = true;
+	          break;
+	        }
+	    }
+        
+      }
+    }
+    if (shouldSwitch) {
+      /* If a switch has been marked, make the switch
+      and mark that a switch has been done: */
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+      // Each time a switch is done, increase this count by 1:
+      switchcount ++;
+    } else {
+      /* If no switching has been done AND the direction is "asc",
+      set the direction to "desc" and run the while loop again. */
+      if (switchcount == 0 && dir == "asc") {
+        dir = "desc";
+        switching = true;
+      }
+    }
+  }
+}
+</script>
+</script>
+
 </html>
