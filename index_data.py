@@ -235,7 +235,7 @@ def main():
 		fedi_cve_feed[cve] = {}
 		fedi_cve_feed[cve]['cvss3'] = 0
 		fedi_cve_feed[cve]['severity'] = None
-		fedi_cve_feed[cve]['epss'] = 0
+		# fedi_cve_feed[cve]['epss'] = 0
 		fedi_cve_feed[cve]['epss_severity'] = None
 		fedi_cve_feed[cve]['posts'] = []
 		fedi_cve_feed[cve]['description'] = "N/A"
