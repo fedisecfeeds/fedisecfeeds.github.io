@@ -90,9 +90,13 @@ def first_epss_for_cves_list(cves):
 	'''
 	get EPSS (Exploit Prediction Scoring System) detail for the list of cves
 	'''
-	cves = ','.join(cves)
-	r = requests.get(f'https://api.first.org/data/v1/epss?cve={cves}')
-	return r.json()
+	print(f'getting epss data for {len(cves)} cves')
+	data = []
+	for i in range(0, len(cves), 30):
+		cves = ','.join(cves[i:i+30])
+		r = requests.get(f'https://api.first.org/data/v1/epss?cve={cves}')
+		data.extend(r.json()['data'])
+	return data
 
 def get_hashtag_timeline(instance_url, hashtag, auth_token=None, limit=10):
 	'''
@@ -195,9 +199,8 @@ def main():
 	# get epss data
 	print('getting EPSS data..')
 	lstart = time.time()
-	epss_data = first_epss_for_cves_list(list(cve_posts))
+	epss_data = first_epss_for_cves_list(list(cve_posts.keys()))
 	print(len(epss_data))
-	print(epss_data.keys())
 	print("done getting EPSS data: ", time.time()-lstart)
 
 
@@ -282,7 +285,7 @@ def main():
 				except Exception as e:
 					print(f"Error parsing cve detail on {cve}:", e, cve_details[cve])
 			
-			for d in epss_data['data']:
+			for d in epss_data:
 				if d['cve'] == cve:
 					fedi_cve_feed[cve]['epss'] = float(d['epss']) * 100
 					# epss severity is just done here for coloring; it's not part of any spec that defines levels
