@@ -2211,7 +2211,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/110/473/325/718/736/472/original/fd976933df61bde0.png",
           "followers_count": 76,
           "following_count": 1,
-          "statuses_count": 3547,
+          "statuses_count": 3548,
           "last_status_at": "2023-11-14",
           "emojis": [],
           "fields": [
@@ -4521,8 +4521,8 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/292/170/028/958/587/original/a06c3639f6d13894.jpg",
           "followers_count": 138,
           "following_count": 281,
-          "statuses_count": 971,
-          "last_status_at": "2023-11-13",
+          "statuses_count": 972,
+          "last_status_at": "2023-11-14",
           "noindex": false,
           "emojis": [
             {
@@ -6027,62 +6027,6 @@
     "description": "A Missing Authentication for Critical Function vulnerability in Juniper Networks Junos OS on SRX Series allows an unauthenticated, network-based attacker to cause limited impact to the file system integrity.\n\n\n\nWith a specific request to \n\nwebauth_operation.php\n\nthat doesn't require authentication, an attacker is able to upload arbitrary files via J-Web, leading to a loss of \n\nintegrity\n\nfor a certain\u00a0part of the\u00a0file system, which may allow chaining to other vulnerabilities.\n\n\nThis issue affects Juniper Networks Junos OS on SRX Series:\n\n\n\n  *  22.4 versions prior to 22,4R2-S2, 22.4R3;\n  *  23.2 versions prior to 23.2R2.\n\n\n\n\n",
     "epss": 0.046
   },
-  "CVE-2023-2640": {
-    "cvss3": 7.8,
-    "severity": "HIGH",
-    "epss_severity": null,
-    "posts": [
-      {
-        "account": {
-          "id": "109286695100533910",
-          "username": "raptor",
-          "acct": "raptor",
-          "display_name": "Marco Ivaldi",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2022-11-04T00:00:00.000Z",
-          "note": "<p>When cryptography is outlawed, bayl bhgynjf jvyy unir cevinpl.</p>",
-          "url": "https://infosec.exchange/@raptor",
-          "uri": "https://infosec.exchange/users/raptor",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/286/695/100/533/910/original/83410d967c323e07.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/286/695/100/533/910/original/83410d967c323e07.png",
-          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/286/695/100/533/910/original/739101eeb627c163.jpg",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/286/695/100/533/910/original/739101eeb627c163.jpg",
-          "followers_count": 2217,
-          "following_count": 42,
-          "statuses_count": 1962,
-          "last_status_at": "2023-11-14",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": [
-            {
-              "name": "Homepage",
-              "value": "<a href=\"https://0xdeadbeef.info\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">0xdeadbeef.info</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2022-11-04T18:04:43.093+00:00"
-            },
-            {
-              "name": "GitHub",
-              "value": "<a href=\"https://github.com/0xdea\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/0xdea</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2023-02-02T15:23:08.504+00:00"
-            },
-            {
-              "name": "Twitter",
-              "value": "<a href=\"http://www.twitter.com/0xdea\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">http://www.</span><span class=\"\">twitter.com/0xdea</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://infosec.exchange/@raptor/111407835699201753",
-        "content": "\n\n[#Ubuntu](https://infosec.exchange/tags/Ubuntu) Privilege Escalation bash one-\nliner using CVE-2023-32629 & CVE-2023-2640\n\n[https://github.com/ThrynSec/CVE-2023-32629-CVE-2023-2640---POC-\nEscalation](https://github.com/ThrynSec/CVE-2023-32629-CVE-2023-2640---POC-\nEscalation)\n\nNifty [#PoC](https://infosec.exchange/tags/PoC)!\n\n",
-        "created_at": "2023-11-14T07:57:44.844Z"
-      }
-    ],
-    "description": "On Ubuntu kernels carrying both c914c0e27eb0 and \"UBUNTU: SAUCE: overlayfs: Skip permission checking for trusted.overlayfs.* xattrs\", an unprivileged user may set privileged extended attributes on the mounted files, leading them to be set on the upper files without the appropriate security checks.",
-    "epss": 0.047
-  },
   "CVE-2023-32629": {
     "cvss3": 7.8,
     "severity": "HIGH",
@@ -6138,6 +6082,62 @@
     ],
     "description": "Local privilege escalation vulnerability in Ubuntu Kernels overlayfs ovl_copy_up_meta_inode_data skip permission checks when calling ovl_do_setxattr on Ubuntu kernels",
     "epss": 0.788
+  },
+  "CVE-2023-2640": {
+    "cvss3": 7.8,
+    "severity": "HIGH",
+    "epss_severity": null,
+    "posts": [
+      {
+        "account": {
+          "id": "109286695100533910",
+          "username": "raptor",
+          "acct": "raptor",
+          "display_name": "Marco Ivaldi",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2022-11-04T00:00:00.000Z",
+          "note": "<p>When cryptography is outlawed, bayl bhgynjf jvyy unir cevinpl.</p>",
+          "url": "https://infosec.exchange/@raptor",
+          "uri": "https://infosec.exchange/users/raptor",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/286/695/100/533/910/original/83410d967c323e07.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/286/695/100/533/910/original/83410d967c323e07.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/286/695/100/533/910/original/739101eeb627c163.jpg",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/286/695/100/533/910/original/739101eeb627c163.jpg",
+          "followers_count": 2217,
+          "following_count": 42,
+          "statuses_count": 1962,
+          "last_status_at": "2023-11-14",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": [
+            {
+              "name": "Homepage",
+              "value": "<a href=\"https://0xdeadbeef.info\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">0xdeadbeef.info</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-11-04T18:04:43.093+00:00"
+            },
+            {
+              "name": "GitHub",
+              "value": "<a href=\"https://github.com/0xdea\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/0xdea</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-02T15:23:08.504+00:00"
+            },
+            {
+              "name": "Twitter",
+              "value": "<a href=\"http://www.twitter.com/0xdea\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">http://www.</span><span class=\"\">twitter.com/0xdea</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@raptor/111407835699201753",
+        "content": "\n\n[#Ubuntu](https://infosec.exchange/tags/Ubuntu) Privilege Escalation bash one-\nliner using CVE-2023-32629 & CVE-2023-2640\n\n[https://github.com/ThrynSec/CVE-2023-32629-CVE-2023-2640---POC-\nEscalation](https://github.com/ThrynSec/CVE-2023-32629-CVE-2023-2640---POC-\nEscalation)\n\nNifty [#PoC](https://infosec.exchange/tags/PoC)!\n\n",
+        "created_at": "2023-11-14T07:57:44.844Z"
+      }
+    ],
+    "description": "On Ubuntu kernels carrying both c914c0e27eb0 and \"UBUNTU: SAUCE: overlayfs: Skip permission checking for trusted.overlayfs.* xattrs\", an unprivileged user may set privileged extended attributes on the mounted files, leading them to be set on the upper files without the appropriate security checks.",
+    "epss": 0.047
   },
   "CVE-2021-42574": {
     "cvss3": 8.3,
@@ -6396,8 +6396,8 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/292/170/028/958/587/original/a06c3639f6d13894.jpg",
           "followers_count": 138,
           "following_count": 281,
-          "statuses_count": 971,
-          "last_status_at": "2023-11-13",
+          "statuses_count": 972,
+          "last_status_at": "2023-11-14",
           "noindex": false,
           "emojis": [
             {
@@ -7634,44 +7634,6 @@
     "description": "Roundcube 1.5.x before 1.5.6 and 1.6.x before 1.6.5 allows XSS via a Content-Type or Content-Disposition header (used for attachment preview or download).",
     "epss": 0
   },
-  "CVE-2023-45283": {
-    "cvss3": 0,
-    "severity": null,
-    "epss_severity": null,
-    "posts": [
-      {
-        "account": {
-          "id": "109310645059381511",
-          "username": "firusvg",
-          "acct": "firusvg@mastodon.social",
-          "display_name": "Vladimir Savi\u0107",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2017-09-10T00:00:00.000Z",
-          "note": "<p>Ako treba, nema potrebe ...</p>",
-          "url": "https://mastodon.social/@firusvg",
-          "uri": "https://mastodon.social/users/firusvg",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/109/310/645/059/381/511/original/4659ffb997f2b2f0.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/109/310/645/059/381/511/original/4659ffb997f2b2f0.png",
-          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/310/645/059/381/511/original/a94a65a481abe26e.jpeg",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/310/645/059/381/511/original/a94a65a481abe26e.jpeg",
-          "followers_count": 213,
-          "following_count": 464,
-          "statuses_count": 2120,
-          "last_status_at": "2023-11-14",
-          "emojis": [],
-          "fields": []
-        },
-        "url": "https://mastodon.social/@firusvg/111370697118857106",
-        "content": "\n\n\ud83c\udf89 Go 1.21.4 and 1.20.11 are released!\n\n\ud83d\udd10 Security: Includes security fixes for path/filepath (CVE-2023-45283,\nCVE-2023-45284)\n\n\ud83d\udde3 Announcement: [https://groups.google.com/g/golang-\nannounce/c/4tU8LZfBFkY](https://groups.google.com/g/golang-\nannounce/c/4tU8LZfBFkY)\n\n\ud83d\uddc3 Download: [https://go.dev/dl/#go1.21.4](https://go.dev/dl/#go1.21.4)\n\n[#golang](https://mastodon.social/tags/golang)\n\n",
-        "created_at": "2023-11-07T18:32:55.000Z"
-      }
-    ],
-    "description": "The filepath package does not recognize paths with a \\??\\ prefix as special. On Windows, a path beginning with \\??\\ is a Root Local Device path equivalent to a path beginning with \\\\?\\. Paths with a \\??\\ prefix may be used to access arbitrary locations on the system. For example, the path \\??\\c:\\x is equivalent to the more common path c:\\x. Before fix, Clean could convert a rooted path such as \\a\\..\\??\\b into the root local device path \\??\\b. Clean will now convert this to .\\??\\b. Similarly, Join(\\, ??, b) could convert a seemingly innocent sequence of path elements into the root local device path \\??\\b. Join will now convert this to \\.\\??\\b. In addition, with fix, IsAbs now correctly reports paths beginning with \\??\\ as absolute, and VolumeName correctly reports the \\??\\ prefix as a volume name.",
-    "epss": 0
-  },
   "CVE-2023-45284": {
     "cvss3": 0,
     "severity": null,
@@ -7697,7 +7659,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/310/645/059/381/511/original/a94a65a481abe26e.jpeg",
           "followers_count": 213,
           "following_count": 464,
-          "statuses_count": 2120,
+          "statuses_count": 2121,
           "last_status_at": "2023-11-14",
           "emojis": [],
           "fields": []
@@ -7708,6 +7670,44 @@
       }
     ],
     "description": "On Windows, The IsLocal function does not correctly detect reserved device names in some cases. Reserved names followed by spaces, such as \"COM1 \", and reserved names \"COM\" and \"LPT\" followed by superscript 1, 2, or 3, are incorrectly reported as local. With fix, IsLocal now correctly reports these names as non-local.",
+    "epss": 0
+  },
+  "CVE-2023-45283": {
+    "cvss3": 0,
+    "severity": null,
+    "epss_severity": null,
+    "posts": [
+      {
+        "account": {
+          "id": "109310645059381511",
+          "username": "firusvg",
+          "acct": "firusvg@mastodon.social",
+          "display_name": "Vladimir Savi\u0107",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2017-09-10T00:00:00.000Z",
+          "note": "<p>Ako treba, nema potrebe ...</p>",
+          "url": "https://mastodon.social/@firusvg",
+          "uri": "https://mastodon.social/users/firusvg",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/109/310/645/059/381/511/original/4659ffb997f2b2f0.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/109/310/645/059/381/511/original/4659ffb997f2b2f0.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/310/645/059/381/511/original/a94a65a481abe26e.jpeg",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/310/645/059/381/511/original/a94a65a481abe26e.jpeg",
+          "followers_count": 213,
+          "following_count": 464,
+          "statuses_count": 2121,
+          "last_status_at": "2023-11-14",
+          "emojis": [],
+          "fields": []
+        },
+        "url": "https://mastodon.social/@firusvg/111370697118857106",
+        "content": "\n\n\ud83c\udf89 Go 1.21.4 and 1.20.11 are released!\n\n\ud83d\udd10 Security: Includes security fixes for path/filepath (CVE-2023-45283,\nCVE-2023-45284)\n\n\ud83d\udde3 Announcement: [https://groups.google.com/g/golang-\nannounce/c/4tU8LZfBFkY](https://groups.google.com/g/golang-\nannounce/c/4tU8LZfBFkY)\n\n\ud83d\uddc3 Download: [https://go.dev/dl/#go1.21.4](https://go.dev/dl/#go1.21.4)\n\n[#golang](https://mastodon.social/tags/golang)\n\n",
+        "created_at": "2023-11-07T18:32:55.000Z"
+      }
+    ],
+    "description": "The filepath package does not recognize paths with a \\??\\ prefix as special. On Windows, a path beginning with \\??\\ is a Root Local Device path equivalent to a path beginning with \\\\?\\. Paths with a \\??\\ prefix may be used to access arbitrary locations on the system. For example, the path \\??\\c:\\x is equivalent to the more common path c:\\x. Before fix, Clean could convert a rooted path such as \\a\\..\\??\\b into the root local device path \\??\\b. Clean will now convert this to .\\??\\b. Similarly, Join(\\, ??, b) could convert a seemingly innocent sequence of path elements into the root local device path \\??\\b. Join will now convert this to \\.\\??\\b. In addition, with fix, IsAbs now correctly reports paths beginning with \\??\\ as absolute, and VolumeName correctly reports the \\??\\ prefix as a volume name.",
     "epss": 0
   },
   "CVE-2022-21449": {
@@ -7735,7 +7735,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/286/640/611/704/800/original/ac0d75a9a465a023.png",
           "followers_count": 587,
           "following_count": 273,
-          "statuses_count": 463,
+          "statuses_count": 464,
           "last_status_at": "2023-11-14",
           "noindex": false,
           "emojis": [],
@@ -8042,7 +8042,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/110/473/325/718/736/472/original/fd976933df61bde0.png",
           "followers_count": 76,
           "following_count": 1,
-          "statuses_count": 3547,
+          "statuses_count": 3548,
           "last_status_at": "2023-11-14",
           "emojis": [],
           "fields": [
