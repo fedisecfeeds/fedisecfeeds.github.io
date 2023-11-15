@@ -249,9 +249,9 @@ def main():
 				# epss severity is just done here for coloring; it's not part of any spec that defines levels
 				if fedi_cve_feed[cve]['epss'] >= 20:
 					fedi_cve_feed[cve]['epss_severity'] = "MEDIUM"
-				if fedi_cve_feed[cve]['epss'] >= 50:
+				elif fedi_cve_feed[cve]['epss'] >= 50:
 					fedi_cve_feed[cve]['epss_severity'] = "HIGH"
-				if fedi_cve_feed[cve]['epss'] >= 80:
+				elif fedi_cve_feed[cve]['epss'] >= 80:
 					fedi_cve_feed[cve]['epss_severity'] = "CRITICAL"
 				else:
 					fedi_cve_feed[cve]['epss_severity'] = "LOW"
