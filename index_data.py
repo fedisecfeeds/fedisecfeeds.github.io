@@ -247,12 +247,12 @@ def main():
 			if d['cve'] == cve:
 				fedi_cve_feed[cve]['epss'] = float(d['epss']) * 100
 				# epss severity is just done here for coloring; it's not part of any spec that defines levels
-				if fedi_cve_feed[cve]['epss'] >= 20:
-					fedi_cve_feed[cve]['epss_severity'] = "MEDIUM"
+				if fedi_cve_feed[cve]['epss'] >= 80:
+					fedi_cve_feed[cve]['epss_severity'] = "CRITICAL"
 				elif fedi_cve_feed[cve]['epss'] >= 50:
 					fedi_cve_feed[cve]['epss_severity'] = "HIGH"
-				elif fedi_cve_feed[cve]['epss'] >= 80:
-					fedi_cve_feed[cve]['epss_severity'] = "CRITICAL"
+				elif fedi_cve_feed[cve]['epss'] >= 20:
+					fedi_cve_feed[cve]['epss_severity'] = "MEDIUM"
 				else:
 					fedi_cve_feed[cve]['epss_severity'] = "LOW"
 
