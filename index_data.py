@@ -93,8 +93,8 @@ def first_epss_for_cves_list(cves):
 	print(f'getting epss data for {len(cves)} cves')
 	data = []
 	for i in range(0, len(cves), 30):
-		cves = ','.join(cves[i:i+30])
-		r = requests.get(f'https://api.first.org/data/v1/epss?cve={cves}')
+		cves_csv = ','.join(cves[i:i+30])
+		r = requests.get(f'https://api.first.org/data/v1/epss?cve={cves_csv}')
 		data.extend(r.json()['data'])
 	return data
 
@@ -201,6 +201,9 @@ def main():
 	lstart = time.time()
 	epss_data = first_epss_for_cves_list(list(cve_posts.keys()))
 	print(len(epss_data))
+	# XXX for debugging epss data
+	with open('epss.json','w') as f:
+		json.dump(epss_data, f, indent=2)
 	print("done getting EPSS data: ", time.time()-lstart)
 
 
@@ -287,7 +290,7 @@ def main():
 							fedi_cve_feed[cve]['cvss3'] = cve_details[cve]['cve']['metrics']['cvssMetricV30'][0]['cvssData']['baseScore']
 							fedi_cve_feed[cve]['severity'] = cve_details[cve]['cve']['metrics']['cvssMetricV30'][0]['cvssData']['baseSeverity']
 						if 'cvssMetricV31' in cve_details[cve]['cve']['metrics']:
-							fedi_cve_feed[cve]['cvss3'] = cve_details[cve['cve']]['metrics']['cvssMetricV31'][0]['cvssData']['baseScore']
+							fedi_cve_feed[cve]['cvss3'] = cve_details[cve]['cve']['metrics']['cvssMetricV31'][0]['cvssData']['baseScore']
 							fedi_cve_feed[cve]['severity'] = cve_details[cve]['cve']['metrics']['cvssMetricV31'][0]['cvssData']['baseSeverity']
 
 
