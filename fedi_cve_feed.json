@@ -4099,7 +4099,7 @@
         "created_at": "2023-11-14T20:19:06.000Z"
       }
     ],
-    "description": "N/A",
+    "description": "Use after free in Navigation in Google Chrome prior to 119.0.6045.159 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
     "epss": 0
   },
   "CVE-2023-36014": {
@@ -10790,46 +10790,6 @@
     "description": "Util/PHP/eval-stdin.php in PHPUnit before 4.8.28 and 5.x before 5.6.3 allows remote attackers to execute arbitrary PHP code via HTTP POST data beginning with a \"<?php \" substring, as demonstrated by an attack on a site with an exposed /vendor folder, i.e., external access to the /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php URI.",
     "epss": 97.48400000000001
   },
-  "CVE-2023-4674": {
-    "cvss3": 0,
-    "severity": null,
-    "epss_severity": null,
-    "posts": [
-      {
-        "account": {
-          "id": "109947175700793195",
-          "username": "dominee",
-          "acct": "dominee",
-          "display_name": "Dominee Fromhell",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-03-01T00:00:00.000Z",
-          "note": "<p>hacker // gamer // \u304a\u305f\u304f</p>",
-          "url": "https://infosec.exchange/@dominee",
-          "uri": "https://infosec.exchange/users/dominee",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/947/175/700/793/195/original/c07092f0ce267e90.jpeg",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/947/175/700/793/195/original/c07092f0ce267e90.jpeg",
-          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/947/175/700/793/195/original/a353007d0e595201.png",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/947/175/700/793/195/original/a353007d0e595201.png",
-          "followers_count": 15,
-          "following_count": 75,
-          "statuses_count": 126,
-          "last_status_at": "2023-11-15",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@dominee/111341670293305655",
-        "content": "\n\nHackers exploit recent F5 BIG-IP flaws in stealthy attacks\n[https://www.bleepingcomputer.com/news/security/hackers-exploit-recent-f5-big-\nip-flaws-in-stealthy-\nattacks/](https://www.bleepingcomputer.com/news/security/hackers-exploit-\nrecent-f5-big-ip-flaws-in-stealthy-attacks/) < CVE-2023-4674 + CVE-2023-46748\n\ud83d\udd25\n\n",
-        "created_at": "2023-11-02T15:31:00.872Z"
-      }
-    ],
-    "description": "N/A",
-    "epss": 0
-  },
   "CVE-2023-46748": {
     "cvss3": 8.8,
     "severity": "HIGH",
@@ -10911,6 +10871,46 @@
     ],
     "description": "An authenticated SQL injection vulnerability exists in the BIG-IP Configuration utility which \n\nmay allow an authenticated attacker with network access to the Configuration utility through the BIG-IP management port and/or self IP addresses to execute arbitrary system commands.\n\n\u00a0Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated",
     "epss": 2.932
+  },
+  "CVE-2023-4674": {
+    "cvss3": 0,
+    "severity": null,
+    "epss_severity": null,
+    "posts": [
+      {
+        "account": {
+          "id": "109947175700793195",
+          "username": "dominee",
+          "acct": "dominee",
+          "display_name": "Dominee Fromhell",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-03-01T00:00:00.000Z",
+          "note": "<p>hacker // gamer // \u304a\u305f\u304f</p>",
+          "url": "https://infosec.exchange/@dominee",
+          "uri": "https://infosec.exchange/users/dominee",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/947/175/700/793/195/original/c07092f0ce267e90.jpeg",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/947/175/700/793/195/original/c07092f0ce267e90.jpeg",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/947/175/700/793/195/original/a353007d0e595201.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/947/175/700/793/195/original/a353007d0e595201.png",
+          "followers_count": 15,
+          "following_count": 75,
+          "statuses_count": 126,
+          "last_status_at": "2023-11-15",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@dominee/111341670293305655",
+        "content": "\n\nHackers exploit recent F5 BIG-IP flaws in stealthy attacks\n[https://www.bleepingcomputer.com/news/security/hackers-exploit-recent-f5-big-\nip-flaws-in-stealthy-\nattacks/](https://www.bleepingcomputer.com/news/security/hackers-exploit-\nrecent-f5-big-ip-flaws-in-stealthy-attacks/) < CVE-2023-4674 + CVE-2023-46748\n\ud83d\udd25\n\n",
+        "created_at": "2023-11-02T15:31:00.872Z"
+      }
+    ],
+    "description": "N/A",
+    "epss": 0
   },
   "CVE-2023-4967": {
     "cvss3": 7.5,
