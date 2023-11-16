@@ -161,7 +161,7 @@
 
 
 <body>
-Updated at UTC 2023-11-16T16:14:14.810506
+Updated at UTC 2023-11-16T16:41:30.963441
 
 <p><a target=_blank href=https://github.com/fedisecfeeds/fedisecfeeds.github.io/blob/main/fedi_cve_feed.json>Access data as JSON</a></p>
 
@@ -426,6 +426,24 @@ Undisclosed requests may bypass configuration utility authentication, allowin</t
 			<td>2</td>
 			
 				<td>RARLAB WinRAR before 6.23 allows attackers to execute arbitrary code when a user</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="MEDIUM" href="#CVE-2023-37580">CVE-2023-37580</a></td>
+
+			<td class=MEDIUM> 6.1 </td>
+
+			
+				<td class=MEDIUM>20.90%</td>
+			
+
+			<td>3</td>
+			
+				<td>Zimbra Collaboration (ZCS) 8 before 8.8.15 Patch 41 allows XSS in the Zimbra Cla</td>
 			
 
 		</tr>
@@ -812,9 +830,9 @@ Roundcube before 1.4.15, 1.5.x before 1.5.5, and 1.6.x before 1.6.4 allows stor<
 
 		
 		<tr>
-			<td><a class="None" href="#CVE-2023-36014">CVE-2023-36014</a></td>
+			<td><a class="HIGH" href="#CVE-2023-36014">CVE-2023-36014</a></td>
 
-			<td class=None> 0 </td>
+			<td class=HIGH> 7.3 </td>
 
 			
 				<td class=LOW>0.09%</td>
@@ -848,9 +866,9 @@ Roundcube before 1.4.15, 1.5.x before 1.5.5, and 1.6.x before 1.6.4 allows stor<
 
 		
 		<tr>
-			<td><a class="CRITICAL" href="#CVE-2023-23368">CVE-2023-23368</a></td>
+			<td><a class="None" href="#CVE-2023-23368">CVE-2023-23368</a></td>
 
-			<td class=CRITICAL> 9.8 </td>
+			<td class=None> 0 </td>
 
 			
 				<td class=LOW>0.07%</td>
@@ -1193,24 +1211,6 @@ us</td>
 
 		
 		<tr>
-			<td><a class="None" href="#CVE-2023-45283">CVE-2023-45283</a></td>
-
-			<td class=None> 0 </td>
-
-			
-				<td class=LOW>0.04%</td>
-			
-
-			<td>1</td>
-			
-				<td>The filepath package does not recognize paths with a \??\ prefix as special. On </td>
-			
-
-		</tr>
-
-
-		
-		<tr>
 			<td><a class="None" href="#CVE-2023-45284">CVE-2023-45284</a></td>
 
 			<td class=None> 0 </td>
@@ -1222,6 +1222,24 @@ us</td>
 			<td>1</td>
 			
 				<td>On Windows, The IsLocal function does not correctly detect reserved device names</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="None" href="#CVE-2023-45283">CVE-2023-45283</a></td>
+
+			<td class=None> 0 </td>
+
+			
+				<td class=LOW>0.04%</td>
+			
+
+			<td>1</td>
+			
+				<td>The filepath package does not recognize paths with a \??\ prefix as special. On </td>
 			
 
 		</tr>
@@ -4835,6 +4853,156 @@ nations (Azerbaijan, Greece, Romania & Italy).
 	</div>
 	
 
+	<div class="cve" id="CVE-2023-37580">
+
+			
+		
+		<h3 class=MEDIUM><a class="MEDIUM" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-37580>CVE-2023-37580</a><br>(6.1 MEDIUM)</h3>
+		
+
+		
+		<h4 class=epss>EPSS: 20.90%</h4>
+		
+
+		<p class=numposts>3 posts</p>
+
+		<p class=description>
+		 
+		 		<th>Zimbra Collaboration (ZCS) 8 before 8.8.15 Patch 41 allows XSS in the Zimbra Classic Web Client.</th>
+		 	
+
+		</p>
+		
+		
+
+		<div class="posts">
+
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111421164577768077>at 2023-11-16T16:27:27.392Z</a>
+<md-block>
+
+
+ **Google TAG:** Zimbra 0-day used to target international government
+organizations  
+In June 2023, Google’s Threat Analysis Group (TAG) discovered an in-the-wild
+0-day exploit targeting Zimbra Collaboration, an email server many
+organizations use to host their email. Since discovering the 0-day, now
+patched as CVE-2023-37580, TAG has observed four different groups exploiting
+the same bug to steal email data, user credentials, and authentication tokens.
+Most of this activity occurred after the initial fix became public on Github.
+To ensure protection against these types of exploits, TAG urges users and
+organizations to keep software fully up-to-date and apply security updates as
+soon as they become available.  
+ **Link:** [https://blog.google/threat-analysis-group/zimbra-0-day-used-to-
+target-international-government-organizations/](https://blog.google/threat-
+analysis-group/zimbra-0-day-used-to-target-international-government-
+organizations/)
+
+EDIT: [CVE-2023-37580](https://nvd.nist.gov/vuln/detail/CVE-2023-37580)
+(CVSSv3: 6.1 medium) cross-site scripting vulnerability in Zimbra Classic Web
+Client. Disclosed 13 July by [Zimbra](https://info.zimbra.com/security-update-
+zimbra-collaboration-suite-version-8.8.15-important) as an exploited zero-day,
+added to CISA's [Known Exploited Vulnerabilities](https://www.cisa.gov/news-
+events/alerts/2023/07/27/cisa-adds-one-known-exploited-vulnerability-catalog)
+(KEV) Catalog on 27 July.
+
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+[#CVE202337580](https://infosec.exchange/tags/CVE202337580)
+[#GoogleTAG](https://infosec.exchange/tags/GoogleTAG)
+[#zimbra](https://infosec.exchange/tags/zimbra)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111421164577768077>at 2023-11-16T16:27:27.000Z</a>
+<md-block>
+
+
+ **Google TAG:** Zimbra 0-day used to target international government
+organizations  
+In June 2023, Google’s Threat Analysis Group (TAG) discovered an in-the-wild
+0-day exploit targeting Zimbra Collaboration, an email server many
+organizations use to host their email. Since discovering the 0-day, now
+patched as CVE-2023-37580, TAG has observed four different groups exploiting
+the same bug to steal email data, user credentials, and authentication tokens.
+Most of this activity occurred after the initial fix became public on Github.
+To ensure protection against these types of exploits, TAG urges users and
+organizations to keep software fully up-to-date and apply security updates as
+soon as they become available.  
+ **Link:** [https://blog.google/threat-analysis-group/zimbra-0-day-used-to-
+target-international-government-organizations/](https://blog.google/threat-
+analysis-group/zimbra-0-day-used-to-target-international-government-
+organizations/)
+
+EDIT: [CVE-2023-37580](https://nvd.nist.gov/vuln/detail/CVE-2023-37580)
+(CVSSv3: 6.1 medium) cross-site scripting vulnerability in Zimbra Classic Web
+Client. Disclosed 13 July by [Zimbra](https://info.zimbra.com/security-update-
+zimbra-collaboration-suite-version-8.8.15-important) as an exploited zero-day,
+added to CISA's [Known Exploited Vulnerabilities](https://www.cisa.gov/news-
+events/alerts/2023/07/27/cisa-adds-one-known-exploited-vulnerability-catalog)
+(KEV) Catalog on 27 July.
+
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+[#CVE202337580](https://infosec.exchange/tags/CVE202337580)
+[#GoogleTAG](https://infosec.exchange/tags/GoogleTAG)
+[#zimbra](https://infosec.exchange/tags/zimbra)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111421164577768077>at 2023-11-16T16:27:27.392Z</a>
+<md-block>
+
+
+ **Google TAG:** Zimbra 0-day used to target international government
+organizations  
+In June 2023, Google’s Threat Analysis Group (TAG) discovered an in-the-wild
+0-day exploit targeting Zimbra Collaboration, an email server many
+organizations use to host their email. Since discovering the 0-day, now
+patched as CVE-2023-37580, TAG has observed four different groups exploiting
+the same bug to steal email data, user credentials, and authentication tokens.
+Most of this activity occurred after the initial fix became public on Github.
+To ensure protection against these types of exploits, TAG urges users and
+organizations to keep software fully up-to-date and apply security updates as
+soon as they become available.  
+ **Link:** [https://blog.google/threat-analysis-group/zimbra-0-day-used-to-
+target-international-government-organizations/](https://blog.google/threat-
+analysis-group/zimbra-0-day-used-to-target-international-government-
+organizations/)
+
+EDIT: [CVE-2023-37580](https://nvd.nist.gov/vuln/detail/CVE-2023-37580)
+(CVSSv3: 6.1 medium) cross-site scripting vulnerability in Zimbra Classic Web
+Client. Disclosed 13 July by [Zimbra](https://info.zimbra.com/security-update-
+zimbra-collaboration-suite-version-8.8.15-important) as an exploited zero-day,
+added to CISA's [Known Exploited Vulnerabilities](https://www.cisa.gov/news-
+events/alerts/2023/07/27/cisa-adds-one-known-exploited-vulnerability-catalog)
+(KEV) Catalog on 27 July.
+
+[#zeroday](https://infosec.exchange/tags/zeroday)
+[#eitw](https://infosec.exchange/tags/eitw)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+[#CVE202337580](https://infosec.exchange/tags/CVE202337580)
+[#GoogleTAG](https://infosec.exchange/tags/GoogleTAG)
+[#zimbra](https://infosec.exchange/tags/zimbra)
+
+
+</md-block>
+			<hr>
+			
+
+		</div>
+	</div>
+	
+
 	<div class="cve" id="CVE-2023-36844">
 
 			
@@ -7251,7 +7419,7 @@ cve-2023-36584-discovered-in-attack-chain-used-by-russian-apt/)
 
 			
 		
-		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-36014>CVE-2023-36014</a><br>(0 None)</h3>
+		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-36014>CVE-2023-36014</a><br>(7.3 HIGH)</h3>
 		
 
 		
@@ -7407,7 +7575,7 @@ lpe.html](https://gergelykalman.com/no-CVE-batsignal-a-macos-lpe.html)
 
 			
 		
-		<h3 class=CRITICAL><a class="CRITICAL" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-23368>CVE-2023-23368</a><br>(9.8 CRITICAL)</h3>
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-23368>CVE-2023-23368</a><br>(0 None)</h3>
 		
 
 		
@@ -8861,11 +9029,11 @@ with new toys. [#threatintel](https://cyberplace.social/tags/threatintel)
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-45283">
+	<div class="cve" id="CVE-2023-45284">
 
 			
 		
-		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-45283>CVE-2023-45283</a><br>(0 None)</h3>
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-45284>CVE-2023-45284</a><br>(0 None)</h3>
 		
 
 		
@@ -8876,7 +9044,7 @@ with new toys. [#threatintel](https://cyberplace.social/tags/threatintel)
 
 		<p class=description>
 		 
-		 		<th>The filepath package does not recognize paths with a \??\ prefix as special. On Windows, a path beginning with \??\ is a Root Local Device path equivalent to a path beginning with \\?\. Paths with a \??\ prefix may be used to access arbitrary locations on the system. For example, the path \??\c:\x is equivalent to the more common path c:\x. Before fix, Clean could convert a rooted path such as \a\</th>
+		 		<th>On Windows, The IsLocal function does not correctly detect reserved device names in some cases. Reserved names followed by spaces, such as "COM1 ", and reserved names "COM" and "LPT" followed by superscript 1, 2, or 3, are incorrectly reported as local. With fix, IsLocal now correctly reports these names as non-local.</th>
 		 	
 
 		</p>
@@ -8913,11 +9081,11 @@ announce/c/4tU8LZfBFkY)
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-45284">
+	<div class="cve" id="CVE-2023-45283">
 
 			
 		
-		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-45284>CVE-2023-45284</a><br>(0 None)</h3>
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-45283>CVE-2023-45283</a><br>(0 None)</h3>
 		
 
 		
@@ -8928,7 +9096,7 @@ announce/c/4tU8LZfBFkY)
 
 		<p class=description>
 		 
-		 		<th>On Windows, The IsLocal function does not correctly detect reserved device names in some cases. Reserved names followed by spaces, such as "COM1 ", and reserved names "COM" and "LPT" followed by superscript 1, 2, or 3, are incorrectly reported as local. With fix, IsLocal now correctly reports these names as non-local.</th>
+		 		<th>The filepath package does not recognize paths with a \??\ prefix as special. On Windows, a path beginning with \??\ is a Root Local Device path equivalent to a path beginning with \\?\. Paths with a \??\ prefix may be used to access arbitrary locations on the system. For example, the path \??\c:\x is equivalent to the more common path c:\x. Before fix, Clean could convert a rooted path such as \a\</th>
 		 	
 
 		</p>
