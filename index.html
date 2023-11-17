@@ -161,7 +161,7 @@
 
 
 <body>
-Updated at UTC 2023-11-17T15:11:15.806481
+Updated at UTC 2023-11-17T15:35:46.906513
 
 <p><a target=_blank href=https://github.com/fedisecfeeds/fedisecfeeds.github.io/blob/main/fedi_cve_feed.json>Access data as JSON</a></p>
 
@@ -333,7 +333,7 @@ Undisclosed requests may bypass configuration utility authentication, allowin</t
 				<td class=CRITICAL>89.07%</td>
 			
 
-			<td>5</td>
+			<td>4</td>
 			
 				<td>Cisco is providing an update for the ongoing investigation into observed exploit</td>
 			
@@ -802,7 +802,7 @@ Roundcube before 1.4.15, 1.5.x before 1.5.5, and 1.6.x before 1.6.4 allows stor<
 				<td class=LOW>0.15%</td>
 			
 
-			<td>4</td>
+			<td>6</td>
 			
 				<td>Windows Mark of the Web Security Feature Bypass Vulnerability</td>
 			
@@ -1029,9 +1029,9 @@ handshake.</td>
 
 		
 		<tr>
-			<td><a class="MEDIUM" href="#CVE-2023-36027">CVE-2023-36027</a></td>
+			<td><a class="None" href="#CVE-2023-36027">CVE-2023-36027</a></td>
 
-			<td class=MEDIUM> 6.3 </td>
+			<td class=None> 0 </td>
 
 			
 				<td class=LOW>0.06%</td>
@@ -1301,24 +1301,6 @@ us</td>
 
 		
 		<tr>
-			<td><a class="None" href="#CVE-2023-45284">CVE-2023-45284</a></td>
-
-			<td class=None> 0 </td>
-
-			
-				<td class=LOW>0.04%</td>
-			
-
-			<td>1</td>
-			
-				<td>On Windows, The IsLocal function does not correctly detect reserved device names</td>
-			
-
-		</tr>
-
-
-		
-		<tr>
 			<td><a class="None" href="#CVE-2023-45283">CVE-2023-45283</a></td>
 
 			<td class=None> 0 </td>
@@ -1330,6 +1312,24 @@ us</td>
 			<td>1</td>
 			
 				<td>The filepath package does not recognize paths with a \??\ prefix as special. On </td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="None" href="#CVE-2023-45284">CVE-2023-45284</a></td>
+
+			<td class=None> 0 </td>
+
+			
+				<td class=LOW>0.04%</td>
+			
+
+			<td>1</td>
+			
+				<td>On Windows, The IsLocal function does not correctly detect reserved device names</td>
 			
 
 		</tr>
@@ -3915,7 +3915,7 @@ rDYgeSojoaax-1KpC7YrCF7MVtkrDClSFiKIY)
 		<h4 class=epss>EPSS: 89.07%</h4>
 		
 
-		<p class=numposts>5 posts</p>
+		<p class=numposts>4 posts</p>
 
 		<p class=description>
 		 
@@ -4001,39 +4001,6 @@ actively modifying their attacks and malware to maintain access to the
 compromised boxes. The latest v3 modifications appear to have worked, as
 Shadowserver has stopped detecting infected systems:
 [https://mastodon.social/@shadowserver@infosec.exchange/111354144609010594](https://mastodon.social/@shadowserver@infosec.exchange/111354144609010594)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@SI_FalconTeam>SI_FalconTeam</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@SI_FalconTeam/111347317539543565>at 2023-11-03T15:27:11.012Z</a>
-<md-block>
-
-
-🚨 [#Cisco](https://infosec.exchange/tags/Cisco)
-[#IOSXE](https://infosec.exchange/tags/IOSXE)
-[#CVE](https://infosec.exchange/tags/CVE)-2023-20198
-[#CVE](https://infosec.exchange/tags/CVE)-2023-20273
-
-We updated our [#IoC](https://infosec.exchange/tags/IoC) for exploit attempts
-that hit our honeypot. You can find them on
-[#GitHub](https://infosec.exchange/tags/GitHub):
-[https://github.com/SIFalcon/research/blob/main/CVE-2023-20198/ioc.txt](https://github.com/SIFalcon/research/blob/main/CVE-2023-20198/ioc.txt)
-
-Based on modus operandi and infrastructure we managed to cluster certain
-attacking hosts togehter ⬇️
-
-We also saw new traffic to the Implant, this time from 107.175.229[.]142,
-again via the user "cisco_support". Executed recon commands include:
-
-show ip interface brief  
-show ip dns view  
-show ip name-servers
-
-[#infosec](https://infosec.exchange/tags/infosec)
-[#cybersecurity](https://infosec.exchange/tags/cybersecurity)
-[#cyberdefense](https://infosec.exchange/tags/cyberdefense)
 
 
 </md-block>
@@ -7188,7 +7155,7 @@ Out-of-Bounds Write (CVSS 9.8), Pre-Auth RCE, in the DCERPC protocol
 		<h4 class=epss>EPSS: 0.15%</h4>
 		
 
-		<p class=numposts>4 posts</p>
+		<p class=numposts>6 posts</p>
 
 		<p class=description>
 		 
@@ -7201,6 +7168,28 @@ Out-of-Bounds Write (CVSS 9.8), Pre-Auth RCE, in the DCERPC protocol
 
 		<div class="posts">
 
+			
+				<a target=_blank href=https://infosec.exchange/@KyanHexagon>KyanHexagon</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@KyanHexagon/111426536015302723>at 2023-11-17T15:13:29.023Z</a>
+<md-block>
+
+
+This article goes into some technical details of the new Mark of the Web
+bypass CVE-2023-36584
+
+[https://unit42.paloaltonetworks.com/new-cve-2023-36584-discovered-in-attack-
+chain-used-by-russian-apt/](https://unit42.paloaltonetworks.com/new-
+cve-2023-36584-discovered-in-attack-chain-used-by-russian-apt/)
+
+[#hacking](https://infosec.exchange/tags/hacking)
+[#pentesting](https://infosec.exchange/tags/pentesting)
+[#redteam](https://infosec.exchange/tags/redteam)
+[#CVE202336584](https://infosec.exchange/tags/CVE202336584)
+[#CVE_2023_36584](https://infosec.exchange/tags/CVE_2023_36584)
+
+
+</md-block>
+			<hr>
 			
 				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
 				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111421465871369735>at 2023-11-16T17:44:04.765Z</a>
@@ -7267,6 +7256,28 @@ cve-2023-36584-discovered-in-attack-chain-used-by-russian-apt/)
 [#Ukraine](https://infosec.exchange/tags/Ukraine)
 [#UkraineRussiaWar](https://infosec.exchange/tags/UkraineRussiaWar)
 [#motw](https://infosec.exchange/tags/motw)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@KyanHexagon>KyanHexagon@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@KyanHexagon/111426536015302723>at 2023-11-17T15:13:29.000Z</a>
+<md-block>
+
+
+This article goes into some technical details of the new Mark of the Web
+bypass CVE-2023-36584
+
+[https://unit42.paloaltonetworks.com/new-cve-2023-36584-discovered-in-attack-
+chain-used-by-russian-apt/](https://unit42.paloaltonetworks.com/new-
+cve-2023-36584-discovered-in-attack-chain-used-by-russian-apt/)
+
+[#hacking](https://infosec.exchange/tags/hacking)
+[#pentesting](https://infosec.exchange/tags/pentesting)
+[#redteam](https://infosec.exchange/tags/redteam)
+[#CVE202336584](https://infosec.exchange/tags/CVE202336584)
+[#CVE_2023_36584](https://infosec.exchange/tags/CVE_2023_36584)
 
 
 </md-block>
@@ -8185,7 +8196,7 @@ likely. CVE-2023-5996 doesn't include any addtl information.
 
 			
 		
-		<h3 class=MEDIUM><a class="MEDIUM" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-36027>CVE-2023-36027</a><br>(6.3 MEDIUM)</h3>
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-36027>CVE-2023-36027</a><br>(0 None)</h3>
 		
 
 		
@@ -9524,11 +9535,11 @@ of exploitation.
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-45284">
+	<div class="cve" id="CVE-2023-45283">
 
 			
 		
-		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-45284>CVE-2023-45284</a><br>(0 None)</h3>
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-45283>CVE-2023-45283</a><br>(0 None)</h3>
 		
 
 		
@@ -9539,7 +9550,7 @@ of exploitation.
 
 		<p class=description>
 		 
-		 		<th>On Windows, The IsLocal function does not correctly detect reserved device names in some cases. Reserved names followed by spaces, such as "COM1 ", and reserved names "COM" and "LPT" followed by superscript 1, 2, or 3, are incorrectly reported as local. With fix, IsLocal now correctly reports these names as non-local.</th>
+		 		<th>The filepath package does not recognize paths with a \??\ prefix as special. On Windows, a path beginning with \??\ is a Root Local Device path equivalent to a path beginning with \\?\. Paths with a \??\ prefix may be used to access arbitrary locations on the system. For example, the path \??\c:\x is equivalent to the more common path c:\x. Before fix, Clean could convert a rooted path such as \a\</th>
 		 	
 
 		</p>
@@ -9576,11 +9587,11 @@ announce/c/4tU8LZfBFkY)
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-45283">
+	<div class="cve" id="CVE-2023-45284">
 
 			
 		
-		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-45283>CVE-2023-45283</a><br>(0 None)</h3>
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-45284>CVE-2023-45284</a><br>(0 None)</h3>
 		
 
 		
@@ -9591,7 +9602,7 @@ announce/c/4tU8LZfBFkY)
 
 		<p class=description>
 		 
-		 		<th>The filepath package does not recognize paths with a \??\ prefix as special. On Windows, a path beginning with \??\ is a Root Local Device path equivalent to a path beginning with \\?\. Paths with a \??\ prefix may be used to access arbitrary locations on the system. For example, the path \??\c:\x is equivalent to the more common path c:\x. Before fix, Clean could convert a rooted path such as \a\</th>
+		 		<th>On Windows, The IsLocal function does not correctly detect reserved device names in some cases. Reserved names followed by spaces, such as "COM1 ", and reserved names "COM" and "LPT" followed by superscript 1, 2, or 3, are incorrectly reported as local. With fix, IsLocal now correctly reports these names as non-local.</th>
 		 	
 
 		</p>
