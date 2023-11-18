@@ -161,7 +161,7 @@
 
 
 <body>
-Updated at UTC 2023-11-18T05:10:32.882023
+Updated at UTC 2023-11-18T05:35:53.070113
 
 <p><a target=_blank href=https://github.com/fedisecfeeds/fedisecfeeds.github.io/blob/main/fedi_cve_feed.json>Access data as JSON</a></p>
 
@@ -426,6 +426,24 @@ Undisclosed requests may bypass configuration utility authentication, allowin</t
 			<td>1</td>
 			
 				<td>Heap buffer overflow in libwebp in Google Chrome prior to 116.0.5845.187 and lib</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="CRITICAL" href="#CVE-2022-24086">CVE-2022-24086</a></td>
+
+			<td class=CRITICAL> 9.8 </td>
+
+			
+				<td class=MEDIUM>26.45%</td>
+			
+
+			<td>1</td>
+			
+				<td>Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are af</td>
 			
 
 		</tr>
@@ -1337,24 +1355,6 @@ us</td>
 
 		
 		<tr>
-			<td><a class="None" href="#CVE-2023-45284">CVE-2023-45284</a></td>
-
-			<td class=None> 0 </td>
-
-			
-				<td class=LOW>0.04%</td>
-			
-
-			<td>1</td>
-			
-				<td>On Windows, The IsLocal function does not correctly detect reserved device names</td>
-			
-
-		</tr>
-
-
-		
-		<tr>
 			<td><a class="None" href="#CVE-2023-45283">CVE-2023-45283</a></td>
 
 			<td class=None> 0 </td>
@@ -1366,6 +1366,24 @@ us</td>
 			<td>1</td>
 			
 				<td>The filepath package does not recognize paths with a \??\ prefix as special. On </td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="None" href="#CVE-2023-45284">CVE-2023-45284</a></td>
+
+			<td class=None> 0 </td>
+
+			
+				<td class=LOW>0.04%</td>
+			
+
+			<td>1</td>
+			
+				<td>On Windows, The IsLocal function does not correctly detect reserved device names</td>
 			
 
 		</tr>
@@ -1834,6 +1852,24 @@ us</td>
 			<td>2</td>
 			
 				<td>N/A</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="None" href="#CVE-2023-43177">CVE-2023-43177</a></td>
+
+			<td class=None> 0 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>1</td>
+			
+				<td>CrushFTP prior to 10.5.1 is vulnerable to Improperly Controlled Modification of </td>
 			
 
 		</tr>
@@ -4823,6 +4859,52 @@ using the latest v0.32.6.
 From today onwards, "npm audit" will start to nag you about upgrading if
 you're still using an older version of sharp that provides a version of
 libwebp vulnerable to CVE-2023-4863.
+
+
+</md-block>
+			<hr>
+			
+
+		</div>
+	</div>
+	
+
+	<div class="cve" id="CVE-2022-24086">
+
+			
+		
+		<h3 class=CRITICAL><a class="CRITICAL" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2022-24086>CVE-2022-24086</a><br>(9.8 CRITICAL)</h3>
+		
+
+		
+		<h4 class=epss>EPSS: 26.45%</h4>
+		
+
+		<p class=numposts>1 posts</p>
+
+		<p class=description>
+		 
+		 		<th>Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are affected by an improper input validation vulnerability during the checkout process. Exploitation of this issue does not require user interaction and could result in arbitrary code execution.</th>
+		 	
+
+		</p>
+		
+		
+
+		<div class="posts">
+
+			
+				<a target=_blank href=https://infosec.exchange/@raptor>raptor</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@raptor/111429844230198502>at 2023-11-18T05:14:48.376Z</a>
+<md-block>
+
+
+[#Magento](https://infosec.exchange/tags/Magento) Template Engine, a Story of
+CVE-2022-24086
+
+[https://www.synacktiv.com/en/publications/magento-template-engine-a-story-of-
+cve-2022-24086](https://www.synacktiv.com/en/publications/magento-template-
+engine-a-story-of-cve-2022-24086)
 
 
 </md-block>
@@ -9639,11 +9721,11 @@ of exploitation.
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-45284">
+	<div class="cve" id="CVE-2023-45283">
 
 			
 		
-		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-45284>CVE-2023-45284</a><br>(0 None)</h3>
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-45283>CVE-2023-45283</a><br>(0 None)</h3>
 		
 
 		
@@ -9654,7 +9736,7 @@ of exploitation.
 
 		<p class=description>
 		 
-		 		<th>On Windows, The IsLocal function does not correctly detect reserved device names in some cases. Reserved names followed by spaces, such as "COM1 ", and reserved names "COM" and "LPT" followed by superscript 1, 2, or 3, are incorrectly reported as local. With fix, IsLocal now correctly reports these names as non-local.</th>
+		 		<th>The filepath package does not recognize paths with a \??\ prefix as special. On Windows, a path beginning with \??\ is a Root Local Device path equivalent to a path beginning with \\?\. Paths with a \??\ prefix may be used to access arbitrary locations on the system. For example, the path \??\c:\x is equivalent to the more common path c:\x. Before fix, Clean could convert a rooted path such as \a\</th>
 		 	
 
 		</p>
@@ -9691,11 +9773,11 @@ announce/c/4tU8LZfBFkY)
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-45283">
+	<div class="cve" id="CVE-2023-45284">
 
 			
 		
-		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-45283>CVE-2023-45283</a><br>(0 None)</h3>
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-45284>CVE-2023-45284</a><br>(0 None)</h3>
 		
 
 		
@@ -9706,7 +9788,7 @@ announce/c/4tU8LZfBFkY)
 
 		<p class=description>
 		 
-		 		<th>The filepath package does not recognize paths with a \??\ prefix as special. On Windows, a path beginning with \??\ is a Root Local Device path equivalent to a path beginning with \\?\. Paths with a \??\ prefix may be used to access arbitrary locations on the system. For example, the path \??\c:\x is equivalent to the more common path c:\x. Before fix, Clean could convert a rooted path such as \a\</th>
+		 		<th>On Windows, The IsLocal function does not correctly detect reserved device names in some cases. Reserved names followed by spaces, such as "COM1 ", and reserved names "COM" and "LPT" followed by superscript 1, 2, or 3, are incorrectly reported as local. With fix, IsLocal now correctly reports these names as non-local.</th>
 		 	
 
 		</p>
@@ -12437,6 +12519,55 @@ patch quickly!
 [#CVE](https://infosec.exchange/tags/CVE)
 [#HIGH](https://infosec.exchange/tags/HIGH)
 [#CRITICAL](https://infosec.exchange/tags/CRITICAL)
+
+
+</md-block>
+			<hr>
+			
+
+		</div>
+	</div>
+	
+
+	<div class="cve" id="CVE-2023-43177">
+
+			
+		
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-43177>CVE-2023-43177</a><br>(0 None)</h3>
+		
+
+		
+		<h4 class=epss>EPSS: 0.00%</h4>
+		
+
+		<p class=numposts>1 posts</p>
+
+		<p class=description>
+		 
+		 		<th>CrushFTP prior to 10.5.1 is vulnerable to Improperly Controlled Modification of Dynamically-Determined Object Attributes.</th>
+		 	
+
+		</p>
+		
+		
+
+		<div class="posts">
+
+			
+				<a target=_blank href=https://infosec.exchange/@raptor>raptor</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@raptor/111429826741833979>at 2023-11-18T05:10:21.525Z</a>
+<md-block>
+
+
+[#CrushFTP](https://infosec.exchange/tags/CrushFTP) Critical
+[#Vulnerability](https://infosec.exchange/tags/Vulnerability) CVE-2023-43177
+Unauthenticated Remote Code Execution
+
+[https://convergetp.com/2023/11/16/crushftp-zero-day-
+cve-2023-43177-discovered/](https://convergetp.com/2023/11/16/crushftp-zero-
+day-cve-2023-43177-discovered/)
+
+Nice exploit chain!
 
 
 </md-block>
