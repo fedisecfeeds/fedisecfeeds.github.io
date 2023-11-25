@@ -161,7 +161,7 @@
 
 
 <body>
-Updated at UTC 2023-11-25T22:34:32.955403
+Updated at UTC 2023-11-25T23:10:14.232953
 
 <p><a target=_blank href=https://github.com/fedisecfeeds/fedisecfeeds.github.io/blob/main/fedi_cve_feed.json>Access data as JSON</a></p>
 
@@ -1513,9 +1513,9 @@ The internal fork of Commons</td>
 
 		
 		<tr>
-			<td><a class="MEDIUM" href="#CVE-2023-36008">CVE-2023-36008</a></td>
+			<td><a class="HIGH" href="#CVE-2023-36008">CVE-2023-36008</a></td>
 
-			<td class=MEDIUM> 6.6 </td>
+			<td class=HIGH> 7.8 </td>
 
 			
 				<td class=LOW>0.08%</td>
@@ -1839,25 +1839,6 @@ A format string vulnerability exists in iControl SOAP that allows an authentica<
 
 		
 		<tr>
-			<td><a class="None" href="#CVE-2023-5445">CVE-2023-5445</a></td>
-
-			<td class=None> 0 </td>
-
-			
-				<td class=LOW>0.05%</td>
-			
-
-			<td>2</td>
-			
-				<td>
-An open redirect vulnerability in ePolicy Orchestrator prior to 5.10.0 CP1 Upda</td>
-			
-
-		</tr>
-
-
-		
-		<tr>
 			<td><a class="None" href="#CVE-2023-5444">CVE-2023-5444</a></td>
 
 			<td class=None> 0 </td>
@@ -1870,6 +1851,25 @@ An open redirect vulnerability in ePolicy Orchestrator prior to 5.10.0 CP1 Upda<
 			
 				<td>
 A Cross Site Request Forgery vulnerability in ePolicy Orchestrator prior to 5.1</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="None" href="#CVE-2023-5445">CVE-2023-5445</a></td>
+
+			<td class=None> 0 </td>
+
+			
+				<td class=LOW>0.05%</td>
+			
+
+			<td>2</td>
+			
+				<td>
+An open redirect vulnerability in ePolicy Orchestrator prior to 5.10.0 CP1 Upda</td>
 			
 
 		</tr>
@@ -1895,24 +1895,6 @@ A Cross Site Request Forgery vulnerability in ePolicy Orchestrator prior to 5.1<
 
 		
 		<tr>
-			<td><a class="None" href="#CVE-2023-20272">CVE-2023-20272</a></td>
-
-			<td class=None> 0 </td>
-
-			
-				<td class=LOW>0.05%</td>
-			
-
-			<td>2</td>
-			
-				<td>A vulnerability in the web-based management interface of Cisco Identity Services</td>
-			
-
-		</tr>
-
-
-		
-		<tr>
 			<td><a class="None" href="#CVE-2023-20208">CVE-2023-20208</a></td>
 
 			<td class=None> 0 </td>
@@ -1924,6 +1906,24 @@ A Cross Site Request Forgery vulnerability in ePolicy Orchestrator prior to 5.1<
 			<td>2</td>
 			
 				<td>A vulnerability in the web-based management interface of Cisco ISE could allow a</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="None" href="#CVE-2023-20272">CVE-2023-20272</a></td>
+
+			<td class=None> 0 </td>
+
+			
+				<td class=LOW>0.05%</td>
+			
+
+			<td>2</td>
+			
+				<td>A vulnerability in the web-based management interface of Cisco Identity Services</td>
 			
 
 		</tr>
@@ -11841,7 +11841,7 @@ VMware Tools updates vulnerabilities
 
 			
 		
-		<h3 class=MEDIUM><a class="MEDIUM" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-36008>CVE-2023-36008</a><br>(6.6 MEDIUM)</h3>
+		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-36008>CVE-2023-36008</a><br>(7.8 HIGH)</h3>
 		
 
 		
@@ -13606,11 +13606,11 @@ rce.html](https://baldursecurity.com/blog/prtg-rce.html)
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-5445">
+	<div class="cve" id="CVE-2023-5444">
 
 			
 		
-		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-5445>CVE-2023-5445</a><br>(0 None)</h3>
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-5444>CVE-2023-5444</a><br>(0 None)</h3>
 		
 
 		
@@ -13622,7 +13622,9 @@ rce.html](https://baldursecurity.com/blog/prtg-rce.html)
 		<p class=description>
 		 
 		 		<th>
-An open redirect vulnerability in ePolicy Orchestrator prior to 5.10.0 CP1 Update 2, allows a remote low privileged user to modify the URL parameter for the purpose of redirecting URL request(s) to a malicious site. This impacts the dashboard area of the user interface. A user would need to be logged into ePO to trigger this vulnerability. To exploit this the attacker must change the HTTP payload</th>
+A Cross Site Request Forgery vulnerability in ePolicy Orchestrator prior to 5.10.0 CP1 Update 2 allows a remote low privilege user to successfully add a new user with administrator privileges to the ePO server. This impacts the dashboard area of the user interface. To exploit this the attacker must change the HTTP payload post submission, prior to it reaching the ePO server.
+
+</th>
 		 	
 
 		</p>
@@ -13691,11 +13693,11 @@ CVE-2023-45648, CVE-2023-42795 and CVE-2023-42794
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-5444">
+	<div class="cve" id="CVE-2023-5445">
 
 			
 		
-		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-5444>CVE-2023-5444</a><br>(0 None)</h3>
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-5445>CVE-2023-5445</a><br>(0 None)</h3>
 		
 
 		
@@ -13707,9 +13709,7 @@ CVE-2023-45648, CVE-2023-42795 and CVE-2023-42794
 		<p class=description>
 		 
 		 		<th>
-A Cross Site Request Forgery vulnerability in ePolicy Orchestrator prior to 5.10.0 CP1 Update 2 allows a remote low privilege user to successfully add a new user with administrator privileges to the ePO server. This impacts the dashboard area of the user interface. To exploit this the attacker must change the HTTP payload post submission, prior to it reaching the ePO server.
-
-</th>
+An open redirect vulnerability in ePolicy Orchestrator prior to 5.10.0 CP1 Update 2, allows a remote low privileged user to modify the URL parameter for the purpose of redirecting URL request(s) to a malicious site. This impacts the dashboard area of the user interface. A user would need to be logged into ePO to trigger this vulnerability. To exploit this the attacker must change the HTTP payload</th>
 		 	
 
 		</p>
@@ -13874,11 +13874,11 @@ use of the vulnerability that is described in this advisory."_
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-20272">
+	<div class="cve" id="CVE-2023-20208">
 
 			
 		
-		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-20272>CVE-2023-20272</a><br>(0 None)</h3>
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-20208>CVE-2023-20208</a><br>(0 None)</h3>
 		
 
 		
@@ -13889,7 +13889,7 @@ use of the vulnerability that is described in this advisory."_
 
 		<p class=description>
 		 
-		 		<th>A vulnerability in the web-based management interface of Cisco Identity Services Engine could allow an authenticated, remote attacker to upload malicious files to the web root of the application. This vulnerability is due to insufficient file input validation. An attacker could exploit this vulnerability by uploading a malicious file to the web interface. A successful exploit could allow the attac</th>
+		 		<th>A vulnerability in the web-based management interface of Cisco ISE could allow an authenticated, remote attacker to conduct an XSS attack against a user of the web-based management interface of an affected device.</th>
 		 	
 
 		</p>
@@ -13970,11 +13970,11 @@ use of the vulnerability that is described in this advisory."_
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-20208">
+	<div class="cve" id="CVE-2023-20272">
 
 			
 		
-		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-20208>CVE-2023-20208</a><br>(0 None)</h3>
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-20272>CVE-2023-20272</a><br>(0 None)</h3>
 		
 
 		
@@ -13985,7 +13985,7 @@ use of the vulnerability that is described in this advisory."_
 
 		<p class=description>
 		 
-		 		<th>A vulnerability in the web-based management interface of Cisco ISE could allow an authenticated, remote attacker to conduct an XSS attack against a user of the web-based management interface of an affected device.</th>
+		 		<th>A vulnerability in the web-based management interface of Cisco Identity Services Engine could allow an authenticated, remote attacker to upload malicious files to the web root of the application. This vulnerability is due to insufficient file input validation. An attacker could exploit this vulnerability by uploading a malicious file to the web interface. A successful exploit could allow the attac</th>
 		 	
 
 		</p>
