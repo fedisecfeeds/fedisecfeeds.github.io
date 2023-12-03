@@ -161,7 +161,7 @@
 
 
 <body>
-Updated at UTC 2023-12-03T16:12:43.165804
+Updated at UTC 2023-12-03T16:38:17.331920
 
 <p><a target=_blank href=https://github.com/fedisecfeeds/fedisecfeeds.github.io/blob/main/fedi_cve_feed.json>Access data as JSON</a></p>
 
@@ -1643,6 +1643,24 @@ An open redirect vulnerability in ePolicy Orchestrator prior to 5.10.0 CP1 Upda<
 
 		
 		<tr>
+			<td><a class="None" href="#CVE-2023-47100">CVE-2023-47100</a></td>
+
+			<td class=None> 0 </td>
+
+			
+				<td class=LOW>0.04%</td>
+			
+
+			<td>6</td>
+			
+				<td>In Perl before 5.38.2, S_parse_uniprop_string in regcomp.c can write to unalloca</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
 			<td><a class="HIGH" href="#CVE-2023-2976">CVE-2023-2976</a></td>
 
 			<td class=HIGH> 7.1 </td>
@@ -1895,7 +1913,7 @@ An open redirect vulnerability in ePolicy Orchestrator prior to 5.10.0 CP1 Upda<
 
 		
 		<tr>
-			<td><a class="None" href="#CVE-2023-42343">CVE-2023-42343</a></td>
+			<td><a class="None" href="#CVE-2023-42345">CVE-2023-42345</a></td>
 
 			<td class=None> 0 </td>
 
@@ -1913,7 +1931,7 @@ An open redirect vulnerability in ePolicy Orchestrator prior to 5.10.0 CP1 Upda<
 
 		
 		<tr>
-			<td><a class="None" href="#CVE-2023-42345">CVE-2023-42345</a></td>
+			<td><a class="None" href="#CVE-2023-42343">CVE-2023-42343</a></td>
 
 			<td class=None> 0 </td>
 
@@ -13361,6 +13379,210 @@ injection-vulnerabilities-in-nas-products)
 	</div>
 	
 
+	<div class="cve" id="CVE-2023-47100">
+
+			
+		
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-47100>CVE-2023-47100</a><br>(0 None)</h3>
+		
+
+		
+		<h4 class=epss>EPSS: 0.04%</h4>
+		
+
+		<p class=numposts>6 posts</p>
+
+		<p class=description>
+		 
+		 		<th>In Perl before 5.38.2, S_parse_uniprop_string in regcomp.c can write to unallocated space because a property name associated with a \p{...} regular expression construct is mishandled. The earliest affected version is 5.30.0.</th>
+		 	
+
+		</p>
+		
+		
+
+		<div class="posts">
+
+			
+				<a target=_blank href=https://infosec.exchange/@tychotithonus>tychotithonus</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@tychotithonus/111517391725724667>at 2023-12-03T16:19:17.145Z</a>
+<md-block>
+
+
+[@cybeej](https://infosec.exchange/@cybeej)  
+You'd be surprised. Or maybe you wouldn't. 😁
+
+References for anyone playing along at home, details about that Perl CVE:
+
+[https://nvd.nist.gov/vuln/detail/CVE-2023-47100](https://nvd.nist.gov/vuln/detail/CVE-2023-47100)  
+[https://github.com/Perl/perl5/commit/ff1f9f59360afeebd6f75ca1502f5c3ebf077da3](https://github.com/Perl/perl5/commit/ff1f9f59360afeebd6f75ca1502f5c3ebf077da3)
+
+"In Perl before 5.38.2, S_parse_uniprop_string in regcomp.c can write to
+unallocated space because a property name associated with a \p{...} regular
+expression construct is mishandled. The earliest affected version is 5.30.0."
+
+So if someone can't patch (which doesn't seem far-fetched, if someone is still
+using Perl), eliminating that \p regular-expression operator is _probably_ a
+reasonable workaround.
+
+[#CVE202347100](https://infosec.exchange/tags/CVE202347100)
+[#CVE_2023_47100](https://infosec.exchange/tags/CVE_2023_47100)
+[#Perl](https://infosec.exchange/tags/Perl)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@tychotithonus>tychotithonus@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@tychotithonus/111517391725724667>at 2023-12-03T16:19:17.000Z</a>
+<md-block>
+
+
+[@cybeej](https://infosec.exchange/@cybeej)  
+You'd be surprised. Or maybe you wouldn't. 😁
+
+References for anyone playing along at home, details about that Perl CVE:
+
+[https://nvd.nist.gov/vuln/detail/CVE-2023-47100](https://nvd.nist.gov/vuln/detail/CVE-2023-47100)  
+[https://github.com/Perl/perl5/commit/ff1f9f59360afeebd6f75ca1502f5c3ebf077da3](https://github.com/Perl/perl5/commit/ff1f9f59360afeebd6f75ca1502f5c3ebf077da3)
+
+"In Perl before 5.38.2, S_parse_uniprop_string in regcomp.c can write to
+unallocated space because a property name associated with a \p{...} regular
+expression construct is mishandled. The earliest affected version is 5.30.0."
+
+So if someone can't patch (which doesn't seem far-fetched, if someone is still
+using Perl), eliminating that \p regular-expression operator is _probably_ a
+reasonable workaround.
+
+[#CVE202347100](https://infosec.exchange/tags/CVE202347100)
+[#CVE_2023_47100](https://infosec.exchange/tags/CVE_2023_47100)
+[#Perl](https://infosec.exchange/tags/Perl)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@tychotithonus>tychotithonus</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@tychotithonus/111517391725724667>at 2023-12-03T16:19:17.145Z</a>
+<md-block>
+
+
+[@cybeej](https://infosec.exchange/@cybeej)  
+You'd be surprised. Or maybe you wouldn't. 😁
+
+References for anyone playing along at home, details about that Perl CVE:
+
+[https://nvd.nist.gov/vuln/detail/CVE-2023-47100](https://nvd.nist.gov/vuln/detail/CVE-2023-47100)  
+[https://github.com/Perl/perl5/commit/ff1f9f59360afeebd6f75ca1502f5c3ebf077da3](https://github.com/Perl/perl5/commit/ff1f9f59360afeebd6f75ca1502f5c3ebf077da3)
+
+"In Perl before 5.38.2, S_parse_uniprop_string in regcomp.c can write to
+unallocated space because a property name associated with a \p{...} regular
+expression construct is mishandled. The earliest affected version is 5.30.0."
+
+So if someone can't patch (which doesn't seem far-fetched, if someone is still
+using Perl), eliminating that \p regular-expression operator is _probably_ a
+reasonable workaround.
+
+[#CVE202347100](https://infosec.exchange/tags/CVE202347100)
+[#CVE_2023_47100](https://infosec.exchange/tags/CVE_2023_47100)
+[#Perl](https://infosec.exchange/tags/Perl)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@tychotithonus>tychotithonus@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@tychotithonus/111517391725724667>at 2023-12-03T16:19:17.000Z</a>
+<md-block>
+
+
+[@cybeej](https://infosec.exchange/@cybeej)  
+You'd be surprised. Or maybe you wouldn't. 😁
+
+References for anyone playing along at home, details about that Perl CVE:
+
+[https://nvd.nist.gov/vuln/detail/CVE-2023-47100](https://nvd.nist.gov/vuln/detail/CVE-2023-47100)  
+[https://github.com/Perl/perl5/commit/ff1f9f59360afeebd6f75ca1502f5c3ebf077da3](https://github.com/Perl/perl5/commit/ff1f9f59360afeebd6f75ca1502f5c3ebf077da3)
+
+"In Perl before 5.38.2, S_parse_uniprop_string in regcomp.c can write to
+unallocated space because a property name associated with a \p{...} regular
+expression construct is mishandled. The earliest affected version is 5.30.0."
+
+So if someone can't patch (which doesn't seem far-fetched, if someone is still
+using Perl), eliminating that \p regular-expression operator is _probably_ a
+reasonable workaround.
+
+[#CVE202347100](https://infosec.exchange/tags/CVE202347100)
+[#CVE_2023_47100](https://infosec.exchange/tags/CVE_2023_47100)
+[#Perl](https://infosec.exchange/tags/Perl)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@tychotithonus>tychotithonus</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@tychotithonus/111517391725724667>at 2023-12-03T16:19:17.145Z</a>
+<md-block>
+
+
+[@cybeej](https://infosec.exchange/@cybeej)  
+You'd be surprised. Or maybe you wouldn't. 😁
+
+References for anyone playing along at home, details about that Perl CVE:
+
+[https://nvd.nist.gov/vuln/detail/CVE-2023-47100](https://nvd.nist.gov/vuln/detail/CVE-2023-47100)  
+[https://github.com/Perl/perl5/commit/ff1f9f59360afeebd6f75ca1502f5c3ebf077da3](https://github.com/Perl/perl5/commit/ff1f9f59360afeebd6f75ca1502f5c3ebf077da3)
+
+"In Perl before 5.38.2, S_parse_uniprop_string in regcomp.c can write to
+unallocated space because a property name associated with a \p{...} regular
+expression construct is mishandled. The earliest affected version is 5.30.0."
+
+So if someone can't patch (which doesn't seem far-fetched, if someone is still
+using Perl), eliminating that \p regular-expression operator is _probably_ a
+reasonable workaround.
+
+[#CVE202347100](https://infosec.exchange/tags/CVE202347100)
+[#CVE_2023_47100](https://infosec.exchange/tags/CVE_2023_47100)
+[#Perl](https://infosec.exchange/tags/Perl)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@tychotithonus>tychotithonus@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@tychotithonus/111517391725724667>at 2023-12-03T16:19:17.000Z</a>
+<md-block>
+
+
+[@cybeej](https://infosec.exchange/@cybeej)  
+You'd be surprised. Or maybe you wouldn't. 😁
+
+References for anyone playing along at home, details about that Perl CVE:
+
+[https://nvd.nist.gov/vuln/detail/CVE-2023-47100](https://nvd.nist.gov/vuln/detail/CVE-2023-47100)  
+[https://github.com/Perl/perl5/commit/ff1f9f59360afeebd6f75ca1502f5c3ebf077da3](https://github.com/Perl/perl5/commit/ff1f9f59360afeebd6f75ca1502f5c3ebf077da3)
+
+"In Perl before 5.38.2, S_parse_uniprop_string in regcomp.c can write to
+unallocated space because a property name associated with a \p{...} regular
+expression construct is mishandled. The earliest affected version is 5.30.0."
+
+So if someone can't patch (which doesn't seem far-fetched, if someone is still
+using Perl), eliminating that \p regular-expression operator is _probably_ a
+reasonable workaround.
+
+[#CVE202347100](https://infosec.exchange/tags/CVE202347100)
+[#CVE_2023_47100](https://infosec.exchange/tags/CVE_2023_47100)
+[#Perl](https://infosec.exchange/tags/Perl)
+
+
+</md-block>
+			<hr>
+			
+
+		</div>
+	</div>
+	
+
 	<div class="cve" id="CVE-2023-2976">
 
 			
@@ -14714,11 +14936,11 @@ opencms](https://labs.watchtowr.com/xxe-you-can-depend-on-me-opencms)
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-42343">
+	<div class="cve" id="CVE-2023-42345">
 
 			
 		
-		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-42343>CVE-2023-42343</a><br>(0 None)</h3>
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-42345>CVE-2023-42345</a><br>(0 None)</h3>
 		
 
 		
@@ -14806,11 +15028,11 @@ opencms](https://labs.watchtowr.com/xxe-you-can-depend-on-me-opencms)
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-42345">
+	<div class="cve" id="CVE-2023-42343">
 
 			
 		
-		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-42345>CVE-2023-42345</a><br>(0 None)</h3>
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-42343>CVE-2023-42343</a><br>(0 None)</h3>
 		
 
 		
