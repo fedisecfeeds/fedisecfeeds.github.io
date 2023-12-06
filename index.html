@@ -161,7 +161,7 @@
 
 
 <body>
-Updated at UTC 2023-12-06T11:15:32.642513
+Updated at UTC 2023-12-06T11:40:56.997592
 
 <p><a target=_blank href=https://github.com/fedisecfeeds/fedisecfeeds.github.io/blob/main/fedi_cve_feed.json>Access data as JSON</a></p>
 
@@ -604,6 +604,24 @@ Execution. T</td>
 			<td>2</td>
 			
 				<td>A vulnerability in Batik of Apache XML Graphics allows an attacker to run untrus</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="CRITICAL" href="#CVE-2022-1471">CVE-2022-1471</a></td>
+
+			<td class=CRITICAL> 9.8 </td>
+
+			
+				<td class=LOW>0.42%</td>
+			
+
+			<td>2</td>
+			
+				<td>SnakeYaml's Constructor() class does not restrict types which can be instantiate</td>
 			
 
 		</tr>
@@ -1662,7 +1680,61 @@ An open redirect vulnerability in ePolicy Orchestrator prior to 5.10.0 CP1 Upda<
 
 		
 		<tr>
-			<td><a class="None" href="#CVE-2023-45285">CVE-2023-45285</a></td>
+			<td><a class="CRITICAL" href="#CVE-2023-22523">CVE-2023-22523</a></td>
+
+			<td class=CRITICAL> 9.8 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>2</td>
+			
+				<td>This vulnerability, if exploited, allows an attacker to perform privileged RCE (</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="CRITICAL" href="#CVE-2023-22522">CVE-2023-22522</a></td>
+
+			<td class=CRITICAL> 9.0 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>2</td>
+			
+				<td>This Template Injection vulnerability allows an authenticated attacker, includin</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="CRITICAL" href="#CVE-2023-22524">CVE-2023-22524</a></td>
+
+			<td class=CRITICAL> 9.6 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>2</td>
+			
+				<td>Certain versions of the Atlassian Companion App for MacOS were affected by a rem</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="None" href="#CVE-2023-39326">CVE-2023-39326</a></td>
 
 			<td class=None> 0 </td>
 
@@ -1680,7 +1752,7 @@ An open redirect vulnerability in ePolicy Orchestrator prior to 5.10.0 CP1 Upda<
 
 		
 		<tr>
-			<td><a class="None" href="#CVE-2023-39326">CVE-2023-39326</a></td>
+			<td><a class="None" href="#CVE-2023-45285">CVE-2023-45285</a></td>
 
 			<td class=None> 0 </td>
 
@@ -1896,7 +1968,7 @@ An open redirect vulnerability in ePolicy Orchestrator prior to 5.10.0 CP1 Upda<
 
 		
 		<tr>
-			<td><a class="None" href="#CVE-2023-47038">CVE-2023-47038</a></td>
+			<td><a class="None" href="#CVE-2023-47039">CVE-2023-47039</a></td>
 
 			<td class=None> 0 </td>
 
@@ -1914,7 +1986,7 @@ An open redirect vulnerability in ePolicy Orchestrator prior to 5.10.0 CP1 Upda<
 
 		
 		<tr>
-			<td><a class="None" href="#CVE-2023-47039">CVE-2023-47039</a></td>
+			<td><a class="None" href="#CVE-2023-47038">CVE-2023-47038</a></td>
 
 			<td class=None> 0 </td>
 
@@ -6184,6 +6256,87 @@ A lot of third party dependency introduced vulnerabilities, one as far back as
 [#RCE](https://infosec.exchange/tags/RCE)
 [#Vulnerability](https://infosec.exchange/tags/Vulnerability)
 [#PatchTuesday](https://infosec.exchange/tags/PatchTuesday)
+
+
+</md-block>
+			<hr>
+			
+
+		</div>
+	</div>
+	
+
+	<div class="cve" id="CVE-2022-1471">
+
+			
+		
+		<h3 class=CRITICAL><a class="CRITICAL" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2022-1471>CVE-2022-1471</a><br>(9.8 CRITICAL)</h3>
+		
+
+		
+		<h4 class=epss>EPSS: 0.42%</h4>
+		
+
+		<p class=numposts>2 posts</p>
+
+		<p class=description>
+		 
+		 		<th>SnakeYaml's Constructor() class does not restrict types which can be instantiated during deserialization. Deserializing yaml content provided by an attacker can lead to remote code execution. We recommend using SnakeYaml's SafeConsturctor when parsing untrusted content to restrict deserialization. We recommend upgrading to version 2.0 and beyond.
+</th>
+		 	
+
+		</p>
+		
+		
+
+		<div class="posts">
+
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111533233901372837>at 2023-12-06T11:28:09.559Z</a>
+<md-block>
+
+
+ **Atlassian** December 2023 security advories:
+
+  * CVE-2023-22522 - RCE Vulnerability In Confluence Data Center and Confluence Server ( **9.0 critical** severity)
+  * CVE-2023-22524 - RCE Vulnerability in Atlassian Companion App for MacOS ( **9.6 critical** )
+  * CVE-2023-22523 - RCE Vulnerability in Assets Discovery ( **9.8 critical** )
+  * CVE-2022-1471 - SnakeYAML library RCE Vulnerability In Multiple Products ( **9.8 critical** )
+
+🔗 [https://confluence.atlassian.com/security/december-2023-security-
+advisories-
+overview-1318892103.html](https://confluence.atlassian.com/security/december-2023-security-
+advisories-overview-1318892103.html)
+
+No mention of these vulnerabilities being exploited. Reminder that Chinese
+state-sponsored hackers frequently develop or exploit Atlassian 0/n-days, and
+that two of the top 20 exploited CVEs are Atlassian Confluence vulns.
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111533233901372837>at 2023-12-06T11:28:09.000Z</a>
+<md-block>
+
+
+ **Atlassian** December 2023 security advories:
+
+  * CVE-2023-22522 - RCE Vulnerability In Confluence Data Center and Confluence Server ( **9.0 critical** severity)
+  * CVE-2023-22524 - RCE Vulnerability in Atlassian Companion App for MacOS ( **9.6 critical** )
+  * CVE-2023-22523 - RCE Vulnerability in Assets Discovery ( **9.8 critical** )
+  * CVE-2022-1471 - SnakeYAML library RCE Vulnerability In Multiple Products ( **9.8 critical** )
+
+🔗 [https://confluence.atlassian.com/security/december-2023-security-
+advisories-
+overview-1318892103.html](https://confluence.atlassian.com/security/december-2023-security-
+advisories-overview-1318892103.html)
+
+No mention of these vulnerabilities being exploited. Reminder that Chinese
+state-sponsored hackers frequently develop or exploit Atlassian 0/n-days, and
+that two of the top 20 exploited CVEs are Atlassian Confluence vulns.
 
 
 </md-block>
@@ -14388,11 +14541,253 @@ cc: [@todb](https://infosec.exchange/@todb)
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-45285">
+	<div class="cve" id="CVE-2023-22523">
 
 			
 		
-		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-45285>CVE-2023-45285</a><br>(0 None)</h3>
+		<h3 class=CRITICAL><a class="CRITICAL" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-22523>CVE-2023-22523</a><br>(9.8 CRITICAL)</h3>
+		
+
+		
+		<h4 class=epss>EPSS: 0.00%</h4>
+		
+
+		<p class=numposts>2 posts</p>
+
+		<p class=description>
+		 
+		 		<th>This vulnerability, if exploited, allows an attacker to perform privileged RCE (Remote Code Execution) on machines with the Assets Discovery agent installed. The vulnerability exists between the Assets Discovery application (formerly known as Insight Discovery) and the Assets Discovery agent.
+
+Assets Discovery, which can be downloaded via Atlassian Marketplace, is a network scanning tool that can </th>
+		 	
+
+		</p>
+		
+		
+
+		<div class="posts">
+
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111533233901372837>at 2023-12-06T11:28:09.559Z</a>
+<md-block>
+
+
+ **Atlassian** December 2023 security advories:
+
+  * CVE-2023-22522 - RCE Vulnerability In Confluence Data Center and Confluence Server ( **9.0 critical** severity)
+  * CVE-2023-22524 - RCE Vulnerability in Atlassian Companion App for MacOS ( **9.6 critical** )
+  * CVE-2023-22523 - RCE Vulnerability in Assets Discovery ( **9.8 critical** )
+  * CVE-2022-1471 - SnakeYAML library RCE Vulnerability In Multiple Products ( **9.8 critical** )
+
+🔗 [https://confluence.atlassian.com/security/december-2023-security-
+advisories-
+overview-1318892103.html](https://confluence.atlassian.com/security/december-2023-security-
+advisories-overview-1318892103.html)
+
+No mention of these vulnerabilities being exploited. Reminder that Chinese
+state-sponsored hackers frequently develop or exploit Atlassian 0/n-days, and
+that two of the top 20 exploited CVEs are Atlassian Confluence vulns.
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111533233901372837>at 2023-12-06T11:28:09.000Z</a>
+<md-block>
+
+
+ **Atlassian** December 2023 security advories:
+
+  * CVE-2023-22522 - RCE Vulnerability In Confluence Data Center and Confluence Server ( **9.0 critical** severity)
+  * CVE-2023-22524 - RCE Vulnerability in Atlassian Companion App for MacOS ( **9.6 critical** )
+  * CVE-2023-22523 - RCE Vulnerability in Assets Discovery ( **9.8 critical** )
+  * CVE-2022-1471 - SnakeYAML library RCE Vulnerability In Multiple Products ( **9.8 critical** )
+
+🔗 [https://confluence.atlassian.com/security/december-2023-security-
+advisories-
+overview-1318892103.html](https://confluence.atlassian.com/security/december-2023-security-
+advisories-overview-1318892103.html)
+
+No mention of these vulnerabilities being exploited. Reminder that Chinese
+state-sponsored hackers frequently develop or exploit Atlassian 0/n-days, and
+that two of the top 20 exploited CVEs are Atlassian Confluence vulns.
+
+
+</md-block>
+			<hr>
+			
+
+		</div>
+	</div>
+	
+
+	<div class="cve" id="CVE-2023-22522">
+
+			
+		
+		<h3 class=CRITICAL><a class="CRITICAL" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-22522>CVE-2023-22522</a><br>(9.0 CRITICAL)</h3>
+		
+
+		
+		<h4 class=epss>EPSS: 0.00%</h4>
+		
+
+		<p class=numposts>2 posts</p>
+
+		<p class=description>
+		 
+		 		<th>This Template Injection vulnerability allows an authenticated attacker, including one with anonymous access, to inject unsafe user input into a Confluence page. Using this approach, an attacker is able to achieve Remote Code Execution (RCE) on an affected instance. Publicly accessible Confluence Data Center and Server versions as listed below are at risk and require immediate attention. See the ad</th>
+		 	
+
+		</p>
+		
+		
+
+		<div class="posts">
+
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111533233901372837>at 2023-12-06T11:28:09.559Z</a>
+<md-block>
+
+
+ **Atlassian** December 2023 security advories:
+
+  * CVE-2023-22522 - RCE Vulnerability In Confluence Data Center and Confluence Server ( **9.0 critical** severity)
+  * CVE-2023-22524 - RCE Vulnerability in Atlassian Companion App for MacOS ( **9.6 critical** )
+  * CVE-2023-22523 - RCE Vulnerability in Assets Discovery ( **9.8 critical** )
+  * CVE-2022-1471 - SnakeYAML library RCE Vulnerability In Multiple Products ( **9.8 critical** )
+
+🔗 [https://confluence.atlassian.com/security/december-2023-security-
+advisories-
+overview-1318892103.html](https://confluence.atlassian.com/security/december-2023-security-
+advisories-overview-1318892103.html)
+
+No mention of these vulnerabilities being exploited. Reminder that Chinese
+state-sponsored hackers frequently develop or exploit Atlassian 0/n-days, and
+that two of the top 20 exploited CVEs are Atlassian Confluence vulns.
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111533233901372837>at 2023-12-06T11:28:09.000Z</a>
+<md-block>
+
+
+ **Atlassian** December 2023 security advories:
+
+  * CVE-2023-22522 - RCE Vulnerability In Confluence Data Center and Confluence Server ( **9.0 critical** severity)
+  * CVE-2023-22524 - RCE Vulnerability in Atlassian Companion App for MacOS ( **9.6 critical** )
+  * CVE-2023-22523 - RCE Vulnerability in Assets Discovery ( **9.8 critical** )
+  * CVE-2022-1471 - SnakeYAML library RCE Vulnerability In Multiple Products ( **9.8 critical** )
+
+🔗 [https://confluence.atlassian.com/security/december-2023-security-
+advisories-
+overview-1318892103.html](https://confluence.atlassian.com/security/december-2023-security-
+advisories-overview-1318892103.html)
+
+No mention of these vulnerabilities being exploited. Reminder that Chinese
+state-sponsored hackers frequently develop or exploit Atlassian 0/n-days, and
+that two of the top 20 exploited CVEs are Atlassian Confluence vulns.
+
+
+</md-block>
+			<hr>
+			
+
+		</div>
+	</div>
+	
+
+	<div class="cve" id="CVE-2023-22524">
+
+			
+		
+		<h3 class=CRITICAL><a class="CRITICAL" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-22524>CVE-2023-22524</a><br>(9.6 CRITICAL)</h3>
+		
+
+		
+		<h4 class=epss>EPSS: 0.00%</h4>
+		
+
+		<p class=numposts>2 posts</p>
+
+		<p class=description>
+		 
+		 		<th>Certain versions of the Atlassian Companion App for MacOS were affected by a remote code execution vulnerability. An attacker could utilize WebSockets to bypass Atlassian Companion’s blocklist and MacOS Gatekeeper to allow execution of code.</th>
+		 	
+
+		</p>
+		
+		
+
+		<div class="posts">
+
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111533233901372837>at 2023-12-06T11:28:09.559Z</a>
+<md-block>
+
+
+ **Atlassian** December 2023 security advories:
+
+  * CVE-2023-22522 - RCE Vulnerability In Confluence Data Center and Confluence Server ( **9.0 critical** severity)
+  * CVE-2023-22524 - RCE Vulnerability in Atlassian Companion App for MacOS ( **9.6 critical** )
+  * CVE-2023-22523 - RCE Vulnerability in Assets Discovery ( **9.8 critical** )
+  * CVE-2022-1471 - SnakeYAML library RCE Vulnerability In Multiple Products ( **9.8 critical** )
+
+🔗 [https://confluence.atlassian.com/security/december-2023-security-
+advisories-
+overview-1318892103.html](https://confluence.atlassian.com/security/december-2023-security-
+advisories-overview-1318892103.html)
+
+No mention of these vulnerabilities being exploited. Reminder that Chinese
+state-sponsored hackers frequently develop or exploit Atlassian 0/n-days, and
+that two of the top 20 exploited CVEs are Atlassian Confluence vulns.
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111533233901372837>at 2023-12-06T11:28:09.000Z</a>
+<md-block>
+
+
+ **Atlassian** December 2023 security advories:
+
+  * CVE-2023-22522 - RCE Vulnerability In Confluence Data Center and Confluence Server ( **9.0 critical** severity)
+  * CVE-2023-22524 - RCE Vulnerability in Atlassian Companion App for MacOS ( **9.6 critical** )
+  * CVE-2023-22523 - RCE Vulnerability in Assets Discovery ( **9.8 critical** )
+  * CVE-2022-1471 - SnakeYAML library RCE Vulnerability In Multiple Products ( **9.8 critical** )
+
+🔗 [https://confluence.atlassian.com/security/december-2023-security-
+advisories-
+overview-1318892103.html](https://confluence.atlassian.com/security/december-2023-security-
+advisories-overview-1318892103.html)
+
+No mention of these vulnerabilities being exploited. Reminder that Chinese
+state-sponsored hackers frequently develop or exploit Atlassian 0/n-days, and
+that two of the top 20 exploited CVEs are Atlassian Confluence vulns.
+
+
+</md-block>
+			<hr>
+			
+
+		</div>
+	</div>
+	
+
+	<div class="cve" id="CVE-2023-39326">
+
+			
+		
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-39326>CVE-2023-39326</a><br>(0 None)</h3>
 		
 
 		
@@ -14438,11 +14833,11 @@ announce/c/iLGK3x6yuNo)
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-39326">
+	<div class="cve" id="CVE-2023-45285">
 
 			
 		
-		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-39326>CVE-2023-39326</a><br>(0 None)</h3>
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-45285>CVE-2023-45285</a><br>(0 None)</h3>
 		
 
 		
@@ -15591,11 +15986,11 @@ opencms/](https://labs.watchtowr.com/xxe-you-can-depend-on-me-opencms/)
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-47038">
+	<div class="cve" id="CVE-2023-47039">
 
 			
 		
-		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-47038>CVE-2023-47038</a><br>(0 None)</h3>
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-47039>CVE-2023-47039</a><br>(0 None)</h3>
 		
 
 		
@@ -15659,11 +16054,11 @@ property" & "CVE-2023-47039 - Perl for Windows binary hijacking vulnerability"
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-47039">
+	<div class="cve" id="CVE-2023-47038">
 
 			
 		
-		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-47039>CVE-2023-47039</a><br>(0 None)</h3>
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-47038>CVE-2023-47038</a><br>(0 None)</h3>
 		
 
 		
