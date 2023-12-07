@@ -161,7 +161,7 @@
 
 
 <body>
-Updated at UTC 2023-12-07T12:53:44.919653
+Updated at UTC 2023-12-07T13:16:20.100674
 
 <p><a target=_blank href=https://github.com/fedisecfeeds/fedisecfeeds.github.io/blob/main/fedi_cve_feed.json>Access data as JSON</a></p>
 
@@ -611,6 +611,24 @@ Execution. T</td>
 
 		
 		<tr>
+			<td><a class="HIGH" href="#CVE-2023-6347">CVE-2023-6347</a></td>
+
+			<td class=HIGH> 8.8 </td>
+
+			
+				<td class=LOW>0.18%</td>
+			
+
+			<td>2</td>
+			
+				<td>Use after free in Mojo in Google Chrome prior to 119.0.6045.199 allowed a remote</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
 			<td><a class="HIGH" href="#CVE-2023-6350">CVE-2023-6350</a></td>
 
 			<td class=HIGH> 8.8 </td>
@@ -640,24 +658,6 @@ Execution. T</td>
 			<td>2</td>
 			
 				<td>Use after free in libavif in Google Chrome prior to 119.0.6045.199 allowed a rem</td>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<td><a class="HIGH" href="#CVE-2023-6347">CVE-2023-6347</a></td>
-
-			<td class=HIGH> 8.8 </td>
-
-			
-				<td class=LOW>0.18%</td>
-			
-
-			<td>2</td>
-			
-				<td>Use after free in Mojo in Google Chrome prior to 119.0.6045.199 allowed a remote</td>
 			
 
 		</tr>
@@ -1038,7 +1038,7 @@ A Cross Site Request Forgery vulnerability in ePolicy Orchestrator prior to 5.1<
 				<td class=LOW>0.05%</td>
 			
 
-			<td>4</td>
+			<td>6</td>
 			
 				<td>This Template Injection vulnerability allows an authenticated attacker, includin</td>
 			
@@ -1338,7 +1338,7 @@ An open redirect vulnerability in ePolicy Orchestrator prior to 5.10.0 CP1 Upda<
 
 		
 		<tr>
-			<td><a class="None" href="#CVE-2023-5058">CVE-2023-5058</a></td>
+			<td><a class="None" href="#CVE-2023-45866">CVE-2023-45866</a></td>
 
 			<td class=None> 0 </td>
 
@@ -1346,9 +1346,27 @@ An open redirect vulnerability in ePolicy Orchestrator prior to 5.10.0 CP1 Upda<
 				<td class=None>0.00%</td>
 			
 
-			<td>4</td>
+			<td>2</td>
 			
 				<td>N/A</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="None" href="#CVE-2023-40238">CVE-2023-40238</a></td>
+
+			<td class=None> 0 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>2</td>
+			
+				<td>A LogoFAIL issue was discovered in BmpDecoderDxe in Insyde InsydeH2O with kernel</td>
 			
 
 		</tr>
@@ -1375,7 +1393,7 @@ AMI AptioV contains a vulnerability in BIOS where a User may cause an unrestric<
 
 		
 		<tr>
-			<td><a class="None" href="#CVE-2023-40238">CVE-2023-40238</a></td>
+			<td><a class="None" href="#CVE-2023-5058">CVE-2023-5058</a></td>
 
 			<td class=None> 0 </td>
 
@@ -1383,9 +1401,9 @@ AMI AptioV contains a vulnerability in BIOS where a User may cause an unrestric<
 				<td class=None>0.00%</td>
 			
 
-			<td>2</td>
+			<td>4</td>
 			
-				<td>A LogoFAIL issue was discovered in BmpDecoderDxe in Insyde InsydeH2O with kernel</td>
+				<td>N/A</td>
 			
 
 		</tr>
@@ -6076,6 +6094,92 @@ P.S. This bot is only checking twice per day, so may not notice right away.
 	</div>
 	
 
+	<div class="cve" id="CVE-2023-6347">
+
+			
+		
+		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-6347>CVE-2023-6347</a><br>(8.8 HIGH)</h3>
+		
+
+		
+		<h4 class=epss>EPSS: 0.18%</h4>
+		
+
+		<p class=numposts>2 posts</p>
+
+		<p class=description>
+		 
+		 		<th>Use after free in Mojo in Google Chrome prior to 119.0.6045.199 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)</th>
+		 	
+
+		</p>
+		
+		
+
+		<div class="posts">
+
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111499474660604695>at 2023-11-30T12:22:44.425Z</a>
+<md-block>
+
+
+ **Microsoft** Security Response Center (MSRC) posted security advisories for
+third party vulnerabilities from Chromium:
+
+  * Chromium: [CVE-2023-6345](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6345) Integer overflow in Skia 
+    * **NOTE:** Google is aware that an exploit for CVE-2023-6345 exists in the wild.
+  * Chromium: [CVE-2023-6346](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6346) Use after free in WebAudio
+  * Chromium: [CVE-2023-6347](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6347) Use after free in Mojo
+  * Chromium: [CVE-2023-6348](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6348) Type Confusion in Spellcheck
+  * Chromium: [CVE-2023-6350](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6350) Out of bounds memory access in libavif
+  * Chromium: [CVE-2023-6351](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6351) Use after free in libavif
+
+I was wondering if Microsoft would share additional information that the
+Google Chrome team omits. Microsoft while not emphatically highlighting that
+CVE-2023-6345 is a Zero-Day, did at least include the message "Google is aware
+that an exploit for CVE-2023-6345 exists in the wild." See original Google
+Chrome [security
+advisory](https://chromereleases.googleblog.com/2023/11/stable-channel-update-
+for-desktop_28.html)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111499474660604695>at 2023-11-30T12:22:44.000Z</a>
+<md-block>
+
+
+ **Microsoft** Security Response Center (MSRC) posted security advisories for
+third party vulnerabilities from Chromium:
+
+  * Chromium: [CVE-2023-6345](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6345) Integer overflow in Skia 
+    * **NOTE:** Google is aware that an exploit for CVE-2023-6345 exists in the wild.
+  * Chromium: [CVE-2023-6346](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6346) Use after free in WebAudio
+  * Chromium: [CVE-2023-6347](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6347) Use after free in Mojo
+  * Chromium: [CVE-2023-6348](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6348) Type Confusion in Spellcheck
+  * Chromium: [CVE-2023-6350](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6350) Out of bounds memory access in libavif
+  * Chromium: [CVE-2023-6351](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6351) Use after free in libavif
+
+I was wondering if Microsoft would share additional information that the
+Google Chrome team omits. Microsoft while not emphatically highlighting that
+CVE-2023-6345 is a Zero-Day, did at least include the message "Google is aware
+that an exploit for CVE-2023-6345 exists in the wild." See original Google
+Chrome [security
+advisory](https://chromereleases.googleblog.com/2023/11/stable-channel-update-
+for-desktop_28.html)
+
+
+</md-block>
+			<hr>
+			
+
+		</div>
+	</div>
+	
+
 	<div class="cve" id="CVE-2023-6350">
 
 			
@@ -6178,92 +6282,6 @@ for-desktop_28.html)
 		<p class=description>
 		 
 		 		<th>Use after free in libavif in Google Chrome prior to 119.0.6045.199 allowed a remote attacker to potentially exploit heap corruption via a crafted avif file. (Chromium security severity: High)</th>
-		 	
-
-		</p>
-		
-		
-
-		<div class="posts">
-
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111499474660604695>at 2023-11-30T12:22:44.425Z</a>
-<md-block>
-
-
- **Microsoft** Security Response Center (MSRC) posted security advisories for
-third party vulnerabilities from Chromium:
-
-  * Chromium: [CVE-2023-6345](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6345) Integer overflow in Skia 
-    * **NOTE:** Google is aware that an exploit for CVE-2023-6345 exists in the wild.
-  * Chromium: [CVE-2023-6346](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6346) Use after free in WebAudio
-  * Chromium: [CVE-2023-6347](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6347) Use after free in Mojo
-  * Chromium: [CVE-2023-6348](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6348) Type Confusion in Spellcheck
-  * Chromium: [CVE-2023-6350](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6350) Out of bounds memory access in libavif
-  * Chromium: [CVE-2023-6351](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6351) Use after free in libavif
-
-I was wondering if Microsoft would share additional information that the
-Google Chrome team omits. Microsoft while not emphatically highlighting that
-CVE-2023-6345 is a Zero-Day, did at least include the message "Google is aware
-that an exploit for CVE-2023-6345 exists in the wild." See original Google
-Chrome [security
-advisory](https://chromereleases.googleblog.com/2023/11/stable-channel-update-
-for-desktop_28.html)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111499474660604695>at 2023-11-30T12:22:44.000Z</a>
-<md-block>
-
-
- **Microsoft** Security Response Center (MSRC) posted security advisories for
-third party vulnerabilities from Chromium:
-
-  * Chromium: [CVE-2023-6345](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6345) Integer overflow in Skia 
-    * **NOTE:** Google is aware that an exploit for CVE-2023-6345 exists in the wild.
-  * Chromium: [CVE-2023-6346](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6346) Use after free in WebAudio
-  * Chromium: [CVE-2023-6347](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6347) Use after free in Mojo
-  * Chromium: [CVE-2023-6348](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6348) Type Confusion in Spellcheck
-  * Chromium: [CVE-2023-6350](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6350) Out of bounds memory access in libavif
-  * Chromium: [CVE-2023-6351](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6351) Use after free in libavif
-
-I was wondering if Microsoft would share additional information that the
-Google Chrome team omits. Microsoft while not emphatically highlighting that
-CVE-2023-6345 is a Zero-Day, did at least include the message "Google is aware
-that an exploit for CVE-2023-6345 exists in the wild." See original Google
-Chrome [security
-advisory](https://chromereleases.googleblog.com/2023/11/stable-channel-update-
-for-desktop_28.html)
-
-
-</md-block>
-			<hr>
-			
-
-		</div>
-	</div>
-	
-
-	<div class="cve" id="CVE-2023-6347">
-
-			
-		
-		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-6347>CVE-2023-6347</a><br>(8.8 HIGH)</h3>
-		
-
-		
-		<h4 class=epss>EPSS: 0.18%</h4>
-		
-
-		<p class=numposts>2 posts</p>
-
-		<p class=description>
-		 
-		 		<th>Use after free in Mojo in Google Chrome prior to 119.0.6045.199 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)</th>
 		 	
 
 		</p>
@@ -9616,7 +9634,7 @@ injection-vulnerabilities-in-nas-products)
 		<h4 class=epss>EPSS: 0.05%</h4>
 		
 
-		<p class=numposts>4 posts</p>
+		<p class=numposts>6 posts</p>
 
 		<p class=description>
 		 
@@ -9668,6 +9686,23 @@ If you're still running on-prem
 </md-block>
 			<hr>
 			
+				<a target=_blank href=https://infosec.exchange/@jbhall56>jbhall56</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@jbhall56/111539288210863741>at 2023-12-07T13:07:50.989Z</a>
+<md-block>
+
+
+The Confluence flaw, tracked as CVE-2023-22522 and affecting Confluence Data
+Center and Server, is described as a template injection bug that can be
+exploited by an attacker with low-level permissions to inject “unsafe user
+input into a Confluence page”. [https://www.securityweek.com/atlassian-
+patches-critical-remote-code-execution-
+vulnerabilities/](https://www.securityweek.com/atlassian-patches-critical-
+remote-code-execution-vulnerabilities/)
+
+
+</md-block>
+			<hr>
+			
 				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
 				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111533233901372837>at 2023-12-06T11:28:09.559Z</a>
 <md-block>
@@ -9689,6 +9724,23 @@ No mention of these vulnerabilities being exploited. Reminder that Chinese
 state-sponsored hackers frequently develop or exploit Atlassian 0/n-days, and
 that [two of their top 20 exploited CVEs](https://www.cisa.gov/news-
 events/cybersecurity-advisories/aa22-279a) are Atlassian Confluence vulns.
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@jbhall56>jbhall56@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@jbhall56/111539288210863741>at 2023-12-07T13:07:50.000Z</a>
+<md-block>
+
+
+The Confluence flaw, tracked as CVE-2023-22522 and affecting Confluence Data
+Center and Server, is described as a template injection bug that can be
+exploited by an attacker with low-level permissions to inject “unsafe user
+input into a Confluence page”. [https://www.securityweek.com/atlassian-
+patches-critical-remote-code-execution-
+vulnerabilities/](https://www.securityweek.com/atlassian-patches-critical-
+remote-code-execution-vulnerabilities/)
 
 
 </md-block>
@@ -11452,6 +11504,227 @@ cc: [@campuscodi](https://mastodon.social/@campuscodi)
 	</div>
 	
 
+	<div class="cve" id="CVE-2023-45866">
+
+			
+		
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-45866>CVE-2023-45866</a><br>(0 None)</h3>
+		
+
+		
+		<h4 class=epss>EPSS: 0.00%</h4>
+		
+
+		<p class=numposts>2 posts</p>
+
+		<p class=description>
+		 
+		 		<th>N/A</th>
+		 	
+
+		</p>
+		
+		
+
+		<div class="posts">
+
+			
+				<a target=_blank href=https://infosec.exchange/@jbhall56>jbhall56</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@jbhall56/111539227043855640>at 2023-12-07T12:52:17.656Z</a>
+<md-block>
+
+
+Tracked as CVE-2023-45866, the issue relates to a case of authentication
+bypass that enables attackers to connect to susceptible devices and inject
+keystrokes to achieve code execution as the victim.
+[https://thehackernews.com/2023/12/new-bluetooth-flaw-let-hackers-
+take.html](https://thehackernews.com/2023/12/new-bluetooth-flaw-let-hackers-
+take.html)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@jbhall56>jbhall56@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@jbhall56/111539227043855640>at 2023-12-07T12:52:17.000Z</a>
+<md-block>
+
+
+Tracked as CVE-2023-45866, the issue relates to a case of authentication
+bypass that enables attackers to connect to susceptible devices and inject
+keystrokes to achieve code execution as the victim.
+[https://thehackernews.com/2023/12/new-bluetooth-flaw-let-hackers-
+take.html](https://thehackernews.com/2023/12/new-bluetooth-flaw-let-hackers-
+take.html)
+
+
+</md-block>
+			<hr>
+			
+
+		</div>
+	</div>
+	
+
+	<div class="cve" id="CVE-2023-40238">
+
+			
+		
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-40238>CVE-2023-40238</a><br>(0 None)</h3>
+		
+
+		
+		<h4 class=epss>EPSS: 0.00%</h4>
+		
+
+		<p class=numposts>2 posts</p>
+
+		<p class=description>
+		 
+		 		<th>A LogoFAIL issue was discovered in BmpDecoderDxe in Insyde InsydeH2O with kernel 5.2 before 05.28.47, 5.3 before 05.37.47, 5.4 before 05.45.47, 5.5 before 05.53.47, and 5.6 before 05.60.47 for certain Lenovo devices. Image parsing of crafted BMP logo files can copy data to a specific address during the DXE phase of UEFI execution. This occurs because of an integer signedness error involving PixelH</th>
+		 	
+
+		</p>
+		
+		
+
+		<div class="posts">
+
+			
+				<a target=_blank href=https://infosec.exchange/@kskoglund>kskoglund</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@kskoglund/111534881077687791>at 2023-12-06T18:27:03.477Z</a>
+<md-block>
+
+
+[@boblord](https://infosec.exchange/@boblord)
+[@matrosov](https://infosec.exchange/@matrosov)
+[@dangoodin](https://infosec.exchange/@dangoodin)
+
+From the bottom of the article:
+
+LogoFAIL vulnerabilities are tracked under the following designations:
+
+CVE-2023-40238  
+CVE-2023-5058  
+CVE-2023-39538  
+CVE-2023-39539  
+CVE-2023-40238
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@kskoglund>kskoglund@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@kskoglund/111534881077687791>at 2023-12-06T18:27:03.000Z</a>
+<md-block>
+
+
+[@boblord](https://infosec.exchange/@boblord)
+[@matrosov](https://infosec.exchange/@matrosov)
+[@dangoodin](https://infosec.exchange/@dangoodin)
+
+From the bottom of the article:
+
+LogoFAIL vulnerabilities are tracked under the following designations:
+
+CVE-2023-40238  
+CVE-2023-5058  
+CVE-2023-39538  
+CVE-2023-39539  
+CVE-2023-40238
+
+
+</md-block>
+			<hr>
+			
+
+		</div>
+	</div>
+	
+
+	<div class="cve" id="CVE-2023-39538">
+
+			
+		
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-39538>CVE-2023-39538</a><br>(0 None)</h3>
+		
+
+		
+		<h4 class=epss>EPSS: 0.00%</h4>
+		
+
+		<p class=numposts>2 posts</p>
+
+		<p class=description>
+		 
+		 		<th>
+AMI AptioV contains a vulnerability in BIOS where a User may cause an unrestricted upload of a BMP Logo file with dangerous type by Local access. A successful exploit of this vulnerability may lead to a loss of Confidentiality, Integrity, and/or Availability. 
+
+
+
+
+
+</th>
+		 	
+
+		</p>
+		
+		
+
+		<div class="posts">
+
+			
+				<a target=_blank href=https://infosec.exchange/@kskoglund>kskoglund</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@kskoglund/111534881077687791>at 2023-12-06T18:27:03.477Z</a>
+<md-block>
+
+
+[@boblord](https://infosec.exchange/@boblord)
+[@matrosov](https://infosec.exchange/@matrosov)
+[@dangoodin](https://infosec.exchange/@dangoodin)
+
+From the bottom of the article:
+
+LogoFAIL vulnerabilities are tracked under the following designations:
+
+CVE-2023-40238  
+CVE-2023-5058  
+CVE-2023-39538  
+CVE-2023-39539  
+CVE-2023-40238
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@kskoglund>kskoglund@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@kskoglund/111534881077687791>at 2023-12-06T18:27:03.000Z</a>
+<md-block>
+
+
+[@boblord](https://infosec.exchange/@boblord)
+[@matrosov](https://infosec.exchange/@matrosov)
+[@dangoodin](https://infosec.exchange/@dangoodin)
+
+From the bottom of the article:
+
+LogoFAIL vulnerabilities are tracked under the following designations:
+
+CVE-2023-40238  
+CVE-2023-5058  
+CVE-2023-39538  
+CVE-2023-39539  
+CVE-2023-40238
+
+
+</md-block>
+			<hr>
+			
+
+		</div>
+	</div>
+	
+
 	<div class="cve" id="CVE-2023-5058">
 
 			
@@ -11552,165 +11825,6 @@ about it. In fact, even
 [https://www.cve.org/CVERecord?id=CVE-2023-5058](https://www.cve.org/CVERecord?id=CVE-2023-5058)
 shows no information about it.  
 I don't understand what's going on... 😕
-
-
-</md-block>
-			<hr>
-			
-
-		</div>
-	</div>
-	
-
-	<div class="cve" id="CVE-2023-39538">
-
-			
-		
-		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-39538>CVE-2023-39538</a><br>(0 None)</h3>
-		
-
-		
-		<h4 class=epss>EPSS: 0.00%</h4>
-		
-
-		<p class=numposts>2 posts</p>
-
-		<p class=description>
-		 
-		 		<th>
-AMI AptioV contains a vulnerability in BIOS where a User may cause an unrestricted upload of a BMP Logo file with dangerous type by Local access. A successful exploit of this vulnerability may lead to a loss of Confidentiality, Integrity, and/or Availability. 
-
-
-
-
-
-</th>
-		 	
-
-		</p>
-		
-		
-
-		<div class="posts">
-
-			
-				<a target=_blank href=https://infosec.exchange/@kskoglund>kskoglund</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@kskoglund/111534881077687791>at 2023-12-06T18:27:03.477Z</a>
-<md-block>
-
-
-[@boblord](https://infosec.exchange/@boblord)
-[@matrosov](https://infosec.exchange/@matrosov)
-[@dangoodin](https://infosec.exchange/@dangoodin)
-
-From the bottom of the article:
-
-LogoFAIL vulnerabilities are tracked under the following designations:
-
-CVE-2023-40238  
-CVE-2023-5058  
-CVE-2023-39538  
-CVE-2023-39539  
-CVE-2023-40238
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@kskoglund>kskoglund@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@kskoglund/111534881077687791>at 2023-12-06T18:27:03.000Z</a>
-<md-block>
-
-
-[@boblord](https://infosec.exchange/@boblord)
-[@matrosov](https://infosec.exchange/@matrosov)
-[@dangoodin](https://infosec.exchange/@dangoodin)
-
-From the bottom of the article:
-
-LogoFAIL vulnerabilities are tracked under the following designations:
-
-CVE-2023-40238  
-CVE-2023-5058  
-CVE-2023-39538  
-CVE-2023-39539  
-CVE-2023-40238
-
-
-</md-block>
-			<hr>
-			
-
-		</div>
-	</div>
-	
-
-	<div class="cve" id="CVE-2023-40238">
-
-			
-		
-		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-40238>CVE-2023-40238</a><br>(0 None)</h3>
-		
-
-		
-		<h4 class=epss>EPSS: 0.00%</h4>
-		
-
-		<p class=numposts>2 posts</p>
-
-		<p class=description>
-		 
-		 		<th>A LogoFAIL issue was discovered in BmpDecoderDxe in Insyde InsydeH2O with kernel 5.2 before 05.28.47, 5.3 before 05.37.47, 5.4 before 05.45.47, 5.5 before 05.53.47, and 5.6 before 05.60.47 for certain Lenovo devices. Image parsing of crafted BMP logo files can copy data to a specific address during the DXE phase of UEFI execution. This occurs because of an integer signedness error involving PixelH</th>
-		 	
-
-		</p>
-		
-		
-
-		<div class="posts">
-
-			
-				<a target=_blank href=https://infosec.exchange/@kskoglund>kskoglund</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@kskoglund/111534881077687791>at 2023-12-06T18:27:03.477Z</a>
-<md-block>
-
-
-[@boblord](https://infosec.exchange/@boblord)
-[@matrosov](https://infosec.exchange/@matrosov)
-[@dangoodin](https://infosec.exchange/@dangoodin)
-
-From the bottom of the article:
-
-LogoFAIL vulnerabilities are tracked under the following designations:
-
-CVE-2023-40238  
-CVE-2023-5058  
-CVE-2023-39538  
-CVE-2023-39539  
-CVE-2023-40238
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@kskoglund>kskoglund@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@kskoglund/111534881077687791>at 2023-12-06T18:27:03.000Z</a>
-<md-block>
-
-
-[@boblord](https://infosec.exchange/@boblord)
-[@matrosov](https://infosec.exchange/@matrosov)
-[@dangoodin](https://infosec.exchange/@dangoodin)
-
-From the bottom of the article:
-
-LogoFAIL vulnerabilities are tracked under the following designations:
-
-CVE-2023-40238  
-CVE-2023-5058  
-CVE-2023-39538  
-CVE-2023-39539  
-CVE-2023-40238
 
 
 </md-block>
