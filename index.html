@@ -161,7 +161,7 @@
 
 
 <body>
-Updated at UTC 2023-12-09T17:10:11.632006
+Updated at UTC 2023-12-09T17:35:42.548032
 
 <p><a target=_blank href=https://github.com/fedisecfeeds/fedisecfeeds.github.io/blob/main/fedi_cve_feed.json>Access data as JSON</a></p>
 
@@ -1279,9 +1279,9 @@ initialisa</td>
 
 		
 		<tr>
-			<td><a class="HIGH" href="#CVE-2023-45779">CVE-2023-45779</a></td>
+			<td><a class="None" href="#CVE-2023-45779">CVE-2023-45779</a></td>
 
-			<td class=HIGH> 7.8 </td>
+			<td class=None> 0 </td>
 
 			
 				<td class=LOW>0.04%</td>
@@ -1570,24 +1570,6 @@ are</td>
 
 		
 		<tr>
-			<td><a class="None" href="#CVE-2023-45285">CVE-2023-45285</a></td>
-
-			<td class=None> 0 </td>
-
-			
-				<td class=None>0.00%</td>
-			
-
-			<td>1</td>
-			
-				<td>Using go get to fetch a module with the ".git" suffix may unexpectedly fallback </td>
-			
-
-		</tr>
-
-
-		
-		<tr>
 			<td><a class="None" href="#CVE-2023-39326">CVE-2023-39326</a></td>
 
 			<td class=None> 0 </td>
@@ -1599,6 +1581,24 @@ are</td>
 			<td>1</td>
 			
 				<td>A malicious HTTP sender can use chunk extensions to cause a receiver reading fro</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="None" href="#CVE-2023-45285">CVE-2023-45285</a></td>
+
+			<td class=None> 0 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>1</td>
+			
+				<td>Using go get to fetch a module with the ".git" suffix may unexpectedly fallback </td>
 			
 
 		</tr>
@@ -10909,7 +10909,7 @@ cve-2023-49897-8-j-6-f-i/gD2P6Ple2L)
 
 			
 		
-		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-45779>CVE-2023-45779</a><br>(7.8 HIGH)</h3>
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-45779>CVE-2023-45779</a><br>(0 None)</h3>
 		
 
 		
@@ -12890,11 +12890,11 @@ HSTS long file name clears contents:
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-45285">
+	<div class="cve" id="CVE-2023-39326">
 
 			
 		
-		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-45285>CVE-2023-45285</a><br>(0 None)</h3>
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-39326>CVE-2023-39326</a><br>(0 None)</h3>
 		
 
 		
@@ -12905,7 +12905,7 @@ HSTS long file name clears contents:
 
 		<p class=description>
 		 
-		 		<th>Using go get to fetch a module with the ".git" suffix may unexpectedly fallback to the insecure "git://" protocol if the module is unavailable via the secure "https://" and "git+ssh://" protocols, even if GOINSECURE is not set for said module. This only affects users who are not using the module proxy and are fetching modules directly (i.e. GOPROXY=off).</th>
+		 		<th>A malicious HTTP sender can use chunk extensions to cause a receiver reading from a request or response body to read many more bytes from the network than are in the body. A malicious HTTP client can further exploit this to cause a server to automatically read a large amount of data (up to about 1GiB) when a handler fails to read the entire body of a request. Chunk extensions are a little-used HTT</th>
 		 	
 
 		</p>
@@ -12940,11 +12940,11 @@ announce/c/iLGK3x6yuNo)
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-39326">
+	<div class="cve" id="CVE-2023-45285">
 
 			
 		
-		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-39326>CVE-2023-39326</a><br>(0 None)</h3>
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-45285>CVE-2023-45285</a><br>(0 None)</h3>
 		
 
 		
@@ -12955,7 +12955,7 @@ announce/c/iLGK3x6yuNo)
 
 		<p class=description>
 		 
-		 		<th>A malicious HTTP sender can use chunk extensions to cause a receiver reading from a request or response body to read many more bytes from the network than are in the body. A malicious HTTP client can further exploit this to cause a server to automatically read a large amount of data (up to about 1GiB) when a handler fails to read the entire body of a request. Chunk extensions are a little-used HTT</th>
+		 		<th>Using go get to fetch a module with the ".git" suffix may unexpectedly fallback to the insecure "git://" protocol if the module is unavailable via the secure "https://" and "git+ssh://" protocols, even if GOINSECURE is not set for said module. This only affects users who are not using the module proxy and are fetching modules directly (i.e. GOPROXY=off).</th>
 		 	
 
 		</p>
