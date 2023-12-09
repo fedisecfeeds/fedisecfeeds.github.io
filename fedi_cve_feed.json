@@ -3854,7 +3854,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/000/193/861/original/ae76695d4c3d1bad.png",
           "followers_count": 2140,
           "following_count": 51,
-          "statuses_count": 9688,
+          "statuses_count": 9690,
           "last_status_at": "2023-12-09",
           "emojis": [
             {
@@ -3936,7 +3936,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/771/747/960/709/336/original/bb8e90bb18d99fe8.jpg",
           "followers_count": 242,
           "following_count": 472,
-          "statuses_count": 8890,
+          "statuses_count": 8895,
           "last_status_at": "2023-12-09",
           "emojis": [],
           "fields": [
@@ -4085,7 +4085,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/000/045/193/original/77a6d679a4699188.png",
           "followers_count": 2149,
           "following_count": 51,
-          "statuses_count": 9691,
+          "statuses_count": 9693,
           "last_status_at": "2023-12-09",
           "emojis": [
             {
@@ -5971,7 +5971,7 @@
           "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/292/943/884/713/975/original/aad1b6c1f00ab8ef.png",
           "header": "https://assets.infosec.exchange/headers/original/missing.png",
           "header_static": "https://assets.infosec.exchange/headers/original/missing.png",
-          "followers_count": 61850,
+          "followers_count": 61854,
           "following_count": 808,
           "statuses_count": 4483,
           "last_status_at": "2023-12-09",
@@ -6918,8 +6918,8 @@
     "description": "Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability",
     "epss": 0
   },
-  "CVE-2023-38174": {
-    "cvss3": 4.3,
+  "CVE-2023-36880": {
+    "cvss3": 4.8,
     "severity": "MEDIUM",
     "epss_severity": null,
     "posts": [
@@ -6987,8 +6987,8 @@
     "description": "Microsoft Edge (Chromium-based) Information Disclosure Vulnerability",
     "epss": 0
   },
-  "CVE-2023-36880": {
-    "cvss3": 4.8,
+  "CVE-2023-38174": {
+    "cvss3": 4.3,
     "severity": "MEDIUM",
     "epss_severity": null,
     "posts": [
@@ -7401,7 +7401,7 @@
     "description": "Azure HDInsight Apache Oozie Workflow Scheduler XXE Elevation of Privilege Vulnerability",
     "epss": 0.11399999999999999
   },
-  "CVE-2023-39538": {
+  "CVE-2023-39539": {
     "cvss3": 0,
     "severity": null,
     "epss_severity": null,
@@ -7505,7 +7505,7 @@
         "created_at": "2023-12-06T18:27:03.000Z"
       }
     ],
-    "description": "\nAMI AptioV contains a vulnerability in BIOS where a User may cause an unrestricted upload of a BMP Logo file with dangerous type by Local access. A successful exploit of this vulnerability may lead to a loss of Confidentiality, Integrity, and/or Availability.\u00a0\n\n\n\n\n\n",
+    "description": "\nAMI AptioV contains a vulnerability in BIOS where a User may cause an unrestricted upload of a PNG Logo file with dangerous type by Local access. A successful exploit of this vulnerability may lead to a loss of Confidentiality, Integrity, and/or Availability.\u00a0\n\n\n\n\n\n",
     "epss": 0
   },
   "CVE-2023-5058": {
@@ -7685,7 +7685,7 @@
     "description": "Improper Input Validation in the processing of user-supplied splash screen during system boot in Phoenix SecureCore\u2122 Technology\u2122 4 potentially allows denial-of-service attacks or arbitrary code execution.",
     "epss": 0
   },
-  "CVE-2023-39539": {
+  "CVE-2023-39538": {
     "cvss3": 0,
     "severity": null,
     "epss_severity": null,
@@ -7789,7 +7789,7 @@
         "created_at": "2023-12-06T18:27:03.000Z"
       }
     ],
-    "description": "\nAMI AptioV contains a vulnerability in BIOS where a User may cause an unrestricted upload of a PNG Logo file with dangerous type by Local access. A successful exploit of this vulnerability may lead to a loss of Confidentiality, Integrity, and/or Availability.\u00a0\n\n\n\n\n\n",
+    "description": "\nAMI AptioV contains a vulnerability in BIOS where a User may cause an unrestricted upload of a BMP Logo file with dangerous type by Local access. A successful exploit of this vulnerability may lead to a loss of Confidentiality, Integrity, and/or Availability.\u00a0\n\n\n\n\n\n",
     "epss": 0
   },
   "CVE-2023-40238": {
@@ -8221,6 +8221,75 @@
     "description": "This flaw allows a malicious HTTP server to set \"super cookies\" in curl that\nare then passed back to more origins than what is otherwise allowed or\npossible. This allows a site to set cookies that then would get sent to\ndifferent and unrelated sites and domains.\n\nIt could do this by exploiting a mixed case flaw in curl's function that\nverifies a given cookie domain against the Public Suffix List (PSL). For\nexample a cookie could be set with `domain=co.UK` when the URL used a lower\ncase hostname `curl.co.uk`, even though `co.uk` is listed as a PSL domain.\n",
     "epss": 0
   },
+  "CVE-2023-22524": {
+    "cvss3": 0,
+    "severity": null,
+    "epss_severity": "LOW",
+    "posts": [
+      {
+        "account": {
+          "id": "110730368199044452",
+          "username": "simontsui",
+          "acct": "simontsui",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.<br /><a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"tag\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"tag\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/cyberthreatintelligence\" class=\"mention hashtag\" rel=\"tag\">#<span>cyberthreatintelligence</span></a> <a href=\"https://infosec.exchange/tags/vulnerability\" class=\"mention hashtag\" rel=\"tag\">#<span>vulnerability</span></a> <a href=\"https://infosec.exchange/tags/IOC\" class=\"mention hashtag\" rel=\"tag\">#<span>IOC</span></a> <a href=\"https://infosec.exchange/tags/cyberespionage\" class=\"mention hashtag\" rel=\"tag\">#<span>cyberespionage</span></a> <a href=\"https://infosec.exchange/tags/cybercrime\" class=\"mention hashtag\" rel=\"tag\">#<span>cybercrime</span></a> <a href=\"https://infosec.exchange/tags/zeroday\" class=\"mention hashtag\" rel=\"tag\">#<span>zeroday</span></a> <a href=\"https://infosec.exchange/tags/pocexploit\" class=\"mention hashtag\" rel=\"tag\">#<span>pocexploit</span></a> <a href=\"https://infosec.exchange/tags/apt\" class=\"mention hashtag\" rel=\"tag\">#<span>apt</span></a> <a href=\"https://infosec.exchange/tags/intelligence\" class=\"mention hashtag\" rel=\"tag\">#<span>intelligence</span></a></p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/a0a50517fef63efc.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/a0a50517fef63efc.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "followers_count": 388,
+          "following_count": 44,
+          "statuses_count": 1320,
+          "last_status_at": "2023-12-08",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111533233901372837",
+        "content": "\n\n **Atlassian** December 2023 security advories:\n\n  * CVE-2023-22522 - RCE Vulnerability In Confluence Data Center and Confluence Server ( **9.0 critical** severity)\n  * CVE-2023-22524 - RCE Vulnerability in Atlassian Companion App for MacOS ( **9.6 critical** )\n  * CVE-2023-22523 - RCE Vulnerability in Assets Discovery ( **9.8 critical** )\n  * CVE-2022-1471 - SnakeYAML library RCE Vulnerability In Multiple Products ( **9.8 critical** )\n\n\ud83d\udd17 [https://confluence.atlassian.com/security/december-2023-security-\nadvisories-\noverview-1318892103.html](https://confluence.atlassian.com/security/december-2023-security-\nadvisories-overview-1318892103.html)\n\nNo mention of these vulnerabilities being exploited. Reminder that Chinese\nstate-sponsored hackers frequently develop or exploit Atlassian 0/n-days, and\nthat [two of their top 20 exploited CVEs](https://www.cisa.gov/news-\nevents/cybersecurity-advisories/aa22-279a) are Atlassian Confluence vulns.\n\n",
+        "created_at": "2023-12-06T11:28:09.559Z"
+      },
+      {
+        "account": {
+          "id": "110787142161284615",
+          "username": "simontsui",
+          "acct": "simontsui@infosec.exchange",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.<br><a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/cyberthreatintelligence\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cyberthreatintelligence</span></a> <a href=\"https://infosec.exchange/tags/vulnerability\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>vulnerability</span></a> <a href=\"https://infosec.exchange/tags/IOC\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>IOC</span></a> <a href=\"https://infosec.exchange/tags/cyberespionage\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cyberespionage</span></a> <a href=\"https://infosec.exchange/tags/cybercrime\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybercrime</span></a> <a href=\"https://infosec.exchange/tags/zeroday\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>zeroday</span></a> <a href=\"https://infosec.exchange/tags/pocexploit\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>pocexploit</span></a> <a href=\"https://infosec.exchange/tags/apt\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>apt</span></a> <a href=\"https://infosec.exchange/tags/intelligence\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>intelligence</span></a></p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/2f28be58a1233cab.png",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/2f28be58a1233cab.png",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "followers_count": 384,
+          "following_count": 44,
+          "statuses_count": 1320,
+          "last_status_at": "2023-12-08",
+          "emojis": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111533233901372837",
+        "content": "\n\n **Atlassian** December 2023 security advories:\n\n  * CVE-2023-22522 - RCE Vulnerability In Confluence Data Center and Confluence Server ( **9.0 critical** severity)\n  * CVE-2023-22524 - RCE Vulnerability in Atlassian Companion App for MacOS ( **9.6 critical** )\n  * CVE-2023-22523 - RCE Vulnerability in Assets Discovery ( **9.8 critical** )\n  * CVE-2022-1471 - SnakeYAML library RCE Vulnerability In Multiple Products ( **9.8 critical** )\n\n\ud83d\udd17 [https://confluence.atlassian.com/security/december-2023-security-\nadvisories-\noverview-1318892103.html](https://confluence.atlassian.com/security/december-2023-security-\nadvisories-overview-1318892103.html)\n\nNo mention of these vulnerabilities being exploited. Reminder that Chinese\nstate-sponsored hackers frequently develop or exploit Atlassian 0/n-days, and\nthat [two of their top 20 exploited CVEs](https://www.cisa.gov/news-\nevents/cybersecurity-advisories/aa22-279a) are Atlassian Confluence vulns.\n\n",
+        "created_at": "2023-12-06T11:28:09.000Z"
+      }
+    ],
+    "description": "Certain versions of the Atlassian Companion App for MacOS were affected by a remote code execution vulnerability. An attacker could utilize WebSockets to bypass Atlassian Companion\u2019s blocklist and MacOS Gatekeeper to allow execution of code.",
+    "epss": 0.045
+  },
   "CVE-2023-22523": {
     "cvss3": 0,
     "severity": null,
@@ -8290,74 +8359,54 @@
     "description": "This vulnerability, if exploited, allows an attacker to perform privileged RCE (Remote Code Execution) on machines with the Assets Discovery agent installed. The vulnerability exists between the Assets Discovery application (formerly known as Insight Discovery) and the Assets Discovery agent.",
     "epss": 0.064
   },
-  "CVE-2023-22524": {
-    "cvss3": 0,
-    "severity": null,
+  "CVE-2023-45283": {
+    "cvss3": 7.5,
+    "severity": "HIGH",
     "epss_severity": "LOW",
     "posts": [
       {
         "account": {
-          "id": "110730368199044452",
-          "username": "simontsui",
-          "acct": "simontsui",
-          "display_name": "Simon",
+          "id": "109664618619913966",
+          "username": "codevanessa",
+          "acct": "codevanessa@shelter.moe",
+          "display_name": "CodeVanessa",
           "locked": false,
           "bot": false,
           "discoverable": true,
           "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.<br /><a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"tag\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"tag\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/cyberthreatintelligence\" class=\"mention hashtag\" rel=\"tag\">#<span>cyberthreatintelligence</span></a> <a href=\"https://infosec.exchange/tags/vulnerability\" class=\"mention hashtag\" rel=\"tag\">#<span>vulnerability</span></a> <a href=\"https://infosec.exchange/tags/IOC\" class=\"mention hashtag\" rel=\"tag\">#<span>IOC</span></a> <a href=\"https://infosec.exchange/tags/cyberespionage\" class=\"mention hashtag\" rel=\"tag\">#<span>cyberespionage</span></a> <a href=\"https://infosec.exchange/tags/cybercrime\" class=\"mention hashtag\" rel=\"tag\">#<span>cybercrime</span></a> <a href=\"https://infosec.exchange/tags/zeroday\" class=\"mention hashtag\" rel=\"tag\">#<span>zeroday</span></a> <a href=\"https://infosec.exchange/tags/pocexploit\" class=\"mention hashtag\" rel=\"tag\">#<span>pocexploit</span></a> <a href=\"https://infosec.exchange/tags/apt\" class=\"mention hashtag\" rel=\"tag\">#<span>apt</span></a> <a href=\"https://infosec.exchange/tags/intelligence\" class=\"mention hashtag\" rel=\"tag\">#<span>intelligence</span></a></p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/a0a50517fef63efc.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/a0a50517fef63efc.png",
-          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "followers_count": 388,
-          "following_count": 44,
-          "statuses_count": 1320,
-          "last_status_at": "2023-12-08",
-          "noindex": false,
+          "created_at": "2022-11-14T00:00:00.000Z",
+          "note": "<p>She/Elle | Coder since 1986 | <a href=\"https://shelter.moe/tags/retrogaming\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>retrogaming</span></a> <a href=\"https://shelter.moe/tags/retrocomputing\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>retrocomputing</span></a> <a href=\"https://shelter.moe/tags/demoscene\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>demoscene</span></a> <a href=\"https://shelter.moe/tags/commodore\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>commodore</span></a> <a href=\"https://shelter.moe/tags/c64\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>c64</span></a> <a href=\"https://shelter.moe/tags/amiga\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>amiga</span></a> <a href=\"https://shelter.moe/tags/EternalWeeb\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>EternalWeeb</span></a><br>FR/EN<br>\u221e \ud83d\udc99\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f\ud83c\udff3\ufe0f\u200d\ud83c\udf08<br>Moonbyul (\ubb38\ubcc4) Stan</p>",
+          "url": "https://shelter.moe/@codevanessa",
+          "uri": "https://shelter.moe/users/codevanessa",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/109/664/618/619/913/966/original/c4ea9a8b2d6af125.webp",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/109/664/618/619/913/966/original/c4ea9a8b2d6af125.webp",
+          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/664/618/619/913/966/original/b6b243db995beb8e.jpg",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/664/618/619/913/966/original/b6b243db995beb8e.jpg",
+          "followers_count": 145,
+          "following_count": 120,
+          "statuses_count": 617,
+          "last_status_at": "2023-12-07",
           "emojis": [],
-          "roles": [],
-          "fields": []
+          "fields": [
+            {
+              "name": "Twitter",
+              "value": "<a href=\"https://twitter.com/_CodeVanessa_\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/_CodeVanessa_</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "EFnet & Undernet",
+              "value": "Formerly Known As @Snatcher",
+              "verified_at": null
+            }
+          ]
         },
-        "url": "https://infosec.exchange/@simontsui/111533233901372837",
-        "content": "\n\n **Atlassian** December 2023 security advories:\n\n  * CVE-2023-22522 - RCE Vulnerability In Confluence Data Center and Confluence Server ( **9.0 critical** severity)\n  * CVE-2023-22524 - RCE Vulnerability in Atlassian Companion App for MacOS ( **9.6 critical** )\n  * CVE-2023-22523 - RCE Vulnerability in Assets Discovery ( **9.8 critical** )\n  * CVE-2022-1471 - SnakeYAML library RCE Vulnerability In Multiple Products ( **9.8 critical** )\n\n\ud83d\udd17 [https://confluence.atlassian.com/security/december-2023-security-\nadvisories-\noverview-1318892103.html](https://confluence.atlassian.com/security/december-2023-security-\nadvisories-overview-1318892103.html)\n\nNo mention of these vulnerabilities being exploited. Reminder that Chinese\nstate-sponsored hackers frequently develop or exploit Atlassian 0/n-days, and\nthat [two of their top 20 exploited CVEs](https://www.cisa.gov/news-\nevents/cybersecurity-advisories/aa22-279a) are Atlassian Confluence vulns.\n\n",
-        "created_at": "2023-12-06T11:28:09.559Z"
-      },
-      {
-        "account": {
-          "id": "110787142161284615",
-          "username": "simontsui",
-          "acct": "simontsui@infosec.exchange",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.<br><a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/cyberthreatintelligence\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cyberthreatintelligence</span></a> <a href=\"https://infosec.exchange/tags/vulnerability\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>vulnerability</span></a> <a href=\"https://infosec.exchange/tags/IOC\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>IOC</span></a> <a href=\"https://infosec.exchange/tags/cyberespionage\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cyberespionage</span></a> <a href=\"https://infosec.exchange/tags/cybercrime\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybercrime</span></a> <a href=\"https://infosec.exchange/tags/zeroday\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>zeroday</span></a> <a href=\"https://infosec.exchange/tags/pocexploit\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>pocexploit</span></a> <a href=\"https://infosec.exchange/tags/apt\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>apt</span></a> <a href=\"https://infosec.exchange/tags/intelligence\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>intelligence</span></a></p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/2f28be58a1233cab.png",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/2f28be58a1233cab.png",
-          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "followers_count": 384,
-          "following_count": 44,
-          "statuses_count": 1320,
-          "last_status_at": "2023-12-08",
-          "emojis": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111533233901372837",
-        "content": "\n\n **Atlassian** December 2023 security advories:\n\n  * CVE-2023-22522 - RCE Vulnerability In Confluence Data Center and Confluence Server ( **9.0 critical** severity)\n  * CVE-2023-22524 - RCE Vulnerability in Atlassian Companion App for MacOS ( **9.6 critical** )\n  * CVE-2023-22523 - RCE Vulnerability in Assets Discovery ( **9.8 critical** )\n  * CVE-2022-1471 - SnakeYAML library RCE Vulnerability In Multiple Products ( **9.8 critical** )\n\n\ud83d\udd17 [https://confluence.atlassian.com/security/december-2023-security-\nadvisories-\noverview-1318892103.html](https://confluence.atlassian.com/security/december-2023-security-\nadvisories-overview-1318892103.html)\n\nNo mention of these vulnerabilities being exploited. Reminder that Chinese\nstate-sponsored hackers frequently develop or exploit Atlassian 0/n-days, and\nthat [two of their top 20 exploited CVEs](https://www.cisa.gov/news-\nevents/cybersecurity-advisories/aa22-279a) are Atlassian Confluence vulns.\n\n",
-        "created_at": "2023-12-06T11:28:09.000Z"
+        "url": "https://shelter.moe/@codevanessa/111532762833943020",
+        "content": "\n\nRelease de Go 1.21.5 et 1.20.12 hier soir\n\nAvec des fixes pour 3 CVEs : net/http (CVE-2023-39326), cmd/go\n(CVE-2023-45285), path/filepath (CVE-2023-45283).\n\nCelui sur net/http est assez s\u00e9rieux, vaut mieux rebuild.\n\n[https://groups.google.com/g/golang-\nannounce/c/iLGK3x6yuNo](https://groups.google.com/g/golang-\nannounce/c/iLGK3x6yuNo)\n\n",
+        "created_at": "2023-12-06T09:28:21.000Z"
       }
     ],
-    "description": "Certain versions of the Atlassian Companion App for MacOS were affected by a remote code execution vulnerability. An attacker could utilize WebSockets to bypass Atlassian Companion\u2019s blocklist and MacOS Gatekeeper to allow execution of code.",
-    "epss": 0.045
+    "description": "The filepath package does not recognize paths with a \\??\\ prefix as special. On Windows, a path beginning with \\??\\ is a Root Local Device path equivalent to a path beginning with \\\\?\\. Paths with a \\??\\ prefix may be used to access arbitrary locations on the system. For example, the path \\??\\c:\\x is equivalent to the more common path c:\\x. Before fix, Clean could convert a rooted path such as \\a\\..\\??\\b into the root local device path \\??\\b. Clean will now convert this to .\\??\\b. Similarly, Join(\\, ??, b) could convert a seemingly innocent sequence of path elements into the root local device path \\??\\b. Join will now convert this to \\.\\??\\b. In addition, with fix, IsAbs now correctly reports paths beginning with \\??\\ as absolute, and VolumeName correctly reports the \\??\\ prefix as a volume name. UPDATE: Go 1.20.11 and Go 1.21.4 inadvertently changed the definition of the volume name in Windows paths starting with \\?, resulting in filepath.Clean(\\?\\c:) returning \\?\\c: rather than \\?\\c:\\ (among other effects). The previous behavior has been restored.",
+    "epss": 0.06
   },
   "CVE-2023-39326": {
     "cvss3": 0,
@@ -8456,55 +8505,6 @@
     ],
     "description": "Using go get to fetch a module with the \".git\" suffix may unexpectedly fallback to the insecure \"git://\" protocol if the module is unavailable via the secure \"https://\" and \"git+ssh://\" protocols, even if GOINSECURE is not set for said module. This only affects users who are not using the module proxy and are fetching modules directly (i.e. GOPROXY=off).",
     "epss": 0
-  },
-  "CVE-2023-45283": {
-    "cvss3": 7.5,
-    "severity": "HIGH",
-    "epss_severity": "LOW",
-    "posts": [
-      {
-        "account": {
-          "id": "109664618619913966",
-          "username": "codevanessa",
-          "acct": "codevanessa@shelter.moe",
-          "display_name": "CodeVanessa",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2022-11-14T00:00:00.000Z",
-          "note": "<p>She/Elle | Coder since 1986 | <a href=\"https://shelter.moe/tags/retrogaming\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>retrogaming</span></a> <a href=\"https://shelter.moe/tags/retrocomputing\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>retrocomputing</span></a> <a href=\"https://shelter.moe/tags/demoscene\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>demoscene</span></a> <a href=\"https://shelter.moe/tags/commodore\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>commodore</span></a> <a href=\"https://shelter.moe/tags/c64\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>c64</span></a> <a href=\"https://shelter.moe/tags/amiga\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>amiga</span></a> <a href=\"https://shelter.moe/tags/EternalWeeb\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>EternalWeeb</span></a><br>FR/EN<br>\u221e \ud83d\udc99\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f\ud83c\udff3\ufe0f\u200d\ud83c\udf08<br>Moonbyul (\ubb38\ubcc4) Stan</p>",
-          "url": "https://shelter.moe/@codevanessa",
-          "uri": "https://shelter.moe/users/codevanessa",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/109/664/618/619/913/966/original/c4ea9a8b2d6af125.webp",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/109/664/618/619/913/966/original/c4ea9a8b2d6af125.webp",
-          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/664/618/619/913/966/original/b6b243db995beb8e.jpg",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/664/618/619/913/966/original/b6b243db995beb8e.jpg",
-          "followers_count": 145,
-          "following_count": 120,
-          "statuses_count": 617,
-          "last_status_at": "2023-12-07",
-          "emojis": [],
-          "fields": [
-            {
-              "name": "Twitter",
-              "value": "<a href=\"https://twitter.com/_CodeVanessa_\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/_CodeVanessa_</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "EFnet & Undernet",
-              "value": "Formerly Known As @Snatcher",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://shelter.moe/@codevanessa/111532762833943020",
-        "content": "\n\nRelease de Go 1.21.5 et 1.20.12 hier soir\n\nAvec des fixes pour 3 CVEs : net/http (CVE-2023-39326), cmd/go\n(CVE-2023-45285), path/filepath (CVE-2023-45283).\n\nCelui sur net/http est assez s\u00e9rieux, vaut mieux rebuild.\n\n[https://groups.google.com/g/golang-\nannounce/c/iLGK3x6yuNo](https://groups.google.com/g/golang-\nannounce/c/iLGK3x6yuNo)\n\n",
-        "created_at": "2023-12-06T09:28:21.000Z"
-      }
-    ],
-    "description": "The filepath package does not recognize paths with a \\??\\ prefix as special. On Windows, a path beginning with \\??\\ is a Root Local Device path equivalent to a path beginning with \\\\?\\. Paths with a \\??\\ prefix may be used to access arbitrary locations on the system. For example, the path \\??\\c:\\x is equivalent to the more common path c:\\x. Before fix, Clean could convert a rooted path such as \\a\\..\\??\\b into the root local device path \\??\\b. Clean will now convert this to .\\??\\b. Similarly, Join(\\, ??, b) could convert a seemingly innocent sequence of path elements into the root local device path \\??\\b. Join will now convert this to \\.\\??\\b. In addition, with fix, IsAbs now correctly reports paths beginning with \\??\\ as absolute, and VolumeName correctly reports the \\??\\ prefix as a volume name. UPDATE: Go 1.20.11 and Go 1.21.4 inadvertently changed the definition of the volume name in Windows paths starting with \\?, resulting in filepath.Clean(\\?\\c:) returning \\?\\c: rather than \\?\\c:\\ (among other effects). The previous behavior has been restored.",
-    "epss": 0.06
   },
   "CVE-2023-46219": {
     "cvss3": 0,
@@ -8739,7 +8739,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/258/892/970/182/807/original/be43aab64434d2df.jpeg",
           "followers_count": 1907,
           "following_count": 353,
-          "statuses_count": 4810,
+          "statuses_count": 4811,
           "last_status_at": "2023-12-09",
           "emojis": [],
           "fields": [
@@ -8910,7 +8910,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/109/275/784/164/756/217/original/78c648ffd0a0d8a4.jpeg",
           "followers_count": 1908,
           "following_count": 355,
-          "statuses_count": 4810,
+          "statuses_count": 4811,
           "last_status_at": "2023-12-09",
           "emojis": [],
           "fields": [
@@ -9014,8 +9014,8 @@
     "epss": 0
   },
   "CVE-2023-45779": {
-    "cvss3": 7.8,
-    "severity": "HIGH",
+    "cvss3": 0,
+    "severity": null,
     "epss_severity": "LOW",
     "posts": [
       {
@@ -11128,56 +11128,6 @@
       },
       {
         "account": {
-          "id": "115787",
-          "username": "sublimer",
-          "acct": "sublimer@mstdn.sublimer.me",
-          "display_name": "sublimer@\u9bd6\u7ba1",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2019-05-11T00:00:00.000Z",
-          "note": "<p>\u3042\u3059\u3066\u308d\u3044\u3069\u3093\u306e\u9bd6\u7ba1\u3067\u3059\u3002<br>\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc\u3068\u622f\u308c\u308b\u304a\u4ed5\u4e8b(software engineer in japan)<br> <a href=\"https://mstdn.sublimer.me/tags/WebRTC\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>WebRTC</span></a> \u3001\u30a4\u30f3\u30d5\u30e9\u76e3\u8996\u3001 <a href=\"https://mstdn.sublimer.me/tags/%E8%87%AA%E5%AE%85%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>\u81ea\u5b85\u30b5\u30fc\u30d0\u30fc</span></a> \u3068\u304b\u3084\u3063\u3066\u307e\u3059\u3002<br>\u6700\u8fd1\u306f\u3061\u3087\u3063\u3068\u3060\u3051 <a href=\"https://mstdn.sublimer.me/tags/Kubernetes\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Kubernetes</span></a> \u904b\u7528\u3057\u3066\u307e\u3059\u3002<br>\u65b0\u898f\u767b\u9332\u5927\u6b53\u8fce\u3067\u3059!!</p>",
-          "url": "https://mstdn.sublimer.me/@sublimer",
-          "uri": "https://mstdn.sublimer.me/users/sublimer",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/000/115/787/original/dbb74c6fa8114405.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/000/115/787/original/dbb74c6fa8114405.png",
-          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/000/115/787/original/dde4389c5a4b5986.jpeg",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/000/115/787/original/dde4389c5a4b5986.jpeg",
-          "followers_count": 614,
-          "following_count": 682,
-          "statuses_count": 23632,
-          "last_status_at": "2023-12-07",
-          "emojis": [],
-          "fields": [
-            {
-              "name": "Web",
-              "value": "<a href=\"https://sublimer.me\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">sublimer.me</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Twitter",
-              "value": "<a href=\"https://twitter.com/lz650sss\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/lz650sss</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "GitHub",
-              "value": "<a href=\"https://github.com/kadoshita\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/kadoshita</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2023-12-07T09:26:45.389+00:00"
-            },
-            {
-              "name": "Blog",
-              "value": "<a href=\"https://sublimer.hatenablog.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">sublimer.hatenablog.com</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2023-12-07T09:26:46.361+00:00"
-            }
-          ]
-        },
-        "url": "https://mstdn.sublimer.me/@sublimer/111470658275062663",
-        "content": "\n\nownCloud\u306e\u8106\u5f31\u6027\u3001CVSS Base Score 10.0\u306a\u306e\u3084\u3070\u305d\u3046\n\nNVD - CVE-2023-49103 : \ud83d\udc40  \n\\---  \n[https://nvd.nist.gov/vuln/detail/CVE-2023-49103](https://nvd.nist.gov/vuln/detail/CVE-2023-49103)\n\n",
-        "created_at": "2023-11-25T10:14:21.000Z"
-      },
-      {
-        "account": {
           "id": "109286787538579164",
           "username": "iagox86",
           "acct": "iagox86@infosec.exchange",
@@ -11913,7 +11863,7 @@
     "description": "An issue was discovered in ownCloud owncloud/graphapi 0.2.x before 0.2.1 and 0.3.x before 0.3.1. The graphapi app relies on a third-party GetPhpInfo.php library that provides a URL. When this URL is accessed, it reveals the configuration details of the PHP environment (phpinfo). This information includes all the environment variables of the webserver. In containerized deployments, these environment variables may include sensitive data such as the ownCloud admin password, mail server credentials, and license key. Simply disabling the graphapi app does not eliminate the vulnerability. Additionally, phpinfo exposes various other potentially sensitive configuration details that could be exploited by an attacker to gather information about the system. Therefore, even if ownCloud is not running in a containerized environment, this vulnerability should still be a cause for concern. Note that Docker containers from before February 2023 are not vulnerable to the credential disclosure.",
     "epss": 51.754
   },
-  "CVE-2023-4474": {
+  "CVE-2023-35138": {
     "cvss3": 9.8,
     "severity": "CRITICAL",
     "epss_severity": "LOW",
@@ -12075,8 +12025,8 @@
         "created_at": "2023-11-30T18:51:05.000Z"
       }
     ],
-    "description": "The improper neutralization of special elements in the WSGI server of the Zyxel NAS326 firmware version V5.21(AAZF.14)C0 and NAS542 firmware version V5.21(ABAG.11)C0 could allow an unauthenticated attacker to execute some operating system (OS) commands by sending a crafted URL to a vulnerable device.",
-    "epss": 0.1
+    "description": "A command injection vulnerability in the \u201cshow_zysync_server_contents\u201d function of the Zyxel NAS326 firmware version V5.21(AAZF.14)C0 and NAS542 firmware version V5.21(ABAG.11)C0 could allow an unauthenticated attacker to execute some operating system (OS) commands by sending a crafted HTTP POST request.",
+    "epss": 0.058
   },
   "CVE-2023-37927": {
     "cvss3": 8.8,
@@ -12243,9 +12193,9 @@
     "description": "The improper neutralization of special elements in the CGI program of the Zyxel NAS326 firmware version V5.21(AAZF.14)C0 and NAS542 firmware version V5.21(ABAG.11)C0 could allow an authenticated attacker to execute some operating system (OS) commands by sending a crafted URL to a vulnerable device.",
     "epss": 0.052
   },
-  "CVE-2023-37928": {
-    "cvss3": 8.8,
-    "severity": "HIGH",
+  "CVE-2023-4474": {
+    "cvss3": 9.8,
+    "severity": "CRITICAL",
     "epss_severity": "LOW",
     "posts": [
       {
@@ -12405,8 +12355,8 @@
         "created_at": "2023-11-30T18:51:05.000Z"
       }
     ],
-    "description": "A post-authentication command injection vulnerability in the WSGI server of the Zyxel NAS326 firmware version V5.21(AAZF.14)C0 and NAS542 firmware version V5.21(ABAG.11)C0 could allow an authenticated attacker to execute some operating system (OS) commands by sending a crafted URL to a vulnerable device.",
-    "epss": 0.05
+    "description": "The improper neutralization of special elements in the WSGI server of the Zyxel NAS326 firmware version V5.21(AAZF.14)C0 and NAS542 firmware version V5.21(ABAG.11)C0 could allow an unauthenticated attacker to execute some operating system (OS) commands by sending a crafted URL to a vulnerable device.",
+    "epss": 0.1
   },
   "CVE-2023-35137": {
     "cvss3": 7.5,
@@ -12738,9 +12688,9 @@
     "description": "A command injection vulnerability in the web server of the Zyxel NAS326 firmware version V5.21(AAZF.14)C0 and NAS542 firmware version V5.21(ABAG.11)C0 could allow an unauthenticated attacker to execute some operating system (OS) commands by sending a crafted URL to a vulnerable device.",
     "epss": 0.068
   },
-  "CVE-2023-35138": {
-    "cvss3": 9.8,
-    "severity": "CRITICAL",
+  "CVE-2023-37928": {
+    "cvss3": 8.8,
+    "severity": "HIGH",
     "epss_severity": "LOW",
     "posts": [
       {
@@ -12900,8 +12850,8 @@
         "created_at": "2023-11-30T18:51:05.000Z"
       }
     ],
-    "description": "A command injection vulnerability in the \u201cshow_zysync_server_contents\u201d function of the Zyxel NAS326 firmware version V5.21(AAZF.14)C0 and NAS542 firmware version V5.21(ABAG.11)C0 could allow an unauthenticated attacker to execute some operating system (OS) commands by sending a crafted HTTP POST request.",
-    "epss": 0.058
+    "description": "A post-authentication command injection vulnerability in the WSGI server of the Zyxel NAS326 firmware version V5.21(AAZF.14)C0 and NAS542 firmware version V5.21(ABAG.11)C0 could allow an authenticated attacker to execute some operating system (OS) commands by sending a crafted URL to a vulnerable device.",
+    "epss": 0.05
   },
   "CVE-2021-3156": {
     "cvss3": 7.8,
@@ -13697,7 +13647,7 @@
     "description": "Issue summary: Generating excessively long X9.42 DH keys or checking\nexcessively long X9.42 DH keys or parameters may be very slow.\n\nImpact summary: Applications that use the functions DH_generate_key() to\ngenerate an X9.42 DH key may experience long delays.  Likewise, applications\nthat use DH_check_pub_key(), DH_check_pub_key_ex() or EVP_PKEY_public_check()\nto check an X9.42 DH key or X9.42 DH parameters may experience long delays.\nWhere the key or parameters that are being checked have been obtained from\nan untrusted source this may lead to a Denial of Service.\n\nWhile DH_check() performs all the necessary checks (as of CVE-2023-3817),\nDH_check_pub_key() doesn't make any of these checks, and is therefore\nvulnerable for excessively large P and Q parameters.\n\nLikewise, while DH_generate_key() performs a check for an excessively large\nP, it doesn't check for an excessively large Q.\n\nAn application that calls DH_generate_key() or DH_check_pub_key() and\nsupplies a key or parameters obtained from an untrusted source could be\nvulnerable to a Denial of Service attack.\n\nDH_generate_key() and DH_check_pub_key() are also called by a number of\nother OpenSSL functions.  An application calling any of those other\nfunctions may similarly be affected.  The other functions affected by this\nare DH_check_pub_key_ex(), EVP_PKEY_public_check(), and EVP_PKEY_generate().\n\nAlso vulnerable are the OpenSSL pkey command line application when using the\n\"-pubcheck\" option, as well as the OpenSSL genpkey command line application.\n\nThe OpenSSL SSL/TLS implementation is not affected by this issue.\n\nThe OpenSSL 3.0 and 3.1 FIPS providers are not affected by this issue.\n\n",
     "epss": 0.079
   },
-  "CVE-2023-6348": {
+  "CVE-2023-6350": {
     "cvss3": 8.8,
     "severity": "HIGH",
     "epss_severity": "LOW",
@@ -13763,8 +13713,8 @@
         "created_at": "2023-11-30T12:22:44.000Z"
       }
     ],
-    "description": "Type Confusion in Spellcheck in Google Chrome prior to 119.0.6045.199 allowed a remote attacker who had compromised the renderer process to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
-    "epss": 0.127
+    "description": "Use after free in libavif in Google Chrome prior to 119.0.6045.199 allowed a remote attacker to potentially exploit heap corruption via a crafted avif file. (Chromium security severity: High)",
+    "epss": 0.17500000000000002
   },
   "CVE-2023-6351": {
     "cvss3": 8.8,
@@ -13834,6 +13784,75 @@
     ],
     "description": "Use after free in libavif in Google Chrome prior to 119.0.6045.199 allowed a remote attacker to potentially exploit heap corruption via a crafted avif file. (Chromium security severity: High)",
     "epss": 0.17500000000000002
+  },
+  "CVE-2023-6348": {
+    "cvss3": 8.8,
+    "severity": "HIGH",
+    "epss_severity": "LOW",
+    "posts": [
+      {
+        "account": {
+          "id": "110730368199044452",
+          "username": "simontsui",
+          "acct": "simontsui",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.<br /><a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"tag\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"tag\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/cyberthreatintelligence\" class=\"mention hashtag\" rel=\"tag\">#<span>cyberthreatintelligence</span></a> <a href=\"https://infosec.exchange/tags/vulnerability\" class=\"mention hashtag\" rel=\"tag\">#<span>vulnerability</span></a> <a href=\"https://infosec.exchange/tags/IOC\" class=\"mention hashtag\" rel=\"tag\">#<span>IOC</span></a> <a href=\"https://infosec.exchange/tags/cyberespionage\" class=\"mention hashtag\" rel=\"tag\">#<span>cyberespionage</span></a> <a href=\"https://infosec.exchange/tags/cybercrime\" class=\"mention hashtag\" rel=\"tag\">#<span>cybercrime</span></a> <a href=\"https://infosec.exchange/tags/zeroday\" class=\"mention hashtag\" rel=\"tag\">#<span>zeroday</span></a> <a href=\"https://infosec.exchange/tags/pocexploit\" class=\"mention hashtag\" rel=\"tag\">#<span>pocexploit</span></a> <a href=\"https://infosec.exchange/tags/apt\" class=\"mention hashtag\" rel=\"tag\">#<span>apt</span></a> <a href=\"https://infosec.exchange/tags/intelligence\" class=\"mention hashtag\" rel=\"tag\">#<span>intelligence</span></a></p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/a0a50517fef63efc.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/a0a50517fef63efc.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "followers_count": 388,
+          "following_count": 44,
+          "statuses_count": 1320,
+          "last_status_at": "2023-12-08",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111499474660604695",
+        "content": "\n\n **Microsoft** Security Response Center (MSRC) posted security advisories for\nthird party vulnerabilities from Chromium:\n\n  * Chromium: [CVE-2023-6345](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6345) Integer overflow in Skia \n    * **NOTE:** Google is aware that an exploit for CVE-2023-6345 exists in the wild.\n  * Chromium: [CVE-2023-6346](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6346) Use after free in WebAudio\n  * Chromium: [CVE-2023-6347](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6347) Use after free in Mojo\n  * Chromium: [CVE-2023-6348](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6348) Type Confusion in Spellcheck\n  * Chromium: [CVE-2023-6350](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6350) Out of bounds memory access in libavif\n  * Chromium: [CVE-2023-6351](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6351) Use after free in libavif\n\nI was wondering if Microsoft would share additional information that the\nGoogle Chrome team omits. Microsoft while not emphatically highlighting that\nCVE-2023-6345 is a Zero-Day, did at least include the message \"Google is aware\nthat an exploit for CVE-2023-6345 exists in the wild.\" See original Google\nChrome [security\nadvisory](https://chromereleases.googleblog.com/2023/11/stable-channel-update-\nfor-desktop_28.html)\n\n",
+        "created_at": "2023-11-30T12:22:44.425Z"
+      },
+      {
+        "account": {
+          "id": "110787142161284615",
+          "username": "simontsui",
+          "acct": "simontsui@infosec.exchange",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.<br><a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/cyberthreatintelligence\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cyberthreatintelligence</span></a> <a href=\"https://infosec.exchange/tags/vulnerability\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>vulnerability</span></a> <a href=\"https://infosec.exchange/tags/IOC\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>IOC</span></a> <a href=\"https://infosec.exchange/tags/cyberespionage\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cyberespionage</span></a> <a href=\"https://infosec.exchange/tags/cybercrime\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybercrime</span></a> <a href=\"https://infosec.exchange/tags/zeroday\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>zeroday</span></a> <a href=\"https://infosec.exchange/tags/pocexploit\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>pocexploit</span></a> <a href=\"https://infosec.exchange/tags/apt\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>apt</span></a> <a href=\"https://infosec.exchange/tags/intelligence\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>intelligence</span></a></p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/2f28be58a1233cab.png",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/2f28be58a1233cab.png",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "followers_count": 384,
+          "following_count": 44,
+          "statuses_count": 1320,
+          "last_status_at": "2023-12-08",
+          "emojis": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111499474660604695",
+        "content": "\n\n **Microsoft** Security Response Center (MSRC) posted security advisories for\nthird party vulnerabilities from Chromium:\n\n  * Chromium: [CVE-2023-6345](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6345) Integer overflow in Skia \n    * **NOTE:** Google is aware that an exploit for CVE-2023-6345 exists in the wild.\n  * Chromium: [CVE-2023-6346](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6346) Use after free in WebAudio\n  * Chromium: [CVE-2023-6347](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6347) Use after free in Mojo\n  * Chromium: [CVE-2023-6348](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6348) Type Confusion in Spellcheck\n  * Chromium: [CVE-2023-6350](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6350) Out of bounds memory access in libavif\n  * Chromium: [CVE-2023-6351](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6351) Use after free in libavif\n\nI was wondering if Microsoft would share additional information that the\nGoogle Chrome team omits. Microsoft while not emphatically highlighting that\nCVE-2023-6345 is a Zero-Day, did at least include the message \"Google is aware\nthat an exploit for CVE-2023-6345 exists in the wild.\" See original Google\nChrome [security\nadvisory](https://chromereleases.googleblog.com/2023/11/stable-channel-update-\nfor-desktop_28.html)\n\n",
+        "created_at": "2023-11-30T12:22:44.000Z"
+      }
+    ],
+    "description": "Type Confusion in Spellcheck in Google Chrome prior to 119.0.6045.199 allowed a remote attacker who had compromised the renderer process to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+    "epss": 0.127
   },
   "CVE-2023-6347": {
     "cvss3": 8.8,
@@ -13972,75 +13991,6 @@
     ],
     "description": "Use after free in WebAudio in Google Chrome prior to 119.0.6045.199 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
     "epss": 0.208
-  },
-  "CVE-2023-6350": {
-    "cvss3": 8.8,
-    "severity": "HIGH",
-    "epss_severity": "LOW",
-    "posts": [
-      {
-        "account": {
-          "id": "110730368199044452",
-          "username": "simontsui",
-          "acct": "simontsui",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.<br /><a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"tag\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"tag\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/cyberthreatintelligence\" class=\"mention hashtag\" rel=\"tag\">#<span>cyberthreatintelligence</span></a> <a href=\"https://infosec.exchange/tags/vulnerability\" class=\"mention hashtag\" rel=\"tag\">#<span>vulnerability</span></a> <a href=\"https://infosec.exchange/tags/IOC\" class=\"mention hashtag\" rel=\"tag\">#<span>IOC</span></a> <a href=\"https://infosec.exchange/tags/cyberespionage\" class=\"mention hashtag\" rel=\"tag\">#<span>cyberespionage</span></a> <a href=\"https://infosec.exchange/tags/cybercrime\" class=\"mention hashtag\" rel=\"tag\">#<span>cybercrime</span></a> <a href=\"https://infosec.exchange/tags/zeroday\" class=\"mention hashtag\" rel=\"tag\">#<span>zeroday</span></a> <a href=\"https://infosec.exchange/tags/pocexploit\" class=\"mention hashtag\" rel=\"tag\">#<span>pocexploit</span></a> <a href=\"https://infosec.exchange/tags/apt\" class=\"mention hashtag\" rel=\"tag\">#<span>apt</span></a> <a href=\"https://infosec.exchange/tags/intelligence\" class=\"mention hashtag\" rel=\"tag\">#<span>intelligence</span></a></p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/a0a50517fef63efc.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/a0a50517fef63efc.png",
-          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "followers_count": 388,
-          "following_count": 44,
-          "statuses_count": 1320,
-          "last_status_at": "2023-12-08",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111499474660604695",
-        "content": "\n\n **Microsoft** Security Response Center (MSRC) posted security advisories for\nthird party vulnerabilities from Chromium:\n\n  * Chromium: [CVE-2023-6345](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6345) Integer overflow in Skia \n    * **NOTE:** Google is aware that an exploit for CVE-2023-6345 exists in the wild.\n  * Chromium: [CVE-2023-6346](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6346) Use after free in WebAudio\n  * Chromium: [CVE-2023-6347](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6347) Use after free in Mojo\n  * Chromium: [CVE-2023-6348](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6348) Type Confusion in Spellcheck\n  * Chromium: [CVE-2023-6350](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6350) Out of bounds memory access in libavif\n  * Chromium: [CVE-2023-6351](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6351) Use after free in libavif\n\nI was wondering if Microsoft would share additional information that the\nGoogle Chrome team omits. Microsoft while not emphatically highlighting that\nCVE-2023-6345 is a Zero-Day, did at least include the message \"Google is aware\nthat an exploit for CVE-2023-6345 exists in the wild.\" See original Google\nChrome [security\nadvisory](https://chromereleases.googleblog.com/2023/11/stable-channel-update-\nfor-desktop_28.html)\n\n",
-        "created_at": "2023-11-30T12:22:44.425Z"
-      },
-      {
-        "account": {
-          "id": "110787142161284615",
-          "username": "simontsui",
-          "acct": "simontsui@infosec.exchange",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.<br><a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/cyberthreatintelligence\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cyberthreatintelligence</span></a> <a href=\"https://infosec.exchange/tags/vulnerability\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>vulnerability</span></a> <a href=\"https://infosec.exchange/tags/IOC\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>IOC</span></a> <a href=\"https://infosec.exchange/tags/cyberespionage\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cyberespionage</span></a> <a href=\"https://infosec.exchange/tags/cybercrime\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybercrime</span></a> <a href=\"https://infosec.exchange/tags/zeroday\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>zeroday</span></a> <a href=\"https://infosec.exchange/tags/pocexploit\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>pocexploit</span></a> <a href=\"https://infosec.exchange/tags/apt\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>apt</span></a> <a href=\"https://infosec.exchange/tags/intelligence\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>intelligence</span></a></p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/2f28be58a1233cab.png",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/2f28be58a1233cab.png",
-          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "followers_count": 384,
-          "following_count": 44,
-          "statuses_count": 1320,
-          "last_status_at": "2023-12-08",
-          "emojis": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111499474660604695",
-        "content": "\n\n **Microsoft** Security Response Center (MSRC) posted security advisories for\nthird party vulnerabilities from Chromium:\n\n  * Chromium: [CVE-2023-6345](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6345) Integer overflow in Skia \n    * **NOTE:** Google is aware that an exploit for CVE-2023-6345 exists in the wild.\n  * Chromium: [CVE-2023-6346](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6346) Use after free in WebAudio\n  * Chromium: [CVE-2023-6347](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6347) Use after free in Mojo\n  * Chromium: [CVE-2023-6348](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6348) Type Confusion in Spellcheck\n  * Chromium: [CVE-2023-6350](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6350) Out of bounds memory access in libavif\n  * Chromium: [CVE-2023-6351](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2023-6351) Use after free in libavif\n\nI was wondering if Microsoft would share additional information that the\nGoogle Chrome team omits. Microsoft while not emphatically highlighting that\nCVE-2023-6345 is a Zero-Day, did at least include the message \"Google is aware\nthat an exploit for CVE-2023-6345 exists in the wild.\" See original Google\nChrome [security\nadvisory](https://chromereleases.googleblog.com/2023/11/stable-channel-update-\nfor-desktop_28.html)\n\n",
-        "created_at": "2023-11-30T12:22:44.000Z"
-      }
-    ],
-    "description": "Use after free in libavif in Google Chrome prior to 119.0.6045.199 allowed a remote attacker to potentially exploit heap corruption via a crafted avif file. (Chromium security severity: High)",
-    "epss": 0.17500000000000002
   },
   "CVE-2023-1389": {
     "cvss3": 8.8,
@@ -14569,7 +14519,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/258/892/970/182/807/original/be43aab64434d2df.jpeg",
           "followers_count": 1907,
           "following_count": 353,
-          "statuses_count": 4810,
+          "statuses_count": 4811,
           "last_status_at": "2023-12-09",
           "emojis": [],
           "fields": [
@@ -14787,7 +14737,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/109/275/784/164/756/217/original/78c648ffd0a0d8a4.jpeg",
           "followers_count": 1908,
           "following_count": 355,
-          "statuses_count": 4810,
+          "statuses_count": 4811,
           "last_status_at": "2023-12-09",
           "emojis": [],
           "fields": [
@@ -15586,7 +15536,7 @@
     "description": "A vulnerability in Cisco Integrated Management Controller (IMC) Supervisor, Cisco UCS Director, and Cisco UCS Director Express for Big Data could allow an unauthenticated, remote attacker to log in to the CLI of an affected system by using the SCP User account (scpuser), which has default user credentials. The vulnerability is due to the presence of a documented default account with an undocumented default password and incorrect permission settings for that account. Changing the default password for this account is not enforced during the installation of the product. An attacker could exploit this vulnerability by using the account to log in to an affected system. A successful exploit could allow the attacker to execute arbitrary commands with the privileges of the scpuser account. This includes full read and write access to the system's database.",
     "epss": 95.80199999999999
   },
-  "CVE-2023-47038": {
+  "CVE-2023-47039": {
     "cvss3": 0,
     "severity": null,
     "epss_severity": null,
@@ -15685,7 +15635,7 @@
     "description": "N/A",
     "epss": 0
   },
-  "CVE-2023-47039": {
+  "CVE-2023-47038": {
     "cvss3": 0,
     "severity": null,
     "epss_severity": null,
