@@ -161,7 +161,7 @@
 
 
 <body>
-Updated at UTC 2024-01-01T12:19:16.804155
+Updated at UTC 2024-01-01T12:50:28.019493
 
 <p><a target=_blank href=https://github.com/fedisecfeeds/fedisecfeeds.github.io/blob/main/fedi_cve_feed.json>Access data as JSON</a></p>
 
@@ -901,6 +901,24 @@ It's due to XML-RPC no longer maintaine</td>
 
 		
 		<tr>
+			<td><a class="HIGH" href="#CVE-2023-33106">CVE-2023-33106</a></td>
+
+			<td class=HIGH> 7.8 </td>
+
+			
+				<td class=LOW>0.06%</td>
+			
+
+			<td>2</td>
+			
+				<td>Memory corruption while submitting a large list of sync points in an AUX command</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
 			<td><a class="HIGH" href="#CVE-2023-33063">CVE-2023-33063</a></td>
 
 			<td class=HIGH> 7.8 </td>
@@ -930,24 +948,6 @@ It's due to XML-RPC no longer maintaine</td>
 			<td>2</td>
 			
 				<td>Memory corruption in Graphics Linux while assigning shared virtual memory region</td>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<td><a class="HIGH" href="#CVE-2023-33106">CVE-2023-33106</a></td>
-
-			<td class=HIGH> 7.8 </td>
-
-			
-				<td class=LOW>0.06%</td>
-			
-
-			<td>2</td>
-			
-				<td>Memory corruption while submitting a large list of sync points in an AUX command</td>
 			
 
 		</tr>
@@ -1225,24 +1225,6 @@ It's due to XML-RPC no longer maintaine</td>
 
 		
 		<tr>
-			<td><a class="HIGH" href="#CVE-2023-45777">CVE-2023-45777</a></td>
-
-			<td class=HIGH> 7.8 </td>
-
-			
-				<td class=LOW>0.04%</td>
-			
-
-			<td>2</td>
-			
-				<td>In checkKeyIntentParceledCorrectly of AccountManagerService.java, there is a pos</td>
-			
-
-		</tr>
-
-
-		
-		<tr>
 			<td><a class="HIGH" href="#CVE-2023-20944">CVE-2023-20944</a></td>
 
 			<td class=HIGH> 7.8 </td>
@@ -1254,6 +1236,24 @@ It's due to XML-RPC no longer maintaine</td>
 			<td>2</td>
 			
 				<td>In run of ChooseTypeAndAccountActivity.java, there is a possible escalation of p</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="HIGH" href="#CVE-2023-45777">CVE-2023-45777</a></td>
+
+			<td class=HIGH> 7.8 </td>
+
+			
+				<td class=LOW>0.04%</td>
+			
+
+			<td>2</td>
+			
+				<td>In checkKeyIntentParceledCorrectly of AccountManagerService.java, there is a pos</td>
 			
 
 		</tr>
@@ -1557,24 +1557,6 @@ EuroTel ETL3100 versions v01c01 and v01x37 does not limit the number of attempt<
 
 
 EuroTel ETL3100 versions v01c01 and v01x37 are vulnerable to insecure direc</td>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<td><a class="None" href="#CVE-2023-49954">CVE-2023-49954</a></td>
-
-			<td class=None> 0 </td>
-
-			
-				<td class=None>0.00%</td>
-			
-
-			<td>2</td>
-			
-				<td>The CRM Integration in 3CX before 18.0.9.23 and 20 before 20.0.0.1494 allows SQL</td>
 			
 
 		</tr>
@@ -5810,6 +5792,94 @@ attack-abused-undocumented-hardware-feature/)
 	</div>
 	
 
+	<div class="cve" id="CVE-2023-33106">
+
+			
+		
+		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-33106>CVE-2023-33106</a><br>(7.8 HIGH)</h3>
+		
+
+		
+		<h4 class=epss>EPSS: 0.06%</h4>
+		
+
+		<p class=numposts>2 posts</p>
+
+		<p class=description>
+		 
+		 		<th>Memory corruption while submitting a large list of sync points in an AUX command to the IOCTL_KGSL_GPU_AUX_COMMAND.</th>
+		 	
+
+		</p>
+		
+		
+
+		<div class="posts">
+
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111652726621557161>at 2023-12-27T13:56:43.773Z</a>
+<md-block>
+
+
+This wasn't advertised on Mastodon, but **Google Project Zero** published root
+cause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds
+write, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer
+overflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as
+exploited zero-days.  
+🔗 [https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-33106.html) and
+[https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-33107.html)
+
+Note for [@maddiestone](https://infosec.exchange/@maddiestone):
+[https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to
+CVE-2023-33063 in the [0day "in the
+Wild"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)
+Google Sheet.
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111652726621557161>at 2023-12-27T13:56:43.000Z</a>
+<md-block>
+
+
+This wasn't advertised on Mastodon, but **Google Project Zero** published root
+cause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds
+write, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer
+overflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as
+exploited zero-days.  
+🔗 [https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-33106.html) and
+[https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-33107.html)
+
+Note for [@maddiestone](https://infosec.exchange/@maddiestone):
+[https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to
+CVE-2023-33063 in the [0day "in the
+Wild"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)
+Google Sheet.
+
+
+</md-block>
+			<hr>
+			
+
+		</div>
+	</div>
+	
+
 	<div class="cve" id="CVE-2023-33063">
 
 			
@@ -5914,94 +5984,6 @@ Google Sheet.
 		<p class=description>
 		 
 		 		<th>Memory corruption in Graphics Linux while assigning shared virtual memory region during IOCTL call.</th>
-		 	
-
-		</p>
-		
-		
-
-		<div class="posts">
-
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111652726621557161>at 2023-12-27T13:56:43.773Z</a>
-<md-block>
-
-
-This wasn't advertised on Mastodon, but **Google Project Zero** published root
-cause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds
-write, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer
-overflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as
-exploited zero-days.  
-🔗 [https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-33106.html) and
-[https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-33107.html)
-
-Note for [@maddiestone](https://infosec.exchange/@maddiestone):
-[https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to
-CVE-2023-33063 in the [0day "in the
-Wild"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)
-Google Sheet.
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111652726621557161>at 2023-12-27T13:56:43.000Z</a>
-<md-block>
-
-
-This wasn't advertised on Mastodon, but **Google Project Zero** published root
-cause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds
-write, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer
-overflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as
-exploited zero-days.  
-🔗 [https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-33106.html) and
-[https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-33107.html)
-
-Note for [@maddiestone](https://infosec.exchange/@maddiestone):
-[https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to
-CVE-2023-33063 in the [0day "in the
-Wild"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)
-Google Sheet.
-
-
-</md-block>
-			<hr>
-			
-
-		</div>
-	</div>
-	
-
-	<div class="cve" id="CVE-2023-33106">
-
-			
-		
-		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-33106>CVE-2023-33106</a><br>(7.8 HIGH)</h3>
-		
-
-		
-		<h4 class=epss>EPSS: 0.06%</h4>
-		
-
-		<p class=numposts>2 posts</p>
-
-		<p class=description>
-		 
-		 		<th>Memory corruption while submitting a large list of sync points in an AUX command to the IOCTL_KGSL_GPU_AUX_COMMAND.</th>
 		 	
 
 		</p>
@@ -7284,11 +7266,11 @@ CVE-2023-45777)
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-45777">
+	<div class="cve" id="CVE-2023-20944">
 
 			
 		
-		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-45777>CVE-2023-45777</a><br>(7.8 HIGH)</h3>
+		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-20944>CVE-2023-20944</a><br>(7.8 HIGH)</h3>
 		
 
 		
@@ -7299,7 +7281,7 @@ CVE-2023-45777)
 
 		<p class=description>
 		 
-		 		<th>In checkKeyIntentParceledCorrectly of AccountManagerService.java, there is a possible way to launch arbitrary activities using system privileges due to Parcel Mismatch. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.</th>
+		 		<th>In run of ChooseTypeAndAccountActivity.java, there is a possible escalation of privilege due to unsafe deserialization. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-244154558</th>
 		 	
 
 		</p>
@@ -7354,11 +7336,11 @@ CVE-2023-45777)
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-20944">
+	<div class="cve" id="CVE-2023-45777">
 
 			
 		
-		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-20944>CVE-2023-20944</a><br>(7.8 HIGH)</h3>
+		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-45777>CVE-2023-45777</a><br>(7.8 HIGH)</h3>
 		
 
 		
@@ -7369,7 +7351,7 @@ CVE-2023-45777)
 
 		<p class=description>
 		 
-		 		<th>In run of ChooseTypeAndAccountActivity.java, there is a possible escalation of privilege due to unsafe deserialization. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-244154558</th>
+		 		<th>In checkKeyIntentParceledCorrectly of AccountManagerService.java, there is a possible way to launch arbitrary activities using system privileges due to Parcel Mismatch. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.</th>
 		 	
 
 		</p>
@@ -9654,70 +9636,6 @@ vulnerabilities._
 🔗 [https://www.cisa.gov/news-events/ics-
 advisories/icsa-23-353-05](https://www.cisa.gov/news-events/ics-
 advisories/icsa-23-353-05)
-
-
-</md-block>
-			<hr>
-			
-
-		</div>
-	</div>
-	
-
-	<div class="cve" id="CVE-2023-49954">
-
-			
-		
-		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-49954>CVE-2023-49954</a><br>(0 None)</h3>
-		
-
-		
-		<h4 class=epss>EPSS: 0.00%</h4>
-		
-
-		<p class=numposts>2 posts</p>
-
-		<p class=description>
-		 
-		 		<th>The CRM Integration in 3CX before 18.0.9.23 and 20 before 20.0.0.1494 allows SQL Injection via a first name, search string, or email address.</th>
-		 	
-
-		</p>
-		
-		
-
-		<div class="posts">
-
-			
-				<a target=_blank href=https://infosec.exchange/@jbhall56>jbhall56</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@jbhall56/111601433289773016>at 2023-12-18T12:32:09.641Z</a>
-<md-block>
-
-
-As shared today by 3CX CEO Nick Galea, the SQL injection flaw was discovered
-by independent security researcher Theo Stein in the 3CX CRM Integration and
-is now tracked as CVE-2023-49954.
-[https://www.bleepingcomputer.com/news/security/3cx-warns-customers-to-
-disable-sql-database-
-integrations/](https://www.bleepingcomputer.com/news/security/3cx-warns-
-customers-to-disable-sql-database-integrations/)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@jbhall56>jbhall56@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@jbhall56/111601433289773016>at 2023-12-18T12:32:09.000Z</a>
-<md-block>
-
-
-As shared today by 3CX CEO Nick Galea, the SQL injection flaw was discovered
-by independent security researcher Theo Stein in the 3CX CRM Integration and
-is now tracked as CVE-2023-49954.
-[https://www.bleepingcomputer.com/news/security/3cx-warns-customers-to-
-disable-sql-database-
-integrations/](https://www.bleepingcomputer.com/news/security/3cx-warns-
-customers-to-disable-sql-database-integrations/)
 
 
 </md-block>
