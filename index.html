@@ -161,7 +161,7 @@
 
 
 <body>
-Updated at UTC 2024-01-01T17:36:37.434923
+Updated at UTC 2024-01-01T18:14:31.487280
 
 <p><a target=_blank href=https://github.com/fedisecfeeds/fedisecfeeds.github.io/blob/main/fedi_cve_feed.json>Access data as JSON</a></p>
 
@@ -811,24 +811,6 @@ It's due to XML-RPC no longer maintaine</td>
 
 		
 		<tr>
-			<td><a class="HIGH" href="#CVE-2023-36710">CVE-2023-36710</a></td>
-
-			<td class=HIGH> 7.8 </td>
-
-			
-				<td class=LOW>0.11%</td>
-			
-
-			<td>2</td>
-			
-				<td>Windows Media Foundation Core Remote Code Execution Vulnerability</td>
-			
-
-		</tr>
-
-
-		
-		<tr>
 			<td><a class="HIGH" href="#CVE-2023-32435">CVE-2023-32435</a></td>
 
 			<td class=HIGH> 8.8 </td>
@@ -901,24 +883,6 @@ It's due to XML-RPC no longer maintaine</td>
 
 		
 		<tr>
-			<td><a class="HIGH" href="#CVE-2023-33107">CVE-2023-33107</a></td>
-
-			<td class=HIGH> 7.8 </td>
-
-			
-				<td class=LOW>0.06%</td>
-			
-
-			<td>2</td>
-			
-				<td>Memory corruption in Graphics Linux while assigning shared virtual memory region</td>
-			
-
-		</tr>
-
-
-		
-		<tr>
 			<td><a class="HIGH" href="#CVE-2023-33063">CVE-2023-33063</a></td>
 
 			<td class=HIGH> 7.8 </td>
@@ -955,9 +919,9 @@ It's due to XML-RPC no longer maintaine</td>
 
 		
 		<tr>
-			<td><a class="MEDIUM" href="#CVE-2023-35384">CVE-2023-35384</a></td>
+			<td><a class="HIGH" href="#CVE-2023-33107">CVE-2023-33107</a></td>
 
-			<td class=MEDIUM> 6.5 </td>
+			<td class=HIGH> 7.8 </td>
 
 			
 				<td class=LOW>0.06%</td>
@@ -965,7 +929,7 @@ It's due to XML-RPC no longer maintaine</td>
 
 			<td>2</td>
 			
-				<td>Windows HTML Platforms Security Feature Bypass Vulnerability</td>
+				<td>Memory corruption in Graphics Linux while assigning shared virtual memory region</td>
 			
 
 		</tr>
@@ -1495,6 +1459,25 @@ It's due to XML-RPC no longer maintaine</td>
 
 		
 		<tr>
+			<td><a class="CRITICAL" href="#CVE-2023-6928">CVE-2023-6928</a></td>
+
+			<td class=CRITICAL> 9.8 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>2</td>
+			
+				<td>
+EuroTel ETL3100 versions v01c01 and v01x37 does not limit the number of attempt</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
 			<td><a class="CRITICAL" href="#CVE-2023-6929">CVE-2023-6929</a></td>
 
 			<td class=CRITICAL> 9.8 </td>
@@ -1511,25 +1494,6 @@ It's due to XML-RPC no longer maintaine</td>
 
 
 EuroTel ETL3100 versions v01c01 and v01x37 are vulnerable to insecure direc</td>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<td><a class="CRITICAL" href="#CVE-2023-6928">CVE-2023-6928</a></td>
-
-			<td class=CRITICAL> 9.8 </td>
-
-			
-				<td class=None>0.00%</td>
-			
-
-			<td>2</td>
-			
-				<td>
-EuroTel ETL3100 versions v01c01 and v01x37 does not limit the number of attempt</td>
 			
 
 		</tr>
@@ -4793,84 +4757,6 @@ as root or using remote code execution like X11-over-SSH
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-36710">
-
-			
-		
-		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-36710>CVE-2023-36710</a><br>(7.8 HIGH)</h3>
-		
-
-		
-		<h4 class=epss>EPSS: 0.11%</h4>
-		
-
-		<p class=numposts>2 posts</p>
-
-		<p class=description>
-		 
-		 		<th>Windows Media Foundation Core Remote Code Execution Vulnerability</th>
-		 	
-
-		</p>
-		
-		
-
-		<div class="posts">
-
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111602756381055537>at 2023-12-18T18:08:38.413Z</a>
-<md-block>
-
-
- **Akamai** disclosed information on two vulnerabilities in Microsoft Windows.
-An attacker on the internet can chain the vulnerabilities together
-(CVE-2023-35384 and CVE-2023-36710) to create a full, zero-click remote code
-execution (RCE) exploit against Outlook clients.
-
-  * The first vulnerability lies in the parsing of a path by the MapUrlToZone function. Exploiting this vulnerability requires sending a crafted email to an Outlook client, which in turn will download a special sound file from an attacker-controlled server. CVE-2023-35384 (5.4 medium) Windows HTML Platforms Security Feature Bypass Vulnerability was fixed in August 2023 Patch Tuesday.
-  * The second vulnerability lies in the Audio Compression Manager (ACM). This vulnerability is exploited when the downloaded sound file is autoplayed, and it can lead to code execution on the victim machine. CVE-2023-36710 (7.8 high) Windows Media Foundation Core Remote Code Execution Vulnerability was patched in October 2023's Patch Tuesday.
-
-🔗 [https://www.akamai.com/blog/security-research/chaining-vulnerabilities-to-
-achieve-rce-part-one](https://www.akamai.com/blog/security-research/chaining-
-vulnerabilities-to-achieve-rce-part-one) and
-[https://www.akamai.com/blog/security-research/chaining-vulnerabilities-to-
-achieve-rce-part-two](https://www.akamai.com/blog/security-research/chaining-
-vulnerabilities-to-achieve-rce-part-two)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111602756381055537>at 2023-12-18T18:08:38.000Z</a>
-<md-block>
-
-
- **Akamai** disclosed information on two vulnerabilities in Microsoft Windows.
-An attacker on the internet can chain the vulnerabilities together
-(CVE-2023-35384 and CVE-2023-36710) to create a full, zero-click remote code
-execution (RCE) exploit against Outlook clients.
-
-  * The first vulnerability lies in the parsing of a path by the MapUrlToZone function. Exploiting this vulnerability requires sending a crafted email to an Outlook client, which in turn will download a special sound file from an attacker-controlled server. CVE-2023-35384 (5.4 medium) Windows HTML Platforms Security Feature Bypass Vulnerability was fixed in August 2023 Patch Tuesday.
-  * The second vulnerability lies in the Audio Compression Manager (ACM). This vulnerability is exploited when the downloaded sound file is autoplayed, and it can lead to code execution on the victim machine. CVE-2023-36710 (7.8 high) Windows Media Foundation Core Remote Code Execution Vulnerability was patched in October 2023's Patch Tuesday.
-
-🔗 [https://www.akamai.com/blog/security-research/chaining-vulnerabilities-to-
-achieve-rce-part-one](https://www.akamai.com/blog/security-research/chaining-
-vulnerabilities-to-achieve-rce-part-one) and
-[https://www.akamai.com/blog/security-research/chaining-vulnerabilities-to-
-achieve-rce-part-two](https://www.akamai.com/blog/security-research/chaining-
-vulnerabilities-to-achieve-rce-part-two)
-
-
-</md-block>
-			<hr>
-			
-
-		</div>
-	</div>
-	
-
 	<div class="cve" id="CVE-2023-32435">
 
 			
@@ -5792,94 +5678,6 @@ attack-abused-undocumented-hardware-feature/)
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-33107">
-
-			
-		
-		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-33107>CVE-2023-33107</a><br>(7.8 HIGH)</h3>
-		
-
-		
-		<h4 class=epss>EPSS: 0.06%</h4>
-		
-
-		<p class=numposts>2 posts</p>
-
-		<p class=description>
-		 
-		 		<th>Memory corruption in Graphics Linux while assigning shared virtual memory region during IOCTL call.</th>
-		 	
-
-		</p>
-		
-		
-
-		<div class="posts">
-
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111652726621557161>at 2023-12-27T13:56:43.773Z</a>
-<md-block>
-
-
-This wasn't advertised on Mastodon, but **Google Project Zero** published root
-cause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds
-write, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer
-overflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as
-exploited zero-days.  
-🔗 [https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-33106.html) and
-[https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-33107.html)
-
-Note for [@maddiestone](https://infosec.exchange/@maddiestone):
-[https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to
-CVE-2023-33063 in the [0day "in the
-Wild"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)
-Google Sheet.
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111652726621557161>at 2023-12-27T13:56:43.000Z</a>
-<md-block>
-
-
-This wasn't advertised on Mastodon, but **Google Project Zero** published root
-cause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds
-write, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer
-overflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as
-exploited zero-days.  
-🔗 [https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-33106.html) and
-[https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-33107.html)
-
-Note for [@maddiestone](https://infosec.exchange/@maddiestone):
-[https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to
-CVE-2023-33063 in the [0day "in the
-Wild"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)
-Google Sheet.
-
-
-</md-block>
-			<hr>
-			
-
-		</div>
-	</div>
-	
-
 	<div class="cve" id="CVE-2023-33063">
 
 			
@@ -6056,11 +5854,11 @@ Google Sheet.
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-35384">
+	<div class="cve" id="CVE-2023-33107">
 
 			
 		
-		<h3 class=MEDIUM><a class="MEDIUM" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-35384>CVE-2023-35384</a><br>(6.5 MEDIUM)</h3>
+		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-33107>CVE-2023-33107</a><br>(7.8 HIGH)</h3>
 		
 
 		
@@ -6071,7 +5869,7 @@ Google Sheet.
 
 		<p class=description>
 		 
-		 		<th>Windows HTML Platforms Security Feature Bypass Vulnerability</th>
+		 		<th>Memory corruption in Graphics Linux while assigning shared virtual memory region during IOCTL call.</th>
 		 	
 
 		</p>
@@ -6082,48 +5880,58 @@ Google Sheet.
 
 			
 				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111602756381055537>at 2023-12-18T18:08:38.413Z</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111652726621557161>at 2023-12-27T13:56:43.773Z</a>
 <md-block>
 
 
- **Akamai** disclosed information on two vulnerabilities in Microsoft Windows.
-An attacker on the internet can chain the vulnerabilities together
-(CVE-2023-35384 and CVE-2023-36710) to create a full, zero-click remote code
-execution (RCE) exploit against Outlook clients.
+This wasn't advertised on Mastodon, but **Google Project Zero** published root
+cause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds
+write, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer
+overflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as
+exploited zero-days.  
+🔗 [https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-33106.html) and
+[https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-33107.html)
 
-  * The first vulnerability lies in the parsing of a path by the MapUrlToZone function. Exploiting this vulnerability requires sending a crafted email to an Outlook client, which in turn will download a special sound file from an attacker-controlled server. CVE-2023-35384 (5.4 medium) Windows HTML Platforms Security Feature Bypass Vulnerability was fixed in August 2023 Patch Tuesday.
-  * The second vulnerability lies in the Audio Compression Manager (ACM). This vulnerability is exploited when the downloaded sound file is autoplayed, and it can lead to code execution on the victim machine. CVE-2023-36710 (7.8 high) Windows Media Foundation Core Remote Code Execution Vulnerability was patched in October 2023's Patch Tuesday.
-
-🔗 [https://www.akamai.com/blog/security-research/chaining-vulnerabilities-to-
-achieve-rce-part-one](https://www.akamai.com/blog/security-research/chaining-
-vulnerabilities-to-achieve-rce-part-one) and
-[https://www.akamai.com/blog/security-research/chaining-vulnerabilities-to-
-achieve-rce-part-two](https://www.akamai.com/blog/security-research/chaining-
-vulnerabilities-to-achieve-rce-part-two)
+Note for [@maddiestone](https://infosec.exchange/@maddiestone):
+[https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to
+CVE-2023-33063 in the [0day "in the
+Wild"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)
+Google Sheet.
 
 
 </md-block>
 			<hr>
 			
 				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111602756381055537>at 2023-12-18T18:08:38.000Z</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111652726621557161>at 2023-12-27T13:56:43.000Z</a>
 <md-block>
 
 
- **Akamai** disclosed information on two vulnerabilities in Microsoft Windows.
-An attacker on the internet can chain the vulnerabilities together
-(CVE-2023-35384 and CVE-2023-36710) to create a full, zero-click remote code
-execution (RCE) exploit against Outlook clients.
+This wasn't advertised on Mastodon, but **Google Project Zero** published root
+cause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds
+write, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer
+overflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as
+exploited zero-days.  
+🔗 [https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-33106.html) and
+[https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-33107.html)
 
-  * The first vulnerability lies in the parsing of a path by the MapUrlToZone function. Exploiting this vulnerability requires sending a crafted email to an Outlook client, which in turn will download a special sound file from an attacker-controlled server. CVE-2023-35384 (5.4 medium) Windows HTML Platforms Security Feature Bypass Vulnerability was fixed in August 2023 Patch Tuesday.
-  * The second vulnerability lies in the Audio Compression Manager (ACM). This vulnerability is exploited when the downloaded sound file is autoplayed, and it can lead to code execution on the victim machine. CVE-2023-36710 (7.8 high) Windows Media Foundation Core Remote Code Execution Vulnerability was patched in October 2023's Patch Tuesday.
-
-🔗 [https://www.akamai.com/blog/security-research/chaining-vulnerabilities-to-
-achieve-rce-part-one](https://www.akamai.com/blog/security-research/chaining-
-vulnerabilities-to-achieve-rce-part-one) and
-[https://www.akamai.com/blog/security-research/chaining-vulnerabilities-to-
-achieve-rce-part-two](https://www.akamai.com/blog/security-research/chaining-
-vulnerabilities-to-achieve-rce-part-two)
+Note for [@maddiestone](https://infosec.exchange/@maddiestone):
+[https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to
+CVE-2023-33063 in the [0day "in the
+Wild"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)
+Google Sheet.
 
 
 </md-block>
@@ -9395,11 +9203,11 @@ exploited.
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-6929">
+	<div class="cve" id="CVE-2023-6928">
 
 			
 		
-		<h3 class=CRITICAL><a class="CRITICAL" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-6929>CVE-2023-6929</a><br>(9.8 CRITICAL)</h3>
+		<h3 class=CRITICAL><a class="CRITICAL" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-6928>CVE-2023-6928</a><br>(9.8 CRITICAL)</h3>
 		
 
 		
@@ -9411,14 +9219,7 @@ exploited.
 		<p class=description>
 		 
 		 		<th>
-
-
-
-
-EuroTel ETL3100 versions v01c01 and v01x37 are vulnerable to insecure direct object references that occur when the application provides direct access to objects based on user-supplied input. As a result of this vulnerability, attackers can bypass authorization, access the hidden resources on the system, and execute privileged functionalities.
-
-
-
+EuroTel ETL3100 versions v01c01 and v01x37 does not limit the number of attempts to guess administrative credentials in remote password attacks to gain full control of the system.
 
 
 
@@ -9486,11 +9287,11 @@ advisories/icsa-23-353-05)
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-6928">
+	<div class="cve" id="CVE-2023-6929">
 
 			
 		
-		<h3 class=CRITICAL><a class="CRITICAL" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-6928>CVE-2023-6928</a><br>(9.8 CRITICAL)</h3>
+		<h3 class=CRITICAL><a class="CRITICAL" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-6929>CVE-2023-6929</a><br>(9.8 CRITICAL)</h3>
 		
 
 		
@@ -9502,7 +9303,14 @@ advisories/icsa-23-353-05)
 		<p class=description>
 		 
 		 		<th>
-EuroTel ETL3100 versions v01c01 and v01x37 does not limit the number of attempts to guess administrative credentials in remote password attacks to gain full control of the system.
+
+
+
+
+EuroTel ETL3100 versions v01c01 and v01x37 are vulnerable to insecure direct object references that occur when the application provides direct access to objects based on user-supplied input. As a result of this vulnerability, attackers can bypass authorization, access the hidden resources on the system, and execute privileged functionalities.
+
+
+
 
 
 
