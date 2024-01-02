@@ -161,7 +161,7 @@
 
 
 <body>
-Updated at UTC 2024-01-02T09:12:38.808544
+Updated at UTC 2024-01-02T09:36:42.381292
 
 <p><a target=_blank href=https://github.com/fedisecfeeds/fedisecfeeds.github.io/blob/main/fedi_cve_feed.json>Access data as JSON</a></p>
 
@@ -883,6 +883,24 @@ It's due to XML-RPC no longer maintaine</td>
 
 		
 		<tr>
+			<td><a class="HIGH" href="#CVE-2023-33063">CVE-2023-33063</a></td>
+
+			<td class=HIGH> 7.8 </td>
+
+			
+				<td class=LOW>0.06%</td>
+			
+
+			<td>2</td>
+			
+				<td>Memory corruption in DSP Services during a remote call from HLOS to DSP.</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
 			<td><a class="HIGH" href="#CVE-2023-33106">CVE-2023-33106</a></td>
 
 			<td class=HIGH> 7.8 </td>
@@ -912,24 +930,6 @@ It's due to XML-RPC no longer maintaine</td>
 			<td>2</td>
 			
 				<td>Memory corruption in Graphics Linux while assigning shared virtual memory region</td>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<td><a class="HIGH" href="#CVE-2023-33063">CVE-2023-33063</a></td>
-
-			<td class=HIGH> 7.8 </td>
-
-			
-				<td class=LOW>0.06%</td>
-			
-
-			<td>2</td>
-			
-				<td>Memory corruption in DSP Services during a remote call from HLOS to DSP.</td>
 			
 
 		</tr>
@@ -1153,7 +1153,7 @@ It's due to XML-RPC no longer maintaine</td>
 
 		
 		<tr>
-			<td><a class="HIGH" href="#CVE-2023-45777">CVE-2023-45777</a></td>
+			<td><a class="HIGH" href="#CVE-2023-20944">CVE-2023-20944</a></td>
 
 			<td class=HIGH> 7.8 </td>
 
@@ -1163,7 +1163,7 @@ It's due to XML-RPC no longer maintaine</td>
 
 			<td>2</td>
 			
-				<td>In checkKeyIntentParceledCorrectly of AccountManagerService.java, there is a pos</td>
+				<td>In run of ChooseTypeAndAccountActivity.java, there is a possible escalation of p</td>
 			
 
 		</tr>
@@ -1189,7 +1189,7 @@ It's due to XML-RPC no longer maintaine</td>
 
 		
 		<tr>
-			<td><a class="HIGH" href="#CVE-2023-20944">CVE-2023-20944</a></td>
+			<td><a class="HIGH" href="#CVE-2023-45777">CVE-2023-45777</a></td>
 
 			<td class=HIGH> 7.8 </td>
 
@@ -1199,7 +1199,7 @@ It's due to XML-RPC no longer maintaine</td>
 
 			<td>2</td>
 			
-				<td>In run of ChooseTypeAndAccountActivity.java, there is a possible escalation of p</td>
+				<td>In checkKeyIntentParceledCorrectly of AccountManagerService.java, there is a pos</td>
 			
 
 		</tr>
@@ -1243,6 +1243,24 @@ It's due to XML-RPC no longer maintaine</td>
 
 		
 		<tr>
+			<td><a class="MEDIUM" href="#CVE-2023-48795">CVE-2023-48795</a></td>
+
+			<td class=MEDIUM> 5.9 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>26</td>
+			
+				<td>The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH bef</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
 			<td><a class="None" href="#CVE-2023-7101">CVE-2023-7101</a></td>
 
 			<td class=None> 0 </td>
@@ -1254,24 +1272,6 @@ It's due to XML-RPC no longer maintaine</td>
 			<td>13</td>
 			
 				<td>Spreadsheet::ParseExcel version 0.65 is a Perl module used for parsing Excel fil</td>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<td><a class="MEDIUM" href="#CVE-2023-48795">CVE-2023-48795</a></td>
-
-			<td class=MEDIUM> 5.9 </td>
-
-			
-				<td class=None>0.00%</td>
-			
-
-			<td>16</td>
-			
-				<td>The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH bef</td>
 			
 
 		</tr>
@@ -5590,6 +5590,94 @@ attack-abused-undocumented-hardware-feature/)
 	</div>
 	
 
+	<div class="cve" id="CVE-2023-33063">
+
+			
+		
+		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-33063>CVE-2023-33063</a><br>(7.8 HIGH)</h3>
+		
+
+		
+		<h4 class=epss>EPSS: 0.06%</h4>
+		
+
+		<p class=numposts>2 posts</p>
+
+		<p class=description>
+		 
+		 		<th>Memory corruption in DSP Services during a remote call from HLOS to DSP.</th>
+		 	
+
+		</p>
+		
+		
+
+		<div class="posts">
+
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111652726621557161>at 2023-12-27T13:56:43.773Z</a>
+<md-block>
+
+
+This wasn't advertised on Mastodon, but **Google Project Zero** published root
+cause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds
+write, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer
+overflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as
+exploited zero-days.  
+🔗 [https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-33106.html) and
+[https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-33107.html)
+
+Note for [@maddiestone](https://infosec.exchange/@maddiestone):
+[https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to
+CVE-2023-33063 in the [0day "in the
+Wild"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)
+Google Sheet.
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111652726621557161>at 2023-12-27T13:56:43.000Z</a>
+<md-block>
+
+
+This wasn't advertised on Mastodon, but **Google Project Zero** published root
+cause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds
+write, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer
+overflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as
+exploited zero-days.  
+🔗 [https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-33106.html) and
+[https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-33107.html)
+
+Note for [@maddiestone](https://infosec.exchange/@maddiestone):
+[https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to
+CVE-2023-33063 in the [0day "in the
+Wild"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)
+Google Sheet.
+
+
+</md-block>
+			<hr>
+			
+
+		</div>
+	</div>
+	
+
 	<div class="cve" id="CVE-2023-33106">
 
 			
@@ -5694,94 +5782,6 @@ Google Sheet.
 		<p class=description>
 		 
 		 		<th>Memory corruption in Graphics Linux while assigning shared virtual memory region during IOCTL call.</th>
-		 	
-
-		</p>
-		
-		
-
-		<div class="posts">
-
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111652726621557161>at 2023-12-27T13:56:43.773Z</a>
-<md-block>
-
-
-This wasn't advertised on Mastodon, but **Google Project Zero** published root
-cause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds
-write, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer
-overflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as
-exploited zero-days.  
-🔗 [https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-33106.html) and
-[https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-33107.html)
-
-Note for [@maddiestone](https://infosec.exchange/@maddiestone):
-[https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to
-CVE-2023-33063 in the [0day "in the
-Wild"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)
-Google Sheet.
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111652726621557161>at 2023-12-27T13:56:43.000Z</a>
-<md-block>
-
-
-This wasn't advertised on Mastodon, but **Google Project Zero** published root
-cause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds
-write, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer
-overflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as
-exploited zero-days.  
-🔗 [https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-33106.html) and
-[https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-33107.html)
-
-Note for [@maddiestone](https://infosec.exchange/@maddiestone):
-[https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to
-CVE-2023-33063 in the [0day "in the
-Wild"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)
-Google Sheet.
-
-
-</md-block>
-			<hr>
-			
-
-		</div>
-	</div>
-	
-
-	<div class="cve" id="CVE-2023-33063">
-
-			
-		
-		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-33063>CVE-2023-33063</a><br>(7.8 HIGH)</h3>
-		
-
-		
-		<h4 class=epss>EPSS: 0.06%</h4>
-		
-
-		<p class=numposts>2 posts</p>
-
-		<p class=description>
-		 
-		 		<th>Memory corruption in DSP Services during a remote call from HLOS to DSP.</th>
 		 	
 
 		</p>
@@ -6858,11 +6858,11 @@ required a new kernel.
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-45777">
+	<div class="cve" id="CVE-2023-20944">
 
 			
 		
-		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-45777>CVE-2023-45777</a><br>(7.8 HIGH)</h3>
+		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-20944>CVE-2023-20944</a><br>(7.8 HIGH)</h3>
 		
 
 		
@@ -6873,7 +6873,7 @@ required a new kernel.
 
 		<p class=description>
 		 
-		 		<th>In checkKeyIntentParceledCorrectly of AccountManagerService.java, there is a possible way to launch arbitrary activities using system privileges due to Parcel Mismatch. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.</th>
+		 		<th>In run of ChooseTypeAndAccountActivity.java, there is a possible escalation of privilege due to unsafe deserialization. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-244154558</th>
 		 	
 
 		</p>
@@ -6998,11 +6998,11 @@ CVE-2023-45777)
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-20944">
+	<div class="cve" id="CVE-2023-45777">
 
 			
 		
-		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-20944>CVE-2023-20944</a><br>(7.8 HIGH)</h3>
+		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-45777>CVE-2023-45777</a><br>(7.8 HIGH)</h3>
 		
 
 		
@@ -7013,7 +7013,7 @@ CVE-2023-45777)
 
 		<p class=description>
 		 
-		 		<th>In run of ChooseTypeAndAccountActivity.java, there is a possible escalation of privilege due to unsafe deserialization. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-244154558</th>
+		 		<th>In checkKeyIntentParceledCorrectly of AccountManagerService.java, there is a possible way to launch arbitrary activities using system privileges due to Parcel Mismatch. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.</th>
 		 	
 
 		</p>
@@ -7434,316 +7434,6 @@ vulnerability](https://www.barracuda.com/company/legal/esg-vulnerability)
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-7101">
-
-			
-		
-		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-7101>CVE-2023-7101</a><br>(0 None)</h3>
-		
-
-		
-		<h4 class=epss>EPSS: 0.00%</h4>
-		
-
-		<p class=numposts>13 posts</p>
-
-		<p class=description>
-		 
-		 		<th>Spreadsheet::ParseExcel version 0.65 is a Perl module used for parsing Excel files. Spreadsheet::ParseExcel is vulnerable to an arbitrary code execution (ACE) vulnerability due to passing unvalidated input from a file into a string-type “eval”. Specifically, the issue stems from the evaluation of Number format strings (not to be confused with printf-style format strings) within the Excel parsing l</th>
-		 	
-
-		</p>
-		
-		
-
-		<div class="posts">
-
-			
-				<a target=_blank href=https://infosec.exchange/@barubary>barubary</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@barubary/111661095124459368>at 2023-12-29T01:24:56.992Z</a>
-<md-block>
-
-
-Nice to see the security issue in Spreadsheet::ParseExcel got fixed (thanks,
-[@jmcnamara](https://hachyderm.io/@jmcnamara) ):
-[https://metacpan.org/release/JMCNAMARA/Spreadsheet-
-ParseExcel-0.66/changes](https://metacpan.org/release/JMCNAMARA/Spreadsheet-
-ParseExcel-0.66/changes)  
-[#perl](https://infosec.exchange/tags/perl)
-[#CVE_2023_7101](https://infosec.exchange/tags/CVE_2023_7101)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@barubary>barubary@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@barubary/111661095124459368>at 2023-12-29T01:24:56.000Z</a>
-<md-block>
-
-
-Nice to see the security issue in Spreadsheet::ParseExcel got fixed (thanks,
-[@jmcnamara](https://hachyderm.io/@jmcnamara) ):
-[https://metacpan.org/release/JMCNAMARA/Spreadsheet-
-ParseExcel-0.66/changes](https://metacpan.org/release/JMCNAMARA/Spreadsheet-
-ParseExcel-0.66/changes)  
-[#perl](https://infosec.exchange/tags/perl)
-[#CVE_2023_7101](https://infosec.exchange/tags/CVE_2023_7101)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@barubary>barubary</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@barubary/111661095124459368>at 2023-12-29T01:24:56.992Z</a>
-<md-block>
-
-
-Nice to see the security issue in Spreadsheet::ParseExcel got fixed (thanks,
-[@jmcnamara](https://hachyderm.io/@jmcnamara) ):
-[https://metacpan.org/release/JMCNAMARA/Spreadsheet-
-ParseExcel-0.66/changes](https://metacpan.org/release/JMCNAMARA/Spreadsheet-
-ParseExcel-0.66/changes)  
-[#perl](https://infosec.exchange/tags/perl)
-[#CVE_2023_7101](https://infosec.exchange/tags/CVE_2023_7101)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@barubary>barubary@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@barubary/111661095124459368>at 2023-12-29T01:24:56.000Z</a>
-<md-block>
-
-
-Nice to see the security issue in Spreadsheet::ParseExcel got fixed (thanks,
-[@jmcnamara](https://hachyderm.io/@jmcnamara) ):
-[https://metacpan.org/release/JMCNAMARA/Spreadsheet-
-ParseExcel-0.66/changes](https://metacpan.org/release/JMCNAMARA/Spreadsheet-
-ParseExcel-0.66/changes)  
-[#perl](https://infosec.exchange/tags/perl)
-[#CVE_2023_7101](https://infosec.exchange/tags/CVE_2023_7101)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://fosstodon.org/@nuddlegg>nuddlegg@fosstodon.org</a>
-				<a class=posturl target=_blank href=https://fosstodon.org/@nuddlegg/111662681635795555>at 2023-12-29T08:08:25.000Z</a>
-<md-block>
-
-
-Thanks for fixing the arbitrary code execution bug reported in CVE-2023-7101.
-👍
-
-Yet memory bombing your server is still possible: see
-[https://github.com/haile01/perl_spreadsheet_excel_rce_poc](https://github.com/haile01/perl_spreadsheet_excel_rce_poc)
-👎
-
-[#perl](https://fosstodon.org/tags/perl)
-[#cve](https://fosstodon.org/tags/cve)
-[#security](https://fosstodon.org/tags/security)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111660071195827152>at 2023-12-28T21:04:33.081Z</a>
-<md-block>
-
-
-[@nuddlegg](https://fosstodon.org/@nuddlegg) Le Dinh Hai provided the proof of
-concept for CVE-2023-7101 back in March 2023:
-[https://github.com/haile01/perl_spreadsheet_excel_rce_poc/tree/main](https://github.com/haile01/perl_spreadsheet_excel_rce_poc/tree/main)
-
-As [@0x009AD6_810](https://infosec.exchange/@0x009AD6_810) noted in a
-[tweet](https://twitter.com/0x009AD6_810/status/1740034318205178024),
-"CVE-2023-7101 was discovered in ESG and probably weaponized as an exploit +
-payload."
-
-Barracuda noted that this vulnerability was exploited against their ESG
-Appliance: [https://www.barracuda.com/company/legal/esg-
-vulnerability](https://www.barracuda.com/company/legal/esg-vulnerability)
-
-A question arises: Should CVE-2023-7101 also be added to CISA's Known
-Exploited Vulnerabilities Catalog when CVE-2023-7102 (the identical
-vulnerability introduced to a Barracuda product) was confirmed to be
-exploited?
-
-CISA won't add an exploited vulnerability to its Catalog if there isn't a
-clear remediation action for the vulnerability, such as a vendor-provided
-update.
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://fosstodon.org/@nuddlegg>nuddlegg@fosstodon.org</a>
-				<a class=posturl target=_blank href=https://fosstodon.org/@nuddlegg/111657499373549716>at 2023-12-28T10:10:30.000Z</a>
-<md-block>
-
-
-Here is a quick fix for CVE-2023-7101 adressing the unconditional use of eval
-in Spreadsheet::ParseExcel
-
-[https://github.com/runrig/spreadsheet-
-parseexcel/issues/33#issuecomment-1871011633](https://github.com/runrig/spreadsheet-
-parseexcel/issues/33#issuecomment-1871011633)
-
-Note that this perl lib still has got more unfixed issues allowing to create a
-memory bomb crashing your server as reported by Le Dinh Hai. Worth another CVE
-actually.
-
-[#perl](https://fosstodon.org/tags/perl)
-[#security](https://fosstodon.org/tags/security)
-[#cve](https://fosstodon.org/tags/cve)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@h4sh>h4sh</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@h4sh/111644874505384656>at 2023-12-26T04:39:49.987Z</a>
-<md-block>
-
-
-[@campuscodi](https://mastodon.social/@campuscodi) Both CVEs are filed for the
-same bug, which is worth nothing. Barracuda has patched that bug in its ESG
-product
-
-CVE-2023-7102 is the patched CVE (as in, Barracuda patched the usage* of the
-library within its ESG appliance), without patching the bug itself in the
-upstream library, which is tracked as CVE-2023-7101
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111644214005160446>at 2023-12-26T01:51:51.555Z</a>
-<md-block>
-
-
-Merry Christmas from Mandiant: CVE-2023-7101 is an arbitrary code execution
-bug in Spreadsheet::ParseExcel version 0.65 that has no patch at this time.
-EDIT: Barracuda tracks the same flaw as CVE-2023-7102 in Barracuda ESG
-Appliance. CVE-2023-7102 was exploited as a zero-day by a Chinese threat actor
-UNC4841. Root cause of the exploitation comes from calling eval to an
-unvalidated user input in Utility.pm. IOC provided in Barracuda security
-advisory.  
-🔗
-
-  * [https://www.barracuda.com/company/legal/esg-vulnerability](https://www.barracuda.com/company/legal/esg-vulnerability)
-  * [https://www.cve.org/CVERecord?id=CVE-2023-7101](https://www.cve.org/CVERecord?id=CVE-2023-7101)
-  * [https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2023/MNDT-2023-0019.md](https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2023/MNDT-2023-0019.md)
-
-cc: [@todb](https://infosec.exchange/@todb)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111660071195827152>at 2023-12-28T21:04:33.000Z</a>
-<md-block>
-
-
-[@nuddlegg](https://fosstodon.org/@nuddlegg) Le Dinh Hai provided the proof of
-concept for CVE-2023-7101 back in March 2023:
-[https://github.com/haile01/perl_spreadsheet_excel_rce_poc/tree/main](https://github.com/haile01/perl_spreadsheet_excel_rce_poc/tree/main)
-
-As [@0x009AD6_810](https://infosec.exchange/@0x009AD6_810) noted in a
-[tweet](https://twitter.com/0x009AD6_810/status/1740034318205178024),
-"CVE-2023-7101 was discovered in ESG and probably weaponized as an exploit +
-payload."
-
-Barracuda noted that this vulnerability was exploited against their ESG
-Appliance: [https://www.barracuda.com/company/legal/esg-
-vulnerability](https://www.barracuda.com/company/legal/esg-vulnerability)
-
-A question arises: Should CVE-2023-7101 also be added to CISA's Known
-Exploited Vulnerabilities Catalog when CVE-2023-7102 (the identical
-vulnerability introduced to a Barracuda product) was confirmed to be
-exploited?
-
-CISA won't add an exploited vulnerability to its Catalog if there isn't a
-clear remediation action for the vulnerability, such as a vendor-provided
-update.
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://fosstodon.org/@nuddlegg>nuddlegg@fosstodon.org</a>
-				<a class=posturl target=_blank href=https://fosstodon.org/@nuddlegg/111657499373549716>at 2023-12-28T10:10:30.000Z</a>
-<md-block>
-
-
-Here is a quick fix for CVE-2023-7101 addressing the unconditional use of eval
-in Spreadsheet::ParseExcel
-
-[https://github.com/runrig/spreadsheet-
-parseexcel/issues/33#issuecomment-1871011633](https://github.com/runrig/spreadsheet-
-parseexcel/issues/33#issuecomment-1871011633)
-
-Note that this perl lib still has got more unfixed issues allowing to create a
-memory bomb crashing your server as reported by Le Dinh Hai. Worth another CVE
-actually.
-
-[#perl](https://fosstodon.org/tags/perl)
-[#security](https://fosstodon.org/tags/security)
-[#cve](https://fosstodon.org/tags/cve)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@h4sh>h4sh@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@h4sh/111644874505384656>at 2023-12-26T04:39:49.000Z</a>
-<md-block>
-
-
-[@campuscodi](https://mastodon.social/@campuscodi) Both CVEs are filed for the
-same bug, which is worth nothing. Barracuda has patched that bug in its ESG
-product
-
-CVE-2023-7102 is the patched CVE (as in, Barracuda patched the usage* of the
-library within its ESG appliance), without patching the bug itself in the
-upstream library, which is tracked as CVE-2023-7101
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111644214005160446>at 2023-12-26T01:51:51.000Z</a>
-<md-block>
-
-
-Merry Christmas from Mandiant: CVE-2023-7101 is an arbitrary code execution
-bug in Spreadsheet::ParseExcel version 0.65 that has no patch at this time.
-EDIT: Barracuda tracks the same flaw as CVE-2023-7102 in Barracuda ESG
-Appliance. CVE-2023-7102 was exploited as a zero-day by a Chinese threat actor
-UNC4841. Root cause of the exploitation comes from calling eval to an
-unvalidated user input in Utility.pm. IOC provided in Barracuda security
-advisory.  
-🔗
-
-  * [https://www.barracuda.com/company/legal/esg-vulnerability](https://www.barracuda.com/company/legal/esg-vulnerability)
-  * [https://www.cve.org/CVERecord?id=CVE-2023-7101](https://www.cve.org/CVERecord?id=CVE-2023-7101)
-  * [https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2023/MNDT-2023-0019.md](https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2023/MNDT-2023-0019.md)
-
-cc: [@todb](https://infosec.exchange/@todb)
-
-
-</md-block>
-			<hr>
-			
-
-		</div>
-	</div>
-	
-
 	<div class="cve" id="CVE-2023-48795">
 
 			
@@ -7755,7 +7445,7 @@ cc: [@todb](https://infosec.exchange/@todb)
 		<h4 class=epss>EPSS: 0.00%</h4>
 		
 
-		<p class=numposts>16 posts</p>
+		<p class=numposts>26 posts</p>
 
 		<p class=description>
 		 
@@ -7768,6 +7458,276 @@ cc: [@todb](https://infosec.exchange/@todb)
 
 		<div class="posts">
 
+			
+				<a target=_blank href=https://infosec.exchange/@domainlabsk>domainlabsk</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@domainlabsk/111685661072119935>at 2024-01-02T09:32:23.606Z</a>
+<md-block>
+
+
+U mna novorocna aktualizacia [#SSH](https://infosec.exchange/tags/SSH) 🪲
+
+"Bezpečnostní výskumníci z Ruhr University Bochum objavili zraniteľnosť v
+kryptografickom sieťovom protokole Secure Shell (SSH), ktorá môže útočníkovi
+umožniť znížiť bezpečnosť pripojenia."
+[#cve](https://infosec.exchange/tags/cve)
+[#cve202348795](https://infosec.exchange/tags/cve202348795)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://chaos.social/@jrt>jrt@chaos.social</a>
+				<a class=posturl target=_blank href=https://chaos.social/@jrt/111611878221025809>at 2023-12-20T08:48:26.000Z</a>
+<md-block>
+
+
+"[#Terrapin](https://chaos.social/tags/Terrapin) is a prefix truncation attack
+targeting the [#SSH](https://chaos.social/tags/SSH) protocol. More precisely,
+Terrapin breaks the integrity of SSH's secure channel. By carefully adjusting
+the sequence numbers during the handshake, an attacker can remove an arbitrary
+amount of messages sent by the client or server at the beginning of the secure
+channel without the client or server noticing it."  
+[https://terrapin-attack.com/](https://terrapin-attack.com/)
+
+They also provide a scanner:  
+[https://github.com/RUB-NDS/Terrapin-Scanner/](https://github.com/RUB-
+NDS/Terrapin-Scanner/)
+
+[#CVE202348795](https://chaos.social/tags/CVE202348795)  
+[#CVE202346445](https://chaos.social/tags/CVE202346445)  
+[#CVE202346446](https://chaos.social/tags/CVE202346446)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://chaos.social/@jrt>jrt@chaos.social</a>
+				<a class=posturl target=_blank href=https://chaos.social/@jrt/111611878221025809>at 2023-12-20T08:48:26.000Z</a>
+<md-block>
+
+
+"[#Terrapin](https://chaos.social/tags/Terrapin) is a prefix truncation attack
+targeting the [#SSH](https://chaos.social/tags/SSH) protocol. More precisely,
+Terrapin breaks the integrity of SSH's secure channel. By carefully adjusting
+the sequence numbers during the handshake, an attacker can remove an arbitrary
+amount of messages sent by the client or server at the beginning of the secure
+channel without the client or server noticing it."  
+[https://terrapin-attack.com/](https://terrapin-attack.com/)
+
+They also provide a scanner:  
+[https://github.com/RUB-NDS/Terrapin-Scanner/](https://github.com/RUB-
+NDS/Terrapin-Scanner/)
+
+[#CVE202348795](https://chaos.social/tags/CVE202348795)  
+[#CVE202346445](https://chaos.social/tags/CVE202346445)  
+[#CVE202346446](https://chaos.social/tags/CVE202346446)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://tech.lgbt/@parvXtl>parvXtl@tech.lgbt</a>
+				<a class=posturl target=_blank href=https://tech.lgbt/@parvXtl/111609045111440743>at 2023-12-19T20:47:56.000Z</a>
+<md-block>
+
+
+[#SSH](https://tech.lgbt/tags/SSH) protects the world’s most sensitive
+networks. It just got a lot weaker: Novel
+[#Terrapin](https://tech.lgbt/tags/Terrapin) attack uses prefix truncation to
+downgrade the security of SSH channels, 20231219,  
+by Dan G,  
+[https://arstechnica.com/security/2023/12/hackers-can-break-ssh-channel-
+integrity-using-novel-data-corruption-
+attack/](https://arstechnica.com/security/2023/12/hackers-can-break-ssh-
+channel-integrity-using-novel-data-corruption-attack/)  
+[#PitM](https://tech.lgbt/tags/PitM) person-in-the-middle-attack
+
+『For Terrapin to be viable, the connection it interferes with also must be
+secured by either "ChaCha20-Poly1305" or "CBC with Encrypt-then-MAC," both of
+which are cipher modes added to the SSH protocol (in 2013 and 2012,
+respectively).  
+...  
+In response to recommendations provided by the researchers ahead of the
+publication of Monday’s paper, the developers of SSH software, including the
+nearly ubiquitous OpenSSH, have updated their implementations to support an
+optional strict key exchange. It provides for sequence number resets and also
+prevents an attacker's capability to inject packets during the initial
+unencrypted handshake. For the fix to take effect, both client and server must
+support this backward-compatible change.』  
+[#CVE2023_48795](https://tech.lgbt/tags/CVE2023_48795)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://tech.lgbt/@parvXtl>parvXtl@tech.lgbt</a>
+				<a class=posturl target=_blank href=https://tech.lgbt/@parvXtl/111609045111440743>at 2023-12-19T20:47:56.000Z</a>
+<md-block>
+
+
+[#SSH](https://tech.lgbt/tags/SSH) protects the world’s most sensitive
+networks. It just got a lot weaker: Novel
+[#Terrapin](https://tech.lgbt/tags/Terrapin) attack uses prefix truncation to
+downgrade the security of SSH channels, 20231219,  
+by Dan G,  
+[https://arstechnica.com/security/2023/12/hackers-can-break-ssh-channel-
+integrity-using-novel-data-corruption-
+attack/](https://arstechnica.com/security/2023/12/hackers-can-break-ssh-
+channel-integrity-using-novel-data-corruption-attack/)  
+[#PitM](https://tech.lgbt/tags/PitM) person-in-the-middle-attack
+
+『For Terrapin to be viable, the connection it interferes with also must be
+secured by either "ChaCha20-Poly1305" or "CBC with Encrypt-then-MAC," both of
+which are cipher modes added to the SSH protocol (in 2013 and 2012,
+respectively).  
+...  
+In response to recommendations provided by the researchers ahead of the
+publication of Monday’s paper, the developers of SSH software, including the
+nearly ubiquitous OpenSSH, have updated their implementations to support an
+optional strict key exchange. It provides for sequence number resets and also
+prevents an attacker's capability to inject packets during the initial
+unencrypted handshake. For the fix to take effect, both client and server must
+support this backward-compatible change.』  
+[#CVE2023_48795](https://tech.lgbt/tags/CVE2023_48795)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@domainlabsk>domainlabsk</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@domainlabsk/111685661072119935>at 2024-01-02T09:32:23.606Z</a>
+<md-block>
+
+
+U mna novorocna aktualizacia [#SSH](https://infosec.exchange/tags/SSH) 🪲
+
+"Bezpečnostní výskumníci z Ruhr University Bochum objavili zraniteľnosť v
+kryptografickom sieťovom protokole Secure Shell (SSH), ktorá môže útočníkovi
+umožniť znížiť bezpečnosť pripojenia."
+[#cve](https://infosec.exchange/tags/cve)
+[#cve202348795](https://infosec.exchange/tags/cve202348795)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://chaos.social/@jrt>jrt@chaos.social</a>
+				<a class=posturl target=_blank href=https://chaos.social/@jrt/111611878221025809>at 2023-12-20T08:48:26.000Z</a>
+<md-block>
+
+
+"[#Terrapin](https://chaos.social/tags/Terrapin) is a prefix truncation attack
+targeting the [#SSH](https://chaos.social/tags/SSH) protocol. More precisely,
+Terrapin breaks the integrity of SSH's secure channel. By carefully adjusting
+the sequence numbers during the handshake, an attacker can remove an arbitrary
+amount of messages sent by the client or server at the beginning of the secure
+channel without the client or server noticing it."  
+[https://terrapin-attack.com/](https://terrapin-attack.com/)
+
+They also provide a scanner:  
+[https://github.com/RUB-NDS/Terrapin-Scanner/](https://github.com/RUB-
+NDS/Terrapin-Scanner/)
+
+[#CVE202348795](https://chaos.social/tags/CVE202348795)  
+[#CVE202346445](https://chaos.social/tags/CVE202346445)  
+[#CVE202346446](https://chaos.social/tags/CVE202346446)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://chaos.social/@jrt>jrt@chaos.social</a>
+				<a class=posturl target=_blank href=https://chaos.social/@jrt/111611878221025809>at 2023-12-20T08:48:26.000Z</a>
+<md-block>
+
+
+"[#Terrapin](https://chaos.social/tags/Terrapin) is a prefix truncation attack
+targeting the [#SSH](https://chaos.social/tags/SSH) protocol. More precisely,
+Terrapin breaks the integrity of SSH's secure channel. By carefully adjusting
+the sequence numbers during the handshake, an attacker can remove an arbitrary
+amount of messages sent by the client or server at the beginning of the secure
+channel without the client or server noticing it."  
+[https://terrapin-attack.com/](https://terrapin-attack.com/)
+
+They also provide a scanner:  
+[https://github.com/RUB-NDS/Terrapin-Scanner/](https://github.com/RUB-
+NDS/Terrapin-Scanner/)
+
+[#CVE202348795](https://chaos.social/tags/CVE202348795)  
+[#CVE202346445](https://chaos.social/tags/CVE202346445)  
+[#CVE202346446](https://chaos.social/tags/CVE202346446)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://tech.lgbt/@parvXtl>parvXtl@tech.lgbt</a>
+				<a class=posturl target=_blank href=https://tech.lgbt/@parvXtl/111609045111440743>at 2023-12-19T20:47:56.000Z</a>
+<md-block>
+
+
+[#SSH](https://tech.lgbt/tags/SSH) protects the world’s most sensitive
+networks. It just got a lot weaker: Novel
+[#Terrapin](https://tech.lgbt/tags/Terrapin) attack uses prefix truncation to
+downgrade the security of SSH channels, 20231219,  
+by Dan G,  
+[https://arstechnica.com/security/2023/12/hackers-can-break-ssh-channel-
+integrity-using-novel-data-corruption-
+attack/](https://arstechnica.com/security/2023/12/hackers-can-break-ssh-
+channel-integrity-using-novel-data-corruption-attack/)  
+[#PitM](https://tech.lgbt/tags/PitM) person-in-the-middle-attack
+
+『For Terrapin to be viable, the connection it interferes with also must be
+secured by either "ChaCha20-Poly1305" or "CBC with Encrypt-then-MAC," both of
+which are cipher modes added to the SSH protocol (in 2013 and 2012,
+respectively).  
+...  
+In response to recommendations provided by the researchers ahead of the
+publication of Monday’s paper, the developers of SSH software, including the
+nearly ubiquitous OpenSSH, have updated their implementations to support an
+optional strict key exchange. It provides for sequence number resets and also
+prevents an attacker's capability to inject packets during the initial
+unencrypted handshake. For the fix to take effect, both client and server must
+support this backward-compatible change.』  
+[#CVE2023_48795](https://tech.lgbt/tags/CVE2023_48795)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://tech.lgbt/@parvXtl>parvXtl@tech.lgbt</a>
+				<a class=posturl target=_blank href=https://tech.lgbt/@parvXtl/111609045111440743>at 2023-12-19T20:47:56.000Z</a>
+<md-block>
+
+
+[#SSH](https://tech.lgbt/tags/SSH) protects the world’s most sensitive
+networks. It just got a lot weaker: Novel
+[#Terrapin](https://tech.lgbt/tags/Terrapin) attack uses prefix truncation to
+downgrade the security of SSH channels, 20231219,  
+by Dan G,  
+[https://arstechnica.com/security/2023/12/hackers-can-break-ssh-channel-
+integrity-using-novel-data-corruption-
+attack/](https://arstechnica.com/security/2023/12/hackers-can-break-ssh-
+channel-integrity-using-novel-data-corruption-attack/)  
+[#PitM](https://tech.lgbt/tags/PitM) person-in-the-middle-attack
+
+『For Terrapin to be viable, the connection it interferes with also must be
+secured by either "ChaCha20-Poly1305" or "CBC with Encrypt-then-MAC," both of
+which are cipher modes added to the SSH protocol (in 2013 and 2012,
+respectively).  
+...  
+In response to recommendations provided by the researchers ahead of the
+publication of Monday’s paper, the developers of SSH software, including the
+nearly ubiquitous OpenSSH, have updated their implementations to support an
+optional strict key exchange. It provides for sequence number resets and also
+prevents an attacker's capability to inject packets during the initial
+unencrypted handshake. For the fix to take effect, both client and server must
+support this backward-compatible change.』  
+[#CVE2023_48795](https://tech.lgbt/tags/CVE2023_48795)
+
+
+</md-block>
+			<hr>
 			
 				<a target=_blank href=https://infosec.exchange/@harrysintonen>harrysintonen</a>
 				<a class=posturl target=_blank href=https://infosec.exchange/@harrysintonen/111681583905125167>at 2024-01-01T16:15:30.976Z</a>
@@ -8117,6 +8077,316 @@ bastille update 14.0-RELEASE
 (as needed)  
 bastille update 13.2-RELEASE  
 bastille update 12.4-RELEASE
+
+
+</md-block>
+			<hr>
+			
+
+		</div>
+	</div>
+	
+
+	<div class="cve" id="CVE-2023-7101">
+
+			
+		
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-7101>CVE-2023-7101</a><br>(0 None)</h3>
+		
+
+		
+		<h4 class=epss>EPSS: 0.00%</h4>
+		
+
+		<p class=numposts>13 posts</p>
+
+		<p class=description>
+		 
+		 		<th>Spreadsheet::ParseExcel version 0.65 is a Perl module used for parsing Excel files. Spreadsheet::ParseExcel is vulnerable to an arbitrary code execution (ACE) vulnerability due to passing unvalidated input from a file into a string-type “eval”. Specifically, the issue stems from the evaluation of Number format strings (not to be confused with printf-style format strings) within the Excel parsing l</th>
+		 	
+
+		</p>
+		
+		
+
+		<div class="posts">
+
+			
+				<a target=_blank href=https://infosec.exchange/@barubary>barubary</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@barubary/111661095124459368>at 2023-12-29T01:24:56.992Z</a>
+<md-block>
+
+
+Nice to see the security issue in Spreadsheet::ParseExcel got fixed (thanks,
+[@jmcnamara](https://hachyderm.io/@jmcnamara) ):
+[https://metacpan.org/release/JMCNAMARA/Spreadsheet-
+ParseExcel-0.66/changes](https://metacpan.org/release/JMCNAMARA/Spreadsheet-
+ParseExcel-0.66/changes)  
+[#perl](https://infosec.exchange/tags/perl)
+[#CVE_2023_7101](https://infosec.exchange/tags/CVE_2023_7101)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@barubary>barubary@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@barubary/111661095124459368>at 2023-12-29T01:24:56.000Z</a>
+<md-block>
+
+
+Nice to see the security issue in Spreadsheet::ParseExcel got fixed (thanks,
+[@jmcnamara](https://hachyderm.io/@jmcnamara) ):
+[https://metacpan.org/release/JMCNAMARA/Spreadsheet-
+ParseExcel-0.66/changes](https://metacpan.org/release/JMCNAMARA/Spreadsheet-
+ParseExcel-0.66/changes)  
+[#perl](https://infosec.exchange/tags/perl)
+[#CVE_2023_7101](https://infosec.exchange/tags/CVE_2023_7101)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@barubary>barubary</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@barubary/111661095124459368>at 2023-12-29T01:24:56.992Z</a>
+<md-block>
+
+
+Nice to see the security issue in Spreadsheet::ParseExcel got fixed (thanks,
+[@jmcnamara](https://hachyderm.io/@jmcnamara) ):
+[https://metacpan.org/release/JMCNAMARA/Spreadsheet-
+ParseExcel-0.66/changes](https://metacpan.org/release/JMCNAMARA/Spreadsheet-
+ParseExcel-0.66/changes)  
+[#perl](https://infosec.exchange/tags/perl)
+[#CVE_2023_7101](https://infosec.exchange/tags/CVE_2023_7101)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@barubary>barubary@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@barubary/111661095124459368>at 2023-12-29T01:24:56.000Z</a>
+<md-block>
+
+
+Nice to see the security issue in Spreadsheet::ParseExcel got fixed (thanks,
+[@jmcnamara](https://hachyderm.io/@jmcnamara) ):
+[https://metacpan.org/release/JMCNAMARA/Spreadsheet-
+ParseExcel-0.66/changes](https://metacpan.org/release/JMCNAMARA/Spreadsheet-
+ParseExcel-0.66/changes)  
+[#perl](https://infosec.exchange/tags/perl)
+[#CVE_2023_7101](https://infosec.exchange/tags/CVE_2023_7101)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://fosstodon.org/@nuddlegg>nuddlegg@fosstodon.org</a>
+				<a class=posturl target=_blank href=https://fosstodon.org/@nuddlegg/111662681635795555>at 2023-12-29T08:08:25.000Z</a>
+<md-block>
+
+
+Thanks for fixing the arbitrary code execution bug reported in CVE-2023-7101.
+👍
+
+Yet memory bombing your server is still possible: see
+[https://github.com/haile01/perl_spreadsheet_excel_rce_poc](https://github.com/haile01/perl_spreadsheet_excel_rce_poc)
+👎
+
+[#perl](https://fosstodon.org/tags/perl)
+[#cve](https://fosstodon.org/tags/cve)
+[#security](https://fosstodon.org/tags/security)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111660071195827152>at 2023-12-28T21:04:33.081Z</a>
+<md-block>
+
+
+[@nuddlegg](https://fosstodon.org/@nuddlegg) Le Dinh Hai provided the proof of
+concept for CVE-2023-7101 back in March 2023:
+[https://github.com/haile01/perl_spreadsheet_excel_rce_poc/tree/main](https://github.com/haile01/perl_spreadsheet_excel_rce_poc/tree/main)
+
+As [@0x009AD6_810](https://infosec.exchange/@0x009AD6_810) noted in a
+[tweet](https://twitter.com/0x009AD6_810/status/1740034318205178024),
+"CVE-2023-7101 was discovered in ESG and probably weaponized as an exploit +
+payload."
+
+Barracuda noted that this vulnerability was exploited against their ESG
+Appliance: [https://www.barracuda.com/company/legal/esg-
+vulnerability](https://www.barracuda.com/company/legal/esg-vulnerability)
+
+A question arises: Should CVE-2023-7101 also be added to CISA's Known
+Exploited Vulnerabilities Catalog when CVE-2023-7102 (the identical
+vulnerability introduced to a Barracuda product) was confirmed to be
+exploited?
+
+CISA won't add an exploited vulnerability to its Catalog if there isn't a
+clear remediation action for the vulnerability, such as a vendor-provided
+update.
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://fosstodon.org/@nuddlegg>nuddlegg@fosstodon.org</a>
+				<a class=posturl target=_blank href=https://fosstodon.org/@nuddlegg/111657499373549716>at 2023-12-28T10:10:30.000Z</a>
+<md-block>
+
+
+Here is a quick fix for CVE-2023-7101 adressing the unconditional use of eval
+in Spreadsheet::ParseExcel
+
+[https://github.com/runrig/spreadsheet-
+parseexcel/issues/33#issuecomment-1871011633](https://github.com/runrig/spreadsheet-
+parseexcel/issues/33#issuecomment-1871011633)
+
+Note that this perl lib still has got more unfixed issues allowing to create a
+memory bomb crashing your server as reported by Le Dinh Hai. Worth another CVE
+actually.
+
+[#perl](https://fosstodon.org/tags/perl)
+[#security](https://fosstodon.org/tags/security)
+[#cve](https://fosstodon.org/tags/cve)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@h4sh>h4sh</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@h4sh/111644874505384656>at 2023-12-26T04:39:49.987Z</a>
+<md-block>
+
+
+[@campuscodi](https://mastodon.social/@campuscodi) Both CVEs are filed for the
+same bug, which is worth nothing. Barracuda has patched that bug in its ESG
+product
+
+CVE-2023-7102 is the patched CVE (as in, Barracuda patched the usage* of the
+library within its ESG appliance), without patching the bug itself in the
+upstream library, which is tracked as CVE-2023-7101
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111644214005160446>at 2023-12-26T01:51:51.555Z</a>
+<md-block>
+
+
+Merry Christmas from Mandiant: CVE-2023-7101 is an arbitrary code execution
+bug in Spreadsheet::ParseExcel version 0.65 that has no patch at this time.
+EDIT: Barracuda tracks the same flaw as CVE-2023-7102 in Barracuda ESG
+Appliance. CVE-2023-7102 was exploited as a zero-day by a Chinese threat actor
+UNC4841. Root cause of the exploitation comes from calling eval to an
+unvalidated user input in Utility.pm. IOC provided in Barracuda security
+advisory.  
+🔗
+
+  * [https://www.barracuda.com/company/legal/esg-vulnerability](https://www.barracuda.com/company/legal/esg-vulnerability)
+  * [https://www.cve.org/CVERecord?id=CVE-2023-7101](https://www.cve.org/CVERecord?id=CVE-2023-7101)
+  * [https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2023/MNDT-2023-0019.md](https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2023/MNDT-2023-0019.md)
+
+cc: [@todb](https://infosec.exchange/@todb)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111660071195827152>at 2023-12-28T21:04:33.000Z</a>
+<md-block>
+
+
+[@nuddlegg](https://fosstodon.org/@nuddlegg) Le Dinh Hai provided the proof of
+concept for CVE-2023-7101 back in March 2023:
+[https://github.com/haile01/perl_spreadsheet_excel_rce_poc/tree/main](https://github.com/haile01/perl_spreadsheet_excel_rce_poc/tree/main)
+
+As [@0x009AD6_810](https://infosec.exchange/@0x009AD6_810) noted in a
+[tweet](https://twitter.com/0x009AD6_810/status/1740034318205178024),
+"CVE-2023-7101 was discovered in ESG and probably weaponized as an exploit +
+payload."
+
+Barracuda noted that this vulnerability was exploited against their ESG
+Appliance: [https://www.barracuda.com/company/legal/esg-
+vulnerability](https://www.barracuda.com/company/legal/esg-vulnerability)
+
+A question arises: Should CVE-2023-7101 also be added to CISA's Known
+Exploited Vulnerabilities Catalog when CVE-2023-7102 (the identical
+vulnerability introduced to a Barracuda product) was confirmed to be
+exploited?
+
+CISA won't add an exploited vulnerability to its Catalog if there isn't a
+clear remediation action for the vulnerability, such as a vendor-provided
+update.
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://fosstodon.org/@nuddlegg>nuddlegg@fosstodon.org</a>
+				<a class=posturl target=_blank href=https://fosstodon.org/@nuddlegg/111657499373549716>at 2023-12-28T10:10:30.000Z</a>
+<md-block>
+
+
+Here is a quick fix for CVE-2023-7101 addressing the unconditional use of eval
+in Spreadsheet::ParseExcel
+
+[https://github.com/runrig/spreadsheet-
+parseexcel/issues/33#issuecomment-1871011633](https://github.com/runrig/spreadsheet-
+parseexcel/issues/33#issuecomment-1871011633)
+
+Note that this perl lib still has got more unfixed issues allowing to create a
+memory bomb crashing your server as reported by Le Dinh Hai. Worth another CVE
+actually.
+
+[#perl](https://fosstodon.org/tags/perl)
+[#security](https://fosstodon.org/tags/security)
+[#cve](https://fosstodon.org/tags/cve)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@h4sh>h4sh@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@h4sh/111644874505384656>at 2023-12-26T04:39:49.000Z</a>
+<md-block>
+
+
+[@campuscodi](https://mastodon.social/@campuscodi) Both CVEs are filed for the
+same bug, which is worth nothing. Barracuda has patched that bug in its ESG
+product
+
+CVE-2023-7102 is the patched CVE (as in, Barracuda patched the usage* of the
+library within its ESG appliance), without patching the bug itself in the
+upstream library, which is tracked as CVE-2023-7101
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111644214005160446>at 2023-12-26T01:51:51.000Z</a>
+<md-block>
+
+
+Merry Christmas from Mandiant: CVE-2023-7101 is an arbitrary code execution
+bug in Spreadsheet::ParseExcel version 0.65 that has no patch at this time.
+EDIT: Barracuda tracks the same flaw as CVE-2023-7102 in Barracuda ESG
+Appliance. CVE-2023-7102 was exploited as a zero-day by a Chinese threat actor
+UNC4841. Root cause of the exploitation comes from calling eval to an
+unvalidated user input in Utility.pm. IOC provided in Barracuda security
+advisory.  
+🔗
+
+  * [https://www.barracuda.com/company/legal/esg-vulnerability](https://www.barracuda.com/company/legal/esg-vulnerability)
+  * [https://www.cve.org/CVERecord?id=CVE-2023-7101](https://www.cve.org/CVERecord?id=CVE-2023-7101)
+  * [https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2023/MNDT-2023-0019.md](https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2023/MNDT-2023-0019.md)
+
+cc: [@todb](https://infosec.exchange/@todb)
 
 
 </md-block>
