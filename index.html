@@ -161,7 +161,7 @@
 
 
 <body>
-Updated at UTC 2024-01-03T21:11:43.194817
+Updated at UTC 2024-01-03T21:36:59.474119
 
 <p><a target=_blank href=https://github.com/fedisecfeeds/fedisecfeeds.github.io/blob/main/fedi_cve_feed.json>Access data as JSON</a></p>
 
@@ -901,6 +901,24 @@ It's due to XML-RPC no longer maintaine</td>
 
 		
 		<tr>
+			<td><a class="CRITICAL" href="#CVE-2023-33025">CVE-2023-33025</a></td>
+
+			<td class=CRITICAL> 9.8 </td>
+
+			
+				<td class=LOW>0.09%</td>
+			
+
+			<td>2</td>
+			
+				<td>Memory corruption in Data Modem when a non-standard SDP body, during a VOLTE cal</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
 			<td><a class="HIGH" href="#CVE-2021-27102">CVE-2021-27102</a></td>
 
 			<td class=HIGH> 7.8 </td>
@@ -1009,7 +1027,7 @@ It's due to XML-RPC no longer maintaine</td>
 
 		
 		<tr>
-			<td><a class="HIGH" href="#CVE-2023-33106">CVE-2023-33106</a></td>
+			<td><a class="HIGH" href="#CVE-2023-33107">CVE-2023-33107</a></td>
 
 			<td class=HIGH> 7.8 </td>
 
@@ -1019,7 +1037,7 @@ It's due to XML-RPC no longer maintaine</td>
 
 			<td>2</td>
 			
-				<td>Memory corruption while submitting a large list of sync points in an AUX command</td>
+				<td>Memory corruption in Graphics Linux while assigning shared virtual memory region</td>
 			
 
 		</tr>
@@ -1045,7 +1063,7 @@ It's due to XML-RPC no longer maintaine</td>
 
 		
 		<tr>
-			<td><a class="HIGH" href="#CVE-2023-33107">CVE-2023-33107</a></td>
+			<td><a class="HIGH" href="#CVE-2023-33106">CVE-2023-33106</a></td>
 
 			<td class=HIGH> 7.8 </td>
 
@@ -1055,7 +1073,7 @@ It's due to XML-RPC no longer maintaine</td>
 
 			<td>2</td>
 			
-				<td>Memory corruption in Graphics Linux while assigning shared virtual memory region</td>
+				<td>Memory corruption while submitting a large list of sync points in an AUX command</td>
 			
 
 		</tr>
@@ -1171,6 +1189,24 @@ It's due to XML-RPC no longer maintaine</td>
 
 		
 		<tr>
+			<td><a class="HIGH" href="#CVE-2023-33036">CVE-2023-33036</a></td>
+
+			<td class=HIGH> 7.1 </td>
+
+			
+				<td class=LOW>0.04%</td>
+			
+
+			<td>2</td>
+			
+				<td>Permanent DOS in Hypervisor while untrusted VM without PSCI support makes a PSCI</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
 			<td><a class="None" href="#CVE-2023-7102">CVE-2023-7102</a></td>
 
 			<td class=None> 0 </td>
@@ -1182,6 +1218,24 @@ It's due to XML-RPC no longer maintaine</td>
 			<td>10</td>
 			
 				<td>Use of a Third Party library produced a vulnerability in Barracuda Networks Inc.</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="HIGH" href="#CVE-2023-21651">CVE-2023-21651</a></td>
+
+			<td class=HIGH> 7.8 </td>
+
+			
+				<td class=LOW>0.04%</td>
+			
+
+			<td>2</td>
+			
+				<td>Memory Corruption in Core due to incorrect type conversion or cast in secure_io_</td>
 			
 
 		</tr>
@@ -1261,7 +1315,7 @@ It's due to XML-RPC no longer maintaine</td>
 
 		
 		<tr>
-			<td><a class="HIGH" href="#CVE-2023-35669">CVE-2023-35669</a></td>
+			<td><a class="HIGH" href="#CVE-2023-45777">CVE-2023-45777</a></td>
 
 			<td class=HIGH> 7.8 </td>
 
@@ -1297,7 +1351,7 @@ It's due to XML-RPC no longer maintaine</td>
 
 		
 		<tr>
-			<td><a class="HIGH" href="#CVE-2023-45777">CVE-2023-45777</a></td>
+			<td><a class="HIGH" href="#CVE-2023-35669">CVE-2023-35669</a></td>
 
 			<td class=HIGH> 7.8 </td>
 
@@ -5784,6 +5838,76 @@ attack-abused-undocumented-hardware-feature/)
 	</div>
 	
 
+	<div class="cve" id="CVE-2023-33025">
+
+			
+		
+		<h3 class=CRITICAL><a class="CRITICAL" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-33025>CVE-2023-33025</a><br>(9.8 CRITICAL)</h3>
+		
+
+		
+		<h4 class=epss>EPSS: 0.09%</h4>
+		
+
+		<p class=numposts>2 posts</p>
+
+		<p class=description>
+		 
+		 		<th>Memory corruption in Data Modem when a non-standard SDP body, during a VOLTE call.</th>
+		 	
+
+		</p>
+		
+		
+
+		<div class="posts">
+
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111694082140172326>at 2024-01-03T21:13:58.906Z</a>
+<md-block>
+
+
+ **Google Android** Security Bulletin: approximately 59 vulnerabilities, all
+high severity except for 3 critical (Qualcomm closed-source component):
+
+  * CVE-2023-21651 (9.3 critical) Memory Corruption in Core
+  * CVE-2023-33025 (9.8 critical) Memory corruption in Data Modem
+  * CVE-2023-33036 (7.1 high) Permanent DOS in Hypervisor
+
+No mention of exploitation in the wild.  
+🔗
+[https://source.android.com/docs/security/bulletin/2024-01-01](https://source.android.com/docs/security/bulletin/2024-01-01)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111694082140172326>at 2024-01-03T21:13:58.000Z</a>
+<md-block>
+
+
+ **Google Android** Security Bulletin: approximately 59 vulnerabilities, all
+high severity except for 3 critical (Qualcomm closed-source component):
+
+  * CVE-2023-21651 (9.3 critical) Memory Corruption in Core
+  * CVE-2023-33025 (9.8 critical) Memory corruption in Data Modem
+  * CVE-2023-33036 (7.1 high) Permanent DOS in Hypervisor
+
+No mention of exploitation in the wild.  
+🔗
+[https://source.android.com/docs/security/bulletin/2024-01-01](https://source.android.com/docs/security/bulletin/2024-01-01)
+
+
+</md-block>
+			<hr>
+			
+
+		</div>
+	</div>
+	
+
 	<div class="cve" id="CVE-2021-27102">
 
 			
@@ -6698,11 +6822,11 @@ critical-apache-ofbiz-zero-day-authbiz/)
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-33106">
+	<div class="cve" id="CVE-2023-33107">
 
 			
 		
-		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-33106>CVE-2023-33106</a><br>(7.8 HIGH)</h3>
+		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-33107>CVE-2023-33107</a><br>(7.8 HIGH)</h3>
 		
 
 		
@@ -6713,7 +6837,7 @@ critical-apache-ofbiz-zero-day-authbiz/)
 
 		<p class=description>
 		 
-		 		<th>Memory corruption while submitting a large list of sync points in an AUX command to the IOCTL_KGSL_GPU_AUX_COMMAND.</th>
+		 		<th>Memory corruption in Graphics Linux while assigning shared virtual memory region during IOCTL call.</th>
 		 	
 
 		</p>
@@ -6874,11 +6998,11 @@ Google Sheet.
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-33107">
+	<div class="cve" id="CVE-2023-33106">
 
 			
 		
-		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-33107>CVE-2023-33107</a><br>(7.8 HIGH)</h3>
+		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-33106>CVE-2023-33106</a><br>(7.8 HIGH)</h3>
 		
 
 		
@@ -6889,7 +7013,7 @@ Google Sheet.
 
 		<p class=description>
 		 
-		 		<th>Memory corruption in Graphics Linux while assigning shared virtual memory region during IOCTL call.</th>
+		 		<th>Memory corruption while submitting a large list of sync points in an AUX command to the IOCTL_KGSL_GPU_AUX_COMMAND.</th>
 		 	
 
 		</p>
@@ -7470,6 +7594,76 @@ Bugs from copying and pasting with out enough reading strikes again!
 	</div>
 	
 
+	<div class="cve" id="CVE-2023-33036">
+
+			
+		
+		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-33036>CVE-2023-33036</a><br>(7.1 HIGH)</h3>
+		
+
+		
+		<h4 class=epss>EPSS: 0.04%</h4>
+		
+
+		<p class=numposts>2 posts</p>
+
+		<p class=description>
+		 
+		 		<th>Permanent DOS in Hypervisor while untrusted VM without PSCI support makes a PSCI call.</th>
+		 	
+
+		</p>
+		
+		
+
+		<div class="posts">
+
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111694082140172326>at 2024-01-03T21:13:58.906Z</a>
+<md-block>
+
+
+ **Google Android** Security Bulletin: approximately 59 vulnerabilities, all
+high severity except for 3 critical (Qualcomm closed-source component):
+
+  * CVE-2023-21651 (9.3 critical) Memory Corruption in Core
+  * CVE-2023-33025 (9.8 critical) Memory corruption in Data Modem
+  * CVE-2023-33036 (7.1 high) Permanent DOS in Hypervisor
+
+No mention of exploitation in the wild.  
+🔗
+[https://source.android.com/docs/security/bulletin/2024-01-01](https://source.android.com/docs/security/bulletin/2024-01-01)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111694082140172326>at 2024-01-03T21:13:58.000Z</a>
+<md-block>
+
+
+ **Google Android** Security Bulletin: approximately 59 vulnerabilities, all
+high severity except for 3 critical (Qualcomm closed-source component):
+
+  * CVE-2023-21651 (9.3 critical) Memory Corruption in Core
+  * CVE-2023-33025 (9.8 critical) Memory corruption in Data Modem
+  * CVE-2023-33036 (7.1 high) Permanent DOS in Hypervisor
+
+No mention of exploitation in the wild.  
+🔗
+[https://source.android.com/docs/security/bulletin/2024-01-01](https://source.android.com/docs/security/bulletin/2024-01-01)
+
+
+</md-block>
+			<hr>
+			
+
+		</div>
+	</div>
+	
+
 	<div class="cve" id="CVE-2023-7102">
 
 			
@@ -7738,6 +7932,76 @@ vulnerability](https://www.barracuda.com/company/legal/esg-vulnerability)
 [#infosec](https://mastodon.social/tags/infosec)
 [#cybersecurity](https://mastodon.social/tags/cybersecurity)
 [#security](https://mastodon.social/tags/security)
+
+
+</md-block>
+			<hr>
+			
+
+		</div>
+	</div>
+	
+
+	<div class="cve" id="CVE-2023-21651">
+
+			
+		
+		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-21651>CVE-2023-21651</a><br>(7.8 HIGH)</h3>
+		
+
+		
+		<h4 class=epss>EPSS: 0.04%</h4>
+		
+
+		<p class=numposts>2 posts</p>
+
+		<p class=description>
+		 
+		 		<th>Memory Corruption in Core due to incorrect type conversion or cast in secure_io_read/write function in TEE.</th>
+		 	
+
+		</p>
+		
+		
+
+		<div class="posts">
+
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111694082140172326>at 2024-01-03T21:13:58.906Z</a>
+<md-block>
+
+
+ **Google Android** Security Bulletin: approximately 59 vulnerabilities, all
+high severity except for 3 critical (Qualcomm closed-source component):
+
+  * CVE-2023-21651 (9.3 critical) Memory Corruption in Core
+  * CVE-2023-33025 (9.8 critical) Memory corruption in Data Modem
+  * CVE-2023-33036 (7.1 high) Permanent DOS in Hypervisor
+
+No mention of exploitation in the wild.  
+🔗
+[https://source.android.com/docs/security/bulletin/2024-01-01](https://source.android.com/docs/security/bulletin/2024-01-01)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111694082140172326>at 2024-01-03T21:13:58.000Z</a>
+<md-block>
+
+
+ **Google Android** Security Bulletin: approximately 59 vulnerabilities, all
+high severity except for 3 critical (Qualcomm closed-source component):
+
+  * CVE-2023-21651 (9.3 critical) Memory Corruption in Core
+  * CVE-2023-33025 (9.8 critical) Memory corruption in Data Modem
+  * CVE-2023-33036 (7.1 high) Permanent DOS in Hypervisor
+
+No mention of exploitation in the wild.  
+🔗
+[https://source.android.com/docs/security/bulletin/2024-01-01](https://source.android.com/docs/security/bulletin/2024-01-01)
 
 
 </md-block>
@@ -8056,11 +8320,11 @@ patch or solution is available at the time of this writing."_
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-35669">
+	<div class="cve" id="CVE-2023-45777">
 
 			
 		
-		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-35669>CVE-2023-35669</a><br>(7.8 HIGH)</h3>
+		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-45777>CVE-2023-45777</a><br>(7.8 HIGH)</h3>
 		
 
 		
@@ -8071,7 +8335,7 @@ patch or solution is available at the time of this writing."_
 
 		<p class=description>
 		 
-		 		<th>In checkKeyIntentParceledCorrectly of AccountManagerService.java, there is a possible way to control other running activities due to unsafe deserialization. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.</th>
+		 		<th>In checkKeyIntentParceledCorrectly of AccountManagerService.java, there is a possible way to launch arbitrary activities using system privileges due to Parcel Mismatch. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.</th>
 		 	
 
 		</p>
@@ -8196,11 +8460,11 @@ CVE-2023-45777)
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-45777">
+	<div class="cve" id="CVE-2023-35669">
 
 			
 		
-		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-45777>CVE-2023-45777</a><br>(7.8 HIGH)</h3>
+		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-35669>CVE-2023-35669</a><br>(7.8 HIGH)</h3>
 		
 
 		
@@ -8211,7 +8475,7 @@ CVE-2023-45777)
 
 		<p class=description>
 		 
-		 		<th>In checkKeyIntentParceledCorrectly of AccountManagerService.java, there is a possible way to launch arbitrary activities using system privileges due to Parcel Mismatch. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.</th>
+		 		<th>In checkKeyIntentParceledCorrectly of AccountManagerService.java, there is a possible way to control other running activities due to unsafe deserialization. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.</th>
 		 	
 
 		</p>
