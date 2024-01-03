@@ -161,7 +161,7 @@
 
 
 <body>
-Updated at UTC 2024-01-03T17:11:39.764427
+Updated at UTC 2024-01-03T17:36:46.553134
 
 <p><a target=_blank href=https://github.com/fedisecfeeds/fedisecfeeds.github.io/blob/main/fedi_cve_feed.json>Access data as JSON</a></p>
 
@@ -552,24 +552,6 @@ It's due to XML-RPC no longer maintaine</td>
 			<td>2</td>
 			
 				<td>JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data when</td>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<td><a class="CRITICAL" href="#CVE-2023-50164">CVE-2023-50164</a></td>
-
-			<td class=CRITICAL> 9.8 </td>
-
-			
-				<td class=LOW>9.72%</td>
-			
-
-			<td>2</td>
-			
-				<td>An attacker can manipulate file upload params to enable paths traversal and unde</td>
 			
 
 		</tr>
@@ -1261,7 +1243,7 @@ It's due to XML-RPC no longer maintaine</td>
 
 		
 		<tr>
-			<td><a class="HIGH" href="#CVE-2023-45777">CVE-2023-45777</a></td>
+			<td><a class="HIGH" href="#CVE-2023-35669">CVE-2023-35669</a></td>
 
 			<td class=HIGH> 7.8 </td>
 
@@ -1279,7 +1261,7 @@ It's due to XML-RPC no longer maintaine</td>
 
 		
 		<tr>
-			<td><a class="HIGH" href="#CVE-2023-35669">CVE-2023-35669</a></td>
+			<td><a class="HIGH" href="#CVE-2023-45777">CVE-2023-45777</a></td>
 
 			<td class=HIGH> 7.8 </td>
 
@@ -3185,68 +3167,6 @@ sa/2.5](https://creativecommons.org/licenses/by-sa/2.5)
 [#log4j](https://mastodon.longlandclan.id.au/tags/log4j)
 [#log4shell](https://mastodon.longlandclan.id.au/tags/log4shell)
 [#InfoSec](https://mastodon.longlandclan.id.au/tags/InfoSec)
-
-
-</md-block>
-			<hr>
-			
-
-		</div>
-	</div>
-	
-
-	<div class="cve" id="CVE-2023-50164">
-
-			
-		
-		<h3 class=CRITICAL><a class="CRITICAL" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-50164>CVE-2023-50164</a><br>(9.8 CRITICAL)</h3>
-		
-
-		
-		<h4 class=epss>EPSS: 9.72%</h4>
-		
-
-		<p class=numposts>2 posts</p>
-
-		<p class=description>
-		 
-		 		<th>An attacker can manipulate file upload params to enable paths traversal and under some circumstances this can lead to uploading a malicious file which can be used to perform Remote Code Execution.
-Users are recommended to upgrade to versions Struts 2.5.33 or Struts 6.3.0.2 or greater to fix this issue.
-</th>
-		 	
-
-		</p>
-		
-		
-
-		<div class="posts">
-
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111613927475465364>at 2023-12-20T17:29:35.786Z</a>
-<md-block>
-
-
-Prediction: **Oracle** unlikely to issue a separate security advisory on
-Apache Struts 2 RCE vulnerability CVE-2023-50164 before their next scheduled
-Critical Patch Updates. _"Third Party Bulletins are released on the third
-Tuesday of January"_ (16 January 2024). I too would be unwilling to rock the
-boat before Christmas/New Year, when the updates go out in 27 days anyway.
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111613927475465364>at 2023-12-20T17:29:35.000Z</a>
-<md-block>
-
-
-Prediction: **Oracle** unlikely to issue a separate security advisory on
-Apache Struts 2 RCE vulnerability CVE-2023-50164 before their next scheduled
-Critical Patch Updates. _"Third Party Bulletins are released on the third
-Tuesday of January"_ (16 January 2024). I too would be unwilling to rock the
-boat before Christmas/New Year, when the updates go out in 27 days anyway.
 
 
 </md-block>
@@ -8011,11 +7931,11 @@ patch or solution is available at the time of this writing."_
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-45777">
+	<div class="cve" id="CVE-2023-35669">
 
 			
 		
-		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-45777>CVE-2023-45777</a><br>(7.8 HIGH)</h3>
+		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-35669>CVE-2023-35669</a><br>(7.8 HIGH)</h3>
 		
 
 		
@@ -8026,7 +7946,7 @@ patch or solution is available at the time of this writing."_
 
 		<p class=description>
 		 
-		 		<th>In checkKeyIntentParceledCorrectly of AccountManagerService.java, there is a possible way to launch arbitrary activities using system privileges due to Parcel Mismatch. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.</th>
+		 		<th>In checkKeyIntentParceledCorrectly of AccountManagerService.java, there is a possible way to control other running activities due to unsafe deserialization. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.</th>
 		 	
 
 		</p>
@@ -8081,11 +8001,11 @@ CVE-2023-45777)
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-35669">
+	<div class="cve" id="CVE-2023-45777">
 
 			
 		
-		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-35669>CVE-2023-35669</a><br>(7.8 HIGH)</h3>
+		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-45777>CVE-2023-45777</a><br>(7.8 HIGH)</h3>
 		
 
 		
@@ -8096,7 +8016,7 @@ CVE-2023-45777)
 
 		<p class=description>
 		 
-		 		<th>In checkKeyIntentParceledCorrectly of AccountManagerService.java, there is a possible way to control other running activities due to unsafe deserialization. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.</th>
+		 		<th>In checkKeyIntentParceledCorrectly of AccountManagerService.java, there is a possible way to launch arbitrary activities using system privileges due to Parcel Mismatch. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.</th>
 		 	
 
 		</p>
