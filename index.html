@@ -161,7 +161,7 @@
 
 
 <body>
-Updated at UTC 2024-01-03T20:37:15.588178
+Updated at UTC 2024-01-03T21:11:43.194817
 
 <p><a target=_blank href=https://github.com/fedisecfeeds/fedisecfeeds.github.io/blob/main/fedi_cve_feed.json>Access data as JSON</a></p>
 
@@ -775,6 +775,24 @@ It's due to XML-RPC no longer maintaine</td>
 
 		
 		<tr>
+			<td><a class="CRITICAL" href="#CVE-2022-1471">CVE-2022-1471</a></td>
+
+			<td class=CRITICAL> 9.8 </td>
+
+			
+				<td class=LOW>0.58%</td>
+			
+
+			<td>2</td>
+			
+				<td>SnakeYaml's Constructor() class does not restrict types which can be instantiate</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
 			<td><a class="HIGH" href="#CVE-2023-27351">CVE-2023-27351</a></td>
 
 			<td class=HIGH> 7.5 </td>
@@ -991,7 +1009,7 @@ It's due to XML-RPC no longer maintaine</td>
 
 		
 		<tr>
-			<td><a class="HIGH" href="#CVE-2023-33107">CVE-2023-33107</a></td>
+			<td><a class="HIGH" href="#CVE-2023-33106">CVE-2023-33106</a></td>
 
 			<td class=HIGH> 7.8 </td>
 
@@ -1001,7 +1019,7 @@ It's due to XML-RPC no longer maintaine</td>
 
 			<td>2</td>
 			
-				<td>Memory corruption in Graphics Linux while assigning shared virtual memory region</td>
+				<td>Memory corruption while submitting a large list of sync points in an AUX command</td>
 			
 
 		</tr>
@@ -1027,7 +1045,7 @@ It's due to XML-RPC no longer maintaine</td>
 
 		
 		<tr>
-			<td><a class="HIGH" href="#CVE-2023-33106">CVE-2023-33106</a></td>
+			<td><a class="HIGH" href="#CVE-2023-33107">CVE-2023-33107</a></td>
 
 			<td class=HIGH> 7.8 </td>
 
@@ -1037,7 +1055,7 @@ It's due to XML-RPC no longer maintaine</td>
 
 			<td>2</td>
 			
-				<td>Memory corruption while submitting a large list of sync points in an AUX command</td>
+				<td>Memory corruption in Graphics Linux while assigning shared virtual memory region</td>
 			
 
 		</tr>
@@ -4680,6 +4698,89 @@ update-for-desktop_20.html)
 	</div>
 	
 
+	<div class="cve" id="CVE-2022-1471">
+
+			
+		
+		<h3 class=CRITICAL><a class="CRITICAL" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2022-1471>CVE-2022-1471</a><br>(9.8 CRITICAL)</h3>
+		
+
+		
+		<h4 class=epss>EPSS: 0.58%</h4>
+		
+
+		<p class=numposts>2 posts</p>
+
+		<p class=description>
+		 
+		 		<th>SnakeYaml's Constructor() class does not restrict types which can be instantiated during deserialization. Deserializing yaml content provided by an attacker can lead to remote code execution. We recommend using SnakeYaml's SafeConsturctor when parsing untrusted content to restrict deserialization. We recommend upgrading to version 2.0 and beyond.
+</th>
+		 	
+
+		</p>
+		
+		
+
+		<div class="posts">
+
+			
+				<a target=_blank href=https://infosec.exchange/@iagox86>iagox86</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@iagox86/111693975310495583>at 2024-01-03T20:46:48.815Z</a>
+<md-block>
+
+
+Before the holiday break, I started looking at CVE-2022-1471 in Confluence and
+Bitbucket, which led me to trying to understand how SnakeYAML deserialization
+vulnerabilities actually work. It was quite the ride, full of open source
+drama and a plethora of related vulns. I wrote it all up in this blog post:
+
+[https://www.labs.greynoise.io/grimoire/2024-01-03-snakeyaml-
+deserialization/](https://www.labs.greynoise.io/grimoire/2024-01-03-snakeyaml-
+deserialization/)
+
+[#vuln](https://infosec.exchange/tags/vuln)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+[#poc](https://infosec.exchange/tags/poc)
+[#java](https://infosec.exchange/tags/java)
+[#deserialization](https://infosec.exchange/tags/deserialization)
+[#snakeyaml](https://infosec.exchange/tags/snakeyaml)
+[#yaml](https://infosec.exchange/tags/yaml)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@iagox86>iagox86@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@iagox86/111693975310495583>at 2024-01-03T20:46:48.000Z</a>
+<md-block>
+
+
+Before the holiday break, I started looking at CVE-2022-1471 in Confluence and
+Bitbucket, which led me to trying to understand how SnakeYAML deserialization
+vulnerabilities actually work. It was quite the ride, full of open source
+drama and a plethora of related vulns. I wrote it all up in this blog post:
+
+[https://www.labs.greynoise.io/grimoire/2024-01-03-snakeyaml-
+deserialization/](https://www.labs.greynoise.io/grimoire/2024-01-03-snakeyaml-
+deserialization/)
+
+[#vuln](https://infosec.exchange/tags/vuln)
+[#vulnerability](https://infosec.exchange/tags/vulnerability)
+[#poc](https://infosec.exchange/tags/poc)
+[#java](https://infosec.exchange/tags/java)
+[#deserialization](https://infosec.exchange/tags/deserialization)
+[#snakeyaml](https://infosec.exchange/tags/snakeyaml)
+[#yaml](https://infosec.exchange/tags/yaml)
+
+
+</md-block>
+			<hr>
+			
+
+		</div>
+	</div>
+	
+
 	<div class="cve" id="CVE-2023-27351">
 
 			
@@ -6597,11 +6698,11 @@ critical-apache-ofbiz-zero-day-authbiz/)
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-33107">
+	<div class="cve" id="CVE-2023-33106">
 
 			
 		
-		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-33107>CVE-2023-33107</a><br>(7.8 HIGH)</h3>
+		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-33106>CVE-2023-33106</a><br>(7.8 HIGH)</h3>
 		
 
 		
@@ -6612,7 +6713,7 @@ critical-apache-ofbiz-zero-day-authbiz/)
 
 		<p class=description>
 		 
-		 		<th>Memory corruption in Graphics Linux while assigning shared virtual memory region during IOCTL call.</th>
+		 		<th>Memory corruption while submitting a large list of sync points in an AUX command to the IOCTL_KGSL_GPU_AUX_COMMAND.</th>
 		 	
 
 		</p>
@@ -6773,11 +6874,11 @@ Google Sheet.
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-33106">
+	<div class="cve" id="CVE-2023-33107">
 
 			
 		
-		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-33106>CVE-2023-33106</a><br>(7.8 HIGH)</h3>
+		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-33107>CVE-2023-33107</a><br>(7.8 HIGH)</h3>
 		
 
 		
@@ -6788,7 +6889,7 @@ Google Sheet.
 
 		<p class=description>
 		 
-		 		<th>Memory corruption while submitting a large list of sync points in an AUX command to the IOCTL_KGSL_GPU_AUX_COMMAND.</th>
+		 		<th>Memory corruption in Graphics Linux while assigning shared virtual memory region during IOCTL call.</th>
 		 	
 
 		</p>
