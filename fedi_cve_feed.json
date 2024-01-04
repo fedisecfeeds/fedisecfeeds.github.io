@@ -520,7 +520,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
           "followers_count": 469,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -551,7 +551,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
           "followers_count": 469,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -627,7 +627,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
           "followers_count": 469,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -734,7 +734,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
           "followers_count": 469,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -765,7 +765,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
           "followers_count": 467,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
@@ -794,7 +794,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
           "followers_count": 467,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
@@ -823,7 +823,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
           "followers_count": 467,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
@@ -926,7 +926,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
           "followers_count": 467,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
@@ -938,6 +938,216 @@
     ],
     "description": "Spreadsheet::ParseExcel version 0.65 is a Perl module used for parsing Excel files. Spreadsheet::ParseExcel is vulnerable to an arbitrary code execution (ACE) vulnerability due to passing unvalidated input from a file into a string-type \u201ceval\u201d. Specifically, the issue stems from the evaluation of Number format strings (not to be confused with printf-style format strings) within the Excel parsing logic. \n",
     "epss": 0.8099999999999999
+  },
+  "CVE-2023-39336": {
+    "cvss3": 0,
+    "severity": null,
+    "epss_severity": null,
+    "posts": [
+      {
+        "account": {
+          "id": "110730368199044452",
+          "username": "simontsui",
+          "acct": "simontsui",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "followers_count": 469,
+          "following_count": 49,
+          "statuses_count": 1549,
+          "last_status_at": "2024-01-04",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111699955383767187",
+        "content": "\n\n[@ntkramer](https://infosec.exchange/@ntkramer)\n\n  * security advisory: [https://forums.ivanti.com/s/article/SA-2023-12-19-CVE-2023-39336?language=en_US](https://forums.ivanti.com/s/article/SA-2023-12-19-CVE-2023-39336?language=en_US)\n  * blog post: [https://www.ivanti.com/blog/security-update-for-ivanti-epm](https://www.ivanti.com/blog/security-update-for-ivanti-epm)\n  * \"CVE-2023-39336 Full details\" (login required): [https://forums.ivanti.com/s/article/CVE-2023-39336-Full-details?ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1](https://forums.ivanti.com/s/article/CVE-2023-39336-Full-details?ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1)\n\n _\"If exploited, an attacker with access to the internal network can leverage\nan unspecified SQL injection to execute arbitrary SQL queries and retrieve\noutput without the need for authentication. This can then allow the attacker\ncontrol over machines running the EPM agent. When the core server is\nconfigured to use SQL express, this might lead to RCE on the core server.\"_\n\nAffected versions: Ivanti EPM 2021/EPM 2022 SU4 and all prior versions  \nFixed version: SU5\n\nI think enough information is provided, but I agree it is stupid for vendors\nto block information about vulnerabilities\n\n",
+        "created_at": "2024-01-04T22:07:37.493Z"
+      },
+      {
+        "account": {
+          "id": "110730368199044452",
+          "username": "simontsui",
+          "acct": "simontsui",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "followers_count": 469,
+          "following_count": 49,
+          "statuses_count": 1549,
+          "last_status_at": "2024-01-04",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111699870840102149",
+        "content": "\n\n **Ivanti** security advisory: Ivanti Endpoint Manager (EPM 2022 SU4 and all\nprior versions) is vulnerable to remote code execution. CVE-2023-39336 (vendor\nassigned CVSSv3: **9.6 critical** ) _If exploited, an attacker with access to\nthe internal network can leverage an unspecified SQL injection to execute\narbitrary SQL queries and retrieve output without the need for authentication.\nThis can then allow the attacker control over machines running the EPM agent.\nWhen the core server is configured to use SQL express, this might lead to RCE\non the core server._ Fixed in version 2022 Service Update 5. Not exploited.  \n\ud83d\udd17\n[https://forums.ivanti.com/s/article/SA-2023-12-19-CVE-2023-39336?language=en_US](https://forums.ivanti.com/s/article/SA-2023-12-19-CVE-2023-39336?language=en_US)\nSee blog [https://www.ivanti.com/blog/security-update-for-ivanti-\nepm](https://www.ivanti.com/blog/security-update-for-ivanti-epm)\n\n",
+        "created_at": "2024-01-04T21:46:07.457Z"
+      },
+      {
+        "account": {
+          "id": "110787142161284615",
+          "username": "simontsui",
+          "acct": "simontsui@infosec.exchange",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "followers_count": 467,
+          "following_count": 49,
+          "statuses_count": 1549,
+          "last_status_at": "2024-01-04",
+          "emojis": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111699955383767187",
+        "content": "\n\n[@ntkramer](https://infosec.exchange/@ntkramer)\n\n  * security advisory: [https://forums.ivanti.com/s/article/SA-2023-12-19-CVE-2023-39336?language=en_US](https://forums.ivanti.com/s/article/SA-2023-12-19-CVE-2023-39336?language=en_US)\n  * blog post: [https://www.ivanti.com/blog/security-update-for-ivanti-epm](https://www.ivanti.com/blog/security-update-for-ivanti-epm)\n  * \"CVE-2023-39336 Full details\" (login required): [https://forums.ivanti.com/s/article/CVE-2023-39336-Full-details?ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1](https://forums.ivanti.com/s/article/CVE-2023-39336-Full-details?ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1)\n\n _\"If exploited, an attacker with access to the internal network can leverage\nan unspecified SQL injection to execute arbitrary SQL queries and retrieve\noutput without the need for authentication. This can then allow the attacker\ncontrol over machines running the EPM agent. When the core server is\nconfigured to use SQL express, this might lead to RCE on the core server.\"_\n\nAffected versions: Ivanti EPM 2021/EPM 2022 SU4 and all prior versions  \nFixed version: SU5\n\nI think enough information is provided, but I agree it is stupid for vendors\nto block information about vulnerabilities\n\n",
+        "created_at": "2024-01-04T22:07:37.000Z"
+      },
+      {
+        "account": {
+          "id": "110787142161284615",
+          "username": "simontsui",
+          "acct": "simontsui@infosec.exchange",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "followers_count": 467,
+          "following_count": 49,
+          "statuses_count": 1549,
+          "last_status_at": "2024-01-04",
+          "emojis": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111699870840102149",
+        "content": "\n\n **Ivanti** security advisory: Ivanti Endpoint Manager (EPM 2022 SU4 and all\nprior versions) is vulnerable to remote code execution. CVE-2023-39336 (vendor\nassigned CVSSv3: **9.6 critical** ) _If exploited, an attacker with access to\nthe internal network can leverage an unspecified SQL injection to execute\narbitrary SQL queries and retrieve output without the need for authentication.\nThis can then allow the attacker control over machines running the EPM agent.\nWhen the core server is configured to use SQL express, this might lead to RCE\non the core server._ Fixed in version 2022 Service Update 5. Not exploited.  \n\ud83d\udd17\n[https://forums.ivanti.com/s/article/SA-2023-12-19-CVE-2023-39336?language=en_US](https://forums.ivanti.com/s/article/SA-2023-12-19-CVE-2023-39336?language=en_US)\nSee blog [https://www.ivanti.com/blog/security-update-for-ivanti-\nepm](https://www.ivanti.com/blog/security-update-for-ivanti-epm)\n\n",
+        "created_at": "2024-01-04T21:46:07.000Z"
+      }
+    ],
+    "description": "N/A",
+    "epss": 0
+  },
+  "CVE-2023-39366": {
+    "cvss3": 4.8,
+    "severity": "MEDIUM",
+    "epss_severity": "LOW",
+    "posts": [
+      {
+        "account": {
+          "id": "109320853553361576",
+          "username": "ntkramer",
+          "acct": "ntkramer",
+          "display_name": "Glenn \ud83d\udcce",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2022-11-10T00:00:00.000Z",
+          "note": "<p>Experienced InfoSec | Elder Millennial | \ud83d\udcbc Security Research <span class=\"h-card\" translate=\"no\"><a href=\"https://infosec.exchange/@greynoise\" class=\"u-url mention\">@<span>greynoise</span></a></span> | I ask &#39;why?&#39; a lot | Pro Oxford Comma | Fix it! | He/Him | <a href=\"https://infosec.exchange/tags/BLM\" class=\"mention hashtag\" rel=\"tag\">#<span>BLM</span></a> | Views are my own.</p>",
+          "url": "https://infosec.exchange/@ntkramer",
+          "uri": "https://infosec.exchange/users/ntkramer",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/320/853/553/361/576/original/039cf3e58191829a.jpeg",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/320/853/553/361/576/original/039cf3e58191829a.jpeg",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/320/853/553/361/576/original/adae9c2dfdd919a0.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/320/853/553/361/576/original/adae9c2dfdd919a0.png",
+          "followers_count": 256,
+          "following_count": 250,
+          "statuses_count": 273,
+          "last_status_at": "2024-01-04",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": [
+            {
+              "name": "Twitter",
+              "value": "<span class=\"h-card\" translate=\"no\"><a href=\"https://infosec.exchange/@ntkramer\" class=\"u-url mention\">@<span>ntkramer</span></a></span>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@ntkramer/111699905540194832",
+        "content": "\n\n\u201cCurrently, Ivanti blocks public access to an advisory containing full details\non the CVE-2023-39366 bug, likely to provide customers with more time to\nsecure their devices before threat actors can create exploits using the\nadditional information.\u201d\n\nThis thinking is insanity. It creates confusion for their customers. It makes\nit more difficult for security vendors to develop detections/protections more\nquickly. It introduces an opportunity for mis/disinformation on the\nvulnerability. Do not do this.\n\n[https://www.bleepingcomputer.com/news/security/ivanti-warns-critical-epm-bug-\nlets-hackers-hijack-enrolled-\ndevices/](https://www.bleepingcomputer.com/news/security/ivanti-warns-\ncritical-epm-bug-lets-hackers-hijack-enrolled-devices/)\n\n",
+        "created_at": "2024-01-04T21:54:56.940Z"
+      },
+      {
+        "account": {
+          "id": "109903172783414207",
+          "username": "ntkramer",
+          "acct": "ntkramer@infosec.exchange",
+          "display_name": "Glenn \ud83d\udcce",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2022-11-10T00:00:00.000Z",
+          "note": "<p>Experienced InfoSec | Elder Millennial | \ud83d\udcbc Security Research <span class=\"h-card\" translate=\"no\"><a href=\"https://infosec.exchange/@greynoise\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>greynoise</span></a></span> | I ask 'why?' a lot | Pro Oxford Comma | Fix it! | He/Him | <a href=\"https://infosec.exchange/tags/BLM\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>BLM</span></a> | Views are my own.</p>",
+          "url": "https://infosec.exchange/@ntkramer",
+          "uri": "https://infosec.exchange/users/ntkramer",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/109/903/172/783/414/207/original/fb71313836d90c10.jpeg",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/109/903/172/783/414/207/original/fb71313836d90c10.jpeg",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/109/903/172/783/414/207/original/c531e6201d6f075a.png",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/109/903/172/783/414/207/original/c531e6201d6f075a.png",
+          "followers_count": 248,
+          "following_count": 250,
+          "statuses_count": 273,
+          "last_status_at": "2024-01-04",
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Twitter",
+              "value": "<span class=\"h-card\" translate=\"no\"><a href=\"https://infosec.exchange/@ntkramer\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>ntkramer</span></a></span>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@ntkramer/111699905540194832",
+        "content": "\n\n\u201cCurrently, Ivanti blocks public access to an advisory containing full details\non the CVE-2023-39366 bug, likely to provide customers with more time to\nsecure their devices before threat actors can create exploits using the\nadditional information.\u201d\n\nThis thinking is insanity. It creates confusion for their customers. It makes\nit more difficult for security vendors to develop detections/protections more\nquickly. It introduces an opportunity for mis/disinformation on the\nvulnerability. Do not do this.\n\n[https://www.bleepingcomputer.com/news/security/ivanti-warns-critical-epm-bug-\nlets-hackers-hijack-enrolled-\ndevices/](https://www.bleepingcomputer.com/news/security/ivanti-warns-\ncritical-epm-bug-lets-hackers-hijack-enrolled-devices/)\n\n",
+        "created_at": "2024-01-04T21:54:56.000Z"
+      }
+    ],
+    "description": "Cacti is an open source operational monitoring and fault management framework. Affected versions are subject to a Stored Cross-Site-Scripting (XSS) Vulnerability allows an authenticated user to poison data stored in the _cacti_'s database. These data will be viewed by administrative _cacti_ accounts and execute JavaScript code in the victim's browser at view-time. The `data_sources.php` script displays the data source management information (e.g. data source path, polling configuration etc.) for different data visualizations of the _cacti_ app. \nCENSUS found that an adversary that is able to configure a malicious Device name, can deploy a stored XSS attack against any user of the same (or broader) privileges. A user that possesses the _General Administration>Sites/Devices/Data_ permissions can configure the device names in _cacti_. This configuration occurs through `http://<HOST>/cacti/host.php`, while the rendered malicious payload is exhibited at `http://<HOST>/cacti/data_sources.php`. This vulnerability has been addressed in version 1.2.25. Users are advised to upgrade. Users unable to update should manually filter HTML output.",
+    "epss": 0.055999999999999994
   },
   "CVE-2023-51467": {
     "cvss3": 9.8,
@@ -964,7 +1174,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
           "followers_count": 469,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -995,7 +1205,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
           "followers_count": 469,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -1026,7 +1236,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
           "followers_count": 469,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -1057,7 +1267,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
           "followers_count": 467,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
@@ -1086,7 +1296,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
           "followers_count": 467,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
@@ -1115,7 +1325,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
           "followers_count": 467,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
@@ -1153,7 +1363,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
           "followers_count": 469,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -1184,7 +1394,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
           "followers_count": 467,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
@@ -1222,7 +1432,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
           "followers_count": 469,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -1253,7 +1463,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
           "followers_count": 467,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
@@ -1291,7 +1501,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
           "followers_count": 469,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -1322,7 +1532,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/286/741/870/408/081/original/b6358eedcb5017ff.jpeg",
           "followers_count": 1439,
           "following_count": 331,
-          "statuses_count": 888,
+          "statuses_count": 889,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -1374,7 +1584,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
           "followers_count": 467,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
@@ -1403,7 +1613,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/109/286/787/538/579/164/original/1d73fe54039230b9.jpeg",
           "followers_count": 1436,
           "following_count": 328,
-          "statuses_count": 889,
+          "statuses_count": 890,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": [
@@ -1462,7 +1672,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
           "followers_count": 469,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -1493,7 +1703,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
           "followers_count": 467,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
@@ -1531,7 +1741,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
           "followers_count": 469,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -1562,7 +1772,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
           "followers_count": 467,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
@@ -1600,7 +1810,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
           "followers_count": 469,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -1631,7 +1841,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
           "followers_count": 467,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
@@ -1698,7 +1908,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
           "followers_count": 469,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -1846,7 +2056,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
           "followers_count": 467,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
@@ -1968,7 +2178,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/142/785/240/828/479/original/a71c82353d5441da.png",
           "followers_count": 69,
           "following_count": 109,
-          "statuses_count": 1833,
+          "statuses_count": 1835,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [
@@ -2022,7 +2232,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/142/785/240/828/479/original/a71c82353d5441da.png",
           "followers_count": 69,
           "following_count": 109,
-          "statuses_count": 1833,
+          "statuses_count": 1835,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [
@@ -2138,7 +2348,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
           "followers_count": 469,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -2169,7 +2379,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/298/952/451/042/052/original/69243bdb4af7fb2f.png",
           "followers_count": 68,
           "following_count": 108,
-          "statuses_count": 1833,
+          "statuses_count": 1834,
           "last_status_at": "2024-01-04",
           "emojis": [
             {
@@ -2221,7 +2431,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/298/952/451/042/052/original/69243bdb4af7fb2f.png",
           "followers_count": 68,
           "following_count": 108,
-          "statuses_count": 1833,
+          "statuses_count": 1834,
           "last_status_at": "2024-01-04",
           "emojis": [
             {
@@ -2333,7 +2543,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
           "followers_count": 467,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
@@ -2369,9 +2579,9 @@
           "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/109/252/415/290/472/516/original/1b2d2e8088a4187e.jpeg",
           "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/252/415/290/472/516/original/a9d75c685ed05ab6.jpeg",
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/252/415/290/472/516/original/a9d75c685ed05ab6.jpeg",
-          "followers_count": 3637,
-          "following_count": 741,
-          "statuses_count": 1631,
+          "followers_count": 3643,
+          "following_count": 745,
+          "statuses_count": 1632,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": [
@@ -2393,7 +2603,7 @@
             {
               "name": "DevOps\u2019ish Firehose",
               "value": "<a href=\"https://devopsish.com/firehose/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">devopsish.com/firehose/</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2023-12-28T16:07:41.657+00:00"
+              "verified_at": "2024-01-04T21:46:51.238+00:00"
             }
           ]
         },
@@ -2452,7 +2662,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/109/254/456/977/705/530/original/e32ff360aa141c89.jpeg",
           "followers_count": 3642,
           "following_count": 745,
-          "statuses_count": 1633,
+          "statuses_count": 1634,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": [
@@ -2540,7 +2750,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
           "followers_count": 469,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -2694,46 +2904,6 @@
       },
       {
         "account": {
-          "id": "109303680558268687",
-          "username": "Andres4NY",
-          "acct": "Andres4NY@social.ridetrans.it",
-          "display_name": "Andres Salomon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2022-11-07T00:00:00.000Z",
-          "note": "<p>he/him.  from the birdsite (<span class=\"h-card\" translate=\"no\"><a href=\"https://social.ridetrans.it/@Andres4NY\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>Andres4NY</span></a></span> and before that @NEGreenways).</p><p><a href=\"https://social.ridetrans.it/tags/Dad\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Dad</span></a> <a href=\"https://social.ridetrans.it/tags/NYC\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>NYC</span></a> <a href=\"https://social.ridetrans.it/tags/Bikes\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Bikes</span></a> <a href=\"https://social.ridetrans.it/tags/FreeTransit\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>FreeTransit</span></a> <a href=\"https://social.ridetrans.it/tags/SafeStreets\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>SafeStreets</span></a> <a href=\"https://social.ridetrans.it/tags/BanCars\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>BanCars</span></a> <a href=\"https://social.ridetrans.it/tags/Debian\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Debian</span></a> <a href=\"https://social.ridetrans.it/tags/FreeSoftware\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>FreeSoftware</span></a> <a href=\"https://social.ridetrans.it/tags/ACAB\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>ACAB</span></a> <a href=\"https://social.ridetrans.it/tags/Vegetarian\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Vegetarian</span></a> <a href=\"https://social.ridetrans.it/tags/WearAMask\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>WearAMask</span></a></p><p>My wife's an <a href=\"https://social.ridetrans.it/tags/epidemiologist\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>epidemiologist</span></a>, so you'll get some <a href=\"https://social.ridetrans.it/tags/COVID\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>COVID</span></a> talk too.</p>",
-          "url": "https://social.ridetrans.it/@Andres4NY",
-          "uri": "https://social.ridetrans.it/users/Andres4NY",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/109/303/680/558/268/687/original/b23c55f24fd47241.jpg",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/109/303/680/558/268/687/original/b23c55f24fd47241.jpg",
-          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/303/680/558/268/687/original/d6c05eab1e81cf8a.jpeg",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/303/680/558/268/687/original/d6c05eab1e81cf8a.jpeg",
-          "followers_count": 897,
-          "following_count": 261,
-          "statuses_count": 8305,
-          "last_status_at": "2024-01-04",
-          "emojis": [],
-          "fields": [
-            {
-              "name": "Pronouns",
-              "value": "he/him",
-              "verified_at": null
-            },
-            {
-              "name": "toots searchable on",
-              "value": "tootfinder",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://social.ridetrans.it/@Andres4NY/111620662895624349",
-        "content": "\n\n\"Google is aware that an exploit for CVE-2023-7024 exists in the wild. \"\n\n\ud83c\udfb6 I'm so bored with C++ \ud83c\udfb6  \n[to the tune of The Clash's \"I'm So Bored With the USA\"]\n\n",
-        "created_at": "2023-12-21T22:02:30.000Z"
-      },
-      {
-        "account": {
           "id": "110787142161284615",
           "username": "simontsui",
           "acct": "simontsui@infosec.exchange",
@@ -2752,7 +2922,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
           "followers_count": 467,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
@@ -2887,7 +3057,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
           "followers_count": 469,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -2972,7 +3142,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
           "followers_count": 467,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
@@ -3161,7 +3331,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
           "followers_count": 469,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -3192,7 +3362,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
           "followers_count": 467,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
@@ -3204,6 +3374,75 @@
     ],
     "description": "A security issue exists in D-Link D-View 8 v2.0.2.89 and prior that could allow an attacker to manipulate the probe inventory of the D-View service. This could result in the disclosure of information from other probes, denial of service conditions due to the probe inventory becoming full, or the execution of tasks on other probes.\n\n",
     "epss": 0.042
+  },
+  "CVE-2023-20273": {
+    "cvss3": 7.2,
+    "severity": "HIGH",
+    "epss_severity": "LOW",
+    "posts": [
+      {
+        "account": {
+          "id": "110730368199044452",
+          "username": "simontsui",
+          "acct": "simontsui",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "followers_count": 469,
+          "following_count": 49,
+          "statuses_count": 1549,
+          "last_status_at": "2024-01-04",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111665266572564578",
+        "content": "\n\n[@kpwn](https://infosec.exchange/@kpwn) CVE-2023-20198 was fascinating for\nmany reasons:\n\n  * Cisco is a networking vendor giant. Almost every organization had an affected device.\n  * CVSSv3 score of 10.0 is rare for an established product, especially from Cisco. 10.0 is the equivalent of leaving the backdoor wide open, but no one else saw the possibility?\n  * There was no patch available at the time of disclosure. First available patch was 6 days later, and for one specific model.\n  * The identified implant was detected on approximately 40,000-60,000 compromised devices.\n  * An operation of this scale screams nation state activity, but no one was pointing fingers (or taking credit).\n  * The likely use of that many devices is for a botnet. However, nothing was done with the infected hosts. Either the threat actor was a solo operation or wanted to lay low after attracting international attention.\n  * Cisco PSIRT couldn't figure out how the threat actor uploaded the implant. This was eventually identified as the other zero-day CVE-2023-20273.\n  * There was a industrial control system angle to this, when Rockwell Automation announced that they were impacted by CVE-2023-20198 (admitting to CVE-2023-20273 later too)\n\n[#CveCrowdDeny](https://infosec.exchange/tags/CveCrowdDeny)\n\n",
+        "created_at": "2023-12-29T19:05:48.240Z"
+      },
+      {
+        "account": {
+          "id": "110787142161284615",
+          "username": "simontsui",
+          "acct": "simontsui@infosec.exchange",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "followers_count": 467,
+          "following_count": 49,
+          "statuses_count": 1549,
+          "last_status_at": "2024-01-04",
+          "emojis": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111665266572564578",
+        "content": "\n\n[@kpwn](https://infosec.exchange/@kpwn) CVE-2023-20198 was fascinating for\nmany reasons:\n\n  * Cisco is a networking vendor giant. Almost every organization had an affected device.\n  * CVSSv3 score of 10.0 is rare for an established product, especially from Cisco. 10.0 is the equivalent of leaving the backdoor wide open, but no one else saw the possibility?\n  * There was no patch available at the time of disclosure. First available patch was 6 days later, and for one specific model.\n  * The identified implant was detected on approximately 40,000-60,000 compromised devices.\n  * An operation of this scale screams nation state activity, but no one was pointing fingers (or taking credit).\n  * The likely use of that many devices is for a botnet. However, nothing was done with the infected hosts. Either the threat actor was a solo operation or wanted to lay low after attracting international attention.\n  * Cisco PSIRT couldn't figure out how the threat actor uploaded the implant. This was eventually identified as the other zero-day CVE-2023-20273.\n  * There was a industrial control system angle to this, when Rockwell Automation announced that they were impacted by CVE-2023-20198 (admitting to CVE-2023-20273 later too)\n\n[#CveCrowdDeny](https://infosec.exchange/tags/CveCrowdDeny)\n\n",
+        "created_at": "2023-12-29T19:05:48.000Z"
+      }
+    ],
+    "description": "A vulnerability in the web UI feature of Cisco IOS XE Software could allow an authenticated, remote attacker to inject commands with the privileges of root. This vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by sending crafted input to the web UI. A successful exploit could allow the attacker to inject commands to the underlying operating system with root privileges.",
+    "epss": 6.017
   },
   "CVE-2023-20198": {
     "cvss3": 10,
@@ -3230,7 +3469,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
           "followers_count": 469,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -3315,7 +3554,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
           "followers_count": 467,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
@@ -3380,74 +3619,86 @@
     "description": "Cisco is providing an update for the ongoing investigation into observed exploitation of the web UI feature in Cisco IOS XE Software. We are updating the list of fixed releases and adding the Software Checker. Our investigation has determined that the actors exploited two previously unknown issues. The attacker first exploited CVE-2023-20198 to gain initial access and issued a privilege 15 command to create a local user and password combination. This allowed the user to log in with normal user access. The attacker then exploited another component of the web UI feature, leveraging the new local user to elevate privilege to root and write the implant to the file system. Cisco has assigned CVE-2023-20273 to this issue. CVE-2023-20198 has been assigned a CVSS Score of 10.0. CVE-2023-20273 has been assigned a CVSS Score of 7.2. Both of these CVEs are being tracked by CSCwh87343.",
     "epss": 89.074
   },
-  "CVE-2023-20273": {
-    "cvss3": 7.2,
-    "severity": "HIGH",
-    "epss_severity": "LOW",
+  "CVE-2021-22986": {
+    "cvss3": 9.8,
+    "severity": "CRITICAL",
+    "epss_severity": "CRITICAL",
     "posts": [
       {
         "account": {
-          "id": "110730368199044452",
-          "username": "simontsui",
-          "acct": "simontsui",
-          "display_name": "Simon",
+          "id": "109320853553361576",
+          "username": "ntkramer",
+          "acct": "ntkramer",
+          "display_name": "Glenn \ud83d\udcce",
           "locked": false,
           "bot": false,
           "discoverable": true,
           "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "followers_count": 469,
-          "following_count": 49,
-          "statuses_count": 1547,
+          "created_at": "2022-11-10T00:00:00.000Z",
+          "note": "<p>Experienced InfoSec | Elder Millennial | \ud83d\udcbc Security Research <span class=\"h-card\" translate=\"no\"><a href=\"https://infosec.exchange/@greynoise\" class=\"u-url mention\">@<span>greynoise</span></a></span> | I ask &#39;why?&#39; a lot | Pro Oxford Comma | Fix it! | He/Him | <a href=\"https://infosec.exchange/tags/BLM\" class=\"mention hashtag\" rel=\"tag\">#<span>BLM</span></a> | Views are my own.</p>",
+          "url": "https://infosec.exchange/@ntkramer",
+          "uri": "https://infosec.exchange/users/ntkramer",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/320/853/553/361/576/original/039cf3e58191829a.jpeg",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/320/853/553/361/576/original/039cf3e58191829a.jpeg",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/320/853/553/361/576/original/adae9c2dfdd919a0.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/320/853/553/361/576/original/adae9c2dfdd919a0.png",
+          "followers_count": 256,
+          "following_count": 250,
+          "statuses_count": 273,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
           "roles": [],
-          "fields": []
+          "fields": [
+            {
+              "name": "Twitter",
+              "value": "<span class=\"h-card\" translate=\"no\"><a href=\"https://infosec.exchange/@ntkramer\" class=\"u-url mention\">@<span>ntkramer</span></a></span>",
+              "verified_at": null
+            }
+          ]
         },
-        "url": "https://infosec.exchange/@simontsui/111665266572564578",
-        "content": "\n\n[@kpwn](https://infosec.exchange/@kpwn) CVE-2023-20198 was fascinating for\nmany reasons:\n\n  * Cisco is a networking vendor giant. Almost every organization had an affected device.\n  * CVSSv3 score of 10.0 is rare for an established product, especially from Cisco. 10.0 is the equivalent of leaving the backdoor wide open, but no one else saw the possibility?\n  * There was no patch available at the time of disclosure. First available patch was 6 days later, and for one specific model.\n  * The identified implant was detected on approximately 40,000-60,000 compromised devices.\n  * An operation of this scale screams nation state activity, but no one was pointing fingers (or taking credit).\n  * The likely use of that many devices is for a botnet. However, nothing was done with the infected hosts. Either the threat actor was a solo operation or wanted to lay low after attracting international attention.\n  * Cisco PSIRT couldn't figure out how the threat actor uploaded the implant. This was eventually identified as the other zero-day CVE-2023-20273.\n  * There was a industrial control system angle to this, when Rockwell Automation announced that they were impacted by CVE-2023-20198 (admitting to CVE-2023-20273 later too)\n\n[#CveCrowdDeny](https://infosec.exchange/tags/CveCrowdDeny)\n\n",
-        "created_at": "2023-12-29T19:05:48.240Z"
+        "url": "https://infosec.exchange/@ntkramer/111665232497831141",
+        "content": "\n\n\ud83e\udd64 & [#threatintel](https://infosec.exchange/tags/threatintel): Observing a\nmassive spike in F5 exploitation attempts in the last ~24 hours; here is a\nlook at CVE-2021-22986 and CVE-2022-1388.  \n[https://viz.greynoise.io/tag/f5-big-ip-icontrol-rce-\nattempt?days=30](https://viz.greynoise.io/tag/f5-big-ip-icontrol-rce-\nattempt?days=30)  \n[https://viz.greynoise.io/tag/f5-big-ip-icontrol-rest-authentication-bypass-\nattempt?days=30](https://viz.greynoise.io/tag/f5-big-ip-icontrol-rest-\nauthentication-bypass-attempt?days=30)\n\n",
+        "created_at": "2023-12-29T18:57:08.299Z"
       },
       {
         "account": {
-          "id": "110787142161284615",
-          "username": "simontsui",
-          "acct": "simontsui@infosec.exchange",
-          "display_name": "Simon",
+          "id": "109903172783414207",
+          "username": "ntkramer",
+          "acct": "ntkramer@infosec.exchange",
+          "display_name": "Glenn \ud83d\udcce",
           "locked": false,
           "bot": false,
           "discoverable": true,
           "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "followers_count": 467,
-          "following_count": 49,
-          "statuses_count": 1547,
+          "created_at": "2022-11-10T00:00:00.000Z",
+          "note": "<p>Experienced InfoSec | Elder Millennial | \ud83d\udcbc Security Research <span class=\"h-card\" translate=\"no\"><a href=\"https://infosec.exchange/@greynoise\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>greynoise</span></a></span> | I ask 'why?' a lot | Pro Oxford Comma | Fix it! | He/Him | <a href=\"https://infosec.exchange/tags/BLM\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>BLM</span></a> | Views are my own.</p>",
+          "url": "https://infosec.exchange/@ntkramer",
+          "uri": "https://infosec.exchange/users/ntkramer",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/109/903/172/783/414/207/original/fb71313836d90c10.jpeg",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/109/903/172/783/414/207/original/fb71313836d90c10.jpeg",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/109/903/172/783/414/207/original/c531e6201d6f075a.png",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/109/903/172/783/414/207/original/c531e6201d6f075a.png",
+          "followers_count": 248,
+          "following_count": 250,
+          "statuses_count": 273,
           "last_status_at": "2024-01-04",
           "emojis": [],
-          "fields": []
+          "fields": [
+            {
+              "name": "Twitter",
+              "value": "<span class=\"h-card\" translate=\"no\"><a href=\"https://infosec.exchange/@ntkramer\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>ntkramer</span></a></span>",
+              "verified_at": null
+            }
+          ]
         },
-        "url": "https://infosec.exchange/@simontsui/111665266572564578",
-        "content": "\n\n[@kpwn](https://infosec.exchange/@kpwn) CVE-2023-20198 was fascinating for\nmany reasons:\n\n  * Cisco is a networking vendor giant. Almost every organization had an affected device.\n  * CVSSv3 score of 10.0 is rare for an established product, especially from Cisco. 10.0 is the equivalent of leaving the backdoor wide open, but no one else saw the possibility?\n  * There was no patch available at the time of disclosure. First available patch was 6 days later, and for one specific model.\n  * The identified implant was detected on approximately 40,000-60,000 compromised devices.\n  * An operation of this scale screams nation state activity, but no one was pointing fingers (or taking credit).\n  * The likely use of that many devices is for a botnet. However, nothing was done with the infected hosts. Either the threat actor was a solo operation or wanted to lay low after attracting international attention.\n  * Cisco PSIRT couldn't figure out how the threat actor uploaded the implant. This was eventually identified as the other zero-day CVE-2023-20273.\n  * There was a industrial control system angle to this, when Rockwell Automation announced that they were impacted by CVE-2023-20198 (admitting to CVE-2023-20273 later too)\n\n[#CveCrowdDeny](https://infosec.exchange/tags/CveCrowdDeny)\n\n",
-        "created_at": "2023-12-29T19:05:48.000Z"
+        "url": "https://infosec.exchange/@ntkramer/111665232497831141",
+        "content": "\n\n\ud83e\udd64 & [#threatintel](https://infosec.exchange/tags/threatintel): Observing a\nmassive spike in F5 exploitation attempts in the last ~24 hours; here is a\nlook at CVE-2021-22986 and CVE-2022-1388.  \n[https://viz.greynoise.io/tag/f5-big-ip-icontrol-rce-\nattempt?days=30](https://viz.greynoise.io/tag/f5-big-ip-icontrol-rce-\nattempt?days=30)  \n[https://viz.greynoise.io/tag/f5-big-ip-icontrol-rest-authentication-bypass-\nattempt?days=30](https://viz.greynoise.io/tag/f5-big-ip-icontrol-rest-\nauthentication-bypass-attempt?days=30)\n\n",
+        "created_at": "2023-12-29T18:57:08.000Z"
       }
     ],
-    "description": "A vulnerability in the web UI feature of Cisco IOS XE Software could allow an authenticated, remote attacker to inject commands with the privileges of root. This vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by sending crafted input to the web UI. A successful exploit could allow the attacker to inject commands to the underlying operating system with root privileges.",
-    "epss": 6.017
+    "description": "On BIG-IP versions 16.0.x before 16.0.1.1, 15.1.x before 15.1.2.1, 14.1.x before 14.1.4, 13.1.x before 13.1.3.6, and 12.1.x before 12.1.5.3 amd BIG-IQ 7.1.0.x before 7.1.0.3 and 7.0.0.x before 7.0.0.2, the iControl REST interface has an unauthenticated remote command execution vulnerability. Note: Software versions which have reached End of Software Development (EoSD) are not evaluated.",
+    "epss": 97.435
   },
   "CVE-2022-1388": {
     "cvss3": 9.8,
@@ -3474,7 +3725,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/320/853/553/361/576/original/adae9c2dfdd919a0.png",
           "followers_count": 256,
           "following_count": 250,
-          "statuses_count": 271,
+          "statuses_count": 273,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -3511,7 +3762,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/109/903/172/783/414/207/original/c531e6201d6f075a.png",
           "followers_count": 248,
           "following_count": 250,
-          "statuses_count": 271,
+          "statuses_count": 273,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": [
@@ -3529,87 +3780,6 @@
     ],
     "description": "On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.1, 14.1.x versions prior to 14.1.4.6, 13.1.x versions prior to 13.1.5, and all 12.1.x and 11.6.x versions, undisclosed requests may bypass iControl REST authentication. Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated",
     "epss": 97.334
-  },
-  "CVE-2021-22986": {
-    "cvss3": 9.8,
-    "severity": "CRITICAL",
-    "epss_severity": "CRITICAL",
-    "posts": [
-      {
-        "account": {
-          "id": "109320853553361576",
-          "username": "ntkramer",
-          "acct": "ntkramer",
-          "display_name": "Glenn \ud83d\udcce",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2022-11-10T00:00:00.000Z",
-          "note": "<p>Experienced InfoSec | Elder Millennial | \ud83d\udcbc Security Research <span class=\"h-card\" translate=\"no\"><a href=\"https://infosec.exchange/@greynoise\" class=\"u-url mention\">@<span>greynoise</span></a></span> | I ask &#39;why?&#39; a lot | Pro Oxford Comma | Fix it! | He/Him | <a href=\"https://infosec.exchange/tags/BLM\" class=\"mention hashtag\" rel=\"tag\">#<span>BLM</span></a> | Views are my own.</p>",
-          "url": "https://infosec.exchange/@ntkramer",
-          "uri": "https://infosec.exchange/users/ntkramer",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/320/853/553/361/576/original/039cf3e58191829a.jpeg",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/320/853/553/361/576/original/039cf3e58191829a.jpeg",
-          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/320/853/553/361/576/original/adae9c2dfdd919a0.png",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/320/853/553/361/576/original/adae9c2dfdd919a0.png",
-          "followers_count": 256,
-          "following_count": 250,
-          "statuses_count": 271,
-          "last_status_at": "2024-01-04",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": [
-            {
-              "name": "Twitter",
-              "value": "<span class=\"h-card\" translate=\"no\"><a href=\"https://infosec.exchange/@ntkramer\" class=\"u-url mention\">@<span>ntkramer</span></a></span>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://infosec.exchange/@ntkramer/111665232497831141",
-        "content": "\n\n\ud83e\udd64 & [#threatintel](https://infosec.exchange/tags/threatintel): Observing a\nmassive spike in F5 exploitation attempts in the last ~24 hours; here is a\nlook at CVE-2021-22986 and CVE-2022-1388.  \n[https://viz.greynoise.io/tag/f5-big-ip-icontrol-rce-\nattempt?days=30](https://viz.greynoise.io/tag/f5-big-ip-icontrol-rce-\nattempt?days=30)  \n[https://viz.greynoise.io/tag/f5-big-ip-icontrol-rest-authentication-bypass-\nattempt?days=30](https://viz.greynoise.io/tag/f5-big-ip-icontrol-rest-\nauthentication-bypass-attempt?days=30)\n\n",
-        "created_at": "2023-12-29T18:57:08.299Z"
-      },
-      {
-        "account": {
-          "id": "109903172783414207",
-          "username": "ntkramer",
-          "acct": "ntkramer@infosec.exchange",
-          "display_name": "Glenn \ud83d\udcce",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2022-11-10T00:00:00.000Z",
-          "note": "<p>Experienced InfoSec | Elder Millennial | \ud83d\udcbc Security Research <span class=\"h-card\" translate=\"no\"><a href=\"https://infosec.exchange/@greynoise\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>greynoise</span></a></span> | I ask 'why?' a lot | Pro Oxford Comma | Fix it! | He/Him | <a href=\"https://infosec.exchange/tags/BLM\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>BLM</span></a> | Views are my own.</p>",
-          "url": "https://infosec.exchange/@ntkramer",
-          "uri": "https://infosec.exchange/users/ntkramer",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/109/903/172/783/414/207/original/fb71313836d90c10.jpeg",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/109/903/172/783/414/207/original/fb71313836d90c10.jpeg",
-          "header": "https://files.ioc.exchange/cache/accounts/headers/109/903/172/783/414/207/original/c531e6201d6f075a.png",
-          "header_static": "https://files.ioc.exchange/cache/accounts/headers/109/903/172/783/414/207/original/c531e6201d6f075a.png",
-          "followers_count": 248,
-          "following_count": 250,
-          "statuses_count": 271,
-          "last_status_at": "2024-01-04",
-          "emojis": [],
-          "fields": [
-            {
-              "name": "Twitter",
-              "value": "<span class=\"h-card\" translate=\"no\"><a href=\"https://infosec.exchange/@ntkramer\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>ntkramer</span></a></span>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://infosec.exchange/@ntkramer/111665232497831141",
-        "content": "\n\n\ud83e\udd64 & [#threatintel](https://infosec.exchange/tags/threatintel): Observing a\nmassive spike in F5 exploitation attempts in the last ~24 hours; here is a\nlook at CVE-2021-22986 and CVE-2022-1388.  \n[https://viz.greynoise.io/tag/f5-big-ip-icontrol-rce-\nattempt?days=30](https://viz.greynoise.io/tag/f5-big-ip-icontrol-rce-\nattempt?days=30)  \n[https://viz.greynoise.io/tag/f5-big-ip-icontrol-rest-authentication-bypass-\nattempt?days=30](https://viz.greynoise.io/tag/f5-big-ip-icontrol-rest-\nauthentication-bypass-attempt?days=30)\n\n",
-        "created_at": "2023-12-29T18:57:08.000Z"
-      }
-    ],
-    "description": "On BIG-IP versions 16.0.x before 16.0.1.1, 15.1.x before 15.1.2.1, 14.1.x before 14.1.4, 13.1.x before 13.1.3.6, and 12.1.x before 12.1.5.3 amd BIG-IQ 7.1.0.x before 7.1.0.3 and 7.0.0.x before 7.0.0.2, the iControl REST interface has an unauthenticated remote command execution vulnerability. Note: Software versions which have reached End of Software Development (EoSD) are not evaluated.",
-    "epss": 97.435
   },
   "CVE-2023-4966": {
     "cvss3": 7.5,
@@ -3850,7 +4020,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/320/853/553/361/576/original/adae9c2dfdd919a0.png",
           "followers_count": 256,
           "following_count": 250,
-          "statuses_count": 271,
+          "statuses_count": 273,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -3937,7 +4107,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/109/903/172/783/414/207/original/c531e6201d6f075a.png",
           "followers_count": 248,
           "following_count": 250,
-          "statuses_count": 271,
+          "statuses_count": 273,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": [
@@ -4031,7 +4201,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
           "followers_count": 469,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -4124,7 +4294,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
           "followers_count": 469,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -4195,7 +4365,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
           "followers_count": 467,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
@@ -4282,7 +4452,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
           "followers_count": 467,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
@@ -4535,9 +4705,9 @@
           "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/109/630/061/787/684/586/original/f9b0a5f587f44d61.jpeg",
           "header": "https://assets.infosec.exchange/headers/original/missing.png",
           "header_static": "https://assets.infosec.exchange/headers/original/missing.png",
-          "followers_count": 135,
+          "followers_count": 137,
           "following_count": 0,
-          "statuses_count": 6451,
+          "statuses_count": 6453,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": [
@@ -4582,7 +4752,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
           "followers_count": 469,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -4673,7 +4843,7 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 136,
           "following_count": 0,
-          "statuses_count": 6451,
+          "statuses_count": 6452,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": [
@@ -4718,7 +4888,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
           "followers_count": 467,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
@@ -4818,7 +4988,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
           "followers_count": 469,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -4909,7 +5079,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
           "followers_count": 467,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
@@ -5059,7 +5229,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
           "followers_count": 469,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -5200,7 +5370,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
           "followers_count": 467,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
@@ -5238,7 +5408,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/262/333/181/395/866/original/1182dbc5fbad486b.png",
           "followers_count": 219,
           "following_count": 890,
-          "statuses_count": 1787,
+          "statuses_count": 1788,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": [
@@ -5288,7 +5458,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/109/265/642/128/643/942/original/bcc6e7ad0c313c26.png",
           "followers_count": 217,
           "following_count": 890,
-          "statuses_count": 1788,
+          "statuses_count": 1789,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": [
@@ -5448,7 +5618,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
           "followers_count": 469,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -5479,7 +5649,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
           "followers_count": 467,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
@@ -5491,75 +5661,6 @@
     ],
     "description": "\nPre-auth RCE in Apache Ofbiz 18.12.09.\n\nIt's due to XML-RPC\u00a0no longer maintained\u00a0still present.\nThis issue affects Apache OFBiz: before 18.12.10.\u00a0\nUsers are recommended to upgrade to version 18.12.10\n\n",
     "epss": 59.065999999999995
-  },
-  "CVE-2023-33063": {
-    "cvss3": 7.8,
-    "severity": "HIGH",
-    "epss_severity": "LOW",
-    "posts": [
-      {
-        "account": {
-          "id": "110730368199044452",
-          "username": "simontsui",
-          "acct": "simontsui",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "followers_count": 469,
-          "following_count": 49,
-          "statuses_count": 1547,
-          "last_status_at": "2024-01-04",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111652726621557161",
-        "content": "\n\nThis wasn't advertised on Mastodon, but **Google Project Zero** published root\ncause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds\nwrite, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer\noverflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as\nexploited zero-days.  \n\ud83d\udd17 [https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-33106.html) and\n[https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-33107.html)\n\nNote for [@maddiestone](https://infosec.exchange/@maddiestone):\n[https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to\nCVE-2023-33063 in the [0day \"in the\nWild\"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)\nGoogle Sheet.\n\n",
-        "created_at": "2023-12-27T13:56:43.773Z"
-      },
-      {
-        "account": {
-          "id": "110787142161284615",
-          "username": "simontsui",
-          "acct": "simontsui@infosec.exchange",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "followers_count": 467,
-          "following_count": 49,
-          "statuses_count": 1547,
-          "last_status_at": "2024-01-04",
-          "emojis": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111652726621557161",
-        "content": "\n\nThis wasn't advertised on Mastodon, but **Google Project Zero** published root\ncause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds\nwrite, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer\noverflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as\nexploited zero-days.  \n\ud83d\udd17 [https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-33106.html) and\n[https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-33107.html)\n\nNote for [@maddiestone](https://infosec.exchange/@maddiestone):\n[https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to\nCVE-2023-33063 in the [0day \"in the\nWild\"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)\nGoogle Sheet.\n\n",
-        "created_at": "2023-12-27T13:56:43.000Z"
-      }
-    ],
-    "description": "Memory corruption in DSP Services during a remote call from HLOS to DSP.",
-    "epss": 0.064
   },
   "CVE-2023-36033": {
     "cvss3": 7.8,
@@ -5586,7 +5687,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
           "followers_count": 469,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -5617,7 +5718,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
           "followers_count": 467,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
@@ -5655,7 +5756,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
           "followers_count": 469,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -5686,7 +5787,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
           "followers_count": 467,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
@@ -5697,6 +5798,75 @@
       }
     ],
     "description": "Memory corruption while submitting a large list of sync points in an AUX command to the IOCTL_KGSL_GPU_AUX_COMMAND.",
+    "epss": 0.064
+  },
+  "CVE-2023-33063": {
+    "cvss3": 7.8,
+    "severity": "HIGH",
+    "epss_severity": "LOW",
+    "posts": [
+      {
+        "account": {
+          "id": "110730368199044452",
+          "username": "simontsui",
+          "acct": "simontsui",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "followers_count": 469,
+          "following_count": 49,
+          "statuses_count": 1549,
+          "last_status_at": "2024-01-04",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111652726621557161",
+        "content": "\n\nThis wasn't advertised on Mastodon, but **Google Project Zero** published root\ncause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds\nwrite, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer\noverflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as\nexploited zero-days.  \n\ud83d\udd17 [https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-33106.html) and\n[https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-33107.html)\n\nNote for [@maddiestone](https://infosec.exchange/@maddiestone):\n[https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to\nCVE-2023-33063 in the [0day \"in the\nWild\"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)\nGoogle Sheet.\n\n",
+        "created_at": "2023-12-27T13:56:43.773Z"
+      },
+      {
+        "account": {
+          "id": "110787142161284615",
+          "username": "simontsui",
+          "acct": "simontsui@infosec.exchange",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "followers_count": 467,
+          "following_count": 49,
+          "statuses_count": 1549,
+          "last_status_at": "2024-01-04",
+          "emojis": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111652726621557161",
+        "content": "\n\nThis wasn't advertised on Mastodon, but **Google Project Zero** published root\ncause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds\nwrite, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer\noverflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as\nexploited zero-days.  \n\ud83d\udd17 [https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-33106.html) and\n[https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-33107.html)\n\nNote for [@maddiestone](https://infosec.exchange/@maddiestone):\n[https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to\nCVE-2023-33063 in the [0day \"in the\nWild\"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)\nGoogle Sheet.\n\n",
+        "created_at": "2023-12-27T13:56:43.000Z"
+      }
+    ],
+    "description": "Memory corruption in DSP Services during a remote call from HLOS to DSP.",
     "epss": 0.064
   },
   "CVE-2023-33107": {
@@ -5724,7 +5894,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
           "followers_count": 469,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -5755,7 +5925,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
           "followers_count": 467,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
@@ -6231,10 +6401,10 @@
     "description": "In SysAid On-Premise before 23.3.36, a path traversal vulnerability leads to code execution after an attacker writes a file to the Tomcat webroot, as exploited in the wild in November 2023.",
     "epss": 66.797
   },
-  "CVE-2021-27101": {
-    "cvss3": 9.8,
-    "severity": "CRITICAL",
-    "epss_severity": "LOW",
+  "CVE-2023-0669": {
+    "cvss3": 7.2,
+    "severity": "HIGH",
+    "epss_severity": "CRITICAL",
     "posts": [
       {
         "account": {
@@ -6279,59 +6449,8 @@
         "created_at": "2023-12-25T01:20:45.314Z"
       }
     ],
-    "description": "Accellion FTA 9_12_370 and earlier is affected by SQL injection via a crafted Host header in a request to document_root.html. The fixed version is FTA_9_12_380 and later.",
-    "epss": 0.761
-  },
-  "CVE-2021-35211": {
-    "cvss3": 10,
-    "severity": "CRITICAL",
-    "epss_severity": "MEDIUM",
-    "posts": [
-      {
-        "account": {
-          "id": "110642419440111719",
-          "username": "kaito834",
-          "acct": "kaito834",
-          "display_name": "kaito834",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-02T00:00:00.000Z",
-          "note": "<p>\u8208\u5473\uff1a\u6280\u8853\u30fb\u7d44\u7e54\u30de\u30cd\u30b8\u30e1\u30f3\u30c8\u305d\u308c\u305e\u308c\u306e\u89b3\u70b9\u304b\u3089\u306e\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u78ba\u4fdd\u3001\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30a4\u30f3\u30b7\u30c7\u30f3\u30c8\uff08\u7279\u306b\u767a\u751f\u539f\u56e0\u3068\u5bfe\u51e6\uff09\uff0f\u5f15\u7528\u3059\u308b\u60c5\u5831\u306e\u901f\u5831\u6027\u304c\u4f4e\u3044\u3053\u3068\u304c\u591a\u3081</p><p>X (Twitter) \u6295\u7a3f\u306e\u3046\u3061\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u306b\u95a2\u9023\u3059\u308b\u6295\u7a3f\u306e\u307f\u3001\u3053\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u3067\u3082\u6295\u7a3f\u3057\u3066\u3044\u307e\u3059</p>",
-          "url": "https://infosec.exchange/@kaito834",
-          "uri": "https://infosec.exchange/users/kaito834",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/642/419/440/111/719/original/895076e8aeda2223.jpeg",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/642/419/440/111/719/original/895076e8aeda2223.jpeg",
-          "header": "https://assets.infosec.exchange/headers/original/missing.png",
-          "header_static": "https://assets.infosec.exchange/headers/original/missing.png",
-          "followers_count": 11,
-          "following_count": 21,
-          "statuses_count": 319,
-          "last_status_at": "2024-01-04",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": [
-            {
-              "name": "X (Twitter)",
-              "value": "<a href=\"https://twitter.com/kaito834\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/kaito834</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Misskey.io",
-              "value": "<a href=\"https://misskey.io/@kaito834\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">misskey.io/@kaito834</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://infosec.exchange/@kaito834/111638429389007148",
-        "content": "\n\n[https://twitter.com/ItsReallyNick/status/1737830416508194944](https://twitter.com/ItsReallyNick/status/1737830416508194944)  \n\u300cOne cyber crime actor \u2013 Lace Tempest (and pretty much a single persona within\nthat team) \u2013 has obtained and exploited 5 0days and 1 n-day without a public\nPOC to deploy ransomware [CL0P]\n\n1\ufe0f\u20e3 Accellion FTA CVE-2021-27101\n(+CVE-2021-27102/CVE-2021-27103/CVE-2021-27104)  \n2\ufe0f\u20e3 SolarWinds Serv-U CVE-2021-35211  \n3\ufe0f\u20e3 GoAnywhere MFT CVE-2023-0669  \n4\ufe0f\u20e3 PaperCut CVE-2023-27350 & CVE-2023-27351  \n5\ufe0f\u20e3 MOVEit Transfer CVE-2023-34362  \n6\ufe0f\u20e3 Sysaid CVE-2023-47246\n\nIMO MOVEit campaign was most impactful, followed by GoAnywhere. Because Lace\nTempest uses RDP / web service compromises, the impact is directly correlated\nto the number of Internet-facing vulnerable services, so it makes sense that\ncertain applications are by design more internet-exposed.  \nI thought Sysaid was a more impressive 0day (Microsoft was the discoverer &  \n@0g_omkar  \ndisclosed to Sysaid) \u2013 but the impact was super limited bc of low Internet\nexposure\u300d\n\n",
-        "created_at": "2023-12-25T01:20:45.314Z"
-      }
-    ],
-    "description": "Microsoft discovered a remote code execution (RCE) vulnerability in the SolarWinds Serv-U product utilizing a Remote Memory Escape Vulnerability. If exploited, a threat actor may be able to gain privileged access to the machine hosting Serv-U Only. SolarWinds Serv-U Managed File Transfer and Serv-U Secure FTP for Windows before 15.2.3 HF2 are affected by this vulnerability.",
-    "epss": 27.637
+    "description": "Fortra (formerly, HelpSystems) GoAnywhere MFT suffers from a pre-authentication command injection vulnerability in the License Response Servlet due to deserializing an arbitrary attacker-controlled object. This issue was patched in version 7.1.2.",
+    "epss": 96.66900000000001
   },
   "CVE-2021-27103": {
     "cvss3": 9.8,
@@ -6383,159 +6502,6 @@
     ],
     "description": "Accellion FTA 9_12_411 and earlier is affected by SSRF via a crafted POST request to wmProgressstat.html. The fixed version is FTA_9_12_416 and later.",
     "epss": 1.217
-  },
-  "CVE-2021-27104": {
-    "cvss3": 9.8,
-    "severity": "CRITICAL",
-    "epss_severity": "LOW",
-    "posts": [
-      {
-        "account": {
-          "id": "110642419440111719",
-          "username": "kaito834",
-          "acct": "kaito834",
-          "display_name": "kaito834",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-02T00:00:00.000Z",
-          "note": "<p>\u8208\u5473\uff1a\u6280\u8853\u30fb\u7d44\u7e54\u30de\u30cd\u30b8\u30e1\u30f3\u30c8\u305d\u308c\u305e\u308c\u306e\u89b3\u70b9\u304b\u3089\u306e\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u78ba\u4fdd\u3001\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30a4\u30f3\u30b7\u30c7\u30f3\u30c8\uff08\u7279\u306b\u767a\u751f\u539f\u56e0\u3068\u5bfe\u51e6\uff09\uff0f\u5f15\u7528\u3059\u308b\u60c5\u5831\u306e\u901f\u5831\u6027\u304c\u4f4e\u3044\u3053\u3068\u304c\u591a\u3081</p><p>X (Twitter) \u6295\u7a3f\u306e\u3046\u3061\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u306b\u95a2\u9023\u3059\u308b\u6295\u7a3f\u306e\u307f\u3001\u3053\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u3067\u3082\u6295\u7a3f\u3057\u3066\u3044\u307e\u3059</p>",
-          "url": "https://infosec.exchange/@kaito834",
-          "uri": "https://infosec.exchange/users/kaito834",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/642/419/440/111/719/original/895076e8aeda2223.jpeg",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/642/419/440/111/719/original/895076e8aeda2223.jpeg",
-          "header": "https://assets.infosec.exchange/headers/original/missing.png",
-          "header_static": "https://assets.infosec.exchange/headers/original/missing.png",
-          "followers_count": 11,
-          "following_count": 21,
-          "statuses_count": 319,
-          "last_status_at": "2024-01-04",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": [
-            {
-              "name": "X (Twitter)",
-              "value": "<a href=\"https://twitter.com/kaito834\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/kaito834</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Misskey.io",
-              "value": "<a href=\"https://misskey.io/@kaito834\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">misskey.io/@kaito834</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://infosec.exchange/@kaito834/111638429389007148",
-        "content": "\n\n[https://twitter.com/ItsReallyNick/status/1737830416508194944](https://twitter.com/ItsReallyNick/status/1737830416508194944)  \n\u300cOne cyber crime actor \u2013 Lace Tempest (and pretty much a single persona within\nthat team) \u2013 has obtained and exploited 5 0days and 1 n-day without a public\nPOC to deploy ransomware [CL0P]\n\n1\ufe0f\u20e3 Accellion FTA CVE-2021-27101\n(+CVE-2021-27102/CVE-2021-27103/CVE-2021-27104)  \n2\ufe0f\u20e3 SolarWinds Serv-U CVE-2021-35211  \n3\ufe0f\u20e3 GoAnywhere MFT CVE-2023-0669  \n4\ufe0f\u20e3 PaperCut CVE-2023-27350 & CVE-2023-27351  \n5\ufe0f\u20e3 MOVEit Transfer CVE-2023-34362  \n6\ufe0f\u20e3 Sysaid CVE-2023-47246\n\nIMO MOVEit campaign was most impactful, followed by GoAnywhere. Because Lace\nTempest uses RDP / web service compromises, the impact is directly correlated\nto the number of Internet-facing vulnerable services, so it makes sense that\ncertain applications are by design more internet-exposed.  \nI thought Sysaid was a more impressive 0day (Microsoft was the discoverer &  \n@0g_omkar  \ndisclosed to Sysaid) \u2013 but the impact was super limited bc of low Internet\nexposure\u300d\n\n",
-        "created_at": "2023-12-25T01:20:45.314Z"
-      }
-    ],
-    "description": "Accellion FTA 9_12_370 and earlier is affected by OS command execution via a crafted POST request to various admin endpoints. The fixed version is FTA_9_12_380 and later.",
-    "epss": 1.059
-  },
-  "CVE-2023-27351": {
-    "cvss3": 7.5,
-    "severity": "HIGH",
-    "epss_severity": "LOW",
-    "posts": [
-      {
-        "account": {
-          "id": "110642419440111719",
-          "username": "kaito834",
-          "acct": "kaito834",
-          "display_name": "kaito834",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-02T00:00:00.000Z",
-          "note": "<p>\u8208\u5473\uff1a\u6280\u8853\u30fb\u7d44\u7e54\u30de\u30cd\u30b8\u30e1\u30f3\u30c8\u305d\u308c\u305e\u308c\u306e\u89b3\u70b9\u304b\u3089\u306e\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u78ba\u4fdd\u3001\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30a4\u30f3\u30b7\u30c7\u30f3\u30c8\uff08\u7279\u306b\u767a\u751f\u539f\u56e0\u3068\u5bfe\u51e6\uff09\uff0f\u5f15\u7528\u3059\u308b\u60c5\u5831\u306e\u901f\u5831\u6027\u304c\u4f4e\u3044\u3053\u3068\u304c\u591a\u3081</p><p>X (Twitter) \u6295\u7a3f\u306e\u3046\u3061\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u306b\u95a2\u9023\u3059\u308b\u6295\u7a3f\u306e\u307f\u3001\u3053\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u3067\u3082\u6295\u7a3f\u3057\u3066\u3044\u307e\u3059</p>",
-          "url": "https://infosec.exchange/@kaito834",
-          "uri": "https://infosec.exchange/users/kaito834",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/642/419/440/111/719/original/895076e8aeda2223.jpeg",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/642/419/440/111/719/original/895076e8aeda2223.jpeg",
-          "header": "https://assets.infosec.exchange/headers/original/missing.png",
-          "header_static": "https://assets.infosec.exchange/headers/original/missing.png",
-          "followers_count": 11,
-          "following_count": 21,
-          "statuses_count": 319,
-          "last_status_at": "2024-01-04",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": [
-            {
-              "name": "X (Twitter)",
-              "value": "<a href=\"https://twitter.com/kaito834\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/kaito834</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Misskey.io",
-              "value": "<a href=\"https://misskey.io/@kaito834\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">misskey.io/@kaito834</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://infosec.exchange/@kaito834/111638429389007148",
-        "content": "\n\n[https://twitter.com/ItsReallyNick/status/1737830416508194944](https://twitter.com/ItsReallyNick/status/1737830416508194944)  \n\u300cOne cyber crime actor \u2013 Lace Tempest (and pretty much a single persona within\nthat team) \u2013 has obtained and exploited 5 0days and 1 n-day without a public\nPOC to deploy ransomware [CL0P]\n\n1\ufe0f\u20e3 Accellion FTA CVE-2021-27101\n(+CVE-2021-27102/CVE-2021-27103/CVE-2021-27104)  \n2\ufe0f\u20e3 SolarWinds Serv-U CVE-2021-35211  \n3\ufe0f\u20e3 GoAnywhere MFT CVE-2023-0669  \n4\ufe0f\u20e3 PaperCut CVE-2023-27350 & CVE-2023-27351  \n5\ufe0f\u20e3 MOVEit Transfer CVE-2023-34362  \n6\ufe0f\u20e3 Sysaid CVE-2023-47246\n\nIMO MOVEit campaign was most impactful, followed by GoAnywhere. Because Lace\nTempest uses RDP / web service compromises, the impact is directly correlated\nto the number of Internet-facing vulnerable services, so it makes sense that\ncertain applications are by design more internet-exposed.  \nI thought Sysaid was a more impressive 0day (Microsoft was the discoverer &  \n@0g_omkar  \ndisclosed to Sysaid) \u2013 but the impact was super limited bc of low Internet\nexposure\u300d\n\n",
-        "created_at": "2023-12-25T01:20:45.314Z"
-      }
-    ],
-    "description": "This vulnerability allows remote attackers to bypass authentication on affected installations of PaperCut NG 22.0.5 (Build 63914). Authentication is not required to exploit this vulnerability. The specific flaw exists within the SecurityRequestFilter class. The issue results from improper implementation of the authentication algorithm. An attacker can leverage this vulnerability to bypass authentication on the system. Was ZDI-CAN-19226.",
-    "epss": 0.5329999999999999
-  },
-  "CVE-2023-0669": {
-    "cvss3": 7.2,
-    "severity": "HIGH",
-    "epss_severity": "CRITICAL",
-    "posts": [
-      {
-        "account": {
-          "id": "110642419440111719",
-          "username": "kaito834",
-          "acct": "kaito834",
-          "display_name": "kaito834",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-02T00:00:00.000Z",
-          "note": "<p>\u8208\u5473\uff1a\u6280\u8853\u30fb\u7d44\u7e54\u30de\u30cd\u30b8\u30e1\u30f3\u30c8\u305d\u308c\u305e\u308c\u306e\u89b3\u70b9\u304b\u3089\u306e\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u78ba\u4fdd\u3001\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30a4\u30f3\u30b7\u30c7\u30f3\u30c8\uff08\u7279\u306b\u767a\u751f\u539f\u56e0\u3068\u5bfe\u51e6\uff09\uff0f\u5f15\u7528\u3059\u308b\u60c5\u5831\u306e\u901f\u5831\u6027\u304c\u4f4e\u3044\u3053\u3068\u304c\u591a\u3081</p><p>X (Twitter) \u6295\u7a3f\u306e\u3046\u3061\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u306b\u95a2\u9023\u3059\u308b\u6295\u7a3f\u306e\u307f\u3001\u3053\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u3067\u3082\u6295\u7a3f\u3057\u3066\u3044\u307e\u3059</p>",
-          "url": "https://infosec.exchange/@kaito834",
-          "uri": "https://infosec.exchange/users/kaito834",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/642/419/440/111/719/original/895076e8aeda2223.jpeg",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/642/419/440/111/719/original/895076e8aeda2223.jpeg",
-          "header": "https://assets.infosec.exchange/headers/original/missing.png",
-          "header_static": "https://assets.infosec.exchange/headers/original/missing.png",
-          "followers_count": 11,
-          "following_count": 21,
-          "statuses_count": 319,
-          "last_status_at": "2024-01-04",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": [
-            {
-              "name": "X (Twitter)",
-              "value": "<a href=\"https://twitter.com/kaito834\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/kaito834</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Misskey.io",
-              "value": "<a href=\"https://misskey.io/@kaito834\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">misskey.io/@kaito834</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://infosec.exchange/@kaito834/111638429389007148",
-        "content": "\n\n[https://twitter.com/ItsReallyNick/status/1737830416508194944](https://twitter.com/ItsReallyNick/status/1737830416508194944)  \n\u300cOne cyber crime actor \u2013 Lace Tempest (and pretty much a single persona within\nthat team) \u2013 has obtained and exploited 5 0days and 1 n-day without a public\nPOC to deploy ransomware [CL0P]\n\n1\ufe0f\u20e3 Accellion FTA CVE-2021-27101\n(+CVE-2021-27102/CVE-2021-27103/CVE-2021-27104)  \n2\ufe0f\u20e3 SolarWinds Serv-U CVE-2021-35211  \n3\ufe0f\u20e3 GoAnywhere MFT CVE-2023-0669  \n4\ufe0f\u20e3 PaperCut CVE-2023-27350 & CVE-2023-27351  \n5\ufe0f\u20e3 MOVEit Transfer CVE-2023-34362  \n6\ufe0f\u20e3 Sysaid CVE-2023-47246\n\nIMO MOVEit campaign was most impactful, followed by GoAnywhere. Because Lace\nTempest uses RDP / web service compromises, the impact is directly correlated\nto the number of Internet-facing vulnerable services, so it makes sense that\ncertain applications are by design more internet-exposed.  \nI thought Sysaid was a more impressive 0day (Microsoft was the discoverer &  \n@0g_omkar  \ndisclosed to Sysaid) \u2013 but the impact was super limited bc of low Internet\nexposure\u300d\n\n",
-        "created_at": "2023-12-25T01:20:45.314Z"
-      }
-    ],
-    "description": "Fortra (formerly, HelpSystems) GoAnywhere MFT suffers from a pre-authentication command injection vulnerability in the License Response Servlet due to deserializing an arbitrary attacker-controlled object. This issue was patched in version 7.1.2.",
-    "epss": 96.66900000000001
   },
   "CVE-2023-34362": {
     "cvss3": 9.8,
@@ -6639,6 +6605,210 @@
     "description": "Accellion FTA 9_12_411 and earlier is affected by OS command execution via a local web service call. The fixed version is FTA_9_12_416 and later.",
     "epss": 0.083
   },
+  "CVE-2021-27104": {
+    "cvss3": 9.8,
+    "severity": "CRITICAL",
+    "epss_severity": "LOW",
+    "posts": [
+      {
+        "account": {
+          "id": "110642419440111719",
+          "username": "kaito834",
+          "acct": "kaito834",
+          "display_name": "kaito834",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-02T00:00:00.000Z",
+          "note": "<p>\u8208\u5473\uff1a\u6280\u8853\u30fb\u7d44\u7e54\u30de\u30cd\u30b8\u30e1\u30f3\u30c8\u305d\u308c\u305e\u308c\u306e\u89b3\u70b9\u304b\u3089\u306e\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u78ba\u4fdd\u3001\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30a4\u30f3\u30b7\u30c7\u30f3\u30c8\uff08\u7279\u306b\u767a\u751f\u539f\u56e0\u3068\u5bfe\u51e6\uff09\uff0f\u5f15\u7528\u3059\u308b\u60c5\u5831\u306e\u901f\u5831\u6027\u304c\u4f4e\u3044\u3053\u3068\u304c\u591a\u3081</p><p>X (Twitter) \u6295\u7a3f\u306e\u3046\u3061\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u306b\u95a2\u9023\u3059\u308b\u6295\u7a3f\u306e\u307f\u3001\u3053\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u3067\u3082\u6295\u7a3f\u3057\u3066\u3044\u307e\u3059</p>",
+          "url": "https://infosec.exchange/@kaito834",
+          "uri": "https://infosec.exchange/users/kaito834",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/642/419/440/111/719/original/895076e8aeda2223.jpeg",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/642/419/440/111/719/original/895076e8aeda2223.jpeg",
+          "header": "https://assets.infosec.exchange/headers/original/missing.png",
+          "header_static": "https://assets.infosec.exchange/headers/original/missing.png",
+          "followers_count": 11,
+          "following_count": 21,
+          "statuses_count": 319,
+          "last_status_at": "2024-01-04",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": [
+            {
+              "name": "X (Twitter)",
+              "value": "<a href=\"https://twitter.com/kaito834\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/kaito834</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Misskey.io",
+              "value": "<a href=\"https://misskey.io/@kaito834\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">misskey.io/@kaito834</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@kaito834/111638429389007148",
+        "content": "\n\n[https://twitter.com/ItsReallyNick/status/1737830416508194944](https://twitter.com/ItsReallyNick/status/1737830416508194944)  \n\u300cOne cyber crime actor \u2013 Lace Tempest (and pretty much a single persona within\nthat team) \u2013 has obtained and exploited 5 0days and 1 n-day without a public\nPOC to deploy ransomware [CL0P]\n\n1\ufe0f\u20e3 Accellion FTA CVE-2021-27101\n(+CVE-2021-27102/CVE-2021-27103/CVE-2021-27104)  \n2\ufe0f\u20e3 SolarWinds Serv-U CVE-2021-35211  \n3\ufe0f\u20e3 GoAnywhere MFT CVE-2023-0669  \n4\ufe0f\u20e3 PaperCut CVE-2023-27350 & CVE-2023-27351  \n5\ufe0f\u20e3 MOVEit Transfer CVE-2023-34362  \n6\ufe0f\u20e3 Sysaid CVE-2023-47246\n\nIMO MOVEit campaign was most impactful, followed by GoAnywhere. Because Lace\nTempest uses RDP / web service compromises, the impact is directly correlated\nto the number of Internet-facing vulnerable services, so it makes sense that\ncertain applications are by design more internet-exposed.  \nI thought Sysaid was a more impressive 0day (Microsoft was the discoverer &  \n@0g_omkar  \ndisclosed to Sysaid) \u2013 but the impact was super limited bc of low Internet\nexposure\u300d\n\n",
+        "created_at": "2023-12-25T01:20:45.314Z"
+      }
+    ],
+    "description": "Accellion FTA 9_12_370 and earlier is affected by OS command execution via a crafted POST request to various admin endpoints. The fixed version is FTA_9_12_380 and later.",
+    "epss": 1.059
+  },
+  "CVE-2021-35211": {
+    "cvss3": 10,
+    "severity": "CRITICAL",
+    "epss_severity": "MEDIUM",
+    "posts": [
+      {
+        "account": {
+          "id": "110642419440111719",
+          "username": "kaito834",
+          "acct": "kaito834",
+          "display_name": "kaito834",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-02T00:00:00.000Z",
+          "note": "<p>\u8208\u5473\uff1a\u6280\u8853\u30fb\u7d44\u7e54\u30de\u30cd\u30b8\u30e1\u30f3\u30c8\u305d\u308c\u305e\u308c\u306e\u89b3\u70b9\u304b\u3089\u306e\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u78ba\u4fdd\u3001\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30a4\u30f3\u30b7\u30c7\u30f3\u30c8\uff08\u7279\u306b\u767a\u751f\u539f\u56e0\u3068\u5bfe\u51e6\uff09\uff0f\u5f15\u7528\u3059\u308b\u60c5\u5831\u306e\u901f\u5831\u6027\u304c\u4f4e\u3044\u3053\u3068\u304c\u591a\u3081</p><p>X (Twitter) \u6295\u7a3f\u306e\u3046\u3061\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u306b\u95a2\u9023\u3059\u308b\u6295\u7a3f\u306e\u307f\u3001\u3053\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u3067\u3082\u6295\u7a3f\u3057\u3066\u3044\u307e\u3059</p>",
+          "url": "https://infosec.exchange/@kaito834",
+          "uri": "https://infosec.exchange/users/kaito834",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/642/419/440/111/719/original/895076e8aeda2223.jpeg",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/642/419/440/111/719/original/895076e8aeda2223.jpeg",
+          "header": "https://assets.infosec.exchange/headers/original/missing.png",
+          "header_static": "https://assets.infosec.exchange/headers/original/missing.png",
+          "followers_count": 11,
+          "following_count": 21,
+          "statuses_count": 319,
+          "last_status_at": "2024-01-04",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": [
+            {
+              "name": "X (Twitter)",
+              "value": "<a href=\"https://twitter.com/kaito834\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/kaito834</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Misskey.io",
+              "value": "<a href=\"https://misskey.io/@kaito834\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">misskey.io/@kaito834</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@kaito834/111638429389007148",
+        "content": "\n\n[https://twitter.com/ItsReallyNick/status/1737830416508194944](https://twitter.com/ItsReallyNick/status/1737830416508194944)  \n\u300cOne cyber crime actor \u2013 Lace Tempest (and pretty much a single persona within\nthat team) \u2013 has obtained and exploited 5 0days and 1 n-day without a public\nPOC to deploy ransomware [CL0P]\n\n1\ufe0f\u20e3 Accellion FTA CVE-2021-27101\n(+CVE-2021-27102/CVE-2021-27103/CVE-2021-27104)  \n2\ufe0f\u20e3 SolarWinds Serv-U CVE-2021-35211  \n3\ufe0f\u20e3 GoAnywhere MFT CVE-2023-0669  \n4\ufe0f\u20e3 PaperCut CVE-2023-27350 & CVE-2023-27351  \n5\ufe0f\u20e3 MOVEit Transfer CVE-2023-34362  \n6\ufe0f\u20e3 Sysaid CVE-2023-47246\n\nIMO MOVEit campaign was most impactful, followed by GoAnywhere. Because Lace\nTempest uses RDP / web service compromises, the impact is directly correlated\nto the number of Internet-facing vulnerable services, so it makes sense that\ncertain applications are by design more internet-exposed.  \nI thought Sysaid was a more impressive 0day (Microsoft was the discoverer &  \n@0g_omkar  \ndisclosed to Sysaid) \u2013 but the impact was super limited bc of low Internet\nexposure\u300d\n\n",
+        "created_at": "2023-12-25T01:20:45.314Z"
+      }
+    ],
+    "description": "Microsoft discovered a remote code execution (RCE) vulnerability in the SolarWinds Serv-U product utilizing a Remote Memory Escape Vulnerability. If exploited, a threat actor may be able to gain privileged access to the machine hosting Serv-U Only. SolarWinds Serv-U Managed File Transfer and Serv-U Secure FTP for Windows before 15.2.3 HF2 are affected by this vulnerability.",
+    "epss": 27.637
+  },
+  "CVE-2021-27101": {
+    "cvss3": 9.8,
+    "severity": "CRITICAL",
+    "epss_severity": "LOW",
+    "posts": [
+      {
+        "account": {
+          "id": "110642419440111719",
+          "username": "kaito834",
+          "acct": "kaito834",
+          "display_name": "kaito834",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-02T00:00:00.000Z",
+          "note": "<p>\u8208\u5473\uff1a\u6280\u8853\u30fb\u7d44\u7e54\u30de\u30cd\u30b8\u30e1\u30f3\u30c8\u305d\u308c\u305e\u308c\u306e\u89b3\u70b9\u304b\u3089\u306e\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u78ba\u4fdd\u3001\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30a4\u30f3\u30b7\u30c7\u30f3\u30c8\uff08\u7279\u306b\u767a\u751f\u539f\u56e0\u3068\u5bfe\u51e6\uff09\uff0f\u5f15\u7528\u3059\u308b\u60c5\u5831\u306e\u901f\u5831\u6027\u304c\u4f4e\u3044\u3053\u3068\u304c\u591a\u3081</p><p>X (Twitter) \u6295\u7a3f\u306e\u3046\u3061\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u306b\u95a2\u9023\u3059\u308b\u6295\u7a3f\u306e\u307f\u3001\u3053\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u3067\u3082\u6295\u7a3f\u3057\u3066\u3044\u307e\u3059</p>",
+          "url": "https://infosec.exchange/@kaito834",
+          "uri": "https://infosec.exchange/users/kaito834",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/642/419/440/111/719/original/895076e8aeda2223.jpeg",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/642/419/440/111/719/original/895076e8aeda2223.jpeg",
+          "header": "https://assets.infosec.exchange/headers/original/missing.png",
+          "header_static": "https://assets.infosec.exchange/headers/original/missing.png",
+          "followers_count": 11,
+          "following_count": 21,
+          "statuses_count": 319,
+          "last_status_at": "2024-01-04",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": [
+            {
+              "name": "X (Twitter)",
+              "value": "<a href=\"https://twitter.com/kaito834\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/kaito834</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Misskey.io",
+              "value": "<a href=\"https://misskey.io/@kaito834\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">misskey.io/@kaito834</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@kaito834/111638429389007148",
+        "content": "\n\n[https://twitter.com/ItsReallyNick/status/1737830416508194944](https://twitter.com/ItsReallyNick/status/1737830416508194944)  \n\u300cOne cyber crime actor \u2013 Lace Tempest (and pretty much a single persona within\nthat team) \u2013 has obtained and exploited 5 0days and 1 n-day without a public\nPOC to deploy ransomware [CL0P]\n\n1\ufe0f\u20e3 Accellion FTA CVE-2021-27101\n(+CVE-2021-27102/CVE-2021-27103/CVE-2021-27104)  \n2\ufe0f\u20e3 SolarWinds Serv-U CVE-2021-35211  \n3\ufe0f\u20e3 GoAnywhere MFT CVE-2023-0669  \n4\ufe0f\u20e3 PaperCut CVE-2023-27350 & CVE-2023-27351  \n5\ufe0f\u20e3 MOVEit Transfer CVE-2023-34362  \n6\ufe0f\u20e3 Sysaid CVE-2023-47246\n\nIMO MOVEit campaign was most impactful, followed by GoAnywhere. Because Lace\nTempest uses RDP / web service compromises, the impact is directly correlated\nto the number of Internet-facing vulnerable services, so it makes sense that\ncertain applications are by design more internet-exposed.  \nI thought Sysaid was a more impressive 0day (Microsoft was the discoverer &  \n@0g_omkar  \ndisclosed to Sysaid) \u2013 but the impact was super limited bc of low Internet\nexposure\u300d\n\n",
+        "created_at": "2023-12-25T01:20:45.314Z"
+      }
+    ],
+    "description": "Accellion FTA 9_12_370 and earlier is affected by SQL injection via a crafted Host header in a request to document_root.html. The fixed version is FTA_9_12_380 and later.",
+    "epss": 0.761
+  },
+  "CVE-2023-27351": {
+    "cvss3": 7.5,
+    "severity": "HIGH",
+    "epss_severity": "LOW",
+    "posts": [
+      {
+        "account": {
+          "id": "110642419440111719",
+          "username": "kaito834",
+          "acct": "kaito834",
+          "display_name": "kaito834",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-02T00:00:00.000Z",
+          "note": "<p>\u8208\u5473\uff1a\u6280\u8853\u30fb\u7d44\u7e54\u30de\u30cd\u30b8\u30e1\u30f3\u30c8\u305d\u308c\u305e\u308c\u306e\u89b3\u70b9\u304b\u3089\u306e\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u78ba\u4fdd\u3001\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30a4\u30f3\u30b7\u30c7\u30f3\u30c8\uff08\u7279\u306b\u767a\u751f\u539f\u56e0\u3068\u5bfe\u51e6\uff09\uff0f\u5f15\u7528\u3059\u308b\u60c5\u5831\u306e\u901f\u5831\u6027\u304c\u4f4e\u3044\u3053\u3068\u304c\u591a\u3081</p><p>X (Twitter) \u6295\u7a3f\u306e\u3046\u3061\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u306b\u95a2\u9023\u3059\u308b\u6295\u7a3f\u306e\u307f\u3001\u3053\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u3067\u3082\u6295\u7a3f\u3057\u3066\u3044\u307e\u3059</p>",
+          "url": "https://infosec.exchange/@kaito834",
+          "uri": "https://infosec.exchange/users/kaito834",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/642/419/440/111/719/original/895076e8aeda2223.jpeg",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/642/419/440/111/719/original/895076e8aeda2223.jpeg",
+          "header": "https://assets.infosec.exchange/headers/original/missing.png",
+          "header_static": "https://assets.infosec.exchange/headers/original/missing.png",
+          "followers_count": 11,
+          "following_count": 21,
+          "statuses_count": 319,
+          "last_status_at": "2024-01-04",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": [
+            {
+              "name": "X (Twitter)",
+              "value": "<a href=\"https://twitter.com/kaito834\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/kaito834</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Misskey.io",
+              "value": "<a href=\"https://misskey.io/@kaito834\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">misskey.io/@kaito834</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@kaito834/111638429389007148",
+        "content": "\n\n[https://twitter.com/ItsReallyNick/status/1737830416508194944](https://twitter.com/ItsReallyNick/status/1737830416508194944)  \n\u300cOne cyber crime actor \u2013 Lace Tempest (and pretty much a single persona within\nthat team) \u2013 has obtained and exploited 5 0days and 1 n-day without a public\nPOC to deploy ransomware [CL0P]\n\n1\ufe0f\u20e3 Accellion FTA CVE-2021-27101\n(+CVE-2021-27102/CVE-2021-27103/CVE-2021-27104)  \n2\ufe0f\u20e3 SolarWinds Serv-U CVE-2021-35211  \n3\ufe0f\u20e3 GoAnywhere MFT CVE-2023-0669  \n4\ufe0f\u20e3 PaperCut CVE-2023-27350 & CVE-2023-27351  \n5\ufe0f\u20e3 MOVEit Transfer CVE-2023-34362  \n6\ufe0f\u20e3 Sysaid CVE-2023-47246\n\nIMO MOVEit campaign was most impactful, followed by GoAnywhere. Because Lace\nTempest uses RDP / web service compromises, the impact is directly correlated\nto the number of Internet-facing vulnerable services, so it makes sense that\ncertain applications are by design more internet-exposed.  \nI thought Sysaid was a more impressive 0day (Microsoft was the discoverer &  \n@0g_omkar  \ndisclosed to Sysaid) \u2013 but the impact was super limited bc of low Internet\nexposure\u300d\n\n",
+        "created_at": "2023-12-25T01:20:45.314Z"
+      }
+    ],
+    "description": "This vulnerability allows remote attackers to bypass authentication on affected installations of PaperCut NG 22.0.5 (Build 63914). Authentication is not required to exploit this vulnerability. The specific flaw exists within the SecurityRequestFilter class. The issue results from improper implementation of the authentication algorithm. An attacker can leverage this vulnerability to bypass authentication on the system. Was ZDI-CAN-19226.",
+    "epss": 0.5329999999999999
+  },
   "CVE-2023-27350": {
     "cvss3": 9.8,
     "severity": "CRITICAL",
@@ -6715,7 +6885,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/320/853/553/361/576/original/adae9c2dfdd919a0.png",
           "followers_count": 256,
           "following_count": 250,
-          "statuses_count": 271,
+          "statuses_count": 273,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -6752,7 +6922,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/109/903/172/783/414/207/original/c531e6201d6f075a.png",
           "followers_count": 248,
           "following_count": 250,
-          "statuses_count": 271,
+          "statuses_count": 273,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": [
@@ -7061,7 +7231,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
           "followers_count": 469,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -7092,7 +7262,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
           "followers_count": 467,
           "following_count": 49,
-          "statuses_count": 1547,
+          "statuses_count": 1549,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
@@ -7130,7 +7300,7 @@
           "header_static": "https://assets.infosec.exchange/headers/original/missing.png",
           "followers_count": 264,
           "following_count": 347,
-          "statuses_count": 17671,
+          "statuses_count": 17673,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": [
@@ -7170,7 +7340,7 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 265,
           "following_count": 347,
-          "statuses_count": 17666,
+          "statuses_count": 17668,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": [
@@ -7357,7 +7527,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/000/012/365/original/1e26c5d33b06d493.png",
           "followers_count": 1075,
           "following_count": 922,
-          "statuses_count": 12708,
+          "statuses_count": 12709,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": []
