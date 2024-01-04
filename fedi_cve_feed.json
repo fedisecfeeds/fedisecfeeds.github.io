@@ -1532,7 +1532,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/286/741/870/408/081/original/b6358eedcb5017ff.jpeg",
           "followers_count": 1440,
           "following_count": 332,
-          "statuses_count": 890,
+          "statuses_count": 893,
           "last_status_at": "2024-01-04",
           "noindex": false,
           "emojis": [],
@@ -1613,7 +1613,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/109/286/787/538/579/164/original/1d73fe54039230b9.jpeg",
           "followers_count": 1436,
           "following_count": 328,
-          "statuses_count": 891,
+          "statuses_count": 894,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": [
@@ -1646,75 +1646,6 @@
     ],
     "description": "SnakeYaml's Constructor() class does not restrict types which can be instantiated during deserialization.\u00a0Deserializing yaml content provided by an attacker can lead to remote code execution. We recommend using SnakeYaml's SafeConsturctor when parsing untrusted content to restrict deserialization. We recommend upgrading to version 2.0 and beyond.\n",
     "epss": 0.577
-  },
-  "CVE-2023-33036": {
-    "cvss3": 7.1,
-    "severity": "HIGH",
-    "epss_severity": "LOW",
-    "posts": [
-      {
-        "account": {
-          "id": "110730368199044452",
-          "username": "simontsui",
-          "acct": "simontsui",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "followers_count": 469,
-          "following_count": 49,
-          "statuses_count": 1549,
-          "last_status_at": "2024-01-04",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111694082140172326",
-        "content": "\n\n **Google Android** Security Bulletin: approximately 59 vulnerabilities, all\nhigh severity except for 3 critical (Qualcomm closed-source component):\n\n  * CVE-2023-21651 (9.3 critical) Memory Corruption in Core\n  * CVE-2023-33025 (9.8 critical) Memory corruption in Data Modem\n  * CVE-2023-33036 (7.1 high) Permanent DOS in Hypervisor\n\nNo mention of exploitation in the wild.  \n\ud83d\udd17\n[https://source.android.com/docs/security/bulletin/2024-01-01](https://source.android.com/docs/security/bulletin/2024-01-01)\n\n",
-        "created_at": "2024-01-03T21:13:58.906Z"
-      },
-      {
-        "account": {
-          "id": "110787142161284615",
-          "username": "simontsui",
-          "acct": "simontsui@infosec.exchange",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "followers_count": 467,
-          "following_count": 49,
-          "statuses_count": 1549,
-          "last_status_at": "2024-01-04",
-          "emojis": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111694082140172326",
-        "content": "\n\n **Google Android** Security Bulletin: approximately 59 vulnerabilities, all\nhigh severity except for 3 critical (Qualcomm closed-source component):\n\n  * CVE-2023-21651 (9.3 critical) Memory Corruption in Core\n  * CVE-2023-33025 (9.8 critical) Memory corruption in Data Modem\n  * CVE-2023-33036 (7.1 high) Permanent DOS in Hypervisor\n\nNo mention of exploitation in the wild.  \n\ud83d\udd17\n[https://source.android.com/docs/security/bulletin/2024-01-01](https://source.android.com/docs/security/bulletin/2024-01-01)\n\n",
-        "created_at": "2024-01-03T21:13:58.000Z"
-      }
-    ],
-    "description": "Permanent DOS in Hypervisor while untrusted VM without PSCI support makes a PSCI call.",
-    "epss": 0.044000000000000004
   },
   "CVE-2023-21651": {
     "cvss3": 7.8,
@@ -1784,6 +1715,75 @@
     ],
     "description": "Memory Corruption in Core due to incorrect type conversion or cast in secure_io_read/write function in TEE.",
     "epss": 0.043
+  },
+  "CVE-2023-33036": {
+    "cvss3": 7.1,
+    "severity": "HIGH",
+    "epss_severity": "LOW",
+    "posts": [
+      {
+        "account": {
+          "id": "110730368199044452",
+          "username": "simontsui",
+          "acct": "simontsui",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "followers_count": 469,
+          "following_count": 49,
+          "statuses_count": 1549,
+          "last_status_at": "2024-01-04",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111694082140172326",
+        "content": "\n\n **Google Android** Security Bulletin: approximately 59 vulnerabilities, all\nhigh severity except for 3 critical (Qualcomm closed-source component):\n\n  * CVE-2023-21651 (9.3 critical) Memory Corruption in Core\n  * CVE-2023-33025 (9.8 critical) Memory corruption in Data Modem\n  * CVE-2023-33036 (7.1 high) Permanent DOS in Hypervisor\n\nNo mention of exploitation in the wild.  \n\ud83d\udd17\n[https://source.android.com/docs/security/bulletin/2024-01-01](https://source.android.com/docs/security/bulletin/2024-01-01)\n\n",
+        "created_at": "2024-01-03T21:13:58.906Z"
+      },
+      {
+        "account": {
+          "id": "110787142161284615",
+          "username": "simontsui",
+          "acct": "simontsui@infosec.exchange",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "followers_count": 467,
+          "following_count": 49,
+          "statuses_count": 1549,
+          "last_status_at": "2024-01-04",
+          "emojis": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111694082140172326",
+        "content": "\n\n **Google Android** Security Bulletin: approximately 59 vulnerabilities, all\nhigh severity except for 3 critical (Qualcomm closed-source component):\n\n  * CVE-2023-21651 (9.3 critical) Memory Corruption in Core\n  * CVE-2023-33025 (9.8 critical) Memory corruption in Data Modem\n  * CVE-2023-33036 (7.1 high) Permanent DOS in Hypervisor\n\nNo mention of exploitation in the wild.  \n\ud83d\udd17\n[https://source.android.com/docs/security/bulletin/2024-01-01](https://source.android.com/docs/security/bulletin/2024-01-01)\n\n",
+        "created_at": "2024-01-03T21:13:58.000Z"
+      }
+    ],
+    "description": "Permanent DOS in Hypervisor while untrusted VM without PSCI support makes a PSCI call.",
+    "epss": 0.044000000000000004
   },
   "CVE-2023-33025": {
     "cvss3": 9.8,
@@ -2581,7 +2581,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/252/415/290/472/516/original/a9d75c685ed05ab6.jpeg",
           "followers_count": 3643,
           "following_count": 745,
-          "statuses_count": 1632,
+          "statuses_count": 1631,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": [
@@ -2662,7 +2662,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/109/254/456/977/705/530/original/e32ff360aa141c89.jpeg",
           "followers_count": 3642,
           "following_count": 745,
-          "statuses_count": 1634,
+          "statuses_count": 1633,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": [
@@ -3375,75 +3375,6 @@
     "description": "A security issue exists in D-Link D-View 8 v2.0.2.89 and prior that could allow an attacker to manipulate the probe inventory of the D-View service. This could result in the disclosure of information from other probes, denial of service conditions due to the probe inventory becoming full, or the execution of tasks on other probes.\n\n",
     "epss": 0.042
   },
-  "CVE-2023-20273": {
-    "cvss3": 7.2,
-    "severity": "HIGH",
-    "epss_severity": "LOW",
-    "posts": [
-      {
-        "account": {
-          "id": "110730368199044452",
-          "username": "simontsui",
-          "acct": "simontsui",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "followers_count": 469,
-          "following_count": 49,
-          "statuses_count": 1549,
-          "last_status_at": "2024-01-04",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111665266572564578",
-        "content": "\n\n[@kpwn](https://infosec.exchange/@kpwn) CVE-2023-20198 was fascinating for\nmany reasons:\n\n  * Cisco is a networking vendor giant. Almost every organization had an affected device.\n  * CVSSv3 score of 10.0 is rare for an established product, especially from Cisco. 10.0 is the equivalent of leaving the backdoor wide open, but no one else saw the possibility?\n  * There was no patch available at the time of disclosure. First available patch was 6 days later, and for one specific model.\n  * The identified implant was detected on approximately 40,000-60,000 compromised devices.\n  * An operation of this scale screams nation state activity, but no one was pointing fingers (or taking credit).\n  * The likely use of that many devices is for a botnet. However, nothing was done with the infected hosts. Either the threat actor was a solo operation or wanted to lay low after attracting international attention.\n  * Cisco PSIRT couldn't figure out how the threat actor uploaded the implant. This was eventually identified as the other zero-day CVE-2023-20273.\n  * There was a industrial control system angle to this, when Rockwell Automation announced that they were impacted by CVE-2023-20198 (admitting to CVE-2023-20273 later too)\n\n[#CveCrowdDeny](https://infosec.exchange/tags/CveCrowdDeny)\n\n",
-        "created_at": "2023-12-29T19:05:48.240Z"
-      },
-      {
-        "account": {
-          "id": "110787142161284615",
-          "username": "simontsui",
-          "acct": "simontsui@infosec.exchange",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "followers_count": 467,
-          "following_count": 49,
-          "statuses_count": 1549,
-          "last_status_at": "2024-01-04",
-          "emojis": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111665266572564578",
-        "content": "\n\n[@kpwn](https://infosec.exchange/@kpwn) CVE-2023-20198 was fascinating for\nmany reasons:\n\n  * Cisco is a networking vendor giant. Almost every organization had an affected device.\n  * CVSSv3 score of 10.0 is rare for an established product, especially from Cisco. 10.0 is the equivalent of leaving the backdoor wide open, but no one else saw the possibility?\n  * There was no patch available at the time of disclosure. First available patch was 6 days later, and for one specific model.\n  * The identified implant was detected on approximately 40,000-60,000 compromised devices.\n  * An operation of this scale screams nation state activity, but no one was pointing fingers (or taking credit).\n  * The likely use of that many devices is for a botnet. However, nothing was done with the infected hosts. Either the threat actor was a solo operation or wanted to lay low after attracting international attention.\n  * Cisco PSIRT couldn't figure out how the threat actor uploaded the implant. This was eventually identified as the other zero-day CVE-2023-20273.\n  * There was a industrial control system angle to this, when Rockwell Automation announced that they were impacted by CVE-2023-20198 (admitting to CVE-2023-20273 later too)\n\n[#CveCrowdDeny](https://infosec.exchange/tags/CveCrowdDeny)\n\n",
-        "created_at": "2023-12-29T19:05:48.000Z"
-      }
-    ],
-    "description": "A vulnerability in the web UI feature of Cisco IOS XE Software could allow an authenticated, remote attacker to inject commands with the privileges of root. This vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by sending crafted input to the web UI. A successful exploit could allow the attacker to inject commands to the underlying operating system with root privileges.",
-    "epss": 6.017
-  },
   "CVE-2023-20198": {
     "cvss3": 10,
     "severity": "CRITICAL",
@@ -3618,6 +3549,75 @@
     ],
     "description": "Cisco is providing an update for the ongoing investigation into observed exploitation of the web UI feature in Cisco IOS XE Software. We are updating the list of fixed releases and adding the Software Checker. Our investigation has determined that the actors exploited two previously unknown issues. The attacker first exploited CVE-2023-20198 to gain initial access and issued a privilege 15 command to create a local user and password combination. This allowed the user to log in with normal user access. The attacker then exploited another component of the web UI feature, leveraging the new local user to elevate privilege to root and write the implant to the file system. Cisco has assigned CVE-2023-20273 to this issue. CVE-2023-20198 has been assigned a CVSS Score of 10.0. CVE-2023-20273 has been assigned a CVSS Score of 7.2. Both of these CVEs are being tracked by CSCwh87343.",
     "epss": 89.074
+  },
+  "CVE-2023-20273": {
+    "cvss3": 7.2,
+    "severity": "HIGH",
+    "epss_severity": "LOW",
+    "posts": [
+      {
+        "account": {
+          "id": "110730368199044452",
+          "username": "simontsui",
+          "acct": "simontsui",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "followers_count": 469,
+          "following_count": 49,
+          "statuses_count": 1549,
+          "last_status_at": "2024-01-04",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111665266572564578",
+        "content": "\n\n[@kpwn](https://infosec.exchange/@kpwn) CVE-2023-20198 was fascinating for\nmany reasons:\n\n  * Cisco is a networking vendor giant. Almost every organization had an affected device.\n  * CVSSv3 score of 10.0 is rare for an established product, especially from Cisco. 10.0 is the equivalent of leaving the backdoor wide open, but no one else saw the possibility?\n  * There was no patch available at the time of disclosure. First available patch was 6 days later, and for one specific model.\n  * The identified implant was detected on approximately 40,000-60,000 compromised devices.\n  * An operation of this scale screams nation state activity, but no one was pointing fingers (or taking credit).\n  * The likely use of that many devices is for a botnet. However, nothing was done with the infected hosts. Either the threat actor was a solo operation or wanted to lay low after attracting international attention.\n  * Cisco PSIRT couldn't figure out how the threat actor uploaded the implant. This was eventually identified as the other zero-day CVE-2023-20273.\n  * There was a industrial control system angle to this, when Rockwell Automation announced that they were impacted by CVE-2023-20198 (admitting to CVE-2023-20273 later too)\n\n[#CveCrowdDeny](https://infosec.exchange/tags/CveCrowdDeny)\n\n",
+        "created_at": "2023-12-29T19:05:48.240Z"
+      },
+      {
+        "account": {
+          "id": "110787142161284615",
+          "username": "simontsui",
+          "acct": "simontsui@infosec.exchange",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "followers_count": 467,
+          "following_count": 49,
+          "statuses_count": 1549,
+          "last_status_at": "2024-01-04",
+          "emojis": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111665266572564578",
+        "content": "\n\n[@kpwn](https://infosec.exchange/@kpwn) CVE-2023-20198 was fascinating for\nmany reasons:\n\n  * Cisco is a networking vendor giant. Almost every organization had an affected device.\n  * CVSSv3 score of 10.0 is rare for an established product, especially from Cisco. 10.0 is the equivalent of leaving the backdoor wide open, but no one else saw the possibility?\n  * There was no patch available at the time of disclosure. First available patch was 6 days later, and for one specific model.\n  * The identified implant was detected on approximately 40,000-60,000 compromised devices.\n  * An operation of this scale screams nation state activity, but no one was pointing fingers (or taking credit).\n  * The likely use of that many devices is for a botnet. However, nothing was done with the infected hosts. Either the threat actor was a solo operation or wanted to lay low after attracting international attention.\n  * Cisco PSIRT couldn't figure out how the threat actor uploaded the implant. This was eventually identified as the other zero-day CVE-2023-20273.\n  * There was a industrial control system angle to this, when Rockwell Automation announced that they were impacted by CVE-2023-20198 (admitting to CVE-2023-20273 later too)\n\n[#CveCrowdDeny](https://infosec.exchange/tags/CveCrowdDeny)\n\n",
+        "created_at": "2023-12-29T19:05:48.000Z"
+      }
+    ],
+    "description": "A vulnerability in the web UI feature of Cisco IOS XE Software could allow an authenticated, remote attacker to inject commands with the privileges of root. This vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by sending crafted input to the web UI. A successful exploit could allow the attacker to inject commands to the underlying operating system with root privileges.",
+    "epss": 6.017
   },
   "CVE-2022-1388": {
     "cvss3": 9.8,
@@ -5662,7 +5662,7 @@
     "description": "\nPre-auth RCE in Apache Ofbiz 18.12.09.\n\nIt's due to XML-RPC\u00a0no longer maintained\u00a0still present.\nThis issue affects Apache OFBiz: before 18.12.10.\u00a0\nUsers are recommended to upgrade to version 18.12.10\n\n",
     "epss": 59.065999999999995
   },
-  "CVE-2023-33063": {
+  "CVE-2023-33107": {
     "cvss3": 7.8,
     "severity": "HIGH",
     "epss_severity": "LOW",
@@ -5728,7 +5728,7 @@
         "created_at": "2023-12-27T13:56:43.000Z"
       }
     ],
-    "description": "Memory corruption in DSP Services during a remote call from HLOS to DSP.",
+    "description": "Memory corruption in Graphics Linux while assigning shared virtual memory region during IOCTL call.",
     "epss": 0.064
   },
   "CVE-2023-33106": {
@@ -5800,6 +5800,75 @@
     "description": "Memory corruption while submitting a large list of sync points in an AUX command to the IOCTL_KGSL_GPU_AUX_COMMAND.",
     "epss": 0.064
   },
+  "CVE-2023-33063": {
+    "cvss3": 7.8,
+    "severity": "HIGH",
+    "epss_severity": "LOW",
+    "posts": [
+      {
+        "account": {
+          "id": "110730368199044452",
+          "username": "simontsui",
+          "acct": "simontsui",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "followers_count": 469,
+          "following_count": 49,
+          "statuses_count": 1549,
+          "last_status_at": "2024-01-04",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111652726621557161",
+        "content": "\n\nThis wasn't advertised on Mastodon, but **Google Project Zero** published root\ncause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds\nwrite, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer\noverflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as\nexploited zero-days.  \n\ud83d\udd17 [https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-33106.html) and\n[https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-33107.html)\n\nNote for [@maddiestone](https://infosec.exchange/@maddiestone):\n[https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to\nCVE-2023-33063 in the [0day \"in the\nWild\"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)\nGoogle Sheet.\n\n",
+        "created_at": "2023-12-27T13:56:43.773Z"
+      },
+      {
+        "account": {
+          "id": "110787142161284615",
+          "username": "simontsui",
+          "acct": "simontsui@infosec.exchange",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "followers_count": 467,
+          "following_count": 49,
+          "statuses_count": 1549,
+          "last_status_at": "2024-01-04",
+          "emojis": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111652726621557161",
+        "content": "\n\nThis wasn't advertised on Mastodon, but **Google Project Zero** published root\ncause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds\nwrite, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer\noverflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as\nexploited zero-days.  \n\ud83d\udd17 [https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-33106.html) and\n[https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-33107.html)\n\nNote for [@maddiestone](https://infosec.exchange/@maddiestone):\n[https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to\nCVE-2023-33063 in the [0day \"in the\nWild\"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)\nGoogle Sheet.\n\n",
+        "created_at": "2023-12-27T13:56:43.000Z"
+      }
+    ],
+    "description": "Memory corruption in DSP Services during a remote call from HLOS to DSP.",
+    "epss": 0.064
+  },
   "CVE-2023-36033": {
     "cvss3": 7.8,
     "severity": "HIGH",
@@ -5868,75 +5937,6 @@
     ],
     "description": "Windows DWM Core Library Elevation of Privilege Vulnerability",
     "epss": 0.043
-  },
-  "CVE-2023-33107": {
-    "cvss3": 7.8,
-    "severity": "HIGH",
-    "epss_severity": "LOW",
-    "posts": [
-      {
-        "account": {
-          "id": "110730368199044452",
-          "username": "simontsui",
-          "acct": "simontsui",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "followers_count": 469,
-          "following_count": 49,
-          "statuses_count": 1549,
-          "last_status_at": "2024-01-04",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111652726621557161",
-        "content": "\n\nThis wasn't advertised on Mastodon, but **Google Project Zero** published root\ncause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds\nwrite, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer\noverflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as\nexploited zero-days.  \n\ud83d\udd17 [https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-33106.html) and\n[https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-33107.html)\n\nNote for [@maddiestone](https://infosec.exchange/@maddiestone):\n[https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to\nCVE-2023-33063 in the [0day \"in the\nWild\"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)\nGoogle Sheet.\n\n",
-        "created_at": "2023-12-27T13:56:43.773Z"
-      },
-      {
-        "account": {
-          "id": "110787142161284615",
-          "username": "simontsui",
-          "acct": "simontsui@infosec.exchange",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "followers_count": 467,
-          "following_count": 49,
-          "statuses_count": 1549,
-          "last_status_at": "2024-01-04",
-          "emojis": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111652726621557161",
-        "content": "\n\nThis wasn't advertised on Mastodon, but **Google Project Zero** published root\ncause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds\nwrite, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer\noverflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as\nexploited zero-days.  \n\ud83d\udd17 [https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-33106.html) and\n[https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-33107.html)\n\nNote for [@maddiestone](https://infosec.exchange/@maddiestone):\n[https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to\nCVE-2023-33063 in the [0day \"in the\nWild\"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)\nGoogle Sheet.\n\n",
-        "created_at": "2023-12-27T13:56:43.000Z"
-      }
-    ],
-    "description": "Memory corruption in Graphics Linux while assigning shared virtual memory region during IOCTL call.",
-    "epss": 0.064
   },
   "CVE-2023-50297": {
     "cvss3": 6.1,
@@ -6401,10 +6401,10 @@
     "description": "Accellion FTA 9_12_370 and earlier is affected by SQL injection via a crafted Host header in a request to document_root.html. The fixed version is FTA_9_12_380 and later.",
     "epss": 0.761
   },
-  "CVE-2021-27103": {
+  "CVE-2023-27350": {
     "cvss3": 9.8,
     "severity": "CRITICAL",
-    "epss_severity": "LOW",
+    "epss_severity": "CRITICAL",
     "posts": [
       {
         "account": {
@@ -6449,59 +6449,8 @@
         "created_at": "2023-12-25T01:20:45.314Z"
       }
     ],
-    "description": "Accellion FTA 9_12_411 and earlier is affected by SSRF via a crafted POST request to wmProgressstat.html. The fixed version is FTA_9_12_416 and later.",
-    "epss": 1.217
-  },
-  "CVE-2023-27351": {
-    "cvss3": 7.5,
-    "severity": "HIGH",
-    "epss_severity": "LOW",
-    "posts": [
-      {
-        "account": {
-          "id": "110642419440111719",
-          "username": "kaito834",
-          "acct": "kaito834",
-          "display_name": "kaito834",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-02T00:00:00.000Z",
-          "note": "<p>\u8208\u5473\uff1a\u6280\u8853\u30fb\u7d44\u7e54\u30de\u30cd\u30b8\u30e1\u30f3\u30c8\u305d\u308c\u305e\u308c\u306e\u89b3\u70b9\u304b\u3089\u306e\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u78ba\u4fdd\u3001\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30a4\u30f3\u30b7\u30c7\u30f3\u30c8\uff08\u7279\u306b\u767a\u751f\u539f\u56e0\u3068\u5bfe\u51e6\uff09\uff0f\u5f15\u7528\u3059\u308b\u60c5\u5831\u306e\u901f\u5831\u6027\u304c\u4f4e\u3044\u3053\u3068\u304c\u591a\u3081</p><p>X (Twitter) \u6295\u7a3f\u306e\u3046\u3061\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u306b\u95a2\u9023\u3059\u308b\u6295\u7a3f\u306e\u307f\u3001\u3053\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u3067\u3082\u6295\u7a3f\u3057\u3066\u3044\u307e\u3059</p>",
-          "url": "https://infosec.exchange/@kaito834",
-          "uri": "https://infosec.exchange/users/kaito834",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/642/419/440/111/719/original/895076e8aeda2223.jpeg",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/642/419/440/111/719/original/895076e8aeda2223.jpeg",
-          "header": "https://assets.infosec.exchange/headers/original/missing.png",
-          "header_static": "https://assets.infosec.exchange/headers/original/missing.png",
-          "followers_count": 11,
-          "following_count": 21,
-          "statuses_count": 319,
-          "last_status_at": "2024-01-04",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": [
-            {
-              "name": "X (Twitter)",
-              "value": "<a href=\"https://twitter.com/kaito834\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/kaito834</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Misskey.io",
-              "value": "<a href=\"https://misskey.io/@kaito834\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">misskey.io/@kaito834</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://infosec.exchange/@kaito834/111638429389007148",
-        "content": "\n\n[https://twitter.com/ItsReallyNick/status/1737830416508194944](https://twitter.com/ItsReallyNick/status/1737830416508194944)  \n\u300cOne cyber crime actor \u2013 Lace Tempest (and pretty much a single persona within\nthat team) \u2013 has obtained and exploited 5 0days and 1 n-day without a public\nPOC to deploy ransomware [CL0P]\n\n1\ufe0f\u20e3 Accellion FTA CVE-2021-27101\n(+CVE-2021-27102/CVE-2021-27103/CVE-2021-27104)  \n2\ufe0f\u20e3 SolarWinds Serv-U CVE-2021-35211  \n3\ufe0f\u20e3 GoAnywhere MFT CVE-2023-0669  \n4\ufe0f\u20e3 PaperCut CVE-2023-27350 & CVE-2023-27351  \n5\ufe0f\u20e3 MOVEit Transfer CVE-2023-34362  \n6\ufe0f\u20e3 Sysaid CVE-2023-47246\n\nIMO MOVEit campaign was most impactful, followed by GoAnywhere. Because Lace\nTempest uses RDP / web service compromises, the impact is directly correlated\nto the number of Internet-facing vulnerable services, so it makes sense that\ncertain applications are by design more internet-exposed.  \nI thought Sysaid was a more impressive 0day (Microsoft was the discoverer &  \n@0g_omkar  \ndisclosed to Sysaid) \u2013 but the impact was super limited bc of low Internet\nexposure\u300d\n\n",
-        "created_at": "2023-12-25T01:20:45.314Z"
-      }
-    ],
-    "description": "This vulnerability allows remote attackers to bypass authentication on affected installations of PaperCut NG 22.0.5 (Build 63914). Authentication is not required to exploit this vulnerability. The specific flaw exists within the SecurityRequestFilter class. The issue results from improper implementation of the authentication algorithm. An attacker can leverage this vulnerability to bypass authentication on the system. Was ZDI-CAN-19226.",
-    "epss": 0.5329999999999999
+    "description": "This vulnerability allows remote attackers to bypass authentication on affected installations of PaperCut NG 22.0.5 (Build 63914). Authentication is not required to exploit this vulnerability. The specific flaw exists within the SetupCompleted class. The issue results from improper access control. An attacker can leverage this vulnerability to bypass authentication and execute arbitrary code in the context of SYSTEM. Was ZDI-CAN-18987.",
+    "epss": 97.229
   },
   "CVE-2023-0669": {
     "cvss3": 7.2,
@@ -6554,6 +6503,108 @@
     "description": "Fortra (formerly, HelpSystems) GoAnywhere MFT suffers from a pre-authentication command injection vulnerability in the License Response Servlet due to deserializing an arbitrary attacker-controlled object. This issue was patched in version 7.1.2.",
     "epss": 96.66900000000001
   },
+  "CVE-2023-47246": {
+    "cvss3": 9.8,
+    "severity": "CRITICAL",
+    "epss_severity": "HIGH",
+    "posts": [
+      {
+        "account": {
+          "id": "110642419440111719",
+          "username": "kaito834",
+          "acct": "kaito834",
+          "display_name": "kaito834",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-02T00:00:00.000Z",
+          "note": "<p>\u8208\u5473\uff1a\u6280\u8853\u30fb\u7d44\u7e54\u30de\u30cd\u30b8\u30e1\u30f3\u30c8\u305d\u308c\u305e\u308c\u306e\u89b3\u70b9\u304b\u3089\u306e\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u78ba\u4fdd\u3001\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30a4\u30f3\u30b7\u30c7\u30f3\u30c8\uff08\u7279\u306b\u767a\u751f\u539f\u56e0\u3068\u5bfe\u51e6\uff09\uff0f\u5f15\u7528\u3059\u308b\u60c5\u5831\u306e\u901f\u5831\u6027\u304c\u4f4e\u3044\u3053\u3068\u304c\u591a\u3081</p><p>X (Twitter) \u6295\u7a3f\u306e\u3046\u3061\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u306b\u95a2\u9023\u3059\u308b\u6295\u7a3f\u306e\u307f\u3001\u3053\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u3067\u3082\u6295\u7a3f\u3057\u3066\u3044\u307e\u3059</p>",
+          "url": "https://infosec.exchange/@kaito834",
+          "uri": "https://infosec.exchange/users/kaito834",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/642/419/440/111/719/original/895076e8aeda2223.jpeg",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/642/419/440/111/719/original/895076e8aeda2223.jpeg",
+          "header": "https://assets.infosec.exchange/headers/original/missing.png",
+          "header_static": "https://assets.infosec.exchange/headers/original/missing.png",
+          "followers_count": 11,
+          "following_count": 21,
+          "statuses_count": 319,
+          "last_status_at": "2024-01-04",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": [
+            {
+              "name": "X (Twitter)",
+              "value": "<a href=\"https://twitter.com/kaito834\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/kaito834</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Misskey.io",
+              "value": "<a href=\"https://misskey.io/@kaito834\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">misskey.io/@kaito834</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@kaito834/111638429389007148",
+        "content": "\n\n[https://twitter.com/ItsReallyNick/status/1737830416508194944](https://twitter.com/ItsReallyNick/status/1737830416508194944)  \n\u300cOne cyber crime actor \u2013 Lace Tempest (and pretty much a single persona within\nthat team) \u2013 has obtained and exploited 5 0days and 1 n-day without a public\nPOC to deploy ransomware [CL0P]\n\n1\ufe0f\u20e3 Accellion FTA CVE-2021-27101\n(+CVE-2021-27102/CVE-2021-27103/CVE-2021-27104)  \n2\ufe0f\u20e3 SolarWinds Serv-U CVE-2021-35211  \n3\ufe0f\u20e3 GoAnywhere MFT CVE-2023-0669  \n4\ufe0f\u20e3 PaperCut CVE-2023-27350 & CVE-2023-27351  \n5\ufe0f\u20e3 MOVEit Transfer CVE-2023-34362  \n6\ufe0f\u20e3 Sysaid CVE-2023-47246\n\nIMO MOVEit campaign was most impactful, followed by GoAnywhere. Because Lace\nTempest uses RDP / web service compromises, the impact is directly correlated\nto the number of Internet-facing vulnerable services, so it makes sense that\ncertain applications are by design more internet-exposed.  \nI thought Sysaid was a more impressive 0day (Microsoft was the discoverer &  \n@0g_omkar  \ndisclosed to Sysaid) \u2013 but the impact was super limited bc of low Internet\nexposure\u300d\n\n",
+        "created_at": "2023-12-25T01:20:45.314Z"
+      }
+    ],
+    "description": "In SysAid On-Premise before 23.3.36, a path traversal vulnerability leads to code execution after an attacker writes a file to the Tomcat webroot, as exploited in the wild in November 2023.",
+    "epss": 66.797
+  },
+  "CVE-2021-27103": {
+    "cvss3": 9.8,
+    "severity": "CRITICAL",
+    "epss_severity": "LOW",
+    "posts": [
+      {
+        "account": {
+          "id": "110642419440111719",
+          "username": "kaito834",
+          "acct": "kaito834",
+          "display_name": "kaito834",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-02T00:00:00.000Z",
+          "note": "<p>\u8208\u5473\uff1a\u6280\u8853\u30fb\u7d44\u7e54\u30de\u30cd\u30b8\u30e1\u30f3\u30c8\u305d\u308c\u305e\u308c\u306e\u89b3\u70b9\u304b\u3089\u306e\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u78ba\u4fdd\u3001\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30a4\u30f3\u30b7\u30c7\u30f3\u30c8\uff08\u7279\u306b\u767a\u751f\u539f\u56e0\u3068\u5bfe\u51e6\uff09\uff0f\u5f15\u7528\u3059\u308b\u60c5\u5831\u306e\u901f\u5831\u6027\u304c\u4f4e\u3044\u3053\u3068\u304c\u591a\u3081</p><p>X (Twitter) \u6295\u7a3f\u306e\u3046\u3061\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u306b\u95a2\u9023\u3059\u308b\u6295\u7a3f\u306e\u307f\u3001\u3053\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u3067\u3082\u6295\u7a3f\u3057\u3066\u3044\u307e\u3059</p>",
+          "url": "https://infosec.exchange/@kaito834",
+          "uri": "https://infosec.exchange/users/kaito834",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/642/419/440/111/719/original/895076e8aeda2223.jpeg",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/642/419/440/111/719/original/895076e8aeda2223.jpeg",
+          "header": "https://assets.infosec.exchange/headers/original/missing.png",
+          "header_static": "https://assets.infosec.exchange/headers/original/missing.png",
+          "followers_count": 11,
+          "following_count": 21,
+          "statuses_count": 319,
+          "last_status_at": "2024-01-04",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": [
+            {
+              "name": "X (Twitter)",
+              "value": "<a href=\"https://twitter.com/kaito834\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/kaito834</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Misskey.io",
+              "value": "<a href=\"https://misskey.io/@kaito834\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">misskey.io/@kaito834</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@kaito834/111638429389007148",
+        "content": "\n\n[https://twitter.com/ItsReallyNick/status/1737830416508194944](https://twitter.com/ItsReallyNick/status/1737830416508194944)  \n\u300cOne cyber crime actor \u2013 Lace Tempest (and pretty much a single persona within\nthat team) \u2013 has obtained and exploited 5 0days and 1 n-day without a public\nPOC to deploy ransomware [CL0P]\n\n1\ufe0f\u20e3 Accellion FTA CVE-2021-27101\n(+CVE-2021-27102/CVE-2021-27103/CVE-2021-27104)  \n2\ufe0f\u20e3 SolarWinds Serv-U CVE-2021-35211  \n3\ufe0f\u20e3 GoAnywhere MFT CVE-2023-0669  \n4\ufe0f\u20e3 PaperCut CVE-2023-27350 & CVE-2023-27351  \n5\ufe0f\u20e3 MOVEit Transfer CVE-2023-34362  \n6\ufe0f\u20e3 Sysaid CVE-2023-47246\n\nIMO MOVEit campaign was most impactful, followed by GoAnywhere. Because Lace\nTempest uses RDP / web service compromises, the impact is directly correlated\nto the number of Internet-facing vulnerable services, so it makes sense that\ncertain applications are by design more internet-exposed.  \nI thought Sysaid was a more impressive 0day (Microsoft was the discoverer &  \n@0g_omkar  \ndisclosed to Sysaid) \u2013 but the impact was super limited bc of low Internet\nexposure\u300d\n\n",
+        "created_at": "2023-12-25T01:20:45.314Z"
+      }
+    ],
+    "description": "Accellion FTA 9_12_411 and earlier is affected by SSRF via a crafted POST request to wmProgressstat.html. The fixed version is FTA_9_12_416 and later.",
+    "epss": 1.217
+  },
   "CVE-2023-34362": {
     "cvss3": 9.8,
     "severity": "CRITICAL",
@@ -6604,6 +6655,57 @@
     ],
     "description": "In Progress MOVEit Transfer before 2021.0.6 (13.0.6), 2021.1.4 (13.1.4), 2022.0.4 (14.0.4), 2022.1.5 (14.1.5), and 2023.0.1 (15.0.1), a SQL injection vulnerability has been found in the MOVEit Transfer web application that could allow an unauthenticated attacker to gain access to MOVEit Transfer's database. Depending on the database engine being used (MySQL, Microsoft SQL Server, or Azure SQL), an attacker may be able to infer information about the structure and contents of the database, and execute SQL statements that alter or delete database elements. NOTE: this is exploited in the wild in May and June 2023; exploitation of unpatched systems can occur via HTTP or HTTPS. All versions (e.g., 2020.0 and 2019x) before the five explicitly mentioned versions are affected, including older unsupported versions.",
     "epss": 89.942
+  },
+  "CVE-2021-27102": {
+    "cvss3": 7.8,
+    "severity": "HIGH",
+    "epss_severity": "LOW",
+    "posts": [
+      {
+        "account": {
+          "id": "110642419440111719",
+          "username": "kaito834",
+          "acct": "kaito834",
+          "display_name": "kaito834",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-02T00:00:00.000Z",
+          "note": "<p>\u8208\u5473\uff1a\u6280\u8853\u30fb\u7d44\u7e54\u30de\u30cd\u30b8\u30e1\u30f3\u30c8\u305d\u308c\u305e\u308c\u306e\u89b3\u70b9\u304b\u3089\u306e\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u78ba\u4fdd\u3001\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30a4\u30f3\u30b7\u30c7\u30f3\u30c8\uff08\u7279\u306b\u767a\u751f\u539f\u56e0\u3068\u5bfe\u51e6\uff09\uff0f\u5f15\u7528\u3059\u308b\u60c5\u5831\u306e\u901f\u5831\u6027\u304c\u4f4e\u3044\u3053\u3068\u304c\u591a\u3081</p><p>X (Twitter) \u6295\u7a3f\u306e\u3046\u3061\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u306b\u95a2\u9023\u3059\u308b\u6295\u7a3f\u306e\u307f\u3001\u3053\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u3067\u3082\u6295\u7a3f\u3057\u3066\u3044\u307e\u3059</p>",
+          "url": "https://infosec.exchange/@kaito834",
+          "uri": "https://infosec.exchange/users/kaito834",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/642/419/440/111/719/original/895076e8aeda2223.jpeg",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/642/419/440/111/719/original/895076e8aeda2223.jpeg",
+          "header": "https://assets.infosec.exchange/headers/original/missing.png",
+          "header_static": "https://assets.infosec.exchange/headers/original/missing.png",
+          "followers_count": 11,
+          "following_count": 21,
+          "statuses_count": 319,
+          "last_status_at": "2024-01-04",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": [
+            {
+              "name": "X (Twitter)",
+              "value": "<a href=\"https://twitter.com/kaito834\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/kaito834</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Misskey.io",
+              "value": "<a href=\"https://misskey.io/@kaito834\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">misskey.io/@kaito834</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@kaito834/111638429389007148",
+        "content": "\n\n[https://twitter.com/ItsReallyNick/status/1737830416508194944](https://twitter.com/ItsReallyNick/status/1737830416508194944)  \n\u300cOne cyber crime actor \u2013 Lace Tempest (and pretty much a single persona within\nthat team) \u2013 has obtained and exploited 5 0days and 1 n-day without a public\nPOC to deploy ransomware [CL0P]\n\n1\ufe0f\u20e3 Accellion FTA CVE-2021-27101\n(+CVE-2021-27102/CVE-2021-27103/CVE-2021-27104)  \n2\ufe0f\u20e3 SolarWinds Serv-U CVE-2021-35211  \n3\ufe0f\u20e3 GoAnywhere MFT CVE-2023-0669  \n4\ufe0f\u20e3 PaperCut CVE-2023-27350 & CVE-2023-27351  \n5\ufe0f\u20e3 MOVEit Transfer CVE-2023-34362  \n6\ufe0f\u20e3 Sysaid CVE-2023-47246\n\nIMO MOVEit campaign was most impactful, followed by GoAnywhere. Because Lace\nTempest uses RDP / web service compromises, the impact is directly correlated\nto the number of Internet-facing vulnerable services, so it makes sense that\ncertain applications are by design more internet-exposed.  \nI thought Sysaid was a more impressive 0day (Microsoft was the discoverer &  \n@0g_omkar  \ndisclosed to Sysaid) \u2013 but the impact was super limited bc of low Internet\nexposure\u300d\n\n",
+        "created_at": "2023-12-25T01:20:45.314Z"
+      }
+    ],
+    "description": "Accellion FTA 9_12_411 and earlier is affected by OS command execution via a local web service call. The fixed version is FTA_9_12_416 and later.",
+    "epss": 0.083
   },
   "CVE-2021-35211": {
     "cvss3": 10,
@@ -6707,110 +6809,8 @@
     "description": "Accellion FTA 9_12_370 and earlier is affected by OS command execution via a crafted POST request to various admin endpoints. The fixed version is FTA_9_12_380 and later.",
     "epss": 1.059
   },
-  "CVE-2023-27350": {
-    "cvss3": 9.8,
-    "severity": "CRITICAL",
-    "epss_severity": "CRITICAL",
-    "posts": [
-      {
-        "account": {
-          "id": "110642419440111719",
-          "username": "kaito834",
-          "acct": "kaito834",
-          "display_name": "kaito834",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-02T00:00:00.000Z",
-          "note": "<p>\u8208\u5473\uff1a\u6280\u8853\u30fb\u7d44\u7e54\u30de\u30cd\u30b8\u30e1\u30f3\u30c8\u305d\u308c\u305e\u308c\u306e\u89b3\u70b9\u304b\u3089\u306e\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u78ba\u4fdd\u3001\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30a4\u30f3\u30b7\u30c7\u30f3\u30c8\uff08\u7279\u306b\u767a\u751f\u539f\u56e0\u3068\u5bfe\u51e6\uff09\uff0f\u5f15\u7528\u3059\u308b\u60c5\u5831\u306e\u901f\u5831\u6027\u304c\u4f4e\u3044\u3053\u3068\u304c\u591a\u3081</p><p>X (Twitter) \u6295\u7a3f\u306e\u3046\u3061\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u306b\u95a2\u9023\u3059\u308b\u6295\u7a3f\u306e\u307f\u3001\u3053\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u3067\u3082\u6295\u7a3f\u3057\u3066\u3044\u307e\u3059</p>",
-          "url": "https://infosec.exchange/@kaito834",
-          "uri": "https://infosec.exchange/users/kaito834",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/642/419/440/111/719/original/895076e8aeda2223.jpeg",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/642/419/440/111/719/original/895076e8aeda2223.jpeg",
-          "header": "https://assets.infosec.exchange/headers/original/missing.png",
-          "header_static": "https://assets.infosec.exchange/headers/original/missing.png",
-          "followers_count": 11,
-          "following_count": 21,
-          "statuses_count": 319,
-          "last_status_at": "2024-01-04",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": [
-            {
-              "name": "X (Twitter)",
-              "value": "<a href=\"https://twitter.com/kaito834\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/kaito834</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Misskey.io",
-              "value": "<a href=\"https://misskey.io/@kaito834\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">misskey.io/@kaito834</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://infosec.exchange/@kaito834/111638429389007148",
-        "content": "\n\n[https://twitter.com/ItsReallyNick/status/1737830416508194944](https://twitter.com/ItsReallyNick/status/1737830416508194944)  \n\u300cOne cyber crime actor \u2013 Lace Tempest (and pretty much a single persona within\nthat team) \u2013 has obtained and exploited 5 0days and 1 n-day without a public\nPOC to deploy ransomware [CL0P]\n\n1\ufe0f\u20e3 Accellion FTA CVE-2021-27101\n(+CVE-2021-27102/CVE-2021-27103/CVE-2021-27104)  \n2\ufe0f\u20e3 SolarWinds Serv-U CVE-2021-35211  \n3\ufe0f\u20e3 GoAnywhere MFT CVE-2023-0669  \n4\ufe0f\u20e3 PaperCut CVE-2023-27350 & CVE-2023-27351  \n5\ufe0f\u20e3 MOVEit Transfer CVE-2023-34362  \n6\ufe0f\u20e3 Sysaid CVE-2023-47246\n\nIMO MOVEit campaign was most impactful, followed by GoAnywhere. Because Lace\nTempest uses RDP / web service compromises, the impact is directly correlated\nto the number of Internet-facing vulnerable services, so it makes sense that\ncertain applications are by design more internet-exposed.  \nI thought Sysaid was a more impressive 0day (Microsoft was the discoverer &  \n@0g_omkar  \ndisclosed to Sysaid) \u2013 but the impact was super limited bc of low Internet\nexposure\u300d\n\n",
-        "created_at": "2023-12-25T01:20:45.314Z"
-      }
-    ],
-    "description": "This vulnerability allows remote attackers to bypass authentication on affected installations of PaperCut NG 22.0.5 (Build 63914). Authentication is not required to exploit this vulnerability. The specific flaw exists within the SetupCompleted class. The issue results from improper access control. An attacker can leverage this vulnerability to bypass authentication and execute arbitrary code in the context of SYSTEM. Was ZDI-CAN-18987.",
-    "epss": 97.229
-  },
-  "CVE-2023-47246": {
-    "cvss3": 9.8,
-    "severity": "CRITICAL",
-    "epss_severity": "HIGH",
-    "posts": [
-      {
-        "account": {
-          "id": "110642419440111719",
-          "username": "kaito834",
-          "acct": "kaito834",
-          "display_name": "kaito834",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-02T00:00:00.000Z",
-          "note": "<p>\u8208\u5473\uff1a\u6280\u8853\u30fb\u7d44\u7e54\u30de\u30cd\u30b8\u30e1\u30f3\u30c8\u305d\u308c\u305e\u308c\u306e\u89b3\u70b9\u304b\u3089\u306e\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u78ba\u4fdd\u3001\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30a4\u30f3\u30b7\u30c7\u30f3\u30c8\uff08\u7279\u306b\u767a\u751f\u539f\u56e0\u3068\u5bfe\u51e6\uff09\uff0f\u5f15\u7528\u3059\u308b\u60c5\u5831\u306e\u901f\u5831\u6027\u304c\u4f4e\u3044\u3053\u3068\u304c\u591a\u3081</p><p>X (Twitter) \u6295\u7a3f\u306e\u3046\u3061\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u306b\u95a2\u9023\u3059\u308b\u6295\u7a3f\u306e\u307f\u3001\u3053\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u3067\u3082\u6295\u7a3f\u3057\u3066\u3044\u307e\u3059</p>",
-          "url": "https://infosec.exchange/@kaito834",
-          "uri": "https://infosec.exchange/users/kaito834",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/642/419/440/111/719/original/895076e8aeda2223.jpeg",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/642/419/440/111/719/original/895076e8aeda2223.jpeg",
-          "header": "https://assets.infosec.exchange/headers/original/missing.png",
-          "header_static": "https://assets.infosec.exchange/headers/original/missing.png",
-          "followers_count": 11,
-          "following_count": 21,
-          "statuses_count": 319,
-          "last_status_at": "2024-01-04",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": [
-            {
-              "name": "X (Twitter)",
-              "value": "<a href=\"https://twitter.com/kaito834\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/kaito834</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Misskey.io",
-              "value": "<a href=\"https://misskey.io/@kaito834\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">misskey.io/@kaito834</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://infosec.exchange/@kaito834/111638429389007148",
-        "content": "\n\n[https://twitter.com/ItsReallyNick/status/1737830416508194944](https://twitter.com/ItsReallyNick/status/1737830416508194944)  \n\u300cOne cyber crime actor \u2013 Lace Tempest (and pretty much a single persona within\nthat team) \u2013 has obtained and exploited 5 0days and 1 n-day without a public\nPOC to deploy ransomware [CL0P]\n\n1\ufe0f\u20e3 Accellion FTA CVE-2021-27101\n(+CVE-2021-27102/CVE-2021-27103/CVE-2021-27104)  \n2\ufe0f\u20e3 SolarWinds Serv-U CVE-2021-35211  \n3\ufe0f\u20e3 GoAnywhere MFT CVE-2023-0669  \n4\ufe0f\u20e3 PaperCut CVE-2023-27350 & CVE-2023-27351  \n5\ufe0f\u20e3 MOVEit Transfer CVE-2023-34362  \n6\ufe0f\u20e3 Sysaid CVE-2023-47246\n\nIMO MOVEit campaign was most impactful, followed by GoAnywhere. Because Lace\nTempest uses RDP / web service compromises, the impact is directly correlated\nto the number of Internet-facing vulnerable services, so it makes sense that\ncertain applications are by design more internet-exposed.  \nI thought Sysaid was a more impressive 0day (Microsoft was the discoverer &  \n@0g_omkar  \ndisclosed to Sysaid) \u2013 but the impact was super limited bc of low Internet\nexposure\u300d\n\n",
-        "created_at": "2023-12-25T01:20:45.314Z"
-      }
-    ],
-    "description": "In SysAid On-Premise before 23.3.36, a path traversal vulnerability leads to code execution after an attacker writes a file to the Tomcat webroot, as exploited in the wild in November 2023.",
-    "epss": 66.797
-  },
-  "CVE-2021-27102": {
-    "cvss3": 7.8,
+  "CVE-2023-27351": {
+    "cvss3": 7.5,
     "severity": "HIGH",
     "epss_severity": "LOW",
     "posts": [
@@ -6857,8 +6857,8 @@
         "created_at": "2023-12-25T01:20:45.314Z"
       }
     ],
-    "description": "Accellion FTA 9_12_411 and earlier is affected by OS command execution via a local web service call. The fixed version is FTA_9_12_416 and later.",
-    "epss": 0.083
+    "description": "This vulnerability allows remote attackers to bypass authentication on affected installations of PaperCut NG 22.0.5 (Build 63914). Authentication is not required to exploit this vulnerability. The specific flaw exists within the SecurityRequestFilter class. The issue results from improper implementation of the authentication algorithm. An attacker can leverage this vulnerability to bypass authentication on the system. Was ZDI-CAN-19226.",
+    "epss": 0.5329999999999999
   },
   "CVE-2018-2628": {
     "cvss3": 9.8,
@@ -7300,7 +7300,7 @@
           "header_static": "https://assets.infosec.exchange/headers/original/missing.png",
           "followers_count": 264,
           "following_count": 347,
-          "statuses_count": 17676,
+          "statuses_count": 17679,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": [
@@ -7340,7 +7340,7 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 265,
           "following_count": 347,
-          "statuses_count": 17671,
+          "statuses_count": 17674,
           "last_status_at": "2024-01-04",
           "emojis": [],
           "fields": [
