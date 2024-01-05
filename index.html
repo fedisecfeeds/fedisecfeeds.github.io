@@ -161,7 +161,7 @@
 
 
 <body>
-Updated at UTC 2024-01-05T15:37:40.821325
+Updated at UTC 2024-01-05T16:14:12.723756
 
 <p><a target=_blank href=https://github.com/fedisecfeeds/fedisecfeeds.github.io/blob/main/fedi_cve_feed.json>Access data as JSON</a></p>
 
@@ -315,24 +315,6 @@ Execution. T</td>
 			<td>1</td>
 			
 				<td>Fortra (formerly, HelpSystems) GoAnywhere MFT suffers from a pre-authentication </td>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<td><a class="CRITICAL" href="#CVE-2023-22518">CVE-2023-22518</a></td>
-
-			<td class=CRITICAL> 9.8 </td>
-
-			
-				<td class=CRITICAL>96.53%</td>
-			
-
-			<td>2</td>
-			
-				<td>All versions of Confluence Data Center and Server are affected by this unexploit</td>
 			
 
 		</tr>
@@ -866,6 +848,24 @@ handshake.</td>
 
 		
 		<tr>
+			<td><a class="HIGH" href="#CVE-2023-33107">CVE-2023-33107</a></td>
+
+			<td class=HIGH> 7.8 </td>
+
+			
+				<td class=LOW>0.06%</td>
+			
+
+			<td>2</td>
+			
+				<td>Memory corruption in Graphics Linux while assigning shared virtual memory region</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
 			<td><a class="HIGH" href="#CVE-2023-33063">CVE-2023-33063</a></td>
 
 			<td class=HIGH> 7.8 </td>
@@ -895,24 +895,6 @@ handshake.</td>
 			<td>2</td>
 			
 				<td>Memory corruption while submitting a large list of sync points in an AUX command</td>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<td><a class="HIGH" href="#CVE-2023-33107">CVE-2023-33107</a></td>
-
-			<td class=HIGH> 7.8 </td>
-
-			
-				<td class=LOW>0.06%</td>
-			
-
-			<td>2</td>
-			
-				<td>Memory corruption in Graphics Linux while assigning shared virtual memory region</td>
 			
 
 		</tr>
@@ -1826,64 +1808,6 @@ I thought Sysaid was a more impressive 0day (Microsoft was the discoverer &
 @0g_omkar  
 disclosed to Sysaid) – but the impact was super limited bc of low Internet
 exposure」
-
-
-</md-block>
-			<hr>
-			
-
-		</div>
-	</div>
-	
-
-	<div class="cve" id="CVE-2023-22518">
-
-			
-		
-		<h3 class=CRITICAL><a class="CRITICAL" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-22518>CVE-2023-22518</a><br>(9.8 CRITICAL)</h3>
-		
-
-		
-		<h4 class=epss>EPSS: 96.53%</h4>
-		
-
-		<p class=numposts>2 posts</p>
-
-		<p class=description>
-		 
-		 		<th>All versions of Confluence Data Center and Server are affected by this unexploited vulnerability. This Improper Authorization vulnerability allows an unauthenticated attacker to reset Confluence and create a Confluence instance administrator account. Using this account, an attacker can then perform all administrative actions that are available to Confluence instance administrator leading to - but </th>
-		 	
-
-		</p>
-		
-		
-
-		<div class="posts">
-
-			
-				<a target=_blank href=https://infosec.exchange/@techbrunchfr>techbrunchfr</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@techbrunchfr/111624829468052477>at 2023-12-22T15:42:06.991Z</a>
-<md-block>
-
-
-Analysis of CVE-2023-22518 Authentication Bypass in Confluence -
-[https://blog.securelayer7.net/confluence-authentication-
-bypass/](https://blog.securelayer7.net/confluence-authentication-bypass/)
-[#atlassian](https://infosec.exchange/tags/atlassian)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@techbrunchfr>techbrunchfr@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@techbrunchfr/111624829468052477>at 2023-12-22T15:42:06.000Z</a>
-<md-block>
-
-
-Analysis of CVE-2023-22518 Authentication Bypass in Confluence -
-[https://blog.securelayer7.net/confluence-authentication-
-bypass/](https://blog.securelayer7.net/confluence-authentication-bypass/)
-[#atlassian](https://infosec.exchange/tags/atlassian)
 
 
 </md-block>
@@ -5545,6 +5469,94 @@ advisories/icsa-24-004-01)
 	</div>
 	
 
+	<div class="cve" id="CVE-2023-33107">
+
+			
+		
+		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-33107>CVE-2023-33107</a><br>(7.8 HIGH)</h3>
+		
+
+		
+		<h4 class=epss>EPSS: 0.06%</h4>
+		
+
+		<p class=numposts>2 posts</p>
+
+		<p class=description>
+		 
+		 		<th>Memory corruption in Graphics Linux while assigning shared virtual memory region during IOCTL call.</th>
+		 	
+
+		</p>
+		
+		
+
+		<div class="posts">
+
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111652726621557161>at 2023-12-27T13:56:43.773Z</a>
+<md-block>
+
+
+This wasn't advertised on Mastodon, but **Google Project Zero** published root
+cause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds
+write, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer
+overflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as
+exploited zero-days.  
+🔗 [https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-33106.html) and
+[https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-33107.html)
+
+Note for [@maddiestone](https://infosec.exchange/@maddiestone):
+[https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to
+CVE-2023-33063 in the [0day "in the
+Wild"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)
+Google Sheet.
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111652726621557161>at 2023-12-27T13:56:43.000Z</a>
+<md-block>
+
+
+This wasn't advertised on Mastodon, but **Google Project Zero** published root
+cause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds
+write, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer
+overflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as
+exploited zero-days.  
+🔗 [https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-33106.html) and
+[https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-33107.html)
+
+Note for [@maddiestone](https://infosec.exchange/@maddiestone):
+[https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to
+CVE-2023-33063 in the [0day "in the
+Wild"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)
+Google Sheet.
+
+
+</md-block>
+			<hr>
+			
+
+		</div>
+	</div>
+	
+
 	<div class="cve" id="CVE-2023-33063">
 
 			
@@ -5649,94 +5661,6 @@ Google Sheet.
 		<p class=description>
 		 
 		 		<th>Memory corruption while submitting a large list of sync points in an AUX command to the IOCTL_KGSL_GPU_AUX_COMMAND.</th>
-		 	
-
-		</p>
-		
-		
-
-		<div class="posts">
-
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111652726621557161>at 2023-12-27T13:56:43.773Z</a>
-<md-block>
-
-
-This wasn't advertised on Mastodon, but **Google Project Zero** published root
-cause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds
-write, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer
-overflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as
-exploited zero-days.  
-🔗 [https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-33106.html) and
-[https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-33107.html)
-
-Note for [@maddiestone](https://infosec.exchange/@maddiestone):
-[https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to
-CVE-2023-33063 in the [0day "in the
-Wild"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)
-Google Sheet.
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111652726621557161>at 2023-12-27T13:56:43.000Z</a>
-<md-block>
-
-
-This wasn't advertised on Mastodon, but **Google Project Zero** published root
-cause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds
-write, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer
-overflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as
-exploited zero-days.  
-🔗 [https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-33106.html) and
-[https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-33107.html)
-
-Note for [@maddiestone](https://infosec.exchange/@maddiestone):
-[https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to
-CVE-2023-33063 in the [0day "in the
-Wild"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)
-Google Sheet.
-
-
-</md-block>
-			<hr>
-			
-
-		</div>
-	</div>
-	
-
-	<div class="cve" id="CVE-2023-33107">
-
-			
-		
-		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-33107>CVE-2023-33107</a><br>(7.8 HIGH)</h3>
-		
-
-		
-		<h4 class=epss>EPSS: 0.06%</h4>
-		
-
-		<p class=numposts>2 posts</p>
-
-		<p class=description>
-		 
-		 		<th>Memory corruption in Graphics Linux while assigning shared virtual memory region during IOCTL call.</th>
 		 	
 
 		</p>
