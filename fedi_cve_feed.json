@@ -970,10 +970,10 @@
     "description": "The issue was addressed with improved handling of caches. This issue is fixed in tvOS 16.3, iOS 16.3 and iPadOS 16.3, macOS Monterey 12.6.8, macOS Big Sur 11.7.9, iOS 15.7.8 and iPadOS 15.7.8, macOS Ventura 13.2, watchOS 9.3. Processing a font file may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited against versions of iOS released before iOS 15.7.1.",
     "epss": 0.076
   },
-  "CVE-2023-27524": {
-    "cvss3": 9.8,
-    "severity": "CRITICAL",
-    "epss_severity": "CRITICAL",
+  "CVE-2023-23752": {
+    "cvss3": 5.3,
+    "severity": "MEDIUM",
+    "epss_severity": "HIGH",
     "posts": [
       {
         "account": {
@@ -1136,8 +1136,8 @@
         "created_at": "2024-01-08T16:19:10.000Z"
       }
     ],
-    "description": "Session Validation attacks in Apache Superset versions up to and including 2.0.1. Installations that have not altered the default configured SECRET_KEY according to installation instructions allow for an attacker to authenticate and access unauthorized resources. This does not affect Superset administrators who have changed the default value for SECRET_KEY config.",
-    "epss": 90.64999999999999
+    "description": "An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check allows unauthorized access to webservice endpoints.",
+    "epss": 69.549
   },
   "CVE-2023-29300": {
     "cvss3": 9.8,
@@ -1308,10 +1308,10 @@
     "description": "Adobe ColdFusion versions 2018u16 (and earlier), 2021u6 (and earlier) and 2023.0.0.330468 (and earlier) are affected by a Deserialization of Untrusted Data vulnerability that could result in Arbitrary code execution. Exploitation of this issue does not require user interaction.",
     "epss": 12.296
   },
-  "CVE-2023-23752": {
-    "cvss3": 5.3,
-    "severity": "MEDIUM",
-    "epss_severity": "HIGH",
+  "CVE-2023-27524": {
+    "cvss3": 9.8,
+    "severity": "CRITICAL",
+    "epss_severity": "CRITICAL",
     "posts": [
       {
         "account": {
@@ -1474,8 +1474,8 @@
         "created_at": "2024-01-08T16:19:10.000Z"
       }
     ],
-    "description": "An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check allows unauthorized access to webservice endpoints.",
-    "epss": 69.549
+    "description": "Session Validation attacks in Apache Superset versions up to and including 2.0.1. Installations that have not altered the default configured SECRET_KEY according to installation instructions allow for an attacker to authenticate and access unauthorized resources. This does not affect Superset administrators who have changed the default value for SECRET_KEY config.",
+    "epss": 90.64999999999999
   },
   "CVE-2016-20017": {
     "cvss3": 9.8,
@@ -1995,7 +1995,7 @@
           "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/390/159/086/385/467/original/eb30f824636e2250.jpg",
           "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/390/159/086/385/467/original/e69ee34ca5dced20.jpeg",
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/390/159/086/385/467/original/e69ee34ca5dced20.jpeg",
-          "followers_count": 11093,
+          "followers_count": 11094,
           "following_count": 1005,
           "statuses_count": 2293,
           "last_status_at": "2024-01-07",
@@ -2032,7 +2032,7 @@
           "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/390/159/086/385/467/original/eb30f824636e2250.jpg",
           "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/390/159/086/385/467/original/e69ee34ca5dced20.jpeg",
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/390/159/086/385/467/original/e69ee34ca5dced20.jpeg",
-          "followers_count": 11093,
+          "followers_count": 11094,
           "following_count": 1005,
           "statuses_count": 2293,
           "last_status_at": "2024-01-07",
@@ -3471,75 +3471,6 @@
     "description": "SnakeYaml's Constructor() class does not restrict types which can be instantiated during deserialization.\u00a0Deserializing yaml content provided by an attacker can lead to remote code execution. We recommend using SnakeYaml's SafeConsturctor when parsing untrusted content to restrict deserialization. We recommend upgrading to version 2.0 and beyond.\n",
     "epss": 0.577
   },
-  "CVE-2023-33036": {
-    "cvss3": 7.1,
-    "severity": "HIGH",
-    "epss_severity": "LOW",
-    "posts": [
-      {
-        "account": {
-          "id": "110730368199044452",
-          "username": "simontsui",
-          "acct": "simontsui",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "followers_count": 477,
-          "following_count": 51,
-          "statuses_count": 1577,
-          "last_status_at": "2024-01-08",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111694082140172326",
-        "content": "\n\n **Google Android** Security Bulletin: approximately 59 vulnerabilities, all\nhigh severity except for 3 critical (Qualcomm closed-source component):\n\n  * CVE-2023-21651 (9.3 critical) Memory Corruption in Core\n  * CVE-2023-33025 (9.8 critical) Memory corruption in Data Modem\n  * CVE-2023-33036 (7.1 high) Permanent DOS in Hypervisor\n\nNo mention of exploitation in the wild.  \n\ud83d\udd17\n[https://source.android.com/docs/security/bulletin/2024-01-01](https://source.android.com/docs/security/bulletin/2024-01-01)\n\n",
-        "created_at": "2024-01-03T21:13:58.906Z"
-      },
-      {
-        "account": {
-          "id": "110787142161284615",
-          "username": "simontsui",
-          "acct": "simontsui@infosec.exchange",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "followers_count": 467,
-          "following_count": 49,
-          "statuses_count": 1577,
-          "last_status_at": "2024-01-08",
-          "emojis": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111694082140172326",
-        "content": "\n\n **Google Android** Security Bulletin: approximately 59 vulnerabilities, all\nhigh severity except for 3 critical (Qualcomm closed-source component):\n\n  * CVE-2023-21651 (9.3 critical) Memory Corruption in Core\n  * CVE-2023-33025 (9.8 critical) Memory corruption in Data Modem\n  * CVE-2023-33036 (7.1 high) Permanent DOS in Hypervisor\n\nNo mention of exploitation in the wild.  \n\ud83d\udd17\n[https://source.android.com/docs/security/bulletin/2024-01-01](https://source.android.com/docs/security/bulletin/2024-01-01)\n\n",
-        "created_at": "2024-01-03T21:13:58.000Z"
-      }
-    ],
-    "description": "Permanent DOS in Hypervisor while untrusted VM without PSCI support makes a PSCI call.",
-    "epss": 0.044000000000000004
-  },
   "CVE-2023-33025": {
     "cvss3": 9.8,
     "severity": "CRITICAL",
@@ -3677,6 +3608,75 @@
     ],
     "description": "Memory Corruption in Core due to incorrect type conversion or cast in secure_io_read/write function in TEE.",
     "epss": 0.043
+  },
+  "CVE-2023-33036": {
+    "cvss3": 7.1,
+    "severity": "HIGH",
+    "epss_severity": "LOW",
+    "posts": [
+      {
+        "account": {
+          "id": "110730368199044452",
+          "username": "simontsui",
+          "acct": "simontsui",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "followers_count": 477,
+          "following_count": 51,
+          "statuses_count": 1577,
+          "last_status_at": "2024-01-08",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111694082140172326",
+        "content": "\n\n **Google Android** Security Bulletin: approximately 59 vulnerabilities, all\nhigh severity except for 3 critical (Qualcomm closed-source component):\n\n  * CVE-2023-21651 (9.3 critical) Memory Corruption in Core\n  * CVE-2023-33025 (9.8 critical) Memory corruption in Data Modem\n  * CVE-2023-33036 (7.1 high) Permanent DOS in Hypervisor\n\nNo mention of exploitation in the wild.  \n\ud83d\udd17\n[https://source.android.com/docs/security/bulletin/2024-01-01](https://source.android.com/docs/security/bulletin/2024-01-01)\n\n",
+        "created_at": "2024-01-03T21:13:58.906Z"
+      },
+      {
+        "account": {
+          "id": "110787142161284615",
+          "username": "simontsui",
+          "acct": "simontsui@infosec.exchange",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "followers_count": 467,
+          "following_count": 49,
+          "statuses_count": 1577,
+          "last_status_at": "2024-01-08",
+          "emojis": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111694082140172326",
+        "content": "\n\n **Google Android** Security Bulletin: approximately 59 vulnerabilities, all\nhigh severity except for 3 critical (Qualcomm closed-source component):\n\n  * CVE-2023-21651 (9.3 critical) Memory Corruption in Core\n  * CVE-2023-33025 (9.8 critical) Memory corruption in Data Modem\n  * CVE-2023-33036 (7.1 high) Permanent DOS in Hypervisor\n\nNo mention of exploitation in the wild.  \n\ud83d\udd17\n[https://source.android.com/docs/security/bulletin/2024-01-01](https://source.android.com/docs/security/bulletin/2024-01-01)\n\n",
+        "created_at": "2024-01-03T21:13:58.000Z"
+      }
+    ],
+    "description": "Permanent DOS in Hypervisor while untrusted VM without PSCI support makes a PSCI call.",
+    "epss": 0.044000000000000004
   },
   "CVE-2023-51385": {
     "cvss3": 6.5,
@@ -3830,7 +3830,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/342/989/141/308/125/original/d88b0e380b7e6ace.png",
           "followers_count": 394,
           "following_count": 359,
-          "statuses_count": 8225,
+          "statuses_count": 8226,
           "last_status_at": "2024-01-08",
           "emojis": [],
           "fields": [
@@ -4501,7 +4501,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/111/154/489/232/580/187/original/3371a8f75fc3d3c7.png",
           "followers_count": 69,
           "following_count": 104,
-          "statuses_count": 13822,
+          "statuses_count": 13825,
           "last_status_at": "2024-01-08",
           "emojis": [
             {
@@ -6546,7 +6546,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/262/333/181/395/866/original/1182dbc5fbad486b.png",
           "followers_count": 222,
           "following_count": 891,
-          "statuses_count": 1809,
+          "statuses_count": 1810,
           "last_status_at": "2024-01-08",
           "emojis": [],
           "fields": [
@@ -6596,7 +6596,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/109/265/642/128/643/942/original/bcc6e7ad0c313c26.png",
           "followers_count": 220,
           "following_count": 891,
-          "statuses_count": 1810,
+          "statuses_count": 1811,
           "last_status_at": "2024-01-08",
           "emojis": [],
           "fields": [
@@ -6800,7 +6800,7 @@
     "description": "\nPre-auth RCE in Apache Ofbiz 18.12.09.\n\nIt's due to XML-RPC\u00a0no longer maintained\u00a0still present.\nThis issue affects Apache OFBiz: before 18.12.10.\u00a0\nUsers are recommended to upgrade to version 18.12.10\n\n",
     "epss": 59.065999999999995
   },
-  "CVE-2023-36033": {
+  "CVE-2023-33106": {
     "cvss3": 7.8,
     "severity": "HIGH",
     "epss_severity": "LOW",
@@ -6866,76 +6866,7 @@
         "created_at": "2023-12-27T13:56:43.000Z"
       }
     ],
-    "description": "Windows DWM Core Library Elevation of Privilege Vulnerability",
-    "epss": 0.043
-  },
-  "CVE-2023-33107": {
-    "cvss3": 7.8,
-    "severity": "HIGH",
-    "epss_severity": "LOW",
-    "posts": [
-      {
-        "account": {
-          "id": "110730368199044452",
-          "username": "simontsui",
-          "acct": "simontsui",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "followers_count": 477,
-          "following_count": 51,
-          "statuses_count": 1577,
-          "last_status_at": "2024-01-08",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111652726621557161",
-        "content": "\n\nThis wasn't advertised on Mastodon, but **Google Project Zero** published root\ncause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds\nwrite, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer\noverflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as\nexploited zero-days.  \n\ud83d\udd17 [https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-33106.html) and\n[https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-33107.html)\n\nNote for [@maddiestone](https://infosec.exchange/@maddiestone):\n[https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to\nCVE-2023-33063 in the [0day \"in the\nWild\"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)\nGoogle Sheet.\n\n",
-        "created_at": "2023-12-27T13:56:43.773Z"
-      },
-      {
-        "account": {
-          "id": "110787142161284615",
-          "username": "simontsui",
-          "acct": "simontsui@infosec.exchange",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "followers_count": 467,
-          "following_count": 49,
-          "statuses_count": 1577,
-          "last_status_at": "2024-01-08",
-          "emojis": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111652726621557161",
-        "content": "\n\nThis wasn't advertised on Mastodon, but **Google Project Zero** published root\ncause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds\nwrite, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer\noverflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as\nexploited zero-days.  \n\ud83d\udd17 [https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-33106.html) and\n[https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-33107.html)\n\nNote for [@maddiestone](https://infosec.exchange/@maddiestone):\n[https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to\nCVE-2023-33063 in the [0day \"in the\nWild\"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)\nGoogle Sheet.\n\n",
-        "created_at": "2023-12-27T13:56:43.000Z"
-      }
-    ],
-    "description": "Memory corruption in Graphics Linux while assigning shared virtual memory region during IOCTL call.",
+    "description": "Memory corruption while submitting a large list of sync points in an AUX command to the IOCTL_KGSL_GPU_AUX_COMMAND.",
     "epss": 0.064
   },
   "CVE-2023-33063": {
@@ -7007,7 +6938,7 @@
     "description": "Memory corruption in DSP Services during a remote call from HLOS to DSP.",
     "epss": 0.064
   },
-  "CVE-2023-33106": {
+  "CVE-2023-33107": {
     "cvss3": 7.8,
     "severity": "HIGH",
     "epss_severity": "LOW",
@@ -7073,8 +7004,77 @@
         "created_at": "2023-12-27T13:56:43.000Z"
       }
     ],
-    "description": "Memory corruption while submitting a large list of sync points in an AUX command to the IOCTL_KGSL_GPU_AUX_COMMAND.",
+    "description": "Memory corruption in Graphics Linux while assigning shared virtual memory region during IOCTL call.",
     "epss": 0.064
+  },
+  "CVE-2023-36033": {
+    "cvss3": 7.8,
+    "severity": "HIGH",
+    "epss_severity": "LOW",
+    "posts": [
+      {
+        "account": {
+          "id": "110730368199044452",
+          "username": "simontsui",
+          "acct": "simontsui",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "followers_count": 477,
+          "following_count": 51,
+          "statuses_count": 1577,
+          "last_status_at": "2024-01-08",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111652726621557161",
+        "content": "\n\nThis wasn't advertised on Mastodon, but **Google Project Zero** published root\ncause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds\nwrite, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer\noverflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as\nexploited zero-days.  \n\ud83d\udd17 [https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-33106.html) and\n[https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-33107.html)\n\nNote for [@maddiestone](https://infosec.exchange/@maddiestone):\n[https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to\nCVE-2023-33063 in the [0day \"in the\nWild\"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)\nGoogle Sheet.\n\n",
+        "created_at": "2023-12-27T13:56:43.773Z"
+      },
+      {
+        "account": {
+          "id": "110787142161284615",
+          "username": "simontsui",
+          "acct": "simontsui@infosec.exchange",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "followers_count": 467,
+          "following_count": 49,
+          "statuses_count": 1577,
+          "last_status_at": "2024-01-08",
+          "emojis": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111652726621557161",
+        "content": "\n\nThis wasn't advertised on Mastodon, but **Google Project Zero** published root\ncause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds\nwrite, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer\noverflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as\nexploited zero-days.  \n\ud83d\udd17 [https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-33106.html) and\n[https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-33107.html)\n\nNote for [@maddiestone](https://infosec.exchange/@maddiestone):\n[https://googleprojectzero.github.io/0days-in-the-wild//0day-\nRCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-\nthe-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to\nCVE-2023-33063 in the [0day \"in the\nWild\"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)\nGoogle Sheet.\n\n",
+        "created_at": "2023-12-27T13:56:43.000Z"
+      }
+    ],
+    "description": "Windows DWM Core Library Elevation of Privilege Vulnerability",
+    "epss": 0.043
   },
   "CVE-2023-50297": {
     "cvss3": 6.1,
@@ -7150,7 +7150,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/111/154/489/232/580/187/original/3371a8f75fc3d3c7.png",
           "followers_count": 69,
           "following_count": 104,
-          "statuses_count": 13822,
+          "statuses_count": 13825,
           "last_status_at": "2024-01-08",
           "emojis": [
             {
@@ -7176,7 +7176,7 @@
     "description": "Microsoft Outlook Elevation of Privilege Vulnerability",
     "epss": 87.69200000000001
   },
-  "CVE-2023-45777": {
+  "CVE-2023-20944": {
     "cvss3": 7.8,
     "severity": "HIGH",
     "epss_severity": "LOW",
@@ -7254,7 +7254,7 @@
         "created_at": "2023-12-26T09:27:18.000Z"
       }
     ],
-    "description": "In checkKeyIntentParceledCorrectly of AccountManagerService.java, there is a possible way to launch arbitrary activities using system privileges due to Parcel Mismatch. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+    "description": "In run of ChooseTypeAndAccountActivity.java, there is a possible escalation of privilege due to unsafe deserialization. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-244154558",
     "epss": 0.042
   },
   "CVE-2023-35669": {
@@ -7338,7 +7338,7 @@
     "description": "In checkKeyIntentParceledCorrectly of AccountManagerService.java, there is a possible way to control other running activities due to unsafe deserialization. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
     "epss": 0.042
   },
-  "CVE-2023-20944": {
+  "CVE-2023-45777": {
     "cvss3": 7.8,
     "severity": "HIGH",
     "epss_severity": "LOW",
@@ -7416,7 +7416,7 @@
         "created_at": "2023-12-26T09:27:18.000Z"
       }
     ],
-    "description": "In run of ChooseTypeAndAccountActivity.java, there is a possible escalation of privilege due to unsafe deserialization. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-244154558",
+    "description": "In checkKeyIntentParceledCorrectly of AccountManagerService.java, there is a possible way to launch arbitrary activities using system privileges due to Parcel Mismatch. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
     "epss": 0.042
   },
   "CVE-2023-2868": {
