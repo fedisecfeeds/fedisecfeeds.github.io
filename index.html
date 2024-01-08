@@ -161,7 +161,7 @@
 
 
 <body>
-Updated at UTC 2024-01-08T20:13:32.290298
+Updated at UTC 2024-01-08T20:37:05.714627
 
 <p><a target=_blank href=https://github.com/fedisecfeeds/fedisecfeeds.github.io/blob/main/fedi_cve_feed.json>Access data as JSON</a></p>
 
@@ -776,24 +776,6 @@ handshake.</td>
 
 		
 		<tr>
-			<td><a class="HIGH" href="#CVE-2023-33106">CVE-2023-33106</a></td>
-
-			<td class=HIGH> 7.8 </td>
-
-			
-				<td class=LOW>0.06%</td>
-			
-
-			<td>2</td>
-			
-				<td>Memory corruption while submitting a large list of sync points in an AUX command</td>
-			
-
-		</tr>
-
-
-		
-		<tr>
 			<td><a class="HIGH" href="#CVE-2023-33063">CVE-2023-33063</a></td>
 
 			<td class=HIGH> 7.8 </td>
@@ -805,6 +787,24 @@ handshake.</td>
 			<td>2</td>
 			
 				<td>Memory corruption in DSP Services during a remote call from HLOS to DSP.</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
+			<td><a class="HIGH" href="#CVE-2023-33106">CVE-2023-33106</a></td>
+
+			<td class=HIGH> 7.8 </td>
+
+			
+				<td class=LOW>0.06%</td>
+			
+
+			<td>2</td>
+			
+				<td>Memory corruption while submitting a large list of sync points in an AUX command</td>
 			
 
 		</tr>
@@ -892,7 +892,7 @@ handshake.</td>
 				<td class=LOW>0.04%</td>
 			
 
-			<td>10</td>
+			<td>8</td>
 			
 				<td>Use of a Third Party library produced a vulnerability in Barracuda Networks Inc.</td>
 			
@@ -1100,9 +1100,9 @@ handshake.</td>
 
 		
 		<tr>
-			<td><a class="None" href="#CVE-2023-50982">CVE-2023-50982</a></td>
+			<td><a class="CRITICAL" href="#CVE-2023-50982">CVE-2023-50982</a></td>
 
-			<td class=None> 0 </td>
+			<td class=CRITICAL> 9.0 </td>
 
 			
 				<td class=None>0.00%</td>
@@ -1110,7 +1110,7 @@ handshake.</td>
 
 			<td>2</td>
 			
-				<td>N/A</td>
+				<td>Stud.IP 5.x through 5.3.3 allows XSS with resultant upload of executable files, </td>
 			
 
 		</tr>
@@ -5397,11 +5397,11 @@ Google Sheet.
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-33106">
+	<div class="cve" id="CVE-2023-33063">
 
 			
 		
-		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-33106>CVE-2023-33106</a><br>(7.8 HIGH)</h3>
+		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-33063>CVE-2023-33063</a><br>(7.8 HIGH)</h3>
 		
 
 		
@@ -5412,7 +5412,7 @@ Google Sheet.
 
 		<p class=description>
 		 
-		 		<th>Memory corruption while submitting a large list of sync points in an AUX command to the IOCTL_KGSL_GPU_AUX_COMMAND.</th>
+		 		<th>Memory corruption in DSP Services during a remote call from HLOS to DSP.</th>
 		 	
 
 		</p>
@@ -5485,11 +5485,11 @@ Google Sheet.
 	</div>
 	
 
-	<div class="cve" id="CVE-2023-33063">
+	<div class="cve" id="CVE-2023-33106">
 
 			
 		
-		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-33063>CVE-2023-33063</a><br>(7.8 HIGH)</h3>
+		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-33106>CVE-2023-33106</a><br>(7.8 HIGH)</h3>
 		
 
 		
@@ -5500,7 +5500,7 @@ Google Sheet.
 
 		<p class=description>
 		 
-		 		<th>Memory corruption in DSP Services during a remote call from HLOS to DSP.</th>
+		 		<th>Memory corruption while submitting a large list of sync points in an AUX command to the IOCTL_KGSL_GPU_AUX_COMMAND.</th>
 		 	
 
 		</p>
@@ -5920,7 +5920,7 @@ No mention of exploitation in the wild.
 		<h4 class=epss>EPSS: 0.04%</h4>
 		
 
-		<p class=numposts>10 posts</p>
+		<p class=numposts>8 posts</p>
 
 		<p class=description>
 		 
@@ -6032,33 +6032,6 @@ advisory.
 </md-block>
 			<hr>
 			
-				<a target=_blank href=https://mastodon.social/@campuscodi>campuscodi@mastodon.social</a>
-				<a class=posturl target=_blank href=https://mastodon.social/@campuscodi/111642905432060763>at 2023-12-25T20:19:04.000Z</a>
-<md-block>
-
-
-On Xmas Eve, Barracuda has disclosed a zero-day in its ESG appliance.
-
-The zero-day is tracked as CVE-2023-7102.
-
-Barracuda attributed the attack to UNC4841, the same Chinese group that
-exploited its appliances last year.
-
-Correction via [@h4sh](https://infosec.exchange/@h4sh). It was just one zero-
-day. The second CVE is for a library used inside ESG firmware, tracked as a
-separate bug.
-
-[https://www.barracuda.com/company/legal/esg-
-vulnerability](https://www.barracuda.com/company/legal/esg-vulnerability)
-
-[#infosec](https://mastodon.social/tags/infosec)
-[#cybersecurity](https://mastodon.social/tags/cybersecurity)
-[#security](https://mastodon.social/tags/security)
-
-
-</md-block>
-			<hr>
-			
 				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
 				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111660071195827152>at 2023-12-28T21:04:33.000Z</a>
 <md-block>
@@ -6150,33 +6123,6 @@ advisory.
   * [https://www.barracuda.com/company/legal/esg-vulnerability](https://www.barracuda.com/company/legal/esg-vulnerability)
   * [https://www.cve.org/CVERecord?id=CVE-2023-7101](https://www.cve.org/CVERecord?id=CVE-2023-7101)
   * [https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2023/MNDT-2023-0019.md](https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2023/MNDT-2023-0019.md)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://mastodon.social/@campuscodi>campuscodi@mastodon.social</a>
-				<a class=posturl target=_blank href=https://mastodon.social/@campuscodi/111642905432060763>at 2023-12-25T20:19:04.000Z</a>
-<md-block>
-
-
-On Xmas Eve, Barracuda has disclosed a zero-day in its ESG appliance.
-
-The zero-day is tracked as CVE-2023-7102.
-
-Barracuda attributed the attack to UNC4841, the same Chinese group that
-exploited its appliances last year.
-
-Correction via [@h4sh](https://infosec.exchange/@h4sh). It was just one zero-
-day. The second CVE is for a library used inside ESG firmware, tracked as a
-separate bug.
-
-[https://www.barracuda.com/company/legal/esg-
-vulnerability](https://www.barracuda.com/company/legal/esg-vulnerability)
-
-[#infosec](https://mastodon.social/tags/infosec)
-[#cybersecurity](https://mastodon.social/tags/cybersecurity)
-[#security](https://mastodon.social/tags/security)
 
 
 </md-block>
@@ -7256,7 +7202,7 @@ Minor release to fix CVE-2024-21633
 
 			
 		
-		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-50982>CVE-2023-50982</a><br>(0 None)</h3>
+		<h3 class=CRITICAL><a class="CRITICAL" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-50982>CVE-2023-50982</a><br>(9.0 CRITICAL)</h3>
 		
 
 		
@@ -7267,7 +7213,7 @@ Minor release to fix CVE-2024-21633
 
 		<p class=description>
 		 
-		 		<th>N/A</th>
+		 		<th>Stud.IP 5.x through 5.3.3 allows XSS with resultant upload of executable files, because upload_action and edit_action in Admin_SmileysController do not check the file extension. This leads to remote code execution with the privileges of the www-data user. The fixed versions are 5.3.4, 5.2.6, 5.1.7, and 5.0.9.</th>
 		 	
 
 		</p>
