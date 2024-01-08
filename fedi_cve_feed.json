@@ -2415,75 +2415,6 @@
     "description": "SnakeYaml's Constructor() class does not restrict types which can be instantiated during deserialization.\u00a0Deserializing yaml content provided by an attacker can lead to remote code execution. We recommend using SnakeYaml's SafeConsturctor when parsing untrusted content to restrict deserialization. We recommend upgrading to version 2.0 and beyond.\n",
     "epss": 0.577
   },
-  "CVE-2023-33025": {
-    "cvss3": 9.8,
-    "severity": "CRITICAL",
-    "epss_severity": "LOW",
-    "posts": [
-      {
-        "account": {
-          "id": "110730368199044452",
-          "username": "simontsui",
-          "acct": "simontsui",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "followers_count": 477,
-          "following_count": 51,
-          "statuses_count": 1574,
-          "last_status_at": "2024-01-08",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111694082140172326",
-        "content": "\n\n **Google Android** Security Bulletin: approximately 59 vulnerabilities, all\nhigh severity except for 3 critical (Qualcomm closed-source component):\n\n  * CVE-2023-21651 (9.3 critical) Memory Corruption in Core\n  * CVE-2023-33025 (9.8 critical) Memory corruption in Data Modem\n  * CVE-2023-33036 (7.1 high) Permanent DOS in Hypervisor\n\nNo mention of exploitation in the wild.  \n\ud83d\udd17\n[https://source.android.com/docs/security/bulletin/2024-01-01](https://source.android.com/docs/security/bulletin/2024-01-01)\n\n",
-        "created_at": "2024-01-03T21:13:58.906Z"
-      },
-      {
-        "account": {
-          "id": "110787142161284615",
-          "username": "simontsui",
-          "acct": "simontsui@infosec.exchange",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "followers_count": 467,
-          "following_count": 49,
-          "statuses_count": 1574,
-          "last_status_at": "2024-01-08",
-          "emojis": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111694082140172326",
-        "content": "\n\n **Google Android** Security Bulletin: approximately 59 vulnerabilities, all\nhigh severity except for 3 critical (Qualcomm closed-source component):\n\n  * CVE-2023-21651 (9.3 critical) Memory Corruption in Core\n  * CVE-2023-33025 (9.8 critical) Memory corruption in Data Modem\n  * CVE-2023-33036 (7.1 high) Permanent DOS in Hypervisor\n\nNo mention of exploitation in the wild.  \n\ud83d\udd17\n[https://source.android.com/docs/security/bulletin/2024-01-01](https://source.android.com/docs/security/bulletin/2024-01-01)\n\n",
-        "created_at": "2024-01-03T21:13:58.000Z"
-      }
-    ],
-    "description": "Memory corruption in Data Modem when a non-standard SDP body, during a VOLTE call.",
-    "epss": 0.091
-  },
   "CVE-2023-33036": {
     "cvss3": 7.1,
     "severity": "HIGH",
@@ -2622,6 +2553,75 @@
     "description": "Memory Corruption in Core due to incorrect type conversion or cast in secure_io_read/write function in TEE.",
     "epss": 0.043
   },
+  "CVE-2023-33025": {
+    "cvss3": 9.8,
+    "severity": "CRITICAL",
+    "epss_severity": "LOW",
+    "posts": [
+      {
+        "account": {
+          "id": "110730368199044452",
+          "username": "simontsui",
+          "acct": "simontsui",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "followers_count": 477,
+          "following_count": 51,
+          "statuses_count": 1574,
+          "last_status_at": "2024-01-08",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111694082140172326",
+        "content": "\n\n **Google Android** Security Bulletin: approximately 59 vulnerabilities, all\nhigh severity except for 3 critical (Qualcomm closed-source component):\n\n  * CVE-2023-21651 (9.3 critical) Memory Corruption in Core\n  * CVE-2023-33025 (9.8 critical) Memory corruption in Data Modem\n  * CVE-2023-33036 (7.1 high) Permanent DOS in Hypervisor\n\nNo mention of exploitation in the wild.  \n\ud83d\udd17\n[https://source.android.com/docs/security/bulletin/2024-01-01](https://source.android.com/docs/security/bulletin/2024-01-01)\n\n",
+        "created_at": "2024-01-03T21:13:58.906Z"
+      },
+      {
+        "account": {
+          "id": "110787142161284615",
+          "username": "simontsui",
+          "acct": "simontsui@infosec.exchange",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "followers_count": 467,
+          "following_count": 49,
+          "statuses_count": 1574,
+          "last_status_at": "2024-01-08",
+          "emojis": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111694082140172326",
+        "content": "\n\n **Google Android** Security Bulletin: approximately 59 vulnerabilities, all\nhigh severity except for 3 critical (Qualcomm closed-source component):\n\n  * CVE-2023-21651 (9.3 critical) Memory Corruption in Core\n  * CVE-2023-33025 (9.8 critical) Memory corruption in Data Modem\n  * CVE-2023-33036 (7.1 high) Permanent DOS in Hypervisor\n\nNo mention of exploitation in the wild.  \n\ud83d\udd17\n[https://source.android.com/docs/security/bulletin/2024-01-01](https://source.android.com/docs/security/bulletin/2024-01-01)\n\n",
+        "created_at": "2024-01-03T21:13:58.000Z"
+      }
+    ],
+    "description": "Memory corruption in Data Modem when a non-standard SDP body, during a VOLTE call.",
+    "epss": 0.091
+  },
   "CVE-2023-51385": {
     "cvss3": 6.5,
     "severity": "MEDIUM",
@@ -2647,7 +2647,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/376/076/175/418/574/original/d900e6b9a407d219.jpg",
           "followers_count": 39,
           "following_count": 62,
-          "statuses_count": 2440,
+          "statuses_count": 2441,
           "last_status_at": "2024-01-08",
           "emojis": [],
           "fields": []
@@ -2707,7 +2707,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/109/563/822/295/399/243/original/3e6d97a23c02a9d3.jpg",
           "followers_count": 39,
           "following_count": 62,
-          "statuses_count": 2441,
+          "statuses_count": 2442,
           "last_status_at": "2024-01-08",
           "emojis": [],
           "fields": []
@@ -3305,7 +3305,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/252/415/290/472/516/original/a9d75c685ed05ab6.jpeg",
           "followers_count": 3643,
           "following_count": 745,
-          "statuses_count": 1623,
+          "statuses_count": 1624,
           "last_status_at": "2024-01-08",
           "emojis": [],
           "fields": [
@@ -3355,7 +3355,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/109/254/456/977/705/530/original/e32ff360aa141c89.jpeg",
           "followers_count": 3642,
           "following_count": 745,
-          "statuses_count": 1625,
+          "statuses_count": 1626,
           "last_status_at": "2024-01-08",
           "emojis": [],
           "fields": [
@@ -3445,7 +3445,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/111/154/489/232/580/187/original/3371a8f75fc3d3c7.png",
           "followers_count": 69,
           "following_count": 104,
-          "statuses_count": 13813,
+          "statuses_count": 13822,
           "last_status_at": "2024-01-08",
           "emojis": [
             {
@@ -3744,75 +3744,6 @@
     "description": "A security issue exists in D-Link D-View 8 v2.0.2.89 and prior that could allow an attacker to manipulate the probe inventory of the D-View service. This could result in the disclosure of information from other probes, denial of service conditions due to the probe inventory becoming full, or the execution of tasks on other probes.\n\n",
     "epss": 1.057
   },
-  "CVE-2023-20273": {
-    "cvss3": 7.2,
-    "severity": "HIGH",
-    "epss_severity": "LOW",
-    "posts": [
-      {
-        "account": {
-          "id": "110730368199044452",
-          "username": "simontsui",
-          "acct": "simontsui",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "followers_count": 477,
-          "following_count": 51,
-          "statuses_count": 1574,
-          "last_status_at": "2024-01-08",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111665266572564578",
-        "content": "\n\n[@kpwn](https://infosec.exchange/@kpwn) CVE-2023-20198 was fascinating for\nmany reasons:\n\n  * Cisco is a networking vendor giant. Almost every organization had an affected device.\n  * CVSSv3 score of 10.0 is rare for an established product, especially from Cisco. 10.0 is the equivalent of leaving the backdoor wide open, but no one else saw the possibility?\n  * There was no patch available at the time of disclosure. First available patch was 6 days later, and for one specific model.\n  * The identified implant was detected on approximately 40,000-60,000 compromised devices.\n  * An operation of this scale screams nation state activity, but no one was pointing fingers (or taking credit).\n  * The likely use of that many devices is for a botnet. However, nothing was done with the infected hosts. Either the threat actor was a solo operation or wanted to lay low after attracting international attention.\n  * Cisco PSIRT couldn't figure out how the threat actor uploaded the implant. This was eventually identified as the other zero-day CVE-2023-20273.\n  * There was a industrial control system angle to this, when Rockwell Automation announced that they were impacted by CVE-2023-20198 (admitting to CVE-2023-20273 later too)\n\n[#CveCrowdDeny](https://infosec.exchange/tags/CveCrowdDeny)\n\n",
-        "created_at": "2023-12-29T19:05:48.240Z"
-      },
-      {
-        "account": {
-          "id": "110787142161284615",
-          "username": "simontsui",
-          "acct": "simontsui@infosec.exchange",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "followers_count": 467,
-          "following_count": 49,
-          "statuses_count": 1574,
-          "last_status_at": "2024-01-08",
-          "emojis": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111665266572564578",
-        "content": "\n\n[@kpwn](https://infosec.exchange/@kpwn) CVE-2023-20198 was fascinating for\nmany reasons:\n\n  * Cisco is a networking vendor giant. Almost every organization had an affected device.\n  * CVSSv3 score of 10.0 is rare for an established product, especially from Cisco. 10.0 is the equivalent of leaving the backdoor wide open, but no one else saw the possibility?\n  * There was no patch available at the time of disclosure. First available patch was 6 days later, and for one specific model.\n  * The identified implant was detected on approximately 40,000-60,000 compromised devices.\n  * An operation of this scale screams nation state activity, but no one was pointing fingers (or taking credit).\n  * The likely use of that many devices is for a botnet. However, nothing was done with the infected hosts. Either the threat actor was a solo operation or wanted to lay low after attracting international attention.\n  * Cisco PSIRT couldn't figure out how the threat actor uploaded the implant. This was eventually identified as the other zero-day CVE-2023-20273.\n  * There was a industrial control system angle to this, when Rockwell Automation announced that they were impacted by CVE-2023-20198 (admitting to CVE-2023-20273 later too)\n\n[#CveCrowdDeny](https://infosec.exchange/tags/CveCrowdDeny)\n\n",
-        "created_at": "2023-12-29T19:05:48.000Z"
-      }
-    ],
-    "description": "A vulnerability in the web UI feature of Cisco IOS XE Software could allow an authenticated, remote attacker to inject commands with the privileges of root. This vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by sending crafted input to the web UI. A successful exploit could allow the attacker to inject commands to the underlying operating system with root privileges.",
-    "epss": 6.017
-  },
   "CVE-2023-20198": {
     "cvss3": 10,
     "severity": "CRITICAL",
@@ -3987,6 +3918,75 @@
     ],
     "description": "Cisco is providing an update for the ongoing investigation into observed exploitation of the web UI feature in Cisco IOS XE Software. We are updating the list of fixed releases and adding the Software Checker. Our investigation has determined that the actors exploited two previously unknown issues. The attacker first exploited CVE-2023-20198 to gain initial access and issued a privilege 15 command to create a local user and password combination. This allowed the user to log in with normal user access. The attacker then exploited another component of the web UI feature, leveraging the new local user to elevate privilege to root and write the implant to the file system. Cisco has assigned CVE-2023-20273 to this issue. CVE-2023-20198 has been assigned a CVSS Score of 10.0. CVE-2023-20273 has been assigned a CVSS Score of 7.2. Both of these CVEs are being tracked by CSCwh87343.",
     "epss": 89.074
+  },
+  "CVE-2023-20273": {
+    "cvss3": 7.2,
+    "severity": "HIGH",
+    "epss_severity": "LOW",
+    "posts": [
+      {
+        "account": {
+          "id": "110730368199044452",
+          "username": "simontsui",
+          "acct": "simontsui",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "followers_count": 477,
+          "following_count": 51,
+          "statuses_count": 1574,
+          "last_status_at": "2024-01-08",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111665266572564578",
+        "content": "\n\n[@kpwn](https://infosec.exchange/@kpwn) CVE-2023-20198 was fascinating for\nmany reasons:\n\n  * Cisco is a networking vendor giant. Almost every organization had an affected device.\n  * CVSSv3 score of 10.0 is rare for an established product, especially from Cisco. 10.0 is the equivalent of leaving the backdoor wide open, but no one else saw the possibility?\n  * There was no patch available at the time of disclosure. First available patch was 6 days later, and for one specific model.\n  * The identified implant was detected on approximately 40,000-60,000 compromised devices.\n  * An operation of this scale screams nation state activity, but no one was pointing fingers (or taking credit).\n  * The likely use of that many devices is for a botnet. However, nothing was done with the infected hosts. Either the threat actor was a solo operation or wanted to lay low after attracting international attention.\n  * Cisco PSIRT couldn't figure out how the threat actor uploaded the implant. This was eventually identified as the other zero-day CVE-2023-20273.\n  * There was a industrial control system angle to this, when Rockwell Automation announced that they were impacted by CVE-2023-20198 (admitting to CVE-2023-20273 later too)\n\n[#CveCrowdDeny](https://infosec.exchange/tags/CveCrowdDeny)\n\n",
+        "created_at": "2023-12-29T19:05:48.240Z"
+      },
+      {
+        "account": {
+          "id": "110787142161284615",
+          "username": "simontsui",
+          "acct": "simontsui@infosec.exchange",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "followers_count": 467,
+          "following_count": 49,
+          "statuses_count": 1574,
+          "last_status_at": "2024-01-08",
+          "emojis": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111665266572564578",
+        "content": "\n\n[@kpwn](https://infosec.exchange/@kpwn) CVE-2023-20198 was fascinating for\nmany reasons:\n\n  * Cisco is a networking vendor giant. Almost every organization had an affected device.\n  * CVSSv3 score of 10.0 is rare for an established product, especially from Cisco. 10.0 is the equivalent of leaving the backdoor wide open, but no one else saw the possibility?\n  * There was no patch available at the time of disclosure. First available patch was 6 days later, and for one specific model.\n  * The identified implant was detected on approximately 40,000-60,000 compromised devices.\n  * An operation of this scale screams nation state activity, but no one was pointing fingers (or taking credit).\n  * The likely use of that many devices is for a botnet. However, nothing was done with the infected hosts. Either the threat actor was a solo operation or wanted to lay low after attracting international attention.\n  * Cisco PSIRT couldn't figure out how the threat actor uploaded the implant. This was eventually identified as the other zero-day CVE-2023-20273.\n  * There was a industrial control system angle to this, when Rockwell Automation announced that they were impacted by CVE-2023-20198 (admitting to CVE-2023-20273 later too)\n\n[#CveCrowdDeny](https://infosec.exchange/tags/CveCrowdDeny)\n\n",
+        "created_at": "2023-12-29T19:05:48.000Z"
+      }
+    ],
+    "description": "A vulnerability in the web UI feature of Cisco IOS XE Software could allow an authenticated, remote attacker to inject commands with the privileges of root. This vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by sending crafted input to the web UI. A successful exploit could allow the attacker to inject commands to the underlying operating system with root privileges.",
+    "epss": 6.017
   },
   "CVE-2021-22986": {
     "cvss3": 9.8,
@@ -6385,7 +6385,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/111/154/489/232/580/187/original/3371a8f75fc3d3c7.png",
           "followers_count": 69,
           "following_count": 104,
-          "statuses_count": 13813,
+          "statuses_count": 13822,
           "last_status_at": "2024-01-08",
           "emojis": [
             {
@@ -6411,87 +6411,6 @@
     "description": "Microsoft Outlook Elevation of Privilege Vulnerability",
     "epss": 87.69200000000001
   },
-  "CVE-2023-35669": {
-    "cvss3": 7.8,
-    "severity": "HIGH",
-    "epss_severity": "LOW",
-    "posts": [
-      {
-        "account": {
-          "id": "109297516239109230",
-          "username": "BednarTildeOne",
-          "acct": "BednarTildeOne",
-          "display_name": "BEDNAR~1",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2022-11-06T00:00:00.000Z",
-          "note": "<p>Android bug hunter, driver assistance systems (ADAS) testing at work, ported PRoot to Android/Termux, mostly lurker, they/he</p>",
-          "url": "https://infosec.exchange/@BednarTildeOne",
-          "uri": "https://infosec.exchange/users/BednarTildeOne",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/297/516/239/109/230/original/559f7816a6a4eec4.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/297/516/239/109/230/original/559f7816a6a4eec4.png",
-          "header": "https://assets.infosec.exchange/headers/original/missing.png",
-          "header_static": "https://assets.infosec.exchange/headers/original/missing.png",
-          "followers_count": 54,
-          "following_count": 70,
-          "statuses_count": 54,
-          "last_status_at": "2024-01-06",
-          "noindex": true,
-          "emojis": [],
-          "roles": [],
-          "fields": [
-            {
-              "name": "GitHub",
-              "value": "<a href=\"https://github.com/michalbednarski\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/michalbednarski</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2022-11-11T17:53:03.424+00:00"
-            }
-          ]
-        },
-        "url": "https://infosec.exchange/@BednarTildeOne/111646004916856677",
-        "content": "\n\n[@cxxsheng](https://infosec.exchange/@cxxsheng) The new version of\ngetParcelable should be used, although bulletin makes patch look somewhat\nmisleading as links to two commits:\n\nFirst one adding getClass() check and switching to old getParcelable (which is\nincorrect, this commit previously appeared as patch for CVE-2023-35669 (not\nmine, although it might be follow up to my CVE-2023-20944))\n\nSecond one which brings back use of new getParcelable (which is the fix for\nCVE-2023-45777)\n\n",
-        "created_at": "2023-12-26T09:27:18.697Z"
-      },
-      {
-        "account": {
-          "id": "109298095842869533",
-          "username": "BednarTildeOne",
-          "acct": "BednarTildeOne@infosec.exchange",
-          "display_name": "BEDNAR~1",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2022-11-06T00:00:00.000Z",
-          "note": "<p>Android bug hunter, driver assistance systems (ADAS) testing at work, ported PRoot to Android/Termux, mostly lurker, they/he</p>",
-          "url": "https://infosec.exchange/@BednarTildeOne",
-          "uri": "https://infosec.exchange/users/BednarTildeOne",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/109/298/095/842/869/533/original/a056c3e130b365e6.png",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/109/298/095/842/869/533/original/a056c3e130b365e6.png",
-          "header": "https://ioc.exchange/headers/original/missing.png",
-          "header_static": "https://ioc.exchange/headers/original/missing.png",
-          "followers_count": 53,
-          "following_count": 70,
-          "statuses_count": 55,
-          "last_status_at": "2024-01-06",
-          "emojis": [],
-          "fields": [
-            {
-              "name": "GitHub",
-              "value": "<a href=\"https://github.com/michalbednarski\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/michalbednarski</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2023-12-26T11:36:19.587+00:00"
-            }
-          ]
-        },
-        "url": "https://infosec.exchange/@BednarTildeOne/111646004916856677",
-        "content": "\n\n[@cxxsheng](https://infosec.exchange/@cxxsheng) The new version of\ngetParcelable should be used, although bulletin makes patch look somewhat\nmisleading as links to two commits:\n\nFirst one adding getClass() check and switching to old getParcelable (which is\nincorrect, this commit previously appeared as patch for CVE-2023-35669 (not\nmine, although it might be follow up to my CVE-2023-20944))\n\nSecond one which brings back use of new getParcelable (which is the fix for\nCVE-2023-45777)\n\n",
-        "created_at": "2023-12-26T09:27:18.000Z"
-      }
-    ],
-    "description": "In checkKeyIntentParceledCorrectly of AccountManagerService.java, there is a possible way to control other running activities due to unsafe deserialization. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
-    "epss": 0.042
-  },
   "CVE-2023-45777": {
     "cvss3": 7.8,
     "severity": "HIGH",
@@ -6516,7 +6435,7 @@
           "header": "https://assets.infosec.exchange/headers/original/missing.png",
           "header_static": "https://assets.infosec.exchange/headers/original/missing.png",
           "followers_count": 54,
-          "following_count": 70,
+          "following_count": 71,
           "statuses_count": 54,
           "last_status_at": "2024-01-06",
           "noindex": true,
@@ -6573,6 +6492,87 @@
     "description": "In checkKeyIntentParceledCorrectly of AccountManagerService.java, there is a possible way to launch arbitrary activities using system privileges due to Parcel Mismatch. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
     "epss": 0.042
   },
+  "CVE-2023-35669": {
+    "cvss3": 7.8,
+    "severity": "HIGH",
+    "epss_severity": "LOW",
+    "posts": [
+      {
+        "account": {
+          "id": "109297516239109230",
+          "username": "BednarTildeOne",
+          "acct": "BednarTildeOne",
+          "display_name": "BEDNAR~1",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2022-11-06T00:00:00.000Z",
+          "note": "<p>Android bug hunter, driver assistance systems (ADAS) testing at work, ported PRoot to Android/Termux, mostly lurker, they/he</p>",
+          "url": "https://infosec.exchange/@BednarTildeOne",
+          "uri": "https://infosec.exchange/users/BednarTildeOne",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/297/516/239/109/230/original/559f7816a6a4eec4.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/297/516/239/109/230/original/559f7816a6a4eec4.png",
+          "header": "https://assets.infosec.exchange/headers/original/missing.png",
+          "header_static": "https://assets.infosec.exchange/headers/original/missing.png",
+          "followers_count": 54,
+          "following_count": 71,
+          "statuses_count": 54,
+          "last_status_at": "2024-01-06",
+          "noindex": true,
+          "emojis": [],
+          "roles": [],
+          "fields": [
+            {
+              "name": "GitHub",
+              "value": "<a href=\"https://github.com/michalbednarski\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/michalbednarski</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-11-11T17:53:03.424+00:00"
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@BednarTildeOne/111646004916856677",
+        "content": "\n\n[@cxxsheng](https://infosec.exchange/@cxxsheng) The new version of\ngetParcelable should be used, although bulletin makes patch look somewhat\nmisleading as links to two commits:\n\nFirst one adding getClass() check and switching to old getParcelable (which is\nincorrect, this commit previously appeared as patch for CVE-2023-35669 (not\nmine, although it might be follow up to my CVE-2023-20944))\n\nSecond one which brings back use of new getParcelable (which is the fix for\nCVE-2023-45777)\n\n",
+        "created_at": "2023-12-26T09:27:18.697Z"
+      },
+      {
+        "account": {
+          "id": "109298095842869533",
+          "username": "BednarTildeOne",
+          "acct": "BednarTildeOne@infosec.exchange",
+          "display_name": "BEDNAR~1",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2022-11-06T00:00:00.000Z",
+          "note": "<p>Android bug hunter, driver assistance systems (ADAS) testing at work, ported PRoot to Android/Termux, mostly lurker, they/he</p>",
+          "url": "https://infosec.exchange/@BednarTildeOne",
+          "uri": "https://infosec.exchange/users/BednarTildeOne",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/109/298/095/842/869/533/original/a056c3e130b365e6.png",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/109/298/095/842/869/533/original/a056c3e130b365e6.png",
+          "header": "https://ioc.exchange/headers/original/missing.png",
+          "header_static": "https://ioc.exchange/headers/original/missing.png",
+          "followers_count": 53,
+          "following_count": 70,
+          "statuses_count": 55,
+          "last_status_at": "2024-01-06",
+          "emojis": [],
+          "fields": [
+            {
+              "name": "GitHub",
+              "value": "<a href=\"https://github.com/michalbednarski\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/michalbednarski</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-12-26T11:36:19.587+00:00"
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@BednarTildeOne/111646004916856677",
+        "content": "\n\n[@cxxsheng](https://infosec.exchange/@cxxsheng) The new version of\ngetParcelable should be used, although bulletin makes patch look somewhat\nmisleading as links to two commits:\n\nFirst one adding getClass() check and switching to old getParcelable (which is\nincorrect, this commit previously appeared as patch for CVE-2023-35669 (not\nmine, although it might be follow up to my CVE-2023-20944))\n\nSecond one which brings back use of new getParcelable (which is the fix for\nCVE-2023-45777)\n\n",
+        "created_at": "2023-12-26T09:27:18.000Z"
+      }
+    ],
+    "description": "In checkKeyIntentParceledCorrectly of AccountManagerService.java, there is a possible way to control other running activities due to unsafe deserialization. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+    "epss": 0.042
+  },
   "CVE-2023-20944": {
     "cvss3": 7.8,
     "severity": "HIGH",
@@ -6597,7 +6597,7 @@
           "header": "https://assets.infosec.exchange/headers/original/missing.png",
           "header_static": "https://assets.infosec.exchange/headers/original/missing.png",
           "followers_count": 54,
-          "following_count": 70,
+          "following_count": 71,
           "statuses_count": 54,
           "last_status_at": "2024-01-06",
           "noindex": true,
