@@ -430,7 +430,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/110/473/325/718/736/472/original/fd976933df61bde0.png",
           "followers_count": 103,
           "following_count": 0,
-          "statuses_count": 4865,
+          "statuses_count": 4867,
           "last_status_at": "2024-01-09",
           "emojis": [],
           "fields": [
@@ -624,6 +624,213 @@
     "description": "Session Validation attacks in Apache Superset versions up to and including 2.0.1. Installations that have not altered the default configured SECRET_KEY according to installation instructions allow for an attacker to authenticate and access unauthorized resources. This does not affect Superset administrators who have changed the default value for SECRET_KEY config.",
     "epss": 96.22500000000001
   },
+  "CVE-2023-37450": {
+    "cvss3": 8.8,
+    "severity": "HIGH",
+    "epss_severity": "LOW",
+    "posts": [
+      {
+        "account": {
+          "id": "110730368199044452",
+          "username": "simontsui",
+          "acct": "simontsui",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "followers_count": 476,
+          "following_count": 51,
+          "statuses_count": 1589,
+          "last_status_at": "2024-01-09",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111723673302076523",
+        "content": "\n\nHonestly, I'm surprised that CVE-2023-38203 was added to CISA's KEV Catalog 6\nmonths later. [@catc0n](https://infosec.exchange/@catc0n) of Rapid7 alerted\nthe community to zero-day exploitation using Project Discovery's\nCVE-2023-38203 technical details and proof of concept exploit around 17 July:\n[https://www.rapid7.com/blog/post/2023/07/17/etr-active-exploitation-of-\nmultiple-adobe-coldfusion-\nvulnerabilities/](https://www.rapid7.com/blog/post/2023/07/17/etr-active-\nexploitation-of-multiple-adobe-coldfusion-vulnerabilities/)\n\nThen again, that was a wild week/month. Patch Tuesday had Microsoft disclosing\n6 actively exploited zero-days; Apple had the WebKit zero-day CVE-2023-37450.\nThis was followed the next week with Citrix CVE-2023-3519, and Ivanti EPMM\nCVE-2023-35078. [#CveCrowdDeny](https://infosec.exchange/tags/CveCrowdDeny)\n\n",
+        "created_at": "2024-01-09T02:39:24.206Z"
+      },
+      {
+        "account": {
+          "id": "110787142161284615",
+          "username": "simontsui",
+          "acct": "simontsui@infosec.exchange",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "followers_count": 467,
+          "following_count": 49,
+          "statuses_count": 1589,
+          "last_status_at": "2024-01-09",
+          "emojis": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111723673302076523",
+        "content": "\n\nHonestly, I'm surprised that CVE-2023-38203 was added to CISA's KEV Catalog 6\nmonths later. [@catc0n](https://infosec.exchange/@catc0n) of Rapid7 alerted\nthe community to zero-day exploitation using Project Discovery's\nCVE-2023-38203 technical details and proof of concept exploit around 17 July:\n[https://www.rapid7.com/blog/post/2023/07/17/etr-active-exploitation-of-\nmultiple-adobe-coldfusion-\nvulnerabilities/](https://www.rapid7.com/blog/post/2023/07/17/etr-active-\nexploitation-of-multiple-adobe-coldfusion-vulnerabilities/)\n\nThen again, that was a wild week/month. Patch Tuesday had Microsoft disclosing\n6 actively exploited zero-days; Apple had the WebKit zero-day CVE-2023-37450.\nThis was followed the next week with Citrix CVE-2023-3519, and Ivanti EPMM\nCVE-2023-35078. [#CveCrowdDeny](https://infosec.exchange/tags/CveCrowdDeny)\n\n",
+        "created_at": "2024-01-09T02:39:24.000Z"
+      }
+    ],
+    "description": "The issue was addressed with improved checks. This issue is fixed in iOS 16.6 and iPadOS 16.6, Safari 16.5.2, tvOS 16.6, macOS Ventura 13.5, watchOS 9.6. Processing web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+    "epss": 0.10200000000000001
+  },
+  "CVE-2023-35078": {
+    "cvss3": 9.8,
+    "severity": "CRITICAL",
+    "epss_severity": "CRITICAL",
+    "posts": [
+      {
+        "account": {
+          "id": "110730368199044452",
+          "username": "simontsui",
+          "acct": "simontsui",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "followers_count": 476,
+          "following_count": 51,
+          "statuses_count": 1589,
+          "last_status_at": "2024-01-09",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111723673302076523",
+        "content": "\n\nHonestly, I'm surprised that CVE-2023-38203 was added to CISA's KEV Catalog 6\nmonths later. [@catc0n](https://infosec.exchange/@catc0n) of Rapid7 alerted\nthe community to zero-day exploitation using Project Discovery's\nCVE-2023-38203 technical details and proof of concept exploit around 17 July:\n[https://www.rapid7.com/blog/post/2023/07/17/etr-active-exploitation-of-\nmultiple-adobe-coldfusion-\nvulnerabilities/](https://www.rapid7.com/blog/post/2023/07/17/etr-active-\nexploitation-of-multiple-adobe-coldfusion-vulnerabilities/)\n\nThen again, that was a wild week/month. Patch Tuesday had Microsoft disclosing\n6 actively exploited zero-days; Apple had the WebKit zero-day CVE-2023-37450.\nThis was followed the next week with Citrix CVE-2023-3519, and Ivanti EPMM\nCVE-2023-35078. [#CveCrowdDeny](https://infosec.exchange/tags/CveCrowdDeny)\n\n",
+        "created_at": "2024-01-09T02:39:24.206Z"
+      },
+      {
+        "account": {
+          "id": "110787142161284615",
+          "username": "simontsui",
+          "acct": "simontsui@infosec.exchange",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "followers_count": 467,
+          "following_count": 49,
+          "statuses_count": 1589,
+          "last_status_at": "2024-01-09",
+          "emojis": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111723673302076523",
+        "content": "\n\nHonestly, I'm surprised that CVE-2023-38203 was added to CISA's KEV Catalog 6\nmonths later. [@catc0n](https://infosec.exchange/@catc0n) of Rapid7 alerted\nthe community to zero-day exploitation using Project Discovery's\nCVE-2023-38203 technical details and proof of concept exploit around 17 July:\n[https://www.rapid7.com/blog/post/2023/07/17/etr-active-exploitation-of-\nmultiple-adobe-coldfusion-\nvulnerabilities/](https://www.rapid7.com/blog/post/2023/07/17/etr-active-\nexploitation-of-multiple-adobe-coldfusion-vulnerabilities/)\n\nThen again, that was a wild week/month. Patch Tuesday had Microsoft disclosing\n6 actively exploited zero-days; Apple had the WebKit zero-day CVE-2023-37450.\nThis was followed the next week with Citrix CVE-2023-3519, and Ivanti EPMM\nCVE-2023-35078. [#CveCrowdDeny](https://infosec.exchange/tags/CveCrowdDeny)\n\n",
+        "created_at": "2024-01-09T02:39:24.000Z"
+      }
+    ],
+    "description": "An authentication bypass vulnerability in Ivanti EPMM allows unauthorized users to access restricted functionality or resources of the application without proper authentication.",
+    "epss": 94.864
+  },
+  "CVE-2023-3519": {
+    "cvss3": 9.8,
+    "severity": "CRITICAL",
+    "epss_severity": "CRITICAL",
+    "posts": [
+      {
+        "account": {
+          "id": "110730368199044452",
+          "username": "simontsui",
+          "acct": "simontsui",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "followers_count": 476,
+          "following_count": 51,
+          "statuses_count": 1589,
+          "last_status_at": "2024-01-09",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111723673302076523",
+        "content": "\n\nHonestly, I'm surprised that CVE-2023-38203 was added to CISA's KEV Catalog 6\nmonths later. [@catc0n](https://infosec.exchange/@catc0n) of Rapid7 alerted\nthe community to zero-day exploitation using Project Discovery's\nCVE-2023-38203 technical details and proof of concept exploit around 17 July:\n[https://www.rapid7.com/blog/post/2023/07/17/etr-active-exploitation-of-\nmultiple-adobe-coldfusion-\nvulnerabilities/](https://www.rapid7.com/blog/post/2023/07/17/etr-active-\nexploitation-of-multiple-adobe-coldfusion-vulnerabilities/)\n\nThen again, that was a wild week/month. Patch Tuesday had Microsoft disclosing\n6 actively exploited zero-days; Apple had the WebKit zero-day CVE-2023-37450.\nThis was followed the next week with Citrix CVE-2023-3519, and Ivanti EPMM\nCVE-2023-35078. [#CveCrowdDeny](https://infosec.exchange/tags/CveCrowdDeny)\n\n",
+        "created_at": "2024-01-09T02:39:24.206Z"
+      },
+      {
+        "account": {
+          "id": "110787142161284615",
+          "username": "simontsui",
+          "acct": "simontsui@infosec.exchange",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "followers_count": 467,
+          "following_count": 49,
+          "statuses_count": 1589,
+          "last_status_at": "2024-01-09",
+          "emojis": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111723673302076523",
+        "content": "\n\nHonestly, I'm surprised that CVE-2023-38203 was added to CISA's KEV Catalog 6\nmonths later. [@catc0n](https://infosec.exchange/@catc0n) of Rapid7 alerted\nthe community to zero-day exploitation using Project Discovery's\nCVE-2023-38203 technical details and proof of concept exploit around 17 July:\n[https://www.rapid7.com/blog/post/2023/07/17/etr-active-exploitation-of-\nmultiple-adobe-coldfusion-\nvulnerabilities/](https://www.rapid7.com/blog/post/2023/07/17/etr-active-\nexploitation-of-multiple-adobe-coldfusion-vulnerabilities/)\n\nThen again, that was a wild week/month. Patch Tuesday had Microsoft disclosing\n6 actively exploited zero-days; Apple had the WebKit zero-day CVE-2023-37450.\nThis was followed the next week with Citrix CVE-2023-3519, and Ivanti EPMM\nCVE-2023-35078. [#CveCrowdDeny](https://infosec.exchange/tags/CveCrowdDeny)\n\n",
+        "created_at": "2024-01-09T02:39:24.000Z"
+      }
+    ],
+    "description": "Unauthenticated remote code execution\n",
+    "epss": 89.042
+  },
   "CVE-2023-38203": {
     "cvss3": 9.8,
     "severity": "CRITICAL",
@@ -752,213 +959,6 @@
     ],
     "description": "Adobe ColdFusion versions 2018u17 (and earlier), 2021u7 (and earlier) and 2023u1 (and earlier) are affected by a Deserialization of Untrusted Data vulnerability that could result in Arbitrary code execution. Exploitation of this issue does not require user interaction.",
     "epss": 50.974
-  },
-  "CVE-2023-37450": {
-    "cvss3": 8.8,
-    "severity": "HIGH",
-    "epss_severity": "LOW",
-    "posts": [
-      {
-        "account": {
-          "id": "110730368199044452",
-          "username": "simontsui",
-          "acct": "simontsui",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "followers_count": 476,
-          "following_count": 51,
-          "statuses_count": 1589,
-          "last_status_at": "2024-01-09",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111723673302076523",
-        "content": "\n\nHonestly, I'm surprised that CVE-2023-38203 was added to CISA's KEV Catalog 6\nmonths later. [@catc0n](https://infosec.exchange/@catc0n) of Rapid7 alerted\nthe community to zero-day exploitation using Project Discovery's\nCVE-2023-38203 technical details and proof of concept exploit around 17 July:\n[https://www.rapid7.com/blog/post/2023/07/17/etr-active-exploitation-of-\nmultiple-adobe-coldfusion-\nvulnerabilities/](https://www.rapid7.com/blog/post/2023/07/17/etr-active-\nexploitation-of-multiple-adobe-coldfusion-vulnerabilities/)\n\nThen again, that was a wild week/month. Patch Tuesday had Microsoft disclosing\n6 actively exploited zero-days; Apple had the WebKit zero-day CVE-2023-37450.\nThis was followed the next week with Citrix CVE-2023-3519, and Ivanti EPMM\nCVE-2023-35078. [#CveCrowdDeny](https://infosec.exchange/tags/CveCrowdDeny)\n\n",
-        "created_at": "2024-01-09T02:39:24.206Z"
-      },
-      {
-        "account": {
-          "id": "110787142161284615",
-          "username": "simontsui",
-          "acct": "simontsui@infosec.exchange",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "followers_count": 467,
-          "following_count": 49,
-          "statuses_count": 1589,
-          "last_status_at": "2024-01-09",
-          "emojis": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111723673302076523",
-        "content": "\n\nHonestly, I'm surprised that CVE-2023-38203 was added to CISA's KEV Catalog 6\nmonths later. [@catc0n](https://infosec.exchange/@catc0n) of Rapid7 alerted\nthe community to zero-day exploitation using Project Discovery's\nCVE-2023-38203 technical details and proof of concept exploit around 17 July:\n[https://www.rapid7.com/blog/post/2023/07/17/etr-active-exploitation-of-\nmultiple-adobe-coldfusion-\nvulnerabilities/](https://www.rapid7.com/blog/post/2023/07/17/etr-active-\nexploitation-of-multiple-adobe-coldfusion-vulnerabilities/)\n\nThen again, that was a wild week/month. Patch Tuesday had Microsoft disclosing\n6 actively exploited zero-days; Apple had the WebKit zero-day CVE-2023-37450.\nThis was followed the next week with Citrix CVE-2023-3519, and Ivanti EPMM\nCVE-2023-35078. [#CveCrowdDeny](https://infosec.exchange/tags/CveCrowdDeny)\n\n",
-        "created_at": "2024-01-09T02:39:24.000Z"
-      }
-    ],
-    "description": "The issue was addressed with improved checks. This issue is fixed in iOS 16.6 and iPadOS 16.6, Safari 16.5.2, tvOS 16.6, macOS Ventura 13.5, watchOS 9.6. Processing web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
-    "epss": 0.10200000000000001
-  },
-  "CVE-2023-3519": {
-    "cvss3": 9.8,
-    "severity": "CRITICAL",
-    "epss_severity": "CRITICAL",
-    "posts": [
-      {
-        "account": {
-          "id": "110730368199044452",
-          "username": "simontsui",
-          "acct": "simontsui",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "followers_count": 476,
-          "following_count": 51,
-          "statuses_count": 1589,
-          "last_status_at": "2024-01-09",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111723673302076523",
-        "content": "\n\nHonestly, I'm surprised that CVE-2023-38203 was added to CISA's KEV Catalog 6\nmonths later. [@catc0n](https://infosec.exchange/@catc0n) of Rapid7 alerted\nthe community to zero-day exploitation using Project Discovery's\nCVE-2023-38203 technical details and proof of concept exploit around 17 July:\n[https://www.rapid7.com/blog/post/2023/07/17/etr-active-exploitation-of-\nmultiple-adobe-coldfusion-\nvulnerabilities/](https://www.rapid7.com/blog/post/2023/07/17/etr-active-\nexploitation-of-multiple-adobe-coldfusion-vulnerabilities/)\n\nThen again, that was a wild week/month. Patch Tuesday had Microsoft disclosing\n6 actively exploited zero-days; Apple had the WebKit zero-day CVE-2023-37450.\nThis was followed the next week with Citrix CVE-2023-3519, and Ivanti EPMM\nCVE-2023-35078. [#CveCrowdDeny](https://infosec.exchange/tags/CveCrowdDeny)\n\n",
-        "created_at": "2024-01-09T02:39:24.206Z"
-      },
-      {
-        "account": {
-          "id": "110787142161284615",
-          "username": "simontsui",
-          "acct": "simontsui@infosec.exchange",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "followers_count": 467,
-          "following_count": 49,
-          "statuses_count": 1589,
-          "last_status_at": "2024-01-09",
-          "emojis": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111723673302076523",
-        "content": "\n\nHonestly, I'm surprised that CVE-2023-38203 was added to CISA's KEV Catalog 6\nmonths later. [@catc0n](https://infosec.exchange/@catc0n) of Rapid7 alerted\nthe community to zero-day exploitation using Project Discovery's\nCVE-2023-38203 technical details and proof of concept exploit around 17 July:\n[https://www.rapid7.com/blog/post/2023/07/17/etr-active-exploitation-of-\nmultiple-adobe-coldfusion-\nvulnerabilities/](https://www.rapid7.com/blog/post/2023/07/17/etr-active-\nexploitation-of-multiple-adobe-coldfusion-vulnerabilities/)\n\nThen again, that was a wild week/month. Patch Tuesday had Microsoft disclosing\n6 actively exploited zero-days; Apple had the WebKit zero-day CVE-2023-37450.\nThis was followed the next week with Citrix CVE-2023-3519, and Ivanti EPMM\nCVE-2023-35078. [#CveCrowdDeny](https://infosec.exchange/tags/CveCrowdDeny)\n\n",
-        "created_at": "2024-01-09T02:39:24.000Z"
-      }
-    ],
-    "description": "Unauthenticated remote code execution\n",
-    "epss": 89.042
-  },
-  "CVE-2023-35078": {
-    "cvss3": 9.8,
-    "severity": "CRITICAL",
-    "epss_severity": "CRITICAL",
-    "posts": [
-      {
-        "account": {
-          "id": "110730368199044452",
-          "username": "simontsui",
-          "acct": "simontsui",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "followers_count": 476,
-          "following_count": 51,
-          "statuses_count": 1589,
-          "last_status_at": "2024-01-09",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111723673302076523",
-        "content": "\n\nHonestly, I'm surprised that CVE-2023-38203 was added to CISA's KEV Catalog 6\nmonths later. [@catc0n](https://infosec.exchange/@catc0n) of Rapid7 alerted\nthe community to zero-day exploitation using Project Discovery's\nCVE-2023-38203 technical details and proof of concept exploit around 17 July:\n[https://www.rapid7.com/blog/post/2023/07/17/etr-active-exploitation-of-\nmultiple-adobe-coldfusion-\nvulnerabilities/](https://www.rapid7.com/blog/post/2023/07/17/etr-active-\nexploitation-of-multiple-adobe-coldfusion-vulnerabilities/)\n\nThen again, that was a wild week/month. Patch Tuesday had Microsoft disclosing\n6 actively exploited zero-days; Apple had the WebKit zero-day CVE-2023-37450.\nThis was followed the next week with Citrix CVE-2023-3519, and Ivanti EPMM\nCVE-2023-35078. [#CveCrowdDeny](https://infosec.exchange/tags/CveCrowdDeny)\n\n",
-        "created_at": "2024-01-09T02:39:24.206Z"
-      },
-      {
-        "account": {
-          "id": "110787142161284615",
-          "username": "simontsui",
-          "acct": "simontsui@infosec.exchange",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "followers_count": 467,
-          "following_count": 49,
-          "statuses_count": 1589,
-          "last_status_at": "2024-01-09",
-          "emojis": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111723673302076523",
-        "content": "\n\nHonestly, I'm surprised that CVE-2023-38203 was added to CISA's KEV Catalog 6\nmonths later. [@catc0n](https://infosec.exchange/@catc0n) of Rapid7 alerted\nthe community to zero-day exploitation using Project Discovery's\nCVE-2023-38203 technical details and proof of concept exploit around 17 July:\n[https://www.rapid7.com/blog/post/2023/07/17/etr-active-exploitation-of-\nmultiple-adobe-coldfusion-\nvulnerabilities/](https://www.rapid7.com/blog/post/2023/07/17/etr-active-\nexploitation-of-multiple-adobe-coldfusion-vulnerabilities/)\n\nThen again, that was a wild week/month. Patch Tuesday had Microsoft disclosing\n6 actively exploited zero-days; Apple had the WebKit zero-day CVE-2023-37450.\nThis was followed the next week with Citrix CVE-2023-3519, and Ivanti EPMM\nCVE-2023-35078. [#CveCrowdDeny](https://infosec.exchange/tags/CveCrowdDeny)\n\n",
-        "created_at": "2024-01-09T02:39:24.000Z"
-      }
-    ],
-    "description": "An authentication bypass vulnerability in Ivanti EPMM allows unauthorized users to access restricted functionality or resources of the application without proper authentication.",
-    "epss": 94.864
   },
   "CVE-2021-28799": {
     "cvss3": 9.8,
@@ -1452,175 +1452,6 @@
     "description": "The issue was addressed with improved handling of caches. This issue is fixed in tvOS 16.3, iOS 16.3 and iPadOS 16.3, macOS Monterey 12.6.8, macOS Big Sur 11.7.9, iOS 15.7.8 and iPadOS 15.7.8, macOS Ventura 13.2, watchOS 9.3. Processing a font file may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited against versions of iOS released before iOS 15.7.1.",
     "epss": 0.073
   },
-  "CVE-2023-29300": {
-    "cvss3": 9.8,
-    "severity": "CRITICAL",
-    "epss_severity": "CRITICAL",
-    "posts": [
-      {
-        "account": {
-          "id": "109258892970182807",
-          "username": "hrbrmstr",
-          "acct": "hrbrmstr@mastodon.social",
-          "display_name": "boB Rudis \ud83c\uddfa\ud83c\udde6",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2017-03-31T00:00:00.000Z",
-          "note": "<p>Pampa \u2022 Don't look @ me\u2026I do what he does\u2014just slower. <a href=\"https://mastodon.social/tags/rstats\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>rstats</span></a> avuncular \u2022\ud83d\udc68\u200d\ud83c\udf73\u2022 \u271d\ufe0f \u2022 \ud83d\udca4 \u2022 Varaforseti \u00ed G\u00f6gn V\u00edsindi @ GreyNoise + Carnegie Mellon lecturer <a href=\"https://mastodon.social/tags/BLM\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>BLM</span></a> \ud83c\uddfa\ud83c\udde6</p>",
-          "url": "https://mastodon.social/@hrbrmstr",
-          "uri": "https://mastodon.social/users/hrbrmstr",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/109/258/892/970/182/807/original/f6a5fd3fe6c14798.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/109/258/892/970/182/807/original/f6a5fd3fe6c14798.png",
-          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/258/892/970/182/807/original/be43aab64434d2df.jpeg",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/258/892/970/182/807/original/be43aab64434d2df.jpeg",
-          "followers_count": 1928,
-          "following_count": 370,
-          "statuses_count": 5129,
-          "last_status_at": "2024-01-09",
-          "emojis": [],
-          "fields": [
-            {
-              "name": "GitHub",
-              "value": "<a href=\"https://github.com/hrbrmstr\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/hrbrmstr</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2024-01-09T08:30:41.627+00:00"
-            },
-            {
-              "name": "Home",
-              "value": "<a href=\"https://rud.is/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">rud.is/</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2024-01-09T08:30:42.086+00:00"
-            },
-            {
-              "name": "Newsletter",
-              "value": "<a href=\"https://dailyfinds.hrbrmstr.dev/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">dailyfinds.hrbrmstr.dev/</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "ActivityPub of my main blog",
-              "value": "hrbrmstr@rud.is",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://mastodon.social/@hrbrmstr/111721268404218558",
-        "content": "\n\n\ud83d\udea8 SIX (6) CVEs in today's CISA KEV drop O_O.\n\nWe ( [@greynoise](https://infosec.exchange/@greynoise) ) have tags for\nCVE-2023-29300 (Joomla), CVE-2023-27524 (Apache Superset), CVE-2023-23752\n(Coldfusion) and are poking at the others.\n\nOdd spike for Joomla CVE in mid-December.\n\nBe careful out there.\n\n",
-        "created_at": "2024-01-08T16:27:48.000Z"
-      },
-      {
-        "account": {
-          "id": "110730368199044452",
-          "username": "simontsui",
-          "acct": "simontsui",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "followers_count": 476,
-          "following_count": 51,
-          "statuses_count": 1589,
-          "last_status_at": "2024-01-09",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111721234486584558",
-        "content": "\n\n **CISA** Adds Six Known Exploited Vulnerabilities to Catalog:\n\n  * CVE-2023-38203 Adobe ColdFusion Deserialization of Untrusted Data Vulnerability\n  * CVE-2023-29300 Adobe ColdFusion Deserialization of Untrusted Data Vulnerability\n  * CVE-2023-27524 Apache Superset Insecure Default Initialization of Resource Vulnerability\n  * CVE-2023-41990 Apple Multiple Products Code Execution Vulnerability\n  * CVE-2016-20017 D-Link DSL-2750B Devices Command Injection Vulnerability\n  * CVE-2023-23752 Joomla! Improper Access Control Vulnerability\n\n\ud83d\udd17 [https://www.cisa.gov/news-events/alerts/2024/01/08/cisa-adds-six-known-\nexploited-vulnerabilities-catalog](https://www.cisa.gov/news-\nevents/alerts/2024/01/08/cisa-adds-six-known-exploited-vulnerabilities-\ncatalog)\n\n",
-        "created_at": "2024-01-08T16:19:10.832Z"
-      },
-      {
-        "account": {
-          "id": "109275784164756217",
-          "username": "hrbrmstr",
-          "acct": "hrbrmstr@mastodon.social",
-          "display_name": "boB Rudis \ud83c\uddfa\ud83c\udde6",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2017-03-31T00:00:00.000Z",
-          "note": "<p>Pampa \u2022 Don't look @ me\u2026I do what he does\u2014just slower. <a href=\"https://mastodon.social/tags/rstats\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>rstats</span></a> avuncular \u2022\ud83d\udc68\u200d\ud83c\udf73\u2022 \u271d\ufe0f \u2022 \ud83d\udca4 \u2022 Varaforseti \u00ed G\u00f6gn V\u00edsindi @ GreyNoise + Carnegie Mellon lecturer <a href=\"https://mastodon.social/tags/BLM\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>BLM</span></a> \ud83c\uddfa\ud83c\udde6</p>",
-          "url": "https://mastodon.social/@hrbrmstr",
-          "uri": "https://mastodon.social/users/hrbrmstr",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/109/275/784/164/756/217/original/2bf5255fc2becfb0.png",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/109/275/784/164/756/217/original/2bf5255fc2becfb0.png",
-          "header": "https://files.ioc.exchange/cache/accounts/headers/109/275/784/164/756/217/original/78c648ffd0a0d8a4.jpeg",
-          "header_static": "https://files.ioc.exchange/cache/accounts/headers/109/275/784/164/756/217/original/78c648ffd0a0d8a4.jpeg",
-          "followers_count": 1920,
-          "following_count": 367,
-          "statuses_count": 5130,
-          "last_status_at": "2024-01-09",
-          "emojis": [],
-          "fields": [
-            {
-              "name": "GitHub",
-              "value": "<a href=\"https://github.com/hrbrmstr\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/hrbrmstr</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2024-01-04T01:38:16.241+00:00"
-            },
-            {
-              "name": "Home",
-              "value": "<a href=\"https://rud.is/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">rud.is/</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2024-01-04T01:38:16.524+00:00"
-            },
-            {
-              "name": "Newsletter",
-              "value": "<a href=\"https://dailyfinds.hrbrmstr.dev/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">dailyfinds.hrbrmstr.dev/</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "ActivityPub of my main blog",
-              "value": "hrbrmstr@rud.is",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://mastodon.social/@hrbrmstr/111721268404218558",
-        "content": "\n\n\ud83d\udea8 SIX (6) CVEs in today's CISA KEV drop O_O.\n\nWe ( [@greynoise](https://infosec.exchange/@greynoise) ) have tags for\nCVE-2023-29300 (Joomla), CVE-2023-27524 (Apache Superset), CVE-2023-23752\n(Coldfusion) and are poking at the others.\n\nOdd spike for Joomla CVE in mid-December.\n\nBe careful out there.\n\n",
-        "created_at": "2024-01-08T16:27:48.000Z"
-      },
-      {
-        "account": {
-          "id": "110787142161284615",
-          "username": "simontsui",
-          "acct": "simontsui@infosec.exchange",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "followers_count": 467,
-          "following_count": 49,
-          "statuses_count": 1589,
-          "last_status_at": "2024-01-09",
-          "emojis": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111721234486584558",
-        "content": "\n\n **CISA** Adds Six Known Exploited Vulnerabilities to Catalog:\n\n  * CVE-2023-38203 Adobe ColdFusion Deserialization of Untrusted Data Vulnerability\n  * CVE-2023-29300 Adobe ColdFusion Deserialization of Untrusted Data Vulnerability\n  * CVE-2023-27524 Apache Superset Insecure Default Initialization of Resource Vulnerability\n  * CVE-2023-41990 Apple Multiple Products Code Execution Vulnerability\n  * CVE-2016-20017 D-Link DSL-2750B Devices Command Injection Vulnerability\n  * CVE-2023-23752 Joomla! Improper Access Control Vulnerability\n\n\ud83d\udd17 [https://www.cisa.gov/news-events/alerts/2024/01/08/cisa-adds-six-known-\nexploited-vulnerabilities-catalog](https://www.cisa.gov/news-\nevents/alerts/2024/01/08/cisa-adds-six-known-exploited-vulnerabilities-\ncatalog)\n\n",
-        "created_at": "2024-01-08T16:19:10.000Z"
-      }
-    ],
-    "description": "Adobe ColdFusion versions 2018u16 (and earlier), 2021u6 (and earlier) and 2023.0.0.330468 (and earlier) are affected by a Deserialization of Untrusted Data vulnerability that could result in Arbitrary code execution. Exploitation of this issue does not require user interaction.",
-    "epss": 93.305
-  },
   "CVE-2023-23752": {
     "cvss3": 5.3,
     "severity": "MEDIUM",
@@ -1790,6 +1621,175 @@
     "description": "An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check allows unauthorized access to webservice endpoints.",
     "epss": 96.187
   },
+  "CVE-2023-29300": {
+    "cvss3": 9.8,
+    "severity": "CRITICAL",
+    "epss_severity": "CRITICAL",
+    "posts": [
+      {
+        "account": {
+          "id": "109258892970182807",
+          "username": "hrbrmstr",
+          "acct": "hrbrmstr@mastodon.social",
+          "display_name": "boB Rudis \ud83c\uddfa\ud83c\udde6",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2017-03-31T00:00:00.000Z",
+          "note": "<p>Pampa \u2022 Don't look @ me\u2026I do what he does\u2014just slower. <a href=\"https://mastodon.social/tags/rstats\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>rstats</span></a> avuncular \u2022\ud83d\udc68\u200d\ud83c\udf73\u2022 \u271d\ufe0f \u2022 \ud83d\udca4 \u2022 Varaforseti \u00ed G\u00f6gn V\u00edsindi @ GreyNoise + Carnegie Mellon lecturer <a href=\"https://mastodon.social/tags/BLM\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>BLM</span></a> \ud83c\uddfa\ud83c\udde6</p>",
+          "url": "https://mastodon.social/@hrbrmstr",
+          "uri": "https://mastodon.social/users/hrbrmstr",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/109/258/892/970/182/807/original/f6a5fd3fe6c14798.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/109/258/892/970/182/807/original/f6a5fd3fe6c14798.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/258/892/970/182/807/original/be43aab64434d2df.jpeg",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/109/258/892/970/182/807/original/be43aab64434d2df.jpeg",
+          "followers_count": 1928,
+          "following_count": 370,
+          "statuses_count": 5129,
+          "last_status_at": "2024-01-09",
+          "emojis": [],
+          "fields": [
+            {
+              "name": "GitHub",
+              "value": "<a href=\"https://github.com/hrbrmstr\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/hrbrmstr</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2024-01-09T08:30:41.627+00:00"
+            },
+            {
+              "name": "Home",
+              "value": "<a href=\"https://rud.is/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">rud.is/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2024-01-09T08:30:42.086+00:00"
+            },
+            {
+              "name": "Newsletter",
+              "value": "<a href=\"https://dailyfinds.hrbrmstr.dev/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">dailyfinds.hrbrmstr.dev/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "ActivityPub of my main blog",
+              "value": "hrbrmstr@rud.is",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://mastodon.social/@hrbrmstr/111721268404218558",
+        "content": "\n\n\ud83d\udea8 SIX (6) CVEs in today's CISA KEV drop O_O.\n\nWe ( [@greynoise](https://infosec.exchange/@greynoise) ) have tags for\nCVE-2023-29300 (Joomla), CVE-2023-27524 (Apache Superset), CVE-2023-23752\n(Coldfusion) and are poking at the others.\n\nOdd spike for Joomla CVE in mid-December.\n\nBe careful out there.\n\n",
+        "created_at": "2024-01-08T16:27:48.000Z"
+      },
+      {
+        "account": {
+          "id": "110730368199044452",
+          "username": "simontsui",
+          "acct": "simontsui",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "followers_count": 476,
+          "following_count": 51,
+          "statuses_count": 1589,
+          "last_status_at": "2024-01-09",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111721234486584558",
+        "content": "\n\n **CISA** Adds Six Known Exploited Vulnerabilities to Catalog:\n\n  * CVE-2023-38203 Adobe ColdFusion Deserialization of Untrusted Data Vulnerability\n  * CVE-2023-29300 Adobe ColdFusion Deserialization of Untrusted Data Vulnerability\n  * CVE-2023-27524 Apache Superset Insecure Default Initialization of Resource Vulnerability\n  * CVE-2023-41990 Apple Multiple Products Code Execution Vulnerability\n  * CVE-2016-20017 D-Link DSL-2750B Devices Command Injection Vulnerability\n  * CVE-2023-23752 Joomla! Improper Access Control Vulnerability\n\n\ud83d\udd17 [https://www.cisa.gov/news-events/alerts/2024/01/08/cisa-adds-six-known-\nexploited-vulnerabilities-catalog](https://www.cisa.gov/news-\nevents/alerts/2024/01/08/cisa-adds-six-known-exploited-vulnerabilities-\ncatalog)\n\n",
+        "created_at": "2024-01-08T16:19:10.832Z"
+      },
+      {
+        "account": {
+          "id": "109275784164756217",
+          "username": "hrbrmstr",
+          "acct": "hrbrmstr@mastodon.social",
+          "display_name": "boB Rudis \ud83c\uddfa\ud83c\udde6",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2017-03-31T00:00:00.000Z",
+          "note": "<p>Pampa \u2022 Don't look @ me\u2026I do what he does\u2014just slower. <a href=\"https://mastodon.social/tags/rstats\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>rstats</span></a> avuncular \u2022\ud83d\udc68\u200d\ud83c\udf73\u2022 \u271d\ufe0f \u2022 \ud83d\udca4 \u2022 Varaforseti \u00ed G\u00f6gn V\u00edsindi @ GreyNoise + Carnegie Mellon lecturer <a href=\"https://mastodon.social/tags/BLM\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>BLM</span></a> \ud83c\uddfa\ud83c\udde6</p>",
+          "url": "https://mastodon.social/@hrbrmstr",
+          "uri": "https://mastodon.social/users/hrbrmstr",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/109/275/784/164/756/217/original/2bf5255fc2becfb0.png",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/109/275/784/164/756/217/original/2bf5255fc2becfb0.png",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/109/275/784/164/756/217/original/78c648ffd0a0d8a4.jpeg",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/109/275/784/164/756/217/original/78c648ffd0a0d8a4.jpeg",
+          "followers_count": 1920,
+          "following_count": 367,
+          "statuses_count": 5130,
+          "last_status_at": "2024-01-09",
+          "emojis": [],
+          "fields": [
+            {
+              "name": "GitHub",
+              "value": "<a href=\"https://github.com/hrbrmstr\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/hrbrmstr</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2024-01-04T01:38:16.241+00:00"
+            },
+            {
+              "name": "Home",
+              "value": "<a href=\"https://rud.is/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">rud.is/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2024-01-04T01:38:16.524+00:00"
+            },
+            {
+              "name": "Newsletter",
+              "value": "<a href=\"https://dailyfinds.hrbrmstr.dev/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">dailyfinds.hrbrmstr.dev/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "ActivityPub of my main blog",
+              "value": "hrbrmstr@rud.is",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://mastodon.social/@hrbrmstr/111721268404218558",
+        "content": "\n\n\ud83d\udea8 SIX (6) CVEs in today's CISA KEV drop O_O.\n\nWe ( [@greynoise](https://infosec.exchange/@greynoise) ) have tags for\nCVE-2023-29300 (Joomla), CVE-2023-27524 (Apache Superset), CVE-2023-23752\n(Coldfusion) and are poking at the others.\n\nOdd spike for Joomla CVE in mid-December.\n\nBe careful out there.\n\n",
+        "created_at": "2024-01-08T16:27:48.000Z"
+      },
+      {
+        "account": {
+          "id": "110787142161284615",
+          "username": "simontsui",
+          "acct": "simontsui@infosec.exchange",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "followers_count": 467,
+          "following_count": 49,
+          "statuses_count": 1589,
+          "last_status_at": "2024-01-09",
+          "emojis": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111721234486584558",
+        "content": "\n\n **CISA** Adds Six Known Exploited Vulnerabilities to Catalog:\n\n  * CVE-2023-38203 Adobe ColdFusion Deserialization of Untrusted Data Vulnerability\n  * CVE-2023-29300 Adobe ColdFusion Deserialization of Untrusted Data Vulnerability\n  * CVE-2023-27524 Apache Superset Insecure Default Initialization of Resource Vulnerability\n  * CVE-2023-41990 Apple Multiple Products Code Execution Vulnerability\n  * CVE-2016-20017 D-Link DSL-2750B Devices Command Injection Vulnerability\n  * CVE-2023-23752 Joomla! Improper Access Control Vulnerability\n\n\ud83d\udd17 [https://www.cisa.gov/news-events/alerts/2024/01/08/cisa-adds-six-known-\nexploited-vulnerabilities-catalog](https://www.cisa.gov/news-\nevents/alerts/2024/01/08/cisa-adds-six-known-exploited-vulnerabilities-\ncatalog)\n\n",
+        "created_at": "2024-01-08T16:19:10.000Z"
+      }
+    ],
+    "description": "Adobe ColdFusion versions 2018u16 (and earlier), 2021u6 (and earlier) and 2023.0.0.330468 (and earlier) are affected by a Deserialization of Untrusted Data vulnerability that could result in Arbitrary code execution. Exploitation of this issue does not require user interaction.",
+    "epss": 93.305
+  },
   "CVE-2016-20017": {
     "cvss3": 9.8,
     "severity": "CRITICAL",
@@ -1884,7 +1884,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/000/109/121/original/c15e4b5022e0c975.jpg",
           "followers_count": 14782,
           "following_count": 330,
-          "statuses_count": 4486,
+          "statuses_count": 4487,
           "last_status_at": "2024-01-09",
           "emojis": [],
           "fields": [
@@ -2017,7 +2017,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/000/039/740/original/47b5ee01fde55a83.jpg",
           "followers_count": 14807,
           "following_count": 330,
-          "statuses_count": 4487,
+          "statuses_count": 4488,
           "last_status_at": "2024-01-09",
           "emojis": [],
           "fields": [
@@ -3974,7 +3974,7 @@
           "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/109/563/822/295/399/243/original/84f6b6838ff068b0.jpg",
           "header": "https://files.ioc.exchange/cache/accounts/headers/109/563/822/295/399/243/original/3e6d97a23c02a9d3.jpg",
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/109/563/822/295/399/243/original/3e6d97a23c02a9d3.jpg",
-          "followers_count": 39,
+          "followers_count": 41,
           "following_count": 62,
           "statuses_count": 2454,
           "last_status_at": "2024-01-09",
@@ -4913,6 +4913,75 @@
     "description": "A security issue exists in D-Link D-View 8 v2.0.2.89 and prior that could allow an attacker to manipulate the probe inventory of the D-View service. This could result in the disclosure of information from other probes, denial of service conditions due to the probe inventory becoming full, or the execution of tasks on other probes.\n\n",
     "epss": 1.057
   },
+  "CVE-2023-20273": {
+    "cvss3": 7.2,
+    "severity": "HIGH",
+    "epss_severity": "LOW",
+    "posts": [
+      {
+        "account": {
+          "id": "110730368199044452",
+          "username": "simontsui",
+          "acct": "simontsui",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "followers_count": 476,
+          "following_count": 51,
+          "statuses_count": 1589,
+          "last_status_at": "2024-01-09",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111665266572564578",
+        "content": "\n\n[@kpwn](https://infosec.exchange/@kpwn) CVE-2023-20198 was fascinating for\nmany reasons:\n\n  * Cisco is a networking vendor giant. Almost every organization had an affected device.\n  * CVSSv3 score of 10.0 is rare for an established product, especially from Cisco. 10.0 is the equivalent of leaving the backdoor wide open, but no one else saw the possibility?\n  * There was no patch available at the time of disclosure. First available patch was 6 days later, and for one specific model.\n  * The identified implant was detected on approximately 40,000-60,000 compromised devices.\n  * An operation of this scale screams nation state activity, but no one was pointing fingers (or taking credit).\n  * The likely use of that many devices is for a botnet. However, nothing was done with the infected hosts. Either the threat actor was a solo operation or wanted to lay low after attracting international attention.\n  * Cisco PSIRT couldn't figure out how the threat actor uploaded the implant. This was eventually identified as the other zero-day CVE-2023-20273.\n  * There was a industrial control system angle to this, when Rockwell Automation announced that they were impacted by CVE-2023-20198 (admitting to CVE-2023-20273 later too)\n\n[#CveCrowdDeny](https://infosec.exchange/tags/CveCrowdDeny)\n\n",
+        "created_at": "2023-12-29T19:05:48.240Z"
+      },
+      {
+        "account": {
+          "id": "110787142161284615",
+          "username": "simontsui",
+          "acct": "simontsui@infosec.exchange",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "followers_count": 467,
+          "following_count": 49,
+          "statuses_count": 1589,
+          "last_status_at": "2024-01-09",
+          "emojis": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111665266572564578",
+        "content": "\n\n[@kpwn](https://infosec.exchange/@kpwn) CVE-2023-20198 was fascinating for\nmany reasons:\n\n  * Cisco is a networking vendor giant. Almost every organization had an affected device.\n  * CVSSv3 score of 10.0 is rare for an established product, especially from Cisco. 10.0 is the equivalent of leaving the backdoor wide open, but no one else saw the possibility?\n  * There was no patch available at the time of disclosure. First available patch was 6 days later, and for one specific model.\n  * The identified implant was detected on approximately 40,000-60,000 compromised devices.\n  * An operation of this scale screams nation state activity, but no one was pointing fingers (or taking credit).\n  * The likely use of that many devices is for a botnet. However, nothing was done with the infected hosts. Either the threat actor was a solo operation or wanted to lay low after attracting international attention.\n  * Cisco PSIRT couldn't figure out how the threat actor uploaded the implant. This was eventually identified as the other zero-day CVE-2023-20273.\n  * There was a industrial control system angle to this, when Rockwell Automation announced that they were impacted by CVE-2023-20198 (admitting to CVE-2023-20273 later too)\n\n[#CveCrowdDeny](https://infosec.exchange/tags/CveCrowdDeny)\n\n",
+        "created_at": "2023-12-29T19:05:48.000Z"
+      }
+    ],
+    "description": "A vulnerability in the web UI feature of Cisco IOS XE Software could allow an authenticated, remote attacker to inject commands with the privileges of root. This vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by sending crafted input to the web UI. A successful exploit could allow the attacker to inject commands to the underlying operating system with root privileges.",
+    "epss": 6.017
+  },
   "CVE-2023-20198": {
     "cvss3": 10,
     "severity": "CRITICAL",
@@ -5087,75 +5156,6 @@
     ],
     "description": "Cisco is providing an update for the ongoing investigation into observed exploitation of the web UI feature in Cisco IOS XE Software. We are updating the list of fixed releases and adding the Software Checker. Our investigation has determined that the actors exploited two previously unknown issues. The attacker first exploited CVE-2023-20198 to gain initial access and issued a privilege 15 command to create a local user and password combination. This allowed the user to log in with normal user access. The attacker then exploited another component of the web UI feature, leveraging the new local user to elevate privilege to root and write the implant to the file system. Cisco has assigned CVE-2023-20273 to this issue. CVE-2023-20198 has been assigned a CVSS Score of 10.0. CVE-2023-20273 has been assigned a CVSS Score of 7.2. Both of these CVEs are being tracked by CSCwh87343.",
     "epss": 89.074
-  },
-  "CVE-2023-20273": {
-    "cvss3": 7.2,
-    "severity": "HIGH",
-    "epss_severity": "LOW",
-    "posts": [
-      {
-        "account": {
-          "id": "110730368199044452",
-          "username": "simontsui",
-          "acct": "simontsui",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "followers_count": 476,
-          "following_count": 51,
-          "statuses_count": 1589,
-          "last_status_at": "2024-01-09",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111665266572564578",
-        "content": "\n\n[@kpwn](https://infosec.exchange/@kpwn) CVE-2023-20198 was fascinating for\nmany reasons:\n\n  * Cisco is a networking vendor giant. Almost every organization had an affected device.\n  * CVSSv3 score of 10.0 is rare for an established product, especially from Cisco. 10.0 is the equivalent of leaving the backdoor wide open, but no one else saw the possibility?\n  * There was no patch available at the time of disclosure. First available patch was 6 days later, and for one specific model.\n  * The identified implant was detected on approximately 40,000-60,000 compromised devices.\n  * An operation of this scale screams nation state activity, but no one was pointing fingers (or taking credit).\n  * The likely use of that many devices is for a botnet. However, nothing was done with the infected hosts. Either the threat actor was a solo operation or wanted to lay low after attracting international attention.\n  * Cisco PSIRT couldn't figure out how the threat actor uploaded the implant. This was eventually identified as the other zero-day CVE-2023-20273.\n  * There was a industrial control system angle to this, when Rockwell Automation announced that they were impacted by CVE-2023-20198 (admitting to CVE-2023-20273 later too)\n\n[#CveCrowdDeny](https://infosec.exchange/tags/CveCrowdDeny)\n\n",
-        "created_at": "2023-12-29T19:05:48.240Z"
-      },
-      {
-        "account": {
-          "id": "110787142161284615",
-          "username": "simontsui",
-          "acct": "simontsui@infosec.exchange",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "followers_count": 467,
-          "following_count": 49,
-          "statuses_count": 1589,
-          "last_status_at": "2024-01-09",
-          "emojis": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111665266572564578",
-        "content": "\n\n[@kpwn](https://infosec.exchange/@kpwn) CVE-2023-20198 was fascinating for\nmany reasons:\n\n  * Cisco is a networking vendor giant. Almost every organization had an affected device.\n  * CVSSv3 score of 10.0 is rare for an established product, especially from Cisco. 10.0 is the equivalent of leaving the backdoor wide open, but no one else saw the possibility?\n  * There was no patch available at the time of disclosure. First available patch was 6 days later, and for one specific model.\n  * The identified implant was detected on approximately 40,000-60,000 compromised devices.\n  * An operation of this scale screams nation state activity, but no one was pointing fingers (or taking credit).\n  * The likely use of that many devices is for a botnet. However, nothing was done with the infected hosts. Either the threat actor was a solo operation or wanted to lay low after attracting international attention.\n  * Cisco PSIRT couldn't figure out how the threat actor uploaded the implant. This was eventually identified as the other zero-day CVE-2023-20273.\n  * There was a industrial control system angle to this, when Rockwell Automation announced that they were impacted by CVE-2023-20198 (admitting to CVE-2023-20273 later too)\n\n[#CveCrowdDeny](https://infosec.exchange/tags/CveCrowdDeny)\n\n",
-        "created_at": "2023-12-29T19:05:48.000Z"
-      }
-    ],
-    "description": "A vulnerability in the web UI feature of Cisco IOS XE Software could allow an authenticated, remote attacker to inject commands with the privileges of root. This vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by sending crafted input to the web UI. A successful exploit could allow the attacker to inject commands to the underlying operating system with root privileges.",
-    "epss": 6.017
   },
   "CVE-2022-1388": {
     "cvss3": 9.8,
@@ -5798,197 +5798,6 @@
     "description": "Rejected reason: It is a duplicate.",
     "epss": 0.043
   },
-  "CVE-2023-32435": {
-    "cvss3": 8.8,
-    "severity": "HIGH",
-    "epss_severity": "LOW",
-    "posts": [
-      {
-        "account": {
-          "id": "109988283037988108",
-          "username": "krlaboratories",
-          "acct": "krlaboratories",
-          "display_name": "KR. Laboratories \ud83c\uddfa\ud83c\udde6",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-03-08T00:00:00.000Z",
-          "note": "<p>&gt;&gt; INFORMATION TECHNOLOGY RESEARCH LABS \u26a1\ud83d\udd0d\ud83d\udee1\ufe0f</p><p>KR. Laboratories (kr-labs.com.ua) \u2014 \u0446\u0435 \u043e\u0431&#39;\u0454\u0434\u043d\u0430\u043d\u043d\u044f IT-\u043f\u0440\u043e\u0444\u0435\u0441\u0456\u043e\u043d\u0430\u043b\u0456\u0432, \u044f\u043a\u0456 \u0434\u043e\u0441\u043b\u0456\u0434\u0436\u0443\u044e\u0442\u044c \u0442\u0430 \u043f\u043e\u043f\u0443\u043b\u044f\u0440\u0438\u0437\u0443\u044e\u0442\u044c \u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0456\u0439\u043d\u0456 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0456\u0457 \u0432 \u0423\u043a\u0440\u0430\u0457\u043d\u0456. </p><p>\u041d\u0430 \u0446\u044c\u043e\u043c\u0443 \u0441\u0435\u0440\u0432\u0435\u0440\u0456 Mastodon \u043c\u0438:<br /> \u251c\u2500 \u041f\u0443\u0431\u043b\u0456\u043a\u0443\u0454\u043c\u043e \u0441\u0432\u043e\u0457 \u0434\u0443\u043c\u043a\u0438 \u0442\u0430 \u0456\u0434\u0435\u0457, \u0430\u0432\u0442\u043e\u0440\u0441\u044c\u043a\u0456 \u043a\u043e\u043b\u043e\u043d\u043a\u0438, \u043d\u043e\u0442\u0430\u0442\u043a\u0438, \u0437\u0430\u043f\u0438\u0441\u043a\u0438, \u0434\u043e\u0441\u043b\u0456\u0434\u0436\u0435\u043d\u043d\u044f, \u0440\u043e\u0437\u0441\u043b\u0456\u0434\u0443\u0432\u0430\u043d\u043d\u044f, \u043e\u043f\u0438\u0442\u0443\u0432\u0430\u043d\u043d\u044f \u043d\u0430 \u0440\u0456\u0437\u043d\u0456 \u0442\u0435\u043c\u0438, \u0449\u043e \u0441\u0442\u043e\u0441\u0443\u044e\u0442\u044c\u0441\u044f \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0456\u0439, \u0456 \u043d\u0435 \u0442\u0456\u043b\u044c\u043a\u0438.<br /> \u251c\u2500 \u0414\u0456\u043b\u0438\u043c\u043e\u0441\u044f \u0433\u0440\u043e\u043c\u0430\u0434\u044f\u043d\u0441\u044c\u043a\u043e\u044e \u043f\u043e\u0437\u0438\u0446\u0456\u0454\u044e, \u043d\u043e\u0432\u0438\u043d\u0430\u043c\u0438, \u0430\u043d\u0430\u043b\u0456\u0442\u0438\u043a\u043e\u044e \u0442\u0430 \u0435\u043a\u0441\u043f\u0435\u0440\u0442\u043d\u043e\u044e \u0434\u0443\u043c\u043a\u043e\u044e \u0449\u043e\u0434\u043e \u043f\u043e\u0434\u0456\u0439 \u0432 \u0423\u043a\u0440\u0430\u0457\u043d\u0456 (\u0442\u0430 \u0437\u0430 \u0457\u0457 \u043c\u0435\u0436\u0430\u043c\u0438). \u0424\u0430\u043a\u0442\u0438, \u0456\u043d\u0441\u0430\u0439\u0434\u0438, \u0440\u0435\u043c\u0430\u0440\u043a\u0438.</p><p>\u0422\u0435\u043c\u0438:</p><p>- \u0406\u043d\u0444\u043e-/\u043a\u0456\u0431\u0435\u0440\u0431\u0435\u0437\u043f\u0435\u043a\u0430<br />- \u041e\u043f\u0435\u0440\u0430\u0446\u0456\u0439\u043d\u0430 \u0431\u0435\u0437\u043f\u0435\u043a\u0430<br />- \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0430 \u0431\u0435\u0437\u043f\u0435\u043a\u0430<br />- \u042e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0431\u0435\u0437\u043f\u0435\u043a\u0430<br />- \u0415\u043a\u043e\u043d\u043e\u043c\u0456\u0447\u043d\u0430 \u0431\u0435\u0437\u043f\u0435\u043a\u0430</p><p>\u0422\u0435\u0491\u0438:</p><p><a href=\"https://infosec.exchange/tags/tech\" class=\"mention hashtag\" rel=\"tag\">#<span>tech</span></a> <a href=\"https://infosec.exchange/tags/cyber\" class=\"mention hashtag\" rel=\"tag\">#<span>cyber</span></a> <a href=\"https://infosec.exchange/tags/security\" class=\"mention hashtag\" rel=\"tag\">#<span>security</span></a> <a href=\"https://infosec.exchange/tags/research\" class=\"mention hashtag\" rel=\"tag\">#<span>research</span></a> <a href=\"https://infosec.exchange/tags/ukraine\" class=\"mention hashtag\" rel=\"tag\">#<span>ukraine</span></a> <a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"tag\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"tag\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/webappsec\" class=\"mention hashtag\" rel=\"tag\">#<span>webappsec</span></a> <a href=\"https://infosec.exchange/tags/threatintel\" class=\"mention hashtag\" rel=\"tag\">#<span>threatintel</span></a> <a href=\"https://infosec.exchange/tags/intelligence\" class=\"mention hashtag\" rel=\"tag\">#<span>intelligence</span></a> <a href=\"https://infosec.exchange/tags/privacy\" class=\"mention hashtag\" rel=\"tag\">#<span>privacy</span></a> <a href=\"https://infosec.exchange/tags/osint\" class=\"mention hashtag\" rel=\"tag\">#<span>osint</span></a> <a href=\"https://infosec.exchange/tags/investigations\" class=\"mention hashtag\" rel=\"tag\">#<span>investigations</span></a> <a href=\"https://infosec.exchange/tags/nationalsecurity\" class=\"mention hashtag\" rel=\"tag\">#<span>nationalsecurity</span></a> <a href=\"https://infosec.exchange/tags/economicsecurity\" class=\"mention hashtag\" rel=\"tag\">#<span>economicsecurity</span></a> <a href=\"https://infosec.exchange/tags/fintech\" class=\"mention hashtag\" rel=\"tag\">#<span>fintech</span></a> <a href=\"https://infosec.exchange/tags/digitalsecurity\" class=\"mention hashtag\" rel=\"tag\">#<span>digitalsecurity</span></a> <a href=\"https://infosec.exchange/tags/humansecurity\" class=\"mention hashtag\" rel=\"tag\">#<span>humansecurity</span></a> <a href=\"https://infosec.exchange/tags/humanrights\" class=\"mention hashtag\" rel=\"tag\">#<span>humanrights</span></a> <a href=\"https://infosec.exchange/tags/geopolitics\" class=\"mention hashtag\" rel=\"tag\">#<span>geopolitics</span></a> <a href=\"https://infosec.exchange/tags/sociology\" class=\"mention hashtag\" rel=\"tag\">#<span>sociology</span></a></p><p>~<br />\u0421\u043b\u0430\u0432\u0430 \u0423\u043a\u0440\u0430\u0457\u043d\u0456!<br />\u0413\u0435\u0440\u043e\u044f\u043c \u0421\u043b\u0430\u0432\u0430!</p>",
-          "url": "https://infosec.exchange/@krlaboratories",
-          "uri": "https://infosec.exchange/users/krlaboratories",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/988/283/037/988/108/original/17dc14b318933412.jpeg",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/988/283/037/988/108/original/17dc14b318933412.jpeg",
-          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/988/283/037/988/108/original/5393748cb9c3f3d3.png",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/988/283/037/988/108/original/5393748cb9c3f3d3.png",
-          "followers_count": 9,
-          "following_count": 88,
-          "statuses_count": 62,
-          "last_status_at": "2024-01-09",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": [
-            {
-              "name": "\ud83c\udf10 Website",
-              "value": "<a href=\"https://kr-labs.com.ua\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">kr-labs.com.ua</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2023-12-08T08:33:02.011+00:00"
-            },
-            {
-              "name": "Blog",
-              "value": "<a href=\"https://kr-labs.com.ua/blog\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">kr-labs.com.ua/blog</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2023-12-08T08:33:04.070+00:00"
-            },
-            {
-              "name": "GitHub",
-              "value": "<a href=\"https://github.com/krlabs\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/krlabs</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2023-12-08T08:47:05.427+00:00"
-            },
-            {
-              "name": "Twitter",
-              "value": "<a href=\"https://twitter.com/KrLaboratories\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/KrLaboratories</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "LinkedIn",
-              "value": "<a href=\"https://www.linkedin.com/company/kr-laboratories\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">linkedin.com/company/kr-labora</span><span class=\"invisible\">tories</span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Reddit",
-              "value": "<a href=\"https://www.reddit.com/r/Cybersecurity_UA/\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">reddit.com/r/Cybersecurity_UA/</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://infosec.exchange/@krlaboratories/111657990430520595",
-        "content": "\n\n\u0412 \u043f\u0440\u043e\u0434\u043e\u0432\u0436\u0435\u043d\u043d\u044f \u0442\u0435\u043c\u0438 \u0448\u043a\u0456\u0434\u043b\u0438\u0432\u043e\u0433\u043e \u041f\u0417. \u041e\u0441\u044c, \u0434\u0443\u0436\u0435 \u043f\u0440\u043e\u0448\u0443. \u041a\u043e\u043c\u043f\u0440\u043e\u043c\u0435\u0442\u0430\u0446\u0456\u044f iPhone \u0447\u0435\u0440\u0435\u0437\n\u0434\u0456\u0440\u044f\u0432\u0438\u0439 \u0434\u043e\u0434\u0430\u0442\u043e\u043a iMessage \u0437 0 \u043a\u043b\u0456\u043a\u0456\u0432 - \u0442\u043e\u0431\u0442\u043e \u0432\u0456\u0434 \u043a\u043e\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430 \u0432\u0438\u043c\u0430\u0433\u0430\u0454\u0442\u044c\u0441\u044f \u043d\u0443\u043b\u044c\n\u0434\u0456\u0439 (zero-click/zero-touch attack). \u0422\u0430\u043a \u0449\u043e, \u0410\u0439\u0444\u043e\u043d - \u043d\u0435 \u043f\u0430\u043d\u0430\u0446\u0435\u044f!\n\n\u0423\u0431\u0438\u0432\u0447\u0438\u0439 \u043b\u0430\u043d\u0446\u044e\u0436\u043e\u043a (Cyber Kill Chain) \u0432\u0438\u0433\u043b\u044f\u0434\u0430\u0454 \u043d\u0430\u0441\u0442\u0443\u043f\u043d\u0438\u043c \u0447\u0438\u043d\u043e\u043c (\u043f\u043e\u0447\u0435\u0440\u043f\u043d\u0443\u0442\u043e \u0456\n\u043f\u0435\u0440\u0435\u043a\u043b\u0430\u0434\u0435\u043d\u043e \u0437 \u0444\u0440\u0430\u043d\u0446\u0443\u0437\u044c\u043a\u043e\u0457 \u0432 \u0434\u043e\u0441\u043b\u0456\u0434\u043d\u0438\u043a\u0430 \u0424\u0440\u0435\u0434\u0430 \u0420\u0430\u0439\u043d\u0430\u043b\u044f \u0437 Quarkslab, \u041f\u0430\u0440\u0438\u0436):\n\n\u27a1\ufe0f \u0417\u043b\u043e\u0432\u043c\u0438\u0441\u043d\u0438\u043a \u043d\u0430\u0434\u0441\u0438\u043b\u0430\u0454 PDF-\u0444\u0430\u0439\u043b \u0432 iMessage, \u044f\u043a\u0438\u0439 \u0434\u043e\u0434\u0430\u0442\u043e\u043a \u043e\u0431\u0440\u043e\u0431\u043b\u044f\u0454, \u043d\u0435\n\u043f\u043e\u043a\u0430\u0437\u0443\u044e\u0447\u0438 \u0439\u043e\u0433\u043e \u043a\u043e\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0435\u0432\u0456\n\n\u27a1\ufe0f \u0417\u043b\u043e\u0432\u043c\u0438\u0441\u043d\u0438\u043a \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u043e\u0432\u0443\u0454 \u043d\u0435\u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u043d\u0443 \u0442\u0430 \u043d\u0435\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432\u0430\u043d\u0443 \u043a\u043e\u043c\u0430\u043d\u0434\u0443 ADJUST \u0434\u043b\u044f\n\u0448\u0440\u0438\u0444\u0442\u0456\u0432 True Type. \u0412\u0440\u0430\u0437\u043b\u0438\u0432\u0456\u0441\u0442\u044c \u0456\u0441\u043d\u0443\u0454 \u0432\u0436\u0435 19 \u0440\u043e\u043a\u0456\u0432. \u041f\u0430\u0442\u0447 CVE-2023-41990 \u0432\u0438\u043b\u0443\u0447\u0430\u0454\n\u0457\u0457.\n\n\u27a1\ufe0f \u041a\u043e\u0440\u0438\u0441\u043d\u0435 \u043d\u0430\u0432\u0430\u043d\u0442\u0430\u0436\u0435\u043d\u043d\u044f \u043d\u0430\u043f\u0438\u0441\u0430\u043d\u043e \u043d\u0430 ROP/JOP \u0434\u043b\u044f \u043c\u0430\u043d\u0456\u043f\u0443\u043b\u044e\u0432\u0430\u043d\u043d\u044f \u0432\u043d\u0443\u0442\u0440\u0456\u0448\u043d\u0456\u043c\u0438\n\u043e\u0431'\u0454\u043a\u0442\u0430\u043c\u0438 Apple, \u043c\u0430\u043d\u0456\u043f\u0443\u043b\u044e\u0432\u0430\u043d\u043d\u044f \u0431\u0456\u0431\u043b\u0456\u043e\u0442\u0435\u043a\u043e\u044e JavaScriptCore, \u0430 \u043f\u043e\u0442\u0456\u043c \u0456\u043d\u0456\u0446\u0456\u044e\u0432\u0430\u043d\u043d\u044f\n\u043f\u0456\u0434\u0432\u0438\u0449\u0435\u043d\u043d\u044f \u043f\u0440\u0438\u0432\u0456\u043b\u0435\u0457\u0432, \u043d\u0430\u043f\u0438\u0441\u0430\u043d\u0438\u0445 \u043d\u0430 JavaScript.\n\n\u27a1\ufe0f \u0415\u043a\u0441\u043f\u043b\u043e\u0439\u0442 \u0434\u0443\u0436\u0435 \u0437\u0430\u043f\u043b\u0443\u0442\u0430\u043d\u0438\u0439, \u0432\u043c\u0456\u0449\u0443\u0454\u0442\u044c\u0441\u044f \u0432 11000 \u0440\u044f\u0434\u043a\u0456\u0432 \u043a\u043e\u0434\u0443 (\u0446\u0435 \u0434\u0443\u0436\u0435 \u0431\u0430\u0433\u0430\u0442\u043e).\n\u0412 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u043c\u0443 \u0432\u0456\u043d \u0441\u043f\u0440\u044f\u043c\u043e\u0432\u0430\u043d\u0438\u0439 \u043d\u0430 JavaScriptCore \u0442\u0430 \u043e\u0431\u0440\u043e\u0431\u043a\u0443 \u043e\u0431\u043b\u0430\u0441\u0442\u0435\u0439 \u043f\u0430\u043c'\u044f\u0442\u0456\n\u044f\u0434\u0440\u0430. \u0412\u0456\u043d \u043d\u0430\u0446\u0456\u043b\u0435\u043d\u0438\u0439 \u043d\u0430 \u043d\u0430\u043b\u0430\u0433\u043e\u0434\u0436\u0443\u0432\u0430\u043b\u044c\u043d\u0443 \u0444\u0443\u043d\u043a\u0446\u0456\u044e DollarVM ($vm). \u0412\u0456\u043d \u043c\u0430\u043d\u0456\u043f\u0443\u043b\u044e\u0454\n\u043f\u0430\u043c'\u044f\u0442\u0442\u044e \u0441\u043a\u0440\u0438\u043f\u0442\u0430 \u0442\u0430 \u043e\u0442\u0440\u0438\u043c\u0443\u0454 \u0434\u043e\u0441\u0442\u0443\u043f \u0434\u043e \u043d\u0430\u0442\u0438\u0432\u043d\u0438\u0445 API.\n\n\u27a1\ufe0f \u0412\u0456\u043d \u043c\u0456\u0441\u0442\u0438\u0442\u044c \u043c\u0435\u0445\u0430\u043d\u0456\u0437\u043c \u043e\u0431\u0445\u043e\u0434\u0443 \u043a\u043e\u0434\u0443 \u0430\u0432\u0442\u0435\u043d\u0442\u0438\u0444\u0456\u043a\u0430\u0446\u0456\u0457 \u043f\u043e\u043a\u0430\u0436\u0447\u0438\u043a\u0430 (PAC), \u043d\u0430\u044f\u0432\u043d\u043e\u0433\u043e \u0432\nA12, \u043c\u0435\u0445\u0430\u043d\u0456\u0437\u043c, \u043f\u0440\u0438\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439 \u0434\u043b\u044f \u0437\u0430\u0445\u0438\u0441\u0442\u0443 \u0432\u0456\u0434 \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u0430\u043d\u043d\u044f \u043f\u043e\u0448\u043a\u043e\u0434\u0436\u0435\u043d\u043d\u044f \u043f\u0430\u043c'\u044f\u0442\u0456.\n\n\u27a1\ufe0f \u0412\u0456\u043d \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u043e\u0432\u0443\u0454 \u0446\u0456\u043b\u043e\u0447\u0438\u0441\u0435\u043b\u044c\u043d\u0435 \u043f\u0435\u0440\u0435\u043f\u043e\u0432\u043d\u0435\u043d\u043d\u044f (CVE-2023-32434) \u0443 \u0444\u0443\u043d\u043a\u0446\u0456\u044f\u0445\n\u0432\u0456\u0434\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u043d\u044f \u043f\u0430\u043c'\u044f\u0442\u0456 \u044f\u0434\u0440\u0430 XNU \u0434\u043b\u044f \u0447\u0438\u0442\u0430\u043d\u043d\u044f/\u0437\u0430\u043f\u0438\u0441\u0443 \u0432\u0441\u0456\u0454\u0457 \u0444\u0456\u0437\u0438\u0447\u043d\u043e\u0457 \u043f\u0430\u043c'\u044f\u0442\u0456\n\u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0443 \u0437 \u043f\u0440\u043e\u0441\u0442\u043e\u0440\u0443 \u043a\u043e\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430.\n\n\u27a1\ufe0f \u0412\u0456\u043d \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u043e\u0432\u0443\u0454 \u043d\u0435\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432\u0430\u043d\u0456 \u0440\u0435\u0433\u0456\u0441\u0442\u0440\u0438 \u0437\u0456\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u043d\u044f \u043f\u0430\u043c'\u044f\u0442\u0456 (MMIO) SoC\niPhone, \u0449\u043e\u0431 \u043e\u0431\u0456\u0439\u0442\u0438 \u0440\u0456\u0432\u0435\u043d\u044c \u0437\u0430\u0445\u0438\u0441\u0442\u0443 \u0441\u0442\u043e\u0440\u0456\u043d\u043e\u043a (PPL) CVE-2023-38606. \u0426\u0435\u0439 \u043c\u0435\u0445\u0430\u043d\u0456\u0437\u043c\n\u0437\u0430\u043f\u043e\u0431\u0456\u0433\u0430\u0454 \u0437\u043c\u0456\u043d\u0456 \u0441\u0442\u043e\u0440\u0456\u043d\u043e\u043a \u043f\u0430\u043c'\u044f\u0442\u0456 \u043f\u0456\u0441\u043b\u044f \u0457\u0445 \u043f\u0456\u0434\u043f\u0438\u0441\u0430\u043d\u043d\u044f.\n\n\u27a1\ufe0f \u0415\u043a\u0441\u043f\u043b\u043e\u0439\u0442 JavaScript \u043e\u0442\u0440\u0438\u043c\u0443\u0454 \u043f\u043e\u0432\u043d\u0438\u0439 \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c \u043d\u0430\u0434 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u043e\u043c. \u041d\u0430\u043f\u0430\u0434\u043d\u0438\u043a\n\u0437\u0430\u043f\u0443\u0441\u043a\u0430\u0454:  \n(1) \u041f\u0440\u043e\u0446\u0435\u0441, \u044f\u043a\u0438\u0439 \u043e\u0447\u0438\u0449\u0430\u0454 \u0432\u0441\u0456 \u0441\u043b\u0456\u0434\u0438 \u043d\u0430 \u043f\u0440\u0438\u0441\u0442\u0440\u043e\u0457 (\u0437\u043e\u043a\u0440\u0435\u043c\u0430 PDF-\u0444\u0430\u0439\u043b)  \n(2) \u0411\u0440\u0430\u0443\u0437\u0435\u0440 Safari \u043d\u0435\u0432\u0438\u0434\u0438\u043c\u0438\u0439 \u043d\u0430 \u0432\u0438\u0431\u0440\u0430\u043d\u0456\u0439 \u0432\u0430\u043c\u0438 \u0432\u0435\u0431\u0441\u0442\u043e\u0440\u0456\u043d\u0446\u0456\n\n\u27a1\ufe0f \u0412\u0435\u0431-\u0441\u0442\u043e\u0440\u0456\u043d\u043a\u0430 \u043c\u0430\u0454 JavaScript, \u0432\u0431\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u0439 \u0443 JavaScript, \u044f\u043a\u0438\u0439 \u0437\u0430\u043f\u0443\u0441\u043a\u0430\u0454 \u043a\u0443\u043f\u0443\n\u0434\u043e\u0434\u0430\u0442\u043a\u043e\u0432\u0438\u0445 \u0435\u043b\u0435\u043c\u0435\u043d\u0442\u0456\u0432 \u043a\u0435\u0440\u0443\u0432\u0430\u043d\u043d\u044f \u043d\u0430 \u043f\u0440\u0438\u0441\u0442\u0440\u043e\u0457 \u043f\u0435\u0440\u0435\u0434 \u0437\u0430\u043f\u0443\u0441\u043a\u043e\u043c \u0435\u043a\u0441\u043f\u043b\u043e\u0439\u0442\u0430,\n\u043d\u0430\u0446\u0456\u043b\u0435\u043d\u043e\u0433\u043e \u043d\u0430 Safari.\n\n\u27a1\ufe0f \u0415\u043a\u0441\u043f\u043b\u043e\u0439\u0442 \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u043e\u0432\u0443\u0454 \u0432\u0440\u0430\u0437\u043b\u0438\u0432\u0456\u0441\u0442\u044c CVE-2023-32435, \u0430 \u043f\u043e\u0442\u0456\u043c \u0437\u0430\u043f\u0443\u0441\u043a\u0430\u0454 \u0441\u0432\u043e\u0454\n\u043a\u043e\u0440\u0438\u0441\u043d\u0435 \u043d\u0430\u0432\u0430\u043d\u0442\u0430\u0436\u0435\u043d\u043d\u044f\n\n\u27a1\ufe0f \u041a\u043e\u0440\u0438\u0441\u043d\u0435 \u043d\u0430\u0432\u0430\u043d\u0442\u0430\u0436\u0435\u043d\u043d\u044f \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u043e \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u043e\u0432\u0443\u0454 \u0432\u0440\u0430\u0437\u043b\u0438\u0432\u043e\u0441\u0442\u0456 CVE-2023-32434 \u0456\nCVE-2023-38606, \u0430\u043b\u0435 \u0431\u0435\u0437\u043f\u043e\u0441\u0435\u0440\u0435\u0434\u043d\u044c\u043e \u0437 \u043e\u0431'\u0454\u043a\u0442\u0430 \u044f\u0434\u0440\u0430 (Mach). \u0422\u043e\u0439 \u0436\u0435 \u043f\u0440\u0438\u043d\u0446\u0438\u043f,\n\u0440\u043e\u0437\u0431\u0456\u0440 \u043f\u0430\u043c'\u044f\u0442\u0456 \u0456 \u0442\u043e\u0442\u0430\u043b\u044c\u043d\u0430 \u043a\u043e\u043c\u043f\u0440\u043e\u043c\u0435\u0442\u0430\u0446\u0456\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0438 \u0432 \u043a\u0456\u043d\u0446\u0435\u0432\u043e\u043c\u0443 \u043f\u0456\u0434\u0441\u0443\u043c\u043a\u0443.\n\n\u27a1\ufe0f \u0417\u043b\u043e\u0432\u043c\u0438\u0441\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u043d\u0442\u0430\u0436\u0443\u0454 \u0442\u0430 \u0432\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u044e\u0454 \u0441\u0432\u0456\u0439 \u0440\u0443\u0442\u043a\u0456\u0442.\n\n\ud83d\udcb0\u0412\u0430\u0436\u043b\u0438\u0432\u0456 \u043e\u0441\u043e\u0431\u043b\u0438\u0432\u043e\u0441\u0442\u0456:  \n\u2714\ufe0f 0 \u043a\u043b\u0456\u043a\u0456\u0432: \u0436\u043e\u0434\u043d\u0438\u0445 \u0434\u0456\u0439 \u0437\u0431\u043e\u043a\u0443 \u0432\u043b\u0430\u0441\u043d\u0438\u043a\u0430  \n\u2714\ufe0f \u0415\u043a\u0441\u043f\u043b\u0443\u0430\u0442\u0443\u044e\u0442\u044c\u0441\u044f 4 \u0432\u0440\u0430\u0437\u043b\u0438\u0432\u043e\u0441\u0442\u0456 \u043d\u0443\u043b\u044c\u043e\u0432\u043e\u0433\u043e \u0434\u043d\u044f (0-Zero-Day), \u044f\u043a\u0456 \u0449\u0435 \u043d\u0435 \u0431\u0443\u043b\u0438\n\u0432\u0438\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0456 \u0432\u0438\u0440\u043e\u0431\u043d\u0438\u043a\u043e\u043c, \u0432\u043a\u043b\u044e\u0447\u0430\u044e\u0447\u0438 \u043d\u0435\u043f\u0443\u0431\u043b\u0456\u0447\u043d\u0456 \u0444\u0443\u043d\u043a\u0446\u0456\u0457, \u044f\u043a\u0456 \u043d\u0430 100% \u043f\u0440\u0430\u0446\u044e\u044e\u0442\u044c \u0437\n\u043e\u0431\u0445\u043e\u0434\u043e\u043c PAC \u0456 PPL  \n\u2714\ufe0f \u041f\u0440\u0430\u0446\u044e\u0454 \u0434\u043e \u0432\u0435\u0440\u0441\u0456\u0457 iOS 16.2  \n\u2714\ufe0f \u0412\u0430\u0440\u0442\u0456\u0441\u0442\u044c \u0435\u043a\u0441\u043f\u043b\u043e\u0439\u0442\u0443: $5 \u043c\u043b\u043d\n\n[#exploitation](https://infosec.exchange/tags/exploitation)\n[#imessage](https://infosec.exchange/tags/imessage)\n[#iphone](https://infosec.exchange/tags/iphone)\n[#hacking](https://infosec.exchange/tags/hacking)\n[#ios](https://infosec.exchange/tags/ios)\n[#ios16](https://infosec.exchange/tags/ios16)\n[#malware](https://infosec.exchange/tags/malware)\n[#ransomware](https://infosec.exchange/tags/ransomware)\n[#exploit](https://infosec.exchange/tags/exploit)\n[#mobilesecurity](https://infosec.exchange/tags/mobilesecurity)\n[#infosec](https://infosec.exchange/tags/infosec)\n[#cybersecurity](https://infosec.exchange/tags/cybersecurity)\n[#phones](https://infosec.exchange/tags/phones)\n[#messengers](https://infosec.exchange/tags/messengers)\n[#rootkit](https://infosec.exchange/tags/rootkit)\n\n",
-        "created_at": "2023-12-28T12:15:23.123Z"
-      },
-      {
-        "account": {
-          "id": "110730368199044452",
-          "username": "simontsui",
-          "acct": "simontsui",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
-          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
-          "followers_count": 476,
-          "following_count": 51,
-          "statuses_count": 1589,
-          "last_status_at": "2024-01-09",
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111652862918439389",
-        "content": "\n\n **Kaspersky** published technical details of exploits and vulnerabilities\nthat were used in Operation Triangulation. The 0-click iMessage attack used\nfour zero-days and was designed to work on iOS versions up to iOS 16.2.\n\n  * CVE-2023-41990: A vulnerability in the ADJUST TrueType font instruction allowing remote code execution through a malicious iMessage attachment.\n  * CVE-2023-32434: An integer overflow issue in XNU's memory mapping syscalls, granting attackers extensive read/write access to the device's physical memory.\n  * CVE-2023-32435: Used in the Safari exploit to execute shellcode as part of the multi-stage attack.\n  * CVE-2023-38606: A vulnerability using hardware MMIO registers to bypass the Page Protection Layer (PPL), overriding hardware-based security protections.\n\n\ud83d\udd17 [https://securelist.com/operation-triangulation-the-last-hardware-\nmystery/111669/](https://securelist.com/operation-triangulation-the-last-\nhardware-mystery/111669/) and\n[https://www.bleepingcomputer.com/news/security/iphone-triangulation-attack-\nabused-undocumented-hardware-\nfeature/](https://www.bleepingcomputer.com/news/security/iphone-triangulation-\nattack-abused-undocumented-hardware-feature/)\n\n",
-        "created_at": "2023-12-27T14:31:23.496Z"
-      },
-      {
-        "account": {
-          "id": "111584378827767616",
-          "username": "krlaboratories",
-          "acct": "krlaboratories@infosec.exchange",
-          "display_name": "KR. Laboratories \ud83c\uddfa\ud83c\udde6",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-03-08T00:00:00.000Z",
-          "note": "<p>&gt;&gt; INFORMATION TECHNOLOGY RESEARCH LABS</p><p>\u26a1\ud83d\udee1\ufe0f KR. Laboratories (kr-labs.com.ua) \u2014 \u0446\u0435 \u043e\u0431'\u0454\u0434\u043d\u0430\u043d\u043d\u044f IT-\u043f\u0440\u043e\u0444\u0435\u0441\u0456\u043e\u043d\u0430\u043b\u0456\u0432, \u044f\u043a\u0456 \u0434\u043e\u0441\u043b\u0456\u0434\u0436\u0443\u044e\u0442\u044c \u0442\u0430 \u043f\u043e\u043f\u0443\u043b\u044f\u0440\u0438\u0437\u0443\u044e\u0442\u044c \u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0456\u0439\u043d\u0456 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0456\u0457 \u0432 \u0423\u043a\u0440\u0430\u0457\u043d\u0456. </p><p>\u041d\u0430 \u0446\u044c\u043e\u043c\u0443 Mastodon-\u0441\u0435\u0440\u0432\u0435\u0440\u0456 \u043c\u0438:</p><p>- \u041f\u0443\u0431\u043b\u0456\u043a\u0443\u0454\u043c\u043e \u0441\u0432\u043e\u0457 \u0434\u0443\u043c\u043a\u0438 \u0442\u0430 \u0456\u0434\u0435\u0457, \u0430\u0432\u0442\u043e\u0440\u0441\u044c\u043a\u0456 \u043d\u043e\u0442\u0430\u0442\u043a\u0438, \u043a\u043e\u043b\u043e\u043d\u043a\u0438, \u0441\u0442\u0430\u0442\u0442\u0456, \u0434\u043e\u0441\u043b\u0456\u0434\u0436\u0435\u043d\u043d\u044f, \u043e\u043f\u0438\u0442\u0443\u0432\u0430\u043d\u043d\u044f, \u0440\u043e\u0437\u0441\u043b\u0456\u0434\u0443\u0432\u0430\u043d\u043d\u044f \u043d\u0430 \u0440\u0456\u0437\u043d\u0456 \u0442\u0435\u043c\u0438, \u0449\u043e \u0441\u0442\u043e\u0441\u0443\u044e\u0442\u044c\u0441\u044f \u0406\u0422-\u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0456\u0439 \u0456 \u043d\u0435 \u0442\u0456\u043b\u044c\u043a\u0438.<br>- \u0414\u0456\u043b\u0438\u043c\u043e\u0441\u044f \u0433\u0440\u043e\u043c\u0430\u0434\u044f\u043d\u0441\u044c\u043a\u043e\u044e \u043f\u043e\u0437\u0438\u0446\u0456\u0454\u044e, \u043d\u043e\u0432\u0438\u043d\u0430\u043c\u0438, \u0430\u043d\u0430\u043b\u0456\u0442\u0438\u043a\u043e\u044e \u0442\u0430 \u0435\u043a\u0441\u043f\u0435\u0440\u0442\u043d\u043e\u044e \u0434\u0443\u043c\u043a\u043e\u044e \u0437 \u0442\u0438\u0445 \u0447\u0438 \u0456\u043d\u0448\u0438\u0445 \u043f\u043e\u0434\u0456\u0439/\u043f\u0438\u0442\u0430\u043d\u044c \u0432 \u0423\u043a\u0440\u0430\u0457\u043d\u0456 \u0442\u0430 \u0437\u0430 \u0457\u0457 \u043c\u0435\u0436\u0430\u043c\u0438.<br>- \u0420\u043e\u0437\u043c\u0456\u0449\u0443\u0454\u043c\u043e \u043f\u0440\u043e\u0444\u0435\u0441\u0456\u0439\u043d\u0456 \u043a\u0435\u0439\u0441\u0438, \u0433\u0430\u0439\u0434\u0438, \u0442\u0443\u0442\u043e\u0440\u0456\u0430\u043b\u0438, \u043c\u0430\u043d\u0443\u0430\u043b\u0438 \u043d\u0430 \u0442\u0435\u043c\u0443 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0456\u0439, \u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0456\u0439\u043d\u043e\u0457 \u0442\u0430 \u043a\u0456\u0431\u0435\u0440-\u0431\u0435\u0437\u043f\u0435\u043a\u0438.</p><p><a href=\"https://infosec.exchange/tags/tech\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>tech</span></a> <a href=\"https://infosec.exchange/tags/cyber\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cyber</span></a> <a href=\"https://infosec.exchange/tags/security\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>security</span></a> <a href=\"https://infosec.exchange/tags/research\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>research</span></a> <a href=\"https://infosec.exchange/tags/ukraine\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>ukraine</span></a> <a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/webappsec\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>webappsec</span></a> <a href=\"https://infosec.exchange/tags/threatintel\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>threatintel</span></a> <a href=\"https://infosec.exchange/tags/intelligence\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>intelligence</span></a> <a href=\"https://infosec.exchange/tags/privacy\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>privacy</span></a> <a href=\"https://infosec.exchange/tags/osint\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>osint</span></a> <a href=\"https://infosec.exchange/tags/investigations\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>investigations</span></a> <a href=\"https://infosec.exchange/tags/nationalsecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>nationalsecurity</span></a> <a href=\"https://infosec.exchange/tags/economicsecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>economicsecurity</span></a> <a href=\"https://infosec.exchange/tags/fintech\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>fintech</span></a> <a href=\"https://infosec.exchange/tags/digitalsecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>digitalsecurity</span></a> <a href=\"https://infosec.exchange/tags/humansecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>humansecurity</span></a> <a href=\"https://infosec.exchange/tags/humanrights\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>humanrights</span></a> <a href=\"https://infosec.exchange/tags/geopolitics\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>geopolitics</span></a> <a href=\"https://infosec.exchange/tags/sociology\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>sociology</span></a></p>",
-          "url": "https://infosec.exchange/@krlaboratories",
-          "uri": "https://infosec.exchange/users/krlaboratories",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/111/584/378/827/767/616/original/52b32f6da2aab125.jpeg",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/111/584/378/827/767/616/original/52b32f6da2aab125.jpeg",
-          "header": "https://files.ioc.exchange/cache/accounts/headers/111/584/378/827/767/616/original/ab544ad1650478fb.png",
-          "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/584/378/827/767/616/original/ab544ad1650478fb.png",
-          "followers_count": 7,
-          "following_count": 88,
-          "statuses_count": 38,
-          "last_status_at": "2023-12-28",
-          "emojis": [],
-          "fields": [
-            {
-              "name": "\ud83c\udf10 Website",
-              "value": "<a href=\"https://kr-labs.com.ua\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">kr-labs.com.ua</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2023-12-28T12:25:24.296+00:00"
-            },
-            {
-              "name": "Blog",
-              "value": "<a href=\"https://kr-labs.com.ua/blog\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">kr-labs.com.ua/blog</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2023-12-28T12:25:31.159+00:00"
-            },
-            {
-              "name": "GitHub",
-              "value": "<a href=\"https://github.com/krlabs\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/krlabs</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2023-12-28T12:25:31.933+00:00"
-            },
-            {
-              "name": "Twitter",
-              "value": "<a href=\"https://twitter.com/KrLaboratories\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/KrLaboratories</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "LinkedIn",
-              "value": "<a href=\"https://www.linkedin.com/company/kr-laboratories\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">linkedin.com/company/kr-labora</span><span class=\"invisible\">tories</span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Reddit",
-              "value": "<a href=\"https://www.reddit.com/r/Cybersecurity_UA/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">reddit.com/r/Cybersecurity_UA/</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://infosec.exchange/@krlaboratories/111657990430520595",
-        "content": "\n\n\u0412 \u043f\u0440\u043e\u0434\u043e\u0432\u0436\u0435\u043d\u043d\u044f \u0442\u0435\u043c\u0438 \u0448\u043a\u0456\u0434\u043b\u0438\u0432\u043e\u0433\u043e \u041f\u0417. \u041e\u0441\u044c, \u0434\u0443\u0436\u0435 \u043f\u0440\u043e\u0448\u0443. \u041a\u043e\u043c\u043f\u0440\u043e\u043c\u0435\u0442\u0430\u0446\u0456\u044f iPhone \u0447\u0435\u0440\u0435\u0437\n\u0434\u0456\u0440\u044f\u0432\u0438\u0439 \u0434\u043e\u0434\u0430\u0442\u043e\u043a iMessage \u0437 0 \u043a\u043b\u0456\u043a\u0456\u0432 - \u0442\u043e\u0431\u0442\u043e \u0432\u0456\u0434 \u043a\u043e\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430 \u0432\u0438\u043c\u0430\u0433\u0430\u0454\u0442\u044c\u0441\u044f \u043d\u0443\u043b\u044c\n\u0434\u0456\u0439 (zero-click/zero-touch attack). \u0422\u0430\u043a \u0449\u043e, \u0410\u0439\u0444\u043e\u043d - \u043d\u0435 \u043f\u0430\u043d\u0430\u0446\u0435\u044f!\n\n\u0423\u0431\u0438\u0432\u0447\u0438\u0439 \u043b\u0430\u043d\u0446\u044e\u0436\u043e\u043a (Cyber Kill Chain) \u0432\u0438\u0433\u043b\u044f\u0434\u0430\u0454 \u043d\u0430\u0441\u0442\u0443\u043f\u043d\u0438\u043c \u0447\u0438\u043d\u043e\u043c (\u043f\u043e\u0447\u0435\u0440\u043f\u043d\u0443\u0442\u043e \u0456\n\u043f\u0435\u0440\u0435\u043a\u043b\u0430\u0434\u0435\u043d\u043e \u0437 \u0444\u0440\u0430\u043d\u0446\u0443\u0437\u044c\u043a\u043e\u0457 \u0432 \u0434\u043e\u0441\u043b\u0456\u0434\u043d\u0438\u043a\u0430 \u0424\u0440\u0435\u0434\u0430 \u0420\u0430\u0439\u043d\u0430\u043b\u044f \u0437 Quarkslab, \u041f\u0430\u0440\u0438\u0436):\n\n\u27a1\ufe0f \u0417\u043b\u043e\u0432\u043c\u0438\u0441\u043d\u0438\u043a \u043d\u0430\u0434\u0441\u0438\u043b\u0430\u0454 PDF-\u0444\u0430\u0439\u043b \u0432 iMessage, \u044f\u043a\u0438\u0439 \u0434\u043e\u0434\u0430\u0442\u043e\u043a \u043e\u0431\u0440\u043e\u0431\u043b\u044f\u0454, \u043d\u0435\n\u043f\u043e\u043a\u0430\u0437\u0443\u044e\u0447\u0438 \u0439\u043e\u0433\u043e \u043a\u043e\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0435\u0432\u0456\n\n\u27a1\ufe0f \u0417\u043b\u043e\u0432\u043c\u0438\u0441\u043d\u0438\u043a \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u043e\u0432\u0443\u0454 \u043d\u0435\u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u043d\u0443 \u0442\u0430 \u043d\u0435\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432\u0430\u043d\u0443 \u043a\u043e\u043c\u0430\u043d\u0434\u0443 ADJUST \u0434\u043b\u044f\n\u0448\u0440\u0438\u0444\u0442\u0456\u0432 True Type. \u0412\u0440\u0430\u0437\u043b\u0438\u0432\u0456\u0441\u0442\u044c \u0456\u0441\u043d\u0443\u0454 \u0432\u0436\u0435 19 \u0440\u043e\u043a\u0456\u0432. \u041f\u0430\u0442\u0447 CVE-2023-41990 \u0432\u0438\u043b\u0443\u0447\u0430\u0454\n\u0457\u0457.\n\n\u27a1\ufe0f \u041a\u043e\u0440\u0438\u0441\u043d\u0435 \u043d\u0430\u0432\u0430\u043d\u0442\u0430\u0436\u0435\u043d\u043d\u044f \u043d\u0430\u043f\u0438\u0441\u0430\u043d\u043e \u043d\u0430 ROP/JOP \u0434\u043b\u044f \u043c\u0430\u043d\u0456\u043f\u0443\u043b\u044e\u0432\u0430\u043d\u043d\u044f \u0432\u043d\u0443\u0442\u0440\u0456\u0448\u043d\u0456\u043c\u0438\n\u043e\u0431'\u0454\u043a\u0442\u0430\u043c\u0438 Apple, \u043c\u0430\u043d\u0456\u043f\u0443\u043b\u044e\u0432\u0430\u043d\u043d\u044f \u0431\u0456\u0431\u043b\u0456\u043e\u0442\u0435\u043a\u043e\u044e JavaScriptCore, \u0430 \u043f\u043e\u0442\u0456\u043c \u0456\u043d\u0456\u0446\u0456\u044e\u0432\u0430\u043d\u043d\u044f\n\u043f\u0456\u0434\u0432\u0438\u0449\u0435\u043d\u043d\u044f \u043f\u0440\u0438\u0432\u0456\u043b\u0435\u0457\u0432, \u043d\u0430\u043f\u0438\u0441\u0430\u043d\u0438\u0445 \u043d\u0430 JavaScript.\n\n\u27a1\ufe0f \u0415\u043a\u0441\u043f\u043b\u043e\u0439\u0442 \u0434\u0443\u0436\u0435 \u0437\u0430\u043f\u043b\u0443\u0442\u0430\u043d\u0438\u0439, \u0432\u043c\u0456\u0449\u0443\u0454\u0442\u044c\u0441\u044f \u0432 11000 \u0440\u044f\u0434\u043a\u0456\u0432 \u043a\u043e\u0434\u0443 (\u0446\u0435 \u0434\u0443\u0436\u0435 \u0431\u0430\u0433\u0430\u0442\u043e).\n\u0412 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u043c\u0443 \u0432\u0456\u043d \u0441\u043f\u0440\u044f\u043c\u043e\u0432\u0430\u043d\u0438\u0439 \u043d\u0430 JavaScriptCore \u0442\u0430 \u043e\u0431\u0440\u043e\u0431\u043a\u0443 \u043e\u0431\u043b\u0430\u0441\u0442\u0435\u0439 \u043f\u0430\u043c'\u044f\u0442\u0456\n\u044f\u0434\u0440\u0430. \u0412\u0456\u043d \u043d\u0430\u0446\u0456\u043b\u0435\u043d\u0438\u0439 \u043d\u0430 \u043d\u0430\u043b\u0430\u0433\u043e\u0434\u0436\u0443\u0432\u0430\u043b\u044c\u043d\u0443 \u0444\u0443\u043d\u043a\u0446\u0456\u044e DollarVM ($vm). \u0412\u0456\u043d \u043c\u0430\u043d\u0456\u043f\u0443\u043b\u044e\u0454\n\u043f\u0430\u043c'\u044f\u0442\u0442\u044e \u0441\u043a\u0440\u0438\u043f\u0442\u0430 \u0442\u0430 \u043e\u0442\u0440\u0438\u043c\u0443\u0454 \u0434\u043e\u0441\u0442\u0443\u043f \u0434\u043e \u043d\u0430\u0442\u0438\u0432\u043d\u0438\u0445 API.\n\n\u27a1\ufe0f \u0412\u0456\u043d \u043c\u0456\u0441\u0442\u0438\u0442\u044c \u043c\u0435\u0445\u0430\u043d\u0456\u0437\u043c \u043e\u0431\u0445\u043e\u0434\u0443 \u043a\u043e\u0434\u0443 \u0430\u0432\u0442\u0435\u043d\u0442\u0438\u0444\u0456\u043a\u0430\u0446\u0456\u0457 \u043f\u043e\u043a\u0430\u0436\u0447\u0438\u043a\u0430 (PAC), \u043d\u0430\u044f\u0432\u043d\u043e\u0433\u043e \u0432\nA12, \u043c\u0435\u0445\u0430\u043d\u0456\u0437\u043c, \u043f\u0440\u0438\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439 \u0434\u043b\u044f \u0437\u0430\u0445\u0438\u0441\u0442\u0443 \u0432\u0456\u0434 \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u0430\u043d\u043d\u044f \u043f\u043e\u0448\u043a\u043e\u0434\u0436\u0435\u043d\u043d\u044f \u043f\u0430\u043c'\u044f\u0442\u0456.\n\n\u27a1\ufe0f \u0412\u0456\u043d \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u043e\u0432\u0443\u0454 \u0446\u0456\u043b\u043e\u0447\u0438\u0441\u0435\u043b\u044c\u043d\u0435 \u043f\u0435\u0440\u0435\u043f\u043e\u0432\u043d\u0435\u043d\u043d\u044f (CVE-2023-32434) \u0443 \u0444\u0443\u043d\u043a\u0446\u0456\u044f\u0445\n\u0432\u0456\u0434\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u043d\u044f \u043f\u0430\u043c'\u044f\u0442\u0456 \u044f\u0434\u0440\u0430 XNU \u0434\u043b\u044f \u0447\u0438\u0442\u0430\u043d\u043d\u044f/\u0437\u0430\u043f\u0438\u0441\u0443 \u0432\u0441\u0456\u0454\u0457 \u0444\u0456\u0437\u0438\u0447\u043d\u043e\u0457 \u043f\u0430\u043c'\u044f\u0442\u0456\n\u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0443 \u0437 \u043f\u0440\u043e\u0441\u0442\u043e\u0440\u0443 \u043a\u043e\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430.\n\n\u27a1\ufe0f \u0412\u0456\u043d \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u043e\u0432\u0443\u0454 \u043d\u0435\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432\u0430\u043d\u0456 \u0440\u0435\u0433\u0456\u0441\u0442\u0440\u0438 \u0437\u0456\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u043d\u044f \u043f\u0430\u043c'\u044f\u0442\u0456 (MMIO) SoC\niPhone, \u0449\u043e\u0431 \u043e\u0431\u0456\u0439\u0442\u0438 \u0440\u0456\u0432\u0435\u043d\u044c \u0437\u0430\u0445\u0438\u0441\u0442\u0443 \u0441\u0442\u043e\u0440\u0456\u043d\u043e\u043a (PPL) CVE-2023-38606. \u0426\u0435\u0439 \u043c\u0435\u0445\u0430\u043d\u0456\u0437\u043c\n\u0437\u0430\u043f\u043e\u0431\u0456\u0433\u0430\u0454 \u0437\u043c\u0456\u043d\u0456 \u0441\u0442\u043e\u0440\u0456\u043d\u043e\u043a \u043f\u0430\u043c'\u044f\u0442\u0456 \u043f\u0456\u0441\u043b\u044f \u0457\u0445 \u043f\u0456\u0434\u043f\u0438\u0441\u0430\u043d\u043d\u044f.\n\n\u27a1\ufe0f \u0415\u043a\u0441\u043f\u043b\u043e\u0439\u0442 JavaScript \u043e\u0442\u0440\u0438\u043c\u0443\u0454 \u043f\u043e\u0432\u043d\u0438\u0439 \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c \u043d\u0430\u0434 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u043e\u043c. \u041d\u0430\u043f\u0430\u0434\u043d\u0438\u043a\n\u0437\u0430\u043f\u0443\u0441\u043a\u0430\u0454:  \n(1) \u041f\u0440\u043e\u0446\u0435\u0441, \u044f\u043a\u0438\u0439 \u043e\u0447\u0438\u0449\u0430\u0454 \u0432\u0441\u0456 \u0441\u043b\u0456\u0434\u0438 \u043d\u0430 \u043f\u0440\u0438\u0441\u0442\u0440\u043e\u0457 (\u0437\u043e\u043a\u0440\u0435\u043c\u0430 PDF-\u0444\u0430\u0439\u043b)  \n(2) \u0411\u0440\u0430\u0443\u0437\u0435\u0440 Safari \u043d\u0435\u0432\u0438\u0434\u0438\u043c\u0438\u0439 \u043d\u0430 \u0432\u0438\u0431\u0440\u0430\u043d\u0456\u0439 \u0432\u0430\u043c\u0438 \u0432\u0435\u0431\u0441\u0442\u043e\u0440\u0456\u043d\u0446\u0456\n\n\u27a1\ufe0f \u0412\u0435\u0431-\u0441\u0442\u043e\u0440\u0456\u043d\u043a\u0430 \u043c\u0430\u0454 JavaScript, \u0432\u0431\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u0439 \u0443 JavaScript, \u044f\u043a\u0438\u0439 \u0437\u0430\u043f\u0443\u0441\u043a\u0430\u0454 \u043a\u0443\u043f\u0443\n\u0434\u043e\u0434\u0430\u0442\u043a\u043e\u0432\u0438\u0445 \u0435\u043b\u0435\u043c\u0435\u043d\u0442\u0456\u0432 \u043a\u0435\u0440\u0443\u0432\u0430\u043d\u043d\u044f \u043d\u0430 \u043f\u0440\u0438\u0441\u0442\u0440\u043e\u0457 \u043f\u0435\u0440\u0435\u0434 \u0437\u0430\u043f\u0443\u0441\u043a\u043e\u043c \u0435\u043a\u0441\u043f\u043b\u043e\u0439\u0442\u0430,\n\u043d\u0430\u0446\u0456\u043b\u0435\u043d\u043e\u0433\u043e \u043d\u0430 Safari.\n\n\u27a1\ufe0f \u0415\u043a\u0441\u043f\u043b\u043e\u0439\u0442 \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u043e\u0432\u0443\u0454 \u0432\u0440\u0430\u0437\u043b\u0438\u0432\u0456\u0441\u0442\u044c CVE-2023-32435, \u0430 \u043f\u043e\u0442\u0456\u043c \u0437\u0430\u043f\u0443\u0441\u043a\u0430\u0454 \u0441\u0432\u043e\u0454\n\u043a\u043e\u0440\u0438\u0441\u043d\u0435 \u043d\u0430\u0432\u0430\u043d\u0442\u0430\u0436\u0435\u043d\u043d\u044f\n\n\u27a1\ufe0f \u041a\u043e\u0440\u0438\u0441\u043d\u0435 \u043d\u0430\u0432\u0430\u043d\u0442\u0430\u0436\u0435\u043d\u043d\u044f \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u043e \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u043e\u0432\u0443\u0454 \u0432\u0440\u0430\u0437\u043b\u0438\u0432\u043e\u0441\u0442\u0456 CVE-2023-32434 \u0456\nCVE-2023-38606, \u0430\u043b\u0435 \u0431\u0435\u0437\u043f\u043e\u0441\u0435\u0440\u0435\u0434\u043d\u044c\u043e \u0437 \u043e\u0431'\u0454\u043a\u0442\u0430 \u044f\u0434\u0440\u0430 (Mach). \u0422\u043e\u0439 \u0436\u0435 \u043f\u0440\u0438\u043d\u0446\u0438\u043f,\n\u0440\u043e\u0437\u0431\u0456\u0440 \u043f\u0430\u043c'\u044f\u0442\u0456 \u0456 \u0442\u043e\u0442\u0430\u043b\u044c\u043d\u0430 \u043a\u043e\u043c\u043f\u0440\u043e\u043c\u0435\u0442\u0430\u0446\u0456\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0438 \u0432 \u043a\u0456\u043d\u0446\u0435\u0432\u043e\u043c\u0443 \u043f\u0456\u0434\u0441\u0443\u043c\u043a\u0443.\n\n\u27a1\ufe0f \u0417\u043b\u043e\u0432\u043c\u0438\u0441\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u043d\u0442\u0430\u0436\u0443\u0454 \u0442\u0430 \u0432\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u044e\u0454 \u0441\u0432\u0456\u0439 \u0440\u0443\u0442\u043a\u0456\u0442.\n\n\ud83d\udcb0\u0412\u0430\u0436\u043b\u0438\u0432\u0456 \u043e\u0441\u043e\u0431\u043b\u0438\u0432\u043e\u0441\u0442\u0456:  \n\u2714\ufe0f 0 \u043a\u043b\u0456\u043a\u0456\u0432: \u0436\u043e\u0434\u043d\u0438\u0445 \u0434\u0456\u0439 \u0437\u0431\u043e\u043a\u0443 \u0432\u043b\u0430\u0441\u043d\u0438\u043a\u0430  \n\u2714\ufe0f \u0415\u043a\u0441\u043f\u043b\u0443\u0430\u0442\u0443\u044e\u0442\u044c\u0441\u044f 4 \u0432\u0440\u0430\u0437\u043b\u0438\u0432\u043e\u0441\u0442\u0456 \u043d\u0443\u043b\u044c\u043e\u0432\u043e\u0433\u043e \u0434\u043d\u044f (0-Zero-Day), \u044f\u043a\u0456 \u0449\u0435 \u043d\u0435 \u0431\u0443\u043b\u0438\n\u0432\u0438\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0456 \u0432\u0438\u0440\u043e\u0431\u043d\u0438\u043a\u043e\u043c, \u0432\u043a\u043b\u044e\u0447\u0430\u044e\u0447\u0438 \u043d\u0435\u043f\u0443\u0431\u043b\u0456\u0447\u043d\u0456 \u0444\u0443\u043d\u043a\u0446\u0456\u0457, \u044f\u043a\u0456 \u043d\u0430 100% \u043f\u0440\u0430\u0446\u044e\u044e\u0442\u044c \u0437\n\u043e\u0431\u0445\u043e\u0434\u043e\u043c PAC \u0456 PPL  \n\u2714\ufe0f \u041f\u0440\u0430\u0446\u044e\u0454 \u0434\u043e \u0432\u0435\u0440\u0441\u0456\u0457 iOS 16.2  \n\u2714\ufe0f \u0412\u0430\u0440\u0442\u0456\u0441\u0442\u044c \u0435\u043a\u0441\u043f\u043b\u043e\u0439\u0442\u0443: $5 \u043c\u043b\u043d\n\n[#exploitation](https://infosec.exchange/tags/exploitation)\n[#imessage](https://infosec.exchange/tags/imessage)\n[#iphone](https://infosec.exchange/tags/iphone)\n[#hacking](https://infosec.exchange/tags/hacking)\n[#ios](https://infosec.exchange/tags/ios)\n[#ios16](https://infosec.exchange/tags/ios16)\n[#malware](https://infosec.exchange/tags/malware)\n[#ransomware](https://infosec.exchange/tags/ransomware)\n[#exploit](https://infosec.exchange/tags/exploit)\n[#mobilesecurity](https://infosec.exchange/tags/mobilesecurity)\n[#infosec](https://infosec.exchange/tags/infosec)\n[#cybersecurity](https://infosec.exchange/tags/cybersecurity)\n[#phones](https://infosec.exchange/tags/phones)\n[#messengers](https://infosec.exchange/tags/messengers)\n[#rootkit](https://infosec.exchange/tags/rootkit)\n\n",
-        "created_at": "2023-12-28T12:15:23.000Z"
-      },
-      {
-        "account": {
-          "id": "110787142161284615",
-          "username": "simontsui",
-          "acct": "simontsui@infosec.exchange",
-          "display_name": "Simon",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "group": false,
-          "created_at": "2023-07-17T00:00:00.000Z",
-          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
-          "url": "https://infosec.exchange/@simontsui",
-          "uri": "https://infosec.exchange/users/simontsui",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
-          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
-          "followers_count": 467,
-          "following_count": 49,
-          "statuses_count": 1589,
-          "last_status_at": "2024-01-09",
-          "emojis": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@simontsui/111652862918439389",
-        "content": "\n\n **Kaspersky** published technical details of exploits and vulnerabilities\nthat were used in Operation Triangulation. The 0-click iMessage attack used\nfour zero-days and was designed to work on iOS versions up to iOS 16.2.\n\n  * CVE-2023-41990: A vulnerability in the ADJUST TrueType font instruction allowing remote code execution through a malicious iMessage attachment.\n  * CVE-2023-32434: An integer overflow issue in XNU's memory mapping syscalls, granting attackers extensive read/write access to the device's physical memory.\n  * CVE-2023-32435: Used in the Safari exploit to execute shellcode as part of the multi-stage attack.\n  * CVE-2023-38606: A vulnerability using hardware MMIO registers to bypass the Page Protection Layer (PPL), overriding hardware-based security protections.\n\n\ud83d\udd17 [https://securelist.com/operation-triangulation-the-last-hardware-\nmystery/111669/](https://securelist.com/operation-triangulation-the-last-\nhardware-mystery/111669/) and\n[https://www.bleepingcomputer.com/news/security/iphone-triangulation-attack-\nabused-undocumented-hardware-\nfeature/](https://www.bleepingcomputer.com/news/security/iphone-triangulation-\nattack-abused-undocumented-hardware-feature/)\n\n",
-        "created_at": "2023-12-27T14:31:23.000Z"
-      }
-    ],
-    "description": "A memory corruption issue was addressed with improved state management. This issue is fixed in macOS Ventura 13.3, Safari 16.4, iOS 16.4 and iPadOS 16.4, iOS 15.7.7 and iPadOS 15.7.7. Processing web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited against versions of iOS released before iOS 15.7.",
-    "epss": 0.1
-  },
   "CVE-2023-32434": {
     "cvss3": 7.8,
     "severity": "HIGH",
@@ -6269,6 +6078,197 @@
     ],
     "description": "An integer overflow was addressed with improved input validation. This issue is fixed in watchOS 9.5.2, macOS Big Sur 11.7.8, iOS 15.7.7 and iPadOS 15.7.7, macOS Monterey 12.6.7, watchOS 8.8.1, iOS 16.5.1 and iPadOS 16.5.1, macOS Ventura 13.4.1. An app may be able to execute arbitrary code with kernel privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS released before iOS 15.7.",
     "epss": 0.073
+  },
+  "CVE-2023-32435": {
+    "cvss3": 8.8,
+    "severity": "HIGH",
+    "epss_severity": "LOW",
+    "posts": [
+      {
+        "account": {
+          "id": "109988283037988108",
+          "username": "krlaboratories",
+          "acct": "krlaboratories",
+          "display_name": "KR. Laboratories \ud83c\uddfa\ud83c\udde6",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-03-08T00:00:00.000Z",
+          "note": "<p>&gt;&gt; INFORMATION TECHNOLOGY RESEARCH LABS \u26a1\ud83d\udd0d\ud83d\udee1\ufe0f</p><p>KR. Laboratories (kr-labs.com.ua) \u2014 \u0446\u0435 \u043e\u0431&#39;\u0454\u0434\u043d\u0430\u043d\u043d\u044f IT-\u043f\u0440\u043e\u0444\u0435\u0441\u0456\u043e\u043d\u0430\u043b\u0456\u0432, \u044f\u043a\u0456 \u0434\u043e\u0441\u043b\u0456\u0434\u0436\u0443\u044e\u0442\u044c \u0442\u0430 \u043f\u043e\u043f\u0443\u043b\u044f\u0440\u0438\u0437\u0443\u044e\u0442\u044c \u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0456\u0439\u043d\u0456 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0456\u0457 \u0432 \u0423\u043a\u0440\u0430\u0457\u043d\u0456. </p><p>\u041d\u0430 \u0446\u044c\u043e\u043c\u0443 \u0441\u0435\u0440\u0432\u0435\u0440\u0456 Mastodon \u043c\u0438:<br /> \u251c\u2500 \u041f\u0443\u0431\u043b\u0456\u043a\u0443\u0454\u043c\u043e \u0441\u0432\u043e\u0457 \u0434\u0443\u043c\u043a\u0438 \u0442\u0430 \u0456\u0434\u0435\u0457, \u0430\u0432\u0442\u043e\u0440\u0441\u044c\u043a\u0456 \u043a\u043e\u043b\u043e\u043d\u043a\u0438, \u043d\u043e\u0442\u0430\u0442\u043a\u0438, \u0437\u0430\u043f\u0438\u0441\u043a\u0438, \u0434\u043e\u0441\u043b\u0456\u0434\u0436\u0435\u043d\u043d\u044f, \u0440\u043e\u0437\u0441\u043b\u0456\u0434\u0443\u0432\u0430\u043d\u043d\u044f, \u043e\u043f\u0438\u0442\u0443\u0432\u0430\u043d\u043d\u044f \u043d\u0430 \u0440\u0456\u0437\u043d\u0456 \u0442\u0435\u043c\u0438, \u0449\u043e \u0441\u0442\u043e\u0441\u0443\u044e\u0442\u044c\u0441\u044f \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0456\u0439, \u0456 \u043d\u0435 \u0442\u0456\u043b\u044c\u043a\u0438.<br /> \u251c\u2500 \u0414\u0456\u043b\u0438\u043c\u043e\u0441\u044f \u0433\u0440\u043e\u043c\u0430\u0434\u044f\u043d\u0441\u044c\u043a\u043e\u044e \u043f\u043e\u0437\u0438\u0446\u0456\u0454\u044e, \u043d\u043e\u0432\u0438\u043d\u0430\u043c\u0438, \u0430\u043d\u0430\u043b\u0456\u0442\u0438\u043a\u043e\u044e \u0442\u0430 \u0435\u043a\u0441\u043f\u0435\u0440\u0442\u043d\u043e\u044e \u0434\u0443\u043c\u043a\u043e\u044e \u0449\u043e\u0434\u043e \u043f\u043e\u0434\u0456\u0439 \u0432 \u0423\u043a\u0440\u0430\u0457\u043d\u0456 (\u0442\u0430 \u0437\u0430 \u0457\u0457 \u043c\u0435\u0436\u0430\u043c\u0438). \u0424\u0430\u043a\u0442\u0438, \u0456\u043d\u0441\u0430\u0439\u0434\u0438, \u0440\u0435\u043c\u0430\u0440\u043a\u0438.</p><p>\u0422\u0435\u043c\u0438:</p><p>- \u0406\u043d\u0444\u043e-/\u043a\u0456\u0431\u0435\u0440\u0431\u0435\u0437\u043f\u0435\u043a\u0430<br />- \u041e\u043f\u0435\u0440\u0430\u0446\u0456\u0439\u043d\u0430 \u0431\u0435\u0437\u043f\u0435\u043a\u0430<br />- \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0430 \u0431\u0435\u0437\u043f\u0435\u043a\u0430<br />- \u042e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0431\u0435\u0437\u043f\u0435\u043a\u0430<br />- \u0415\u043a\u043e\u043d\u043e\u043c\u0456\u0447\u043d\u0430 \u0431\u0435\u0437\u043f\u0435\u043a\u0430</p><p>\u0422\u0435\u0491\u0438:</p><p><a href=\"https://infosec.exchange/tags/tech\" class=\"mention hashtag\" rel=\"tag\">#<span>tech</span></a> <a href=\"https://infosec.exchange/tags/cyber\" class=\"mention hashtag\" rel=\"tag\">#<span>cyber</span></a> <a href=\"https://infosec.exchange/tags/security\" class=\"mention hashtag\" rel=\"tag\">#<span>security</span></a> <a href=\"https://infosec.exchange/tags/research\" class=\"mention hashtag\" rel=\"tag\">#<span>research</span></a> <a href=\"https://infosec.exchange/tags/ukraine\" class=\"mention hashtag\" rel=\"tag\">#<span>ukraine</span></a> <a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"tag\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"tag\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/webappsec\" class=\"mention hashtag\" rel=\"tag\">#<span>webappsec</span></a> <a href=\"https://infosec.exchange/tags/threatintel\" class=\"mention hashtag\" rel=\"tag\">#<span>threatintel</span></a> <a href=\"https://infosec.exchange/tags/intelligence\" class=\"mention hashtag\" rel=\"tag\">#<span>intelligence</span></a> <a href=\"https://infosec.exchange/tags/privacy\" class=\"mention hashtag\" rel=\"tag\">#<span>privacy</span></a> <a href=\"https://infosec.exchange/tags/osint\" class=\"mention hashtag\" rel=\"tag\">#<span>osint</span></a> <a href=\"https://infosec.exchange/tags/investigations\" class=\"mention hashtag\" rel=\"tag\">#<span>investigations</span></a> <a href=\"https://infosec.exchange/tags/nationalsecurity\" class=\"mention hashtag\" rel=\"tag\">#<span>nationalsecurity</span></a> <a href=\"https://infosec.exchange/tags/economicsecurity\" class=\"mention hashtag\" rel=\"tag\">#<span>economicsecurity</span></a> <a href=\"https://infosec.exchange/tags/fintech\" class=\"mention hashtag\" rel=\"tag\">#<span>fintech</span></a> <a href=\"https://infosec.exchange/tags/digitalsecurity\" class=\"mention hashtag\" rel=\"tag\">#<span>digitalsecurity</span></a> <a href=\"https://infosec.exchange/tags/humansecurity\" class=\"mention hashtag\" rel=\"tag\">#<span>humansecurity</span></a> <a href=\"https://infosec.exchange/tags/humanrights\" class=\"mention hashtag\" rel=\"tag\">#<span>humanrights</span></a> <a href=\"https://infosec.exchange/tags/geopolitics\" class=\"mention hashtag\" rel=\"tag\">#<span>geopolitics</span></a> <a href=\"https://infosec.exchange/tags/sociology\" class=\"mention hashtag\" rel=\"tag\">#<span>sociology</span></a></p><p>~<br />\u0421\u043b\u0430\u0432\u0430 \u0423\u043a\u0440\u0430\u0457\u043d\u0456!<br />\u0413\u0435\u0440\u043e\u044f\u043c \u0421\u043b\u0430\u0432\u0430!</p>",
+          "url": "https://infosec.exchange/@krlaboratories",
+          "uri": "https://infosec.exchange/users/krlaboratories",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/988/283/037/988/108/original/17dc14b318933412.jpeg",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/988/283/037/988/108/original/17dc14b318933412.jpeg",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/988/283/037/988/108/original/5393748cb9c3f3d3.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/988/283/037/988/108/original/5393748cb9c3f3d3.png",
+          "followers_count": 9,
+          "following_count": 88,
+          "statuses_count": 62,
+          "last_status_at": "2024-01-09",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": [
+            {
+              "name": "\ud83c\udf10 Website",
+              "value": "<a href=\"https://kr-labs.com.ua\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">kr-labs.com.ua</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-12-08T08:33:02.011+00:00"
+            },
+            {
+              "name": "Blog",
+              "value": "<a href=\"https://kr-labs.com.ua/blog\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">kr-labs.com.ua/blog</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-12-08T08:33:04.070+00:00"
+            },
+            {
+              "name": "GitHub",
+              "value": "<a href=\"https://github.com/krlabs\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/krlabs</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-12-08T08:47:05.427+00:00"
+            },
+            {
+              "name": "Twitter",
+              "value": "<a href=\"https://twitter.com/KrLaboratories\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/KrLaboratories</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "LinkedIn",
+              "value": "<a href=\"https://www.linkedin.com/company/kr-laboratories\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">linkedin.com/company/kr-labora</span><span class=\"invisible\">tories</span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Reddit",
+              "value": "<a href=\"https://www.reddit.com/r/Cybersecurity_UA/\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">reddit.com/r/Cybersecurity_UA/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@krlaboratories/111657990430520595",
+        "content": "\n\n\u0412 \u043f\u0440\u043e\u0434\u043e\u0432\u0436\u0435\u043d\u043d\u044f \u0442\u0435\u043c\u0438 \u0448\u043a\u0456\u0434\u043b\u0438\u0432\u043e\u0433\u043e \u041f\u0417. \u041e\u0441\u044c, \u0434\u0443\u0436\u0435 \u043f\u0440\u043e\u0448\u0443. \u041a\u043e\u043c\u043f\u0440\u043e\u043c\u0435\u0442\u0430\u0446\u0456\u044f iPhone \u0447\u0435\u0440\u0435\u0437\n\u0434\u0456\u0440\u044f\u0432\u0438\u0439 \u0434\u043e\u0434\u0430\u0442\u043e\u043a iMessage \u0437 0 \u043a\u043b\u0456\u043a\u0456\u0432 - \u0442\u043e\u0431\u0442\u043e \u0432\u0456\u0434 \u043a\u043e\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430 \u0432\u0438\u043c\u0430\u0433\u0430\u0454\u0442\u044c\u0441\u044f \u043d\u0443\u043b\u044c\n\u0434\u0456\u0439 (zero-click/zero-touch attack). \u0422\u0430\u043a \u0449\u043e, \u0410\u0439\u0444\u043e\u043d - \u043d\u0435 \u043f\u0430\u043d\u0430\u0446\u0435\u044f!\n\n\u0423\u0431\u0438\u0432\u0447\u0438\u0439 \u043b\u0430\u043d\u0446\u044e\u0436\u043e\u043a (Cyber Kill Chain) \u0432\u0438\u0433\u043b\u044f\u0434\u0430\u0454 \u043d\u0430\u0441\u0442\u0443\u043f\u043d\u0438\u043c \u0447\u0438\u043d\u043e\u043c (\u043f\u043e\u0447\u0435\u0440\u043f\u043d\u0443\u0442\u043e \u0456\n\u043f\u0435\u0440\u0435\u043a\u043b\u0430\u0434\u0435\u043d\u043e \u0437 \u0444\u0440\u0430\u043d\u0446\u0443\u0437\u044c\u043a\u043e\u0457 \u0432 \u0434\u043e\u0441\u043b\u0456\u0434\u043d\u0438\u043a\u0430 \u0424\u0440\u0435\u0434\u0430 \u0420\u0430\u0439\u043d\u0430\u043b\u044f \u0437 Quarkslab, \u041f\u0430\u0440\u0438\u0436):\n\n\u27a1\ufe0f \u0417\u043b\u043e\u0432\u043c\u0438\u0441\u043d\u0438\u043a \u043d\u0430\u0434\u0441\u0438\u043b\u0430\u0454 PDF-\u0444\u0430\u0439\u043b \u0432 iMessage, \u044f\u043a\u0438\u0439 \u0434\u043e\u0434\u0430\u0442\u043e\u043a \u043e\u0431\u0440\u043e\u0431\u043b\u044f\u0454, \u043d\u0435\n\u043f\u043e\u043a\u0430\u0437\u0443\u044e\u0447\u0438 \u0439\u043e\u0433\u043e \u043a\u043e\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0435\u0432\u0456\n\n\u27a1\ufe0f \u0417\u043b\u043e\u0432\u043c\u0438\u0441\u043d\u0438\u043a \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u043e\u0432\u0443\u0454 \u043d\u0435\u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u043d\u0443 \u0442\u0430 \u043d\u0435\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432\u0430\u043d\u0443 \u043a\u043e\u043c\u0430\u043d\u0434\u0443 ADJUST \u0434\u043b\u044f\n\u0448\u0440\u0438\u0444\u0442\u0456\u0432 True Type. \u0412\u0440\u0430\u0437\u043b\u0438\u0432\u0456\u0441\u0442\u044c \u0456\u0441\u043d\u0443\u0454 \u0432\u0436\u0435 19 \u0440\u043e\u043a\u0456\u0432. \u041f\u0430\u0442\u0447 CVE-2023-41990 \u0432\u0438\u043b\u0443\u0447\u0430\u0454\n\u0457\u0457.\n\n\u27a1\ufe0f \u041a\u043e\u0440\u0438\u0441\u043d\u0435 \u043d\u0430\u0432\u0430\u043d\u0442\u0430\u0436\u0435\u043d\u043d\u044f \u043d\u0430\u043f\u0438\u0441\u0430\u043d\u043e \u043d\u0430 ROP/JOP \u0434\u043b\u044f \u043c\u0430\u043d\u0456\u043f\u0443\u043b\u044e\u0432\u0430\u043d\u043d\u044f \u0432\u043d\u0443\u0442\u0440\u0456\u0448\u043d\u0456\u043c\u0438\n\u043e\u0431'\u0454\u043a\u0442\u0430\u043c\u0438 Apple, \u043c\u0430\u043d\u0456\u043f\u0443\u043b\u044e\u0432\u0430\u043d\u043d\u044f \u0431\u0456\u0431\u043b\u0456\u043e\u0442\u0435\u043a\u043e\u044e JavaScriptCore, \u0430 \u043f\u043e\u0442\u0456\u043c \u0456\u043d\u0456\u0446\u0456\u044e\u0432\u0430\u043d\u043d\u044f\n\u043f\u0456\u0434\u0432\u0438\u0449\u0435\u043d\u043d\u044f \u043f\u0440\u0438\u0432\u0456\u043b\u0435\u0457\u0432, \u043d\u0430\u043f\u0438\u0441\u0430\u043d\u0438\u0445 \u043d\u0430 JavaScript.\n\n\u27a1\ufe0f \u0415\u043a\u0441\u043f\u043b\u043e\u0439\u0442 \u0434\u0443\u0436\u0435 \u0437\u0430\u043f\u043b\u0443\u0442\u0430\u043d\u0438\u0439, \u0432\u043c\u0456\u0449\u0443\u0454\u0442\u044c\u0441\u044f \u0432 11000 \u0440\u044f\u0434\u043a\u0456\u0432 \u043a\u043e\u0434\u0443 (\u0446\u0435 \u0434\u0443\u0436\u0435 \u0431\u0430\u0433\u0430\u0442\u043e).\n\u0412 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u043c\u0443 \u0432\u0456\u043d \u0441\u043f\u0440\u044f\u043c\u043e\u0432\u0430\u043d\u0438\u0439 \u043d\u0430 JavaScriptCore \u0442\u0430 \u043e\u0431\u0440\u043e\u0431\u043a\u0443 \u043e\u0431\u043b\u0430\u0441\u0442\u0435\u0439 \u043f\u0430\u043c'\u044f\u0442\u0456\n\u044f\u0434\u0440\u0430. \u0412\u0456\u043d \u043d\u0430\u0446\u0456\u043b\u0435\u043d\u0438\u0439 \u043d\u0430 \u043d\u0430\u043b\u0430\u0433\u043e\u0434\u0436\u0443\u0432\u0430\u043b\u044c\u043d\u0443 \u0444\u0443\u043d\u043a\u0446\u0456\u044e DollarVM ($vm). \u0412\u0456\u043d \u043c\u0430\u043d\u0456\u043f\u0443\u043b\u044e\u0454\n\u043f\u0430\u043c'\u044f\u0442\u0442\u044e \u0441\u043a\u0440\u0438\u043f\u0442\u0430 \u0442\u0430 \u043e\u0442\u0440\u0438\u043c\u0443\u0454 \u0434\u043e\u0441\u0442\u0443\u043f \u0434\u043e \u043d\u0430\u0442\u0438\u0432\u043d\u0438\u0445 API.\n\n\u27a1\ufe0f \u0412\u0456\u043d \u043c\u0456\u0441\u0442\u0438\u0442\u044c \u043c\u0435\u0445\u0430\u043d\u0456\u0437\u043c \u043e\u0431\u0445\u043e\u0434\u0443 \u043a\u043e\u0434\u0443 \u0430\u0432\u0442\u0435\u043d\u0442\u0438\u0444\u0456\u043a\u0430\u0446\u0456\u0457 \u043f\u043e\u043a\u0430\u0436\u0447\u0438\u043a\u0430 (PAC), \u043d\u0430\u044f\u0432\u043d\u043e\u0433\u043e \u0432\nA12, \u043c\u0435\u0445\u0430\u043d\u0456\u0437\u043c, \u043f\u0440\u0438\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439 \u0434\u043b\u044f \u0437\u0430\u0445\u0438\u0441\u0442\u0443 \u0432\u0456\u0434 \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u0430\u043d\u043d\u044f \u043f\u043e\u0448\u043a\u043e\u0434\u0436\u0435\u043d\u043d\u044f \u043f\u0430\u043c'\u044f\u0442\u0456.\n\n\u27a1\ufe0f \u0412\u0456\u043d \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u043e\u0432\u0443\u0454 \u0446\u0456\u043b\u043e\u0447\u0438\u0441\u0435\u043b\u044c\u043d\u0435 \u043f\u0435\u0440\u0435\u043f\u043e\u0432\u043d\u0435\u043d\u043d\u044f (CVE-2023-32434) \u0443 \u0444\u0443\u043d\u043a\u0446\u0456\u044f\u0445\n\u0432\u0456\u0434\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u043d\u044f \u043f\u0430\u043c'\u044f\u0442\u0456 \u044f\u0434\u0440\u0430 XNU \u0434\u043b\u044f \u0447\u0438\u0442\u0430\u043d\u043d\u044f/\u0437\u0430\u043f\u0438\u0441\u0443 \u0432\u0441\u0456\u0454\u0457 \u0444\u0456\u0437\u0438\u0447\u043d\u043e\u0457 \u043f\u0430\u043c'\u044f\u0442\u0456\n\u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0443 \u0437 \u043f\u0440\u043e\u0441\u0442\u043e\u0440\u0443 \u043a\u043e\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430.\n\n\u27a1\ufe0f \u0412\u0456\u043d \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u043e\u0432\u0443\u0454 \u043d\u0435\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432\u0430\u043d\u0456 \u0440\u0435\u0433\u0456\u0441\u0442\u0440\u0438 \u0437\u0456\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u043d\u044f \u043f\u0430\u043c'\u044f\u0442\u0456 (MMIO) SoC\niPhone, \u0449\u043e\u0431 \u043e\u0431\u0456\u0439\u0442\u0438 \u0440\u0456\u0432\u0435\u043d\u044c \u0437\u0430\u0445\u0438\u0441\u0442\u0443 \u0441\u0442\u043e\u0440\u0456\u043d\u043e\u043a (PPL) CVE-2023-38606. \u0426\u0435\u0439 \u043c\u0435\u0445\u0430\u043d\u0456\u0437\u043c\n\u0437\u0430\u043f\u043e\u0431\u0456\u0433\u0430\u0454 \u0437\u043c\u0456\u043d\u0456 \u0441\u0442\u043e\u0440\u0456\u043d\u043e\u043a \u043f\u0430\u043c'\u044f\u0442\u0456 \u043f\u0456\u0441\u043b\u044f \u0457\u0445 \u043f\u0456\u0434\u043f\u0438\u0441\u0430\u043d\u043d\u044f.\n\n\u27a1\ufe0f \u0415\u043a\u0441\u043f\u043b\u043e\u0439\u0442 JavaScript \u043e\u0442\u0440\u0438\u043c\u0443\u0454 \u043f\u043e\u0432\u043d\u0438\u0439 \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c \u043d\u0430\u0434 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u043e\u043c. \u041d\u0430\u043f\u0430\u0434\u043d\u0438\u043a\n\u0437\u0430\u043f\u0443\u0441\u043a\u0430\u0454:  \n(1) \u041f\u0440\u043e\u0446\u0435\u0441, \u044f\u043a\u0438\u0439 \u043e\u0447\u0438\u0449\u0430\u0454 \u0432\u0441\u0456 \u0441\u043b\u0456\u0434\u0438 \u043d\u0430 \u043f\u0440\u0438\u0441\u0442\u0440\u043e\u0457 (\u0437\u043e\u043a\u0440\u0435\u043c\u0430 PDF-\u0444\u0430\u0439\u043b)  \n(2) \u0411\u0440\u0430\u0443\u0437\u0435\u0440 Safari \u043d\u0435\u0432\u0438\u0434\u0438\u043c\u0438\u0439 \u043d\u0430 \u0432\u0438\u0431\u0440\u0430\u043d\u0456\u0439 \u0432\u0430\u043c\u0438 \u0432\u0435\u0431\u0441\u0442\u043e\u0440\u0456\u043d\u0446\u0456\n\n\u27a1\ufe0f \u0412\u0435\u0431-\u0441\u0442\u043e\u0440\u0456\u043d\u043a\u0430 \u043c\u0430\u0454 JavaScript, \u0432\u0431\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u0439 \u0443 JavaScript, \u044f\u043a\u0438\u0439 \u0437\u0430\u043f\u0443\u0441\u043a\u0430\u0454 \u043a\u0443\u043f\u0443\n\u0434\u043e\u0434\u0430\u0442\u043a\u043e\u0432\u0438\u0445 \u0435\u043b\u0435\u043c\u0435\u043d\u0442\u0456\u0432 \u043a\u0435\u0440\u0443\u0432\u0430\u043d\u043d\u044f \u043d\u0430 \u043f\u0440\u0438\u0441\u0442\u0440\u043e\u0457 \u043f\u0435\u0440\u0435\u0434 \u0437\u0430\u043f\u0443\u0441\u043a\u043e\u043c \u0435\u043a\u0441\u043f\u043b\u043e\u0439\u0442\u0430,\n\u043d\u0430\u0446\u0456\u043b\u0435\u043d\u043e\u0433\u043e \u043d\u0430 Safari.\n\n\u27a1\ufe0f \u0415\u043a\u0441\u043f\u043b\u043e\u0439\u0442 \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u043e\u0432\u0443\u0454 \u0432\u0440\u0430\u0437\u043b\u0438\u0432\u0456\u0441\u0442\u044c CVE-2023-32435, \u0430 \u043f\u043e\u0442\u0456\u043c \u0437\u0430\u043f\u0443\u0441\u043a\u0430\u0454 \u0441\u0432\u043e\u0454\n\u043a\u043e\u0440\u0438\u0441\u043d\u0435 \u043d\u0430\u0432\u0430\u043d\u0442\u0430\u0436\u0435\u043d\u043d\u044f\n\n\u27a1\ufe0f \u041a\u043e\u0440\u0438\u0441\u043d\u0435 \u043d\u0430\u0432\u0430\u043d\u0442\u0430\u0436\u0435\u043d\u043d\u044f \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u043e \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u043e\u0432\u0443\u0454 \u0432\u0440\u0430\u0437\u043b\u0438\u0432\u043e\u0441\u0442\u0456 CVE-2023-32434 \u0456\nCVE-2023-38606, \u0430\u043b\u0435 \u0431\u0435\u0437\u043f\u043e\u0441\u0435\u0440\u0435\u0434\u043d\u044c\u043e \u0437 \u043e\u0431'\u0454\u043a\u0442\u0430 \u044f\u0434\u0440\u0430 (Mach). \u0422\u043e\u0439 \u0436\u0435 \u043f\u0440\u0438\u043d\u0446\u0438\u043f,\n\u0440\u043e\u0437\u0431\u0456\u0440 \u043f\u0430\u043c'\u044f\u0442\u0456 \u0456 \u0442\u043e\u0442\u0430\u043b\u044c\u043d\u0430 \u043a\u043e\u043c\u043f\u0440\u043e\u043c\u0435\u0442\u0430\u0446\u0456\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0438 \u0432 \u043a\u0456\u043d\u0446\u0435\u0432\u043e\u043c\u0443 \u043f\u0456\u0434\u0441\u0443\u043c\u043a\u0443.\n\n\u27a1\ufe0f \u0417\u043b\u043e\u0432\u043c\u0438\u0441\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u043d\u0442\u0430\u0436\u0443\u0454 \u0442\u0430 \u0432\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u044e\u0454 \u0441\u0432\u0456\u0439 \u0440\u0443\u0442\u043a\u0456\u0442.\n\n\ud83d\udcb0\u0412\u0430\u0436\u043b\u0438\u0432\u0456 \u043e\u0441\u043e\u0431\u043b\u0438\u0432\u043e\u0441\u0442\u0456:  \n\u2714\ufe0f 0 \u043a\u043b\u0456\u043a\u0456\u0432: \u0436\u043e\u0434\u043d\u0438\u0445 \u0434\u0456\u0439 \u0437\u0431\u043e\u043a\u0443 \u0432\u043b\u0430\u0441\u043d\u0438\u043a\u0430  \n\u2714\ufe0f \u0415\u043a\u0441\u043f\u043b\u0443\u0430\u0442\u0443\u044e\u0442\u044c\u0441\u044f 4 \u0432\u0440\u0430\u0437\u043b\u0438\u0432\u043e\u0441\u0442\u0456 \u043d\u0443\u043b\u044c\u043e\u0432\u043e\u0433\u043e \u0434\u043d\u044f (0-Zero-Day), \u044f\u043a\u0456 \u0449\u0435 \u043d\u0435 \u0431\u0443\u043b\u0438\n\u0432\u0438\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0456 \u0432\u0438\u0440\u043e\u0431\u043d\u0438\u043a\u043e\u043c, \u0432\u043a\u043b\u044e\u0447\u0430\u044e\u0447\u0438 \u043d\u0435\u043f\u0443\u0431\u043b\u0456\u0447\u043d\u0456 \u0444\u0443\u043d\u043a\u0446\u0456\u0457, \u044f\u043a\u0456 \u043d\u0430 100% \u043f\u0440\u0430\u0446\u044e\u044e\u0442\u044c \u0437\n\u043e\u0431\u0445\u043e\u0434\u043e\u043c PAC \u0456 PPL  \n\u2714\ufe0f \u041f\u0440\u0430\u0446\u044e\u0454 \u0434\u043e \u0432\u0435\u0440\u0441\u0456\u0457 iOS 16.2  \n\u2714\ufe0f \u0412\u0430\u0440\u0442\u0456\u0441\u0442\u044c \u0435\u043a\u0441\u043f\u043b\u043e\u0439\u0442\u0443: $5 \u043c\u043b\u043d\n\n[#exploitation](https://infosec.exchange/tags/exploitation)\n[#imessage](https://infosec.exchange/tags/imessage)\n[#iphone](https://infosec.exchange/tags/iphone)\n[#hacking](https://infosec.exchange/tags/hacking)\n[#ios](https://infosec.exchange/tags/ios)\n[#ios16](https://infosec.exchange/tags/ios16)\n[#malware](https://infosec.exchange/tags/malware)\n[#ransomware](https://infosec.exchange/tags/ransomware)\n[#exploit](https://infosec.exchange/tags/exploit)\n[#mobilesecurity](https://infosec.exchange/tags/mobilesecurity)\n[#infosec](https://infosec.exchange/tags/infosec)\n[#cybersecurity](https://infosec.exchange/tags/cybersecurity)\n[#phones](https://infosec.exchange/tags/phones)\n[#messengers](https://infosec.exchange/tags/messengers)\n[#rootkit](https://infosec.exchange/tags/rootkit)\n\n",
+        "created_at": "2023-12-28T12:15:23.123Z"
+      },
+      {
+        "account": {
+          "id": "110730368199044452",
+          "username": "simontsui",
+          "acct": "simontsui",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/730/368/199/044/452/original/e948f449b57bff96.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/730/368/199/044/452/original/1e987ecf15218c90.png",
+          "followers_count": 476,
+          "following_count": 51,
+          "statuses_count": 1589,
+          "last_status_at": "2024-01-09",
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111652862918439389",
+        "content": "\n\n **Kaspersky** published technical details of exploits and vulnerabilities\nthat were used in Operation Triangulation. The 0-click iMessage attack used\nfour zero-days and was designed to work on iOS versions up to iOS 16.2.\n\n  * CVE-2023-41990: A vulnerability in the ADJUST TrueType font instruction allowing remote code execution through a malicious iMessage attachment.\n  * CVE-2023-32434: An integer overflow issue in XNU's memory mapping syscalls, granting attackers extensive read/write access to the device's physical memory.\n  * CVE-2023-32435: Used in the Safari exploit to execute shellcode as part of the multi-stage attack.\n  * CVE-2023-38606: A vulnerability using hardware MMIO registers to bypass the Page Protection Layer (PPL), overriding hardware-based security protections.\n\n\ud83d\udd17 [https://securelist.com/operation-triangulation-the-last-hardware-\nmystery/111669/](https://securelist.com/operation-triangulation-the-last-\nhardware-mystery/111669/) and\n[https://www.bleepingcomputer.com/news/security/iphone-triangulation-attack-\nabused-undocumented-hardware-\nfeature/](https://www.bleepingcomputer.com/news/security/iphone-triangulation-\nattack-abused-undocumented-hardware-feature/)\n\n",
+        "created_at": "2023-12-27T14:31:23.496Z"
+      },
+      {
+        "account": {
+          "id": "111584378827767616",
+          "username": "krlaboratories",
+          "acct": "krlaboratories@infosec.exchange",
+          "display_name": "KR. Laboratories \ud83c\uddfa\ud83c\udde6",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-03-08T00:00:00.000Z",
+          "note": "<p>&gt;&gt; INFORMATION TECHNOLOGY RESEARCH LABS</p><p>\u26a1\ud83d\udee1\ufe0f KR. Laboratories (kr-labs.com.ua) \u2014 \u0446\u0435 \u043e\u0431'\u0454\u0434\u043d\u0430\u043d\u043d\u044f IT-\u043f\u0440\u043e\u0444\u0435\u0441\u0456\u043e\u043d\u0430\u043b\u0456\u0432, \u044f\u043a\u0456 \u0434\u043e\u0441\u043b\u0456\u0434\u0436\u0443\u044e\u0442\u044c \u0442\u0430 \u043f\u043e\u043f\u0443\u043b\u044f\u0440\u0438\u0437\u0443\u044e\u0442\u044c \u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0456\u0439\u043d\u0456 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0456\u0457 \u0432 \u0423\u043a\u0440\u0430\u0457\u043d\u0456. </p><p>\u041d\u0430 \u0446\u044c\u043e\u043c\u0443 Mastodon-\u0441\u0435\u0440\u0432\u0435\u0440\u0456 \u043c\u0438:</p><p>- \u041f\u0443\u0431\u043b\u0456\u043a\u0443\u0454\u043c\u043e \u0441\u0432\u043e\u0457 \u0434\u0443\u043c\u043a\u0438 \u0442\u0430 \u0456\u0434\u0435\u0457, \u0430\u0432\u0442\u043e\u0440\u0441\u044c\u043a\u0456 \u043d\u043e\u0442\u0430\u0442\u043a\u0438, \u043a\u043e\u043b\u043e\u043d\u043a\u0438, \u0441\u0442\u0430\u0442\u0442\u0456, \u0434\u043e\u0441\u043b\u0456\u0434\u0436\u0435\u043d\u043d\u044f, \u043e\u043f\u0438\u0442\u0443\u0432\u0430\u043d\u043d\u044f, \u0440\u043e\u0437\u0441\u043b\u0456\u0434\u0443\u0432\u0430\u043d\u043d\u044f \u043d\u0430 \u0440\u0456\u0437\u043d\u0456 \u0442\u0435\u043c\u0438, \u0449\u043e \u0441\u0442\u043e\u0441\u0443\u044e\u0442\u044c\u0441\u044f \u0406\u0422-\u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0456\u0439 \u0456 \u043d\u0435 \u0442\u0456\u043b\u044c\u043a\u0438.<br>- \u0414\u0456\u043b\u0438\u043c\u043e\u0441\u044f \u0433\u0440\u043e\u043c\u0430\u0434\u044f\u043d\u0441\u044c\u043a\u043e\u044e \u043f\u043e\u0437\u0438\u0446\u0456\u0454\u044e, \u043d\u043e\u0432\u0438\u043d\u0430\u043c\u0438, \u0430\u043d\u0430\u043b\u0456\u0442\u0438\u043a\u043e\u044e \u0442\u0430 \u0435\u043a\u0441\u043f\u0435\u0440\u0442\u043d\u043e\u044e \u0434\u0443\u043c\u043a\u043e\u044e \u0437 \u0442\u0438\u0445 \u0447\u0438 \u0456\u043d\u0448\u0438\u0445 \u043f\u043e\u0434\u0456\u0439/\u043f\u0438\u0442\u0430\u043d\u044c \u0432 \u0423\u043a\u0440\u0430\u0457\u043d\u0456 \u0442\u0430 \u0437\u0430 \u0457\u0457 \u043c\u0435\u0436\u0430\u043c\u0438.<br>- \u0420\u043e\u0437\u043c\u0456\u0449\u0443\u0454\u043c\u043e \u043f\u0440\u043e\u0444\u0435\u0441\u0456\u0439\u043d\u0456 \u043a\u0435\u0439\u0441\u0438, \u0433\u0430\u0439\u0434\u0438, \u0442\u0443\u0442\u043e\u0440\u0456\u0430\u043b\u0438, \u043c\u0430\u043d\u0443\u0430\u043b\u0438 \u043d\u0430 \u0442\u0435\u043c\u0443 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0456\u0439, \u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0456\u0439\u043d\u043e\u0457 \u0442\u0430 \u043a\u0456\u0431\u0435\u0440-\u0431\u0435\u0437\u043f\u0435\u043a\u0438.</p><p><a href=\"https://infosec.exchange/tags/tech\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>tech</span></a> <a href=\"https://infosec.exchange/tags/cyber\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cyber</span></a> <a href=\"https://infosec.exchange/tags/security\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>security</span></a> <a href=\"https://infosec.exchange/tags/research\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>research</span></a> <a href=\"https://infosec.exchange/tags/ukraine\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>ukraine</span></a> <a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/webappsec\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>webappsec</span></a> <a href=\"https://infosec.exchange/tags/threatintel\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>threatintel</span></a> <a href=\"https://infosec.exchange/tags/intelligence\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>intelligence</span></a> <a href=\"https://infosec.exchange/tags/privacy\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>privacy</span></a> <a href=\"https://infosec.exchange/tags/osint\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>osint</span></a> <a href=\"https://infosec.exchange/tags/investigations\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>investigations</span></a> <a href=\"https://infosec.exchange/tags/nationalsecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>nationalsecurity</span></a> <a href=\"https://infosec.exchange/tags/economicsecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>economicsecurity</span></a> <a href=\"https://infosec.exchange/tags/fintech\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>fintech</span></a> <a href=\"https://infosec.exchange/tags/digitalsecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>digitalsecurity</span></a> <a href=\"https://infosec.exchange/tags/humansecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>humansecurity</span></a> <a href=\"https://infosec.exchange/tags/humanrights\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>humanrights</span></a> <a href=\"https://infosec.exchange/tags/geopolitics\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>geopolitics</span></a> <a href=\"https://infosec.exchange/tags/sociology\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>sociology</span></a></p>",
+          "url": "https://infosec.exchange/@krlaboratories",
+          "uri": "https://infosec.exchange/users/krlaboratories",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/111/584/378/827/767/616/original/52b32f6da2aab125.jpeg",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/111/584/378/827/767/616/original/52b32f6da2aab125.jpeg",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/111/584/378/827/767/616/original/ab544ad1650478fb.png",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/584/378/827/767/616/original/ab544ad1650478fb.png",
+          "followers_count": 7,
+          "following_count": 88,
+          "statuses_count": 38,
+          "last_status_at": "2023-12-28",
+          "emojis": [],
+          "fields": [
+            {
+              "name": "\ud83c\udf10 Website",
+              "value": "<a href=\"https://kr-labs.com.ua\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">kr-labs.com.ua</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-12-28T12:25:24.296+00:00"
+            },
+            {
+              "name": "Blog",
+              "value": "<a href=\"https://kr-labs.com.ua/blog\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">kr-labs.com.ua/blog</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-12-28T12:25:31.159+00:00"
+            },
+            {
+              "name": "GitHub",
+              "value": "<a href=\"https://github.com/krlabs\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/krlabs</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-12-28T12:25:31.933+00:00"
+            },
+            {
+              "name": "Twitter",
+              "value": "<a href=\"https://twitter.com/KrLaboratories\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/KrLaboratories</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "LinkedIn",
+              "value": "<a href=\"https://www.linkedin.com/company/kr-laboratories\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">linkedin.com/company/kr-labora</span><span class=\"invisible\">tories</span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Reddit",
+              "value": "<a href=\"https://www.reddit.com/r/Cybersecurity_UA/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">reddit.com/r/Cybersecurity_UA/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@krlaboratories/111657990430520595",
+        "content": "\n\n\u0412 \u043f\u0440\u043e\u0434\u043e\u0432\u0436\u0435\u043d\u043d\u044f \u0442\u0435\u043c\u0438 \u0448\u043a\u0456\u0434\u043b\u0438\u0432\u043e\u0433\u043e \u041f\u0417. \u041e\u0441\u044c, \u0434\u0443\u0436\u0435 \u043f\u0440\u043e\u0448\u0443. \u041a\u043e\u043c\u043f\u0440\u043e\u043c\u0435\u0442\u0430\u0446\u0456\u044f iPhone \u0447\u0435\u0440\u0435\u0437\n\u0434\u0456\u0440\u044f\u0432\u0438\u0439 \u0434\u043e\u0434\u0430\u0442\u043e\u043a iMessage \u0437 0 \u043a\u043b\u0456\u043a\u0456\u0432 - \u0442\u043e\u0431\u0442\u043e \u0432\u0456\u0434 \u043a\u043e\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430 \u0432\u0438\u043c\u0430\u0433\u0430\u0454\u0442\u044c\u0441\u044f \u043d\u0443\u043b\u044c\n\u0434\u0456\u0439 (zero-click/zero-touch attack). \u0422\u0430\u043a \u0449\u043e, \u0410\u0439\u0444\u043e\u043d - \u043d\u0435 \u043f\u0430\u043d\u0430\u0446\u0435\u044f!\n\n\u0423\u0431\u0438\u0432\u0447\u0438\u0439 \u043b\u0430\u043d\u0446\u044e\u0436\u043e\u043a (Cyber Kill Chain) \u0432\u0438\u0433\u043b\u044f\u0434\u0430\u0454 \u043d\u0430\u0441\u0442\u0443\u043f\u043d\u0438\u043c \u0447\u0438\u043d\u043e\u043c (\u043f\u043e\u0447\u0435\u0440\u043f\u043d\u0443\u0442\u043e \u0456\n\u043f\u0435\u0440\u0435\u043a\u043b\u0430\u0434\u0435\u043d\u043e \u0437 \u0444\u0440\u0430\u043d\u0446\u0443\u0437\u044c\u043a\u043e\u0457 \u0432 \u0434\u043e\u0441\u043b\u0456\u0434\u043d\u0438\u043a\u0430 \u0424\u0440\u0435\u0434\u0430 \u0420\u0430\u0439\u043d\u0430\u043b\u044f \u0437 Quarkslab, \u041f\u0430\u0440\u0438\u0436):\n\n\u27a1\ufe0f \u0417\u043b\u043e\u0432\u043c\u0438\u0441\u043d\u0438\u043a \u043d\u0430\u0434\u0441\u0438\u043b\u0430\u0454 PDF-\u0444\u0430\u0439\u043b \u0432 iMessage, \u044f\u043a\u0438\u0439 \u0434\u043e\u0434\u0430\u0442\u043e\u043a \u043e\u0431\u0440\u043e\u0431\u043b\u044f\u0454, \u043d\u0435\n\u043f\u043e\u043a\u0430\u0437\u0443\u044e\u0447\u0438 \u0439\u043e\u0433\u043e \u043a\u043e\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0435\u0432\u0456\n\n\u27a1\ufe0f \u0417\u043b\u043e\u0432\u043c\u0438\u0441\u043d\u0438\u043a \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u043e\u0432\u0443\u0454 \u043d\u0435\u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u043d\u0443 \u0442\u0430 \u043d\u0435\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432\u0430\u043d\u0443 \u043a\u043e\u043c\u0430\u043d\u0434\u0443 ADJUST \u0434\u043b\u044f\n\u0448\u0440\u0438\u0444\u0442\u0456\u0432 True Type. \u0412\u0440\u0430\u0437\u043b\u0438\u0432\u0456\u0441\u0442\u044c \u0456\u0441\u043d\u0443\u0454 \u0432\u0436\u0435 19 \u0440\u043e\u043a\u0456\u0432. \u041f\u0430\u0442\u0447 CVE-2023-41990 \u0432\u0438\u043b\u0443\u0447\u0430\u0454\n\u0457\u0457.\n\n\u27a1\ufe0f \u041a\u043e\u0440\u0438\u0441\u043d\u0435 \u043d\u0430\u0432\u0430\u043d\u0442\u0430\u0436\u0435\u043d\u043d\u044f \u043d\u0430\u043f\u0438\u0441\u0430\u043d\u043e \u043d\u0430 ROP/JOP \u0434\u043b\u044f \u043c\u0430\u043d\u0456\u043f\u0443\u043b\u044e\u0432\u0430\u043d\u043d\u044f \u0432\u043d\u0443\u0442\u0440\u0456\u0448\u043d\u0456\u043c\u0438\n\u043e\u0431'\u0454\u043a\u0442\u0430\u043c\u0438 Apple, \u043c\u0430\u043d\u0456\u043f\u0443\u043b\u044e\u0432\u0430\u043d\u043d\u044f \u0431\u0456\u0431\u043b\u0456\u043e\u0442\u0435\u043a\u043e\u044e JavaScriptCore, \u0430 \u043f\u043e\u0442\u0456\u043c \u0456\u043d\u0456\u0446\u0456\u044e\u0432\u0430\u043d\u043d\u044f\n\u043f\u0456\u0434\u0432\u0438\u0449\u0435\u043d\u043d\u044f \u043f\u0440\u0438\u0432\u0456\u043b\u0435\u0457\u0432, \u043d\u0430\u043f\u0438\u0441\u0430\u043d\u0438\u0445 \u043d\u0430 JavaScript.\n\n\u27a1\ufe0f \u0415\u043a\u0441\u043f\u043b\u043e\u0439\u0442 \u0434\u0443\u0436\u0435 \u0437\u0430\u043f\u043b\u0443\u0442\u0430\u043d\u0438\u0439, \u0432\u043c\u0456\u0449\u0443\u0454\u0442\u044c\u0441\u044f \u0432 11000 \u0440\u044f\u0434\u043a\u0456\u0432 \u043a\u043e\u0434\u0443 (\u0446\u0435 \u0434\u0443\u0436\u0435 \u0431\u0430\u0433\u0430\u0442\u043e).\n\u0412 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u043c\u0443 \u0432\u0456\u043d \u0441\u043f\u0440\u044f\u043c\u043e\u0432\u0430\u043d\u0438\u0439 \u043d\u0430 JavaScriptCore \u0442\u0430 \u043e\u0431\u0440\u043e\u0431\u043a\u0443 \u043e\u0431\u043b\u0430\u0441\u0442\u0435\u0439 \u043f\u0430\u043c'\u044f\u0442\u0456\n\u044f\u0434\u0440\u0430. \u0412\u0456\u043d \u043d\u0430\u0446\u0456\u043b\u0435\u043d\u0438\u0439 \u043d\u0430 \u043d\u0430\u043b\u0430\u0433\u043e\u0434\u0436\u0443\u0432\u0430\u043b\u044c\u043d\u0443 \u0444\u0443\u043d\u043a\u0446\u0456\u044e DollarVM ($vm). \u0412\u0456\u043d \u043c\u0430\u043d\u0456\u043f\u0443\u043b\u044e\u0454\n\u043f\u0430\u043c'\u044f\u0442\u0442\u044e \u0441\u043a\u0440\u0438\u043f\u0442\u0430 \u0442\u0430 \u043e\u0442\u0440\u0438\u043c\u0443\u0454 \u0434\u043e\u0441\u0442\u0443\u043f \u0434\u043e \u043d\u0430\u0442\u0438\u0432\u043d\u0438\u0445 API.\n\n\u27a1\ufe0f \u0412\u0456\u043d \u043c\u0456\u0441\u0442\u0438\u0442\u044c \u043c\u0435\u0445\u0430\u043d\u0456\u0437\u043c \u043e\u0431\u0445\u043e\u0434\u0443 \u043a\u043e\u0434\u0443 \u0430\u0432\u0442\u0435\u043d\u0442\u0438\u0444\u0456\u043a\u0430\u0446\u0456\u0457 \u043f\u043e\u043a\u0430\u0436\u0447\u0438\u043a\u0430 (PAC), \u043d\u0430\u044f\u0432\u043d\u043e\u0433\u043e \u0432\nA12, \u043c\u0435\u0445\u0430\u043d\u0456\u0437\u043c, \u043f\u0440\u0438\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439 \u0434\u043b\u044f \u0437\u0430\u0445\u0438\u0441\u0442\u0443 \u0432\u0456\u0434 \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u0430\u043d\u043d\u044f \u043f\u043e\u0448\u043a\u043e\u0434\u0436\u0435\u043d\u043d\u044f \u043f\u0430\u043c'\u044f\u0442\u0456.\n\n\u27a1\ufe0f \u0412\u0456\u043d \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u043e\u0432\u0443\u0454 \u0446\u0456\u043b\u043e\u0447\u0438\u0441\u0435\u043b\u044c\u043d\u0435 \u043f\u0435\u0440\u0435\u043f\u043e\u0432\u043d\u0435\u043d\u043d\u044f (CVE-2023-32434) \u0443 \u0444\u0443\u043d\u043a\u0446\u0456\u044f\u0445\n\u0432\u0456\u0434\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u043d\u044f \u043f\u0430\u043c'\u044f\u0442\u0456 \u044f\u0434\u0440\u0430 XNU \u0434\u043b\u044f \u0447\u0438\u0442\u0430\u043d\u043d\u044f/\u0437\u0430\u043f\u0438\u0441\u0443 \u0432\u0441\u0456\u0454\u0457 \u0444\u0456\u0437\u0438\u0447\u043d\u043e\u0457 \u043f\u0430\u043c'\u044f\u0442\u0456\n\u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0443 \u0437 \u043f\u0440\u043e\u0441\u0442\u043e\u0440\u0443 \u043a\u043e\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430.\n\n\u27a1\ufe0f \u0412\u0456\u043d \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u043e\u0432\u0443\u0454 \u043d\u0435\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432\u0430\u043d\u0456 \u0440\u0435\u0433\u0456\u0441\u0442\u0440\u0438 \u0437\u0456\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u043d\u044f \u043f\u0430\u043c'\u044f\u0442\u0456 (MMIO) SoC\niPhone, \u0449\u043e\u0431 \u043e\u0431\u0456\u0439\u0442\u0438 \u0440\u0456\u0432\u0435\u043d\u044c \u0437\u0430\u0445\u0438\u0441\u0442\u0443 \u0441\u0442\u043e\u0440\u0456\u043d\u043e\u043a (PPL) CVE-2023-38606. \u0426\u0435\u0439 \u043c\u0435\u0445\u0430\u043d\u0456\u0437\u043c\n\u0437\u0430\u043f\u043e\u0431\u0456\u0433\u0430\u0454 \u0437\u043c\u0456\u043d\u0456 \u0441\u0442\u043e\u0440\u0456\u043d\u043e\u043a \u043f\u0430\u043c'\u044f\u0442\u0456 \u043f\u0456\u0441\u043b\u044f \u0457\u0445 \u043f\u0456\u0434\u043f\u0438\u0441\u0430\u043d\u043d\u044f.\n\n\u27a1\ufe0f \u0415\u043a\u0441\u043f\u043b\u043e\u0439\u0442 JavaScript \u043e\u0442\u0440\u0438\u043c\u0443\u0454 \u043f\u043e\u0432\u043d\u0438\u0439 \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c \u043d\u0430\u0434 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u043e\u043c. \u041d\u0430\u043f\u0430\u0434\u043d\u0438\u043a\n\u0437\u0430\u043f\u0443\u0441\u043a\u0430\u0454:  \n(1) \u041f\u0440\u043e\u0446\u0435\u0441, \u044f\u043a\u0438\u0439 \u043e\u0447\u0438\u0449\u0430\u0454 \u0432\u0441\u0456 \u0441\u043b\u0456\u0434\u0438 \u043d\u0430 \u043f\u0440\u0438\u0441\u0442\u0440\u043e\u0457 (\u0437\u043e\u043a\u0440\u0435\u043c\u0430 PDF-\u0444\u0430\u0439\u043b)  \n(2) \u0411\u0440\u0430\u0443\u0437\u0435\u0440 Safari \u043d\u0435\u0432\u0438\u0434\u0438\u043c\u0438\u0439 \u043d\u0430 \u0432\u0438\u0431\u0440\u0430\u043d\u0456\u0439 \u0432\u0430\u043c\u0438 \u0432\u0435\u0431\u0441\u0442\u043e\u0440\u0456\u043d\u0446\u0456\n\n\u27a1\ufe0f \u0412\u0435\u0431-\u0441\u0442\u043e\u0440\u0456\u043d\u043a\u0430 \u043c\u0430\u0454 JavaScript, \u0432\u0431\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u0439 \u0443 JavaScript, \u044f\u043a\u0438\u0439 \u0437\u0430\u043f\u0443\u0441\u043a\u0430\u0454 \u043a\u0443\u043f\u0443\n\u0434\u043e\u0434\u0430\u0442\u043a\u043e\u0432\u0438\u0445 \u0435\u043b\u0435\u043c\u0435\u043d\u0442\u0456\u0432 \u043a\u0435\u0440\u0443\u0432\u0430\u043d\u043d\u044f \u043d\u0430 \u043f\u0440\u0438\u0441\u0442\u0440\u043e\u0457 \u043f\u0435\u0440\u0435\u0434 \u0437\u0430\u043f\u0443\u0441\u043a\u043e\u043c \u0435\u043a\u0441\u043f\u043b\u043e\u0439\u0442\u0430,\n\u043d\u0430\u0446\u0456\u043b\u0435\u043d\u043e\u0433\u043e \u043d\u0430 Safari.\n\n\u27a1\ufe0f \u0415\u043a\u0441\u043f\u043b\u043e\u0439\u0442 \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u043e\u0432\u0443\u0454 \u0432\u0440\u0430\u0437\u043b\u0438\u0432\u0456\u0441\u0442\u044c CVE-2023-32435, \u0430 \u043f\u043e\u0442\u0456\u043c \u0437\u0430\u043f\u0443\u0441\u043a\u0430\u0454 \u0441\u0432\u043e\u0454\n\u043a\u043e\u0440\u0438\u0441\u043d\u0435 \u043d\u0430\u0432\u0430\u043d\u0442\u0430\u0436\u0435\u043d\u043d\u044f\n\n\u27a1\ufe0f \u041a\u043e\u0440\u0438\u0441\u043d\u0435 \u043d\u0430\u0432\u0430\u043d\u0442\u0430\u0436\u0435\u043d\u043d\u044f \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u043e \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u043e\u0432\u0443\u0454 \u0432\u0440\u0430\u0437\u043b\u0438\u0432\u043e\u0441\u0442\u0456 CVE-2023-32434 \u0456\nCVE-2023-38606, \u0430\u043b\u0435 \u0431\u0435\u0437\u043f\u043e\u0441\u0435\u0440\u0435\u0434\u043d\u044c\u043e \u0437 \u043e\u0431'\u0454\u043a\u0442\u0430 \u044f\u0434\u0440\u0430 (Mach). \u0422\u043e\u0439 \u0436\u0435 \u043f\u0440\u0438\u043d\u0446\u0438\u043f,\n\u0440\u043e\u0437\u0431\u0456\u0440 \u043f\u0430\u043c'\u044f\u0442\u0456 \u0456 \u0442\u043e\u0442\u0430\u043b\u044c\u043d\u0430 \u043a\u043e\u043c\u043f\u0440\u043e\u043c\u0435\u0442\u0430\u0446\u0456\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0438 \u0432 \u043a\u0456\u043d\u0446\u0435\u0432\u043e\u043c\u0443 \u043f\u0456\u0434\u0441\u0443\u043c\u043a\u0443.\n\n\u27a1\ufe0f \u0417\u043b\u043e\u0432\u043c\u0438\u0441\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u043d\u0442\u0430\u0436\u0443\u0454 \u0442\u0430 \u0432\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u044e\u0454 \u0441\u0432\u0456\u0439 \u0440\u0443\u0442\u043a\u0456\u0442.\n\n\ud83d\udcb0\u0412\u0430\u0436\u043b\u0438\u0432\u0456 \u043e\u0441\u043e\u0431\u043b\u0438\u0432\u043e\u0441\u0442\u0456:  \n\u2714\ufe0f 0 \u043a\u043b\u0456\u043a\u0456\u0432: \u0436\u043e\u0434\u043d\u0438\u0445 \u0434\u0456\u0439 \u0437\u0431\u043e\u043a\u0443 \u0432\u043b\u0430\u0441\u043d\u0438\u043a\u0430  \n\u2714\ufe0f \u0415\u043a\u0441\u043f\u043b\u0443\u0430\u0442\u0443\u044e\u0442\u044c\u0441\u044f 4 \u0432\u0440\u0430\u0437\u043b\u0438\u0432\u043e\u0441\u0442\u0456 \u043d\u0443\u043b\u044c\u043e\u0432\u043e\u0433\u043e \u0434\u043d\u044f (0-Zero-Day), \u044f\u043a\u0456 \u0449\u0435 \u043d\u0435 \u0431\u0443\u043b\u0438\n\u0432\u0438\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0456 \u0432\u0438\u0440\u043e\u0431\u043d\u0438\u043a\u043e\u043c, \u0432\u043a\u043b\u044e\u0447\u0430\u044e\u0447\u0438 \u043d\u0435\u043f\u0443\u0431\u043b\u0456\u0447\u043d\u0456 \u0444\u0443\u043d\u043a\u0446\u0456\u0457, \u044f\u043a\u0456 \u043d\u0430 100% \u043f\u0440\u0430\u0446\u044e\u044e\u0442\u044c \u0437\n\u043e\u0431\u0445\u043e\u0434\u043e\u043c PAC \u0456 PPL  \n\u2714\ufe0f \u041f\u0440\u0430\u0446\u044e\u0454 \u0434\u043e \u0432\u0435\u0440\u0441\u0456\u0457 iOS 16.2  \n\u2714\ufe0f \u0412\u0430\u0440\u0442\u0456\u0441\u0442\u044c \u0435\u043a\u0441\u043f\u043b\u043e\u0439\u0442\u0443: $5 \u043c\u043b\u043d\n\n[#exploitation](https://infosec.exchange/tags/exploitation)\n[#imessage](https://infosec.exchange/tags/imessage)\n[#iphone](https://infosec.exchange/tags/iphone)\n[#hacking](https://infosec.exchange/tags/hacking)\n[#ios](https://infosec.exchange/tags/ios)\n[#ios16](https://infosec.exchange/tags/ios16)\n[#malware](https://infosec.exchange/tags/malware)\n[#ransomware](https://infosec.exchange/tags/ransomware)\n[#exploit](https://infosec.exchange/tags/exploit)\n[#mobilesecurity](https://infosec.exchange/tags/mobilesecurity)\n[#infosec](https://infosec.exchange/tags/infosec)\n[#cybersecurity](https://infosec.exchange/tags/cybersecurity)\n[#phones](https://infosec.exchange/tags/phones)\n[#messengers](https://infosec.exchange/tags/messengers)\n[#rootkit](https://infosec.exchange/tags/rootkit)\n\n",
+        "created_at": "2023-12-28T12:15:23.000Z"
+      },
+      {
+        "account": {
+          "id": "110787142161284615",
+          "username": "simontsui",
+          "acct": "simontsui@infosec.exchange",
+          "display_name": "Simon",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "group": false,
+          "created_at": "2023-07-17T00:00:00.000Z",
+          "note": "<p>Current open-source cyber threat intelligence, critical vulnerabilities, zero-days, proofs of concept, cybercrime/cyberespionage, threat actors/APTs, IOCs, and other cybersecurity and intelligence news.</p>",
+          "url": "https://infosec.exchange/@simontsui",
+          "uri": "https://infosec.exchange/users/simontsui",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/787/142/161/284/615/original/a2e44f6d03248ef0.png",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/787/142/161/284/615/original/eae9d78d20609961.png",
+          "followers_count": 467,
+          "following_count": 49,
+          "statuses_count": 1589,
+          "last_status_at": "2024-01-09",
+          "emojis": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@simontsui/111652862918439389",
+        "content": "\n\n **Kaspersky** published technical details of exploits and vulnerabilities\nthat were used in Operation Triangulation. The 0-click iMessage attack used\nfour zero-days and was designed to work on iOS versions up to iOS 16.2.\n\n  * CVE-2023-41990: A vulnerability in the ADJUST TrueType font instruction allowing remote code execution through a malicious iMessage attachment.\n  * CVE-2023-32434: An integer overflow issue in XNU's memory mapping syscalls, granting attackers extensive read/write access to the device's physical memory.\n  * CVE-2023-32435: Used in the Safari exploit to execute shellcode as part of the multi-stage attack.\n  * CVE-2023-38606: A vulnerability using hardware MMIO registers to bypass the Page Protection Layer (PPL), overriding hardware-based security protections.\n\n\ud83d\udd17 [https://securelist.com/operation-triangulation-the-last-hardware-\nmystery/111669/](https://securelist.com/operation-triangulation-the-last-\nhardware-mystery/111669/) and\n[https://www.bleepingcomputer.com/news/security/iphone-triangulation-attack-\nabused-undocumented-hardware-\nfeature/](https://www.bleepingcomputer.com/news/security/iphone-triangulation-\nattack-abused-undocumented-hardware-feature/)\n\n",
+        "created_at": "2023-12-27T14:31:23.000Z"
+      }
+    ],
+    "description": "A memory corruption issue was addressed with improved state management. This issue is fixed in macOS Ventura 13.3, Safari 16.4, iOS 16.4 and iPadOS 16.4, iOS 15.7.7 and iPadOS 15.7.7. Processing web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited against versions of iOS released before iOS 15.7.",
+    "epss": 0.1
   },
   "CVE-2022-30190": {
     "cvss3": 7.8,
