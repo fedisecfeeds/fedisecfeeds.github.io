@@ -161,7 +161,7 @@
 
 
 <body>
-Updated at UTC 2024-01-09T15:37:20.494211
+Updated at UTC 2024-01-09T16:15:36.463213
 
 <p><a target=_blank href=https://github.com/fedisecfeeds/fedisecfeeds.github.io/blob/main/fedi_cve_feed.json>Access data as JSON</a></p>
 
@@ -813,6 +813,24 @@ handshake.</td>
 
 		
 		<tr>
+			<td><a class="HIGH" href="#CVE-2023-33063">CVE-2023-33063</a></td>
+
+			<td class=HIGH> 7.8 </td>
+
+			
+				<td class=LOW>0.06%</td>
+			
+
+			<td>2</td>
+			
+				<td>Memory corruption in DSP Services during a remote call from HLOS to DSP.</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
 			<td><a class="HIGH" href="#CVE-2023-33106">CVE-2023-33106</a></td>
 
 			<td class=HIGH> 7.8 </td>
@@ -842,24 +860,6 @@ handshake.</td>
 			<td>2</td>
 			
 				<td>Memory corruption in Graphics Linux while assigning shared virtual memory region</td>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<td><a class="HIGH" href="#CVE-2023-33063">CVE-2023-33063</a></td>
-
-			<td class=HIGH> 7.8 </td>
-
-			
-				<td class=LOW>0.06%</td>
-			
-
-			<td>2</td>
-			
-				<td>Memory corruption in DSP Services during a remote call from HLOS to DSP.</td>
 			
 
 		</tr>
@@ -1047,6 +1047,24 @@ handshake.</td>
 
 		
 		<tr>
+			<td><a class="None" href="#CVE-2024-46188">CVE-2024-46188</a></td>
+
+			<td class=None> 0 </td>
+
+			
+				<td class=None>0.00%</td>
+			
+
+			<td>4</td>
+			
+				<td>N/A</td>
+			
+
+		</tr>
+
+
+		
+		<tr>
 			<td><a class="CRITICAL" href="#CVE-2023-39336">CVE-2023-39336</a></td>
 
 			<td class=CRITICAL> 9.6 </td>
@@ -1058,24 +1076,6 @@ handshake.</td>
 			<td>14</td>
 			
 				<td>An unspecified SQL Injection vulnerability in Ivanti Endpoint Manager released p</td>
-			
-
-		</tr>
-
-
-		
-		<tr>
-			<td><a class="None" href="#CVE-2024-46188">CVE-2024-46188</a></td>
-
-			<td class=None> 0 </td>
-
-			
-				<td class=None>0.00%</td>
-			
-
-			<td>2</td>
-			
-				<td>N/A</td>
 			
 
 		</tr>
@@ -5374,6 +5374,94 @@ advisories/icsa-24-004-01)
 	</div>
 	
 
+	<div class="cve" id="CVE-2023-33063">
+
+			
+		
+		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-33063>CVE-2023-33063</a><br>(7.8 HIGH)</h3>
+		
+
+		
+		<h4 class=epss>EPSS: 0.06%</h4>
+		
+
+		<p class=numposts>2 posts</p>
+
+		<p class=description>
+		 
+		 		<th>Memory corruption in DSP Services during a remote call from HLOS to DSP.</th>
+		 	
+
+		</p>
+		
+		
+
+		<div class="posts">
+
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111652726621557161>at 2023-12-27T13:56:43.773Z</a>
+<md-block>
+
+
+This wasn't advertised on Mastodon, but **Google Project Zero** published root
+cause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds
+write, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer
+overflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as
+exploited zero-days.  
+🔗 [https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-33106.html) and
+[https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-33107.html)
+
+Note for [@maddiestone](https://infosec.exchange/@maddiestone):
+[https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to
+CVE-2023-33063 in the [0day "in the
+Wild"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)
+Google Sheet.
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111652726621557161>at 2023-12-27T13:56:43.000Z</a>
+<md-block>
+
+
+This wasn't advertised on Mastodon, but **Google Project Zero** published root
+cause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds
+write, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer
+overflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as
+exploited zero-days.  
+🔗 [https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-33106.html) and
+[https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-33107.html)
+
+Note for [@maddiestone](https://infosec.exchange/@maddiestone):
+[https://googleprojectzero.github.io/0days-in-the-wild//0day-
+RCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-
+the-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to
+CVE-2023-33063 in the [0day "in the
+Wild"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)
+Google Sheet.
+
+
+</md-block>
+			<hr>
+			
+
+		</div>
+	</div>
+	
+
 	<div class="cve" id="CVE-2023-33106">
 
 			
@@ -5478,94 +5566,6 @@ Google Sheet.
 		<p class=description>
 		 
 		 		<th>Memory corruption in Graphics Linux while assigning shared virtual memory region during IOCTL call.</th>
-		 	
-
-		</p>
-		
-		
-
-		<div class="posts">
-
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111652726621557161>at 2023-12-27T13:56:43.773Z</a>
-<md-block>
-
-
-This wasn't advertised on Mastodon, but **Google Project Zero** published root
-cause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds
-write, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer
-overflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as
-exploited zero-days.  
-🔗 [https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-33106.html) and
-[https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-33107.html)
-
-Note for [@maddiestone](https://infosec.exchange/@maddiestone):
-[https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to
-CVE-2023-33063 in the [0day "in the
-Wild"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)
-Google Sheet.
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://infosec.exchange/@simontsui>simontsui@infosec.exchange</a>
-				<a class=posturl target=_blank href=https://infosec.exchange/@simontsui/111652726621557161>at 2023-12-27T13:56:43.000Z</a>
-<md-block>
-
-
-This wasn't advertised on Mastodon, but **Google Project Zero** published root
-cause analyses (RCA) for CVE-2023-33106 (Qualcomm Adreno GPU out of bounds
-write, 8.4 high severity) and CVE-2023-33107 (Qualcomm Adreno integer
-overflow, 8.4 high). They were disclosed 02 October 2023 by Qualcomm as
-exploited zero-days.  
-🔗 [https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-33106.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-33106.html) and
-[https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-33107.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-33107.html)
-
-Note for [@maddiestone](https://infosec.exchange/@maddiestone):
-[https://googleprojectzero.github.io/0days-in-the-wild//0day-
-RCAs/2023/CVE-2023-36033.html](https://googleprojectzero.github.io/0days-in-
-the-wild//0day-RCAs/2023/CVE-2023-36033.html) was incorrectly linked to
-CVE-2023-33063 in the [0day "in the
-Wild"](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1746868651)
-Google Sheet.
-
-
-</md-block>
-			<hr>
-			
-
-		</div>
-	</div>
-	
-
-	<div class="cve" id="CVE-2023-33063">
-
-			
-		
-		<h3 class=HIGH><a class="HIGH" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2023-33063>CVE-2023-33063</a><br>(7.8 HIGH)</h3>
-		
-
-		
-		<h4 class=epss>EPSS: 0.06%</h4>
-		
-
-		<p class=numposts>2 posts</p>
-
-		<p class=description>
-		 
-		 		<th>Memory corruption in DSP Services during a remote call from HLOS to DSP.</th>
 		 	
 
 		</p>
@@ -6422,6 +6422,167 @@ crack-bitwarden-password-vault-bypassing-biometrics)
 	</div>
 	
 
+	<div class="cve" id="CVE-2024-46188">
+
+			
+		
+		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2024-46188>CVE-2024-46188</a><br>(0 None)</h3>
+		
+
+		
+		<h4 class=epss>EPSS: 0.00%</h4>
+		
+
+		<p class=numposts>4 posts</p>
+
+		<p class=description>
+		 
+		 		<th>N/A</th>
+		 	
+
+		</p>
+		
+		
+
+		<div class="posts">
+
+			
+				<a target=_blank href=https://infosec.exchange/@nbwpuk>nbwpuk</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@nbwpuk/111726766656535694>at 2024-01-09T15:46:05.049Z</a>
+<md-block>
+
+
+Important Security Notice: WordPress administrators being actively targeted
+with phishing campaign
+
+It has come to our attention that a fraudulent phishing campaign is actively
+targeting administrators of WordPress websites.
+
+The attackers are sending emails with the subject line "URGENT: Vulnerability
+found - Your website [DOMAIN] is at risk!" The email claims to be from the
+WordPress Security Team and insists on addressing a critical Remote Code
+Execution (RCE) vulnerability affecting your website. It urges users to
+download a plugin labelled as "CVE-2024-46188 Patch" to mitigate the alleged
+threat.
+
+READ MORE: [https://encode.host/announcements/64/Important-Security-Notice-
+WordPress-administrators-being-actively-targeted-with-phishing-
+campaign.html](https://encode.host/announcements/64/Important-Security-Notice-
+WordPress-administrators-being-actively-targeted-with-phishing-campaign.html)
+
+[#WordPress](https://infosec.exchange/tags/WordPress)
+[#security](https://infosec.exchange/tags/security)
+[#malware](https://infosec.exchange/tags/malware)
+[#phishing](https://infosec.exchange/tags/phishing)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://jamez.it/blog/author/jamez/>jamez@jamez.it</a>
+				<a class=posturl target=_blank href=https://jamez.it/blog/2024/01/05/phishing-malware-attack-wordpress-patch-cve-2024-46188/>at 2024-01-05T18:23:34.000Z</a>
+<md-block>
+
+
+I’ve received this email:
+
+[[🖼 jamez.it/blog/wp-content/uploa…]](https://jamez.it/blog/wp-
+content/uploads/2024/01/image.png)
+
+If you follow the link to phishing URL https://us.en-
+wordpress.org/plugins/cve-2024-46188/, download the file, and analyze the
+code, you immediately realize that this plugin is malicious and does the
+following:
+
+  * it creates an admin user, where the username is a function of the website URL on which the plugin is installed, and the password is deterministic (E5rLDmno9F), although obtained by shuffling a string;
+  * it makes that user unsearchable from the WP interface;
+  * it makes the plugin unsearchable from the WP interface;
+  * it pings home (https://defcve.com/wpapi?siteurl=, again some shuffling happens to hide this) to let the scammers know when someone “bites”;
+  * it downloads [P.A.S. fork](https://github.com/cr1f/P.A.S.-Fork/tree/main) from home and saves it to disk.
+
+Pretending to be the Red Cross to perform a sneak attack is one of the vilest
+things a human being can do. Stay safe, kids, always be paranoid and never
+trust a famous logo.
+
+[#macro](https://jamez.it/blog/tag/macro/)
+[#malware](https://jamez.it/blog/tag/malware/)
+[#phishing](https://jamez.it/blog/tag/phishing/)
+[#scam](https://jamez.it/blog/tag/scam/)
+[#WordPress](https://jamez.it/blog/tag/wordpress/)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://infosec.exchange/@nbwpuk>nbwpuk@infosec.exchange</a>
+				<a class=posturl target=_blank href=https://infosec.exchange/@nbwpuk/111726766656535694>at 2024-01-09T15:46:05.000Z</a>
+<md-block>
+
+
+Important Security Notice: WordPress administrators being actively targeted
+with phishing campaign
+
+It has come to our attention that a fraudulent phishing campaign is actively
+targeting administrators of WordPress websites.
+
+The attackers are sending emails with the subject line "URGENT: Vulnerability
+found - Your website [DOMAIN] is at risk!" The email claims to be from the
+WordPress Security Team and insists on addressing a critical Remote Code
+Execution (RCE) vulnerability affecting your website. It urges users to
+download a plugin labelled as "CVE-2024-46188 Patch" to mitigate the alleged
+threat.
+
+READ MORE: [https://encode.host/announcements/64/Important-Security-Notice-
+WordPress-administrators-being-actively-targeted-with-phishing-
+campaign.html](https://encode.host/announcements/64/Important-Security-Notice-
+WordPress-administrators-being-actively-targeted-with-phishing-campaign.html)
+
+[#WordPress](https://infosec.exchange/tags/WordPress)
+[#security](https://infosec.exchange/tags/security)
+[#malware](https://infosec.exchange/tags/malware)
+[#phishing](https://infosec.exchange/tags/phishing)
+
+
+</md-block>
+			<hr>
+			
+				<a target=_blank href=https://jamez.it/blog/author/jamez/>jamez@jamez.it</a>
+				<a class=posturl target=_blank href=https://jamez.it/blog/2024/01/05/phishing-malware-attack-wordpress-patch-cve-2024-46188/>at 2024-01-05T18:23:34.000Z</a>
+<md-block>
+
+
+I’ve received this email:
+
+If you follow the link to phishing URL https://us.en-
+wordpress.org/plugins/cve-2024-46188/, download the file, and analyze the
+code, you immediately realize that this plugin is malicious and does the
+following:
+
+  * it creates an admin user, where the username is a function of the website URL on which the plugin is installed, and the password is deterministic (E5rLDmno9F), although obtained by shuffling a string;
+  * it makes that user unsearchable from the WP interface;
+  * it makes the plugin unsearchable from the WP interface;
+  * it pings home (https://defcve.com/wpapi?siteurl=, again some shuffling happens to hide this) to let the scammers know when someone “bites”;
+  * it downloads [P.A.S. fork](https://github.com/cr1f/P.A.S.-Fork/tree/main) from home and saves it to disk.
+
+Pretending to be the Red Cross to perform a sneak attack is one of the vilest
+things a human being can do. Stay safe, kids, always be paranoid and never
+trust a famous logo.
+
+[#macro](https://jamez.it/blog/tag/macro/)
+[#malware](https://jamez.it/blog/tag/malware/)
+[#phishing](https://jamez.it/blog/tag/phishing/)
+[#scam](https://jamez.it/blog/tag/scam/)
+[#WordPress](https://jamez.it/blog/tag/wordpress/)
+
+
+</md-block>
+			<hr>
+			
+
+		</div>
+	</div>
+	
+
 	<div class="cve" id="CVE-2023-39336">
 
 			
@@ -6760,103 +6921,6 @@ on the core server._ Fixed in version 2022 Service Update 5. Not exploited.
 [https://forums.ivanti.com/s/article/SA-2023-12-19-CVE-2023-39336?language=en_US](https://forums.ivanti.com/s/article/SA-2023-12-19-CVE-2023-39336?language=en_US)
 See blog [https://www.ivanti.com/blog/security-update-for-ivanti-
 epm](https://www.ivanti.com/blog/security-update-for-ivanti-epm)
-
-
-</md-block>
-			<hr>
-			
-
-		</div>
-	</div>
-	
-
-	<div class="cve" id="CVE-2024-46188">
-
-			
-		
-		<h3 class=None><a class="None" target=_blank href=https://nvd.nist.gov/vuln/detail/CVE-2024-46188>CVE-2024-46188</a><br>(0 None)</h3>
-		
-
-		
-		<h4 class=epss>EPSS: 0.00%</h4>
-		
-
-		<p class=numposts>2 posts</p>
-
-		<p class=description>
-		 
-		 		<th>N/A</th>
-		 	
-
-		</p>
-		
-		
-
-		<div class="posts">
-
-			
-				<a target=_blank href=https://jamez.it/blog/author/jamez/>jamez@jamez.it</a>
-				<a class=posturl target=_blank href=https://jamez.it/blog/2024/01/05/phishing-malware-attack-wordpress-patch-cve-2024-46188/>at 2024-01-05T18:23:34.000Z</a>
-<md-block>
-
-
-I’ve received this email:
-
-[[🖼 jamez.it/blog/wp-content/uploa…]](https://jamez.it/blog/wp-
-content/uploads/2024/01/image.png)
-
-If you follow the link to phishing URL https://us.en-
-wordpress.org/plugins/cve-2024-46188/, download the file, and analyze the
-code, you immediately realize that this plugin is malicious and does the
-following:
-
-  * it creates an admin user, where the username is a function of the website URL on which the plugin is installed, and the password is deterministic (E5rLDmno9F), although obtained by shuffling a string;
-  * it makes that user unsearchable from the WP interface;
-  * it makes the plugin unsearchable from the WP interface;
-  * it pings home (https://defcve.com/wpapi?siteurl=, again some shuffling happens to hide this) to let the scammers know when someone “bites”;
-  * it downloads [P.A.S. fork](https://github.com/cr1f/P.A.S.-Fork/tree/main) from home and saves it to disk.
-
-Pretending to be the Red Cross to perform a sneak attack is one of the vilest
-things a human being can do. Stay safe, kids, always be paranoid and never
-trust a famous logo.
-
-[#macro](https://jamez.it/blog/tag/macro/)
-[#malware](https://jamez.it/blog/tag/malware/)
-[#phishing](https://jamez.it/blog/tag/phishing/)
-[#scam](https://jamez.it/blog/tag/scam/)
-[#WordPress](https://jamez.it/blog/tag/wordpress/)
-
-
-</md-block>
-			<hr>
-			
-				<a target=_blank href=https://jamez.it/blog/author/jamez/>jamez@jamez.it</a>
-				<a class=posturl target=_blank href=https://jamez.it/blog/2024/01/05/phishing-malware-attack-wordpress-patch-cve-2024-46188/>at 2024-01-05T18:23:34.000Z</a>
-<md-block>
-
-
-I’ve received this email:
-
-If you follow the link to phishing URL https://us.en-
-wordpress.org/plugins/cve-2024-46188/, download the file, and analyze the
-code, you immediately realize that this plugin is malicious and does the
-following:
-
-  * it creates an admin user, where the username is a function of the website URL on which the plugin is installed, and the password is deterministic (E5rLDmno9F), although obtained by shuffling a string;
-  * it makes that user unsearchable from the WP interface;
-  * it makes the plugin unsearchable from the WP interface;
-  * it pings home (https://defcve.com/wpapi?siteurl=, again some shuffling happens to hide this) to let the scammers know when someone “bites”;
-  * it downloads [P.A.S. fork](https://github.com/cr1f/P.A.S.-Fork/tree/main) from home and saves it to disk.
-
-Pretending to be the Red Cross to perform a sneak attack is one of the vilest
-things a human being can do. Stay safe, kids, always be paranoid and never
-trust a famous logo.
-
-[#macro](https://jamez.it/blog/tag/macro/)
-[#malware](https://jamez.it/blog/tag/malware/)
-[#phishing](https://jamez.it/blog/tag/phishing/)
-[#scam](https://jamez.it/blog/tag/scam/)
-[#WordPress](https://jamez.it/blog/tag/wordpress/)
 
 
 </md-block>
