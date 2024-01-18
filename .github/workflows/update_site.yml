@@ -27,6 +27,7 @@ jobs:
       env:
         IFSX_AUTH_TOKEN: ${{ secrets.IFSX_AUTH_TOKEN }}
         IOCX_AUTH_TOKEN: ${{ secrets.IOCX_AUTH_TOKEN }}
+        GITHUB_TOKEN: ${{ github.token }}
 
     - name: Push new data to site
       run: | 
