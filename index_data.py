@@ -16,6 +16,13 @@ IFSX_AUTH_TOKEN = os.getenv("IFSX_AUTH_TOKEN")
 #ioc.exchange
 IOCX_AUTH_TOKEN = os.getenv("IOCX_AUTH_TOKEN")
 
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+
+TESTMODE = os.getenv("TESTMODE") # for dev only
+
+if TESTMODE:
+	print("TESTMODE enabled")
+
 CVE_PATTERN = r'(?i)\bcve\-\d{4}-\d{4,7}'
 
 start = time.time()
@@ -71,19 +78,6 @@ def nvd_cve_detail(cve):
 		return None
 	else:
 		return r.json()
-	
-def cveapi_cve_detail(cve):
-	'''
-	use cveapi.com
-	'''
-	url = f'https://v1.cveapi.com/{cve}.json'
-	r = requests.get(url)
-	if r.status_code != 200:
-		print(f"WARN: bad cveapi status for {cve}", r.status_code, r.text[:100])
-		return None
-	else:
-		return r.json()
-
 
 
 def first_epss_for_cves_list(cves):
@@ -106,6 +100,32 @@ def get_hashtag_timeline(instance_url, hashtag, auth_token=None, limit=10):
 	if r.status_code != 200:
 		print(f"WARN: {instance_url} get_hashtag_timeline api status", r.status_code, r.text)
 	return r.json()
+
+def get_github_repos(cve):
+
+	github_repos = set() # use set to dedup; cast this back to a list later
+
+	# search generically, without "in:.."
+	# > When you omit this qualifier, only the repository name, description, and topics are searched.
+	# in:readme sucks and returns false positives instead of actual PoCs
+	url = f'https://api.github.com/search/repositories?q={cve}&per_page=100'
+	headers = {'Accept':'application/vnd.github+json', 'Authorization': f'Bearer {GITHUB_TOKEN}', 'X-GitHub-Api-Version': '2022-11-28'}
+	r = requests.get(url, headers=headers)
+
+	if r.status_code != 200:
+		print("ERROR bad status code:", r.status_code, r.text)
+		return ['search error']
+
+	for d in r.json()['items']:
+		github_repos.add(d['html_url'])
+
+	return list(github_repos)
+
+
+
+
+
+
 
 
 def search_poll(instance_url, q, search_type='hashtags', auth_token=None, last_days=14):
@@ -195,6 +215,10 @@ def main():
 
 
 	print(f"total {len(cve_posts)} CVEs")
+	if TESTMODE:
+		print("TESTMODE, limiting number of results..")
+		cve_posts = dict([(key, cve_posts[key]) for key in list(cve_posts.keys())[:3]+list(cve_posts.keys())[-2:]])
+
 
 	# get epss data
 	print('getting EPSS data..')
@@ -211,21 +235,17 @@ def main():
 	lstart = time.time()
 	cve_details = {}
 	for cve in cve_posts:
-		cve_data = cveapi_cve_detail(cve)
-		if cve_data == None:
-			# might need to try nvd
-			print(f"cveapi doesn't have {cve}, trying nvd")
-			try:
-				cve_data = nvd_cve_detail(cve) # cveapi_cve_detail(cve)
-				time.sleep(5.8)
-				if cve_data:
-					if cve_data['totalResults'] > 0:
-						cve_data = cve_data['vulnerabilities'][0]
-					else:
-						cve_data = None
-			except Exception as e:
-				print("Exception trying to get cve details:", e)
-				cve_data = None
+		cve_data = None
+		try:
+			cve_data = nvd_cve_detail(cve)
+			time.sleep(5.8)
+			if cve_data:
+				if cve_data['totalResults'] > 0:
+					cve_data = cve_data['vulnerabilities'][0]
+				else:
+					cve_data = None
+		except Exception as e:
+			print("Exception trying to get cve details:", e)
 
 		if cve_data != None:
 			cve_details[cve] = cve_data
@@ -237,6 +257,16 @@ def main():
 	fedi_cve_feed = {} #cve:...
 
 	print("done getting CVE details:", time.time()-lstart)
+
+	print("getting github repos..")
+	cve_repos = {} # cve:[repo_urls]
+	lstart = time.time()
+	for cve in cve_posts:
+		github_repos = get_github_repos(cve)
+		cve_repos[cve] = github_repos
+	print("done getting github repos:", time.time()-lstart)
+
+
 	for cve in cve_posts:
 		fedi_cve_feed[cve] = {}
 		fedi_cve_feed[cve]['cvss3'] = 0
@@ -245,6 +275,7 @@ def main():
 		fedi_cve_feed[cve]['epss_severity'] = None
 		fedi_cve_feed[cve]['posts'] = []
 		fedi_cve_feed[cve]['description'] = "N/A"
+		fedi_cve_feed[cve]['repos'] = cve_repos[cve]
 
 		for d in epss_data:
 			if d['cve'] == cve:

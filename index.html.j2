@@ -5,10 +5,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>FediSecfeeds</title>
 	<script type="module" src="js/md-block.js"></script>
-	<!--
-	<script src="js/bootstrap.bundle.min.js"></script> 
-	<link href="css/bootstrap.min.css">
-	-->
 	<style type="text/css">
 	
 	body {
@@ -20,6 +16,10 @@
 
 	a {
 		color: #07edf9;
+	}
+
+	a.repo {
+		color: #ff7bf7;
 	}
 
 	#cves {
@@ -46,8 +46,18 @@
 	  display:flex;
 	  flex-direction: column;
 	  padding: 0.3em;
+
 /*	  align-items:center;*/
 /*	  justify-content:center;*/
+	}
+
+	div.cveheader {
+/*		height: 50%;*/
+		min-height: 30%;
+		overflow: scroll;
+		border-bottom: 1px solid white;
+/*		height: 15vw;*/
+/*		padding*/
 	}
 
 
@@ -66,8 +76,7 @@
 		  
 		}
 
-	  	div.cve {
-		  
+	  div.cve {
 		  width: 80vw;
 		  height: 80vw;
 		  border: 2px solid #36c183;
@@ -81,6 +90,8 @@
 	}
 
 	div.posts {
+		min-height: 30%;
+		height: 60%;
 		counter-increment:divs;
 		overflow: scroll;
 		color: white;
@@ -116,8 +127,8 @@
 	}
 
 	p.description {
-		font-size: 10px;
-		border-bottom: 1px solid white;
+		font-size: 11px;
+/*		border-bottom: 1px solid white;*/
 		padding-bottom: 0.5em;
 		margin-top: 0.2em;
 /*		margin-bottom: 0.2em;*/
@@ -172,7 +183,8 @@ Updated at UTC {{ updated }}
 		    <th onclick="sortTable(1)">CVSS</th>
 		    <th onclick="sortTable(2)">EPSS</th>
 		    <th onclick="sortTable(3)">Posts</th>
-		    <th onclick="sortTable(4)">Description</th>
+		    <th onclick="sortTable(4)">Repos</th>
+		    <th onclick="sortTable(5)">Description</th>
 		</tr>
 
 		{% for cve in data %}
@@ -188,6 +200,7 @@ Updated at UTC {{ updated }}
 			{% endif %}
 
 			<td>{{ data[cve]['posts']|length  }}</td>
+			<td>{{ data[cve]['repos']|length  }}</td>
 			{% if data[cve]['description'] %}
 				<td>{{ data[cve]['description'][0:80] }}</td>
 			{% else %}
@@ -206,29 +219,39 @@ Updated at UTC {{ updated }}
 {% for cve in data %}
 	<div class="cve" id="{{cve}}">
 
+		<div class='cveheader'>
 			
-		{% if data[cve]['cvss3'] != None %}
-		<h3 class={{ data[cve]['severity'] }}><a class="{{ data[cve]['severity'] }}" target=_blank href=https://nvd.nist.gov/vuln/detail/{{ cve }}>{{ cve }}</a><br>({{ data[cve]['cvss3'] }} {{ data[cve]['severity'] }})</h3>
-		{% else %}
-		<h3 class="UNKNOWN"><a a class="UNKNOWN" target=_blank href=https://nvd.nist.gov/vuln/detail/{{ cve }}>{{ cve }}</a><span class="UNKNOWN cvss">(CVSS UNKNOWN)</span></h3>
-		{% endif %}
+			
+			{% if data[cve]['cvss3'] != None %}
+			<h3 class={{ data[cve]['severity'] }}><a class="{{ data[cve]['severity'] }}" target=_blank href=https://nvd.nist.gov/vuln/detail/{{ cve }}>{{ cve }}</a><br>({{ data[cve]['cvss3'] }} {{ data[cve]['severity'] }})</h3>
+			{% else %}
+			<h3 class="UNKNOWN"><a a class="UNKNOWN" target=_blank href=https://nvd.nist.gov/vuln/detail/{{ cve }}>{{ cve }}</a><span class="UNKNOWN cvss">(CVSS UNKNOWN)</span></h3>
+			{% endif %}
 
-		{% if data[cve]['epss'] != None %}
-		<h4 class=epss>EPSS: {{ "%.2f"|format(data[cve]['epss']) }}%</h4>
-		{% endif %}
+			{% if data[cve]['epss'] != None %}
+			<h4 class=epss>EPSS: {{ "%.2f"|format(data[cve]['epss']) }}%</h4>
+			{% endif %}
 
-		<p class=numposts>{{ data[cve]['posts']|length  }} posts</p>
+			<p class=numposts>{{ data[cve]['posts']|length  }} posts</p>
 
-		<p class=description>
-		 {% if data[cve]['description'] %}
-		 		<th>{{ data[cve]['description'][0:400] }}</th>
-		 	{% else %}
-		 		<th>N/A</th>
-		 	{% endif %}
+			<p class=description>
+			 {% if data[cve]['description'] %}
+			 		<th>{{ data[cve]['description'][0:400] }}</th>
+			 	{% else %}
+			 		<th>N/A</th>
+			 	{% endif %}
 
-		</p>
+			</p>
+			
+			{% if data[cve]['repos']|length > 0 %}
+				<p>{{ data[cve]['repos']|length  }} repos</p>
+				{% for url in data[cve]['repos'] %}
+					<p><a class=repo target=_blank href="{{url}}">{{ url }}</a></p>
+				{% endfor %}
+			{% endif %}
+			
 		
-		
+		</div>
 
 		<div class="posts">
 
