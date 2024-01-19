@@ -277,6 +277,12 @@ Updated at UTC {{ updated }}
 
 
 <script>
+
+function isNumber(element) {
+  return /^(\d|\.)+$/.test(element.innerText);
+}
+
+
 function sortTable(n) {
   var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
   table = document.getElementById("cvetable");
@@ -307,8 +313,8 @@ function sortTable(n) {
 	          shouldSwitch = true;
 	          break;
 	        }
-      	} else if (n == 1 || n == 3) { // posts and cvss
-			if (Number(x.innerText) > Number(y.innerText)) {
+      	} else if (isNumber(x)) {
+						if (Number(x.innerText) > Number(y.innerText)) {
 	          // If so, mark as a switch and break the loop:
 	          shouldSwitch = true;
 	          break;
@@ -329,8 +335,8 @@ function sortTable(n) {
 	          shouldSwitch = true;
 	          break;
 	        }
-      	} else if (n == 1 || n == 3) { // posts and cvss
-			if (Number(x.innerText) < Number(y.innerText)) {
+      	} else if (isNumber(x)) { // posts and cvss
+					if (Number(x.innerText) < Number(y.innerText)) {
 	          // If so, mark as a switch and break the loop:
 	          shouldSwitch = true;
 	          break;
