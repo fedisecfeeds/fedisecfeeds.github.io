@@ -105,6 +105,9 @@ def get_github_repos(cve):
 
 	github_repos = set() # use set to dedup; cast this back to a list later
 
+	# rate limit
+	time.sleep(1)
+
 	# search generically, without "in:.."
 	# > When you omit this qualifier, only the repository name, description, and topics are searched.
 	# in:readme sucks and returns false positives instead of actual PoCs
@@ -114,7 +117,7 @@ def get_github_repos(cve):
 
 	if r.status_code != 200:
 		print("ERROR bad status code:", r.status_code, r.text)
-		return ['search error']
+		return ['#search_error']
 
 	for d in r.json()['items']:
 		github_repos.add(d['html_url'])
