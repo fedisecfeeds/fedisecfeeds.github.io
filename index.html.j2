@@ -157,6 +157,16 @@
 
 	}
 
+	#filterbutton {
+		background-color: #1b2626;
+		color: #1ace8a;
+	}
+
+	#filterbox {
+		background-color: #1b2626;
+		color: lime;
+	}
+
 	th {
 	  	cursor: pointer;
 	  	text-decoration: underline;
@@ -175,6 +185,8 @@
 Updated at UTC {{ updated }}
 
 <p><a target=_blank href=https://github.com/fedisecfeeds/fedisecfeeds.github.io/blob/main/fedi_cve_feed.json>Access data as JSON</a></p>
+
+<p><input id=filterbox onkeypress="filterPress(event)" placeholder="keyword / year / .."> <button id=filterbutton onclick="filterBugs()">filter</button></p>
 
 <section id=index>
 	<table id=cvetable>
@@ -277,6 +289,41 @@ Updated at UTC {{ updated }}
 
 
 <script>
+
+// change placeholder by year number
+document.getElementById("filterbox").placeholder = new Date().getFullYear();
+
+function filterBugs() {
+	var keyword = document.getElementById("filterbox").value.toLowerCase();
+
+	table = document.getElementById("cvetable");
+	rows = table.rows;
+	for (i = 1; i < (rows.length - 1); i++) {
+			if (!rows[i].textContent.toLowerCase().includes(keyword)) {
+				rows[i].style.display = 'none';
+			} else {
+				rows[i].style.display = '';
+			}
+	}
+
+	// filter the info boxes as well
+	var cveboxes = document.getElementsByClassName("cve");
+	for (i = 0; i < (cveboxes.length - 1); i++) {
+			// only filter via cveheader box, otherwise year numbers wont work nicely since timestamps of fedi posts include recent year number
+			if (!cveboxes[i].children[0].textContent.toLowerCase().includes(keyword)) {
+				cveboxes[i].style.display = 'none';
+			} else {
+				cveboxes[i].style.display = '';
+			}
+	}
+
+}
+
+function filterPress(event) {
+    if (event.keyCode == 13) { // enter key
+       filterBugs();
+    }
+}
 
 function isNumber(element) {
   return /^(\d|\.)+$/.test(element.innerText);
