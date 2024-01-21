@@ -308,7 +308,7 @@ def main():
 			# convert content to markdown to make XSS-ing this website slightly harder 
 			content = "ERROR with html2text parsing"
 			try:
-				content = h2t.handle(post['content'])
+				content = h2t.handle(post['content']).replace("- ", "-") # fix link separation issue with dashes
 			except Exception as e:
 				print("ERROR with html2text parsing:", e)
 			fedi_cve_feed[cve]['posts'].append({'account':post['account'],'url':post['url'], 'content':content, 'created_at':post['created_at']})
