@@ -244,7 +244,7 @@ def main():
 		cve_data = None
 		try:
 			cve_data = nvd_cve_detail(cve)
-			time.sleep(5.8)
+			time.sleep(6.2)
 			if cve_data:
 				if cve_data['totalResults'] > 0:
 					cve_data = cve_data['vulnerabilities'][0]
