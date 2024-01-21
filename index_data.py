@@ -97,7 +97,8 @@ def nvd_cve_detail(cve):
 		print("rate limited by assholes at NVD, sleeping.. error message:", r.text)
 		time.sleep(6.1)
 		r = requests.get(url)
-		return r.json()
+		if r.status_code == 403:
+			return None
 	if r.status_code not in [200, 403]:
 		print(f"WARN: bad nvd api status for {cve}", r.status_code, r.text[:100])
 		return None
