@@ -35,7 +35,7 @@ def normalize_cve(cvestr):
 	normalize a cve string to CVE-YYYY-ZZZZZ
 	'''
 	if not (cvestr.upper().startswith("CVE") and has_digits(cvestr) and len(cvestr) > 10): # validate it
-		print(f"WARNING: invalid cve str {cvestr}")
+		print(f"INFO: invalid cve str {cvestr}")
 		return None
 	cve = ''
 	cve += cvestr[:3].upper() # first 3 chars
@@ -59,10 +59,37 @@ def redhat_cve_detail(cve):
 		print(f"WARN: bad redhat api status for {cve}", r.status_code, r.text)
 	return r.json()
 
+def ghsa_cve_detail(cve):
+	'''
+	get cve data from the github security advisory api
+	https://docs.github.com/en/rest/security-advisories/global-advisories?apiVersion=2022-11-28
+	'''
+
+	time.sleep(2) # rate limit, just to be safe 
+
+	headers = {"Accept": "application/vnd.github+json", "Authorization": f"Bearer {GITHUB_TOKEN}", "X-GitHub-Api-Version": "2022-11-28"}
+
+	url = f'https://api.github.com/advisories?cve_id={cve}'
+
+	r = requests.get(url, headers=headers)
+
+	if r.status_code != 200:
+		print("ERROR bad status code:", r.status_code, r.text)
+		if 'API rate limit' in r.text :
+			print("Exceeded API limit, sleeping..")
+			time.sleep(10)
+
+	return r.json()
+
+
+
+
 def nvd_cve_detail(cve):
 	'''
 	get cve detail (like cvss score) from the nvd api 
 	https://nvd.nist.gov/developers/vulnerabilities
+
+	it's unreliable AF
 	'''
 	url = f'https://services.nvd.nist.gov/rest/json/cves/2.0?cveId={cve}'
 	r = requests.get(url)
@@ -242,19 +269,20 @@ def main():
 		cve_data = None
 		try:
 			cve_data = nvd_cve_detail(cve)
-			time.sleep(6.2)
-			if cve_data:
-				if cve_data['totalResults'] > 0:
-					cve_data = cve_data['vulnerabilities'][0]
-				else:
+			if cve_data == None:
+				print("NVD fell thru, using GHSA as a fallback")
+				cve_data = ghsa_cve_detail(cve)
+				if len(cve_data) == 0:
 					cve_data = None
+					print(f"WARNING: no cve data found on {cve}")
+				else:
+					cve_details[cve] = cve_data[0] # for GHSA a JSON list is returned, index the first result
+			else:
+				# NVD has a even worse schema
+				cve_details[cve] = cve_data['vulnerabilities'][0]
 		except Exception as e:
 			print("Exception trying to get cve details:", e)
 
-		if cve_data != None:
-			cve_details[cve] = cve_data
-		else:
-			print(f"WARNING: no cve data found on {cve}")
 
 
 	# one big JSON blob for the page to render
@@ -285,11 +313,11 @@ def main():
 			if d['cve'] == cve:
 				fedi_cve_feed[cve]['epss'] = float(d['epss']) * 100
 				# epss severity is just done here for coloring; it's not part of any spec that defines levels
-				if fedi_cve_feed[cve]['epss'] >= 80:
+				if fedi_cve_feed[cve]['epss'] >= 50:
 					fedi_cve_feed[cve]['epss_severity'] = "CRITICAL"
-				elif fedi_cve_feed[cve]['epss'] >= 50:
-					fedi_cve_feed[cve]['epss_severity'] = "HIGH"
 				elif fedi_cve_feed[cve]['epss'] >= 20:
+					fedi_cve_feed[cve]['epss_severity'] = "HIGH"
+				elif fedi_cve_feed[cve]['epss'] >= 10:
 					fedi_cve_feed[cve]['epss_severity'] = "MEDIUM"
 				else:
 					fedi_cve_feed[cve]['epss_severity'] = "LOW"
@@ -314,7 +342,19 @@ def main():
 
 			if cve in cve_details:
 				try:
-					
+					# Github security advisory db https://docs.github.com/en/rest/security-advisories/global-advisories?apiVersion=2022-11-28
+					if 'description' in cve_details[cve]:  # GHSA
+						if 'cvss' in cve_details[cve]:
+							fedi_cve_feed[cve]['cvss3'] = cve_details[cve]['cvss']['score']
+						if 'description' in cve_details[cve]:
+							fedi_cve_feed[cve]['description'] = cve_details[cve]['description']
+						if 'severity' in cve_details[cve]:
+							fedi_cve_feed[cve]['severity'] = cve_details[cve]['severity']
+						continue
+
+
+					################### CODE PARSING NVD API ##############
+					# The schema sucks
 					if 'impact' in cve_details[cve]:
 						if 'baseMetricV3' in cve_details[cve]['impact']:
 							fedi_cve_feed[cve]['cvss3'] = cve_details[cve]['impact']['baseMetricV3']['cvssV3']['baseScore']
