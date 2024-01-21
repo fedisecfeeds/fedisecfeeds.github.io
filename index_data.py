@@ -63,15 +63,13 @@ def nvd_cve_detail(cve):
 	'''
 	get cve detail (like cvss score) from the nvd api 
 	https://nvd.nist.gov/developers/vulnerabilities
-
-	XXX DOESN WORK - NVD HAS WEIRD ASS RATE LIMITS AND IS A SHIT API.
 	'''
 	url = f'https://services.nvd.nist.gov/rest/json/cves/2.0?cveId={cve}'
-	r = requests.get(url, headers={"User-Agent":f"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 {random.randrange(0,20000)}"})
+	r = requests.get(url)
 	if r.status_code == 403:
-		print("rate limited by assholes at NVD, waiting..")
+		print("rate limited by assholes at NVD, sleeping.. error message:", r.text)
 		time.sleep(6.1)
-		r = requests.get(url, headers={"User-Agent":f"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 {random.randrange(0,20000)}"})
+		r = requests.get(url)
 		return r.json()
 	if r.status_code not in [200, 403]:
 		print(f"WARN: bad nvd api status for {cve}", r.status_code, r.text[:100])
