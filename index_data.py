@@ -350,8 +350,18 @@ def main():
 							fedi_cve_feed[cve]['cvss3'] = cve_details[cve]['cvss']['score']
 						if 'description' in cve_details[cve]:
 							fedi_cve_feed[cve]['description'] = cve_details[cve]['description']
-						if 'severity' in cve_details[cve]:
-							fedi_cve_feed[cve]['severity'] = cve_details[cve]['severity'].upper()
+						# if 'severity' in cve_details[cve]:
+						# 	fedi_cve_feed[cve]['severity'] = cve_details[cve]['severity'].upper()
+						if fedi_cve_feed[cve]['cvss3'] > 0 and fedi_cve_feed[cve]['cvss3'] < 4:
+							fedi_cve_feed[cve]['severity'] = 'LOW'
+						elif fedi_cve_feed[cve]['cvss3'] > 4 and fedi_cve_feed[cve]['cvss3'] < 7:
+							fedi_cve_feed[cve]['severity'] = 'MEDIUM'
+						elif fedi_cve_feed[cve]['cvss3'] > 7 and fedi_cve_feed[cve]['cvss3'] < 9:
+							fedi_cve_feed[cve]['severity'] = 'HIGH'
+						elif fedi_cve_feed[cve]['cvss3'] > 9:
+							fedi_cve_feed[cve]['severity'] = 'CRITICAL'
+
+
 						continue
 
 
