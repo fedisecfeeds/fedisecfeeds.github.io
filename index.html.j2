@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>FediSecfeeds</title>
-	<script type="module" src="js/md-block.js"></script>
+	## <script type="module" src="js/md-block.js"></script>
 	<style type="text/css">
 	
 	body {
@@ -270,9 +270,9 @@ Updated at UTC {{ updated }}
 			{%  for post in data[cve]['posts'] %}
 				<a target=_blank href={{post['account']['url']}}>{{ post['account']['acct'] }}</a>
 				<a class=posturl target=_blank href={{post['url']}}>at {{post['created_at']}}</a>
-<md-block>
+## <md-block>
 {{ post['content'] }}
-</md-block>
+## </md-block>
 			<hr>
 			{%  endfor %}
 

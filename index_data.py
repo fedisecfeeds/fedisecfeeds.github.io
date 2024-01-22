@@ -243,7 +243,7 @@ def main():
 		# if cve_counts[cve] != 0:
 		# 	print(f"{cve} uniq hashtags:{cve_counts[cve]} posts:{len(cve_posts[cve])}")
 
-	h2t = html2text.HTML2Text()
+	# h2t = html2text.HTML2Text()
 
 
 	print(f"total {len(cve_posts)} CVEs")
@@ -332,13 +332,14 @@ def main():
 			if (datetime.datetime.utcnow() - dt) > datetime.timedelta(days=last_days): # more than N last days, skip
 				continue
 
-			# convert content to markdown to make XSS-ing this website slightly harder 
-			content = "ERROR with html2text parsing"
-			try:
-				content = h2t.handle(post['content']).replace("- ", "-") # fix link separation issue with dashes
-			except Exception as e:
-				print("ERROR with html2text parsing:", e)
-			fedi_cve_feed[cve]['posts'].append({'account':post['account'],'url':post['url'], 'content':content, 'created_at':post['created_at']})
+			# # convert content to markdown to make XSS-ing this website slightly harder 
+			# content = "ERROR with html2text parsing"
+			# try:
+			# 	content = h2t.handle(post['content']).replace("- ", "-") # fix link separation issue with dashes
+			# except Exception as e:
+			# 	print("ERROR with html2text parsing:", e)
+
+			fedi_cve_feed[cve]['posts'].append({'account':post['account'],'url':post['url'], 'content':post['content'], 'created_at':post['created_at']})
 			
 
 			if cve in cve_details:
@@ -350,7 +351,7 @@ def main():
 						if 'description' in cve_details[cve]:
 							fedi_cve_feed[cve]['description'] = cve_details[cve]['description']
 						if 'severity' in cve_details[cve]:
-							fedi_cve_feed[cve]['severity'] = cve_details[cve]['severity']
+							fedi_cve_feed[cve]['severity'] = cve_details[cve]['severity'].upper()
 						continue
 
 
