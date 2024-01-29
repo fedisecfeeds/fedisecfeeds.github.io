@@ -262,7 +262,9 @@ Updated at UTC {{ updated }}
 			 	{% endif %}
 
 			</p>
-			
+			{% if data[cve]['nuclei'] %}
+			<p><a target=_blank href={{data[cve]['nuclei']}}>Nuclei template</a></p>
+			{% endif %}
 			{% if data[cve]['repos']|length > 0 %}
 				<p>{{ data[cve]['repos']|length  }} repos</p>
 				{% for url in data[cve]['repos'] %}
