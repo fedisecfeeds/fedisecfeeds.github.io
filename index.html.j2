@@ -196,7 +196,8 @@ Updated at UTC {{ updated }}
 		    <th onclick="sortTable(2)">EPSS</th>
 		    <th onclick="sortTable(3)">Posts</th>
 		    <th onclick="sortTable(4)">Repos</th>
-		    <th onclick="sortTable(5)">Description</th>
+		    <th onclick="sortTable(5)">Nuclei</th>
+		    <th onclick="sortTable(6)">Description</th>
 		</tr>
 
 		{% for cve in data %}
@@ -213,6 +214,13 @@ Updated at UTC {{ updated }}
 
 			<td>{{ data[cve]['posts']|length  }}</td>
 			<td>{{ data[cve]['repos']|length  }}</td>
+
+			{% if data[cve]['nuclei'] %}
+			<td><a target=_blank href={{data[cve]['nuclei']}}>template</a></td>
+			{% else %}
+				<td></td>
+			{% endif %}
+
 			{% if data[cve]['description'] %}
 				<td>{{ data[cve]['description'][0:80] }}</td>
 			{% else %}

@@ -7,7 +7,7 @@ import time
 import datetime
 import random
 import re
-
+from urllib.parse import quote_plus
 import html2text
 
 
@@ -105,6 +105,29 @@ def nvd_cve_detail(cve):
 	else:
 		return r.json()
 
+def get_nuclei_template(cve):
+	'''
+	use github's API to search and return nuclei template
+	'''
+	headers = {"Accept": "application/vnd.github+json", "Authorization": f"Bearer {GITHUB_TOKEN}", "X-GitHub-Api-Version": "2022-11-28"}
+	q = f'repo:projectdiscovery/nuclei-templates {cve}'
+	url = f'https://api.github.com/search/code?q={quote_plus(q)}'
+
+	r = requests.get(url, headers=headers)
+
+	if r.status_code != 200:
+		print("ERROR bad status code:", r.status_code, r.text)
+		if 'API rate limit' in r.text :
+			print("Exceeded API limit, sleeping..")
+			time.sleep(10)
+
+	d = r.json()
+	if d['total_count'] > 0:
+		for item in d['items']:
+			if item['path'].endswith(f"{cve}.yaml"):
+				return item['html_url']
+
+	return None
 
 def first_epss_for_cves_list(cves):
 	'''
@@ -152,11 +175,6 @@ def get_github_repos(cve):
 		github_repos.add(d['html_url'])
 
 	return list(github_repos)
-
-
-
-
-
 
 
 
@@ -306,6 +324,7 @@ def main():
 		fedi_cve_feed[cve]['severity'] = None
 		# fedi_cve_feed[cve]['epss'] = 0
 		fedi_cve_feed[cve]['epss_severity'] = None
+		fedi_cve_feed[cve]['nuclei'] = get_nuclei_template(cve)
 		fedi_cve_feed[cve]['posts'] = []
 		fedi_cve_feed[cve]['description'] = "N/A"
 		fedi_cve_feed[cve]['repos'] = cve_repos[cve]
