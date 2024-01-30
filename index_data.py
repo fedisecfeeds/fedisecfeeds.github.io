@@ -113,6 +113,7 @@ def get_nuclei_template(cve):
 	q = f'repo:projectdiscovery/nuclei-templates {cve}'
 	url = f'https://api.github.com/search/code?q={quote_plus(q)}'
 
+	time.sleep(2)
 	r = requests.get(url, headers=headers)
 
 	if r.status_code != 200:
@@ -120,6 +121,7 @@ def get_nuclei_template(cve):
 		if 'API rate limit' in r.text :
 			print("Exceeded API limit, sleeping..")
 			time.sleep(10)
+			return get_nuclei_template(cve)
 
 	d = r.json()
 	if d['total_count'] > 0:
