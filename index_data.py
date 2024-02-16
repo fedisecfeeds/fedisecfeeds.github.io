@@ -124,6 +124,8 @@ def get_nuclei_template(cve):
 			return get_nuclei_template(cve)
 
 	d = r.json()
+	if 'total_count' not in d:
+		retur None
 	if d['total_count'] > 0:
 		for item in d['items']:
 			if item['path'].endswith(f"{cve}.yaml"):
