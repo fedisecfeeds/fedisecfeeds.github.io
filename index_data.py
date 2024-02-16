@@ -383,7 +383,7 @@ def main():
 						elif fedi_cve_feed[cve]['cvss3'] > 9:
 							fedi_cve_feed[cve]['severity'] = 'CRITICAL'
 
-						fedi_cve_feed[cve]['updated'] = fedi_cve_feed[cve]['updated'] = str((datetime.datetime.fromisoformat(cve_details[cve]['updated_at'])).isoformat())
+						fedi_cve_feed[cve]['updated'] = str((datetime.datetime.fromisoformat(cve_details[cve]['updated_at'])).isoformat())
 
 						continue
 
@@ -402,10 +402,9 @@ def main():
 						if 'cvssMetricV31' in cve_details[cve]['cve']['metrics']:
 							fedi_cve_feed[cve]['cvss3'] = cve_details[cve]['cve']['metrics']['cvssMetricV31'][0]['cvssData']['baseScore']
 							fedi_cve_feed[cve]['severity'] = cve_details[cve]['cve']['metrics']['cvssMetricV31'][0]['cvssData']['baseSeverity']
-
-					if 'lastModified' in cve_details[cve]['cve']:
-						# normalize date format by parsing it
-						fedi_cve_feed[cve]['updated'] = str(datetime.datetime.fromisoformat(cve_details[cve]['cve']['lastModified']).isoformat())
+					# normalize the date by isoformat
+					fedi_cve_feed[cve]['updated'] = str(datetime.datetime.fromisoformat(cve_details[cve]['cve']['lastModified']).isoformat())
+						
 
 					if 'description' in cve_details[cve]['cve'] and len(cve_details[cve]['cve']['description']['description_data']) > 0:
 						fedi_cve_feed[cve]['description'] = cve_details[cve]['cve']['description']['description_data'][0]['value']
