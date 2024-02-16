@@ -167,6 +167,10 @@
 		color: lime;
 	}
 
+	.updated {
+		color: #ccc;
+	}
+
 	th {
 	  	cursor: pointer;
 	  	text-decoration: underline;
@@ -197,7 +201,8 @@ Updated at UTC {{ updated }}
 		    <th onclick="sortTable(3)">Posts</th>
 		    <th onclick="sortTable(4)">Repos</th>
 		    <th onclick="sortTable(5)">Nuclei</th>
-		    <th onclick="sortTable(6)">Description</th>
+		    <th onclick="sortTable(6)">Updated</th>
+		    <th onclick="sortTable(7)">Description</th>
 		</tr>
 
 		{% for cve in data %}
@@ -217,6 +222,12 @@ Updated at UTC {{ updated }}
 
 			{% if data[cve]['nuclei'] %}
 			<td><a target=_blank href={{data[cve]['nuclei']}}>template</a></td>
+			{% else %}
+				<td></td>
+			{% endif %}
+
+			{% if data[cve]['updated'] %}
+			<td>{{data[cve]['updated']}}</td>
 			{% else %}
 				<td></td>
 			{% endif %}
@@ -250,6 +261,10 @@ Updated at UTC {{ updated }}
 
 			{% if data[cve]['epss'] != None %}
 			<h4 class=epss>EPSS: {{ "%.2f"|format(data[cve]['epss']) }}%</h4>
+			{% endif %}
+
+			{% if data[cve]['updated'] != None %}
+			<p>updated <span class=updated>{{data[cve]['updated']}}</span></p>
 			{% endif %}
 
 			<p class=numposts>{{ data[cve]['posts']|length  }} posts</p>

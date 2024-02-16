@@ -330,6 +330,7 @@ def main():
 		fedi_cve_feed[cve]['posts'] = []
 		fedi_cve_feed[cve]['description'] = "N/A"
 		fedi_cve_feed[cve]['repos'] = cve_repos[cve]
+		fedi_cve_feed[cve]['updated'] = None
 
 		for d in epss_data:
 			if d['cve'] == cve:
@@ -382,6 +383,7 @@ def main():
 						elif fedi_cve_feed[cve]['cvss3'] > 9:
 							fedi_cve_feed[cve]['severity'] = 'CRITICAL'
 
+						fedi_cve_feed[cve]['updated'] = fedi_cve_feed[cve]['updated'] = str((datetime.datetime.fromisoformat(cve_details[cve]['updated_at'])).isoformat())
 
 						continue
 
@@ -401,7 +403,9 @@ def main():
 							fedi_cve_feed[cve]['cvss3'] = cve_details[cve]['cve']['metrics']['cvssMetricV31'][0]['cvssData']['baseScore']
 							fedi_cve_feed[cve]['severity'] = cve_details[cve]['cve']['metrics']['cvssMetricV31'][0]['cvssData']['baseSeverity']
 
-
+					if 'lastModified' in cve_details[cve]['cve']:
+						# normalize date format by parsing it
+						fedi_cve_feed[cve]['updated'] = str(datetime.datetime.fromisoformat(cve_details[cve]['cve']['lastModified']).isoformat())
 
 					if 'description' in cve_details[cve]['cve'] and len(cve_details[cve]['cve']['description']['description_data']) > 0:
 						fedi_cve_feed[cve]['description'] = cve_details[cve]['cve']['description']['description_data'][0]['value']
