@@ -6,8 +6,8 @@ import datetime
 
 def get_key(kv_item):
 	d = kv_item[1]
-	if 'epss' in d:
-		return d['epss']
+	if 'updated' in d:
+		return d['updated']
 	else:
 		return 0
 
