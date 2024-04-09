@@ -6,10 +6,10 @@ import datetime
 
 def get_key(kv_item):
 	d = kv_item[1]
-	if 'updated' in d:
+	if d.get('updated') != None:
 		return d['updated']
 	else:
-		return 0
+		return '0'
 
 
 def render(jsonblob):
