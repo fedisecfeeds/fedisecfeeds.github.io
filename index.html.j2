@@ -233,7 +233,7 @@ Updated at UTC {{ updated }}
 			{% endif %}
 
 			{% if data[cve]['description'] %}
-				<td>{{ data[cve]['description'][0:80] }}</td>
+				<td>{{ escape(data[cve]['description'][0:80]) }}</td>
 			{% else %}
 				<td>N/A</td>
 			{% endif %}
@@ -271,7 +271,7 @@ Updated at UTC {{ updated }}
 
 			<p class=description>
 			 {% if data[cve]['description'] %}
-			 		<th>{{ data[cve]['description'][0:400] }}</th>
+			 		<th>{{ escape(data[cve]['description'][0:400]) }}</th>
 			 	{% else %}
 			 		<th>N/A</th>
 			 	{% endif %}

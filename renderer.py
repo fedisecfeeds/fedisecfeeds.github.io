@@ -3,6 +3,7 @@
 from jinja2 import Environment, FileSystemLoader
 import json
 import datetime
+import html
 
 def get_key(kv_item):
 	d = kv_item[1]
@@ -19,9 +20,9 @@ def render(jsonblob):
 	# jinja2 rendering
 	environment = Environment()
 	template = environment.from_string(open("index.html.j2","r").read())
-	html = template.render(data=fedi_cve_feed, updated=datetime.datetime.utcnow().isoformat())
+	content = template.render(data=fedi_cve_feed, updated=datetime.datetime.utcnow().isoformat(), escape=html.escape)
 	with open('index.html', 'w+') as f:
-		f.write(html)
+		f.write(content)
 	print('rendered to index.html')
 
 if __name__ == "__main__":
