@@ -26,8 +26,6 @@
 	  
 	  margin: auto;
 	  display: grid;
-	  
-/*	  grid-template-columns:repeat(3, 1fr);*/
 	  grid-template-columns:repeat(3, 1fr);
 	  grid-gap:0.5em;
 	  padding:0.5em;
@@ -50,6 +48,11 @@
 /*	  align-items:center;*/
 /*	  justify-content:center;*/
 	}
+
+	div.highlighted {
+		border: 3px solid #ffdf00;
+	}
+
 
 	div.cveheader {
 /*		height: 50%;*/
@@ -195,7 +198,7 @@ Updated at UTC {{ updated }}
 <section id=index>
 	<table id=cvetable>
 		<tr>
-		    <th onclick="sortTable(0)">CVE</th>
+		    <th onclick="sortTable(0)" class=cvetable-entry>CVE</th>
 		    <th onclick="sortTable(1)">CVSS</th>
 		    <th onclick="sortTable(2)">EPSS</th>
 		    <th onclick="sortTable(3)">Posts</th>
@@ -207,7 +210,7 @@ Updated at UTC {{ updated }}
 
 		{% for cve in data %}
 		<tr>
-			<td><a class="{{ data[cve]['severity'] }}" href="#{{cve}}">{{cve}}</a></td>
+			<td><a class="{{ data[cve]['severity'] }}" href="#{{cve}}" onclick="highlight('{{cve}}')">{{cve}}</a></td>
 
 			<td class={{ data[cve]['severity'] }}> {{ data[cve]['cvss3'] }} </td>
 
@@ -310,8 +313,6 @@ Updated at UTC {{ updated }}
 <!-- hitwebcounter Code START -->
 <a href="https://www.hitwebcounter.com" target="_blank">
 <img src="https://hitwebcounter.com/counter/counter.php?page=9752729&style=0010&nbdigits=5&type=ip&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a> 
-</body>
-
 
 <script>
 
@@ -440,7 +441,27 @@ function sortTable(n) {
     }
   }
 }
+
+function highlight(cve) {
+	// remove all highlights
+	for (var element of document.getElementsByClassName("highlighted")) {
+		element.classList.remove("highlighted");
+	}
+
+	console.log(cve);
+	// set chosen class
+	document.getElementById(cve).classList.add("highlighted");
+
+}
+
+window.onload = function(e){
+	   if (window.location.hash) {
+			highlight(window.location.hash.slice(1));
+		}
+}
+
 </script>
-</script>
+
+</body>
 
 </html>
