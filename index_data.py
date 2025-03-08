@@ -25,6 +25,10 @@ if TESTMODE:
 
 CVE_PATTERN = r'(?i)\bcve\-\d{4}-\d{4,7}'
 
+# blocked accounts for excessive noise / automation / spam or other reasons.
+# we want real posts by real people; not automated bots that spam every CVE
+BLOCKED_ACCTS = ['RedPacketSecurity@mastodon.social']
+
 start = time.time()
 
 def has_digits(s):
@@ -208,12 +212,23 @@ def search_poll(instance_url, q, search_type='hashtags', auth_token=None, last_d
 	print(f'done polling {instance_url}, found {len(results)} {search_type} secs:', time.time() - lstart)
 	return results
 
+def filter_posts(posts):
+	filtered_posts = []
+	filtered_count = 0
+	for p in posts:
+		if p['account']['acct'] in BLOCKED_ACCTS:
+			filtered_count += 1
+			continue
+		filtered_posts.append(p)
+	print(f"filtered out {filtered_count} posts")
+	return filtered_posts
+
 def main():
 
 
-	hashtags = []
-	hashtags.extend(search_poll("https://infosec.exchange","CVE", auth_token=IFSX_AUTH_TOKEN))
-	hashtags.extend(search_poll("https://ioc.exchange","CVE", auth_token=IOCX_AUTH_TOKEN))
+	# hashtags = []
+	# hashtags.extend(search_poll("https://infosec.exchange","CVE", auth_token=IFSX_AUTH_TOKEN))
+	# hashtags.extend(search_poll("https://ioc.exchange","CVE", auth_token=IOCX_AUTH_TOKEN))
 
 
 	# get most used, trending past N days
@@ -222,30 +237,30 @@ def main():
 	cve_counts = {}
 	cve_posts = {}
 
-	for hashtag in hashtags:
+	# for hashtag in hashtags:
 
-		cve = normalize_cve(hashtag['name'])
-		if cve == None:
-			# skip hashtag that are invalid
-			continue
-		if cve not in cve_counts:
-			cve_counts[cve] = 0
-		for hist in hashtag['history'][:last_days]:
-			count = int(hist['uses'])
-			cve_counts[cve] += count
-			# day = hist['day']
+	# 	cve = normalize_cve(hashtag['name'])
+	# 	if cve == None:
+	# 		# skip hashtag that are invalid
+	# 		continue
+	# 	if cve not in cve_counts:
+	# 		cve_counts[cve] = 0
+	# 	for hist in hashtag['history'][:last_days]:
+	# 		count = int(hist['uses'])
+	# 		cve_counts[cve] += count
+	# 		# day = hist['day']
 
-		# get posts by hashtag
-		if cve_counts[cve] > 0:
-			if cve not in cve_posts:
-				cve_posts[cve] = []
-			cve_posts[cve].extend(get_hashtag_timeline("https://infosec.exchange", hashtag['name'], auth_token=IFSX_AUTH_TOKEN))
-			cve_posts[cve].extend(get_hashtag_timeline("https://ioc.exchange", hashtag['name'], auth_token=IOCX_AUTH_TOKEN))
+	# 	# get posts by hashtag
+	# 	if cve_counts[cve] > 0:
+	# 		if cve not in cve_posts:
+	# 			cve_posts[cve] = []
+	# 		cve_posts[cve].extend(filter_posts(get_hashtag_timeline("https://infosec.exchange", hashtag['name'], auth_token=IFSX_AUTH_TOKEN)))
+	# 		cve_posts[cve].extend(filter_posts(get_hashtag_timeline("https://ioc.exchange", hashtag['name'], auth_token=IOCX_AUTH_TOKEN)))
 
 	# get posts by statuses (toots) search
 	post_search_results = []
-	post_search_results.extend(search_poll("https://infosec.exchange", "CVE-", search_type="statuses", auth_token=IFSX_AUTH_TOKEN, last_days=last_days))
-	post_search_results.extend(search_poll("https://ioc.exchange", "CVE-", search_type="statuses", auth_token=IOCX_AUTH_TOKEN, last_days=last_days))
+	post_search_results.extend(filter_posts(search_poll("https://infosec.exchange", "CVE-", search_type="statuses", auth_token=IFSX_AUTH_TOKEN, last_days=last_days)))
+	post_search_results.extend(filter_posts(search_poll("https://ioc.exchange", "CVE-", search_type="statuses", auth_token=IOCX_AUTH_TOKEN, last_days=last_days)))
 	for result in post_search_results:
 		cves = re.findall(CVE_PATTERN, result["content"])
 		cves = list(set(cves)) #dedup
@@ -323,6 +338,7 @@ def main():
 
 
 	for cve in cve_posts:
+		# Final stage - fedi_cve_feed is the dictionary that will be pumped to the front end
 		fedi_cve_feed[cve] = {}
 		fedi_cve_feed[cve]['cvss3'] = 0
 		fedi_cve_feed[cve]['severity'] = None
