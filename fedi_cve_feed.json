@@ -1,4 +1,126 @@
 {
+  "CVE-2025-10385": {
+    "cvss3": 8.8,
+    "severity": "HIGH",
+    "epss_severity": null,
+    "nuclei": null,
+    "posts": [
+      {
+        "account": {
+          "id": "114267265908113668",
+          "username": "offseq",
+          "acct": "offseq",
+          "display_name": "Offensive Sequence",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-04-02T00:00:00.000Z",
+          "note": "<p>OffSeq is a cybersecurity company enhancing organizational digital resilience through comprehensive protection against evolving cyber threats. We offer specialized services for businesses of all sizes, with particular expertise in Baltic, Scandinavian, Belgian markets and EU regulatory compliance.</p>",
+          "url": "https://infosec.exchange/@offseq",
+          "uri": "https://infosec.exchange/users/offseq",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/114/267/265/908/113/668/original/014780c34a5a61f4.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/114/267/265/908/113/668/original/014780c34a5a61f4.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
+          "followers_count": 37,
+          "following_count": 0,
+          "statuses_count": 749,
+          "last_status_at": "2025-09-14",
+          "hide_collections": null,
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://www.offseq.com/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">offseq.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Threat Radar",
+              "value": "<a href=\"https://radar.offseq.com/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">radar.offseq.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Guard",
+              "value": "<a href=\"https://guard.offseq.com/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">guard.offseq.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@offseq/115200066292044809",
+        "content": "<p>\ud83d\udee1\ufe0f HIGH severity: CVE-2025-10385 in Mercury KM08-708H GiGA WiFi Wave2 v1.1 \u2014 remote buffer overflow via /goform/mcr_setSysAdm. Exploit public! Restrict remote access, monitor for abuse. Details: <a href=\"https://radar.offseq.com/threat/cve-2025-10385-buffer-overflow-in-mercury-km08-708-e1fb8959\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">radar.offseq.com/threat/cve-20</span><span class=\"invisible\">25-10385-buffer-overflow-in-mercury-km08-708-e1fb8959</span></a> <a href=\"https://infosec.exchange/tags/OffSeq\" class=\"mention hashtag\" rel=\"tag\">#<span>OffSeq</span></a> <a href=\"https://infosec.exchange/tags/Vuln\" class=\"mention hashtag\" rel=\"tag\">#<span>Vuln</span></a> <a href=\"https://infosec.exchange/tags/RouterSecurity\" class=\"mention hashtag\" rel=\"tag\">#<span>RouterSecurity</span></a></p>",
+        "created_at": "2025-09-14T01:31:51.530Z"
+      }
+    ],
+    "description": "A vulnerability has been found in Mercury KM08-708H GiGA WiFi Wave2 1.1. Affected by this issue is the function sub_450B2C of the file /goform/mcr_setSysAdm. The manipulation of the argument ChgUserId leads to buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+    "repos": [],
+    "updated": "2025-09-14T01:15:31.433000",
+    "epss": 0
+  },
+  "CVE-2025-10176": {
+    "cvss3": 7.2,
+    "severity": "HIGH",
+    "epss_severity": "LOW",
+    "nuclei": null,
+    "posts": [
+      {
+        "account": {
+          "id": "114267265908113668",
+          "username": "offseq",
+          "acct": "offseq",
+          "display_name": "Offensive Sequence",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-04-02T00:00:00.000Z",
+          "note": "<p>OffSeq is a cybersecurity company enhancing organizational digital resilience through comprehensive protection against evolving cyber threats. We offer specialized services for businesses of all sizes, with particular expertise in Baltic, Scandinavian, Belgian markets and EU regulatory compliance.</p>",
+          "url": "https://infosec.exchange/@offseq",
+          "uri": "https://infosec.exchange/users/offseq",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/114/267/265/908/113/668/original/014780c34a5a61f4.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/114/267/265/908/113/668/original/014780c34a5a61f4.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
+          "followers_count": 37,
+          "following_count": 0,
+          "statuses_count": 749,
+          "last_status_at": "2025-09-14",
+          "hide_collections": null,
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://www.offseq.com/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">offseq.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Threat Radar",
+              "value": "<a href=\"https://radar.offseq.com/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">radar.offseq.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Guard",
+              "value": "<a href=\"https://guard.offseq.com/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">guard.offseq.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@offseq/115199711532380175",
+        "content": "<p>\ud83d\udee1\ufe0f CVE-2025-10176 (HIGH): Path Traversal in The Hack Repair Guy&#39;s Plugin Archiver for WordPress allows admin-level file deletion\u2014potential RCE! All versions \u22642.0.4 affected. Restrict admin access, patch/disable ASAP. <a href=\"https://radar.offseq.com/threat/cve-2025-10176-cwe-22-improper-limitation-of-a-pat-6ec55b14\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">radar.offseq.com/threat/cve-20</span><span class=\"invisible\">25-10176-cwe-22-improper-limitation-of-a-pat-6ec55b14</span></a> <a href=\"https://infosec.exchange/tags/OffSeq\" class=\"mention hashtag\" rel=\"tag\">#<span>OffSeq</span></a> <a href=\"https://infosec.exchange/tags/WordPress\" class=\"mention hashtag\" rel=\"tag\">#<span>WordPress</span></a> <a href=\"https://infosec.exchange/tags/Vuln\" class=\"mention hashtag\" rel=\"tag\">#<span>Vuln</span></a></p>",
+        "created_at": "2025-09-14T00:01:38.316Z"
+      }
+    ],
+    "description": "The The Hack Repair Guy's Plugin Archiver plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the prepare_items function in all versions up to, and including, 2.0.4. This makes it possible for authenticated attackers, with Administrator-level access and above, to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php).",
+    "repos": [],
+    "updated": "2025-09-12T22:15:32.507000",
+    "epss": 0.542
+  },
   "CVE-2025-0108": {
     "cvss3": 9.1,
     "severity": "CRITICAL",
@@ -74,10 +196,10 @@
     "repos": [
       "https://github.com/FOLKS-iwd/CVE-2025-0108-PoC",
       "https://github.com/barcrange/CVE-2025-0108-Authentication-Bypass-checker",
-      "https://github.com/iSee857/CVE-2025-0108-PoC",
       "https://github.com/sohaibeb/CVE-2025-0108",
+      "https://github.com/becrevex/CVE-2025-0108",
       "https://github.com/fr4nc1stein/CVE-2025-0108-SCAN",
-      "https://github.com/becrevex/CVE-2025-0108"
+      "https://github.com/iSee857/CVE-2025-0108-PoC"
     ],
     "updated": "2025-06-27T20:39:59.717000",
     "epss": 94.00699999999999
@@ -219,9 +341,9 @@
           "header": "https://infosec.exchange/headers/original/missing.png",
           "header_static": "https://infosec.exchange/headers/original/missing.png",
           "followers_count": 2411,
-          "following_count": 141,
-          "statuses_count": 1300,
-          "last_status_at": "2025-09-13",
+          "following_count": 140,
+          "statuses_count": 1301,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "noindex": false,
           "emojis": [],
@@ -321,8 +443,8 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 169,
           "following_count": 307,
-          "statuses_count": 103331,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 103333,
+          "last_status_at": "2025-09-14",
           "hide_collections": true,
           "emojis": [
             {
@@ -359,8 +481,8 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 2403,
           "following_count": 141,
-          "statuses_count": 1301,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 1302,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [],
           "fields": [
@@ -396,8 +518,8 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 169,
           "following_count": 307,
-          "statuses_count": 103331,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 103333,
+          "last_status_at": "2025-09-14",
           "hide_collections": true,
           "emojis": [
             {
@@ -434,8 +556,8 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 169,
           "following_count": 307,
-          "statuses_count": 103331,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 103333,
+          "last_status_at": "2025-09-14",
           "hide_collections": true,
           "emojis": [
             {
@@ -753,8 +875,8 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 169,
           "following_count": 307,
-          "statuses_count": 103331,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 103333,
+          "last_status_at": "2025-09-14",
           "hide_collections": true,
           "emojis": [
             {
@@ -884,8 +1006,8 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 169,
           "following_count": 307,
-          "statuses_count": 103331,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 103333,
+          "last_status_at": "2025-09-14",
           "hide_collections": true,
           "emojis": [
             {
@@ -922,8 +1044,8 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 169,
           "following_count": 307,
-          "statuses_count": 103331,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 103333,
+          "last_status_at": "2025-09-14",
           "hide_collections": true,
           "emojis": [
             {
@@ -1037,8 +1159,8 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
           "followers_count": 37,
           "following_count": 0,
-          "statuses_count": 747,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 749,
+          "last_status_at": "2025-09-14",
           "hide_collections": null,
           "noindex": false,
           "emojis": [],
@@ -1154,8 +1276,8 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 46,
           "following_count": 0,
-          "statuses_count": 647,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 664,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [],
           "fields": []
@@ -1239,8 +1361,8 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 169,
           "following_count": 307,
-          "statuses_count": 103331,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 103333,
+          "last_status_at": "2025-09-14",
           "hide_collections": true,
           "emojis": [
             {
@@ -1277,8 +1399,8 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 46,
           "following_count": 0,
-          "statuses_count": 647,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 664,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [],
           "fields": []
@@ -1308,8 +1430,8 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 169,
           "following_count": 307,
-          "statuses_count": 103331,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 103333,
+          "last_status_at": "2025-09-14",
           "hide_collections": true,
           "emojis": [
             {
@@ -1346,8 +1468,8 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 169,
           "following_count": 307,
-          "statuses_count": 103331,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 103333,
+          "last_status_at": "2025-09-14",
           "hide_collections": true,
           "emojis": [
             {
@@ -1384,8 +1506,8 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 169,
           "following_count": 307,
-          "statuses_count": 103331,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 103333,
+          "last_status_at": "2025-09-14",
           "hide_collections": true,
           "emojis": [
             {
@@ -1422,8 +1544,8 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 46,
           "following_count": 0,
-          "statuses_count": 647,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 664,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [],
           "fields": []
@@ -1465,8 +1587,8 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
           "followers_count": 37,
           "following_count": 0,
-          "statuses_count": 747,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 749,
+          "last_status_at": "2025-09-14",
           "hide_collections": null,
           "noindex": false,
           "emojis": [],
@@ -1526,8 +1648,8 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
           "followers_count": 37,
           "following_count": 0,
-          "statuses_count": 747,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 749,
+          "last_status_at": "2025-09-14",
           "hide_collections": null,
           "noindex": false,
           "emojis": [],
@@ -1587,8 +1709,8 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
           "followers_count": 37,
           "following_count": 0,
-          "statuses_count": 747,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 749,
+          "last_status_at": "2025-09-14",
           "hide_collections": null,
           "noindex": false,
           "emojis": [],
@@ -1648,8 +1770,8 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
           "followers_count": 37,
           "following_count": 0,
-          "statuses_count": 747,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 749,
+          "last_status_at": "2025-09-14",
           "hide_collections": null,
           "noindex": false,
           "emojis": [],
@@ -1709,8 +1831,8 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
           "followers_count": 37,
           "following_count": 0,
-          "statuses_count": 747,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 749,
+          "last_status_at": "2025-09-14",
           "hide_collections": null,
           "noindex": false,
           "emojis": [],
@@ -1738,9 +1860,9 @@
         "created_at": "2025-09-13T00:01:32.774Z"
       }
     ],
-    "description": "Flowise is a drag & drop user interface to build a customized large language model flow. In version 3.0.5 and earlier, the `forgot-password` endpoint in Flowise returns sensitive information including a valid password reset `tempToken` without authentication or verification. This enables any attacker to generate a reset token for arbitrary users and directly reset their password, leading to a complete account takeover (ATO). This vulnerability applies to both the cloud service (`cloud.flowiseai.com`) and self-hosted/local Flowise deployments that expose the same API. Commit 9e178d68873eb876073846433a596590d3d9c863 secures password reset endpoints. Several recommended remediation steps are available. Do not return reset tokens or sensitive account details in API responses. Tokens must only be delivered securely via the registered email channel. Ensure `forgot-password` responds with a generic success message regardless of input, to avoid user enumeration. Require strong validation of the `tempToken` (e.g., single-use, short expiry, tied to request origin, validated against email delivery). Apply the same fixes to both cloud and self-hosted/local deployments. Log and monitor password reset requests for suspicious activity. Consider multi-factor verification for sensitive accounts.",
+    "description": "### Summary\n\nThe `forgot-password` endpoint in Flowise returns sensitive information including a valid password reset `tempToken` without authentication or verification. This enables any attacker to generate a reset token for arbitrary users and directly reset their password, leading to a complete **account takeover (ATO)**.\n\nThis vulnerability applies to **both the cloud service (`cloud.flowiseai.com`) and self-hosted/local Flowise deployments** that expose the same API.\n\n**CVSS v3.1 Base Score:** **9.8 (Critical)**\n**Vector String:** `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H`\n\n---\n\n### Details\n\n* The endpoint `/api/v1/account/forgot-password` accepts an email address as input.\n* Instead of only sending a reset email, the API **responds directly with sensitive user details**, including:\n\n  * User ID, name, email, hashed credential, status, timestamps.\n  * **A valid `tempToken` and its expiry**, which is intended for password reset.\n* This `tempToken` can then be reused immediately in the `/api/v1/account/reset-password` endpoint to reset the password of the targeted account **without any email verification** or user interaction.\n* Exploitation requires only the victim\u2019s email address, which is often guessable or discoverable.\n* Because the vulnerable endpoints exist in both **Flowise Cloud** and **local/self-hosted deployments**, any exposed instance is vulnerable to account takeover.\n\nThis effectively allows any unauthenticated attacker to **take over arbitrary accounts** (including admin or privileged accounts) by requesting a reset for their email.\n\n---\n\n### PoC\n\n1. **Request a reset token for the victim**\n\n```bash\ncurl -i -X POST https://<target>/api/v1/account/forgot-password \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"user\":{\"email\":\"<victim@example.com>\"}}'\n```\n\n**Response (201 Created):**\n\n```json\n{\n  \"user\": {\n    \"id\": \"<redacted-uuid>\",\n    \"name\": \"<redacted>\",\n    \"email\": \"<victim@example.com>\",\n    \"credential\": \"<redacted-hash>\",\n    \"tempToken\": \"<redacted-tempToken>\",\n    \"tokenExpiry\": \"2025-08-19T13:00:33.834Z\",\n    \"status\": \"active\"\n  }\n}\n```\n\n2. **Use the exposed `tempToken` to reset the password**\n\n```bash\ncurl -i -X POST https://<target>/api/v1/account/reset-password \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\n        \"user\":{\n          \"email\":\"<victim@example.com>\",\n          \"tempToken\":\"<redacted-tempToken>\",\n          \"password\":\"NewSecurePassword123!\"\n        }\n      }'\n```\n\n**Expected Result:** `200 OK`\nThe victim\u2019s account password is reset, allowing full login.\n\n---\n\n### Impact\n\n* **Type:** Authentication bypass / Insecure direct object exposure.\n* **Impact:**\n\n  * Any account (including administrator or high-value accounts) can be reset and taken over with only the email address.\n  * Applies to **both Flowise Cloud and locally hosted/self-managed deployments**.\n  * Leads to full account takeover, data exposure, impersonation, and possible control over organizational assets.\n  * High likelihood of exploitation since no prior access or user interaction is required.\n\n---\n\n### Recommended Remediation\n\n* **Do not return reset tokens** or sensitive account details in API responses. Tokens must only be delivered securely via the registered email channel.\n* Ensure `forgot-password` responds with a generic success message regardless of input, to avoid user enumeration.\n* Require strong validation of the `tempToken` (e.g., single-use, short expiry, tied to request origin, validated against email delivery).\n* Apply the same fixes to **both cloud and self-hosted/local deployments**.\n* Log and monitor password reset requests for suspicious activity.\n* Consider multi-factor verification for sensitive accounts.\n\n\nCredit\n\n---\n\n\u26a0\ufe0f This is a **Critical ATO vulnerability** because it allows attackers to compromise any account with only knowledge of an email address, and it applies to **all deployment models (cloud and local)**.\n\n---",
     "repos": [],
-    "updated": "2025-09-12T18:15:34.847000",
+    "updated": "2025-09-12T20:04:25",
     "epss": 0.063
   },
   "CVE-2020-14198": {
@@ -1813,8 +1935,8 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 40,
           "following_count": 0,
-          "statuses_count": 247,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 253,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [],
           "fields": []
@@ -1844,8 +1966,8 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 2445,
           "following_count": 1,
-          "statuses_count": 70134,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 70139,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [],
           "fields": []
@@ -1875,8 +1997,8 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 339,
           "following_count": 0,
-          "statuses_count": 22046,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 22052,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [],
           "fields": [
@@ -1912,8 +2034,8 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 5026,
           "following_count": 1,
-          "statuses_count": 111524,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 111528,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [],
           "fields": []
@@ -1943,8 +2065,8 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 891,
           "following_count": 0,
-          "statuses_count": 59842,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 59855,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [
             {
@@ -1992,8 +2114,8 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 591,
           "following_count": 2,
-          "statuses_count": 30763,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 30770,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [],
           "fields": []
@@ -2023,8 +2145,8 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 891,
           "following_count": 0,
-          "statuses_count": 59842,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 59855,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [
             {
@@ -2072,8 +2194,8 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 199,
           "following_count": 0,
-          "statuses_count": 15515,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 15529,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [],
           "fields": []
@@ -2103,8 +2225,8 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 751,
           "following_count": 2,
-          "statuses_count": 11744,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 11756,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [],
           "fields": [
@@ -2204,8 +2326,8 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 46,
           "following_count": 0,
-          "statuses_count": 647,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 664,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [],
           "fields": []
@@ -2271,7 +2393,7 @@
     ],
     "description": "Use after free in Serviceworker in Google Chrome on Desktop prior to 140.0.7339.127 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Critical)",
     "repos": [],
-    "updated": "2025-09-10T21:30:25",
+    "updated": "2025-09-11T17:14:10.147000",
     "epss": 0.068
   },
   "CVE-2025-10266": {
@@ -2485,8 +2607,8 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 57,
           "following_count": 0,
-          "statuses_count": 585,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 606,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [],
           "fields": []
@@ -2544,8 +2666,8 @@
     "epss": 0.032
   },
   "CVE-2024-31497": {
-    "cvss3": null,
-    "severity": null,
+    "cvss3": 5.9,
+    "severity": "MEDIUM",
     "epss_severity": "MEDIUM",
     "nuclei": null,
     "posts": [
@@ -2581,15 +2703,15 @@
         "created_at": "2025-09-12T09:39:29.000Z"
       }
     ],
-    "description": "In PuTTY 0.68 through 0.80 before 0.81, biased ECDSA nonce generation allows an attacker to recover a user's NIST P-521 secret key via a quick attack in approximately 60 signatures. This is especially important in a scenario where an adversary is able to read messages signed by PuTTY or Pageant. One scenario is that the adversary is an operator of an SSH server to which the victim authenticates (for remote login or file copy), even though this server is not fully trusted by the victim, and the victim uses the same private key for SSH connections to other services operated by other entities. Here, the rogue server operator (who would otherwise have no way to determine the victim's private key) can derive the victim's private key, and then use it for unauthorized access to those other services. Because SSH is sometimes used to authenticate to Git services, it is possible that this vulnerability could be leveraged for supply-chain attacks on software maintained in Git. It is also conceivable that signed messages from PuTTY or Pageant are readable by adversaries more easily in other scenarios, but none have yet been disclosed.",
+    "description": "In PuTTY 0.68 through 0.80 before 0.81, biased ECDSA nonce generation allows an attacker to recover a user's NIST P-521 secret key via a quick attack in approximately 60 signatures. This is especially important in a scenario where an adversary is able to read messages signed by PuTTY or Pageant. The required set of signed messages may be publicly readable because they are stored in a public Git service that supports use of SSH for commit signing, and the signatures were made by Pageant through an agent-forwarding mechanism. In other words, an adversary may already have enough signature information to compromise a victim's private key, even if there is no further use of vulnerable PuTTY versions. After a key compromise, an adversary may be able to conduct supply-chain attacks on software maintained in Git. A second, independent scenario is that the adversary is an operator of an SSH server to which the victim authenticates (for remote login or file copy), even though this server is not fully trusted by the victim, and the victim uses the same private key for SSH connections to other services operated by other entities. Here, the rogue server operator (who would otherwise have no way to determine the victim's private key) can derive the victim's private key, and then use it for unauthorized access to those other services. If the other services include Git services, then again it may be possible to conduct supply-chain attacks on software maintained in Git. This also affects, for example, FileZilla before 3.67.0, WinSCP before 6.3.3, TortoiseGit before 2.15.0.1, and TortoiseSVN through 1.14.6.",
     "repos": [
-      "https://github.com/daedalus/BreakingECDSAwithLLL",
-      "https://github.com/edutko/cve-2024-31497",
       "https://github.com/HugoBond/CVE-2024-31497-POC",
+      "https://github.com/sh1k4ku/CVE-2024-31497",
+      "https://github.com/edutko/cve-2024-31497",
       "https://github.com/RUB-NDS/SSH-Client-Signatures-Artifacts",
-      "https://github.com/sh1k4ku/CVE-2024-31497"
+      "https://github.com/daedalus/BreakingECDSAwithLLL"
     ],
-    "updated": "2024-04-17T00:31:29",
+    "updated": "2025-03-27T15:15:51.690000",
     "epss": 18.987000000000002
   },
   "CVE-2024-41623": {
@@ -2741,7 +2863,7 @@
     ],
     "description": "A vulnerability has been identified in SIMATIC Virtualization as a Service (SIVaaS) (All versions). The affected application exposes a network share without any authentication. This could allow an attacker to access or alter sensitive data without proper authorization.",
     "repos": [],
-    "updated": "2025-09-09T09:31:19",
+    "updated": "2025-09-09T16:28:43.660000",
     "epss": 0.038
   },
   "CVE-2025-53187": {
@@ -2920,7 +3042,7 @@
     "epss": 0.05
   },
   "CVE-2024-40766": {
-    "cvss3": 9.3,
+    "cvss3": 9.8,
     "severity": "CRITICAL",
     "epss_severity": "MEDIUM",
     "nuclei": null,
@@ -3029,8 +3151,8 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 169,
           "following_count": 307,
-          "statuses_count": 103331,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 103333,
+          "last_status_at": "2025-09-14",
           "hide_collections": true,
           "emojis": [
             {
@@ -3132,7 +3254,7 @@
     ],
     "description": "An improper access control vulnerability has been identified in the SonicWall SonicOS management access, potentially leading to unauthorized resource access and in specific conditions, causing the firewall to crash. This issue affects SonicWall Firewall Gen 5 and Gen 6 devices, as well as Gen 7 devices running SonicOS 7.0.1-5035 and older versions.",
     "repos": [],
-    "updated": "2024-09-06T18:32:29",
+    "updated": "2024-09-16T19:48:30.827000",
     "epss": 11.099
   },
   "CVE-2025-10159": {
@@ -3244,6 +3366,60 @@
     "updated": "2025-06-10T21:31:31",
     "epss": 0.018000000000000002
   },
+  "CVE-2024-50302": {
+    "cvss3": 5.5,
+    "severity": "MEDIUM",
+    "epss_severity": "LOW",
+    "nuclei": null,
+    "posts": [
+      {
+        "account": {
+          "id": "111735095098942652",
+          "username": "xairy",
+          "acct": "xairy@infosec.exchange",
+          "display_name": "Andrey Konovalov",
+          "locked": false,
+          "bot": false,
+          "discoverable": false,
+          "indexable": true,
+          "group": false,
+          "created_at": "2023-10-06T00:00:00.000Z",
+          "note": "<p>Security engineer at <a href=\"https://xairy.io\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">xairy.io</span><span class=\"invisible\"></span></a>. Focusing on the Linux kernel. Maintaining <span class=\"h-card\" translate=\"no\"><a href=\"https://infosec.exchange/@linkersec\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>linkersec</span></a></span>. Trainings at <a href=\"https://xairy.io/trainings\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">xairy.io/trainings</span><span class=\"invisible\"></span></a>.</p>",
+          "url": "https://infosec.exchange/@xairy",
+          "uri": "https://infosec.exchange/users/xairy",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/111/735/095/098/942/652/original/2b9b48c2294078f3.jpg",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/111/735/095/098/942/652/original/2b9b48c2294078f3.jpg",
+          "header": "https://ioc.exchange/headers/original/missing.png",
+          "header_static": "https://ioc.exchange/headers/original/missing.png",
+          "followers_count": 320,
+          "following_count": 105,
+          "statuses_count": 162,
+          "last_status_at": "2025-09-11",
+          "hide_collections": false,
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://xairy.io\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">xairy.io</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Trainings",
+              "value": "<a href=\"https://xairy.io/trainings\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">xairy.io/trainings</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@xairy/115186412708827685",
+        "content": "<p>I also suspect that the CVE-2025-38494/5 fix is what actually fixes CVE-2024-50302.</p><p>Assuming the used chain was portable enough to also cover devices with CONFIG_INIT_ON_ALLOC_DEFAULT_ON=y, replacing kmalloc with kzalloc possibly did nothing.</p><p><a href=\"https://infosec.exchange/@xairy/114082306954145500\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">infosec.exchange/@xairy/114082</span><span class=\"invisible\">306954145500</span></a></p>",
+        "created_at": "2025-09-11T15:39:34.000Z"
+      }
+    ],
+    "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nHID: core: zero-initialize the report buffer\n\nSince the report buffer is used by all kinds of drivers in various ways, let's\nzero-initialize it during allocation to make sure that it can't be ever used\nto leak kernel memory via specially-crafted report.",
+    "repos": [],
+    "updated": "2025-03-10T20:26:51.137000",
+    "epss": 0.298
+  },
   "CVE-2025-38494": {
     "cvss3": null,
     "severity": null,
@@ -3340,60 +3516,6 @@
     "updated": "2025-08-28T15:31:40",
     "epss": 0.034999999999999996
   },
-  "CVE-2024-50302": {
-    "cvss3": 5.5,
-    "severity": "MEDIUM",
-    "epss_severity": "LOW",
-    "nuclei": null,
-    "posts": [
-      {
-        "account": {
-          "id": "111735095098942652",
-          "username": "xairy",
-          "acct": "xairy@infosec.exchange",
-          "display_name": "Andrey Konovalov",
-          "locked": false,
-          "bot": false,
-          "discoverable": false,
-          "indexable": true,
-          "group": false,
-          "created_at": "2023-10-06T00:00:00.000Z",
-          "note": "<p>Security engineer at <a href=\"https://xairy.io\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">xairy.io</span><span class=\"invisible\"></span></a>. Focusing on the Linux kernel. Maintaining <span class=\"h-card\" translate=\"no\"><a href=\"https://infosec.exchange/@linkersec\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>linkersec</span></a></span>. Trainings at <a href=\"https://xairy.io/trainings\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">xairy.io/trainings</span><span class=\"invisible\"></span></a>.</p>",
-          "url": "https://infosec.exchange/@xairy",
-          "uri": "https://infosec.exchange/users/xairy",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/111/735/095/098/942/652/original/2b9b48c2294078f3.jpg",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/111/735/095/098/942/652/original/2b9b48c2294078f3.jpg",
-          "header": "https://ioc.exchange/headers/original/missing.png",
-          "header_static": "https://ioc.exchange/headers/original/missing.png",
-          "followers_count": 320,
-          "following_count": 105,
-          "statuses_count": 162,
-          "last_status_at": "2025-09-11",
-          "hide_collections": false,
-          "emojis": [],
-          "fields": [
-            {
-              "name": "Website",
-              "value": "<a href=\"https://xairy.io\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">xairy.io</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Trainings",
-              "value": "<a href=\"https://xairy.io/trainings\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">xairy.io/trainings</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://infosec.exchange/@xairy/115186412708827685",
-        "content": "<p>I also suspect that the CVE-2025-38494/5 fix is what actually fixes CVE-2024-50302.</p><p>Assuming the used chain was portable enough to also cover devices with CONFIG_INIT_ON_ALLOC_DEFAULT_ON=y, replacing kmalloc with kzalloc possibly did nothing.</p><p><a href=\"https://infosec.exchange/@xairy/114082306954145500\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">infosec.exchange/@xairy/114082</span><span class=\"invisible\">306954145500</span></a></p>",
-        "created_at": "2025-09-11T15:39:34.000Z"
-      }
-    ],
-    "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nHID: core: zero-initialize the report buffer\n\nSince the report buffer is used by all kinds of drivers in various ways, let's\nzero-initialize it during allocation to make sure that it can't be ever used\nto leak kernel memory via specially-crafted report.",
-    "repos": [],
-    "updated": "2024-11-27T15:32:50",
-    "epss": 0.298
-  },
   "CVE-2025-43300": {
     "cvss3": 8.8,
     "severity": "HIGH",
@@ -3455,118 +3577,13 @@
     ],
     "description": "An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in macOS Sonoma 14.7.8, macOS Ventura 13.7.8, iPadOS 17.7.10, macOS Sequoia 15.6.1, iOS 18.6.2 and iPadOS 18.6.2. Processing a malicious image file may result in memory corruption. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals.",
     "repos": [
-      "https://github.com/hunters-sec/CVE-2025-43300",
-      "https://github.com/h4xnz/CVE-2025-43300-Exploit",
       "https://github.com/XiaomingX/CVE-2025-43300-exp",
+      "https://github.com/h4xnz/CVE-2025-43300-Exploit",
+      "https://github.com/hunters-sec/CVE-2025-43300",
       "https://github.com/PwnToday/CVE-2025-43300"
     ],
     "updated": "2025-08-26T06:30:59",
     "epss": 1.72
-  },
-  "CVE-2025-49704": {
-    "cvss3": 8.8,
-    "severity": "HIGH",
-    "epss_severity": "CRITICAL",
-    "nuclei": null,
-    "posts": [
-      {
-        "account": {
-          "id": "109584889535063656",
-          "username": "pentesttools",
-          "acct": "pentesttools@infosec.exchange",
-          "display_name": "pentest-tools.com",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "indexable": true,
-          "group": false,
-          "created_at": "2022-12-27T00:00:00.000Z",
-          "note": "<p>Pentest-Tools.com helps security professionals find, validate, and communicate vulnerabilities faster and with greater confidence - whether they\u2019re internal teams defending at scale, MSPs juggling clients, or consultants under pressure.</p><p>With comprehensive coverage across network, web, API, and cloud assets, and built-in exploit validation, it turns every scan into credible, actionable insight.</p><p>Trusted by over 2,000 teams in 119 countries and used in more than 6 million scans annually, it delivers speed, clarity, and control - without bloated stacks or rigid workflows.</p><p>Toots about <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/penetrationtesting\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>penetrationtesting</span></a> / <br><a href=\"https://infosec.exchange/tags/pentesting\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>pentesting</span></a> <a href=\"https://infosec.exchange/tags/ethicalhacking\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>ethicalhacking</span></a> <a href=\"https://infosec.exchange/tags/offensivesecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>offensivesecurity</span></a></p>",
-          "url": "https://infosec.exchange/@pentesttools",
-          "uri": "https://infosec.exchange/users/pentesttools",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/109/584/889/535/063/656/original/843bb851db5ca6e9.png",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/109/584/889/535/063/656/original/843bb851db5ca6e9.png",
-          "header": "https://files.ioc.exchange/cache/accounts/headers/109/584/889/535/063/656/original/90016e5d719b52d3.png",
-          "header_static": "https://files.ioc.exchange/cache/accounts/headers/109/584/889/535/063/656/original/90016e5d719b52d3.png",
-          "followers_count": 261,
-          "following_count": 246,
-          "statuses_count": 328,
-          "last_status_at": "2025-09-11",
-          "hide_collections": false,
-          "emojis": [],
-          "fields": [
-            {
-              "name": "Free pentest tools",
-              "value": "<a href=\"https://pentest-tools.com/for/free\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">pentest-tools.com/for/free</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2025-09-08T20:22:24.076+00:00"
-            },
-            {
-              "name": "Pricing",
-              "value": "<a href=\"https://pentest-tools.com/pricing\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">pentest-tools.com/pricing</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2025-09-08T20:22:25.050+00:00"
-            },
-            {
-              "name": "Product",
-              "value": "<a href=\"https://pentest-tools.com/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">pentest-tools.com/</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2025-09-08T20:22:26.240+00:00"
-            },
-            {
-              "name": "Blog",
-              "value": "<a href=\"https://pentest-tools.com/blog\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">pentest-tools.com/blog</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2025-09-08T20:22:27.657+00:00"
-            },
-            {
-              "name": "LinkedIn (49k peeps)",
-              "value": "<a href=\"https://www.linkedin.com/company/pentesttools\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">linkedin.com/company/pentestto</span><span class=\"invisible\">ols</span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Youtube",
-              "value": "<a href=\"https://www.youtube.com/c/PentestToolscom\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">youtube.com/c/PentestToolscom</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://infosec.exchange/@pentesttools/115185562004354621",
-        "content": "<p>We\u2019ve added full support for Microsoft SharePoint authentication bypass &amp; remote code execution (CVE-2025-53771 &amp; CVE-2025-49704)</p><p>\ud83d\udfe0 Network Scanner \u2192 Detect vulnerable SharePoint instances at scale</p><p>\ud83d\udd34 Sniper: Auto-Exploiter \u2192 Validate real exploitability with automated proof</p><p>Why it matters: attackers can bypass authentication and run arbitrary code, directly impacting business-critical collaboration platforms.</p><p>\u2705 Detect. Exploit. Report. With evidence you can trust.</p><p>\ud83d\udc49 More details here: <a href=\"https://pentest-tools.com/vulnerabilities-exploits/microsoft-sharepoint-authentication-bypass-and-remote-code-execution_27620\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">pentest-tools.com/vulnerabilit</span><span class=\"invisible\">ies-exploits/microsoft-sharepoint-authentication-bypass-and-remote-code-execution_27620</span></a></p><p><a href=\"https://infosec.exchange/tags/pentesting\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>pentesting</span></a> <a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/offensivesecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>offensivesecurity</span></a></p>",
-        "created_at": "2025-09-11T12:03:13.000Z"
-      },
-      {
-        "account": {
-          "id": "109412479419987131",
-          "username": "VirusBulletin",
-          "acct": "VirusBulletin@infosec.exchange",
-          "display_name": "Virus Bulletin",
-          "locked": false,
-          "bot": false,
-          "discoverable": false,
-          "indexable": true,
-          "group": false,
-          "created_at": "2022-11-25T00:00:00.000Z",
-          "note": "<p>Security information portal, testing and certification body.<br>Organisers of the annual Virus Bulletin conference.</p>",
-          "url": "https://infosec.exchange/@VirusBulletin",
-          "uri": "https://infosec.exchange/users/VirusBulletin",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/109/412/479/419/987/131/original/9e996324907c02e1.png",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/109/412/479/419/987/131/original/9e996324907c02e1.png",
-          "header": "https://files.ioc.exchange/cache/accounts/headers/109/412/479/419/987/131/original/91b8fce513c82fdc.jpeg",
-          "header_static": "https://files.ioc.exchange/cache/accounts/headers/109/412/479/419/987/131/original/91b8fce513c82fdc.jpeg",
-          "followers_count": 2507,
-          "following_count": 57,
-          "statuses_count": 2140,
-          "last_status_at": "2025-09-12",
-          "hide_collections": false,
-          "emojis": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@VirusBulletin/115151879542929240",
-        "content": "<p>Trellix researchers look into a recent wave of exploitation targeting ToolShell vulnerabilities in Microsoft SharePoint Server (CVE-2025-49704, CVE-2025-49706, CVE-2025-53770, and CVE-2025-53771). <a href=\"https://www.trellix.com/blogs/research/toolshell-unleashed-decoding-the-sharepoint-attack-chain/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">trellix.com/blogs/research/too</span><span class=\"invisible\">lshell-unleashed-decoding-the-sharepoint-attack-chain/</span></a></p>",
-        "created_at": "2025-09-05T13:17:20.000Z"
-      }
-    ],
-    "description": "Improper control of generation of code ('code injection') in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.",
-    "repos": [],
-    "updated": "2025-07-22T18:30:36",
-    "epss": 67.4
   },
   "CVE-2025-53771": {
     "cvss3": 6.3,
@@ -3670,11 +3687,116 @@
     ],
     "description": "Improper limitation of a pathname to a restricted directory ('path traversal') in Microsoft Office SharePoint allows an authorized attacker to perform spoofing over a network.",
     "repos": [
-      "https://github.com/zach115th/ToolShellFinder",
-      "https://github.com/unk9vvn/sharepoint-toolpane"
+      "https://github.com/unk9vvn/sharepoint-toolpane",
+      "https://github.com/zach115th/ToolShellFinder"
     ],
     "updated": "2025-07-22T21:32:17",
     "epss": 6.085999999999999
+  },
+  "CVE-2025-49704": {
+    "cvss3": 8.8,
+    "severity": "HIGH",
+    "epss_severity": "CRITICAL",
+    "nuclei": null,
+    "posts": [
+      {
+        "account": {
+          "id": "109584889535063656",
+          "username": "pentesttools",
+          "acct": "pentesttools@infosec.exchange",
+          "display_name": "pentest-tools.com",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2022-12-27T00:00:00.000Z",
+          "note": "<p>Pentest-Tools.com helps security professionals find, validate, and communicate vulnerabilities faster and with greater confidence - whether they\u2019re internal teams defending at scale, MSPs juggling clients, or consultants under pressure.</p><p>With comprehensive coverage across network, web, API, and cloud assets, and built-in exploit validation, it turns every scan into credible, actionable insight.</p><p>Trusted by over 2,000 teams in 119 countries and used in more than 6 million scans annually, it delivers speed, clarity, and control - without bloated stacks or rigid workflows.</p><p>Toots about <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/penetrationtesting\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>penetrationtesting</span></a> / <br><a href=\"https://infosec.exchange/tags/pentesting\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>pentesting</span></a> <a href=\"https://infosec.exchange/tags/ethicalhacking\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>ethicalhacking</span></a> <a href=\"https://infosec.exchange/tags/offensivesecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>offensivesecurity</span></a></p>",
+          "url": "https://infosec.exchange/@pentesttools",
+          "uri": "https://infosec.exchange/users/pentesttools",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/109/584/889/535/063/656/original/843bb851db5ca6e9.png",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/109/584/889/535/063/656/original/843bb851db5ca6e9.png",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/109/584/889/535/063/656/original/90016e5d719b52d3.png",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/109/584/889/535/063/656/original/90016e5d719b52d3.png",
+          "followers_count": 261,
+          "following_count": 246,
+          "statuses_count": 328,
+          "last_status_at": "2025-09-11",
+          "hide_collections": false,
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Free pentest tools",
+              "value": "<a href=\"https://pentest-tools.com/for/free\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">pentest-tools.com/for/free</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2025-09-08T20:22:24.076+00:00"
+            },
+            {
+              "name": "Pricing",
+              "value": "<a href=\"https://pentest-tools.com/pricing\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">pentest-tools.com/pricing</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2025-09-08T20:22:25.050+00:00"
+            },
+            {
+              "name": "Product",
+              "value": "<a href=\"https://pentest-tools.com/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">pentest-tools.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2025-09-08T20:22:26.240+00:00"
+            },
+            {
+              "name": "Blog",
+              "value": "<a href=\"https://pentest-tools.com/blog\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">pentest-tools.com/blog</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2025-09-08T20:22:27.657+00:00"
+            },
+            {
+              "name": "LinkedIn (49k peeps)",
+              "value": "<a href=\"https://www.linkedin.com/company/pentesttools\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">linkedin.com/company/pentestto</span><span class=\"invisible\">ols</span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Youtube",
+              "value": "<a href=\"https://www.youtube.com/c/PentestToolscom\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">youtube.com/c/PentestToolscom</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@pentesttools/115185562004354621",
+        "content": "<p>We\u2019ve added full support for Microsoft SharePoint authentication bypass &amp; remote code execution (CVE-2025-53771 &amp; CVE-2025-49704)</p><p>\ud83d\udfe0 Network Scanner \u2192 Detect vulnerable SharePoint instances at scale</p><p>\ud83d\udd34 Sniper: Auto-Exploiter \u2192 Validate real exploitability with automated proof</p><p>Why it matters: attackers can bypass authentication and run arbitrary code, directly impacting business-critical collaboration platforms.</p><p>\u2705 Detect. Exploit. Report. With evidence you can trust.</p><p>\ud83d\udc49 More details here: <a href=\"https://pentest-tools.com/vulnerabilities-exploits/microsoft-sharepoint-authentication-bypass-and-remote-code-execution_27620\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">pentest-tools.com/vulnerabilit</span><span class=\"invisible\">ies-exploits/microsoft-sharepoint-authentication-bypass-and-remote-code-execution_27620</span></a></p><p><a href=\"https://infosec.exchange/tags/pentesting\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>pentesting</span></a> <a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/offensivesecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>offensivesecurity</span></a></p>",
+        "created_at": "2025-09-11T12:03:13.000Z"
+      },
+      {
+        "account": {
+          "id": "109412479419987131",
+          "username": "VirusBulletin",
+          "acct": "VirusBulletin@infosec.exchange",
+          "display_name": "Virus Bulletin",
+          "locked": false,
+          "bot": false,
+          "discoverable": false,
+          "indexable": true,
+          "group": false,
+          "created_at": "2022-11-25T00:00:00.000Z",
+          "note": "<p>Security information portal, testing and certification body.<br>Organisers of the annual Virus Bulletin conference.</p>",
+          "url": "https://infosec.exchange/@VirusBulletin",
+          "uri": "https://infosec.exchange/users/VirusBulletin",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/109/412/479/419/987/131/original/9e996324907c02e1.png",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/109/412/479/419/987/131/original/9e996324907c02e1.png",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/109/412/479/419/987/131/original/91b8fce513c82fdc.jpeg",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/109/412/479/419/987/131/original/91b8fce513c82fdc.jpeg",
+          "followers_count": 2507,
+          "following_count": 57,
+          "statuses_count": 2140,
+          "last_status_at": "2025-09-12",
+          "hide_collections": false,
+          "emojis": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@VirusBulletin/115151879542929240",
+        "content": "<p>Trellix researchers look into a recent wave of exploitation targeting ToolShell vulnerabilities in Microsoft SharePoint Server (CVE-2025-49704, CVE-2025-49706, CVE-2025-53770, and CVE-2025-53771). <a href=\"https://www.trellix.com/blogs/research/toolshell-unleashed-decoding-the-sharepoint-attack-chain/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">trellix.com/blogs/research/too</span><span class=\"invisible\">lshell-unleashed-decoding-the-sharepoint-attack-chain/</span></a></p>",
+        "created_at": "2025-09-05T13:17:20.000Z"
+      }
+    ],
+    "description": "Improper control of generation of code ('code injection') in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.",
+    "repos": [],
+    "updated": "2025-07-30T01:00:01.490000",
+    "epss": 67.4
   },
   "CVE-2025-57819": {
     "cvss3": 0,
@@ -3703,8 +3825,8 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 751,
           "following_count": 2,
-          "statuses_count": 11744,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 11756,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [],
           "fields": [
@@ -3898,14 +4020,14 @@
     ],
     "description": "N/A",
     "repos": [
-      "https://github.com/rxerium/CVE-2025-57819",
-      "https://github.com/MuhammadWaseem29/SQL-Injection-and-RCE_CVE-2025-57819",
+      "https://github.com/brokendreamsclub/CVE-2025-57819",
       "https://github.com/net-hex/CVE-2025-57819",
-      "https://github.com/watchtowrlabs/watchTowr-vs-FreePBX-CVE-2025-57819",
-      "https://github.com/blueisbeautiful/CVE-2025-57819",
+      "https://github.com/rxerium/CVE-2025-57819",
       "https://github.com/Sucuri-Labs/CVE-2025-57819-ioc-check",
+      "https://github.com/MuhammadWaseem29/SQL-Injection-and-RCE_CVE-2025-57819",
+      "https://github.com/B1ack4sh/Blackash-CVE-2025-57819",
       "https://github.com/ImBIOS/lab-cve-2025-57819",
-      "https://github.com/B1ack4sh/Blackash-CVE-2025-57819"
+      "https://github.com/watchtowrlabs/watchTowr-vs-FreePBX-CVE-2025-57819"
     ],
     "updated": null,
     "epss": 55.17999999999999
@@ -3963,49 +4085,6 @@
     "repos": [],
     "updated": "2024-02-23T05:05:13",
     "epss": 0.22899999999999998
-  },
-  "CVE-2025-4235": {
-    "cvss3": 0,
-    "severity": null,
-    "epss_severity": "LOW",
-    "nuclei": null,
-    "posts": [
-      {
-        "account": {
-          "id": "110560587680388288",
-          "username": "AAKL",
-          "acct": "AAKL@infosec.exchange",
-          "display_name": "AAKL",
-          "locked": true,
-          "bot": false,
-          "discoverable": true,
-          "indexable": true,
-          "group": false,
-          "created_at": "2023-06-17T00:00:00.000Z",
-          "note": "<p>Always questioning. Latest news focused on  <a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybersecurity</span></a>, <a href=\"https://infosec.exchange/tags/privacy\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>privacy</span></a>, <a href=\"https://infosec.exchange/tags/Linux\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Linux</span></a>, <a href=\"https://infosec.exchange/tags/Apple\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Apple</span></a>, <a href=\"https://infosec.exchange/tags/Microsoft\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Microsoft</span></a>, <a href=\"https://infosec.exchange/tags/Google\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Google</span></a>, <a href=\"https://infosec.exchange/tags/AI\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>AI</span></a>, and the tech industry in general. Toxicity is not tolerated. Porn is blocked. I follow like interests.</p><p>Check your facts. </p><p>- FactCheck.org <a href=\"https://www.factcheck.org/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">factcheck.org/</span><span class=\"invisible\"></span></a><br>- Reuters Fact Check <a href=\"https://www.reuters.com/fact-check/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">reuters.com/fact-check/</span><span class=\"invisible\"></span></a><br>- AP Fact Check <a href=\"https://apnews.com/ap-fact-check\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">apnews.com/ap-fact-check</span><span class=\"invisible\"></span></a><br>- Snopes <a href=\"https://www.snopes.com/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">snopes.com/</span><span class=\"invisible\"></span></a><br>- Politifact <a href=\"https://www.politifact.com/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">politifact.com/</span><span class=\"invisible\"></span></a></p><p>NordVPN Link Checker: <a href=\"https://nordvpn.com/link-checker/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">nordvpn.com/link-checker/</span><span class=\"invisible\"></span></a></p><p>Project 2025 Tracker <a href=\"https://www.project2025.observer/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">project2025.observer/</span><span class=\"invisible\"></span></a></p>",
-          "url": "https://infosec.exchange/@AAKL",
-          "uri": "https://infosec.exchange/users/AAKL",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/560/587/680/388/288/original/1d1585ea23f19de8.png",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/560/587/680/388/288/original/1d1585ea23f19de8.png",
-          "header": "https://files.ioc.exchange/cache/accounts/headers/110/560/587/680/388/288/original/8834107ee7550573.png",
-          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/560/587/680/388/288/original/8834107ee7550573.png",
-          "followers_count": 533,
-          "following_count": 568,
-          "statuses_count": 485,
-          "last_status_at": "2025-09-13",
-          "hide_collections": true,
-          "emojis": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@AAKL/115181053115998590",
-        "content": "<p>Palo Alto has new advisories. Wait - this isn't Tuesday.</p><p>PAN-SA-2025-0015 Chromium: Monthly Vulnerability Update (September 2025) <a href=\"https://security.paloaltonetworks.com/PAN-SA-2025-0015\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">security.paloaltonetworks.com/</span><span class=\"invisible\">PAN-SA-2025-0015</span></a></p><p>CVE-2025-4235 User-ID Credential Agent: Cleartext Exposure of Service Account password <a href=\"https://security.paloaltonetworks.com/CVE-2025-4235\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">security.paloaltonetworks.com/</span><span class=\"invisible\">CVE-2025-4235</span></a></p><p>CVE-2025-4234 Cortex XDR Microsoft 365 Defender Pack: Cleartext Exposure of Credentials <a href=\"https://security.paloaltonetworks.com/CVE-2025-4234\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">security.paloaltonetworks.com/</span><span class=\"invisible\">CVE-2025-4234</span></a> <a href=\"https://infosec.exchange/tags/PaloAlto\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>PaloAlto</span></a> <a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/Microsoft\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Microsoft</span></a></p>",
-        "created_at": "2025-09-10T16:56:33.000Z"
-      }
-    ],
-    "description": "An information exposure vulnerability in the Palo Alto Networks User-ID Credential Agent (Windows-based) can expose the service account password under specific non-default configurations. This allows an unprivileged Domain User to escalate privileges by exploiting the account\u2019s permissions. The impact varies by configuration:\n  *  Minimally Privileged Accounts: Enable disruption of User-ID Credential Agent operations (e.g., uninstalling or disabling the agent service), weakening network security policies that leverage  Credential Phishing Prevention https://docs.paloaltonetworks.com/advanced-url-filtering/administration/url-filtering-features/credential-phishing-prevention  under a  Domain Credential Filter https://docs.paloaltonetworks.com/advanced-url-filtering/administration/url-filtering-features/credential-phishing-prevention/methods-to-check-for-corporate-credential-submissions  configuration.\n  *  Elevated Accounts (Server Operator, Domain Join, Legacy Features): Permit increased impacts, including server control (e.g., shutdown/restart), domain manipulation (e.g., rogue computer objects), and network compromise via reconnaissance or client probing.",
-    "repos": [],
-    "updated": "2025-09-12T18:15:34.373000",
-    "epss": 0.012
   },
   "CVE-2025-4234": {
     "cvss3": null,
@@ -4114,9 +4193,9 @@
     "updated": "2025-09-12T18:31:16",
     "epss": 0.013999999999999999
   },
-  "CVE-2025-20340": {
-    "cvss3": 7.4,
-    "severity": "HIGH",
+  "CVE-2025-4235": {
+    "cvss3": 0,
+    "severity": null,
     "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
@@ -4147,15 +4226,15 @@
           "emojis": [],
           "fields": []
         },
-        "url": "https://infosec.exchange/@AAKL/115180970568222098",
-        "content": "<p>Cisco has four advisories between today and yesterday, three of them high severity:</p><p>- Cisco IOS XR Software Image Verification Bypass Vulnerability CVE-2025-20248 (high) <a href=\"https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-xrsig-UY4zRUCG\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">sec.cloudapps.cisco.com/securi</span><span class=\"invisible\">ty/center/content/CiscoSecurityAdvisory/cisco-sa-xrsig-UY4zRUCG</span></a></p><p>- Cisco IOS XR ARP Broadcast Storm Denial of Service Vulnerability CVE-2025-20340 )high) <a href=\"https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxr-arp-storm-EjUU55yM\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">sec.cloudapps.cisco.com/securi</span><span class=\"invisible\">ty/center/content/CiscoSecurityAdvisory/cisco-sa-iosxr-arp-storm-EjUU55yM</span></a></p><p>- Cisco IOS XR Software Management Interface ACL Bypass Vulnerability CVE-2025-20159 <a href=\"https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-acl-packetio-Swjhhbtz\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">sec.cloudapps.cisco.com/securi</span><span class=\"invisible\">ty/center/content/CiscoSecurityAdvisory/cisco-sa-acl-packetio-Swjhhbtz</span></a></p><p>From yesterday: </p><p>- Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software for Firepower 2100 Series IPv6 over IPsec Denial of Service Vulnerability CVE-2025-20222 (high) <a href=\"https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fp2k-IPsec-dos-tjwgdZCO\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">sec.cloudapps.cisco.com/securi</span><span class=\"invisible\">ty/center/content/CiscoSecurityAdvisory/cisco-sa-fp2k-IPsec-dos-tjwgdZCO</span></a> <span class=\"h-card\" translate=\"no\"><a href=\"https://mstdn.social/@TalosSecurity\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>TalosSecurity</span></a></span> <a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>infosec</span></a></p>",
-        "created_at": "2025-09-10T16:35:33.000Z"
+        "url": "https://infosec.exchange/@AAKL/115181053115998590",
+        "content": "<p>Palo Alto has new advisories. Wait - this isn't Tuesday.</p><p>PAN-SA-2025-0015 Chromium: Monthly Vulnerability Update (September 2025) <a href=\"https://security.paloaltonetworks.com/PAN-SA-2025-0015\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">security.paloaltonetworks.com/</span><span class=\"invisible\">PAN-SA-2025-0015</span></a></p><p>CVE-2025-4235 User-ID Credential Agent: Cleartext Exposure of Service Account password <a href=\"https://security.paloaltonetworks.com/CVE-2025-4235\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">security.paloaltonetworks.com/</span><span class=\"invisible\">CVE-2025-4235</span></a></p><p>CVE-2025-4234 Cortex XDR Microsoft 365 Defender Pack: Cleartext Exposure of Credentials <a href=\"https://security.paloaltonetworks.com/CVE-2025-4234\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">security.paloaltonetworks.com/</span><span class=\"invisible\">CVE-2025-4234</span></a> <a href=\"https://infosec.exchange/tags/PaloAlto\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>PaloAlto</span></a> <a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/Microsoft\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Microsoft</span></a></p>",
+        "created_at": "2025-09-10T16:56:33.000Z"
       }
     ],
-    "description": "A vulnerability in the Address Resolution Protocol (ARP) implementation of Cisco IOS XR Software could allow an unauthenticated, adjacent attacker to trigger a broadcast storm, leading to a denial of service (DoS) condition on an affected device.&nbsp;\n\nThis vulnerability is due to how Cisco IOS XR Software processes a high, sustained rate of ARP traffic hitting the management interface. Under certain conditions, an attacker could exploit this vulnerability by sending an excessive amount of traffic to the management interface of an affected device, overwhelming its ARP processing capabilities. A successful exploit could result in degraded device performance, loss of management connectivity, and complete unresponsiveness of the system, leading to a DoS condition.",
+    "description": "An information exposure vulnerability in the Palo Alto Networks User-ID Credential Agent (Windows-based) can expose the service account password under specific non-default configurations. This allows an unprivileged Domain User to escalate privileges by exploiting the account\u2019s permissions. The impact varies by configuration:\n  *  Minimally Privileged Accounts: Enable disruption of User-ID Credential Agent operations (e.g., uninstalling or disabling the agent service), weakening network security policies that leverage  Credential Phishing Prevention https://docs.paloaltonetworks.com/advanced-url-filtering/administration/url-filtering-features/credential-phishing-prevention  under a  Domain Credential Filter https://docs.paloaltonetworks.com/advanced-url-filtering/administration/url-filtering-features/credential-phishing-prevention/methods-to-check-for-corporate-credential-submissions  configuration.\n  *  Elevated Accounts (Server Operator, Domain Join, Legacy Features): Permit increased impacts, including server control (e.g., shutdown/restart), domain manipulation (e.g., rogue computer objects), and network compromise via reconnaissance or client probing.",
     "repos": [],
-    "updated": "2025-09-10T18:30:27",
-    "epss": 0.019
+    "updated": "2025-09-12T18:15:34.373000",
+    "epss": 0.012
   },
   "CVE-2025-20159": {
     "cvss3": 5.3,
@@ -4200,49 +4279,6 @@
     "updated": "2025-09-10T18:30:27",
     "epss": 0.023
   },
-  "CVE-2025-20248": {
-    "cvss3": 6.0,
-    "severity": "MEDIUM",
-    "epss_severity": "LOW",
-    "nuclei": null,
-    "posts": [
-      {
-        "account": {
-          "id": "110560587680388288",
-          "username": "AAKL",
-          "acct": "AAKL@infosec.exchange",
-          "display_name": "AAKL",
-          "locked": true,
-          "bot": false,
-          "discoverable": true,
-          "indexable": true,
-          "group": false,
-          "created_at": "2023-06-17T00:00:00.000Z",
-          "note": "<p>Always questioning. Latest news focused on  <a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybersecurity</span></a>, <a href=\"https://infosec.exchange/tags/privacy\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>privacy</span></a>, <a href=\"https://infosec.exchange/tags/Linux\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Linux</span></a>, <a href=\"https://infosec.exchange/tags/Apple\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Apple</span></a>, <a href=\"https://infosec.exchange/tags/Microsoft\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Microsoft</span></a>, <a href=\"https://infosec.exchange/tags/Google\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Google</span></a>, <a href=\"https://infosec.exchange/tags/AI\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>AI</span></a>, and the tech industry in general. Toxicity is not tolerated. Porn is blocked. I follow like interests.</p><p>Check your facts. </p><p>- FactCheck.org <a href=\"https://www.factcheck.org/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">factcheck.org/</span><span class=\"invisible\"></span></a><br>- Reuters Fact Check <a href=\"https://www.reuters.com/fact-check/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">reuters.com/fact-check/</span><span class=\"invisible\"></span></a><br>- AP Fact Check <a href=\"https://apnews.com/ap-fact-check\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">apnews.com/ap-fact-check</span><span class=\"invisible\"></span></a><br>- Snopes <a href=\"https://www.snopes.com/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">snopes.com/</span><span class=\"invisible\"></span></a><br>- Politifact <a href=\"https://www.politifact.com/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">politifact.com/</span><span class=\"invisible\"></span></a></p><p>NordVPN Link Checker: <a href=\"https://nordvpn.com/link-checker/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">nordvpn.com/link-checker/</span><span class=\"invisible\"></span></a></p><p>Project 2025 Tracker <a href=\"https://www.project2025.observer/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">project2025.observer/</span><span class=\"invisible\"></span></a></p>",
-          "url": "https://infosec.exchange/@AAKL",
-          "uri": "https://infosec.exchange/users/AAKL",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/560/587/680/388/288/original/1d1585ea23f19de8.png",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/560/587/680/388/288/original/1d1585ea23f19de8.png",
-          "header": "https://files.ioc.exchange/cache/accounts/headers/110/560/587/680/388/288/original/8834107ee7550573.png",
-          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/560/587/680/388/288/original/8834107ee7550573.png",
-          "followers_count": 533,
-          "following_count": 568,
-          "statuses_count": 485,
-          "last_status_at": "2025-09-13",
-          "hide_collections": true,
-          "emojis": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@AAKL/115180970568222098",
-        "content": "<p>Cisco has four advisories between today and yesterday, three of them high severity:</p><p>- Cisco IOS XR Software Image Verification Bypass Vulnerability CVE-2025-20248 (high) <a href=\"https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-xrsig-UY4zRUCG\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">sec.cloudapps.cisco.com/securi</span><span class=\"invisible\">ty/center/content/CiscoSecurityAdvisory/cisco-sa-xrsig-UY4zRUCG</span></a></p><p>- Cisco IOS XR ARP Broadcast Storm Denial of Service Vulnerability CVE-2025-20340 )high) <a href=\"https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxr-arp-storm-EjUU55yM\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">sec.cloudapps.cisco.com/securi</span><span class=\"invisible\">ty/center/content/CiscoSecurityAdvisory/cisco-sa-iosxr-arp-storm-EjUU55yM</span></a></p><p>- Cisco IOS XR Software Management Interface ACL Bypass Vulnerability CVE-2025-20159 <a href=\"https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-acl-packetio-Swjhhbtz\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">sec.cloudapps.cisco.com/securi</span><span class=\"invisible\">ty/center/content/CiscoSecurityAdvisory/cisco-sa-acl-packetio-Swjhhbtz</span></a></p><p>From yesterday: </p><p>- Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software for Firepower 2100 Series IPv6 over IPsec Denial of Service Vulnerability CVE-2025-20222 (high) <a href=\"https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fp2k-IPsec-dos-tjwgdZCO\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">sec.cloudapps.cisco.com/securi</span><span class=\"invisible\">ty/center/content/CiscoSecurityAdvisory/cisco-sa-fp2k-IPsec-dos-tjwgdZCO</span></a> <span class=\"h-card\" translate=\"no\"><a href=\"https://mstdn.social/@TalosSecurity\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>TalosSecurity</span></a></span> <a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>infosec</span></a></p>",
-        "created_at": "2025-09-10T16:35:33.000Z"
-      }
-    ],
-    "description": "A vulnerability in the installation process of Cisco IOS XR Software could allow an authenticated, local attacker to bypass Cisco IOS XR Software image signature verification and load unsigned software on an affected device. To exploit this vulnerability, the attacker must have root-system privileges on the affected device.\r\n\r\nThis vulnerability is due to incomplete validation of files during the installation of an .iso file. An attacker could exploit this vulnerability by modifying contents of the .iso image and then installing and activating it on the device. A successful exploit could allow the attacker to load an unsigned file as part of the image activation process.",
-    "repos": [],
-    "updated": "2025-09-11T17:14:10.147000",
-    "epss": 0.009000000000000001
-  },
   "CVE-2025-20222": {
     "cvss3": 8.6,
     "severity": "HIGH",
@@ -4286,6 +4322,92 @@
     "updated": "2025-08-14T18:32:32",
     "epss": 0.13799999999999998
   },
+  "CVE-2025-20340": {
+    "cvss3": 7.4,
+    "severity": "HIGH",
+    "epss_severity": "LOW",
+    "nuclei": null,
+    "posts": [
+      {
+        "account": {
+          "id": "110560587680388288",
+          "username": "AAKL",
+          "acct": "AAKL@infosec.exchange",
+          "display_name": "AAKL",
+          "locked": true,
+          "bot": false,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2023-06-17T00:00:00.000Z",
+          "note": "<p>Always questioning. Latest news focused on  <a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybersecurity</span></a>, <a href=\"https://infosec.exchange/tags/privacy\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>privacy</span></a>, <a href=\"https://infosec.exchange/tags/Linux\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Linux</span></a>, <a href=\"https://infosec.exchange/tags/Apple\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Apple</span></a>, <a href=\"https://infosec.exchange/tags/Microsoft\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Microsoft</span></a>, <a href=\"https://infosec.exchange/tags/Google\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Google</span></a>, <a href=\"https://infosec.exchange/tags/AI\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>AI</span></a>, and the tech industry in general. Toxicity is not tolerated. Porn is blocked. I follow like interests.</p><p>Check your facts. </p><p>- FactCheck.org <a href=\"https://www.factcheck.org/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">factcheck.org/</span><span class=\"invisible\"></span></a><br>- Reuters Fact Check <a href=\"https://www.reuters.com/fact-check/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">reuters.com/fact-check/</span><span class=\"invisible\"></span></a><br>- AP Fact Check <a href=\"https://apnews.com/ap-fact-check\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">apnews.com/ap-fact-check</span><span class=\"invisible\"></span></a><br>- Snopes <a href=\"https://www.snopes.com/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">snopes.com/</span><span class=\"invisible\"></span></a><br>- Politifact <a href=\"https://www.politifact.com/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">politifact.com/</span><span class=\"invisible\"></span></a></p><p>NordVPN Link Checker: <a href=\"https://nordvpn.com/link-checker/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">nordvpn.com/link-checker/</span><span class=\"invisible\"></span></a></p><p>Project 2025 Tracker <a href=\"https://www.project2025.observer/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">project2025.observer/</span><span class=\"invisible\"></span></a></p>",
+          "url": "https://infosec.exchange/@AAKL",
+          "uri": "https://infosec.exchange/users/AAKL",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/560/587/680/388/288/original/1d1585ea23f19de8.png",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/560/587/680/388/288/original/1d1585ea23f19de8.png",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/110/560/587/680/388/288/original/8834107ee7550573.png",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/560/587/680/388/288/original/8834107ee7550573.png",
+          "followers_count": 533,
+          "following_count": 568,
+          "statuses_count": 485,
+          "last_status_at": "2025-09-13",
+          "hide_collections": true,
+          "emojis": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@AAKL/115180970568222098",
+        "content": "<p>Cisco has four advisories between today and yesterday, three of them high severity:</p><p>- Cisco IOS XR Software Image Verification Bypass Vulnerability CVE-2025-20248 (high) <a href=\"https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-xrsig-UY4zRUCG\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">sec.cloudapps.cisco.com/securi</span><span class=\"invisible\">ty/center/content/CiscoSecurityAdvisory/cisco-sa-xrsig-UY4zRUCG</span></a></p><p>- Cisco IOS XR ARP Broadcast Storm Denial of Service Vulnerability CVE-2025-20340 )high) <a href=\"https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxr-arp-storm-EjUU55yM\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">sec.cloudapps.cisco.com/securi</span><span class=\"invisible\">ty/center/content/CiscoSecurityAdvisory/cisco-sa-iosxr-arp-storm-EjUU55yM</span></a></p><p>- Cisco IOS XR Software Management Interface ACL Bypass Vulnerability CVE-2025-20159 <a href=\"https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-acl-packetio-Swjhhbtz\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">sec.cloudapps.cisco.com/securi</span><span class=\"invisible\">ty/center/content/CiscoSecurityAdvisory/cisco-sa-acl-packetio-Swjhhbtz</span></a></p><p>From yesterday: </p><p>- Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software for Firepower 2100 Series IPv6 over IPsec Denial of Service Vulnerability CVE-2025-20222 (high) <a href=\"https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fp2k-IPsec-dos-tjwgdZCO\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">sec.cloudapps.cisco.com/securi</span><span class=\"invisible\">ty/center/content/CiscoSecurityAdvisory/cisco-sa-fp2k-IPsec-dos-tjwgdZCO</span></a> <span class=\"h-card\" translate=\"no\"><a href=\"https://mstdn.social/@TalosSecurity\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>TalosSecurity</span></a></span> <a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>infosec</span></a></p>",
+        "created_at": "2025-09-10T16:35:33.000Z"
+      }
+    ],
+    "description": "A vulnerability in the Address Resolution Protocol (ARP) implementation of Cisco IOS XR Software could allow an unauthenticated, adjacent attacker to trigger a broadcast storm, leading to a denial of service (DoS) condition on an affected device.&nbsp;\r\n\r\nThis vulnerability is due to how Cisco IOS XR Software processes a high, sustained rate of ARP traffic hitting the management interface. Under certain conditions, an attacker could exploit this vulnerability by sending an excessive amount of traffic to the management interface of an affected device, overwhelming its ARP processing capabilities. A successful exploit could result in degraded device performance, loss of management connectivity, and complete unresponsiveness of the system, leading to a DoS condition.",
+    "repos": [],
+    "updated": "2025-09-11T17:14:10.147000",
+    "epss": 0.019
+  },
+  "CVE-2025-20248": {
+    "cvss3": 6.0,
+    "severity": "MEDIUM",
+    "epss_severity": "LOW",
+    "nuclei": null,
+    "posts": [
+      {
+        "account": {
+          "id": "110560587680388288",
+          "username": "AAKL",
+          "acct": "AAKL@infosec.exchange",
+          "display_name": "AAKL",
+          "locked": true,
+          "bot": false,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2023-06-17T00:00:00.000Z",
+          "note": "<p>Always questioning. Latest news focused on  <a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybersecurity</span></a>, <a href=\"https://infosec.exchange/tags/privacy\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>privacy</span></a>, <a href=\"https://infosec.exchange/tags/Linux\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Linux</span></a>, <a href=\"https://infosec.exchange/tags/Apple\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Apple</span></a>, <a href=\"https://infosec.exchange/tags/Microsoft\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Microsoft</span></a>, <a href=\"https://infosec.exchange/tags/Google\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Google</span></a>, <a href=\"https://infosec.exchange/tags/AI\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>AI</span></a>, and the tech industry in general. Toxicity is not tolerated. Porn is blocked. I follow like interests.</p><p>Check your facts. </p><p>- FactCheck.org <a href=\"https://www.factcheck.org/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">factcheck.org/</span><span class=\"invisible\"></span></a><br>- Reuters Fact Check <a href=\"https://www.reuters.com/fact-check/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">reuters.com/fact-check/</span><span class=\"invisible\"></span></a><br>- AP Fact Check <a href=\"https://apnews.com/ap-fact-check\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">apnews.com/ap-fact-check</span><span class=\"invisible\"></span></a><br>- Snopes <a href=\"https://www.snopes.com/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">snopes.com/</span><span class=\"invisible\"></span></a><br>- Politifact <a href=\"https://www.politifact.com/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">politifact.com/</span><span class=\"invisible\"></span></a></p><p>NordVPN Link Checker: <a href=\"https://nordvpn.com/link-checker/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">nordvpn.com/link-checker/</span><span class=\"invisible\"></span></a></p><p>Project 2025 Tracker <a href=\"https://www.project2025.observer/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">project2025.observer/</span><span class=\"invisible\"></span></a></p>",
+          "url": "https://infosec.exchange/@AAKL",
+          "uri": "https://infosec.exchange/users/AAKL",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/560/587/680/388/288/original/1d1585ea23f19de8.png",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/560/587/680/388/288/original/1d1585ea23f19de8.png",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/110/560/587/680/388/288/original/8834107ee7550573.png",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/560/587/680/388/288/original/8834107ee7550573.png",
+          "followers_count": 533,
+          "following_count": 568,
+          "statuses_count": 485,
+          "last_status_at": "2025-09-13",
+          "hide_collections": true,
+          "emojis": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@AAKL/115180970568222098",
+        "content": "<p>Cisco has four advisories between today and yesterday, three of them high severity:</p><p>- Cisco IOS XR Software Image Verification Bypass Vulnerability CVE-2025-20248 (high) <a href=\"https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-xrsig-UY4zRUCG\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">sec.cloudapps.cisco.com/securi</span><span class=\"invisible\">ty/center/content/CiscoSecurityAdvisory/cisco-sa-xrsig-UY4zRUCG</span></a></p><p>- Cisco IOS XR ARP Broadcast Storm Denial of Service Vulnerability CVE-2025-20340 )high) <a href=\"https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxr-arp-storm-EjUU55yM\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">sec.cloudapps.cisco.com/securi</span><span class=\"invisible\">ty/center/content/CiscoSecurityAdvisory/cisco-sa-iosxr-arp-storm-EjUU55yM</span></a></p><p>- Cisco IOS XR Software Management Interface ACL Bypass Vulnerability CVE-2025-20159 <a href=\"https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-acl-packetio-Swjhhbtz\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">sec.cloudapps.cisco.com/securi</span><span class=\"invisible\">ty/center/content/CiscoSecurityAdvisory/cisco-sa-acl-packetio-Swjhhbtz</span></a></p><p>From yesterday: </p><p>- Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software for Firepower 2100 Series IPv6 over IPsec Denial of Service Vulnerability CVE-2025-20222 (high) <a href=\"https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fp2k-IPsec-dos-tjwgdZCO\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">sec.cloudapps.cisco.com/securi</span><span class=\"invisible\">ty/center/content/CiscoSecurityAdvisory/cisco-sa-fp2k-IPsec-dos-tjwgdZCO</span></a> <span class=\"h-card\" translate=\"no\"><a href=\"https://mstdn.social/@TalosSecurity\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>TalosSecurity</span></a></span> <a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>infosec</span></a></p>",
+        "created_at": "2025-09-10T16:35:33.000Z"
+      }
+    ],
+    "description": "A vulnerability in the installation process of Cisco IOS XR Software could allow an authenticated, local attacker to bypass Cisco IOS XR Software image signature verification and load unsigned software on an affected device. To exploit this vulnerability, the attacker must have root-system privileges on the affected device.\n\nThis vulnerability is due to incomplete validation of files during the installation of an .iso file. An attacker could exploit this vulnerability by modifying contents of the .iso image and then installing and activating it on the device. A successful exploit could allow the attacker to load an unsigned file as part of the image activation process.",
+    "repos": [],
+    "updated": "2025-09-10T18:30:27",
+    "epss": 0.009000000000000001
+  },
   "CVE-2025-54236": {
     "cvss3": 9.1,
     "severity": "CRITICAL",
@@ -4313,8 +4435,8 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/109/264/069/240/647/632/original/a8beeb3b3a2a38a4.jpeg",
           "followers_count": 4468,
           "following_count": 1519,
-          "statuses_count": 46311,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 46318,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [
             {
@@ -4426,8 +4548,8 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 169,
           "following_count": 307,
-          "statuses_count": 103331,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 103333,
+          "last_status_at": "2025-09-14",
           "hide_collections": true,
           "emojis": [
             {
@@ -4563,8 +4685,8 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 169,
           "following_count": 307,
-          "statuses_count": 103331,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 103333,
+          "last_status_at": "2025-09-14",
           "hide_collections": true,
           "emojis": [
             {
@@ -4601,8 +4723,8 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 169,
           "following_count": 307,
-          "statuses_count": 103331,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 103333,
+          "last_status_at": "2025-09-14",
           "hide_collections": true,
           "emojis": [
             {
@@ -4639,8 +4761,8 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 169,
           "following_count": 307,
-          "statuses_count": 103331,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 103333,
+          "last_status_at": "2025-09-14",
           "hide_collections": true,
           "emojis": [
             {
@@ -4816,7 +4938,7 @@
           "header_static": "https://files.ioc.exchange/accounts/headers/108/260/931/274/028/888/original/9bc484d30fdb7fb2.jpg",
           "followers_count": 162,
           "following_count": 405,
-          "statuses_count": 1773,
+          "statuses_count": 1774,
           "last_status_at": "2025-09-13",
           "hide_collections": false,
           "noindex": false,
@@ -4855,7 +4977,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/000/039/740/original/3f55516a5d1c5058.png",
           "followers_count": 17628,
           "following_count": 409,
-          "statuses_count": 128,
+          "statuses_count": 129,
           "last_status_at": "2025-09-13",
           "hide_collections": false,
           "emojis": [],
@@ -4908,11 +5030,11 @@
         "created_at": "2025-09-09T12:27:18.000Z"
       }
     ],
-    "description": "Adobe Commerce versions 2.4.9-alpha2, 2.4.8-p2, 2.4.7-p7, 2.4.6-p12, 2.4.5-p14, 2.4.4-p15 and earlier are affected by an Improper Input Validation vulnerability. A successful attacker can abuse this to achieve session takeover, increasing the confidentiality, and integrity impact to high. Exploitation of this issue does not require user interaction.",
+    "description": "Adobe Commerce versions 2.4.9-alpha2, 2.4.8-p2, 2.4.7-p7, 2.4.6-p12, 2.4.5-p14, 2.4.4-p15 and earlier are affected by an Improper Input Validation vulnerability that could result in a Security feature bypass. A successful attacker can abuse this to achieve session takeover, increasing the confidentiality and integrity impact to high. Exploitation of this issue does not require user interaction.",
     "repos": [
       "https://github.com/amalpvatayam67/day01-sessionreaper-lab"
     ],
-    "updated": "2025-09-10T13:35:00.263000",
+    "updated": "2025-09-10T20:40:02",
     "epss": 0.208
   },
   "CVE-2025-10148": {
@@ -5008,7 +5130,7 @@
     ],
     "description": "curl's websocket code did not update the 32 bit mask pattern for each new\n outgoing frame as the specification says. Instead it used a fixed mask that\npersisted and was used throughout the entire connection.\n\nA predictable mask pattern allows for a malicious server to induce traffic\nbetween the two communicating parties that could be interpreted by an involved\nproxy (configured or transparent) as genuine, real, HTTP traffic with content\nand thereby poison its cache. That cached poisoned content could then be\nserved to all users of that proxy.",
     "repos": [],
-    "updated": "2025-09-12T18:32:11",
+    "updated": "2025-09-12T18:15:33.233000",
     "epss": 0.027
   },
   "CVE-2025-24132": {
@@ -5062,8 +5184,8 @@
     ],
     "description": "The issue was addressed with improved memory handling. This issue is fixed in AirPlay audio SDK 2.7.1, AirPlay video SDK 3.6.0.126, CarPlay Communication Plug-in R18.1. An attacker on the local network may cause an unexpected app termination.",
     "repos": [
-      "https://github.com/Feralthedogg/CVE-2025-24132-Scanner",
-      "https://github.com/ekomsSavior/AirBorne-PoC"
+      "https://github.com/ekomsSavior/AirBorne-PoC",
+      "https://github.com/Feralthedogg/CVE-2025-24132-Scanner"
     ],
     "updated": "2025-05-01T15:31:39",
     "epss": 0.009000000000000001
@@ -5215,7 +5337,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/109/387/541/316/467/960/original/42d339e0858a9bea.jpeg",
           "followers_count": 62850,
           "following_count": 750,
-          "statuses_count": 3943,
+          "statuses_count": 3941,
           "last_status_at": "2025-09-13",
           "hide_collections": false,
           "emojis": [],
@@ -5244,25 +5366,25 @@
     ],
     "description": "SAP NetWeaver Visual Composer Metadata Uploader is not protected with a proper authorization, allowing unauthenticated agent to upload potentially malicious executable binaries that could severely harm the host system. This could significantly affect the confidentiality, integrity, and availability of the targeted system.",
     "repos": [
-      "https://github.com/NULLTRACE0X/CVE-2025-31324",
-      "https://github.com/antichainalysis/sap-netweaver-0day-CVE-2025-31324",
-      "https://github.com/respondiq/jsp-webshell-scanner",
-      "https://github.com/JonathanStross/CVE-2025-31324",
-      "https://github.com/Onapsis/Onapsis-Mandiant-CVE-2025-31324-Vuln-Compromise-Assessment",
-      "https://github.com/rxerium/CVE-2025-31324",
-      "https://github.com/Alizngnc/SAP-CVE-2025-31324",
-      "https://github.com/abrewer251/CVE-2025-31324_PoC_SAP",
-      "https://github.com/harshitvarma05/CVE-2025-31324-Exploits",
       "https://github.com/moften/CVE-2025-31324",
-      "https://github.com/moften/CVE-2025-31324-NUCLEI",
-      "https://github.com/BlueOWL-overlord/Burp_CVE-2025-31324",
       "https://github.com/ODST-Forge/CVE-2025-31324_PoC",
+      "https://github.com/abrewer251/CVE-2025-31324_PoC_SAP",
       "https://github.com/rf-peixoto/sap_netweaver_cve-2025-31324-",
-      "https://github.com/redrays-io/CVE-2025-31324",
       "https://github.com/nullcult/CVE-2025-31324-File-Upload",
-      "https://github.com/nairuzabulhul/nuclei-template-cve-2025-31324-check",
+      "https://github.com/Alizngnc/SAP-CVE-2025-31324",
+      "https://github.com/antichainalysis/sap-netweaver-0day-CVE-2025-31324",
+      "https://github.com/BlueOWL-overlord/Burp_CVE-2025-31324",
+      "https://github.com/Onapsis/Onapsis-Mandiant-CVE-2025-31324-Vuln-Compromise-Assessment",
+      "https://github.com/JonathanStross/CVE-2025-31324",
+      "https://github.com/harshitvarma05/CVE-2025-31324-Exploits",
       "https://github.com/sug4r-wr41th/CVE-2025-31324",
-      "https://github.com/Onapsis/Onapsis_CVE-2025-31324_Scanner_Tools"
+      "https://github.com/Onapsis/Onapsis_CVE-2025-31324_Scanner_Tools",
+      "https://github.com/nairuzabulhul/nuclei-template-cve-2025-31324-check",
+      "https://github.com/moften/CVE-2025-31324-NUCLEI",
+      "https://github.com/respondiq/jsp-webshell-scanner",
+      "https://github.com/NULLTRACE0X/CVE-2025-31324",
+      "https://github.com/rxerium/CVE-2025-31324",
+      "https://github.com/redrays-io/CVE-2025-31324"
     ],
     "updated": "2025-05-02T15:31:16",
     "epss": 32.621
@@ -5542,8 +5664,8 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 169,
           "following_count": 307,
-          "statuses_count": 103331,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 103333,
+          "last_status_at": "2025-09-14",
           "hide_collections": true,
           "emojis": [
             {
@@ -5711,9 +5833,9 @@
         "created_at": "2025-09-09T20:01:07.000Z"
       }
     ],
-    "description": "Newtonsoft.Json before version 13.0.1 is affected by a mishandling of exceptional conditions vulnerability. Crafted data that is passed to the JsonConvert.DeserializeObject method may trigger a StackOverflow exception resulting in denial of service. Depending on the usage of the library, an unauthenticated and remote attacker may be able to cause the denial of service condition.\n",
+    "description": "Newtonsoft.Json prior to version 13.0.1 is vulnerable to Insecure Defaults due to improper handling of expressions with high nesting level that lead to StackOverFlow exception or high CPU and RAM usage. Exploiting this vulnerability results in Denial Of Service (DoS). \n\nThe serialization and deserialization path have different properties regarding the issue.\n\nDeserializing methods (like `JsonConvert.DeserializeObject`) will process the input that results in burning the CPU, allocating memory, and consuming a thread of execution. Quite high nesting level (>10kk, or 9.5MB of `{a:{a:{...` input) is needed to achieve the latency over 10 seconds, depending on the hardware.\n\nSerializing methods (like `JsonConvert.Serialize` or `JObject.ToString`) will throw StackOverFlow exception with the nesting level of around 20k.\n\nTo mitigate the issue one either need to update Newtonsoft.Json to 13.0.1 or set `MaxDepth` parameter in the `JsonSerializerSettings`. This can be done globally with the following statement. After that the parsing of the nested input will fail fast with `Newtonsoft.Json.JsonReaderException`:\n\n``` \nJsonConvert.DefaultSettings = () => new JsonSerializerSettings { MaxDepth = 128 };\n```\n\nRepro code:\n```\n//Create a string representation of an highly nested object (JSON serialized)\nint nRep = 25000;\nstring json = string.Concat(Enumerable.Repeat(\"{a:\", nRep)) + \"1\" +\n string.Concat(Enumerable.Repeat(\"}\", nRep));\n\n//Parse this object (leads to high CPU/RAM consumption)\nvar parsedJson = JsonConvert.DeserializeObject(json);\n\n// Methods below all throw stack overflow with nRep around 20k and higher\n// string a = parsedJson.ToString();\n// string b = JsonConvert.SerializeObject(parsedJson);\n```\n\n### Additional affected product and version information\n**The original statement about the problem only affecting IIS applications is misleading.** Any application is affected, however the IIS has a behavior that stops restarting the instance after some time resulting in a harder-to-fix DoS.**",
     "repos": [],
-    "updated": "2024-11-21T08:55:14.583000",
+    "updated": "2024-01-03T20:06:37",
     "epss": 2.166
   },
   "CVE-2025-55234": {
@@ -5779,7 +5901,7 @@
     ],
     "description": "SMB Server might be susceptible to relay attacks depending on the configuration. An attacker who successfully exploited these vulnerabilities could perform relay attacks and make the users subject to elevation of privilege attacks.\nThe SMB Server already supports mechanisms for hardening against relay attacks:\n\nSMB Server signing\nSMB Server Extended Protection for Authentication (EPA)\n\nMicrosoft is releasing this CVE to provide customers with audit capabilities to help them to assess their environment and to identify any potential device or software incompatibility issues before deploying SMB Server hardening measures that protect against relay attacks.\nIf you have not already enabled SMB Server hardening measures, we advise customers to take the following actions to be protected from these relay attacks:\n\nAssess your environment by utilizing the audit capabilities that we are exposing in the September 2025 security updates.  See Support for Audit Events to deploy SMB Server Hardening\u2014SMB Server Signing &amp; SMB Server EPA.\nAdopt appropriate SMB Server hardening measures.",
     "repos": [],
-    "updated": "2025-09-09T18:31:31",
+    "updated": "2025-09-12T14:44:14.567000",
     "epss": 0.74
   },
   "CVE-2024-0132": {
@@ -5950,8 +6072,8 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 339,
           "following_count": 0,
-          "statuses_count": 22046,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 22052,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [],
           "fields": [
@@ -5969,7 +6091,7 @@
     ],
     "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nvsock/virtio: Initialization of the dangling pointer occurring in vsk->trans\n\nDuring loopback communication, a dangling pointer can be created in\nvsk->trans, potentially leading to a Use-After-Free condition.  This\nissue is resolved by initializing vsk->trans to NULL.",
     "repos": [],
-    "updated": "2024-12-11T15:15:14.343000",
+    "updated": "2024-11-21T21:34:38",
     "epss": 0.048
   },
   "CVE-2025-42944": {
@@ -6136,7 +6258,7 @@
     "repos": [
       "https://github.com/rxerium/CVE-2025-42944"
     ],
-    "updated": "2025-09-09T03:30:19",
+    "updated": "2025-09-09T16:28:43.660000",
     "epss": 0.027999999999999997
   },
   "CVE-2025-54381": {
@@ -6216,92 +6338,6 @@
     "updated": "2025-07-30T11:43:57",
     "epss": 0.122
   },
-  "CVE-2025-23342": {
-    "cvss3": 8.3,
-    "severity": "HIGH",
-    "epss_severity": "LOW",
-    "nuclei": null,
-    "posts": [
-      {
-        "account": {
-          "id": "110560587680388288",
-          "username": "AAKL",
-          "acct": "AAKL@infosec.exchange",
-          "display_name": "AAKL",
-          "locked": true,
-          "bot": false,
-          "discoverable": true,
-          "indexable": true,
-          "group": false,
-          "created_at": "2023-06-17T00:00:00.000Z",
-          "note": "<p>Always questioning. Latest news focused on  <a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybersecurity</span></a>, <a href=\"https://infosec.exchange/tags/privacy\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>privacy</span></a>, <a href=\"https://infosec.exchange/tags/Linux\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Linux</span></a>, <a href=\"https://infosec.exchange/tags/Apple\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Apple</span></a>, <a href=\"https://infosec.exchange/tags/Microsoft\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Microsoft</span></a>, <a href=\"https://infosec.exchange/tags/Google\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Google</span></a>, <a href=\"https://infosec.exchange/tags/AI\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>AI</span></a>, and the tech industry in general. Toxicity is not tolerated. Porn is blocked. I follow like interests.</p><p>Check your facts. </p><p>- FactCheck.org <a href=\"https://www.factcheck.org/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">factcheck.org/</span><span class=\"invisible\"></span></a><br>- Reuters Fact Check <a href=\"https://www.reuters.com/fact-check/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">reuters.com/fact-check/</span><span class=\"invisible\"></span></a><br>- AP Fact Check <a href=\"https://apnews.com/ap-fact-check\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">apnews.com/ap-fact-check</span><span class=\"invisible\"></span></a><br>- Snopes <a href=\"https://www.snopes.com/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">snopes.com/</span><span class=\"invisible\"></span></a><br>- Politifact <a href=\"https://www.politifact.com/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">politifact.com/</span><span class=\"invisible\"></span></a></p><p>NordVPN Link Checker: <a href=\"https://nordvpn.com/link-checker/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">nordvpn.com/link-checker/</span><span class=\"invisible\"></span></a></p><p>Project 2025 Tracker <a href=\"https://www.project2025.observer/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">project2025.observer/</span><span class=\"invisible\"></span></a></p>",
-          "url": "https://infosec.exchange/@AAKL",
-          "uri": "https://infosec.exchange/users/AAKL",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/560/587/680/388/288/original/1d1585ea23f19de8.png",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/560/587/680/388/288/original/1d1585ea23f19de8.png",
-          "header": "https://files.ioc.exchange/cache/accounts/headers/110/560/587/680/388/288/original/8834107ee7550573.png",
-          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/560/587/680/388/288/original/8834107ee7550573.png",
-          "followers_count": 533,
-          "following_count": 568,
-          "statuses_count": 485,
-          "last_status_at": "2025-09-13",
-          "hide_collections": true,
-          "emojis": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@AAKL/115174853406861403",
-        "content": "<p>New. Three high-severity listings: CVE-2025-23342, CVE-2025-23343, and CVE-2025-23344.</p><p>Security Bulletin: NVIDIA NVDebug Tool - September 2025 <a href=\"https://nvidia.custhelp.com/app/answers/detail/a_id/5696\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">nvidia.custhelp.com/app/answer</span><span class=\"invisible\">s/detail/a_id/5696</span></a> <a href=\"https://infosec.exchange/tags/Nvidia\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Nvidia</span></a> <a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>infosec</span></a></p>",
-        "created_at": "2025-09-09T14:39:53.000Z"
-      }
-    ],
-    "description": "The NVIDIA NVDebug tool contains a vulnerability that may allow an actor to gain access to a privileged account . A successful exploit of this vulnerability may lead to code execution, denial of service, escalation of privileges, information disclosure and data tampering.",
-    "repos": [],
-    "updated": "2025-09-09T21:30:39",
-    "epss": 0.009000000000000001
-  },
-  "CVE-2025-23344": {
-    "cvss3": 7.3,
-    "severity": "HIGH",
-    "epss_severity": "LOW",
-    "nuclei": null,
-    "posts": [
-      {
-        "account": {
-          "id": "110560587680388288",
-          "username": "AAKL",
-          "acct": "AAKL@infosec.exchange",
-          "display_name": "AAKL",
-          "locked": true,
-          "bot": false,
-          "discoverable": true,
-          "indexable": true,
-          "group": false,
-          "created_at": "2023-06-17T00:00:00.000Z",
-          "note": "<p>Always questioning. Latest news focused on  <a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybersecurity</span></a>, <a href=\"https://infosec.exchange/tags/privacy\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>privacy</span></a>, <a href=\"https://infosec.exchange/tags/Linux\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Linux</span></a>, <a href=\"https://infosec.exchange/tags/Apple\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Apple</span></a>, <a href=\"https://infosec.exchange/tags/Microsoft\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Microsoft</span></a>, <a href=\"https://infosec.exchange/tags/Google\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Google</span></a>, <a href=\"https://infosec.exchange/tags/AI\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>AI</span></a>, and the tech industry in general. Toxicity is not tolerated. Porn is blocked. I follow like interests.</p><p>Check your facts. </p><p>- FactCheck.org <a href=\"https://www.factcheck.org/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">factcheck.org/</span><span class=\"invisible\"></span></a><br>- Reuters Fact Check <a href=\"https://www.reuters.com/fact-check/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">reuters.com/fact-check/</span><span class=\"invisible\"></span></a><br>- AP Fact Check <a href=\"https://apnews.com/ap-fact-check\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">apnews.com/ap-fact-check</span><span class=\"invisible\"></span></a><br>- Snopes <a href=\"https://www.snopes.com/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">snopes.com/</span><span class=\"invisible\"></span></a><br>- Politifact <a href=\"https://www.politifact.com/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">politifact.com/</span><span class=\"invisible\"></span></a></p><p>NordVPN Link Checker: <a href=\"https://nordvpn.com/link-checker/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">nordvpn.com/link-checker/</span><span class=\"invisible\"></span></a></p><p>Project 2025 Tracker <a href=\"https://www.project2025.observer/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">project2025.observer/</span><span class=\"invisible\"></span></a></p>",
-          "url": "https://infosec.exchange/@AAKL",
-          "uri": "https://infosec.exchange/users/AAKL",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/560/587/680/388/288/original/1d1585ea23f19de8.png",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/560/587/680/388/288/original/1d1585ea23f19de8.png",
-          "header": "https://files.ioc.exchange/cache/accounts/headers/110/560/587/680/388/288/original/8834107ee7550573.png",
-          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/560/587/680/388/288/original/8834107ee7550573.png",
-          "followers_count": 533,
-          "following_count": 568,
-          "statuses_count": 485,
-          "last_status_at": "2025-09-13",
-          "hide_collections": true,
-          "emojis": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@AAKL/115174853406861403",
-        "content": "<p>New. Three high-severity listings: CVE-2025-23342, CVE-2025-23343, and CVE-2025-23344.</p><p>Security Bulletin: NVIDIA NVDebug Tool - September 2025 <a href=\"https://nvidia.custhelp.com/app/answers/detail/a_id/5696\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">nvidia.custhelp.com/app/answer</span><span class=\"invisible\">s/detail/a_id/5696</span></a> <a href=\"https://infosec.exchange/tags/Nvidia\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Nvidia</span></a> <a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>infosec</span></a></p>",
-        "created_at": "2025-09-09T14:39:53.000Z"
-      }
-    ],
-    "description": "The NVIDIA NVDebug tool contains a vulnerability that may allow an actor to run code on the platform host as a non-privileged user. A successful exploit of this vulnerability may lead to code execution, denial of service, escalation of privileges, information disclosure and data tampering.",
-    "repos": [],
-    "updated": "2025-09-11T17:14:25.240000",
-    "epss": 0.017
-  },
   "CVE-2025-23343": {
     "cvss3": 7.7,
     "severity": "HIGH",
@@ -6344,6 +6380,92 @@
     "repos": [],
     "updated": "2025-09-09T21:30:39",
     "epss": 0.02
+  },
+  "CVE-2025-23344": {
+    "cvss3": 7.3,
+    "severity": "HIGH",
+    "epss_severity": "LOW",
+    "nuclei": null,
+    "posts": [
+      {
+        "account": {
+          "id": "110560587680388288",
+          "username": "AAKL",
+          "acct": "AAKL@infosec.exchange",
+          "display_name": "AAKL",
+          "locked": true,
+          "bot": false,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2023-06-17T00:00:00.000Z",
+          "note": "<p>Always questioning. Latest news focused on  <a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybersecurity</span></a>, <a href=\"https://infosec.exchange/tags/privacy\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>privacy</span></a>, <a href=\"https://infosec.exchange/tags/Linux\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Linux</span></a>, <a href=\"https://infosec.exchange/tags/Apple\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Apple</span></a>, <a href=\"https://infosec.exchange/tags/Microsoft\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Microsoft</span></a>, <a href=\"https://infosec.exchange/tags/Google\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Google</span></a>, <a href=\"https://infosec.exchange/tags/AI\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>AI</span></a>, and the tech industry in general. Toxicity is not tolerated. Porn is blocked. I follow like interests.</p><p>Check your facts. </p><p>- FactCheck.org <a href=\"https://www.factcheck.org/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">factcheck.org/</span><span class=\"invisible\"></span></a><br>- Reuters Fact Check <a href=\"https://www.reuters.com/fact-check/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">reuters.com/fact-check/</span><span class=\"invisible\"></span></a><br>- AP Fact Check <a href=\"https://apnews.com/ap-fact-check\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">apnews.com/ap-fact-check</span><span class=\"invisible\"></span></a><br>- Snopes <a href=\"https://www.snopes.com/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">snopes.com/</span><span class=\"invisible\"></span></a><br>- Politifact <a href=\"https://www.politifact.com/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">politifact.com/</span><span class=\"invisible\"></span></a></p><p>NordVPN Link Checker: <a href=\"https://nordvpn.com/link-checker/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">nordvpn.com/link-checker/</span><span class=\"invisible\"></span></a></p><p>Project 2025 Tracker <a href=\"https://www.project2025.observer/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">project2025.observer/</span><span class=\"invisible\"></span></a></p>",
+          "url": "https://infosec.exchange/@AAKL",
+          "uri": "https://infosec.exchange/users/AAKL",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/560/587/680/388/288/original/1d1585ea23f19de8.png",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/560/587/680/388/288/original/1d1585ea23f19de8.png",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/110/560/587/680/388/288/original/8834107ee7550573.png",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/560/587/680/388/288/original/8834107ee7550573.png",
+          "followers_count": 533,
+          "following_count": 568,
+          "statuses_count": 485,
+          "last_status_at": "2025-09-13",
+          "hide_collections": true,
+          "emojis": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@AAKL/115174853406861403",
+        "content": "<p>New. Three high-severity listings: CVE-2025-23342, CVE-2025-23343, and CVE-2025-23344.</p><p>Security Bulletin: NVIDIA NVDebug Tool - September 2025 <a href=\"https://nvidia.custhelp.com/app/answers/detail/a_id/5696\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">nvidia.custhelp.com/app/answer</span><span class=\"invisible\">s/detail/a_id/5696</span></a> <a href=\"https://infosec.exchange/tags/Nvidia\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Nvidia</span></a> <a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>infosec</span></a></p>",
+        "created_at": "2025-09-09T14:39:53.000Z"
+      }
+    ],
+    "description": "The NVIDIA NVDebug tool contains a vulnerability that may allow an actor to run code on the platform host as a non-privileged user. A successful exploit of this vulnerability may lead to code execution, denial of service, escalation of privileges, information disclosure and data tampering.",
+    "repos": [],
+    "updated": "2025-09-09T21:30:38",
+    "epss": 0.017
+  },
+  "CVE-2025-23342": {
+    "cvss3": 8.2,
+    "severity": "HIGH",
+    "epss_severity": "LOW",
+    "nuclei": null,
+    "posts": [
+      {
+        "account": {
+          "id": "110560587680388288",
+          "username": "AAKL",
+          "acct": "AAKL@infosec.exchange",
+          "display_name": "AAKL",
+          "locked": true,
+          "bot": false,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2023-06-17T00:00:00.000Z",
+          "note": "<p>Always questioning. Latest news focused on  <a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybersecurity</span></a>, <a href=\"https://infosec.exchange/tags/privacy\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>privacy</span></a>, <a href=\"https://infosec.exchange/tags/Linux\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Linux</span></a>, <a href=\"https://infosec.exchange/tags/Apple\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Apple</span></a>, <a href=\"https://infosec.exchange/tags/Microsoft\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Microsoft</span></a>, <a href=\"https://infosec.exchange/tags/Google\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Google</span></a>, <a href=\"https://infosec.exchange/tags/AI\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>AI</span></a>, and the tech industry in general. Toxicity is not tolerated. Porn is blocked. I follow like interests.</p><p>Check your facts. </p><p>- FactCheck.org <a href=\"https://www.factcheck.org/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">factcheck.org/</span><span class=\"invisible\"></span></a><br>- Reuters Fact Check <a href=\"https://www.reuters.com/fact-check/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">reuters.com/fact-check/</span><span class=\"invisible\"></span></a><br>- AP Fact Check <a href=\"https://apnews.com/ap-fact-check\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">apnews.com/ap-fact-check</span><span class=\"invisible\"></span></a><br>- Snopes <a href=\"https://www.snopes.com/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">snopes.com/</span><span class=\"invisible\"></span></a><br>- Politifact <a href=\"https://www.politifact.com/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">politifact.com/</span><span class=\"invisible\"></span></a></p><p>NordVPN Link Checker: <a href=\"https://nordvpn.com/link-checker/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">nordvpn.com/link-checker/</span><span class=\"invisible\"></span></a></p><p>Project 2025 Tracker <a href=\"https://www.project2025.observer/\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">project2025.observer/</span><span class=\"invisible\"></span></a></p>",
+          "url": "https://infosec.exchange/@AAKL",
+          "uri": "https://infosec.exchange/users/AAKL",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/110/560/587/680/388/288/original/1d1585ea23f19de8.png",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/110/560/587/680/388/288/original/1d1585ea23f19de8.png",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/110/560/587/680/388/288/original/8834107ee7550573.png",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/560/587/680/388/288/original/8834107ee7550573.png",
+          "followers_count": 533,
+          "following_count": 568,
+          "statuses_count": 485,
+          "last_status_at": "2025-09-13",
+          "hide_collections": true,
+          "emojis": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@AAKL/115174853406861403",
+        "content": "<p>New. Three high-severity listings: CVE-2025-23342, CVE-2025-23343, and CVE-2025-23344.</p><p>Security Bulletin: NVIDIA NVDebug Tool - September 2025 <a href=\"https://nvidia.custhelp.com/app/answers/detail/a_id/5696\" rel=\"nofollow noopener noreferrer\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">nvidia.custhelp.com/app/answer</span><span class=\"invisible\">s/detail/a_id/5696</span></a> <a href=\"https://infosec.exchange/tags/Nvidia\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>Nvidia</span></a> <a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>infosec</span></a></p>",
+        "created_at": "2025-09-09T14:39:53.000Z"
+      }
+    ],
+    "description": "The NVIDIA NVDebug tool contains a vulnerability that may allow an actor to gain access to a privileged account . A successful exploit of this vulnerability may lead to code execution, denial of service, escalation of privileges, information disclosure and data tampering.",
+    "repos": [],
+    "updated": "2025-09-11T17:14:25.240000",
+    "epss": 0.009000000000000001
   },
   "CVE-2025-54313": {
     "cvss3": 7.5,
@@ -6452,13 +6574,13 @@
         "created_at": "2025-09-08T16:01:46.000Z"
       }
     ],
-    "description": "Deserialization of Untrusted Data vulnerability in Apache Jackrabbit Core and Apache Jackrabbit JCR Commons.\n\nThis issue affects Apache Jackrabbit Core: from 1.0.0 through 2.22.1; Apache Jackrabbit JCR Commons: from 1.0.0 through 2.22.1.\n\nDeployments that accept JNDI URIs for JCR lookup from untrusted users allows them to inject malicious JNDI references, potentially leading to arbitrary code execution through deserialization of untrusted data.\nUsers are recommended to upgrade to version 2.22.2. JCR lookup through JNDI has been disabled by default in 2.22.2. Users of this feature need to enable it explicitly and are adviced to review their use of JNDI URI for JCR lookup.",
+    "description": "There is a serialization of Untrusted Data vulnerability in Apache Jackrabbit Core and Apache Jackrabbit JCR Commons.\n\nThis issue affects Apache Jackrabbit Core: from 1.0.0 through 2.22.1; Apache Jackrabbit JCR Commons: from 1.0.0 through 2.22.1.\n\nDeployments that accept JNDI URIs for JCR lookup from untrusted users allows them to inject malicious JNDI references, potentially leading to arbitrary code execution through deserialization of untrusted data. Users are recommended to upgrade to version 2.22.2. JCR lookup through JNDI has been disabled by default in 2.22.2. Users of this feature need to enable it explicitly and are adviced to review their use of JNDI URI for JCR lookup.",
     "repos": [],
-    "updated": "2025-09-08T20:15:36.507000",
+    "updated": "2025-09-09T15:14:39",
     "epss": 0.052
   },
   "CVE-2025-53690": {
-    "cvss3": 9.1,
+    "cvss3": 9.0,
     "severity": "CRITICAL",
     "epss_severity": "HIGH",
     "nuclei": null,
@@ -6688,11 +6810,11 @@
     ],
     "description": "Deserialization of Untrusted Data vulnerability in Sitecore Experience Manager (XM), Sitecore Experience Platform (XP) allows Code Injection.This issue affects Experience Manager (XM): through 9.0; Experience Platform (XP): through 9.0.",
     "repos": [
-      "https://github.com/m0d0ri205/CVE-2025-53690-Analysis",
+      "https://github.com/rxerium/CVE-2025-53690",
       "https://github.com/B1ack4sh/Blackash-CVE-2025-53690",
-      "https://github.com/rxerium/CVE-2025-53690"
+      "https://github.com/m0d0ri205/CVE-2025-53690-Analysis"
     ],
-    "updated": "2025-09-05T03:30:21",
+    "updated": "2025-09-05T13:48:28.540000",
     "epss": 23.378
   },
   "CVE-2025-53770": {
@@ -6797,48 +6919,48 @@
     ],
     "description": "Deserialization of untrusted data in on-premises Microsoft SharePoint Server allows an unauthorized attacker to execute code over a network.\nMicrosoft is aware that an exploit for CVE-2025-53770 exists in the wild.\nMicrosoft is preparing and fully testing a comprehensive update to address this vulnerability.  In the meantime, please make sure that the mitigation provided in this CVE documentation is in place so that you are protected from exploitation.",
     "repos": [
-      "https://github.com/Rabbitbong/OurSharePoint-CVE-2025-53770",
-      "https://github.com/Immersive-Labs-Sec/SharePoint-CVE-2025-53770-POC",
-      "https://github.com/n1chr0x/ZeroPoint",
-      "https://github.com/0x-crypt/CVE-2025-53770-Scanner",
-      "https://github.com/CyprianAtsyor/ToolShell-CVE-2025-53770-SharePoint-Exploit-Lab-LetsDefend",
       "https://github.com/kaizensecurity/CVE-2025-53770",
-      "https://github.com/ghostn4444/CVE-2025-53770",
+      "https://github.com/behnamvanda/CVE-2025-53770-Checker",
       "https://github.com/GreenForceNetworks/Toolshell_CVE-2025-53770",
+      "https://github.com/saladin0x1/CVE-2025-53770",
+      "https://github.com/r3xbugbounty/CVE-2025-53770",
+      "https://github.com/bossnick98/-SOC342---CVE-2025-53770-SharePoint-ToolShell-Auth-Bypass-and-RCE",
+      "https://github.com/harryhaxor/CVE-2025-53770-SharePoint-Deserialization-RCE-PoC",
+      "https://github.com/exfil0/CVE-2025-53770",
+      "https://github.com/0xray5c68616e37/cve-2025-53770",
+      "https://github.com/nisargsuthar/suricata-rule-CVE-2025-53770",
+      "https://github.com/Immersive-Labs-Sec/SharePoint-CVE-2025-53770-POC",
+      "https://github.com/unk9vvn/sharepoint-toolpane",
       "https://github.com/MuhammadWaseem29/CVE-2025-53770",
       "https://github.com/Agampreet-Singh/CVE-2025-53770",
-      "https://github.com/0xray5c68616e37/cve-2025-53770",
-      "https://github.com/a-hydrae/ToolShell-Honeypot",
-      "https://github.com/bharath-cyber-root/sharepoint-toolshell-cve-2025-53770",
-      "https://github.com/paolokappa/SharePointSecurityMonitor",
-      "https://github.com/Udyz/CVE-2025-53770-Exploit",
-      "https://github.com/behnamvanda/CVE-2025-53770-Checker",
-      "https://github.com/exfil0/CVE-2025-53770",
-      "https://github.com/nisargsuthar/suricata-rule-CVE-2025-53770",
-      "https://github.com/bossnick98/-SOC342---CVE-2025-53770-SharePoint-ToolShell-Auth-Bypass-and-RCE",
-      "https://github.com/tripoloski1337/CVE-2025-53770-scanner",
-      "https://github.com/siag-itsec/CVE-2025-53770-Hunting",
-      "https://github.com/Bluefire-Redteam-Cybersecurity/bluefire-sharepoint-cve-2025-53770",
-      "https://github.com/Kamal-Hegazi/CVE-2025-53770-SharePoint-RCE",
-      "https://github.com/daryllundy/CVE-2025-53770",
-      "https://github.com/r3xbugbounty/CVE-2025-53770",
-      "https://github.com/saladin0x1/CVE-2025-53770",
-      "https://github.com/imbas007/CVE-2025-53770-Vulnerable-Scanner",
       "https://github.com/AdityaBhatt3010/CVE-2025-53770-SharePoint-Zero-Day-Variant-Exploited-for-Full-RCE",
-      "https://github.com/RukshanaAlikhan/CVE-2025-53770",
-      "https://github.com/harryhaxor/CVE-2025-53770-SharePoint-Deserialization-RCE-PoC",
-      "https://github.com/ZephrFish/CVE-2025-53770-Scanner",
+      "https://github.com/0x-crypt/CVE-2025-53770-Scanner",
+      "https://github.com/n1chr0x/ZeroPoint",
       "https://github.com/grupooruss/CVE-2025-53770-Checker",
-      "https://github.com/BirdsAreFlyingCameras/CVE-2025-53770_Raw-HTTP-Request-Generator",
-      "https://github.com/unk9vvn/sharepoint-toolpane",
-      "https://github.com/Sec-Dan/CVE-2025-53770-Scanner",
-      "https://github.com/go-bi/sharepoint-CVE-2025-53770",
-      "https://github.com/peiqiF4ck/WebFrameworkTools-5.5-enhance",
-      "https://github.com/hazcod/CVE-2025-53770",
+      "https://github.com/Rabbitbong/OurSharePoint-CVE-2025-53770",
       "https://github.com/zach115th/ToolShellFinder",
-      "https://github.com/B1ack4sh/Blackash-CVE-2025-53770",
+      "https://github.com/ZephrFish/CVE-2025-53770-Scanner",
+      "https://github.com/RukshanaAlikhan/CVE-2025-53770",
+      "https://github.com/Udyz/CVE-2025-53770-Exploit",
+      "https://github.com/CyprianAtsyor/ToolShell-CVE-2025-53770-SharePoint-Exploit-Lab-LetsDefend",
+      "https://github.com/imbas007/CVE-2025-53770-Vulnerable-Scanner",
+      "https://github.com/siag-itsec/CVE-2025-53770-Hunting",
+      "https://github.com/daryllundy/CVE-2025-53770",
+      "https://github.com/BirdsAreFlyingCameras/CVE-2025-53770_Raw-HTTP-Request-Generator",
+      "https://github.com/Bluefire-Redteam-Cybersecurity/bluefire-sharepoint-cve-2025-53770",
+      "https://github.com/paolokappa/SharePointSecurityMonitor",
+      "https://github.com/tripoloski1337/CVE-2025-53770-scanner",
       "https://github.com/3a7/CVE-2025-53770",
-      "https://github.com/soltanali0/CVE-2025-53770-Exploit"
+      "https://github.com/soltanali0/CVE-2025-53770-Exploit",
+      "https://github.com/Sec-Dan/CVE-2025-53770-Scanner",
+      "https://github.com/ghostn4444/CVE-2025-53770",
+      "https://github.com/bharath-cyber-root/sharepoint-toolshell-cve-2025-53770",
+      "https://github.com/hazcod/CVE-2025-53770",
+      "https://github.com/a-hydrae/ToolShell-Honeypot",
+      "https://github.com/B1ack4sh/Blackash-CVE-2025-53770",
+      "https://github.com/go-bi/sharepoint-CVE-2025-53770",
+      "https://github.com/Kamal-Hegazi/CVE-2025-53770-SharePoint-RCE",
+      "https://github.com/peiqiF4ck/WebFrameworkTools-5.5-enhance"
     ],
     "updated": "2025-07-22T03:31:39",
     "epss": 87.711
@@ -6929,7 +7051,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/000/039/740/original/3f55516a5d1c5058.png",
           "followers_count": 17628,
           "following_count": 409,
-          "statuses_count": 128,
+          "statuses_count": 129,
           "last_status_at": "2025-09-13",
           "hide_collections": false,
           "emojis": [],
@@ -6971,8 +7093,8 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 169,
           "following_count": 307,
-          "statuses_count": 103331,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 103333,
+          "last_status_at": "2025-09-14",
           "hide_collections": true,
           "emojis": [
             {
@@ -7009,8 +7131,8 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 169,
           "following_count": 307,
-          "statuses_count": 103331,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 103333,
+          "last_status_at": "2025-09-14",
           "hide_collections": true,
           "emojis": [
             {
@@ -7047,8 +7169,8 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 169,
           "following_count": 307,
-          "statuses_count": 103331,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 103333,
+          "last_status_at": "2025-09-14",
           "hide_collections": true,
           "emojis": [
             {
@@ -7271,8 +7393,8 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 169,
           "following_count": 307,
-          "statuses_count": 103331,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 103333,
+          "last_status_at": "2025-09-14",
           "hide_collections": true,
           "emojis": [
             {
@@ -7422,8 +7544,8 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 46,
           "following_count": 0,
-          "statuses_count": 647,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 664,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [],
           "fields": []
@@ -7453,8 +7575,8 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 46,
           "following_count": 0,
-          "statuses_count": 647,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 664,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [],
           "fields": []
@@ -7484,8 +7606,8 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 57,
           "following_count": 0,
-          "statuses_count": 585,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 606,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [],
           "fields": []
@@ -7515,8 +7637,8 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 46,
           "following_count": 0,
-          "statuses_count": 647,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 664,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [],
           "fields": []
@@ -7546,8 +7668,8 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 46,
           "following_count": 0,
-          "statuses_count": 647,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 664,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [],
           "fields": []
@@ -7589,8 +7711,8 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 46,
           "following_count": 0,
-          "statuses_count": 647,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 664,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [],
           "fields": []
@@ -7620,8 +7742,8 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 57,
           "following_count": 0,
-          "statuses_count": 585,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 606,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [],
           "fields": []
@@ -7651,8 +7773,8 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 46,
           "following_count": 0,
-          "statuses_count": 647,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 664,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [],
           "fields": []
@@ -7682,8 +7804,8 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 46,
           "following_count": 0,
-          "statuses_count": 647,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 664,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [],
           "fields": []
@@ -7789,7 +7911,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/109/387/541/316/467/960/original/42d339e0858a9bea.jpeg",
           "followers_count": 62850,
           "following_count": 750,
-          "statuses_count": 3943,
+          "statuses_count": 3941,
           "last_status_at": "2025-09-13",
           "hide_collections": false,
           "emojis": [],
@@ -7818,13 +7940,13 @@
     ],
     "description": "Memory overflow vulnerability leading to Remote Code Execution and/or Denial of Service in NetScaler ADC and NetScaler Gateway when\u00a0NetScaler is configured as Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) or AAA virtual server\n\n(OR)\n\nNetScaler ADC and NetScaler Gateway 13.1, 14.1, 13.1-FIPS and NDcPP: LB virtual servers of type (HTTP, SSL or HTTP_QUIC) bound with IPv6 services or servicegroups bound with IPv6 servers \n\n(OR)\n\nNetScaler ADC and NetScaler Gateway 13.1, 14.1, 13.1-FIPS and NDcPP: LB virtual servers of type (HTTP, SSL or HTTP_QUIC) bound with DBS IPv6 services or servicegroups bound with IPv6 DBS servers\n\n(OR)\n\nCR virtual server with type HDX",
     "repos": [
-      "https://github.com/hacker-r3volv3r/CVE-2025-7775-PoC",
-      "https://github.com/Aaqilyousuf/CVE-2025-7775-vulnerable-lab",
       "https://github.com/rxerium/CVE-2025-7775",
       "https://github.com/fox-it/citrix-netscaler-triage",
+      "https://github.com/Aaqilyousuf/CVE-2025-7775-vulnerable-lab",
+      "https://github.com/hacker-r3volv3r/CVE-2025-7775-PoC",
       "https://github.com/mr-r3b00t/CVE-2025-7775"
     ],
-    "updated": "2025-08-27T14:26:22.103000",
+    "updated": "2025-08-27T15:33:14",
     "epss": 12.252
   },
   "CVE-2024-26169": {
@@ -7898,7 +8020,7 @@
     ],
     "description": "Windows Error Reporting Service Elevation of Privilege Vulnerability",
     "repos": [],
-    "updated": "2024-04-11T21:30:49",
+    "updated": "2024-11-29T16:24:31.767000",
     "epss": 28.716
   },
   "CVE-2024-3094": {
@@ -7952,73 +8074,73 @@
     ],
     "description": "Malicious code was discovered in the upstream tarballs of xz, starting with version 5.6.0. The tarballs included extra .m4 files, which contained instructions for building with automake that did not exist in the repository. These instructions, through a series of complex obfuscations, extract a prebuilt object file from one of the test archives, which is then used to modify specific functions in the code while building the liblzma package. This issue results in liblzma being used by additional software, like sshd, to provide functionality that will be interpreted by the modified functions.",
     "repos": [
-      "https://github.com/lypd0/CVE-2024-3094-Vulnerabity-Checker",
-      "https://github.com/gensecaihq/CVE-2024-3094-Vulnerability-Checker-Fixer",
-      "https://github.com/jfrog/cve-2024-3094-tools",
-      "https://github.com/Fractal-Tess/CVE-2024-3094",
-      "https://github.com/mesutgungor/xz-backdoor-vulnerability",
-      "https://github.com/mightysai1997/CVE-2024-3094-info",
-      "https://github.com/bioless/xz_cve-2024-3094_detection",
-      "https://github.com/gayatriracha/CVE-2024-3094-Nmap-NSE-script",
-      "https://github.com/robertdebock/ansible-playbook-cve-2024-3094",
-      "https://github.com/reuteras/CVE-2024-3094",
-      "https://github.com/fevar54/Detectar-Backdoor-en-liblzma-de-XZ-utils-CVE-2024-3094-",
-      "https://github.com/AndreaCicca/Sicurezza-Informatica-Presentazione",
-      "https://github.com/robertdebock/ansible-role-cve_2024_3094",
-      "https://github.com/iheb2b/CVE-2024-3094-Checker",
-      "https://github.com/pentestfunctions/CVE-2024-3094",
-      "https://github.com/badsectorlabs/ludus_xz_backdoor",
-      "https://github.com/Hacker-Hermanos/CVE-2024-3094_xz_check",
-      "https://github.com/brinhosa/CVE-2024-3094-One-Liner",
-      "https://github.com/MagpieRYL/CVE-2024-3094-backdoor-env-container",
-      "https://github.com/dah4k/CVE-2024-3094",
-      "https://github.com/TheTorjanCaptain/CVE-2024-3094-Checker",
-      "https://github.com/harekrishnarai/xz-utils-vuln-checker",
-      "https://github.com/isuruwa/CVE-2024-3094",
-      "https://github.com/wgetnz/CVE-2024-3094-check",
-      "https://github.com/devjanger/CVE-2024-3094-XZ-Backdoor-Detector",
-      "https://github.com/been22426/CVE-2024-3094",
-      "https://github.com/hackingetico21/revisaxzutils",
-      "https://github.com/MrBUGLF/XZ-Utils_CVE-2024-3094",
-      "https://github.com/mightysai1997/CVE-2024-3094",
-      "https://github.com/amlweems/xzbot",
-      "https://github.com/robertdfrench/ifuncd-up",
-      "https://github.com/ScrimForever/CVE-2024-3094",
       "https://github.com/Ikram124/CVE-2024-3094-analysis",
-      "https://github.com/buluma/ansible-role-cve_2024_3094",
-      "https://github.com/Juul/xz-backdoor-scan",
-      "https://github.com/Horizon-Software-Development/CVE-2024-3094",
-      "https://github.com/FabioBaroni/CVE-2024-3094-checker",
+      "https://github.com/brinhosa/CVE-2024-3094-One-Liner",
+      "https://github.com/fevar54/Detectar-Backdoor-en-liblzma-de-XZ-utils-CVE-2024-3094-",
       "https://github.com/galacticquest/cve-2024-3094-detect",
-      "https://github.com/Yuma-Tsushima07/CVE-2024-3094",
+      "https://github.com/harekrishnarai/xz-utils-vuln-checker",
+      "https://github.com/TheTorjanCaptain/CVE-2024-3094-Checker",
+      "https://github.com/Horizon-Software-Development/CVE-2024-3094",
+      "https://github.com/jfrog/cve-2024-3094-tools",
+      "https://github.com/felipecosta09/cve-2024-3094",
+      "https://github.com/MagpieRYL/CVE-2024-3094-backdoor-env-container",
+      "https://github.com/badsectorlabs/ludus_xz_backdoor",
+      "https://github.com/amlweems/xzbot",
+      "https://github.com/pentestfunctions/CVE-2024-3094",
+      "https://github.com/KaminaDuck/ansible-CVE-2024-3094",
+      "https://github.com/MrBUGLF/XZ-Utils_CVE-2024-3094",
+      "https://github.com/OpensourceICTSolutions/xz_utils-CVE-2024-3094",
+      "https://github.com/Hacker-Hermanos/CVE-2024-3094_xz_check",
+      "https://github.com/0xlane/xz-cve-2024-3094",
+      "https://github.com/devjanger/CVE-2024-3094-XZ-Backdoor-Detector",
+      "https://github.com/wgetnz/CVE-2024-3094-check",
       "https://github.com/XiaomingX/cve-2024-3094-xz-backdoor-exploit",
-      "https://github.com/lockness-Ko/xz-vulnerable-honeypot",
+      "https://github.com/ykhurshudyan-blip/CVE-2024-3094",
+      "https://github.com/przemoc/xz-backdoor-links",
+      "https://github.com/iheb2b/CVE-2024-3094-Checker",
+      "https://github.com/robertdebock/ansible-playbook-cve-2024-3094",
+      "https://github.com/hackingetico21/revisaxzutils",
+      "https://github.com/Juul/xz-backdoor-scan",
       "https://github.com/teyhouse/CVE-2024-3094",
+      "https://github.com/buluma/ansible-role-cve_2024_3094",
+      "https://github.com/robertdebock/ansible-role-cve_2024_3094",
       "https://github.com/mrk336/CVE-2024-3094",
       "https://github.com/shefirot/CVE-2024-3094",
+      "https://github.com/gensecaihq/CVE-2024-3094-Vulnerability-Checker-Fixer",
+      "https://github.com/robertdfrench/ifuncd-up",
+      "https://github.com/mightysai1997/CVE-2024-3094",
       "https://github.com/laxmikumari615/Linux---Security---Detect-and-Mitigate-CVE-2024-3094",
-      "https://github.com/0xlane/xz-cve-2024-3094",
-      "https://github.com/r0binak/xzk8s",
-      "https://github.com/hazemkya/CVE-2024-3094-checker",
-      "https://github.com/byinarie/CVE-2024-3094-info",
-      "https://github.com/KaminaDuck/ansible-CVE-2024-3094",
-      "https://github.com/felipecosta09/cve-2024-3094",
-      "https://github.com/neuralinhibitor/xzwhy",
-      "https://github.com/ykhurshudyan-blip/CVE-2024-3094",
+      "https://github.com/mesutgungor/xz-backdoor-vulnerability",
       "https://github.com/DANO-AMP/CVE-2024-3094",
-      "https://github.com/bsekercioglu/cve2024-3094-Checker",
-      "https://github.com/gustavorobertux/CVE-2024-3094",
-      "https://github.com/Security-Phoenix-demo/CVE-2024-3094-fix-exploits",
-      "https://github.com/Bella-Bc/xz-backdoor-CVE-2024-3094-Check",
-      "https://github.com/Simplifi-ED/CVE-2024-3094-patcher",
-      "https://github.com/weltregie/liblzma-scan",
-      "https://github.com/ashwani95/CVE-2024-3094",
-      "https://github.com/emirkmo/xz-backdoor-github",
-      "https://github.com/valeriot30/cve-2024-3094",
-      "https://github.com/przemoc/xz-backdoor-links",
-      "https://github.com/OpensourceICTSolutions/xz_utils-CVE-2024-3094",
+      "https://github.com/dah4k/CVE-2024-3094",
+      "https://github.com/lockness-Ko/xz-vulnerable-honeypot",
+      "https://github.com/FabioBaroni/CVE-2024-3094-checker",
+      "https://github.com/byinarie/CVE-2024-3094-info",
       "https://github.com/ackemed/detectar_cve-2024-3094",
-      "https://github.com/Mustafa1986/CVE-2024-3094"
+      "https://github.com/r0binak/xzk8s",
+      "https://github.com/ashwani95/CVE-2024-3094",
+      "https://github.com/lypd0/CVE-2024-3094-Vulnerabity-Checker",
+      "https://github.com/isuruwa/CVE-2024-3094",
+      "https://github.com/valeriot30/cve-2024-3094",
+      "https://github.com/bsekercioglu/cve2024-3094-Checker",
+      "https://github.com/bioless/xz_cve-2024-3094_detection",
+      "https://github.com/Mustafa1986/CVE-2024-3094",
+      "https://github.com/gustavorobertux/CVE-2024-3094",
+      "https://github.com/mightysai1997/CVE-2024-3094-info",
+      "https://github.com/Fractal-Tess/CVE-2024-3094",
+      "https://github.com/hazemkya/CVE-2024-3094-checker",
+      "https://github.com/Simplifi-ED/CVE-2024-3094-patcher",
+      "https://github.com/emirkmo/xz-backdoor-github",
+      "https://github.com/neuralinhibitor/xzwhy",
+      "https://github.com/gayatriracha/CVE-2024-3094-Nmap-NSE-script",
+      "https://github.com/ScrimForever/CVE-2024-3094",
+      "https://github.com/Yuma-Tsushima07/CVE-2024-3094",
+      "https://github.com/reuteras/CVE-2024-3094",
+      "https://github.com/Security-Phoenix-demo/CVE-2024-3094-fix-exploits",
+      "https://github.com/weltregie/liblzma-scan",
+      "https://github.com/been22426/CVE-2024-3094",
+      "https://github.com/AndreaCicca/Sicurezza-Informatica-Presentazione",
+      "https://github.com/Bella-Bc/xz-backdoor-CVE-2024-3094-Check"
     ],
     "updated": "2024-03-29T18:30:50",
     "epss": 86.32300000000001
@@ -8050,8 +8172,8 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 891,
           "following_count": 0,
-          "statuses_count": 59842,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 59855,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [
             {
@@ -8099,8 +8221,8 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 199,
           "following_count": 0,
-          "statuses_count": 15515,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 15529,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [],
           "fields": []
@@ -8112,11 +8234,11 @@
     ],
     "description": "Heap-based buffer overflow in Kernel Streaming WOW Thunk Service Driver allows an authorized attacker to elevate privileges locally.",
     "repos": [],
-    "updated": "2025-09-06T02:15:29.853000",
+    "updated": "2025-09-06T03:31:26",
     "epss": 0.062
   },
   "CVE-2025-49706": {
-    "cvss3": 6.3,
+    "cvss3": 6.5,
     "severity": "MEDIUM",
     "epss_severity": "MEDIUM",
     "nuclei": null,
@@ -8153,13 +8275,13 @@
         "created_at": "2025-09-05T13:17:20.000Z"
       }
     ],
-    "description": "Improper authentication in Microsoft Office SharePoint allows an authorized attacker to perform spoofing over a network.",
+    "description": "Improper authentication in Microsoft Office SharePoint allows an unauthorized attacker to perform spoofing over a network.",
     "repos": [
       "https://github.com/RukshanaAlikhan/CVE-2025-53770",
-      "https://github.com/AdityaBhatt3010/CVE-2025-49706-SharePoint-Spoofing-Vulnerability-Under-Active-Exploitation",
-      "https://github.com/AdityaBhatt3010/CVE-2025-53770-SharePoint-Zero-Day-Variant-Exploited-for-Full-RCE"
+      "https://github.com/AdityaBhatt3010/CVE-2025-53770-SharePoint-Zero-Day-Variant-Exploited-for-Full-RCE",
+      "https://github.com/AdityaBhatt3010/CVE-2025-49706-SharePoint-Spoofing-Vulnerability-Under-Active-Exploitation"
     ],
-    "updated": "2025-07-22T18:30:36",
+    "updated": "2025-07-30T01:00:01.490000",
     "epss": 18.362000000000002
   },
   "CVE-2025-39247": {
@@ -8255,8 +8377,8 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 57,
           "following_count": 0,
-          "statuses_count": 585,
-          "last_status_at": "2025-09-13",
+          "statuses_count": 606,
+          "last_status_at": "2025-09-14",
           "hide_collections": false,
           "emojis": [],
           "fields": []
@@ -8299,7 +8421,7 @@
           "followers_count": 302,
           "following_count": 33,
           "statuses_count": 260,
-          "last_status_at": "2025-09-10",
+          "last_status_at": "2025-09-13",
           "hide_collections": false,
           "emojis": [],
           "fields": []
