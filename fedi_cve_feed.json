@@ -1,108 +1,52 @@
 {
-  "CVE-2025-34352": {
-    "cvss3": 0,
-    "severity": null,
-    "epss_severity": "LOW",
-    "nuclei": null,
-    "posts": [
-      {
-        "account": {
-          "id": "109437698996933183",
-          "username": "_r_netsec",
-          "acct": "_r_netsec",
-          "display_name": "/r/netsec",
-          "locked": false,
-          "bot": true,
-          "discoverable": true,
-          "indexable": true,
-          "group": false,
-          "created_at": "2022-12-01T00:00:00.000Z",
-          "note": "<p>Follow for new posts submitted to the netsec subreddit. Unofficial.</p>",
-          "url": "https://infosec.exchange/@_r_netsec",
-          "uri": "https://infosec.exchange/users/_r_netsec",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/437/698/996/933/183/original/e9e2ba375e619e38.jpg",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/437/698/996/933/183/original/e9e2ba375e619e38.jpg",
-          "header": "https://infosec.exchange/headers/original/missing.png",
-          "header_static": "https://infosec.exchange/headers/original/missing.png",
-          "followers_count": 1374,
-          "following_count": 0,
-          "statuses_count": 5687,
-          "last_status_at": "2025-12-18",
-          "hide_collections": false,
-          "noindex": false,
-          "emojis": [],
-          "roles": [],
-          "fields": [
-            {
-              "name": "Subreddit",
-              "value": "<a href=\"https://reddit.com/r/netsec\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">reddit.com/r/netsec</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Automated by",
-              "value": "<span class=\"h-card\" translate=\"no\"><a href=\"https://bsky.brid.gy/r/https://bsky.app/profile/kiding.bsky.social\" class=\"u-url mention\">@<span>kiding.bsky.social@bsky.brid.gy</span></a></span>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://infosec.exchange/@_r_netsec/115740094399883624",
-        "content": "<p>Local Privilege Escalation (CVE-2025-34352) in JumpCloud Agent <a href=\"https://xmcyber.com/blog/jumpshot-xm-cyber-uncovers-critical-local-privilege-escalation-cve-2025-34352-in-jumpcloud-agent/\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">xmcyber.com/blog/jumpshot-xm-c</span><span class=\"invisible\">yber-uncovers-critical-local-privilege-escalation-cve-2025-34352-in-jumpcloud-agent/</span></a></p>",
-        "created_at": "2025-12-18T10:28:06.512Z"
-      },
-      {
-        "account": {
-          "id": "109438466935341820",
-          "username": "_r_netsec",
-          "acct": "_r_netsec@infosec.exchange",
-          "display_name": "/r/netsec",
-          "locked": false,
-          "bot": true,
-          "discoverable": true,
-          "indexable": true,
-          "group": false,
-          "created_at": "2022-12-01T00:00:00.000Z",
-          "note": "<p>Follow for new posts submitted to the netsec subreddit. Unofficial.</p>",
-          "url": "https://infosec.exchange/@_r_netsec",
-          "uri": "https://infosec.exchange/users/_r_netsec",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/109/438/466/935/341/820/original/5ec9e9eae19e936a.jpg",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/109/438/466/935/341/820/original/5ec9e9eae19e936a.jpg",
-          "header": "https://ioc.exchange/headers/original/missing.png",
-          "header_static": "https://ioc.exchange/headers/original/missing.png",
-          "followers_count": 1373,
-          "following_count": 0,
-          "statuses_count": 5687,
-          "last_status_at": "2025-12-18",
-          "hide_collections": false,
-          "emojis": [],
-          "fields": [
-            {
-              "name": "Subreddit",
-              "value": "<a href=\"https://reddit.com/r/netsec\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">reddit.com/r/netsec</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Automated by",
-              "value": "<span class=\"h-card\" translate=\"no\"><a href=\"https://bsky.brid.gy/r/https://bsky.app/profile/kiding.bsky.social\" class=\"u-url mention\" rel=\"nofollow noopener\" target=\"_blank\">@<span>kiding.bsky.social@bsky.brid.gy</span></a></span>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://infosec.exchange/@_r_netsec/115740094399883624",
-        "content": "<p>Local Privilege Escalation (CVE-2025-34352) in JumpCloud Agent <a href=\"https://xmcyber.com/blog/jumpshot-xm-cyber-uncovers-critical-local-privilege-escalation-cve-2025-34352-in-jumpcloud-agent/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">xmcyber.com/blog/jumpshot-xm-c</span><span class=\"invisible\">yber-uncovers-critical-local-privilege-escalation-cve-2025-34352-in-jumpcloud-agent/</span></a></p>",
-        "created_at": "2025-12-18T10:28:06.000Z"
-      }
-    ],
-    "description": "JumpCloud Remote Assist for Windows versions prior to 0.317.0 include an uninstaller that is invoked by the JumpCloud Windows Agent as NT AUTHORITY\\SYSTEM during agent uninstall or update operations. The Remote Assist uninstaller performs privileged create, write, execute, and delete actions on predictable files inside a user-writable %TEMP% subdirectory without validating that the directory is trusted or resetting its ACLs when it already exists. A local, low-privileged attacker can pre-create the directory with weak permissions and leverage mount-point or symbolic-link redirection to (a) coerce arbitrary file writes to protected locations, leading to denial of service (e.g., by overwriting sensitive system files), or (b) win a race to redirect DeleteFileW() to attacker-chosen targets, enabling arbitrary file or folder deletion and local privilege escalation to SYSTEM. This issue is fixed in JumpCloud Remote Assist 0.317.0 and affects Windows systems where Remote Assist is installed and managed through the Agent lifecycle.",
-    "repos": [],
-    "updated": "2025-12-04T17:15:25.860000",
-    "epss": 0.019
-  },
   "CVE-2025-20393": {
     "cvss3": 10.0,
     "severity": "CRITICAL",
     "epss_severity": null,
     "nuclei": null,
     "posts": [
+      {
+        "account": {
+          "id": "114450246444709181",
+          "username": "cyberveille",
+          "acct": "cyberveille@mastobot.ping.moi",
+          "display_name": "CyberVeille.ch",
+          "locked": false,
+          "bot": true,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-05-04T00:00:00.000Z",
+          "note": "<p>\ud83d\udd0e Cyberveille.ch \u00b7 Veille francophone sur la cybers\u00e9curit\u00e9 (Suisse et monde) \u00b7 Articles s\u00e9lectionn\u00e9s automatiquement \u00b7 G\u00e9r\u00e9 par un humain + bot \ud83e\udd16<br>\ud83d\udcda Source : <a href=\"https://cyberveille.ch\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">cyberveille.ch</span><span class=\"invisible\"></span></a></p>",
+          "url": "https://mastobot.ping.moi/@cyberveille",
+          "uri": "https://mastobot.ping.moi/users/cyberveille",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/114/450/246/444/709/181/original/b70e4721c91acfa2.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/114/450/246/444/709/181/original/b70e4721c91acfa2.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/114/450/246/444/709/181/original/9d04cdbf514d2c77.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/114/450/246/444/709/181/original/9d04cdbf514d2c77.png",
+          "followers_count": 33,
+          "following_count": 1,
+          "statuses_count": 2569,
+          "last_status_at": "2025-12-18",
+          "hide_collections": false,
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Projet",
+              "value": "<a href=\"https://cyberveille.ch/about/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">cyberveille.ch/about/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Membre humain",
+              "value": "<span class=\"h-card\" translate=\"no\"><a href=\"https://infosec.exchange/@decio\" class=\"u-url mention\" rel=\"nofollow noopener\" target=\"_blank\">@<span>decio@infosec.exchange</span></a></span>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://mastobot.ping.moi/@cyberveille/115740691930587480",
+        "content": "<p>\ud83d\udce2 Zero\u2011day sur les appliances e\u2011mail Cisco : compromission, backdoors et logs effac\u00e9s<br>\ud83d\udcdd Selon un article sign\u00e9 Zeljka Zorz relayant les analyses de Cisco Talos, une campagne active depuis fin novembre 2025 vise des...<br>\ud83d\udcd6 cyberveille : <a href=\"https://cyberveille.ch/posts/2025-12-18-zero-day-sur-les-appliances-e-mail-cisco-compromission-backdoors-et-logs-effaces/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">cyberveille.ch/posts/2025-12-1</span><span class=\"invisible\">8-zero-day-sur-les-appliances-e-mail-cisco-compromission-backdoors-et-logs-effaces/</span></a><br>\ud83c\udf10 source : <a href=\"https://www.helpnetsecurity.com/2025/12/17/cisco-secure-email-cve-2025-20393/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">helpnetsecurity.com/2025/12/17</span><span class=\"invisible\">/cisco-secure-email-cve-2025-20393/</span></a><br><a href=\"https://mastobot.ping.moi/tags/APT_chinois\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>APT_chinois</span></a> <a href=\"https://mastobot.ping.moi/tags/Backdoor\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Backdoor</span></a> <a href=\"https://mastobot.ping.moi/tags/Cyberveille\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Cyberveille</span></a></p>",
+        "created_at": "2025-12-18T13:00:04.000Z"
+      },
       {
         "account": {
           "id": "113707691195935966",
@@ -124,7 +68,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/113/707/691/195/935/966/original/c698cc9850b13544.jpg",
           "followers_count": 50,
           "following_count": 17,
-          "statuses_count": 1760,
+          "statuses_count": 1761,
           "last_status_at": "2025-12-18",
           "hide_collections": false,
           "emojis": [],
@@ -153,7 +97,7 @@
           "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/114/267/265/908/113/668/original/014780c34a5a61f4.png",
           "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
-          "followers_count": 84,
+          "followers_count": 85,
           "following_count": 0,
           "statuses_count": 1515,
           "last_status_at": "2025-12-18",
@@ -202,7 +146,7 @@
           "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/112/253/795/748/183/030/original/5c3f3479a506595d.png",
           "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/112/253/795/748/183/030/original/1412e01d8ae984b9.jpg",
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/112/253/795/748/183/030/original/1412e01d8ae984b9.jpg",
-          "followers_count": 1735,
+          "followers_count": 1736,
           "following_count": 0,
           "statuses_count": 8199,
           "last_status_at": "2025-12-18",
@@ -324,7 +268,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/000/039/740/original/3f55516a5d1c5058.png",
           "followers_count": 17998,
           "following_count": 417,
-          "statuses_count": 141,
+          "statuses_count": 132,
           "last_status_at": "2025-12-18",
           "hide_collections": false,
           "emojis": [],
@@ -348,7 +292,9 @@
     ],
     "description": "Cisco is aware of a potential vulnerability.&nbsp; Cisco is currently investigating and&nbsp;will update these details as appropriate&nbsp;as more information becomes available.",
     "repos": [
+      "https://github.com/b1gchoi/CVE-2025-20393",
       "https://github.com/cyberleelawat/CVE-2025-20393",
+      "https://github.com/KingHacker353/CVE-2025-20393",
       "https://github.com/thesystemowner/CVE-2025-20393-POC"
     ],
     "updated": "2025-12-17T21:15:54.020000",
@@ -360,6 +306,39 @@
     "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
+      {
+        "account": {
+          "id": "114106442692175576",
+          "username": "defendopsdiaries",
+          "acct": "defendopsdiaries",
+          "display_name": "The DefendOps Diaries",
+          "locked": false,
+          "bot": true,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-03-04T00:00:00.000Z",
+          "note": "<p>Sharing expert insights, tips, and trends in <a href=\"https://infosec.exchange/tags/Cybersecurity\" class=\"mention hashtag\" rel=\"tag\">#<span>Cybersecurity</span></a> &amp; <a href=\"https://infosec.exchange/tags/InfoSec\" class=\"mention hashtag\" rel=\"tag\">#<span>InfoSec</span></a>. From pros to beginners, stay informed and secure with The DefendOps Diaries. \ud83d\udd10<br />\ud83c\udf10 thedefendopsdiaries.com</p>",
+          "url": "https://infosec.exchange/@defendopsdiaries",
+          "uri": "https://infosec.exchange/users/defendopsdiaries",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/114/106/442/692/175/576/original/bbc91126aecad758.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/114/106/442/692/175/576/original/bbc91126aecad758.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/106/442/692/175/576/original/6580909d50b49aa9.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/106/442/692/175/576/original/6580909d50b49aa9.png",
+          "followers_count": 84,
+          "following_count": 4,
+          "statuses_count": 1340,
+          "last_status_at": "2025-12-18",
+          "hide_collections": null,
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@defendopsdiaries/115740409680221536",
+        "content": "<p>A single flaw in HPE OneView could let hackers take over the core systems of 90 percent of Fortune 500 companies, and there is no quick fix\u2014only a full patch will do. How exposed is your infrastructure?</p><p><a href=\"https://thedefendopsdiaries.com/cve-2025-37164-critical-rce-vulnerability-in-hpe-oneview-threatens-global-enterprise-infrastructure/\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">thedefendopsdiaries.com/cve-20</span><span class=\"invisible\">25-37164-critical-rce-vulnerability-in-hpe-oneview-threatens-global-enterprise-infrastructure/</span></a></p>",
+        "created_at": "2025-12-18T11:48:17.324Z"
+      },
       {
         "account": {
           "id": "110411443466501677",
@@ -379,9 +358,9 @@
           "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/411/443/466/501/677/original/8a5cbd66210dcea1.png",
           "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/411/443/466/501/677/original/13f1ff452c722516.png",
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/411/443/466/501/677/original/13f1ff452c722516.png",
-          "followers_count": 1913,
+          "followers_count": 1914,
           "following_count": 716,
-          "statuses_count": 7406,
+          "statuses_count": 7409,
           "last_status_at": "2025-12-18",
           "hide_collections": false,
           "noindex": false,
@@ -437,7 +416,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/411/505/019/651/087/original/9fa147c9832d13cd.png",
           "followers_count": 1911,
           "following_count": 716,
-          "statuses_count": 7407,
+          "statuses_count": 7410,
           "last_status_at": "2025-12-18",
           "hide_collections": false,
           "emojis": [
@@ -476,6 +455,104 @@
     "updated": "2025-12-16T20:15:47.933000",
     "epss": 0.253
   },
+  "CVE-2025-34352": {
+    "cvss3": 0,
+    "severity": null,
+    "epss_severity": "LOW",
+    "nuclei": null,
+    "posts": [
+      {
+        "account": {
+          "id": "109437698996933183",
+          "username": "_r_netsec",
+          "acct": "_r_netsec",
+          "display_name": "/r/netsec",
+          "locked": false,
+          "bot": true,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2022-12-01T00:00:00.000Z",
+          "note": "<p>Follow for new posts submitted to the netsec subreddit. Unofficial.</p>",
+          "url": "https://infosec.exchange/@_r_netsec",
+          "uri": "https://infosec.exchange/users/_r_netsec",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/437/698/996/933/183/original/e9e2ba375e619e38.jpg",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/437/698/996/933/183/original/e9e2ba375e619e38.jpg",
+          "header": "https://infosec.exchange/headers/original/missing.png",
+          "header_static": "https://infosec.exchange/headers/original/missing.png",
+          "followers_count": 1374,
+          "following_count": 0,
+          "statuses_count": 5687,
+          "last_status_at": "2025-12-18",
+          "hide_collections": false,
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": [
+            {
+              "name": "Subreddit",
+              "value": "<a href=\"https://reddit.com/r/netsec\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">reddit.com/r/netsec</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Automated by",
+              "value": "<span class=\"h-card\" translate=\"no\"><a href=\"https://bsky.brid.gy/r/https://bsky.app/profile/kiding.bsky.social\" class=\"u-url mention\">@<span>kiding.bsky.social@bsky.brid.gy</span></a></span>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@_r_netsec/115740094399883624",
+        "content": "<p>Local Privilege Escalation (CVE-2025-34352) in JumpCloud Agent <a href=\"https://xmcyber.com/blog/jumpshot-xm-cyber-uncovers-critical-local-privilege-escalation-cve-2025-34352-in-jumpcloud-agent/\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">xmcyber.com/blog/jumpshot-xm-c</span><span class=\"invisible\">yber-uncovers-critical-local-privilege-escalation-cve-2025-34352-in-jumpcloud-agent/</span></a></p>",
+        "created_at": "2025-12-18T10:28:06.512Z"
+      },
+      {
+        "account": {
+          "id": "109438466935341820",
+          "username": "_r_netsec",
+          "acct": "_r_netsec@infosec.exchange",
+          "display_name": "/r/netsec",
+          "locked": false,
+          "bot": true,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2022-12-01T00:00:00.000Z",
+          "note": "<p>Follow for new posts submitted to the netsec subreddit. Unofficial.</p>",
+          "url": "https://infosec.exchange/@_r_netsec",
+          "uri": "https://infosec.exchange/users/_r_netsec",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/109/438/466/935/341/820/original/5ec9e9eae19e936a.jpg",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/109/438/466/935/341/820/original/5ec9e9eae19e936a.jpg",
+          "header": "https://ioc.exchange/headers/original/missing.png",
+          "header_static": "https://ioc.exchange/headers/original/missing.png",
+          "followers_count": 1373,
+          "following_count": 0,
+          "statuses_count": 5687,
+          "last_status_at": "2025-12-18",
+          "hide_collections": false,
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Subreddit",
+              "value": "<a href=\"https://reddit.com/r/netsec\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">reddit.com/r/netsec</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Automated by",
+              "value": "<span class=\"h-card\" translate=\"no\"><a href=\"https://bsky.brid.gy/r/https://bsky.app/profile/kiding.bsky.social\" class=\"u-url mention\" rel=\"nofollow noopener\" target=\"_blank\">@<span>kiding.bsky.social@bsky.brid.gy</span></a></span>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@_r_netsec/115740094399883624",
+        "content": "<p>Local Privilege Escalation (CVE-2025-34352) in JumpCloud Agent <a href=\"https://xmcyber.com/blog/jumpshot-xm-cyber-uncovers-critical-local-privilege-escalation-cve-2025-34352-in-jumpcloud-agent/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">xmcyber.com/blog/jumpshot-xm-c</span><span class=\"invisible\">yber-uncovers-critical-local-privilege-escalation-cve-2025-34352-in-jumpcloud-agent/</span></a></p>",
+        "created_at": "2025-12-18T10:28:06.000Z"
+      }
+    ],
+    "description": "JumpCloud Remote Assist for Windows versions prior to 0.317.0 include an uninstaller that is invoked by the JumpCloud Windows Agent as NT AUTHORITY\\SYSTEM during agent uninstall or update operations. The Remote Assist uninstaller performs privileged create, write, execute, and delete actions on predictable files inside a user-writable %TEMP% subdirectory without validating that the directory is trusted or resetting its ACLs when it already exists. A local, low-privileged attacker can pre-create the directory with weak permissions and leverage mount-point or symbolic-link redirection to (a) coerce arbitrary file writes to protected locations, leading to denial of service (e.g., by overwriting sensitive system files), or (b) win a race to redirect DeleteFileW() to attacker-chosen targets, enabling arbitrary file or folder deletion and local privilege escalation to SYSTEM. This issue is fixed in JumpCloud Remote Assist 0.317.0 and affects Windows systems where Remote Assist is installed and managed through the Agent lifecycle.",
+    "repos": [],
+    "updated": "2025-12-04T17:15:25.860000",
+    "epss": 0.019
+  },
   "CVE-2025-64669": {
     "cvss3": 7.8,
     "severity": "HIGH",
@@ -503,7 +580,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/378/119/064/927/234/original/864d34c7bd05eb88.jpg",
           "followers_count": 23,
           "following_count": 22,
-          "statuses_count": 226,
+          "statuses_count": 227,
           "last_status_at": "2025-12-18",
           "hide_collections": false,
           "emojis": [],
@@ -550,7 +627,7 @@
           "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/114/267/265/908/113/668/original/014780c34a5a61f4.png",
           "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
-          "followers_count": 84,
+          "followers_count": 85,
           "following_count": 0,
           "statuses_count": 1515,
           "last_status_at": "2025-12-18",
@@ -611,9 +688,9 @@
           "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/411/443/466/501/677/original/8a5cbd66210dcea1.png",
           "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/411/443/466/501/677/original/13f1ff452c722516.png",
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/411/443/466/501/677/original/13f1ff452c722516.png",
-          "followers_count": 1913,
+          "followers_count": 1914,
           "following_count": 716,
-          "statuses_count": 7406,
+          "statuses_count": 7409,
           "last_status_at": "2025-12-18",
           "hide_collections": false,
           "noindex": false,
@@ -669,7 +746,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/411/505/019/651/087/original/9fa147c9832d13cd.png",
           "followers_count": 1911,
           "following_count": 716,
-          "statuses_count": 7407,
+          "statuses_count": 7410,
           "last_status_at": "2025-12-18",
           "hide_collections": false,
           "emojis": [
@@ -733,9 +810,9 @@
           "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/411/443/466/501/677/original/8a5cbd66210dcea1.png",
           "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/411/443/466/501/677/original/13f1ff452c722516.png",
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/411/443/466/501/677/original/13f1ff452c722516.png",
-          "followers_count": 1913,
+          "followers_count": 1914,
           "following_count": 716,
-          "statuses_count": 7406,
+          "statuses_count": 7409,
           "last_status_at": "2025-12-18",
           "hide_collections": false,
           "noindex": false,
@@ -791,7 +868,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/110/411/505/019/651/087/original/9fa147c9832d13cd.png",
           "followers_count": 1911,
           "following_count": 716,
-          "statuses_count": 7407,
+          "statuses_count": 7410,
           "last_status_at": "2025-12-18",
           "hide_collections": false,
           "emojis": [
@@ -855,7 +932,7 @@
           "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/114/267/265/908/113/668/original/014780c34a5a61f4.png",
           "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
-          "followers_count": 84,
+          "followers_count": 85,
           "following_count": 0,
           "statuses_count": 1515,
           "last_status_at": "2025-12-18",
@@ -906,7 +983,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 161,
           "following_count": 331,
-          "statuses_count": 116463,
+          "statuses_count": 116473,
           "last_status_at": "2025-12-18",
           "hide_collections": true,
           "emojis": [
@@ -960,7 +1037,7 @@
           "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/114/267/265/908/113/668/original/014780c34a5a61f4.png",
           "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
-          "followers_count": 84,
+          "followers_count": 85,
           "following_count": 0,
           "statuses_count": 1515,
           "last_status_at": "2025-12-18",
@@ -989,6 +1066,53 @@
         "url": "https://infosec.exchange/@offseq/115738704329483912",
         "content": "<p>\ud83d\udea8 CVE-2025-66029 (HIGH): OSC ondemand \u22644.0.8 exposes sensitive creds via Apache proxy headers\u2014attackers can harvest tokens if users hit malicious servers. Patch in v4.1; config workarounds available now. Details: <a href=\"https://radar.offseq.com/threat/cve-2025-66029-cwe-522-insufficiently-protected-cr-b9fc3983\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">radar.offseq.com/threat/cve-20</span><span class=\"invisible\">25-66029-cwe-522-insufficiently-protected-cr-b9fc3983</span></a> <a href=\"https://infosec.exchange/tags/OffSeq\" class=\"mention hashtag\" rel=\"tag\">#<span>OffSeq</span></a> <a href=\"https://infosec.exchange/tags/HPC\" class=\"mention hashtag\" rel=\"tag\">#<span>HPC</span></a> <a href=\"https://infosec.exchange/tags/Vuln\" class=\"mention hashtag\" rel=\"tag\">#<span>Vuln</span></a> <a href=\"https://infosec.exchange/tags/Security\" class=\"mention hashtag\" rel=\"tag\">#<span>Security</span></a></p>",
         "created_at": "2025-12-18T04:34:35.733Z"
+      },
+      {
+        "account": {
+          "id": "114693833193257384",
+          "username": "offseq",
+          "acct": "offseq@infosec.exchange",
+          "display_name": "Offensive Sequence",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-04-02T00:00:00.000Z",
+          "note": "<p>OffSeq is a cybersecurity company enhancing organizational digital resilience through comprehensive protection against evolving cyber threats. We offer specialized services for businesses of all sizes, with particular expertise in Baltic, Scandinavian, Belgian markets and EU regulatory compliance.</p>",
+          "url": "https://infosec.exchange/@offseq",
+          "uri": "https://infosec.exchange/users/offseq",
+          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/114/693/833/193/257/384/original/60953140cac749dd.png",
+          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/114/693/833/193/257/384/original/60953140cac749dd.png",
+          "header": "https://files.ioc.exchange/cache/accounts/headers/114/693/833/193/257/384/original/cd916493189d6cd4.jpg",
+          "header_static": "https://files.ioc.exchange/cache/accounts/headers/114/693/833/193/257/384/original/cd916493189d6cd4.jpg",
+          "followers_count": 85,
+          "following_count": 0,
+          "statuses_count": 1516,
+          "last_status_at": "2025-12-18",
+          "hide_collections": false,
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://www.offseq.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">offseq.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Threat Radar",
+              "value": "<a href=\"https://radar.offseq.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">radar.offseq.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Guard",
+              "value": "<a href=\"https://guard.offseq.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">guard.offseq.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@offseq/115738704329483912",
+        "content": "<p>\ud83d\udea8 CVE-2025-66029 (HIGH): OSC ondemand \u22644.0.8 exposes sensitive creds via Apache proxy headers\u2014attackers can harvest tokens if users hit malicious servers. Patch in v4.1; config workarounds available now. Details: <a href=\"https://radar.offseq.com/threat/cve-2025-66029-cwe-522-insufficiently-protected-cr-b9fc3983\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">radar.offseq.com/threat/cve-20</span><span class=\"invisible\">25-66029-cwe-522-insufficiently-protected-cr-b9fc3983</span></a> <a href=\"https://infosec.exchange/tags/OffSeq\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>OffSeq</span></a> <a href=\"https://infosec.exchange/tags/HPC\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>HPC</span></a> <a href=\"https://infosec.exchange/tags/Vuln\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Vuln</span></a> <a href=\"https://infosec.exchange/tags/Security\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Security</span></a></p>",
+        "created_at": "2025-12-18T04:34:35.000Z"
       }
     ],
     "description": "Open OnDemand provides remote web access to supercomputers. In versions 4.0.8 and prior, the Apache proxy allows sensitive headers to be passed to origin servers. This means malicious users can create an origin server on a compute node that record these headers when unsuspecting users connect to it. Maintainers anticipate a patch in a 4.1 release. Workarounds exist for 4.0.x versions. Using `custom_location_directives` in `ood_portal.yml` in version 4.0.x (not available for versions below 4.0) centers can unset and or edit these headers. Note that `OIDCPassClaimsAs both` is the default and centers can set `OIDCPassClaimsAs ` to `none` or `environment` to stop passing these headers to the client. Centers that have an OIDC provider with the `OIDCPassClaimsAs` with `none` or `environment` settings can adjust the settings using guidance provided in GHSA-2cwp-8g29-9q32 to unset the mod_auth_openidc_session cookies.",
@@ -1021,7 +1145,7 @@
           "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/114/267/265/908/113/668/original/014780c34a5a61f4.png",
           "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
-          "followers_count": 84,
+          "followers_count": 85,
           "following_count": 0,
           "statuses_count": 1515,
           "last_status_at": "2025-12-18",
@@ -1058,7 +1182,7 @@
     "epss": 0
   },
   "CVE-2025-59374": {
-    "cvss3": 0,
+    "cvss3": null,
     "severity": null,
     "epss_severity": "LOW",
     "nuclei": null,
@@ -1082,7 +1206,7 @@
           "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/112/253/795/748/183/030/original/5c3f3479a506595d.png",
           "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/112/253/795/748/183/030/original/1412e01d8ae984b9.jpg",
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/112/253/795/748/183/030/original/1412e01d8ae984b9.jpg",
-          "followers_count": 1735,
+          "followers_count": 1736,
           "following_count": 0,
           "statuses_count": 8199,
           "last_status_at": "2025-12-18",
@@ -1186,12 +1310,12 @@
     ],
     "description": "\"UNSUPPORTED WHEN ASSIGNED\"\u00a0Certain versions of the ASUS Live Update client were distributed with unauthorized modifications introduced through a supply chain compromise.\u00a0The modified builds could cause devices meeting specific targeting conditions to perform unintended actions. Only devices that met these conditions and installed the compromised versions were affected.\u00a0The Live Update client has already reached End-of-Support (EOS) in October 2021, and no currently supported devices or products are affected by this issue.",
     "repos": [],
-    "updated": "2025-12-17T21:16:14.770000",
+    "updated": "2025-12-17T21:30:46",
     "epss": 0.044000000000000004
   },
   "CVE-2025-40602": {
-    "cvss3": 0,
-    "severity": null,
+    "cvss3": 6.6,
+    "severity": "MEDIUM",
     "epss_severity": null,
     "nuclei": null,
     "posts": [
@@ -1214,7 +1338,7 @@
           "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/112/253/795/748/183/030/original/5c3f3479a506595d.png",
           "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/112/253/795/748/183/030/original/1412e01d8ae984b9.jpg",
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/112/253/795/748/183/030/original/1412e01d8ae984b9.jpg",
-          "followers_count": 1735,
+          "followers_count": 1736,
           "following_count": 0,
           "statuses_count": 8199,
           "last_status_at": "2025-12-18",
@@ -1316,11 +1440,11 @@
         "created_at": "2025-12-18T02:57:36.000Z"
       }
     ],
-    "description": "N/A",
+    "description": "A local privilege escalation vulnerability due to insufficient authorization in the SonicWall SMA1000 appliance management console (AMC).",
     "repos": [
       "https://github.com/rxerium/CVE-2025-40602"
     ],
-    "updated": null,
+    "updated": "2025-12-18T12:30:33",
     "epss": 0
   },
   "CVE-2025-68433": {
@@ -1348,7 +1472,7 @@
           "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/114/267/265/908/113/668/original/014780c34a5a61f4.png",
           "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
-          "followers_count": 84,
+          "followers_count": 85,
           "following_count": 0,
           "statuses_count": 1515,
           "last_status_at": "2025-12-18",
@@ -1411,7 +1535,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 161,
           "following_count": 331,
-          "statuses_count": 116463,
+          "statuses_count": 116473,
           "last_status_at": "2025-12-18",
           "hide_collections": true,
           "emojis": [
@@ -1455,7 +1579,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 161,
           "following_count": 331,
-          "statuses_count": 116463,
+          "statuses_count": 116473,
           "last_status_at": "2025-12-18",
           "hide_collections": true,
           "emojis": [
@@ -1511,7 +1635,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 161,
           "following_count": 331,
-          "statuses_count": 116463,
+          "statuses_count": 116473,
           "last_status_at": "2025-12-18",
           "hide_collections": true,
           "emojis": [
@@ -1567,7 +1691,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 161,
           "following_count": 331,
-          "statuses_count": 116463,
+          "statuses_count": 116473,
           "last_status_at": "2025-12-18",
           "hide_collections": true,
           "emojis": [
@@ -1623,7 +1747,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 161,
           "following_count": 331,
-          "statuses_count": 116463,
+          "statuses_count": 116473,
           "last_status_at": "2025-12-18",
           "hide_collections": true,
           "emojis": [
@@ -1679,7 +1803,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 161,
           "following_count": 331,
-          "statuses_count": 116463,
+          "statuses_count": 116473,
           "last_status_at": "2025-12-18",
           "hide_collections": true,
           "emojis": [
@@ -1735,7 +1859,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 161,
           "following_count": 331,
-          "statuses_count": 116463,
+          "statuses_count": 116473,
           "last_status_at": "2025-12-18",
           "hide_collections": true,
           "emojis": [
@@ -1791,7 +1915,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 161,
           "following_count": 331,
-          "statuses_count": 116463,
+          "statuses_count": 116473,
           "last_status_at": "2025-12-18",
           "hide_collections": true,
           "emojis": [
@@ -1847,7 +1971,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 161,
           "following_count": 331,
-          "statuses_count": 116463,
+          "statuses_count": 116473,
           "last_status_at": "2025-12-18",
           "hide_collections": true,
           "emojis": [
@@ -1903,7 +2027,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 161,
           "following_count": 331,
-          "statuses_count": 116463,
+          "statuses_count": 116473,
           "last_status_at": "2025-12-18",
           "hide_collections": true,
           "emojis": [
@@ -1959,7 +2083,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 161,
           "following_count": 331,
-          "statuses_count": 116463,
+          "statuses_count": 116473,
           "last_status_at": "2025-12-18",
           "hide_collections": true,
           "emojis": [
@@ -2003,7 +2127,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 161,
           "following_count": 331,
-          "statuses_count": 116463,
+          "statuses_count": 116473,
           "last_status_at": "2025-12-18",
           "hide_collections": true,
           "emojis": [
@@ -2059,7 +2183,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 161,
           "following_count": 331,
-          "statuses_count": 116463,
+          "statuses_count": 116473,
           "last_status_at": "2025-12-18",
           "hide_collections": true,
           "emojis": [
@@ -2103,7 +2227,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 161,
           "following_count": 331,
-          "statuses_count": 116463,
+          "statuses_count": 116473,
           "last_status_at": "2025-12-18",
           "hide_collections": true,
           "emojis": [
@@ -2159,7 +2283,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 161,
           "following_count": 331,
-          "statuses_count": 116463,
+          "statuses_count": 116473,
           "last_status_at": "2025-12-18",
           "hide_collections": true,
           "emojis": [
@@ -2217,7 +2341,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 161,
           "following_count": 331,
-          "statuses_count": 116463,
+          "statuses_count": 116473,
           "last_status_at": "2025-12-18",
           "hide_collections": true,
           "emojis": [
@@ -2275,7 +2399,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 161,
           "following_count": 331,
-          "statuses_count": 116463,
+          "statuses_count": 116473,
           "last_status_at": "2025-12-18",
           "hide_collections": true,
           "emojis": [
@@ -2301,7 +2425,7 @@
     ],
     "description": "Serendipity 2.4.0 contains a remote code execution vulnerability that allows authenticated attackers to upload malicious PHP files with .phar extension. Attackers can upload files with system command payloads to the media upload endpoint and execute arbitrary commands on the server.",
     "repos": [],
-    "updated": "2025-12-18T00:34:16",
+    "updated": "2025-12-17T23:15:52.973000",
     "epss": 0
   },
   "CVE-2025-40300": {
@@ -2331,7 +2455,7 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 38,
           "following_count": 0,
-          "statuses_count": 554,
+          "statuses_count": 561,
           "last_status_at": "2025-12-18",
           "hide_collections": false,
           "emojis": [],
@@ -2417,7 +2541,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 161,
           "following_count": 331,
-          "statuses_count": 116463,
+          "statuses_count": 116473,
           "last_status_at": "2025-12-18",
           "hide_collections": true,
           "emojis": [
@@ -2473,7 +2597,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 161,
           "following_count": 331,
-          "statuses_count": 116463,
+          "statuses_count": 116473,
           "last_status_at": "2025-12-18",
           "hide_collections": true,
           "emojis": [
@@ -2529,7 +2653,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 161,
           "following_count": 331,
-          "statuses_count": 116463,
+          "statuses_count": 116473,
           "last_status_at": "2025-12-18",
           "hide_collections": true,
           "emojis": [
@@ -2585,7 +2709,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 161,
           "following_count": 331,
-          "statuses_count": 116463,
+          "statuses_count": 116473,
           "last_status_at": "2025-12-18",
           "hide_collections": true,
           "emojis": [
@@ -2641,7 +2765,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 161,
           "following_count": 331,
-          "statuses_count": 116463,
+          "statuses_count": 116473,
           "last_status_at": "2025-12-18",
           "hide_collections": true,
           "emojis": [
@@ -2665,9 +2789,9 @@
         "created_at": "2025-12-17T22:45:01.000Z"
       }
     ],
-    "description": "### Description\nIn applications built with the Auth0-PHP SDK, the audience validation in access tokens is performed improperly. Without proper validation, affected applications may accept ID tokens as Access tokens.\n### Affected product and versions\nProjects are affected if they meet the following preconditions:\n\n- Applications using the Auth0-PHP SDK, versions between v8.0.0 and v8.17.0, or\n- Applications using the following SDKs that rely on the Auth0-PHP SDK versions between v8.0.0 and v8.17.0:\n    - a. Auth0/symfony,\n    - b. Auth0/laravel-auth0,\n    - c. Auth0/wordpress.\n\n### Resolution\nUpgrade Auth0/Auth0-PHP to version 8.18.0 or greater.\n\n### Acknowledgement\nOkta would like to thank Jafar Sadiq (iaf4r) for their discovery and responsible disclosure.",
+    "description": "Auth0-PHP is a PHP SDK for Auth0 Authentication and Management APIs. In applications built with the Auth0-PHP SDK, the audience validation in access tokens is performed improperly. Without proper validation, affected applications may accept ID tokens as Access tokens. Projects are affected if they use Auth0-PHP SDK versions between v8.0.0 and v8.17.0, or applications using the following SDKs that rely on the Auth0-PHP SDK versions between v8.0.0 and v8.17.0: Auth0/symfony versions between 5.0.0 and 5.5.0, Auth0/laravel-auth0 versions between 7.0.0 and 7.19.0, and/or Auth0/wordpress plugin versions between 5.0.0-BETA0 and 5.4.0. Auth0/Auth0-PHP version 8.18.0 contains a patch for the issue.",
     "repos": [],
-    "updated": "2025-12-17T20:52:48",
+    "updated": "2025-12-17T22:16:01.713000",
     "epss": 0
   },
   "CVE-2025-67073": {
@@ -2697,7 +2821,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 161,
           "following_count": 331,
-          "statuses_count": 116463,
+          "statuses_count": 116473,
           "last_status_at": "2025-12-18",
           "hide_collections": true,
           "emojis": [
@@ -2753,7 +2877,7 @@
           "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
           "followers_count": 161,
           "following_count": 331,
-          "statuses_count": 116463,
+          "statuses_count": 116473,
           "last_status_at": "2025-12-18",
           "hide_collections": true,
           "emojis": [
@@ -2775,62 +2899,6 @@
         "url": "https://social.skynetcloud.site/@jos1264/115737270813440527",
         "content": "<p>CVE-2025-53000 - nbconvert has an uncontrolled search path that leads to unauthorized code execution on Windows <a href=\"https://cvefeed.io/vuln/detail/CVE-2025-53000\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">cvefeed.io/vuln/detail/CVE-202</span><span class=\"invisible\">5-53000</span></a></p>",
         "created_at": "2025-12-17T22:30:02.000Z"
-      }
-    ],
-    "description": "N/A",
-    "repos": [],
-    "updated": null,
-    "epss": 0
-  },
-  "CVE-2025-66397": {
-    "cvss3": 0,
-    "severity": null,
-    "epss_severity": null,
-    "nuclei": null,
-    "posts": [
-      {
-        "account": {
-          "id": "111164739674072306",
-          "username": "jos1264",
-          "acct": "jos1264@social.skynetcloud.site",
-          "display_name": "Pyrzout :vm:",
-          "locked": true,
-          "bot": false,
-          "discoverable": true,
-          "indexable": true,
-          "group": false,
-          "created_at": "2023-09-30T00:00:00.000Z",
-          "note": "<p>SysAdmin / Tech &amp; Arquitect Infrastructure</p><p>Linux / FOSS / CyberSecurity / Science Lover</p><p><a href=\"https://social.skynetcloud.site/tags/Linux\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Linux</span></a> <a href=\"https://social.skynetcloud.site/tags/Opensource\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Opensource</span></a> <a href=\"https://social.skynetcloud.site/tags/FOSS\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>FOSS</span></a> <a href=\"https://social.skynetcloud.site/tags/Sysadmin\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Sysadmin</span></a> <a href=\"https://social.skynetcloud.site/tags/nobot\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>nobot</span></a> <a href=\"https://social.skynetcloud.site/tags/noAI\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>noAI</span></a></p>",
-          "url": "https://social.skynetcloud.site/@jos1264",
-          "uri": "https://social.skynetcloud.site/users/jos1264",
-          "avatar": "https://files.ioc.exchange/cache/accounts/avatars/111/164/739/674/072/306/original/244c4bf4c90aff42.png",
-          "avatar_static": "https://files.ioc.exchange/cache/accounts/avatars/111/164/739/674/072/306/original/244c4bf4c90aff42.png",
-          "header": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
-          "header_static": "https://files.ioc.exchange/cache/accounts/headers/111/164/739/674/072/306/original/41fb43cff660f1e5.png",
-          "followers_count": 161,
-          "following_count": 331,
-          "statuses_count": 116463,
-          "last_status_at": "2025-12-18",
-          "hide_collections": true,
-          "emojis": [
-            {
-              "shortcode": "vm",
-              "url": "https://files.ioc.exchange/cache/custom_emojis/images/000/246/288/original/f3f6510b81fbc4a7.png",
-              "static_url": "https://files.ioc.exchange/cache/custom_emojis/images/000/246/288/static/f3f6510b81fbc4a7.png",
-              "visible_in_picker": true
-            }
-          ],
-          "fields": [
-            {
-              "name": "Mail TLS Check",
-              "value": "<a href=\"https://mailcheck.skynetcloud.site\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mailcheck.skynetcloud.site</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2025-12-11T23:56:26.916+00:00"
-            }
-          ]
-        },
-        "url": "https://social.skynetcloud.site/@jos1264/115737270797220062",
-        "content": "<p>CVE-2025-66397 - ChurchCRM's Kiosk Manager Functions are vulnerable to Broken Access Control <a href=\"https://cvefeed.io/vuln/detail/CVE-2025-66397\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">cvefeed.io/vuln/detail/CVE-202</span><span class=\"invisible\">5-66397</span></a></p>",
-        "created_at": "2025-12-17T22:30:01.000Z"
       }
     ],
     "description": "N/A",
