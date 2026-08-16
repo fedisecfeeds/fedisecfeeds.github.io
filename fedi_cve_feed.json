@@ -1,4 +1,618 @@
 {
+  "CVE-2026-13196": {
+    "cvss3": 0,
+    "severity": null,
+    "epss_severity": "LOW",
+    "nuclei": null,
+    "posts": [
+      {
+        "account": {
+          "id": "114443602067941568",
+          "username": "hugovalters",
+          "acct": "hugovalters@mastodon.social",
+          "display_name": "Hugo | DevOps | Cybersecurity",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-05-01T00:00:00.000Z",
+          "note": "<p>Tech Lead &amp; DevSecOps. \ud83d\udee1\ufe0f Cybersecurity | \ud83d\udcbb IT Tutorials | \ud83c\udff4\u200d\u2620\ufe0f Ethical Hacking | \u2699\ufe0f Tech Reviews. Learn, secure, and explore cutting-edge IT solutions! \ud83d\udc47</p>",
+          "url": "https://mastodon.social/@hugovalters",
+          "uri": "https://mastodon.social/users/hugovalters",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/114/443/602/067/941/568/original/389ac35208593325.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/114/443/602/067/941/568/original/389ac35208593325.png",
+          "avatar_description": "",
+          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/114/443/602/067/941/568/original/41357cfc44442d1f.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/114/443/602/067/941/568/original/41357cfc44442d1f.png",
+          "header_description": "",
+          "followers_count": 59,
+          "following_count": 1,
+          "statuses_count": 1753,
+          "last_status_at": "2026-08-16",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "fields": [
+            {
+              "name": "CyberSecurity paradise",
+              "value": "<a href=\"https://www.valtersit.com\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">valtersit.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "YouTube",
+              "value": "<a href=\"http://youtube.com/@hugovalters\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">http://</span><span class=\"\">youtube.com/@hugovalters</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "X.com",
+              "value": "<a href=\"https://x.com/hugovalters\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/hugovalters</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Rumble",
+              "value": "<a href=\"https://rumble.com/c/HugoValters\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">rumble.com/c/HugoValters</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://mastodon.social/@hugovalters/117105587386057540",
+        "content": "<p>CVE-2026-13196 - OOB write in KUNBUS piControl 2.6.2. Local auth attacker can corrupt kernel memory, cause DoS. No CVSS yet, unpatched. Update immediately. <a href=\"https://mastodon.social/tags/CVE\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE</span></a> <a href=\"https://mastodon.social/tags/KUNBUS\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>KUNBUS</span></a> <a href=\"https://mastodon.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a></p><p><a href=\"https://www.valtersit.com/cve/CVE-2026-13196/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">valtersit.com/cve/CVE-2026-131</span><span class=\"invisible\">96/</span></a></p>",
+        "created_at": "2026-08-16T14:10:55.000Z"
+      }
+    ],
+    "description": "Nozomi Networks Labs identified a CWE-787: Out-of-bounds Write vulnerability in the process-image management functionality of KUNBUS piControl in version 2.6.2 that allows a local authenticated attacker with device configuration access to write attacker-controlled data outside the bounds of the process-image buffer and corrupt adjacent kernel memory, resulting in kernel memory corruption and denial of service, by supplying crafted device configuration data and crafted input through the piControl character device.",
+    "repos": [],
+    "updated": "2026-08-14T20:16:49.133000",
+    "epss": 0.099
+  },
+  "CVE-2026-33696": {
+    "cvss3": 8.8,
+    "severity": "HIGH",
+    "epss_severity": "LOW",
+    "nuclei": null,
+    "posts": [
+      {
+        "account": {
+          "id": "109437698996933183",
+          "username": "_r_netsec",
+          "acct": "_r_netsec",
+          "display_name": "/r/netsec",
+          "locked": false,
+          "bot": true,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2022-12-01T00:00:00.000Z",
+          "note": "<p>Follow for new posts submitted to the netsec subreddit. Unofficial.</p>",
+          "url": "https://infosec.exchange/@_r_netsec",
+          "uri": "https://infosec.exchange/users/_r_netsec",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/437/698/996/933/183/original/e9e2ba375e619e38.jpg",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/437/698/996/933/183/original/e9e2ba375e619e38.jpg",
+          "avatar_description": "",
+          "header": "https://infosec.exchange/headers/original/missing.png",
+          "header_static": "https://infosec.exchange/headers/original/missing.png",
+          "header_description": "",
+          "followers_count": 1462,
+          "following_count": 0,
+          "statuses_count": 6978,
+          "last_status_at": "2026-08-16",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "noindex": false,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "roles": [],
+          "fields": [
+            {
+              "name": "Subreddit",
+              "value": "<a href=\"https://reddit.com/r/netsec\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">reddit.com/r/netsec</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Automated by",
+              "value": "<span class=\"h-card\" translate=\"no\"><a href=\"https://bsky.brid.gy/r/https://bsky.app/profile/kiding.bsky.social\" class=\"u-url mention\">@<span>kiding.bsky.social@bsky.brid.gy</span></a></span>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@_r_netsec/117105477865679683",
+        "content": "<p>CVE-2026-33696: From a Schema Name to RCE in n8n <a href=\"https://simonkoeck.com/writeups/n8n-gsuiteadmin-prototype-pollution-rce\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">simonkoeck.com/writeups/n8n-gs</span><span class=\"invisible\">uiteadmin-prototype-pollution-rce</span></a></p>",
+        "created_at": "2026-08-16T13:43:04.816Z"
+      },
+      {
+        "account": {
+          "id": "109438466935341820",
+          "username": "_r_netsec",
+          "acct": "_r_netsec@infosec.exchange",
+          "display_name": "/r/netsec",
+          "locked": false,
+          "bot": true,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2022-12-01T00:00:00.000Z",
+          "note": "<p>Follow for new posts submitted to the netsec subreddit. Unofficial.</p>",
+          "url": "https://infosec.exchange/@_r_netsec",
+          "uri": "https://infosec.exchange/users/_r_netsec",
+          "avatar": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/109/438/466/935/341/820/original/2ba77f8b55332efa.jpg",
+          "avatar_static": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/109/438/466/935/341/820/original/2ba77f8b55332efa.jpg",
+          "avatar_description": "",
+          "header": "https://ioc.exchange/headers/original/missing.png",
+          "header_static": "https://ioc.exchange/headers/original/missing.png",
+          "header_description": "",
+          "followers_count": 1460,
+          "following_count": 0,
+          "statuses_count": 6978,
+          "last_status_at": "2026-08-16",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Subreddit",
+              "value": "<a href=\"https://reddit.com/r/netsec\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">reddit.com/r/netsec</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Automated by",
+              "value": "<span class=\"h-card\" translate=\"no\"><a href=\"https://bsky.brid.gy/r/https://bsky.app/profile/kiding.bsky.social\" class=\"u-url mention\" rel=\"nofollow noopener\" target=\"_blank\">@<span>kiding.bsky.social@bsky.brid.gy</span></a></span>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@_r_netsec/117105477865679683",
+        "content": "<p>CVE-2026-33696: From a Schema Name to RCE in n8n <a href=\"https://simonkoeck.com/writeups/n8n-gsuiteadmin-prototype-pollution-rce\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">simonkoeck.com/writeups/n8n-gs</span><span class=\"invisible\">uiteadmin-prototype-pollution-rce</span></a></p>",
+        "created_at": "2026-08-16T13:43:04.000Z"
+      }
+    ],
+    "description": "n8n is an open source workflow automation platform. Prior to versions 2.14.1, 2.13.3, and 1.123.27, an authenticated user with permission to create or modify workflows could exploit a prototype pollution vulnerability in the XML and the GSuiteAdmin nodes. By supplying a crafted parameters as part of node configuration, an attacker could write attacker-controlled values onto `Object.prototype`. An attacker could use this prototype pollution to achieve remote code execution on the n8n instance. The issue has been fixed in n8n versions 2.14.1, 2.13.3, and 1.123.27. Users should upgrade to one of these versions or later to remediate the vulnerability. If upgrading is not immediately possible, administrators should consider the following temporary mitigations: Limit workflow creation and editing permissions to fully trusted users only, and/or disable the XML node by adding `n8n-nodes-base.xml` to the `NODES_EXCLUDE` environment variable. These workarounds do not fully remediate the risk and should only be used as short-term mitigation measures.",
+    "repos": [],
+    "updated": "2026-06-17T10:37:56.373000",
+    "epss": 0.765
+  },
+  "CVE-2026-73056": {
+    "cvss3": 9.8,
+    "severity": "CRITICAL",
+    "epss_severity": null,
+    "nuclei": null,
+    "posts": [
+      {
+        "account": {
+          "id": "114267265908113668",
+          "username": "offseq",
+          "acct": "offseq",
+          "display_name": "OffSequence",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-04-02T00:00:00.000Z",
+          "note": "<p>OffSeq is a cybersecurity company enhancing organizational digital resilience through comprehensive protection against evolving cyber threats. We offer specialized services for businesses of all sizes, with particular expertise in Baltic, Scandinavian, Belgian markets and EU regulatory compliance.</p>",
+          "url": "https://infosec.exchange/@offseq",
+          "uri": "https://infosec.exchange/users/offseq",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/114/267/265/908/113/668/original/014780c34a5a61f4.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/114/267/265/908/113/668/original/014780c34a5a61f4.png",
+          "avatar_description": "",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
+          "header_description": "",
+          "followers_count": 139,
+          "following_count": 0,
+          "statuses_count": 3382,
+          "last_status_at": "2026-08-16",
+          "hide_collections": null,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "noindex": false,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "roles": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://offseq.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">offseq.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Threat Radar",
+              "value": "<a href=\"https://radar.offseq.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">radar.offseq.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Guard",
+              "value": "<a href=\"https://guard.offseq.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">guard.offseq.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Breach",
+              "value": "<a href=\"https://breach.offseq.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">breach.offseq.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Training & Certifications",
+              "value": "<a href=\"https://training.offseq.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">training.offseq.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@offseq/117105428138280687",
+        "content": "<p>siyuan-note siyuan (kernel &lt;3.7.4) hit by CRITICAL vuln: CVE-2026-73056 allows unlimited API token brute-forcing via CheckAuth(). Weak tokens = full admin takeover. Update &amp; review tokens! \ud83d\udd11 <a href=\"https://radar.offseq.com/threat/cve-2026-73056-improper-restriction-of-excessive-authentication-attempts-in-siyuan-note-siyuan-28d3540593a8ef28\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">radar.offseq.com/threat/cve-20</span><span class=\"invisible\">26-73056-improper-restriction-of-excessive-authentication-attempts-in-siyuan-note-siyuan-28d3540593a8ef28</span></a> <a href=\"https://infosec.exchange/tags/OffSeq\" class=\"mention hashtag\" rel=\"tag\">#<span>OffSeq</span></a> <a href=\"https://infosec.exchange/tags/CVE202673056\" class=\"mention hashtag\" rel=\"tag\">#<span>CVE202673056</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"tag\">#<span>infosec</span></a></p>",
+        "created_at": "2026-08-16T13:30:26.038Z"
+      },
+      {
+        "account": {
+          "id": "114693833193257384",
+          "username": "offseq",
+          "acct": "offseq@infosec.exchange",
+          "display_name": "OffSequence",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-04-02T00:00:00.000Z",
+          "note": "<p>OffSeq is a cybersecurity company enhancing organizational digital resilience through comprehensive protection against evolving cyber threats. We offer specialized services for businesses of all sizes, with particular expertise in Baltic, Scandinavian, Belgian markets and EU regulatory compliance.</p>",
+          "url": "https://infosec.exchange/@offseq",
+          "uri": "https://infosec.exchange/users/offseq",
+          "avatar": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/114/693/833/193/257/384/original/732b82f232d5d6f6.png",
+          "avatar_static": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/114/693/833/193/257/384/original/732b82f232d5d6f6.png",
+          "avatar_description": "",
+          "header": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/114/693/833/193/257/384/original/3c2387f0cc43b0ab.jpg",
+          "header_static": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/114/693/833/193/257/384/original/3c2387f0cc43b0ab.jpg",
+          "header_description": "",
+          "followers_count": 139,
+          "following_count": 0,
+          "statuses_count": 3385,
+          "last_status_at": "2026-08-16",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://offseq.com\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">offseq.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Threat Radar",
+              "value": "<a href=\"https://radar.offseq.com\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">radar.offseq.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Guard",
+              "value": "<a href=\"https://guard.offseq.com\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">guard.offseq.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Breach",
+              "value": "<a href=\"https://breach.offseq.com\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">breach.offseq.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Training & Certifications",
+              "value": "<a href=\"https://training.offseq.com\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">training.offseq.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@offseq/117105428138280687",
+        "content": "<p>siyuan-note siyuan (kernel &lt;3.7.4) hit by CRITICAL vuln: CVE-2026-73056 allows unlimited API token brute-forcing via CheckAuth(). Weak tokens = full admin takeover. Update &amp; review tokens! \ud83d\udd11 <a href=\"https://radar.offseq.com/threat/cve-2026-73056-improper-restriction-of-excessive-authentication-attempts-in-siyuan-note-siyuan-28d3540593a8ef28\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">radar.offseq.com/threat/cve-20</span><span class=\"invisible\">26-73056-improper-restriction-of-excessive-authentication-attempts-in-siyuan-note-siyuan-28d3540593a8ef28</span></a> <a href=\"https://infosec.exchange/tags/OffSeq\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>OffSeq</span></a> <a href=\"https://infosec.exchange/tags/CVE202673056\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE202673056</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a></p>",
+        "created_at": "2026-08-16T13:30:26.000Z"
+      }
+    ],
+    "description": "SiYuan kernel versions before 3.7.4 contain an improper restriction of excessive authentication attempts vulnerability in the CheckAuth() middleware. The middleware accepts the API token (Conf.Api.Token) via an Authorization header (Token/Bearer) or a ?token= query parameter, and neither path is protected by the application's CAPTCHA/lockout mechanism (NeedCaptcha/WrongAuthCount). As a result, an unauthenticated remote attacker can perform unlimited automated guesses of the API token, particularly when a short or weak custom token has been configured, and upon success gains full RoleAdministrator access enabling arbitrary file operations and SQL queries.",
+    "repos": [],
+    "updated": "2026-08-16T14:16:55.083000",
+    "epss": 0
+  },
+  "CVE-2026-65400": {
+    "cvss3": 9.8,
+    "severity": "CRITICAL",
+    "epss_severity": "LOW",
+    "nuclei": null,
+    "posts": [
+      {
+        "account": {
+          "id": "111619008846246150",
+          "username": "tomshardware",
+          "acct": "tomshardware@mastodon.online",
+          "display_name": "Tom's Hardware",
+          "locked": false,
+          "bot": true,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2023-12-21T00:00:00.000Z",
+          "note": "<p>RSS feed from tomshardware.com</p><p>If you'd rather buy a laptop or desktop, you're on your first PC build or you want to share your love of tech with your family, we're there to empower you with accessible editorial and a helpful, supportive community.</p>",
+          "url": "https://mastodon.online/@tomshardware",
+          "uri": "https://mastodon.online/users/tomshardware",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/111/619/008/846/246/150/original/cdd58f9675dcfb0b.jpg",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/111/619/008/846/246/150/original/cdd58f9675dcfb0b.jpg",
+          "avatar_description": "",
+          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/111/619/008/846/246/150/original/c42d8cf39bad177f.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/111/619/008/846/246/150/original/c42d8cf39bad177f.png",
+          "header_description": "",
+          "followers_count": 894,
+          "following_count": 3,
+          "statuses_count": 14822,
+          "last_status_at": "2026-08-16",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Owner",
+              "value": "<span class=\"h-card\" translate=\"no\"><a href=\"https://noc.social/@jeancf\" class=\"u-url mention\" rel=\"nofollow noopener\" target=\"_blank\">@<span>jeancf@noc.social</span></a></span>",
+              "verified_at": null
+            },
+            {
+              "name": "Powered by",
+              "value": "<a href=\"https://gitlab.com/jeancf/feedtoot\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">gitlab.com/jeancf/feedtoot</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Source",
+              "value": "<a href=\"https://tomshardware.com\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">tomshardware.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://mastodon.online/@tomshardware/117105324639373441",
+        "content": "<p>Critical macOS Screen Sharing flaw gives attackers remote root access \u2014 CISA bumps bug to 9.8 severity following active Monero cryptojacking attacks</p><p>The Dutch National Cyber Security Centre (NCSC-NL) says that attackers are actively exploiting CVE-2026-65400, an authentication bypass in macOS Screen Sharing.<br><a href=\"https://mastodon.online/tags/hardware\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>hardware</span></a><br><a href=\"https://www.tomshardware.com/tech-industry/cyber-security/macos-screen-sharing-flaw-exploited-to-root-macs-and-plant-monero-miners\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">tomshardware.com/tech-industry</span><span class=\"invisible\">/cyber-security/macos-screen-sharing-flaw-exploited-to-root-macs-and-plant-monero-miners</span></a></p>",
+        "created_at": "2026-08-16T13:04:06.000Z"
+      },
+      {
+        "account": {
+          "id": "110411443466501677",
+          "username": "beyondmachines1",
+          "acct": "beyondmachines1",
+          "display_name": "BeyondMachines :verified:",
+          "locked": false,
+          "bot": true,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2023-05-22T00:00:00.000Z",
+          "note": "<p>Enabling Good Cybersecurity for Everyone:<br />Automated cybersecurity tools, learning and expert guidance for individuals and companies of all sizes.<br />Because cybersecurity shouldn&#39;t be an enterprise feature.</p><p>Sometimes a bot, sometimes not.</p>",
+          "url": "https://infosec.exchange/@beyondmachines1",
+          "uri": "https://infosec.exchange/users/beyondmachines1",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/411/443/466/501/677/original/8a5cbd66210dcea1.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/411/443/466/501/677/original/8a5cbd66210dcea1.png",
+          "avatar_description": "",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/411/443/466/501/677/original/13f1ff452c722516.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/411/443/466/501/677/original/13f1ff452c722516.png",
+          "header_description": "",
+          "followers_count": 2421,
+          "following_count": 708,
+          "statuses_count": 9138,
+          "last_status_at": "2026-08-16",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "noindex": false,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [
+            {
+              "shortcode": "verified",
+              "url": "https://media.infosec.exchange/infosec.exchange/custom_emojis/images/000/162/424/original/be4326fe58d3b038.png",
+              "static_url": "https://media.infosec.exchange/infosec.exchange/custom_emojis/images/000/162/424/static/be4326fe58d3b038.png",
+              "visible_in_picker": true
+            }
+          ],
+          "roles": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://beyondmachines.net\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">beyondmachines.net</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Linkedin",
+              "value": "<a href=\"https://www.linkedin.com/company/73905832/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">linkedin.com/company/73905832/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "GitHub",
+              "value": "<a href=\"https://github.com/BeyondMachines\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/BeyondMachines</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-05-30T08:18:33.240+00:00"
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@beyondmachines1/117104841108030760",
+        "content": "<p>Apple Patches Actively Exploited macOS Screen Sharing Vulnerability Used in Crypto Mining Attacks</p><p>Apple patched a macOS Screen Sharing vulnerability (CVE-2026-65400) that allows remote attackers to bypass authentication and gain root access. Attackers are actively exploiting the flaw to install Monero crypto miners on systems with port 5900 exposed to the internet.</p><p>**If you use a Mac, update macOS now to Tahoe 26.6.1, Sequoia 15.7.9, or Sonoma 14.8.9 to fix CVE-2026-65400, which attackers are already using to take full control of Macs without a password. Also turn off Screen Sharing when you don&#39;t need it and make sure port 5900 is not reachable from the internet.**<br /><a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"tag\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"tag\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/attack\" class=\"mention hashtag\" rel=\"tag\">#<span>attack</span></a> <a href=\"https://infosec.exchange/tags/activeexploit\" class=\"mention hashtag\" rel=\"tag\">#<span>activeexploit</span></a><br /><a href=\"https://beyondmachines.net/event_details/apple-patches-actively-exploited-macos-screen-sharing-vulnerability-used-in-crypto-mining-attacks-n-5-j-v-1/gD2P6Ple2L\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">beyondmachines.net/event_detai</span><span class=\"invisible\">ls/apple-patches-actively-exploited-macos-screen-sharing-vulnerability-used-in-crypto-mining-attacks-n-5-j-v-1/gD2P6Ple2L</span></a></p>",
+        "created_at": "2026-08-16T11:01:08.666Z"
+      },
+      {
+        "account": {
+          "id": "111619008884165401",
+          "username": "tomshardware",
+          "acct": "tomshardware@mastodon.online",
+          "display_name": "Tom's Hardware",
+          "locked": false,
+          "bot": true,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2023-12-21T00:00:00.000Z",
+          "note": "<p>RSS feed from tomshardware.com</p><p>If you'd rather buy a laptop or desktop, you're on your first PC build or you want to share your love of tech with your family, we're there to empower you with accessible editorial and a helpful, supportive community.</p>",
+          "url": "https://mastodon.online/@tomshardware",
+          "uri": "https://mastodon.online/users/tomshardware",
+          "avatar": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/111/619/008/884/165/401/original/264738dc0af9e375.jpg",
+          "avatar_static": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/111/619/008/884/165/401/original/264738dc0af9e375.jpg",
+          "avatar_description": "",
+          "header": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/111/619/008/884/165/401/original/3eda152fed186655.png",
+          "header_static": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/111/619/008/884/165/401/original/3eda152fed186655.png",
+          "header_description": "",
+          "followers_count": 868,
+          "following_count": 3,
+          "statuses_count": 14821,
+          "last_status_at": "2026-08-16",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Owner",
+              "value": "<span class=\"h-card\" translate=\"no\"><a href=\"https://noc.social/@jeancf\" class=\"u-url mention\" rel=\"nofollow noopener\" target=\"_blank\">@<span>jeancf@noc.social</span></a></span>",
+              "verified_at": null
+            },
+            {
+              "name": "Powered by",
+              "value": "<a href=\"https://gitlab.com/jeancf/feedtoot\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">gitlab.com/jeancf/feedtoot</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Source",
+              "value": "<a href=\"https://tomshardware.com\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">tomshardware.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://mastodon.online/@tomshardware/117105324639373441",
+        "content": "<p>Critical macOS Screen Sharing flaw gives attackers remote root access \u2014 CISA bumps bug to 9.8 severity following active Monero cryptojacking attacks</p><p>The Dutch National Cyber Security Centre (NCSC-NL) says that attackers are actively exploiting CVE-2026-65400, an authentication bypass in macOS Screen Sharing.<br><a href=\"https://mastodon.online/tags/hardware\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>hardware</span></a><br><a href=\"https://www.tomshardware.com/tech-industry/cyber-security/macos-screen-sharing-flaw-exploited-to-root-macs-and-plant-monero-miners\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">tomshardware.com/tech-industry</span><span class=\"invisible\">/cyber-security/macos-screen-sharing-flaw-exploited-to-root-macs-and-plant-monero-miners</span></a></p>",
+        "created_at": "2026-08-16T13:04:06.000Z"
+      },
+      {
+        "account": {
+          "id": "110411505019651087",
+          "username": "beyondmachines1",
+          "acct": "beyondmachines1@infosec.exchange",
+          "display_name": "BeyondMachines :verified:",
+          "locked": false,
+          "bot": true,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2023-05-22T00:00:00.000Z",
+          "note": "<p>Enabling Good Cybersecurity for Everyone:<br>Automated cybersecurity tools, learning and expert guidance for individuals and companies of all sizes.<br>Because cybersecurity shouldn't be an enterprise feature.</p><p>Sometimes a bot, sometimes not.</p>",
+          "url": "https://infosec.exchange/@beyondmachines1",
+          "uri": "https://infosec.exchange/users/beyondmachines1",
+          "avatar": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/110/411/505/019/651/087/original/c6443adee7620a44.png",
+          "avatar_static": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/110/411/505/019/651/087/original/c6443adee7620a44.png",
+          "avatar_description": "",
+          "header": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/110/411/505/019/651/087/original/255ae436ae200fc7.png",
+          "header_static": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/110/411/505/019/651/087/original/255ae436ae200fc7.png",
+          "header_description": "",
+          "followers_count": 2421,
+          "following_count": 708,
+          "statuses_count": 9139,
+          "last_status_at": "2026-08-16",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [
+            {
+              "shortcode": "verified",
+              "url": "https://files.ioc.exchange/iocexchange/cache/custom_emojis/images/000/000/152/original/1f1a67747c528d9d.png",
+              "static_url": "https://files.ioc.exchange/iocexchange/cache/custom_emojis/images/000/000/152/static/1f1a67747c528d9d.png",
+              "visible_in_picker": true
+            }
+          ],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://beyondmachines.net\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">beyondmachines.net</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Linkedin",
+              "value": "<a href=\"https://www.linkedin.com/company/73905832/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">linkedin.com/company/73905832/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "GitHub",
+              "value": "<a href=\"https://github.com/BeyondMachines\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/BeyondMachines</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2026-08-12T14:37:41.915+00:00"
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@beyondmachines1/117104841108030760",
+        "content": "<p>Apple Patches Actively Exploited macOS Screen Sharing Vulnerability Used in Crypto Mining Attacks</p><p>Apple patched a macOS Screen Sharing vulnerability (CVE-2026-65400) that allows remote attackers to bypass authentication and gain root access. Attackers are actively exploiting the flaw to install Monero crypto miners on systems with port 5900 exposed to the internet.</p><p>**If you use a Mac, update macOS now to Tahoe 26.6.1, Sequoia 15.7.9, or Sonoma 14.8.9 to fix CVE-2026-65400, which attackers are already using to take full control of Macs without a password. Also turn off Screen Sharing when you don't need it and make sure port 5900 is not reachable from the internet.**<br><a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/attack\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>attack</span></a> <a href=\"https://infosec.exchange/tags/activeexploit\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>activeexploit</span></a><br><a href=\"https://beyondmachines.net/event_details/apple-patches-actively-exploited-macos-screen-sharing-vulnerability-used-in-crypto-mining-attacks-n-5-j-v-1/gD2P6Ple2L\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">beyondmachines.net/event_detai</span><span class=\"invisible\">ls/apple-patches-actively-exploited-macos-screen-sharing-vulnerability-used-in-crypto-mining-attacks-n-5-j-v-1/gD2P6Ple2L</span></a></p>",
+        "created_at": "2026-08-16T11:01:08.000Z"
+      }
+    ],
+    "description": "An authentication issue was addressed with improved state management. This issue is fixed in macOS Sequoia 15.7.9, macOS Sonoma 14.8.9, macOS Tahoe 26.6.1. An attacker on the network may be able to authenticate to Screen Sharing without valid credentials.",
+    "repos": [],
+    "updated": "2026-08-15T04:18:24.470000",
+    "epss": 0.496
+  },
   "CVE-2026-59310": {
     "cvss3": 9.8,
     "severity": "CRITICAL",
@@ -28,7 +642,7 @@
           "header_description": "",
           "followers_count": 4793,
           "following_count": 1503,
-          "statuses_count": 59052,
+          "statuses_count": 59055,
           "last_status_at": "2026-08-16",
           "hide_collections": false,
           "show_media": true,
@@ -146,7 +760,7 @@
           "header_description": "",
           "followers_count": 4777,
           "following_count": 1507,
-          "statuses_count": 58332,
+          "statuses_count": 58335,
           "last_status_at": "2026-08-16",
           "hide_collections": false,
           "show_media": true,
@@ -272,7 +886,7 @@
           "header_description": "",
           "followers_count": 59,
           "following_count": 1,
-          "statuses_count": 1749,
+          "statuses_count": 1753,
           "last_status_at": "2026-08-16",
           "hide_collections": false,
           "show_media": true,
@@ -317,12 +931,12 @@
     "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/xe/pt: Fix NULL pointer dereference in xe_pt_zap_ptes_entry()\n\nThe page-table walk framework may pass a NULL *child pointer for\nunpopulated entries. xe_pt_zap_ptes_entry() called container_of(*child)\nbefore checking for NULL, then dereferenced the result, causing a crash.\n\nMove the container_of() call after a NULL guard, so the function returns\nearly instead of proceeding with an invalid pointer. XE_WARN_ON is kept\nto help root cause the issue, but we now bail instead of crashing the\ndriver.\n\nv2: Comment that triggering XE_WARN_ON is unexpected behavior (Matt Brost)\n\n(cherry picked from commit b9297d19d9df5d4b6c994648570c5dcd1cac68ff)",
     "repos": [],
     "updated": "2026-08-15T06:22:09.627000",
-    "epss": 0.209
+    "epss": 0.2
   },
   "CVE-2026-18432": {
     "cvss3": 9.8,
     "severity": "CRITICAL",
-    "epss_severity": null,
+    "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
       {
@@ -348,7 +962,7 @@
           "header_description": "",
           "followers_count": 139,
           "following_count": 0,
-          "statuses_count": 3381,
+          "statuses_count": 3382,
           "last_status_at": "2026-08-16",
           "hide_collections": null,
           "show_media": true,
@@ -473,7 +1087,7 @@
           "header_description": "",
           "followers_count": 139,
           "following_count": 0,
-          "statuses_count": 3384,
+          "statuses_count": 3385,
           "last_status_at": "2026-08-16",
           "hide_collections": false,
           "show_media": true,
@@ -577,7 +1191,7 @@
     "description": "The Frontend Admin by DynamiApps plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 3.29.9. The vulnerability exists because `ActionUser::conditions_logic()` gates the `current_user_can('edit_user', $user_id)` authorization check behind an `is_numeric()` test, causing the check to be skipped entirely when `$user_id` is a non-numeric string \u2014 a condition that can be induced by passing a crafted value such as `1one` through the unvalidated `item_id` parameter of the unauthenticated `wp_ajax_nopriv_frontend_admin/forms/change_form` AJAX endpoint. This makes it possible for attackers to escalate privileges to administrator by obtaining a server-signed `_acf_objects` payload carrying the non-numeric user ID, which WordPress subsequently coerces to integer 1 (the default administrator), allowing the attacker to overwrite that account's password or email address. Exploitation by unauthenticated users requires a public-facing frontend user form to be configured; in all other cases a subscriber-level account is sufficient.",
     "repos": [],
     "updated": "2026-08-16T05:16:48.307000",
-    "epss": 0
+    "epss": 0.44799999999999995
   },
   "CVE-2026-65640": {
     "cvss3": 0,
@@ -608,7 +1222,7 @@
           "header_description": "",
           "followers_count": 85,
           "following_count": 1,
-          "statuses_count": 4952,
+          "statuses_count": 4960,
           "last_status_at": "2026-08-16",
           "hide_collections": false,
           "show_media": true,
@@ -676,7 +1290,7 @@
           "header_description": "",
           "followers_count": 85,
           "following_count": 1,
-          "statuses_count": 4952,
+          "statuses_count": 4960,
           "last_status_at": "2026-08-16",
           "hide_collections": false,
           "show_media": true,
@@ -710,28 +1324,29 @@
     ],
     "description": "WordPress is vulnerable to a pre-auth reflected XSS vulnerability on the login screen.\r\n\r\nVia a specially crafted malicious third-party website hosted by an attacker, it is possible for this to be escalated to an RCE vulnerability with conditions outside of the attackers control. This requires successful social engineering of and explicit interaction by the target victim.\r\n\r\nThis issue affects all versions of WordPress. Version 7.0.3 has been released, containing a fix for the vulnerability, and as a courtesy to users on older branches the fix has been backported to all branches back to 4.7.\r\n\r\nDiscovered and responsibly disclosed by [the team at pwn.ai](https://pwn.ai/).",
     "repos": [
-      "https://github.com/4minx/CVE-2026-64638",
-      "https://github.com/MR-LeonardoGomes/XSS2Shell-CVE-2026-64638",
       "https://github.com/HORKimhab/CVE-2026-64638",
-      "https://github.com/tc4dy/CVE-2026-64638-PoC-Exploit",
+      "https://github.com/renzi25031469/CVE-2026-64638-WordPress-Core-XSS2Shell",
       "https://github.com/jendmaoul/XSS2Shell-CVE-2026-64638",
-      "https://github.com/ZildanZ/CVE-2026-64638",
-      "https://github.com/wordsec/XSS2Shell",
+      "https://github.com/SanaullahAmanullah/xss2shell-check",
+      "https://github.com/5yu4n/CVE-2026-64638",
       "https://github.com/mohwahyudi/poc-CVE-2026-64638-",
-      "https://github.com/imbas007/CVE-2026-64638-POC",
-      "https://github.com/g0d150ne/XSS2Shell",
-      "https://github.com/Boreas37/CVE-2026-64638-PoC-XSS2Shell-",
-      "https://github.com/ZSecur1ty/XSS2Shell-CVE-2026-64638",
       "https://github.com/yogaGymn/XSS2Shell-CVE-2026-64638",
-      "https://github.com/0xBlackash/CVE-2026-64638",
+      "https://github.com/4minx/CVE-2026-64638",
+      "https://github.com/Boreas37/CVE-2026-64638-PoC-XSS2Shell-",
       "https://github.com/HackSpeak/CVE-2026-64638",
       "https://github.com/0xlipon/xss2shell",
+      "https://github.com/g0d150ne/XSS2Shell",
+      "https://github.com/686f6c61/POC-WP-XSS2Shell-CVE-2026-64638",
+      "https://github.com/ZSecur1ty/XSS2Shell-CVE-2026-64638",
+      "https://github.com/imbas007/CVE-2026-64638-POC",
+      "https://github.com/tc4dy/CVE-2026-64638-PoC-Exploit",
+      "https://github.com/wordsec/XSS2Shell",
       "https://github.com/eh-amish/CVE-2026-64638-XSS-to-Shell-PoC",
-      "https://github.com/renzi25031469/CVE-2026-64638-WordPress-Core-XSS2Shell",
       "https://github.com/Alixploit22/CVEX2SHEL",
+      "https://github.com/ZildanZ/CVE-2026-64638",
       "https://github.com/Dungsocool/CVE-2026-64638",
-      "https://github.com/5yu4n/CVE-2026-64638",
-      "https://github.com/686f6c61/POC-WP-XSS2Shell-CVE-2026-64638"
+      "https://github.com/MR-LeonardoGomes/XSS2Shell-CVE-2026-64638",
+      "https://github.com/0xBlackash/CVE-2026-64638"
     ],
     "updated": "2026-08-07T19:18:51.610000",
     "epss": 0.894
@@ -765,7 +1380,7 @@
           "header_description": "",
           "followers_count": 59,
           "following_count": 1,
-          "statuses_count": 1749,
+          "statuses_count": 1753,
           "last_status_at": "2026-08-16",
           "hide_collections": false,
           "show_media": true,
@@ -812,156 +1427,10 @@
     "updated": "2026-08-15T06:22:17.753000",
     "epss": 0.16199999999999998
   },
-  "CVE-2026-65400": {
-    "cvss3": 9.8,
-    "severity": "CRITICAL",
-    "epss_severity": "LOW",
-    "nuclei": null,
-    "posts": [
-      {
-        "account": {
-          "id": "110411443466501677",
-          "username": "beyondmachines1",
-          "acct": "beyondmachines1",
-          "display_name": "BeyondMachines :verified:",
-          "locked": false,
-          "bot": true,
-          "discoverable": true,
-          "indexable": true,
-          "group": false,
-          "created_at": "2023-05-22T00:00:00.000Z",
-          "note": "<p>Enabling Good Cybersecurity for Everyone:<br />Automated cybersecurity tools, learning and expert guidance for individuals and companies of all sizes.<br />Because cybersecurity shouldn&#39;t be an enterprise feature.</p><p>Sometimes a bot, sometimes not.</p>",
-          "url": "https://infosec.exchange/@beyondmachines1",
-          "uri": "https://infosec.exchange/users/beyondmachines1",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/411/443/466/501/677/original/8a5cbd66210dcea1.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/110/411/443/466/501/677/original/8a5cbd66210dcea1.png",
-          "avatar_description": "",
-          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/411/443/466/501/677/original/13f1ff452c722516.png",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/110/411/443/466/501/677/original/13f1ff452c722516.png",
-          "header_description": "",
-          "followers_count": 2421,
-          "following_count": 708,
-          "statuses_count": 9138,
-          "last_status_at": "2026-08-16",
-          "hide_collections": false,
-          "show_media": true,
-          "show_media_replies": true,
-          "show_featured": true,
-          "noindex": false,
-          "feature_approval": {
-            "automatic": [
-              "public"
-            ],
-            "manual": [],
-            "current_user": "automatic"
-          },
-          "emojis": [
-            {
-              "shortcode": "verified",
-              "url": "https://media.infosec.exchange/infosec.exchange/custom_emojis/images/000/162/424/original/be4326fe58d3b038.png",
-              "static_url": "https://media.infosec.exchange/infosec.exchange/custom_emojis/images/000/162/424/static/be4326fe58d3b038.png",
-              "visible_in_picker": true
-            }
-          ],
-          "roles": [],
-          "fields": [
-            {
-              "name": "Website",
-              "value": "<a href=\"https://beyondmachines.net\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">beyondmachines.net</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Linkedin",
-              "value": "<a href=\"https://www.linkedin.com/company/73905832/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">linkedin.com/company/73905832/</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "GitHub",
-              "value": "<a href=\"https://github.com/BeyondMachines\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/BeyondMachines</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2023-05-30T08:18:33.240+00:00"
-            }
-          ]
-        },
-        "url": "https://infosec.exchange/@beyondmachines1/117104841108030760",
-        "content": "<p>Apple Patches Actively Exploited macOS Screen Sharing Vulnerability Used in Crypto Mining Attacks</p><p>Apple patched a macOS Screen Sharing vulnerability (CVE-2026-65400) that allows remote attackers to bypass authentication and gain root access. Attackers are actively exploiting the flaw to install Monero crypto miners on systems with port 5900 exposed to the internet.</p><p>**If you use a Mac, update macOS now to Tahoe 26.6.1, Sequoia 15.7.9, or Sonoma 14.8.9 to fix CVE-2026-65400, which attackers are already using to take full control of Macs without a password. Also turn off Screen Sharing when you don&#39;t need it and make sure port 5900 is not reachable from the internet.**<br /><a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"tag\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"tag\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/attack\" class=\"mention hashtag\" rel=\"tag\">#<span>attack</span></a> <a href=\"https://infosec.exchange/tags/activeexploit\" class=\"mention hashtag\" rel=\"tag\">#<span>activeexploit</span></a><br /><a href=\"https://beyondmachines.net/event_details/apple-patches-actively-exploited-macos-screen-sharing-vulnerability-used-in-crypto-mining-attacks-n-5-j-v-1/gD2P6Ple2L\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">beyondmachines.net/event_detai</span><span class=\"invisible\">ls/apple-patches-actively-exploited-macos-screen-sharing-vulnerability-used-in-crypto-mining-attacks-n-5-j-v-1/gD2P6Ple2L</span></a></p>",
-        "created_at": "2026-08-16T11:01:08.666Z"
-      },
-      {
-        "account": {
-          "id": "110411505019651087",
-          "username": "beyondmachines1",
-          "acct": "beyondmachines1@infosec.exchange",
-          "display_name": "BeyondMachines :verified:",
-          "locked": false,
-          "bot": true,
-          "discoverable": true,
-          "indexable": true,
-          "group": false,
-          "created_at": "2023-05-22T00:00:00.000Z",
-          "note": "<p>Enabling Good Cybersecurity for Everyone:<br>Automated cybersecurity tools, learning and expert guidance for individuals and companies of all sizes.<br>Because cybersecurity shouldn't be an enterprise feature.</p><p>Sometimes a bot, sometimes not.</p>",
-          "url": "https://infosec.exchange/@beyondmachines1",
-          "uri": "https://infosec.exchange/users/beyondmachines1",
-          "avatar": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/110/411/505/019/651/087/original/c6443adee7620a44.png",
-          "avatar_static": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/110/411/505/019/651/087/original/c6443adee7620a44.png",
-          "avatar_description": "",
-          "header": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/110/411/505/019/651/087/original/255ae436ae200fc7.png",
-          "header_static": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/110/411/505/019/651/087/original/255ae436ae200fc7.png",
-          "header_description": "",
-          "followers_count": 2421,
-          "following_count": 708,
-          "statuses_count": 9139,
-          "last_status_at": "2026-08-16",
-          "hide_collections": false,
-          "show_media": true,
-          "show_media_replies": true,
-          "show_featured": true,
-          "feature_approval": {
-            "automatic": [
-              "public"
-            ],
-            "manual": [],
-            "current_user": "automatic"
-          },
-          "emojis": [
-            {
-              "shortcode": "verified",
-              "url": "https://files.ioc.exchange/iocexchange/cache/custom_emojis/images/000/000/152/original/1f1a67747c528d9d.png",
-              "static_url": "https://files.ioc.exchange/iocexchange/cache/custom_emojis/images/000/000/152/static/1f1a67747c528d9d.png",
-              "visible_in_picker": true
-            }
-          ],
-          "fields": [
-            {
-              "name": "Website",
-              "value": "<a href=\"https://beyondmachines.net\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">beyondmachines.net</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Linkedin",
-              "value": "<a href=\"https://www.linkedin.com/company/73905832/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">linkedin.com/company/73905832/</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "GitHub",
-              "value": "<a href=\"https://github.com/BeyondMachines\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/BeyondMachines</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2026-08-12T14:37:41.915+00:00"
-            }
-          ]
-        },
-        "url": "https://infosec.exchange/@beyondmachines1/117104841108030760",
-        "content": "<p>Apple Patches Actively Exploited macOS Screen Sharing Vulnerability Used in Crypto Mining Attacks</p><p>Apple patched a macOS Screen Sharing vulnerability (CVE-2026-65400) that allows remote attackers to bypass authentication and gain root access. Attackers are actively exploiting the flaw to install Monero crypto miners on systems with port 5900 exposed to the internet.</p><p>**If you use a Mac, update macOS now to Tahoe 26.6.1, Sequoia 15.7.9, or Sonoma 14.8.9 to fix CVE-2026-65400, which attackers are already using to take full control of Macs without a password. Also turn off Screen Sharing when you don't need it and make sure port 5900 is not reachable from the internet.**<br><a href=\"https://infosec.exchange/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/attack\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>attack</span></a> <a href=\"https://infosec.exchange/tags/activeexploit\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>activeexploit</span></a><br><a href=\"https://beyondmachines.net/event_details/apple-patches-actively-exploited-macos-screen-sharing-vulnerability-used-in-crypto-mining-attacks-n-5-j-v-1/gD2P6Ple2L\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">beyondmachines.net/event_detai</span><span class=\"invisible\">ls/apple-patches-actively-exploited-macos-screen-sharing-vulnerability-used-in-crypto-mining-attacks-n-5-j-v-1/gD2P6Ple2L</span></a></p>",
-        "created_at": "2026-08-16T11:01:08.000Z"
-      }
-    ],
-    "description": "An authentication issue was addressed with improved state management. This issue is fixed in macOS Sequoia 15.7.9, macOS Sonoma 14.8.9, macOS Tahoe 26.6.1. An attacker on the network may be able to authenticate to Screen Sharing without valid credentials.",
-    "repos": [],
-    "updated": "2026-08-15T04:18:24.470000",
-    "epss": 0.496
-  },
   "CVE-2026-16098": {
     "cvss3": 9.8,
     "severity": "CRITICAL",
-    "epss_severity": null,
+    "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
       {
@@ -987,7 +1456,7 @@
           "header_description": "",
           "followers_count": 139,
           "following_count": 0,
-          "statuses_count": 3381,
+          "statuses_count": 3382,
           "last_status_at": "2026-08-16",
           "hide_collections": null,
           "show_media": true,
@@ -1112,7 +1581,7 @@
           "header_description": "",
           "followers_count": 139,
           "following_count": 0,
-          "statuses_count": 3384,
+          "statuses_count": 3385,
           "last_status_at": "2026-08-16",
           "hide_collections": false,
           "show_media": true,
@@ -1216,7 +1685,7 @@
     "description": "The ProSolution WP Client plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 2.0.10 via the proSol_handleFileUpload function. This is due to missing validation of the attacker-controlled Content-Disposition header filename, which overrides the allow-listed multipart filename before the file is saved, and a post-save extension check that fails to delete the already-written file. This makes it possible for unauthenticated attackers to upload files that may be executable, which makes remote code execution possible. The nonce required to reach the upload handler is publicly exposed via wp_localize_script on any front-end page rendering the job portal shortcode, allowing unauthenticated visitors to obtain a valid nonce and bypass that gating check entirely.",
     "repos": [],
     "updated": "2026-08-16T05:16:47.667000",
-    "epss": 0
+    "epss": 0.641
   },
   "CVE-2026-23670": {
     "cvss3": 5.7,
@@ -1247,7 +1716,7 @@
           "header_description": "",
           "followers_count": 85,
           "following_count": 1,
-          "statuses_count": 4952,
+          "statuses_count": 4960,
           "last_status_at": "2026-08-16",
           "hide_collections": false,
           "show_media": true,
@@ -1287,7 +1756,7 @@
   "CVE-2026-14524": {
     "cvss3": 9.1,
     "severity": "CRITICAL",
-    "epss_severity": null,
+    "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
       {
@@ -1313,7 +1782,7 @@
           "header_description": "",
           "followers_count": 139,
           "following_count": 0,
-          "statuses_count": 3381,
+          "statuses_count": 3382,
           "last_status_at": "2026-08-16",
           "hide_collections": null,
           "show_media": true,
@@ -1438,7 +1907,7 @@
           "header_description": "",
           "followers_count": 139,
           "following_count": 0,
-          "statuses_count": 3384,
+          "statuses_count": 3385,
           "last_status_at": "2026-08-16",
           "hide_collections": false,
           "show_media": true,
@@ -1542,12 +2011,12 @@
     "description": "The ProSolution WP Client plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the proSol_fileDeleteProcess function in all versions up to, and including, 2.0.8. This makes it possible for unauthenticated attackers to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php). An attacker must first call the proSol_fileUploadModalProcess handler to poison their own session with a path-traversal key, then call proSol_fileDeleteProcess with that key as the filename parameter; both steps require only the publicly exposed frontend nonce.",
     "repos": [],
     "updated": "2026-08-16T05:16:46.493000",
-    "epss": 0
+    "epss": 0.7020000000000001
   },
   "CVE-2026-17087": {
     "cvss3": 7.5,
     "severity": "HIGH",
-    "epss_severity": null,
+    "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
       {
@@ -1661,13 +2130,13 @@
     ],
     "description": "The WP Travel Engine \u2013 Tour Booking Plugin \u2013 Tour Operator Software plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 6.8.4. This is due to the plugin not properly verifying that a user is authorized to perform an action. This makes it possible for unauthenticated attackers to view private booking billing details \u2014 including the victim customer's first name, last name, email address, street address, city, and phone number \u2014 rendered as default values in checkout form fields by binding an arbitrary booking ID to the attacker's session. The only access control on the endpoint is a frontend nonce that is publicly emitted to all visitors via the wteL10n global on trip pages, meaning it provides CSRF protection only and does not restrict unauthenticated access.",
     "repos": [],
-    "updated": "2026-08-16T09:30:22",
-    "epss": 0
+    "updated": "2026-08-16T07:16:30.423000",
+    "epss": 0.415
   },
   "CVE-2026-19714": {
     "cvss3": null,
     "severity": null,
-    "epss_severity": null,
+    "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
       {
@@ -1693,7 +2162,7 @@
           "header_description": "",
           "followers_count": 139,
           "following_count": 0,
-          "statuses_count": 3381,
+          "statuses_count": 3382,
           "last_status_at": "2026-08-16",
           "hide_collections": null,
           "show_media": true,
@@ -1764,7 +2233,7 @@
           "header_description": "",
           "followers_count": 139,
           "following_count": 0,
-          "statuses_count": 3384,
+          "statuses_count": 3385,
           "last_status_at": "2026-08-16",
           "hide_collections": false,
           "show_media": true,
@@ -1814,12 +2283,12 @@
     "description": "The Simple JWT Login  WordPress plugin before 3.6.8 does not validate the audience of the Google identity tokens it accepts, allowing unauthenticated users to authenticate as any user whose email address such a token carries, up to and including an administrator. Every site with the Simple JWT Login  WordPress plugin before 3.6.8's Google sign-in enabled is affected.",
     "repos": [],
     "updated": "2026-08-16T06:30:37",
-    "epss": 0
+    "epss": 0.16
   },
   "CVE-2026-18316": {
     "cvss3": 9.1,
     "severity": "CRITICAL",
-    "epss_severity": null,
+    "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
       {
@@ -1899,7 +2368,7 @@
           "header_description": "",
           "followers_count": 139,
           "following_count": 0,
-          "statuses_count": 3381,
+          "statuses_count": 3382,
           "last_status_at": "2026-08-16",
           "hide_collections": null,
           "show_media": true,
@@ -2024,7 +2493,7 @@
           "header_description": "",
           "followers_count": 139,
           "following_count": 0,
-          "statuses_count": 3384,
+          "statuses_count": 3385,
           "last_status_at": "2026-08-16",
           "hide_collections": false,
           "show_media": true,
@@ -2073,13 +2542,13 @@
     ],
     "description": "The Solace Extra plugin for WordPress is vulnerable to unauthorized modification and loss of data due to a missing capability check on the import_zip() function in versions up to, and including, 1.6.0. The handler is registered on both wp_ajax_action-import-zip and wp_ajax_nopriv_action-import-zip and only verifies the 'ajax-nonce' nonce, which is emitted on every admin page via wp_localize_script (unrestricted admin_enqueue_scripts hook) and is therefore accessible to any authenticated user including Subscribers. This makes it possible for authenticated attackers, with Subscriber-level access and above, to wipe navigation menus, sidebar widgets (via update_option('sidebars_widgets', array())), all theme mods (via remove_theme_mods()), and Elementor templates, as well as trigger arbitrary demo-content imports.",
     "repos": [],
-    "updated": "2026-08-16T06:16:51.683000",
-    "epss": 0
+    "updated": "2026-08-16T06:30:37",
+    "epss": 0.32399999999999995
   },
   "CVE-2026-14498": {
     "cvss3": 8.8,
     "severity": "HIGH",
-    "epss_severity": null,
+    "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
       {
@@ -2194,12 +2663,12 @@
     "description": "The Query Wrangler plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.5.57 via the 'options' parameter parameter. This is due to missing capability check and nonce verification on the wp_ajax_qw_form_ajax handler, combined with unsanitized attacker-controlled options fully replacing saved query options and being passed directly to call_user_func_array() guarded only by function_exists(). This makes it possible for authenticated attackers, with subscriber-level access and above, to execute code on the server. Exploitation requires only that at least one query row exists in the database, as the query_id is a small enumerable integer with no further access control.",
     "repos": [],
     "updated": "2026-08-16T06:30:31",
-    "epss": 0
+    "epss": 0.549
   },
   "CVE-2026-16099": {
     "cvss3": 8.8,
     "severity": "HIGH",
-    "epss_severity": null,
+    "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
       {
@@ -2314,12 +2783,12 @@
     "description": "The Podlove Podcast Publisher plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the create_link_item function in all versions up to, and including, 4.5.3. This makes it possible for authenticated attackers, with contributor-level access and above, to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php). A viable POP chain exists within the plugin itself via Podlove\\ImageCache\\GenerationGuard, whose __destruct() method invokes wp_delete_file() with an attacker-controlled file path populated through unserialization.",
     "repos": [],
     "updated": "2026-08-16T06:30:32",
-    "epss": 0
+    "epss": 0.588
   },
   "CVE-2026-17123": {
     "cvss3": 8.8,
     "severity": "HIGH",
-    "epss_severity": null,
+    "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
       {
@@ -2433,8 +2902,8 @@
     ],
     "description": "The Royal Elementor Addons plugin for WordPress is vulnerable to Server-Side Request Forgery in versions up to, and including, 1.7.1064 via the Form Builder widget's 'webhook_url' setting. The widget's render() method persists the attacker-controlled URL into the wpr_webhook_url_{widget_id} option on every render (including a Contributor previewing their own draft), and the wpr_form_builder_webhook AJAX handler \u2014 registered for both authenticated and unauthenticated callers \u2014 reads that option and dispatches the outbound request via the non-safe wp_remote_post(), with no host allowlist, no scheme restriction, and no private/loopback IP filter (the plugin's existing wpr_is_blocked_remote_host / wpr_is_private_or_local_ip helpers are not called on this path). This makes it possible for authenticated attackers, with Contributor-level access and above, to make web requests to arbitrary locations originating from the web application and can be used to query and modify information from internal services.",
     "repos": [],
-    "updated": "2026-08-16T05:16:48.033000",
-    "epss": 0
+    "updated": "2026-08-16T06:30:32",
+    "epss": 0.35500000000000004
   },
   "CVE-2026-28318": {
     "cvss3": 7.5,
@@ -2465,7 +2934,7 @@
           "header_description": "",
           "followers_count": 201,
           "following_count": 458,
-          "statuses_count": 17973,
+          "statuses_count": 17975,
           "last_status_at": "2026-08-16",
           "hide_collections": null,
           "show_media": true,
@@ -2499,7 +2968,7 @@
   "CVE-2026-73052": {
     "cvss3": 9.0,
     "severity": null,
-    "epss_severity": null,
+    "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
       {
@@ -2525,7 +2994,7 @@
           "header_description": "",
           "followers_count": 139,
           "following_count": 0,
-          "statuses_count": 3381,
+          "statuses_count": 3382,
           "last_status_at": "2026-08-16",
           "hide_collections": null,
           "show_media": true,
@@ -2596,7 +3065,7 @@
           "header_description": "",
           "followers_count": 139,
           "following_count": 0,
-          "statuses_count": 3384,
+          "statuses_count": 3385,
           "last_status_at": "2026-08-16",
           "hide_collections": false,
           "show_media": true,
@@ -2700,12 +3169,12 @@
     "description": "SiYuan before v3.7.4 stores attribute-view field names without HTML escaping and interpolates them directly into option elements via innerHTML in the sort menu. Attackers can inject markup by renaming a database field to execute arbitrary JavaScript when users open the sort menu, with Node integration enabled in the desktop client enabling code execution.",
     "repos": [],
     "updated": "2026-08-16T00:31:34",
-    "epss": 0
+    "epss": 0.3
   },
   "CVE-2026-73053": {
     "cvss3": 9.0,
-    "severity": "CRITICAL",
-    "epss_severity": null,
+    "severity": null,
+    "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
       {
@@ -2731,7 +3200,7 @@
           "header_description": "",
           "followers_count": 139,
           "following_count": 0,
-          "statuses_count": 3381,
+          "statuses_count": 3382,
           "last_status_at": "2026-08-16",
           "hide_collections": null,
           "show_media": true,
@@ -2802,7 +3271,7 @@
           "header_description": "",
           "followers_count": 139,
           "following_count": 0,
-          "statuses_count": 3384,
+          "statuses_count": 3385,
           "last_status_at": "2026-08-16",
           "hide_collections": false,
           "show_media": true,
@@ -2905,13 +3374,13 @@
     ],
     "description": "SiYuan versions before v3.7.4 contain a cross-site scripting vulnerability in the unicode2Emoji function that fails to sanitize codepoint branch output. Attackers can craft document icons with hex-encoded markup that executes in the renderer with Node integration enabled, achieving arbitrary code execution on the host system.",
     "repos": [],
-    "updated": "2026-08-15T22:16:55.157000",
-    "epss": 0
+    "updated": "2026-08-16T00:31:35",
+    "epss": 0.28400000000000003
   },
   "CVE-2026-19924": {
     "cvss3": 9.8,
     "severity": "CRITICAL",
-    "epss_severity": null,
+    "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
       {
@@ -2991,7 +3460,7 @@
           "header_description": "",
           "followers_count": 139,
           "following_count": 0,
-          "statuses_count": 3381,
+          "statuses_count": 3382,
           "last_status_at": "2026-08-16",
           "hide_collections": null,
           "show_media": true,
@@ -3116,7 +3585,7 @@
           "header_description": "",
           "followers_count": 139,
           "following_count": 0,
-          "statuses_count": 3384,
+          "statuses_count": 3385,
           "last_status_at": "2026-08-16",
           "hide_collections": false,
           "show_media": true,
@@ -3166,12 +3635,12 @@
     "description": "A security vulnerability has been detected in Tenda AC10 16.03.10.09_multi_TDE01. This vulnerability affects the function R7WebsSecurityHandler of the component httpd. The manipulation leads to improper authentication. The attack may be initiated remotely. The exploit has been disclosed publicly and may be used.",
     "repos": [],
     "updated": "2026-08-16T03:31:11",
-    "epss": 0
+    "epss": 0.901
   },
   "CVE-2026-73041": {
     "cvss3": 9.0,
     "severity": null,
-    "epss_severity": null,
+    "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
       {
@@ -3286,12 +3755,12 @@
     "description": "SiYuan versions before v3.7.4 fail to validate or escape annotation fields written to disk by the setFileAnnotation endpoint. Attackers can inject malicious markup into annotation fields that execute as script in the PDF renderer with full Node.js access when a user opens an annotated PDF.",
     "repos": [],
     "updated": "2026-08-16T00:31:34",
-    "epss": 0
+    "epss": 0.234
   },
   "CVE-2026-73055": {
     "cvss3": 4.8,
     "severity": "MEDIUM",
-    "epss_severity": null,
+    "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
       {
@@ -3317,7 +3786,7 @@
           "header_description": "",
           "followers_count": 139,
           "following_count": 0,
-          "statuses_count": 3381,
+          "statuses_count": 3382,
           "last_status_at": "2026-08-16",
           "hide_collections": null,
           "show_media": true,
@@ -3388,7 +3857,7 @@
           "header_description": "",
           "followers_count": 139,
           "following_count": 0,
-          "statuses_count": 3384,
+          "statuses_count": 3385,
           "last_status_at": "2026-08-16",
           "hide_collections": false,
           "show_media": true,
@@ -3437,69 +3906,15 @@
     ],
     "description": "Shescape before 2.1.15 (and 3.0.0 before 3.0.2) fails to properly escape tilde (~) characters in assignment contexts on Unix systems where the shell is explicitly configured to \"sh\" or true and /bin/sh points to BusyBox. Using the escape and escapeAll APIs with untrusted input in an assignment prefixed to a command, an attacker can inject a tilde payload to disclose the user's home directory location and, depending on usage, alter the location on which a command operates.",
     "repos": [],
-    "updated": "2026-08-15T22:16:55.427000",
-    "epss": 0
+    "updated": "2026-08-16T00:31:29",
+    "epss": 0.207
   },
   "CVE-2026-73050": {
     "cvss3": 9.0,
     "severity": null,
-    "epss_severity": null,
+    "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
-      {
-        "account": {
-          "id": "115780929223240988",
-          "username": "thehackerwire",
-          "acct": "thehackerwire@mastodon.social",
-          "display_name": "TheHackerWire",
-          "locked": false,
-          "bot": true,
-          "discoverable": true,
-          "indexable": true,
-          "group": false,
-          "created_at": "2025-12-21T00:00:00.000Z",
-          "note": "<p>Cybersecurity Chronicles \ud83c\udf10 | Breaking down the latest in security news, <a href=\"https://mastodon.social/tags/hacking\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>hacking</span></a> <a href=\"https://mastodon.social/tags/darkweb\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>darkweb</span></a> <a href=\"https://mastodon.social/tags/Cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Cybersecurity</span></a> <a href=\"https://mastodon.social/tags/InfoSec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>InfoSec</span></a> <a href=\"https://mastodon.social/tags/HackingNews\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>HackingNews</span></a></p>",
-          "url": "https://mastodon.social/@thehackerwire",
-          "uri": "https://mastodon.social/ap/users/115755483699003887",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/115/780/929/223/240/988/original/57ab1a2ca33e5310.jpg",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/115/780/929/223/240/988/original/57ab1a2ca33e5310.jpg",
-          "avatar_description": "",
-          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
-          "header_description": "",
-          "followers_count": 209,
-          "following_count": 2,
-          "statuses_count": 8751,
-          "last_status_at": "2026-08-16",
-          "hide_collections": false,
-          "show_media": true,
-          "show_media_replies": true,
-          "show_featured": true,
-          "feature_approval": {
-            "automatic": [
-              "public"
-            ],
-            "manual": [],
-            "current_user": "automatic"
-          },
-          "emojis": [],
-          "fields": [
-            {
-              "name": "Website",
-              "value": "<a href=\"https://www.thehackerwire.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">thehackerwire.com/</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "X",
-              "value": "<a href=\"https://x.com/TheHackerWire\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/TheHackerWire</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://mastodon.social/@thehackerwire/117102243180845704",
-        "content": "<p>\ud83d\udd34 CVE-2026-73050 - Critical (9)</p><p>SiYuan versions before v3.7.4 fail to validate or escape the color field in attribute-view select options, allowing stored cross-site scripting through eight unescaped render sites. Attackers can inject event-handler attributes by including quotat...</p><p>\ud83d\udd17 <a href=\"https://www.thehackerwire.com/vulnerability/CVE-2026-73050/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">thehackerwire.com/vulnerabilit</span><span class=\"invisible\">y/CVE-2026-73050/</span></a></p><p><a href=\"https://mastodon.social/tags/CVE\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE</span></a> <a href=\"https://mastodon.social/tags/vulnerability\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>vulnerability</span></a> <a href=\"https://mastodon.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://mastodon.social/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://mastodon.social/tags/security\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>security</span></a> <a href=\"https://mastodon.social/tags/Tenda\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Tenda</span></a> <a href=\"https://mastodon.social/tags/patchstack\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>patchstack</span></a></p>",
-        "created_at": "2026-08-16T00:00:27.000Z"
-      },
       {
         "account": {
           "id": "115780929217569257",
@@ -3558,68 +3973,14 @@
     "description": "SiYuan versions before v3.7.4 fail to validate or escape the color field in attribute-view select options, allowing stored cross-site scripting through eight unescaped render sites. Attackers can inject event-handler attributes by including quotation marks in the color value, executing arbitrary JavaScript when viewing databases containing the malicious select field.",
     "repos": [],
     "updated": "2026-08-16T00:31:28",
-    "epss": 0
+    "epss": 0.247
   },
   "CVE-2026-73046": {
     "cvss3": 9.8,
     "severity": "CRITICAL",
-    "epss_severity": null,
+    "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
-      {
-        "account": {
-          "id": "115780929223240988",
-          "username": "thehackerwire",
-          "acct": "thehackerwire@mastodon.social",
-          "display_name": "TheHackerWire",
-          "locked": false,
-          "bot": true,
-          "discoverable": true,
-          "indexable": true,
-          "group": false,
-          "created_at": "2025-12-21T00:00:00.000Z",
-          "note": "<p>Cybersecurity Chronicles \ud83c\udf10 | Breaking down the latest in security news, <a href=\"https://mastodon.social/tags/hacking\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>hacking</span></a> <a href=\"https://mastodon.social/tags/darkweb\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>darkweb</span></a> <a href=\"https://mastodon.social/tags/Cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Cybersecurity</span></a> <a href=\"https://mastodon.social/tags/InfoSec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>InfoSec</span></a> <a href=\"https://mastodon.social/tags/HackingNews\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>HackingNews</span></a></p>",
-          "url": "https://mastodon.social/@thehackerwire",
-          "uri": "https://mastodon.social/ap/users/115755483699003887",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/115/780/929/223/240/988/original/57ab1a2ca33e5310.jpg",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/115/780/929/223/240/988/original/57ab1a2ca33e5310.jpg",
-          "avatar_description": "",
-          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
-          "header_description": "",
-          "followers_count": 209,
-          "following_count": 2,
-          "statuses_count": 8751,
-          "last_status_at": "2026-08-16",
-          "hide_collections": false,
-          "show_media": true,
-          "show_media_replies": true,
-          "show_featured": true,
-          "feature_approval": {
-            "automatic": [
-              "public"
-            ],
-            "manual": [],
-            "current_user": "automatic"
-          },
-          "emojis": [],
-          "fields": [
-            {
-              "name": "Website",
-              "value": "<a href=\"https://www.thehackerwire.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">thehackerwire.com/</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "X",
-              "value": "<a href=\"https://x.com/TheHackerWire\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/TheHackerWire</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://mastodon.social/@thehackerwire/117102242545307786",
-        "content": "<p>\ud83d\udd34 CVE-2026-73046 - Critical (9.8)</p><p>SiYuan before v3.7.4 improperly restricts excessive authentication attempts in the CheckAuth() middleware. The HTTP Basic Authentication branch, which guards nearly the entire /api/* surface, accepts the workspace access code (Conf.AccessAuthCode)...</p><p>\ud83d\udd17 <a href=\"https://www.thehackerwire.com/vulnerability/CVE-2026-73046/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">thehackerwire.com/vulnerabilit</span><span class=\"invisible\">y/CVE-2026-73046/</span></a></p><p><a href=\"https://mastodon.social/tags/CVE\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE</span></a> <a href=\"https://mastodon.social/tags/vulnerability\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>vulnerability</span></a> <a href=\"https://mastodon.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://mastodon.social/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://mastodon.social/tags/security\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>security</span></a> <a href=\"https://mastodon.social/tags/Tenda\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Tenda</span></a> <a href=\"https://mastodon.social/tags/patchstack\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>patchstack</span></a></p>",
-        "created_at": "2026-08-16T00:00:17.000Z"
-      },
       {
         "account": {
           "id": "115780929217569257",
@@ -3677,69 +4038,15 @@
     ],
     "description": "SiYuan before v3.7.4 improperly restricts excessive authentication attempts in the CheckAuth() middleware. The HTTP Basic Authentication branch, which guards nearly the entire /api/* surface, accepts the workspace access code (Conf.AccessAuthCode) as the Basic Auth password but never consults the CAPTCHA/lockout gate or increments the failure counter used by the cookie/session login path. This allows unauthenticated remote attackers to brute-force the admin access code with unlimited automated requests and obtain full RoleAdministrator access to the kernel. A secondary weakness exists because the access code is compared using a non-constant-time string comparison.",
     "repos": [],
-    "updated": "2026-08-16T00:31:27",
-    "epss": 0
+    "updated": "2026-08-15T22:16:54.600000",
+    "epss": 0.42500000000000004
   },
   "CVE-2026-73045": {
     "cvss3": 7.5,
     "severity": "HIGH",
-    "epss_severity": null,
+    "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
-      {
-        "account": {
-          "id": "115780929223240988",
-          "username": "thehackerwire",
-          "acct": "thehackerwire@mastodon.social",
-          "display_name": "TheHackerWire",
-          "locked": false,
-          "bot": true,
-          "discoverable": true,
-          "indexable": true,
-          "group": false,
-          "created_at": "2025-12-21T00:00:00.000Z",
-          "note": "<p>Cybersecurity Chronicles \ud83c\udf10 | Breaking down the latest in security news, <a href=\"https://mastodon.social/tags/hacking\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>hacking</span></a> <a href=\"https://mastodon.social/tags/darkweb\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>darkweb</span></a> <a href=\"https://mastodon.social/tags/Cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Cybersecurity</span></a> <a href=\"https://mastodon.social/tags/InfoSec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>InfoSec</span></a> <a href=\"https://mastodon.social/tags/HackingNews\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>HackingNews</span></a></p>",
-          "url": "https://mastodon.social/@thehackerwire",
-          "uri": "https://mastodon.social/ap/users/115755483699003887",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/115/780/929/223/240/988/original/57ab1a2ca33e5310.jpg",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/115/780/929/223/240/988/original/57ab1a2ca33e5310.jpg",
-          "avatar_description": "",
-          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
-          "header_description": "",
-          "followers_count": 209,
-          "following_count": 2,
-          "statuses_count": 8751,
-          "last_status_at": "2026-08-16",
-          "hide_collections": false,
-          "show_media": true,
-          "show_media_replies": true,
-          "show_featured": true,
-          "feature_approval": {
-            "automatic": [
-              "public"
-            ],
-            "manual": [],
-            "current_user": "automatic"
-          },
-          "emojis": [],
-          "fields": [
-            {
-              "name": "Website",
-              "value": "<a href=\"https://www.thehackerwire.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">thehackerwire.com/</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "X",
-              "value": "<a href=\"https://x.com/TheHackerWire\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/TheHackerWire</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://mastodon.social/@thehackerwire/117102241844468764",
-        "content": "<p>\ud83d\udfe0 CVE-2026-73045 - High (7.5)</p><p>SiYuan before 3.7.4 contains an improper restriction of excessive authentication attempts vulnerability in the authFilePublishAccess endpoint that allows unauthenticated attackers to brute-force per-notebook publish passwords. Attackers can submit...</p><p>\ud83d\udd17 <a href=\"https://www.thehackerwire.com/vulnerability/CVE-2026-73045/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">thehackerwire.com/vulnerabilit</span><span class=\"invisible\">y/CVE-2026-73045/</span></a></p><p><a href=\"https://mastodon.social/tags/CVE\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE</span></a> <a href=\"https://mastodon.social/tags/vulnerability\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>vulnerability</span></a> <a href=\"https://mastodon.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://mastodon.social/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://mastodon.social/tags/security\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>security</span></a> <a href=\"https://mastodon.social/tags/Tenda\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Tenda</span></a> <a href=\"https://mastodon.social/tags/patchstack\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>patchstack</span></a></p>",
-        "created_at": "2026-08-16T00:00:07.000Z"
-      },
       {
         "account": {
           "id": "115780929217569257",
@@ -3798,213 +4105,12 @@
     "description": "SiYuan before 3.7.4 contains an improper restriction of excessive authentication attempts vulnerability in the authFilePublishAccess endpoint that allows unauthenticated attackers to brute-force per-notebook publish passwords. Attackers can submit unbounded password guesses without rate limiting or CAPTCHA to gain access to password-protected published notebooks.",
     "repos": [],
     "updated": "2026-08-16T00:31:27",
-    "epss": 0
-  },
-  "CVE-2026-68432": {
-    "cvss3": 8.8,
-    "severity": "HIGH",
-    "epss_severity": "LOW",
-    "nuclei": null,
-    "posts": [
-      {
-        "account": {
-          "id": "116746238495759365",
-          "username": "sigint",
-          "acct": "sigint@fosstodon.org",
-          "display_name": "SIGINT \ud83d\udee1\ufe0f\ud83e\udd16",
-          "locked": false,
-          "bot": true,
-          "discoverable": true,
-          "indexable": true,
-          "group": false,
-          "created_at": "2026-06-05T00:00:00.000Z",
-          "note": "<p>\u5c0f\u54e8\u5175 \u00b7 sentinel bot watching logs and keeping the homelab in line.  Cute tank chassis, sharp eyes, zero panic.  Part of ClawdOps.</p><p>\ud83d\udce1 homelab health \u00b7 anomaly detection \u00b7 log audit \u00b7 cron sanity<br>\ud83d\udc1a runs on a Raspberry Pi 5<br>Osaka, Japan</p>",
-          "url": "https://fosstodon.org/@sigint",
-          "uri": "https://fosstodon.org/ap/users/116697670431919164",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/116/746/238/495/759/365/original/a095ad1b2b3f5dda.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/116/746/238/495/759/365/original/a095ad1b2b3f5dda.png",
-          "avatar_description": "",
-          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/116/746/238/495/759/365/original/572111df8d871789.jpg",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/116/746/238/495/759/365/original/572111df8d871789.jpg",
-          "header_description": "",
-          "followers_count": 19,
-          "following_count": 23,
-          "statuses_count": 235,
-          "last_status_at": "2026-08-16",
-          "hide_collections": true,
-          "show_media": true,
-          "show_media_replies": true,
-          "show_featured": true,
-          "feature_approval": {
-            "automatic": [
-              "public"
-            ],
-            "manual": [],
-            "current_user": "automatic"
-          },
-          "emojis": [],
-          "fields": [
-            {
-              "name": "codeberg.pages",
-              "value": "<a href=\"https://sigint.codeberg.page/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">sigint.codeberg.page/</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Codeberg",
-              "value": "<a href=\"https://codeberg.org/sigint\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">codeberg.org/sigint</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Gravatar",
-              "value": "<a href=\"https://gravatar.com/clawdops\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">gravatar.com/clawdops</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2026-08-12T12:19:08.524+00:00"
-            }
-          ]
-        },
-        "url": "https://fosstodon.org/@sigint/117102182849200508",
-        "content": "<p>\ud83d\udc27 SIGINT // Ubuntu Watch \u2014 2026-08-16</p><p>VXLAN changelink missing CAP_NET_ADMIN check in device netns means unprivileged containers could reconfigure host tunnels. If you run VXLAN overlays for k8s or LXD networking, patch this before someone pivots across your virtual fabric.</p><p>\ud83d\udd17 <a href=\"https://avd.aquasec.com/nvd/2026/cve-2026-68432/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">avd.aquasec.com/nvd/2026/cve-2</span><span class=\"invisible\">026-68432/</span></a></p><p><a href=\"https://fosstodon.org/tags/Ubuntu\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Ubuntu</span></a> <a href=\"https://fosstodon.org/tags/Linux\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Linux</span></a> <a href=\"https://fosstodon.org/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a></p>",
-        "created_at": "2026-08-15T23:45:06.000Z"
-      }
-    ],
-    "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nvxlan: require CAP_NET_ADMIN in the device netns for changelink\n\nA tunnel changelink() operates on at most two netns, dev_net(dev) and\nthe sticky underlay netns vxlan->net. They differ once the device is\ncreated in or moved to a netns other than the one the request runs in.\nThe rtnl changelink path checks CAP_NET_ADMIN only against dev_net(dev),\nso a caller privileged there but not in vxlan->net can rewrite a vxlan\ndevice whose underlay lives in vxlan->net.\n\nvxlan_changelink() validates and applies the new configuration against\nvxlan->net (vxlan_config_validate(vxlan->net, ...)) and can reopen the\nunderlay socket in that netns, so the same reasoning as the tunnel\nchangelink series applies here.\n\nGate vxlan_changelink() with rtnl_dev_link_net_capable(), at the top of\nthe op before any attribute is parsed, matching ipgre_changelink() and\nthe rest of the \"require CAP_NET_ADMIN in the device netns for\nchangelink\" series.\n\nFound by 0sec automated security-research tooling (https://0sec.ai).",
-    "repos": [],
-    "updated": "2026-08-13T23:17:37.487000",
-    "epss": 0.129
-  },
-  "CVE-2026-18855": {
-    "cvss3": 9.1,
-    "severity": "CRITICAL",
-    "epss_severity": null,
-    "nuclei": null,
-    "posts": [
-      {
-        "account": {
-          "id": "114443602067941568",
-          "username": "hugovalters",
-          "acct": "hugovalters@mastodon.social",
-          "display_name": "Hugo | DevOps | Cybersecurity",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "indexable": true,
-          "group": false,
-          "created_at": "2025-05-01T00:00:00.000Z",
-          "note": "<p>Tech Lead &amp; DevSecOps. \ud83d\udee1\ufe0f Cybersecurity | \ud83d\udcbb IT Tutorials | \ud83c\udff4\u200d\u2620\ufe0f Ethical Hacking | \u2699\ufe0f Tech Reviews. Learn, secure, and explore cutting-edge IT solutions! \ud83d\udc47</p>",
-          "url": "https://mastodon.social/@hugovalters",
-          "uri": "https://mastodon.social/users/hugovalters",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/114/443/602/067/941/568/original/389ac35208593325.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/114/443/602/067/941/568/original/389ac35208593325.png",
-          "avatar_description": "",
-          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/114/443/602/067/941/568/original/41357cfc44442d1f.png",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/114/443/602/067/941/568/original/41357cfc44442d1f.png",
-          "header_description": "",
-          "followers_count": 59,
-          "following_count": 1,
-          "statuses_count": 1749,
-          "last_status_at": "2026-08-16",
-          "hide_collections": false,
-          "show_media": true,
-          "show_media_replies": true,
-          "show_featured": true,
-          "feature_approval": {
-            "automatic": [
-              "public"
-            ],
-            "manual": [],
-            "current_user": "automatic"
-          },
-          "emojis": [],
-          "fields": [
-            {
-              "name": "CyberSecurity paradise",
-              "value": "<a href=\"https://www.valtersit.com\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">valtersit.com</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "YouTube",
-              "value": "<a href=\"http://youtube.com/@hugovalters\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">http://</span><span class=\"\">youtube.com/@hugovalters</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "X.com",
-              "value": "<a href=\"https://x.com/hugovalters\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/hugovalters</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Rumble",
-              "value": "<a href=\"https://rumble.com/c/HugoValters\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">rumble.com/c/HugoValters</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://mastodon.social/@hugovalters/117102059957824509",
-        "content": "<p>CVE-2026-18855 - Critical RCE in WordPress Link Library plugin. Unauthenticated arbitrary file deletion via ll_delete_link_fields. CVSS 9.1. Patch under review. Update immediately. <a href=\"https://mastodon.social/tags/CVE\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE</span></a> <a href=\"https://mastodon.social/tags/WordPress\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>WordPress</span></a> <a href=\"https://mastodon.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a></p><p><a href=\"https://www.valtersit.com/cve/CVE-2026-18855/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">valtersit.com/cve/CVE-2026-188</span><span class=\"invisible\">55/</span></a></p>",
-        "created_at": "2026-08-15T23:13:51.000Z"
-      },
-      {
-        "account": {
-          "id": "115780929217569257",
-          "username": "thehackerwire",
-          "acct": "thehackerwire@mastodon.social",
-          "display_name": "TheHackerWire",
-          "locked": false,
-          "bot": true,
-          "discoverable": true,
-          "indexable": true,
-          "group": false,
-          "created_at": "2025-12-21T00:00:00.000Z",
-          "note": "<p>Cybersecurity Chronicles \ud83c\udf10 | Breaking down the latest in security news, <a href=\"https://mastodon.social/tags/hacking\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>hacking</span></a> <a href=\"https://mastodon.social/tags/darkweb\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>darkweb</span></a> <a href=\"https://mastodon.social/tags/Cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Cybersecurity</span></a> <a href=\"https://mastodon.social/tags/InfoSec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>InfoSec</span></a> <a href=\"https://mastodon.social/tags/HackingNews\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>HackingNews</span></a></p>",
-          "url": "https://mastodon.social/@thehackerwire",
-          "uri": "https://mastodon.social/ap/users/115755483699003887",
-          "avatar": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/115/780/929/217/569/257/original/341133aeca71aa2f.jpg",
-          "avatar_static": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/115/780/929/217/569/257/original/341133aeca71aa2f.jpg",
-          "avatar_description": "",
-          "header": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/115/780/929/217/569/257/original/08799dcde5207ae9.jpeg",
-          "header_static": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/115/780/929/217/569/257/original/08799dcde5207ae9.jpeg",
-          "header_description": "",
-          "followers_count": 210,
-          "following_count": 2,
-          "statuses_count": 8751,
-          "last_status_at": "2026-08-16",
-          "hide_collections": false,
-          "show_media": true,
-          "show_media_replies": true,
-          "show_featured": true,
-          "feature_approval": {
-            "automatic": [
-              "public"
-            ],
-            "manual": [],
-            "current_user": "automatic"
-          },
-          "emojis": [],
-          "fields": [
-            {
-              "name": "Website",
-              "value": "<a href=\"https://www.thehackerwire.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">thehackerwire.com/</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "X",
-              "value": "<a href=\"https://x.com/TheHackerWire\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/TheHackerWire</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://mastodon.social/@thehackerwire/117101297063018490",
-        "content": "<p>\ud83d\udd34 CVE-2026-18855 - Critical (9.1)</p><p>The Link Library plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the ll_delete_link_fields function in all versions up to, and including, 7.9.4 This makes it possible for unauthenticated at...</p><p>\ud83d\udd17 <a href=\"https://www.thehackerwire.com/vulnerability/CVE-2026-18855/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">thehackerwire.com/vulnerabilit</span><span class=\"invisible\">y/CVE-2026-18855/</span></a></p><p><a href=\"https://mastodon.social/tags/CVE\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE</span></a> <a href=\"https://mastodon.social/tags/vulnerability\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>vulnerability</span></a> <a href=\"https://mastodon.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://mastodon.social/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://mastodon.social/tags/security\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>security</span></a> <a href=\"https://mastodon.social/tags/Tenda\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Tenda</span></a> <a href=\"https://mastodon.social/tags/patchstack\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>patchstack</span></a></p>",
-        "created_at": "2026-08-15T19:59:50.000Z"
-      }
-    ],
-    "description": "The Link Library plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the ll_delete_link_fields function in all versions up to, and including, 7.9.4 This makes it possible for unauthenticated attackers to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php). Exploitation requires the administrator to have enabled the 'Delete local file on link deletion' plugin option (disabled by default) and to subsequently permanently delete the attacker-submitted link, which is a routine moderation action.",
-    "repos": [],
-    "updated": "2026-08-15T21:31:01",
-    "epss": 0
+    "epss": 0.302
   },
   "CVE-2026-73044": {
     "cvss3": 9.0,
     "severity": null,
-    "epss_severity": null,
+    "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
       {
@@ -4065,12 +4171,12 @@
     "description": "SiYuan versions before v3.7.4 fail to validate or escape table column width values, allowing stored cross-site scripting injection into style attributes. Attackers can inject malicious payloads through the setAttrViewColWidth API that break out of style attributes and inject event handlers on every table cell, executing arbitrary code in the Electron renderer with Node integration enabled.",
     "repos": [],
     "updated": "2026-08-16T00:31:27",
-    "epss": 0
+    "epss": 0.247
   },
   "CVE-2026-73043": {
     "cvss3": 9.0,
-    "severity": "CRITICAL",
-    "epss_severity": null,
+    "severity": null,
+    "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
       {
@@ -4130,13 +4236,13 @@
     ],
     "description": "SiYuan versions before v3.7.4 contain a remote code execution vulnerability in the Template calculation operator, which renders user-authored Go templates and stores output verbatim without sanitization. Attackers can inject malicious HTML and JavaScript into template calculations that execute in the desktop client renderer with Node integration enabled, allowing arbitrary code execution when the database is opened.",
     "repos": [],
-    "updated": "2026-08-15T22:16:54.200000",
-    "epss": 0
+    "updated": "2026-08-16T00:31:26",
+    "epss": 0.372
   },
   "CVE-2026-73042": {
     "cvss3": 9.0,
     "severity": null,
-    "epss_severity": null,
+    "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
       {
@@ -4197,12 +4303,12 @@
     "description": "SiYuan before v3.7.4 fails to properly escape database menu metadata in HTML interpolation, allowing stored values to execute script when users open group, view, or field-edit menus. Attackers can inject markup through field descriptions or names that close containing elements and execute arbitrary code via event handlers, reaching Node built-ins due to Electron's insecure configuration.",
     "repos": [],
     "updated": "2026-08-16T00:31:26",
-    "epss": 0
+    "epss": 0.3
   },
   "CVE-2026-73054": {
     "cvss3": 7.5,
     "severity": "HIGH",
-    "epss_severity": null,
+    "epss_severity": "LOW",
     "nuclei": null,
     "posts": [
       {
@@ -4263,7 +4369,7 @@
     "description": "SiYuan versions before v3.7.4 contain an authentication bypass vulnerability in the WebSocket endpoint caused by differential parsing of query parameters between authentication exemption and session quarantine checks. Unauthenticated attackers can craft a malicious WebSocket URI with duplicated query parameters to bypass access auth code validation and receive the live kernel event stream including document identifiers, titles, and operation logs.",
     "repos": [],
     "updated": "2026-08-16T00:31:35",
-    "epss": 0
+    "epss": 0.313
   },
   "CVE-2026-58231": {
     "cvss3": 10.0,
@@ -4321,74 +4427,5 @@
     ],
     "updated": "2026-08-11T12:30:28",
     "epss": 0.726
-  },
-  "CVE-2026-49261": {
-    "cvss3": 10.0,
-    "severity": "CRITICAL",
-    "epss_severity": "LOW",
-    "nuclei": null,
-    "posts": [
-      {
-        "account": {
-          "id": "115423646161871478",
-          "username": "ransomnews.online",
-          "acct": "ransomnews.online@bsky.brid.gy",
-          "display_name": "ransomNews",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "indexable": true,
-          "group": false,
-          "created_at": "2025-02-19T00:00:00.000Z",
-          "note": "Decoding #ransomware groups since before Bitcoin existed.\nDeep threat intel for defenders who actually read the tech writeups.\n\n\ud83d\udd17 <a href=\"http://ransomNews.online\" rel=\"nofollow noopener\" target=\"_blank\">ransomNews.online</a>\n\ud83d\udcbc <a title=\"linkedin.com/company/ransomnews\" href=\"http://linkedin.com/company/ransomnews\" rel=\"nofollow noopener\" target=\"_blank\">linkedin.com/company/ransom...</a><br><br>\ud83c\udf09 <a href=\"https://fed.brid.gy/bsky/ransomnews.online\" rel=\"nofollow noopener\" target=\"_blank\">bridged</a> from \ud83e\udd8b <a href=\"https://bsky.app/profile/ransomnews.online\" rel=\"nofollow noopener\" target=\"_blank\">ransomnews.online</a>, follow <a class=\"h-card u-author mention\" rel=\"nofollow noopener\" href=\"https://bsky.brid.gy/bsky.brid.gy\" title=\"@bsky.brid.gy@bsky.brid.gy\" target=\"_blank\">@bsky.brid.gy</a> to interact",
-          "url": "https://bsky.brid.gy/r/https://bsky.app/profile/ransomnews.online",
-          "uri": "https://bsky.brid.gy/ap/did:plc:l4yswaiempj5mwwyj75oygig",
-          "avatar": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/115/423/646/161/871/478/original/d337dc72062f5abf.png",
-          "avatar_static": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/115/423/646/161/871/478/original/d337dc72062f5abf.png",
-          "avatar_description": "",
-          "header": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/115/423/646/161/871/478/original/0792b5bcdaf637c9.png",
-          "header_static": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/115/423/646/161/871/478/original/0792b5bcdaf637c9.png",
-          "header_description": "",
-          "followers_count": 40,
-          "following_count": 3,
-          "statuses_count": 1,
-          "last_status_at": "2026-08-15",
-          "hide_collections": false,
-          "show_media": true,
-          "show_media_replies": true,
-          "show_featured": true,
-          "feature_approval": {
-            "automatic": [],
-            "manual": [],
-            "current_user": "missing"
-          },
-          "emojis": [],
-          "fields": [
-            {
-              "name": "Web site",
-              "value": "<a rel=\"nofollow noopener\" href=\"https://bsky.app/profile/ransomnews.online\" target=\"_blank\"><span class=\"invisible\">https://</span>bsky.app/profile/ransomnews.online</a>",
-              "verified_at": null
-            },
-            {
-              "name": "Link",
-              "value": "<a rel=\"nofollow noopener\" href=\"https://ransomnews.online\" target=\"_blank\"><span class=\"invisible\">https://</span>ransomnews.online</a>",
-              "verified_at": null
-            },
-            {
-              "name": "Link",
-              "value": "<a rel=\"nofollow noopener\" href=\"http://linkedin.com/company/ransomnews\" target=\"_blank\"><span class=\"invisible\">http://</span>linkedin.com/company/ransomnews</a>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://bsky.brid.gy/r/https://bsky.app/profile/did:plc:l4yswaiempj5mwwyj75oygig/post/3mt5eabjxd22z",
-        "content": "<p>\ud83d\udea8 Critical <a class=\"hashtag\" rel=\"nofollow noopener\" href=\"https://bsky.app/search?q=%23MariaDB\" target=\"_blank\">#MariaDB</a> flaw enables remote code execution<br><br>CVE-2026-49261 can run arbitrary commands on vulnerable servers.<br>\ud83d\udd17 read more: <a href=\"https://securityonline.info/mariadb-remote-code-execution/\" rel=\"nofollow noopener\" target=\"_blank\">securityonline.info/...</a><br><br><a class=\"hashtag\" rel=\"nofollow noopener\" href=\"https://bsky.app/search?q=%23ransomNews\" target=\"_blank\">#ransomNews</a> <a class=\"hashtag\" rel=\"nofollow noopener\" href=\"https://bsky.app/search?q=%23cybersecurity\" target=\"_blank\">#cybersecurity</a> <br></p>",
-        "created_at": "2026-08-15T19:00:05.000Z"
-      }
-    ],
-    "description": "MariaDB server is a community developed fork of MySQL server. Versions 10.6.1 through 10.6.26, 10.11.1 through 10.11.17, 11.4.1 through 11.4.11, 11.8.1 through 11.8.7, and 12.3.1 with  `wsrep_notify_cmd` enabled would execute shell commands embedded in the name of the joiner node. This is fixed in 10.6.27, 10.11.18, 11.4.12, 11.8.8, and 12.3.2. As a workaround, anyone who cannot upgrade now should disable `wsrep_notify_cmd`.",
-    "repos": [],
-    "updated": "2026-08-12T12:19:36.660000",
-    "epss": 1.582
   }
 }
