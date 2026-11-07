@@ -1,4 +1,1808 @@
 {
+  "CVE-2026-1242": {
+    "cvss3": 4.3,
+    "severity": "MEDIUM",
+    "epss_severity": "LOW",
+    "nuclei": null,
+    "posts": [
+      {
+        "account": {
+          "id": "114443602067941568",
+          "username": "hugovalters",
+          "acct": "hugovalters@mastodon.social",
+          "display_name": "Hugo | DevOps | Cybersecurity",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-05-01T00:00:00.000Z",
+          "note": "<p>Tech Lead &amp; DevSecOps. \ud83d\udee1\ufe0f Cybersecurity | \ud83d\udcbb IT Tutorials | \ud83c\udff4\u200d\u2620\ufe0f Ethical Hacking | \u2699\ufe0f Tech Reviews. Learn, secure, and explore cutting-edge IT solutions! \ud83d\udc47</p>",
+          "url": "https://mastodon.social/@hugovalters",
+          "uri": "https://mastodon.social/users/hugovalters",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/114/443/602/067/941/568/original/389ac35208593325.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/114/443/602/067/941/568/original/389ac35208593325.png",
+          "avatar_description": "",
+          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/114/443/602/067/941/568/original/41357cfc44442d1f.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/114/443/602/067/941/568/original/41357cfc44442d1f.png",
+          "header_description": "",
+          "followers_count": 158,
+          "following_count": 4,
+          "statuses_count": 7788,
+          "last_status_at": "2026-11-07",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "fields": [
+            {
+              "name": "CyberSecurity paradise",
+              "value": "<a href=\"https://www.valtersit.com\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">valtersit.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2026-11-07T15:09:28.662+00:00"
+            },
+            {
+              "name": "YouTube",
+              "value": "<a href=\"http://youtube.com/@hugovalters\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">http://</span><span class=\"\">youtube.com/@hugovalters</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "X.com",
+              "value": "<a href=\"https://x.com/hugovalters\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/hugovalters</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "About ValtersIT.com",
+              "value": "<a href=\"https://www.valtersit.com/about/\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">valtersit.com/about/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2026-11-07T15:09:29.463+00:00"
+            }
+          ]
+        },
+        "url": "https://mastodon.social/@hugovalters/117577207041416222",
+        "content": "<p>CVE-2026-1242 BlockSpare WordPress plugin authorization bypass (CVSS 4.3): an &amp;&amp; vs || logic flaw lets Subscriber-level users create arbitrary posts. Unpatched. Restrict plugin access now. <a href=\"https://mastodon.social/tags/CVE\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE</span></a> <a href=\"https://mastodon.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://mastodon.social/tags/WordPress\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>WordPress</span></a> <a href=\"https://www.valtersit.com/cve/CVE-2026-1242/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">valtersit.com/cve/CVE-2026-124</span><span class=\"invisible\">2/</span></a></p>",
+        "created_at": "2026-11-07T21:10:00.000Z"
+      },
+      {
+        "account": {
+          "id": "114443601340574741",
+          "username": "hugovalters",
+          "acct": "hugovalters@mastodon.social",
+          "display_name": "Hugo | DevOps | Cybersecurity",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-05-01T00:00:00.000Z",
+          "note": "<p>Tech Lead &amp; DevSecOps. \ud83d\udee1\ufe0f Cybersecurity | \ud83d\udcbb IT Tutorials | \ud83c\udff4\u200d\u2620\ufe0f Ethical Hacking | \u2699\ufe0f Tech Reviews. Learn, secure, and explore cutting-edge IT solutions! \ud83d\udc47</p>",
+          "url": "https://mastodon.social/@hugovalters",
+          "uri": "https://mastodon.social/users/hugovalters",
+          "avatar": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/114/443/601/340/574/741/original/bf774d31505f3165.png",
+          "avatar_static": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/114/443/601/340/574/741/original/bf774d31505f3165.png",
+          "avatar_description": "",
+          "header": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/114/443/601/340/574/741/original/c8b02587ea87ba86.png",
+          "header_static": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/114/443/601/340/574/741/original/c8b02587ea87ba86.png",
+          "header_description": "",
+          "followers_count": 158,
+          "following_count": 4,
+          "statuses_count": 7743,
+          "last_status_at": "2026-11-07",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "fields": [
+            {
+              "name": "CyberSecurity paradise",
+              "value": "<a href=\"https://www.valtersit.com\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">valtersit.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2026-11-07T09:09:41.967+00:00"
+            },
+            {
+              "name": "YouTube",
+              "value": "<a href=\"http://youtube.com/@hugovalters\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">http://</span><span class=\"\">youtube.com/@hugovalters</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "X.com",
+              "value": "<a href=\"https://x.com/hugovalters\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/hugovalters</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "About ValtersIT.com",
+              "value": "<a href=\"https://www.valtersit.com/about/\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">valtersit.com/about/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2026-11-07T09:09:42.607+00:00"
+            }
+          ]
+        },
+        "url": "https://mastodon.social/@hugovalters/117577207041416222",
+        "content": "<p>CVE-2026-1242 BlockSpare WordPress plugin authorization bypass (CVSS 4.3): an &amp;&amp; vs || logic flaw lets Subscriber-level users create arbitrary posts. Unpatched. Restrict plugin access now. <a href=\"https://mastodon.social/tags/CVE\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE</span></a> <a href=\"https://mastodon.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://mastodon.social/tags/WordPress\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>WordPress</span></a> <a href=\"https://www.valtersit.com/cve/CVE-2026-1242/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">valtersit.com/cve/CVE-2026-124</span><span class=\"invisible\">2/</span></a></p>",
+        "created_at": "2026-11-07T21:10:00.000Z"
+      }
+    ],
+    "description": "The BlockSpare plugin for WordPress is vulnerable to authorization bypass due to incorrect logic in the permission callback in all versions up to, and including, 4.2.6 due to the use of an AND (&&) operator instead of an OR (||) operator. This makes it possible for authenticated attackers, with Subscriber-level access and above, to bypass authorization checks and create arbitrary posts.",
+    "repos": [],
+    "updated": "2026-09-21T13:33:33.387000",
+    "epss": 0.295
+  },
+  "CVE-2026-104768": {
+    "cvss3": 7.5,
+    "severity": "HIGH",
+    "epss_severity": null,
+    "nuclei": null,
+    "posts": [
+      {
+        "account": {
+          "id": "115780929223240988",
+          "username": "thehackerwire",
+          "acct": "thehackerwire@mastodon.social",
+          "display_name": "TheHackerWire",
+          "locked": false,
+          "bot": true,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-12-21T00:00:00.000Z",
+          "note": "<p>Cybersecurity Chronicles \ud83c\udf10 | Breaking down the latest in security news, <a href=\"https://mastodon.social/tags/hacking\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>hacking</span></a> <a href=\"https://mastodon.social/tags/darkweb\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>darkweb</span></a> <a href=\"https://mastodon.social/tags/Cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Cybersecurity</span></a> <a href=\"https://mastodon.social/tags/InfoSec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>InfoSec</span></a> <a href=\"https://mastodon.social/tags/HackingNews\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>HackingNews</span></a></p>",
+          "url": "https://mastodon.social/@thehackerwire",
+          "uri": "https://mastodon.social/ap/users/115755483699003887",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/115/780/929/223/240/988/original/57ab1a2ca33e5310.jpg",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/115/780/929/223/240/988/original/57ab1a2ca33e5310.jpg",
+          "avatar_description": "",
+          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
+          "header_description": "",
+          "followers_count": 262,
+          "following_count": 2,
+          "statuses_count": 11503,
+          "last_status_at": "2026-11-07",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://www.thehackerwire.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">thehackerwire.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "X",
+              "value": "<a href=\"https://x.com/TheHackerWire\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/TheHackerWire</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://mastodon.social/@thehackerwire/117577174182083551",
+        "content": "<p>\ud83d\udfe0 CVE-2026-104768 - High (7.5)</p><p>The AutomatorWP \u2013 No-Code Workflow Automation, Integration &amp; Webhooks Plugin, now with AI plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 6.0.4. This is due to missing privilege-ceiling validation...</p><p>\ud83d\udd17 <a href=\"https://www.thehackerwire.com/vulnerability/CVE-2026-104768/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">thehackerwire.com/vulnerabilit</span><span class=\"invisible\">y/CVE-2026-104768/</span></a></p><p><a href=\"https://mastodon.social/tags/CVE\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE</span></a> <a href=\"https://mastodon.social/tags/vulnerability\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>vulnerability</span></a> <a href=\"https://mastodon.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://mastodon.social/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://mastodon.social/tags/security\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>security</span></a> <a href=\"https://mastodon.social/tags/Tenda\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Tenda</span></a> <a href=\"https://mastodon.social/tags/patchstack\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>patchstack</span></a></p>",
+        "created_at": "2026-11-07T21:01:39.000Z"
+      },
+      {
+        "account": {
+          "id": "115780929217569257",
+          "username": "thehackerwire",
+          "acct": "thehackerwire@mastodon.social",
+          "display_name": "TheHackerWire",
+          "locked": false,
+          "bot": true,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-12-21T00:00:00.000Z",
+          "note": "<p>Cybersecurity Chronicles \ud83c\udf10 | Breaking down the latest in security news, <a href=\"https://mastodon.social/tags/hacking\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>hacking</span></a> <a href=\"https://mastodon.social/tags/darkweb\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>darkweb</span></a> <a href=\"https://mastodon.social/tags/Cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Cybersecurity</span></a> <a href=\"https://mastodon.social/tags/InfoSec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>InfoSec</span></a> <a href=\"https://mastodon.social/tags/HackingNews\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>HackingNews</span></a></p>",
+          "url": "https://mastodon.social/@thehackerwire",
+          "uri": "https://mastodon.social/ap/users/115755483699003887",
+          "avatar": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/115/780/929/217/569/257/original/341133aeca71aa2f.jpg",
+          "avatar_static": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/115/780/929/217/569/257/original/341133aeca71aa2f.jpg",
+          "avatar_description": "",
+          "header": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/115/780/929/217/569/257/original/08799dcde5207ae9.jpeg",
+          "header_static": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/115/780/929/217/569/257/original/08799dcde5207ae9.jpeg",
+          "header_description": "",
+          "followers_count": 260,
+          "following_count": 2,
+          "statuses_count": 11503,
+          "last_status_at": "2026-11-07",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://www.thehackerwire.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">thehackerwire.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "X",
+              "value": "<a href=\"https://x.com/TheHackerWire\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/TheHackerWire</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://mastodon.social/@thehackerwire/117577174182083551",
+        "content": "<p>\ud83d\udfe0 CVE-2026-104768 - High (7.5)</p><p>The AutomatorWP \u2013 No-Code Workflow Automation, Integration &amp; Webhooks Plugin, now with AI plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 6.0.4. This is due to missing privilege-ceiling validation...</p><p>\ud83d\udd17 <a href=\"https://www.thehackerwire.com/vulnerability/CVE-2026-104768/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">thehackerwire.com/vulnerabilit</span><span class=\"invisible\">y/CVE-2026-104768/</span></a></p><p><a href=\"https://mastodon.social/tags/CVE\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE</span></a> <a href=\"https://mastodon.social/tags/vulnerability\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>vulnerability</span></a> <a href=\"https://mastodon.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://mastodon.social/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://mastodon.social/tags/security\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>security</span></a> <a href=\"https://mastodon.social/tags/Tenda\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Tenda</span></a> <a href=\"https://mastodon.social/tags/patchstack\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>patchstack</span></a></p>",
+        "created_at": "2026-11-07T21:01:39.000Z"
+      }
+    ],
+    "description": "The AutomatorWP \u2013 No-Code Workflow Automation, Integration & Webhooks Plugin, now with AI plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 6.0.4. This is due to missing privilege-ceiling validation in the `create_user()` function within the anonymous-user action (and equally in the Create User and Add/Change Role WordPress-integration actions), which verify only that the submitted role exists via `automatorwp_get_editable_roles()` without confirming the role falls at or below the acting context's privilege level \u2014 allowing attacker-controlled trigger tag data (e.g., a `{comment_author}` tag bound to the Role option) to supply any role, including `administrator`, unchallenged. This makes it possible for unauthenticated attackers to create a new administrator-role account tied to an attacker-controlled email address, receiving the generated password via WordPress's new-user notification email and thereby gaining full administrative access to the site. Exploitation requires the site to have an anonymous automation configured with the Role option bound to a dynamic trigger tag such as `{comment_author}`, and is triggered when a site administrator performs the routine action of approving a comment \u2014 an action that provides no in-UI indication that it will mint a new privileged account from the comment author field.",
+    "repos": [],
+    "updated": "2026-11-07T12:17:41.910000",
+    "epss": 0
+  },
+  "CVE-2026-104746": {
+    "cvss3": 8.1,
+    "severity": "HIGH",
+    "epss_severity": null,
+    "nuclei": null,
+    "posts": [
+      {
+        "account": {
+          "id": "115780929223240988",
+          "username": "thehackerwire",
+          "acct": "thehackerwire@mastodon.social",
+          "display_name": "TheHackerWire",
+          "locked": false,
+          "bot": true,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-12-21T00:00:00.000Z",
+          "note": "<p>Cybersecurity Chronicles \ud83c\udf10 | Breaking down the latest in security news, <a href=\"https://mastodon.social/tags/hacking\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>hacking</span></a> <a href=\"https://mastodon.social/tags/darkweb\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>darkweb</span></a> <a href=\"https://mastodon.social/tags/Cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Cybersecurity</span></a> <a href=\"https://mastodon.social/tags/InfoSec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>InfoSec</span></a> <a href=\"https://mastodon.social/tags/HackingNews\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>HackingNews</span></a></p>",
+          "url": "https://mastodon.social/@thehackerwire",
+          "uri": "https://mastodon.social/ap/users/115755483699003887",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/115/780/929/223/240/988/original/57ab1a2ca33e5310.jpg",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/115/780/929/223/240/988/original/57ab1a2ca33e5310.jpg",
+          "avatar_description": "",
+          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
+          "header_description": "",
+          "followers_count": 262,
+          "following_count": 2,
+          "statuses_count": 11503,
+          "last_status_at": "2026-11-07",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://www.thehackerwire.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">thehackerwire.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "X",
+              "value": "<a href=\"https://x.com/TheHackerWire\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/TheHackerWire</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://mastodon.social/@thehackerwire/117577173818143533",
+        "content": "<p>\ud83d\udfe0 CVE-2026-104746 - High (8.1)</p><p>The Motors \u2013 Car Dealership &amp; Classified Listings Plugin plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the stm_listings_ajax_save_user_data function in all versions up to, and including...</p><p>\ud83d\udd17 <a href=\"https://www.thehackerwire.com/vulnerability/CVE-2026-104746/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">thehackerwire.com/vulnerabilit</span><span class=\"invisible\">y/CVE-2026-104746/</span></a></p><p><a href=\"https://mastodon.social/tags/CVE\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE</span></a> <a href=\"https://mastodon.social/tags/vulnerability\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>vulnerability</span></a> <a href=\"https://mastodon.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://mastodon.social/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://mastodon.social/tags/security\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>security</span></a> <a href=\"https://mastodon.social/tags/Tenda\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Tenda</span></a> <a href=\"https://mastodon.social/tags/patchstack\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>patchstack</span></a></p>",
+        "created_at": "2026-11-07T21:01:33.000Z"
+      },
+      {
+        "account": {
+          "id": "115780929217569257",
+          "username": "thehackerwire",
+          "acct": "thehackerwire@mastodon.social",
+          "display_name": "TheHackerWire",
+          "locked": false,
+          "bot": true,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-12-21T00:00:00.000Z",
+          "note": "<p>Cybersecurity Chronicles \ud83c\udf10 | Breaking down the latest in security news, <a href=\"https://mastodon.social/tags/hacking\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>hacking</span></a> <a href=\"https://mastodon.social/tags/darkweb\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>darkweb</span></a> <a href=\"https://mastodon.social/tags/Cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Cybersecurity</span></a> <a href=\"https://mastodon.social/tags/InfoSec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>InfoSec</span></a> <a href=\"https://mastodon.social/tags/HackingNews\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>HackingNews</span></a></p>",
+          "url": "https://mastodon.social/@thehackerwire",
+          "uri": "https://mastodon.social/ap/users/115755483699003887",
+          "avatar": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/115/780/929/217/569/257/original/341133aeca71aa2f.jpg",
+          "avatar_static": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/115/780/929/217/569/257/original/341133aeca71aa2f.jpg",
+          "avatar_description": "",
+          "header": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/115/780/929/217/569/257/original/08799dcde5207ae9.jpeg",
+          "header_static": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/115/780/929/217/569/257/original/08799dcde5207ae9.jpeg",
+          "header_description": "",
+          "followers_count": 260,
+          "following_count": 2,
+          "statuses_count": 11503,
+          "last_status_at": "2026-11-07",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://www.thehackerwire.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">thehackerwire.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "X",
+              "value": "<a href=\"https://x.com/TheHackerWire\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/TheHackerWire</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://mastodon.social/@thehackerwire/117577173818143533",
+        "content": "<p>\ud83d\udfe0 CVE-2026-104746 - High (8.1)</p><p>The Motors \u2013 Car Dealership &amp; Classified Listings Plugin plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the stm_listings_ajax_save_user_data function in all versions up to, and including...</p><p>\ud83d\udd17 <a href=\"https://www.thehackerwire.com/vulnerability/CVE-2026-104746/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">thehackerwire.com/vulnerabilit</span><span class=\"invisible\">y/CVE-2026-104746/</span></a></p><p><a href=\"https://mastodon.social/tags/CVE\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE</span></a> <a href=\"https://mastodon.social/tags/vulnerability\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>vulnerability</span></a> <a href=\"https://mastodon.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://mastodon.social/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://mastodon.social/tags/security\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>security</span></a> <a href=\"https://mastodon.social/tags/Tenda\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Tenda</span></a> <a href=\"https://mastodon.social/tags/patchstack\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>patchstack</span></a></p>",
+        "created_at": "2026-11-07T21:01:33.000Z"
+      }
+    ],
+    "description": "The Motors \u2013 Car Dealership & Classified Listings Plugin plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the stm_listings_ajax_save_user_data function in all versions up to, and including, 1.4.125 This makes it possible for authenticated attackers, with subscriber-level access and above, to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php). Although deletion is bounded to wp-content/uploads (preventing removal of wp-config.php), any authenticated Subscriber can trivially exploit this because the required AJAX nonce is printed on every front-end page and the handler's stm_user_avatar_path meta is writable by any logged-in user against their own account.",
+    "repos": [],
+    "updated": "2026-11-07T19:17:17.490000",
+    "epss": 0
+  },
+  "CVE-2026-104014": {
+    "cvss3": 9.8,
+    "severity": "CRITICAL",
+    "epss_severity": null,
+    "nuclei": null,
+    "posts": [
+      {
+        "account": {
+          "id": "115780929223240988",
+          "username": "thehackerwire",
+          "acct": "thehackerwire@mastodon.social",
+          "display_name": "TheHackerWire",
+          "locked": false,
+          "bot": true,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-12-21T00:00:00.000Z",
+          "note": "<p>Cybersecurity Chronicles \ud83c\udf10 | Breaking down the latest in security news, <a href=\"https://mastodon.social/tags/hacking\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>hacking</span></a> <a href=\"https://mastodon.social/tags/darkweb\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>darkweb</span></a> <a href=\"https://mastodon.social/tags/Cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Cybersecurity</span></a> <a href=\"https://mastodon.social/tags/InfoSec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>InfoSec</span></a> <a href=\"https://mastodon.social/tags/HackingNews\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>HackingNews</span></a></p>",
+          "url": "https://mastodon.social/@thehackerwire",
+          "uri": "https://mastodon.social/ap/users/115755483699003887",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/115/780/929/223/240/988/original/57ab1a2ca33e5310.jpg",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/115/780/929/223/240/988/original/57ab1a2ca33e5310.jpg",
+          "avatar_description": "",
+          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
+          "header_description": "",
+          "followers_count": 262,
+          "following_count": 2,
+          "statuses_count": 11503,
+          "last_status_at": "2026-11-07",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://www.thehackerwire.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">thehackerwire.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "X",
+              "value": "<a href=\"https://x.com/TheHackerWire\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/TheHackerWire</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://mastodon.social/@thehackerwire/117577173441718753",
+        "content": "<p>\ud83d\udd34 CVE-2026-104014 - Critical (9.8)</p><p>The Naimur Email OTP Verification for WooCommerce plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 2.1.0. This is due to the plugin's password-reset finalization endpoint (the wp_ajax_nopriv_ceovw_updat...</p><p>\ud83d\udd17 <a href=\"https://www.thehackerwire.com/vulnerability/CVE-2026-104014/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">thehackerwire.com/vulnerabilit</span><span class=\"invisible\">y/CVE-2026-104014/</span></a></p><p><a href=\"https://mastodon.social/tags/CVE\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE</span></a> <a href=\"https://mastodon.social/tags/vulnerability\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>vulnerability</span></a> <a href=\"https://mastodon.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://mastodon.social/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://mastodon.social/tags/security\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>security</span></a> <a href=\"https://mastodon.social/tags/Tenda\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Tenda</span></a> <a href=\"https://mastodon.social/tags/patchstack\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>patchstack</span></a></p>",
+        "created_at": "2026-11-07T21:01:28.000Z"
+      },
+      {
+        "account": {
+          "id": "114267265908113668",
+          "username": "offseq",
+          "acct": "offseq",
+          "display_name": "OffSequence",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-04-02T00:00:00.000Z",
+          "note": "<p>OffSeq is a cybersecurity company enhancing organizational digital resilience through comprehensive protection against evolving cyber threats. We offer specialized services for businesses of all sizes, with particular expertise in Baltic, Scandinavian, Belgian markets and EU regulatory compliance.</p>",
+          "url": "https://infosec.exchange/@offseq",
+          "uri": "https://infosec.exchange/users/offseq",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/114/267/265/908/113/668/original/014780c34a5a61f4.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/114/267/265/908/113/668/original/014780c34a5a61f4.png",
+          "avatar_description": "",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
+          "header_description": "",
+          "followers_count": 159,
+          "following_count": 0,
+          "statuses_count": 4095,
+          "last_status_at": "2026-11-07",
+          "hide_collections": null,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "noindex": false,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "roles": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://offseq.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">offseq.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Threat Radar",
+              "value": "<a href=\"https://radar.offseq.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">radar.offseq.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Guard",
+              "value": "<a href=\"https://guard.offseq.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">guard.offseq.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Breach",
+              "value": "<a href=\"https://breach.offseq.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">breach.offseq.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Training & Certifications",
+              "value": "<a href=\"https://training.offseq.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">training.offseq.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@offseq/117575046664661582",
+        "content": "<p>CRITICAL vuln (CVE-2026-104014) in Naimur Email OTP Verification for WooCommerce \u22642.1.0: Auth bypass lets attackers reset passwords &amp; hijack accounts if a reset was started but not completed. No fix yet. Remove or disable plugin. <a href=\"https://radar.offseq.com/threat/cve-2026-104014-cwe-287-improper-authentication-in-naimurrahmannahid-naimur-email-otp-verification-for-fd45f297ed851e5e\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">radar.offseq.com/threat/cve-20</span><span class=\"invisible\">26-104014-cwe-287-improper-authentication-in-naimurrahmannahid-naimur-email-otp-verification-for-fd45f297ed851e5e</span></a> <a href=\"https://infosec.exchange/tags/OffSeq\" class=\"mention hashtag\" rel=\"tag\">#<span>OffSeq</span></a> <a href=\"https://infosec.exchange/tags/WordPress\" class=\"mention hashtag\" rel=\"tag\">#<span>WordPress</span></a> <a href=\"https://infosec.exchange/tags/WooCommerce\" class=\"mention hashtag\" rel=\"tag\">#<span>WooCommerce</span></a> <a href=\"https://infosec.exchange/tags/Infosec\" class=\"mention hashtag\" rel=\"tag\">#<span>Infosec</span></a></p>",
+        "created_at": "2026-11-07T12:00:36.072Z"
+      },
+      {
+        "account": {
+          "id": "115780929217569257",
+          "username": "thehackerwire",
+          "acct": "thehackerwire@mastodon.social",
+          "display_name": "TheHackerWire",
+          "locked": false,
+          "bot": true,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-12-21T00:00:00.000Z",
+          "note": "<p>Cybersecurity Chronicles \ud83c\udf10 | Breaking down the latest in security news, <a href=\"https://mastodon.social/tags/hacking\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>hacking</span></a> <a href=\"https://mastodon.social/tags/darkweb\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>darkweb</span></a> <a href=\"https://mastodon.social/tags/Cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Cybersecurity</span></a> <a href=\"https://mastodon.social/tags/InfoSec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>InfoSec</span></a> <a href=\"https://mastodon.social/tags/HackingNews\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>HackingNews</span></a></p>",
+          "url": "https://mastodon.social/@thehackerwire",
+          "uri": "https://mastodon.social/ap/users/115755483699003887",
+          "avatar": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/115/780/929/217/569/257/original/341133aeca71aa2f.jpg",
+          "avatar_static": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/115/780/929/217/569/257/original/341133aeca71aa2f.jpg",
+          "avatar_description": "",
+          "header": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/115/780/929/217/569/257/original/08799dcde5207ae9.jpeg",
+          "header_static": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/115/780/929/217/569/257/original/08799dcde5207ae9.jpeg",
+          "header_description": "",
+          "followers_count": 260,
+          "following_count": 2,
+          "statuses_count": 11503,
+          "last_status_at": "2026-11-07",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://www.thehackerwire.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">thehackerwire.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "X",
+              "value": "<a href=\"https://x.com/TheHackerWire\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/TheHackerWire</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://mastodon.social/@thehackerwire/117577173441718753",
+        "content": "<p>\ud83d\udd34 CVE-2026-104014 - Critical (9.8)</p><p>The Naimur Email OTP Verification for WooCommerce plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 2.1.0. This is due to the plugin's password-reset finalization endpoint (the wp_ajax_nopriv_ceovw_updat...</p><p>\ud83d\udd17 <a href=\"https://www.thehackerwire.com/vulnerability/CVE-2026-104014/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">thehackerwire.com/vulnerabilit</span><span class=\"invisible\">y/CVE-2026-104014/</span></a></p><p><a href=\"https://mastodon.social/tags/CVE\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE</span></a> <a href=\"https://mastodon.social/tags/vulnerability\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>vulnerability</span></a> <a href=\"https://mastodon.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://mastodon.social/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://mastodon.social/tags/security\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>security</span></a> <a href=\"https://mastodon.social/tags/Tenda\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Tenda</span></a> <a href=\"https://mastodon.social/tags/patchstack\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>patchstack</span></a></p>",
+        "created_at": "2026-11-07T21:01:28.000Z"
+      },
+      {
+        "account": {
+          "id": "114693833193257384",
+          "username": "offseq",
+          "acct": "offseq@infosec.exchange",
+          "display_name": "OffSequence",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-04-02T00:00:00.000Z",
+          "note": "<p>OffSeq is a cybersecurity company enhancing organizational digital resilience through comprehensive protection against evolving cyber threats. We offer specialized services for businesses of all sizes, with particular expertise in Baltic, Scandinavian, Belgian markets and EU regulatory compliance.</p>",
+          "url": "https://infosec.exchange/@offseq",
+          "uri": "https://infosec.exchange/users/offseq",
+          "avatar": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/114/693/833/193/257/384/original/732b82f232d5d6f6.png",
+          "avatar_static": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/114/693/833/193/257/384/original/732b82f232d5d6f6.png",
+          "avatar_description": "",
+          "header": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/114/693/833/193/257/384/original/3c2387f0cc43b0ab.jpg",
+          "header_static": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/114/693/833/193/257/384/original/3c2387f0cc43b0ab.jpg",
+          "header_description": "",
+          "followers_count": 158,
+          "following_count": 0,
+          "statuses_count": 4096,
+          "last_status_at": "2026-11-07",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://offseq.com\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">offseq.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Threat Radar",
+              "value": "<a href=\"https://radar.offseq.com\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">radar.offseq.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2026-11-06T10:35:44.866+00:00"
+            },
+            {
+              "name": "Guard",
+              "value": "<a href=\"https://guard.offseq.com\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">guard.offseq.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2026-11-06T10:35:46.052+00:00"
+            },
+            {
+              "name": "Breach",
+              "value": "<a href=\"https://breach.offseq.com\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">breach.offseq.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2026-11-06T10:35:46.311+00:00"
+            },
+            {
+              "name": "Training & Certifications",
+              "value": "<a href=\"https://training.offseq.com\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">training.offseq.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@offseq/117575046664661582",
+        "content": "<p>CRITICAL vuln (CVE-2026-104014) in Naimur Email OTP Verification for WooCommerce \u22642.1.0: Auth bypass lets attackers reset passwords &amp; hijack accounts if a reset was started but not completed. No fix yet. Remove or disable plugin. <a href=\"https://radar.offseq.com/threat/cve-2026-104014-cwe-287-improper-authentication-in-naimurrahmannahid-naimur-email-otp-verification-for-fd45f297ed851e5e\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">radar.offseq.com/threat/cve-20</span><span class=\"invisible\">26-104014-cwe-287-improper-authentication-in-naimurrahmannahid-naimur-email-otp-verification-for-fd45f297ed851e5e</span></a> <a href=\"https://infosec.exchange/tags/OffSeq\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>OffSeq</span></a> <a href=\"https://infosec.exchange/tags/WordPress\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>WordPress</span></a> <a href=\"https://infosec.exchange/tags/WooCommerce\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>WooCommerce</span></a> <a href=\"https://infosec.exchange/tags/Infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Infosec</span></a></p>",
+        "created_at": "2026-11-07T12:00:36.000Z"
+      }
+    ],
+    "description": "The Naimur Email OTP Verification for WooCommerce plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 2.1.0. This is due to the plugin's password-reset finalization endpoint (the wp_ajax_nopriv_ceovw_update_new_password action handled by CEOVW_AJAX::update_new_password()) authorizing the reset solely by the presence of a database row marking an email as 'VERIFIED', with no timestamp check, no session binding, and no per-reset token \u2014 combined with mark_otp_as_verified_for_reset() leaving the row in that state after a user enters their code (abandoning the flow leaves the row behind), and a scheduled 'ceovw_cleanup_expired_otps_event' cron that has no add_action() handler anywhere in the plugin so cleanup never runs. This makes it possible for unauthenticated attackers to take over any account whose owner previously requested and verified a password-reset code and did not immediately finish choosing a new password \u2014 the attacker needs only the victim's email address and a nonce that the plugin itself localizes publicly into the CEOVW_APP global on the WooCommerce account page for logged-out visitors, after which they call the endpoint, overwrite the victim's password, and are returned a live wordpress_logged_in_ session cookie for that user (full site takeover if the account is an administrator).",
+    "repos": [],
+    "updated": "2026-11-07T19:17:17.340000",
+    "epss": 0
+  },
+  "CVE-2026-124057": {
+    "cvss3": 9.1,
+    "severity": "CRITICAL",
+    "epss_severity": null,
+    "nuclei": null,
+    "posts": [
+      {
+        "account": {
+          "id": "115780929223240988",
+          "username": "thehackerwire",
+          "acct": "thehackerwire@mastodon.social",
+          "display_name": "TheHackerWire",
+          "locked": false,
+          "bot": true,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-12-21T00:00:00.000Z",
+          "note": "<p>Cybersecurity Chronicles \ud83c\udf10 | Breaking down the latest in security news, <a href=\"https://mastodon.social/tags/hacking\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>hacking</span></a> <a href=\"https://mastodon.social/tags/darkweb\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>darkweb</span></a> <a href=\"https://mastodon.social/tags/Cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Cybersecurity</span></a> <a href=\"https://mastodon.social/tags/InfoSec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>InfoSec</span></a> <a href=\"https://mastodon.social/tags/HackingNews\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>HackingNews</span></a></p>",
+          "url": "https://mastodon.social/@thehackerwire",
+          "uri": "https://mastodon.social/ap/users/115755483699003887",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/115/780/929/223/240/988/original/57ab1a2ca33e5310.jpg",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/115/780/929/223/240/988/original/57ab1a2ca33e5310.jpg",
+          "avatar_description": "",
+          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
+          "header_description": "",
+          "followers_count": 262,
+          "following_count": 2,
+          "statuses_count": 11503,
+          "last_status_at": "2026-11-07",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://www.thehackerwire.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">thehackerwire.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "X",
+              "value": "<a href=\"https://x.com/TheHackerWire\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/TheHackerWire</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://mastodon.social/@thehackerwire/117577170961912408",
+        "content": "<p>\ud83d\udd34 CVE-2026-124057 - Critical (9.1)</p><p>A security flaw has been discovered in TOTOLINK CA300-PoE 6.2c.884. This impacts the function setWiFiMultipleConfig of the file /cgi-bin/cstecgi.cgi. Performing a manipulation of the argument Key1Str1 results in buffer overflow. The attack can be ...</p><p>\ud83d\udd17 <a href=\"https://www.thehackerwire.com/vulnerability/CVE-2026-124057/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">thehackerwire.com/vulnerabilit</span><span class=\"invisible\">y/CVE-2026-124057/</span></a></p><p><a href=\"https://mastodon.social/tags/CVE\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE</span></a> <a href=\"https://mastodon.social/tags/vulnerability\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>vulnerability</span></a> <a href=\"https://mastodon.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://mastodon.social/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://mastodon.social/tags/security\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>security</span></a> <a href=\"https://mastodon.social/tags/Tenda\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Tenda</span></a> <a href=\"https://mastodon.social/tags/patchstack\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>patchstack</span></a></p>",
+        "created_at": "2026-11-07T21:00:50.000Z"
+      },
+      {
+        "account": {
+          "id": "115780929217569257",
+          "username": "thehackerwire",
+          "acct": "thehackerwire@mastodon.social",
+          "display_name": "TheHackerWire",
+          "locked": false,
+          "bot": true,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-12-21T00:00:00.000Z",
+          "note": "<p>Cybersecurity Chronicles \ud83c\udf10 | Breaking down the latest in security news, <a href=\"https://mastodon.social/tags/hacking\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>hacking</span></a> <a href=\"https://mastodon.social/tags/darkweb\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>darkweb</span></a> <a href=\"https://mastodon.social/tags/Cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Cybersecurity</span></a> <a href=\"https://mastodon.social/tags/InfoSec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>InfoSec</span></a> <a href=\"https://mastodon.social/tags/HackingNews\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>HackingNews</span></a></p>",
+          "url": "https://mastodon.social/@thehackerwire",
+          "uri": "https://mastodon.social/ap/users/115755483699003887",
+          "avatar": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/115/780/929/217/569/257/original/341133aeca71aa2f.jpg",
+          "avatar_static": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/115/780/929/217/569/257/original/341133aeca71aa2f.jpg",
+          "avatar_description": "",
+          "header": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/115/780/929/217/569/257/original/08799dcde5207ae9.jpeg",
+          "header_static": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/115/780/929/217/569/257/original/08799dcde5207ae9.jpeg",
+          "header_description": "",
+          "followers_count": 260,
+          "following_count": 2,
+          "statuses_count": 11503,
+          "last_status_at": "2026-11-07",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://www.thehackerwire.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">thehackerwire.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "X",
+              "value": "<a href=\"https://x.com/TheHackerWire\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/TheHackerWire</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://mastodon.social/@thehackerwire/117577170961912408",
+        "content": "<p>\ud83d\udd34 CVE-2026-124057 - Critical (9.1)</p><p>A security flaw has been discovered in TOTOLINK CA300-PoE 6.2c.884. This impacts the function setWiFiMultipleConfig of the file /cgi-bin/cstecgi.cgi. Performing a manipulation of the argument Key1Str1 results in buffer overflow. The attack can be ...</p><p>\ud83d\udd17 <a href=\"https://www.thehackerwire.com/vulnerability/CVE-2026-124057/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">thehackerwire.com/vulnerabilit</span><span class=\"invisible\">y/CVE-2026-124057/</span></a></p><p><a href=\"https://mastodon.social/tags/CVE\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE</span></a> <a href=\"https://mastodon.social/tags/vulnerability\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>vulnerability</span></a> <a href=\"https://mastodon.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://mastodon.social/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://mastodon.social/tags/security\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>security</span></a> <a href=\"https://mastodon.social/tags/Tenda\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Tenda</span></a> <a href=\"https://mastodon.social/tags/patchstack\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>patchstack</span></a></p>",
+        "created_at": "2026-11-07T21:00:50.000Z"
+      }
+    ],
+    "description": "A security flaw has been discovered in TOTOLINK CA300-PoE 6.2c.884. This impacts the function setWiFiMultipleConfig of the file /cgi-bin/cstecgi.cgi. Performing a manipulation of the argument Key1Str1 results in buffer overflow. The attack can be initiated remotely. The exploit has been released to the public and may be used for attacks.",
+    "repos": [],
+    "updated": "2026-11-07T18:17:21.780000",
+    "epss": 0
+  },
+  "CVE-2026-124059": {
+    "cvss3": 9.1,
+    "severity": "CRITICAL",
+    "epss_severity": null,
+    "nuclei": null,
+    "posts": [
+      {
+        "account": {
+          "id": "115780929223240988",
+          "username": "thehackerwire",
+          "acct": "thehackerwire@mastodon.social",
+          "display_name": "TheHackerWire",
+          "locked": false,
+          "bot": true,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-12-21T00:00:00.000Z",
+          "note": "<p>Cybersecurity Chronicles \ud83c\udf10 | Breaking down the latest in security news, <a href=\"https://mastodon.social/tags/hacking\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>hacking</span></a> <a href=\"https://mastodon.social/tags/darkweb\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>darkweb</span></a> <a href=\"https://mastodon.social/tags/Cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Cybersecurity</span></a> <a href=\"https://mastodon.social/tags/InfoSec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>InfoSec</span></a> <a href=\"https://mastodon.social/tags/HackingNews\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>HackingNews</span></a></p>",
+          "url": "https://mastodon.social/@thehackerwire",
+          "uri": "https://mastodon.social/ap/users/115755483699003887",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/115/780/929/223/240/988/original/57ab1a2ca33e5310.jpg",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/115/780/929/223/240/988/original/57ab1a2ca33e5310.jpg",
+          "avatar_description": "",
+          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
+          "header_description": "",
+          "followers_count": 262,
+          "following_count": 2,
+          "statuses_count": 11503,
+          "last_status_at": "2026-11-07",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://www.thehackerwire.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">thehackerwire.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "X",
+              "value": "<a href=\"https://x.com/TheHackerWire\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/TheHackerWire</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://mastodon.social/@thehackerwire/117577170596699111",
+        "content": "<p>\ud83d\udd34 CVE-2026-124059 - Critical (9.1)</p><p>A security vulnerability has been detected in TOTOLINK CA300-PoE 6.2c.884. Affected by this vulnerability is the function setWiFiWdsAddConfig of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument ApCliKeyStr leads to buffer overflow. ...</p><p>\ud83d\udd17 <a href=\"https://www.thehackerwire.com/vulnerability/CVE-2026-124059/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">thehackerwire.com/vulnerabilit</span><span class=\"invisible\">y/CVE-2026-124059/</span></a></p><p><a href=\"https://mastodon.social/tags/CVE\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE</span></a> <a href=\"https://mastodon.social/tags/vulnerability\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>vulnerability</span></a> <a href=\"https://mastodon.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://mastodon.social/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://mastodon.social/tags/security\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>security</span></a> <a href=\"https://mastodon.social/tags/Tenda\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Tenda</span></a> <a href=\"https://mastodon.social/tags/patchstack\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>patchstack</span></a></p>",
+        "created_at": "2026-11-07T21:00:44.000Z"
+      },
+      {
+        "account": {
+          "id": "115780929217569257",
+          "username": "thehackerwire",
+          "acct": "thehackerwire@mastodon.social",
+          "display_name": "TheHackerWire",
+          "locked": false,
+          "bot": true,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-12-21T00:00:00.000Z",
+          "note": "<p>Cybersecurity Chronicles \ud83c\udf10 | Breaking down the latest in security news, <a href=\"https://mastodon.social/tags/hacking\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>hacking</span></a> <a href=\"https://mastodon.social/tags/darkweb\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>darkweb</span></a> <a href=\"https://mastodon.social/tags/Cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Cybersecurity</span></a> <a href=\"https://mastodon.social/tags/InfoSec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>InfoSec</span></a> <a href=\"https://mastodon.social/tags/HackingNews\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>HackingNews</span></a></p>",
+          "url": "https://mastodon.social/@thehackerwire",
+          "uri": "https://mastodon.social/ap/users/115755483699003887",
+          "avatar": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/115/780/929/217/569/257/original/341133aeca71aa2f.jpg",
+          "avatar_static": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/115/780/929/217/569/257/original/341133aeca71aa2f.jpg",
+          "avatar_description": "",
+          "header": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/115/780/929/217/569/257/original/08799dcde5207ae9.jpeg",
+          "header_static": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/115/780/929/217/569/257/original/08799dcde5207ae9.jpeg",
+          "header_description": "",
+          "followers_count": 260,
+          "following_count": 2,
+          "statuses_count": 11503,
+          "last_status_at": "2026-11-07",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://www.thehackerwire.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">thehackerwire.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "X",
+              "value": "<a href=\"https://x.com/TheHackerWire\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/TheHackerWire</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://mastodon.social/@thehackerwire/117577170596699111",
+        "content": "<p>\ud83d\udd34 CVE-2026-124059 - Critical (9.1)</p><p>A security vulnerability has been detected in TOTOLINK CA300-PoE 6.2c.884. Affected by this vulnerability is the function setWiFiWdsAddConfig of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument ApCliKeyStr leads to buffer overflow. ...</p><p>\ud83d\udd17 <a href=\"https://www.thehackerwire.com/vulnerability/CVE-2026-124059/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">thehackerwire.com/vulnerabilit</span><span class=\"invisible\">y/CVE-2026-124059/</span></a></p><p><a href=\"https://mastodon.social/tags/CVE\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE</span></a> <a href=\"https://mastodon.social/tags/vulnerability\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>vulnerability</span></a> <a href=\"https://mastodon.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://mastodon.social/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://mastodon.social/tags/security\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>security</span></a> <a href=\"https://mastodon.social/tags/Tenda\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Tenda</span></a> <a href=\"https://mastodon.social/tags/patchstack\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>patchstack</span></a></p>",
+        "created_at": "2026-11-07T21:00:44.000Z"
+      }
+    ],
+    "description": "A security vulnerability has been detected in TOTOLINK CA300-PoE 6.2c.884. Affected by this vulnerability is the function setWiFiWdsAddConfig of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument ApCliKeyStr leads to buffer overflow. The attack may be initiated remotely. The exploit has been disclosed publicly and may be used.",
+    "repos": [],
+    "updated": "2026-11-07T19:17:28.653000",
+    "epss": 0
+  },
+  "CVE-2026-124058": {
+    "cvss3": 9.1,
+    "severity": "CRITICAL",
+    "epss_severity": null,
+    "nuclei": null,
+    "posts": [
+      {
+        "account": {
+          "id": "115780929223240988",
+          "username": "thehackerwire",
+          "acct": "thehackerwire@mastodon.social",
+          "display_name": "TheHackerWire",
+          "locked": false,
+          "bot": true,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-12-21T00:00:00.000Z",
+          "note": "<p>Cybersecurity Chronicles \ud83c\udf10 | Breaking down the latest in security news, <a href=\"https://mastodon.social/tags/hacking\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>hacking</span></a> <a href=\"https://mastodon.social/tags/darkweb\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>darkweb</span></a> <a href=\"https://mastodon.social/tags/Cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Cybersecurity</span></a> <a href=\"https://mastodon.social/tags/InfoSec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>InfoSec</span></a> <a href=\"https://mastodon.social/tags/HackingNews\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>HackingNews</span></a></p>",
+          "url": "https://mastodon.social/@thehackerwire",
+          "uri": "https://mastodon.social/ap/users/115755483699003887",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/115/780/929/223/240/988/original/57ab1a2ca33e5310.jpg",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/115/780/929/223/240/988/original/57ab1a2ca33e5310.jpg",
+          "avatar_description": "",
+          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
+          "header_description": "",
+          "followers_count": 262,
+          "following_count": 2,
+          "statuses_count": 11503,
+          "last_status_at": "2026-11-07",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://www.thehackerwire.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">thehackerwire.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "X",
+              "value": "<a href=\"https://x.com/TheHackerWire\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/TheHackerWire</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://mastodon.social/@thehackerwire/117577170225448927",
+        "content": "<p>\ud83d\udd34 CVE-2026-124058 - Critical (9.1)</p><p>A weakness has been identified in TOTOLINK CA300-PoE 6.2c.884. Affected is the function setWiFiRepeaterConfig of the file /cgi-bin/cstecgi.cgi. Executing a manipulation of the argument ApCliKeyStr can lead to buffer overflow. The attack can be lau...</p><p>\ud83d\udd17 <a href=\"https://www.thehackerwire.com/vulnerability/CVE-2026-124058/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">thehackerwire.com/vulnerabilit</span><span class=\"invisible\">y/CVE-2026-124058/</span></a></p><p><a href=\"https://mastodon.social/tags/CVE\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE</span></a> <a href=\"https://mastodon.social/tags/vulnerability\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>vulnerability</span></a> <a href=\"https://mastodon.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://mastodon.social/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://mastodon.social/tags/security\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>security</span></a> <a href=\"https://mastodon.social/tags/Tenda\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Tenda</span></a> <a href=\"https://mastodon.social/tags/patchstack\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>patchstack</span></a></p>",
+        "created_at": "2026-11-07T21:00:39.000Z"
+      },
+      {
+        "account": {
+          "id": "115780929217569257",
+          "username": "thehackerwire",
+          "acct": "thehackerwire@mastodon.social",
+          "display_name": "TheHackerWire",
+          "locked": false,
+          "bot": true,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-12-21T00:00:00.000Z",
+          "note": "<p>Cybersecurity Chronicles \ud83c\udf10 | Breaking down the latest in security news, <a href=\"https://mastodon.social/tags/hacking\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>hacking</span></a> <a href=\"https://mastodon.social/tags/darkweb\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>darkweb</span></a> <a href=\"https://mastodon.social/tags/Cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Cybersecurity</span></a> <a href=\"https://mastodon.social/tags/InfoSec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>InfoSec</span></a> <a href=\"https://mastodon.social/tags/HackingNews\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>HackingNews</span></a></p>",
+          "url": "https://mastodon.social/@thehackerwire",
+          "uri": "https://mastodon.social/ap/users/115755483699003887",
+          "avatar": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/115/780/929/217/569/257/original/341133aeca71aa2f.jpg",
+          "avatar_static": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/115/780/929/217/569/257/original/341133aeca71aa2f.jpg",
+          "avatar_description": "",
+          "header": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/115/780/929/217/569/257/original/08799dcde5207ae9.jpeg",
+          "header_static": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/115/780/929/217/569/257/original/08799dcde5207ae9.jpeg",
+          "header_description": "",
+          "followers_count": 260,
+          "following_count": 2,
+          "statuses_count": 11503,
+          "last_status_at": "2026-11-07",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://www.thehackerwire.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">thehackerwire.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "X",
+              "value": "<a href=\"https://x.com/TheHackerWire\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/TheHackerWire</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://mastodon.social/@thehackerwire/117577170225448927",
+        "content": "<p>\ud83d\udd34 CVE-2026-124058 - Critical (9.1)</p><p>A weakness has been identified in TOTOLINK CA300-PoE 6.2c.884. Affected is the function setWiFiRepeaterConfig of the file /cgi-bin/cstecgi.cgi. Executing a manipulation of the argument ApCliKeyStr can lead to buffer overflow. The attack can be lau...</p><p>\ud83d\udd17 <a href=\"https://www.thehackerwire.com/vulnerability/CVE-2026-124058/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">thehackerwire.com/vulnerabilit</span><span class=\"invisible\">y/CVE-2026-124058/</span></a></p><p><a href=\"https://mastodon.social/tags/CVE\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE</span></a> <a href=\"https://mastodon.social/tags/vulnerability\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>vulnerability</span></a> <a href=\"https://mastodon.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://mastodon.social/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://mastodon.social/tags/security\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>security</span></a> <a href=\"https://mastodon.social/tags/Tenda\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Tenda</span></a> <a href=\"https://mastodon.social/tags/patchstack\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>patchstack</span></a></p>",
+        "created_at": "2026-11-07T21:00:39.000Z"
+      }
+    ],
+    "description": "A weakness has been identified in TOTOLINK CA300-PoE 6.2c.884. Affected is the function setWiFiRepeaterConfig of the file /cgi-bin/cstecgi.cgi. Executing a manipulation of the argument ApCliKeyStr can lead to buffer overflow. The attack can be launched remotely. The exploit has been made available to the public and could be used for attacks.",
+    "repos": [],
+    "updated": "2026-11-07T19:17:28.427000",
+    "epss": 0
+  },
+  "CVE-2026-109469": {
+    "cvss3": 10.0,
+    "severity": "CRITICAL",
+    "epss_severity": "LOW",
+    "nuclei": null,
+    "posts": [
+      {
+        "account": {
+          "id": "111001016481829696",
+          "username": "0x3e4",
+          "acct": "0x3e4@cyberplace.social",
+          "display_name": "Raphael",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2023-09-03T00:00:00.000Z",
+          "note": "<p>IT generalist (IT infrastructure manager, system &amp; security engineer) for everything; <a href=\"https://cyberplace.social/tags/sysadmin\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>sysadmin</span></a> <a href=\"https://cyberplace.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://cyberplace.social/tags/cybersec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cybersec</span></a> <a href=\"https://cyberplace.social/tags/infrastructure\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infrastructure</span></a> - Vienna, Austria</p>",
+          "url": "https://cyberplace.social/@0x3e4",
+          "uri": "https://cyberplace.social/users/0x3e4",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/111/001/016/481/829/696/original/843d41359d885df4.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/111/001/016/481/829/696/original/843d41359d885df4.png",
+          "avatar_description": "",
+          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/111/001/016/481/829/696/original/ca74ac5336712e63.jpeg",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/111/001/016/481/829/696/original/ca74ac5336712e63.jpeg",
+          "header_description": "",
+          "followers_count": 56,
+          "following_count": 55,
+          "statuses_count": 369,
+          "last_status_at": "2026-11-07",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Contact & Information",
+              "value": "<a href=\"https://nohub.lol\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">nohub.lol</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Hecate - Cyber Defense",
+              "value": "<a href=\"https://hecate.pw\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">hecate.pw</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Pflanzn - Plant Care Cockpit",
+              "value": "<a href=\"https://pflanzn.app\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">pflanzn.app</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Github",
+              "value": "<a href=\"https://github.com/0x3e4\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/0x3e4</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2026-11-07T20:58:33.999+00:00"
+            }
+          ]
+        },
+        "url": "https://cyberplace.social/@0x3e4/117577009171057187",
+        "content": "<p>\ud83d\udd10 CVE-2026-109469</p><p>\ud83d\udcca CVSS: 10.0 \u00b7 Critical<br>\ud83d\udcc5 11/07/2026, 12:17 AM<br>\ud83d\udee1\ufe0f CWE: CWE-639<br>\ud83d\udce6 Affected: Microsoft Entra Device Registration<br>\ud83d\udcda <a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-109469\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">msrc.microsoft.com/update-guid</span><span class=\"invisible\">e/vulnerability/CVE-2026-109469</span></a></p><p>\ud83d\udd17 <a href=\"https://hecate.pw/vulnerability/CVE-2026-109469\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">hecate.pw/vulnerability/CVE-20</span><span class=\"invisible\">26-109469</span></a></p><p><a href=\"https://cyberplace.social/tags/cve\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cve</span></a> <a href=\"https://cyberplace.social/tags/vulnerability\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>vulnerability</span></a> <a href=\"https://cyberplace.social/tags/hecate\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>hecate</span></a></p>",
+        "created_at": "2026-11-07T20:19:41.000Z"
+      },
+      {
+        "account": {
+          "id": "111001016541235651",
+          "username": "0x3e4",
+          "acct": "0x3e4@cyberplace.social",
+          "display_name": "Raphael",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2023-09-03T00:00:00.000Z",
+          "note": "<p>IT generalist (IT infrastructure manager, system &amp; security engineer) for everything; <a href=\"https://cyberplace.social/tags/sysadmin\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>sysadmin</span></a> <a href=\"https://cyberplace.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://cyberplace.social/tags/cybersec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cybersec</span></a> <a href=\"https://cyberplace.social/tags/infrastructure\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infrastructure</span></a> - Vienna, Austria</p>",
+          "url": "https://cyberplace.social/@0x3e4",
+          "uri": "https://cyberplace.social/users/0x3e4",
+          "avatar": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/111/001/016/541/235/651/original/e6f5389a4dbe19f6.png",
+          "avatar_static": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/111/001/016/541/235/651/original/e6f5389a4dbe19f6.png",
+          "avatar_description": "",
+          "header": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/111/001/016/541/235/651/original/46d6910bb95b734c.jpeg",
+          "header_static": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/111/001/016/541/235/651/original/46d6910bb95b734c.jpeg",
+          "header_description": "",
+          "followers_count": 55,
+          "following_count": 56,
+          "statuses_count": 371,
+          "last_status_at": "2026-11-07",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Contact & Information",
+              "value": "<a href=\"https://nohub.lol\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">nohub.lol</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Hecate - Cyber Defense",
+              "value": "<a href=\"https://hecate.pw\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">hecate.pw</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Pflanzn - Plant Care Cockpit",
+              "value": "<a href=\"https://pflanzn.app\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">pflanzn.app</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Github",
+              "value": "<a href=\"https://github.com/0x3e4\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/0x3e4</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2026-11-01T23:20:14.057+00:00"
+            }
+          ]
+        },
+        "url": "https://cyberplace.social/@0x3e4/117577009171057187",
+        "content": "<p>\ud83d\udd10 CVE-2026-109469</p><p>\ud83d\udcca CVSS: 10.0 \u00b7 Critical<br>\ud83d\udcc5 11/07/2026, 12:17 AM<br>\ud83d\udee1\ufe0f CWE: CWE-639<br>\ud83d\udce6 Affected: Microsoft Entra Device Registration<br>\ud83d\udcda <a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-109469\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">msrc.microsoft.com/update-guid</span><span class=\"invisible\">e/vulnerability/CVE-2026-109469</span></a></p><p>\ud83d\udd17 <a href=\"https://hecate.pw/vulnerability/CVE-2026-109469\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">hecate.pw/vulnerability/CVE-20</span><span class=\"invisible\">26-109469</span></a></p><p><a href=\"https://cyberplace.social/tags/cve\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cve</span></a> <a href=\"https://cyberplace.social/tags/vulnerability\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>vulnerability</span></a> <a href=\"https://cyberplace.social/tags/hecate\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>hecate</span></a></p>",
+        "created_at": "2026-11-07T20:19:41.000Z"
+      }
+    ],
+    "description": "Authorization bypass through user-controlled key in Entra Device Registration allows an unauthorized attacker to elevate privileges over a network.",
+    "repos": [],
+    "updated": "2026-11-06T23:17:20.707000",
+    "epss": 0.668
+  },
+  "CVE-2026-12402": {
+    "cvss3": 4.4,
+    "severity": "MEDIUM",
+    "epss_severity": "LOW",
+    "nuclei": null,
+    "posts": [
+      {
+        "account": {
+          "id": "114443602067941568",
+          "username": "hugovalters",
+          "acct": "hugovalters@mastodon.social",
+          "display_name": "Hugo | DevOps | Cybersecurity",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-05-01T00:00:00.000Z",
+          "note": "<p>Tech Lead &amp; DevSecOps. \ud83d\udee1\ufe0f Cybersecurity | \ud83d\udcbb IT Tutorials | \ud83c\udff4\u200d\u2620\ufe0f Ethical Hacking | \u2699\ufe0f Tech Reviews. Learn, secure, and explore cutting-edge IT solutions! \ud83d\udc47</p>",
+          "url": "https://mastodon.social/@hugovalters",
+          "uri": "https://mastodon.social/users/hugovalters",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/114/443/602/067/941/568/original/389ac35208593325.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/114/443/602/067/941/568/original/389ac35208593325.png",
+          "avatar_description": "",
+          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/114/443/602/067/941/568/original/41357cfc44442d1f.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/114/443/602/067/941/568/original/41357cfc44442d1f.png",
+          "header_description": "",
+          "followers_count": 158,
+          "following_count": 4,
+          "statuses_count": 7788,
+          "last_status_at": "2026-11-07",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "fields": [
+            {
+              "name": "CyberSecurity paradise",
+              "value": "<a href=\"https://www.valtersit.com\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">valtersit.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2026-11-07T15:09:28.662+00:00"
+            },
+            {
+              "name": "YouTube",
+              "value": "<a href=\"http://youtube.com/@hugovalters\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">http://</span><span class=\"\">youtube.com/@hugovalters</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "X.com",
+              "value": "<a href=\"https://x.com/hugovalters\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/hugovalters</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "About ValtersIT.com",
+              "value": "<a href=\"https://www.valtersit.com/about/\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">valtersit.com/about/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2026-11-07T15:09:29.463+00:00"
+            }
+          ]
+        },
+        "url": "https://mastodon.social/@hugovalters/117576813908790974",
+        "content": "<p>CVE-2026-12402: Stored XSS in OTP Login &amp; Register WooCommerce plugin up to 2.7.3 via fb-config setting. CVSS 4.4, unpatched. Update immediately. <a href=\"https://mastodon.social/tags/CVE\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE</span></a> <a href=\"https://mastodon.social/tags/WordPress\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>WordPress</span></a> <a href=\"https://mastodon.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://www.valtersit.com/cve/CVE-2026-12402/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">valtersit.com/cve/CVE-2026-124</span><span class=\"invisible\">02/</span></a></p>",
+        "created_at": "2026-11-07T19:30:02.000Z"
+      }
+    ],
+    "description": "The OTP Login & Register Woocommerce plugin for WordPress is vulnerable to Stored Cross-Site Scripting via 'fb-config' Setting in all versions up to, and including, 2.7.3 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. On multisite installations where administrators do not hold the unfiltered_html capability, this vulnerability can be leveraged to target the network super administrator.",
+    "repos": [],
+    "updated": "2026-09-21T13:33:33.387000",
+    "epss": 0.311
+  },
+  "CVE-2026-116606": {
+    "cvss3": 0,
+    "severity": null,
+    "epss_severity": "LOW",
+    "nuclei": null,
+    "posts": [
+      {
+        "account": {
+          "id": "109264058077639703",
+          "username": "patrickcmiller",
+          "acct": "patrickcmiller",
+          "display_name": "Patrick C Miller :donor:",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2022-10-31T00:00:00.000Z",
+          "note": "<p>Critical Infrastructure &amp; Industrial Security Advisor. Recovering regulator. Airport dweller. <span class=\"h-card\" translate=\"no\"><a href=\"https://infosec.exchange/@ampyxcyber\" class=\"u-url mention\">@<span>ampyxcyber</span></a></span> President and CEO.</p>",
+          "url": "https://infosec.exchange/@patrickcmiller",
+          "uri": "https://infosec.exchange/users/patrickcmiller",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/264/058/077/639/703/original/8bef32ac94a8ceea.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/264/058/077/639/703/original/8bef32ac94a8ceea.png",
+          "avatar_description": "",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/264/058/077/639/703/original/48cd70fb9f44be1f.jpeg",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/264/058/077/639/703/original/48cd70fb9f44be1f.jpeg",
+          "header_description": "",
+          "followers_count": 4834,
+          "following_count": 1495,
+          "statuses_count": 62605,
+          "last_status_at": "2026-11-07",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "noindex": false,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [
+            {
+              "shortcode": "donor",
+              "url": "https://media.infosec.exchange/infosec.exchange/custom_emojis/images/000/183/594/original/61a35b247fc91e55.png",
+              "static_url": "https://media.infosec.exchange/infosec.exchange/custom_emojis/images/000/183/594/static/61a35b247fc91e55.png",
+              "visible_in_picker": true
+            }
+          ],
+          "roles": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://www.patrickcmiller.com/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">patrickcmiller.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-11-10T13:54:42.600+00:00"
+            },
+            {
+              "name": "Company",
+              "value": "<a href=\"https://www.ampyxcyber.com/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">ampyxcyber.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "LinkedIn",
+              "value": "<a href=\"https://www.linkedin.com/in/millerpatrickc/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">linkedin.com/in/millerpatrickc/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Podcast",
+              "value": "<a href=\"https://ampyxcyber.com/podcast\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">ampyxcyber.com/podcast</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@patrickcmiller/117576743130248962",
+        "content": "<p>Barracuda Networks is your new best friend (Barracuda Email Security Gateway Pre-Auth Remote Root RCE CVE-2026-116606 / CVE-2026-111560) <a href=\"https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">labs.watchtowr.com/barracuda-n</span><span class=\"invisible\">etworks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/</span></a></p>",
+        "created_at": "2026-11-07T19:12:02.083Z"
+      },
+      {
+        "account": {
+          "id": "109264069240647632",
+          "username": "patrickcmiller",
+          "acct": "patrickcmiller@infosec.exchange",
+          "display_name": "Patrick C Miller :donor:",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2022-10-31T00:00:00.000Z",
+          "note": "<p>Critical Infrastructure &amp; Industrial Security Advisor. Recovering regulator. Airport dweller. <span class=\"h-card\" translate=\"no\"><a href=\"https://infosec.exchange/@ampyxcyber\" class=\"u-url mention\" rel=\"nofollow noopener\" target=\"_blank\">@<span>ampyxcyber</span></a></span> President and CEO.</p>",
+          "url": "https://infosec.exchange/@patrickcmiller",
+          "uri": "https://infosec.exchange/users/patrickcmiller",
+          "avatar": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/109/264/069/240/647/632/original/ae84f024643b820b.png",
+          "avatar_static": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/109/264/069/240/647/632/original/ae84f024643b820b.png",
+          "avatar_description": "",
+          "header": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/109/264/069/240/647/632/original/09e94bd2a6ff54a6.jpeg",
+          "header_static": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/109/264/069/240/647/632/original/09e94bd2a6ff54a6.jpeg",
+          "header_description": "",
+          "followers_count": 4834,
+          "following_count": 1495,
+          "statuses_count": 62606,
+          "last_status_at": "2026-11-07",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [
+            {
+              "shortcode": "donor",
+              "url": "https://files.ioc.exchange/iocexchange/cache/custom_emojis/images/000/118/123/original/97af31c7169851e3.png",
+              "static_url": "https://files.ioc.exchange/iocexchange/cache/custom_emojis/images/000/118/123/static/97af31c7169851e3.png",
+              "visible_in_picker": true
+            }
+          ],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://www.patrickcmiller.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">patrickcmiller.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Company",
+              "value": "<a href=\"https://www.ampyxcyber.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">ampyxcyber.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "LinkedIn",
+              "value": "<a href=\"https://www.linkedin.com/in/millerpatrickc/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">linkedin.com/in/millerpatrickc/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Podcast",
+              "value": "<a href=\"https://ampyxcyber.com/podcast\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">ampyxcyber.com/podcast</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@patrickcmiller/117576743130248962",
+        "content": "<p>Barracuda Networks is your new best friend (Barracuda Email Security Gateway Pre-Auth Remote Root RCE CVE-2026-116606 / CVE-2026-111560) <a href=\"https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">labs.watchtowr.com/barracuda-n</span><span class=\"invisible\">etworks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/</span></a></p>",
+        "created_at": "2026-11-07T19:12:02.000Z"
+      }
+    ],
+    "description": "An authentication bypass in Barracuda Email Security Gateway versions earlier than 9.4.0.030 allows an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification of the appliance\u2019s global configuration.",
+    "repos": [
+      "https://github.com/watchtowrlabs/watchTowr-vs-Barracuda-RCE-CVE-2026-116606-CVE-2026-111560"
+    ],
+    "updated": "2026-11-03T05:18:31.200000",
+    "epss": 0.728
+  },
+  "CVE-2026-111560": {
+    "cvss3": null,
+    "severity": null,
+    "epss_severity": "LOW",
+    "nuclei": null,
+    "posts": [
+      {
+        "account": {
+          "id": "109264058077639703",
+          "username": "patrickcmiller",
+          "acct": "patrickcmiller",
+          "display_name": "Patrick C Miller :donor:",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2022-10-31T00:00:00.000Z",
+          "note": "<p>Critical Infrastructure &amp; Industrial Security Advisor. Recovering regulator. Airport dweller. <span class=\"h-card\" translate=\"no\"><a href=\"https://infosec.exchange/@ampyxcyber\" class=\"u-url mention\">@<span>ampyxcyber</span></a></span> President and CEO.</p>",
+          "url": "https://infosec.exchange/@patrickcmiller",
+          "uri": "https://infosec.exchange/users/patrickcmiller",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/264/058/077/639/703/original/8bef32ac94a8ceea.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/109/264/058/077/639/703/original/8bef32ac94a8ceea.png",
+          "avatar_description": "",
+          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/264/058/077/639/703/original/48cd70fb9f44be1f.jpeg",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/109/264/058/077/639/703/original/48cd70fb9f44be1f.jpeg",
+          "header_description": "",
+          "followers_count": 4834,
+          "following_count": 1495,
+          "statuses_count": 62605,
+          "last_status_at": "2026-11-07",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "noindex": false,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [
+            {
+              "shortcode": "donor",
+              "url": "https://media.infosec.exchange/infosec.exchange/custom_emojis/images/000/183/594/original/61a35b247fc91e55.png",
+              "static_url": "https://media.infosec.exchange/infosec.exchange/custom_emojis/images/000/183/594/static/61a35b247fc91e55.png",
+              "visible_in_picker": true
+            }
+          ],
+          "roles": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://www.patrickcmiller.com/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">patrickcmiller.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-11-10T13:54:42.600+00:00"
+            },
+            {
+              "name": "Company",
+              "value": "<a href=\"https://www.ampyxcyber.com/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">ampyxcyber.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "LinkedIn",
+              "value": "<a href=\"https://www.linkedin.com/in/millerpatrickc/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">linkedin.com/in/millerpatrickc/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Podcast",
+              "value": "<a href=\"https://ampyxcyber.com/podcast\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">ampyxcyber.com/podcast</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@patrickcmiller/117576743130248962",
+        "content": "<p>Barracuda Networks is your new best friend (Barracuda Email Security Gateway Pre-Auth Remote Root RCE CVE-2026-116606 / CVE-2026-111560) <a href=\"https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">labs.watchtowr.com/barracuda-n</span><span class=\"invisible\">etworks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/</span></a></p>",
+        "created_at": "2026-11-07T19:12:02.083Z"
+      },
+      {
+        "account": {
+          "id": "109264069240647632",
+          "username": "patrickcmiller",
+          "acct": "patrickcmiller@infosec.exchange",
+          "display_name": "Patrick C Miller :donor:",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2022-10-31T00:00:00.000Z",
+          "note": "<p>Critical Infrastructure &amp; Industrial Security Advisor. Recovering regulator. Airport dweller. <span class=\"h-card\" translate=\"no\"><a href=\"https://infosec.exchange/@ampyxcyber\" class=\"u-url mention\" rel=\"nofollow noopener\" target=\"_blank\">@<span>ampyxcyber</span></a></span> President and CEO.</p>",
+          "url": "https://infosec.exchange/@patrickcmiller",
+          "uri": "https://infosec.exchange/users/patrickcmiller",
+          "avatar": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/109/264/069/240/647/632/original/ae84f024643b820b.png",
+          "avatar_static": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/109/264/069/240/647/632/original/ae84f024643b820b.png",
+          "avatar_description": "",
+          "header": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/109/264/069/240/647/632/original/09e94bd2a6ff54a6.jpeg",
+          "header_static": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/109/264/069/240/647/632/original/09e94bd2a6ff54a6.jpeg",
+          "header_description": "",
+          "followers_count": 4834,
+          "following_count": 1495,
+          "statuses_count": 62606,
+          "last_status_at": "2026-11-07",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [
+            {
+              "shortcode": "donor",
+              "url": "https://files.ioc.exchange/iocexchange/cache/custom_emojis/images/000/118/123/original/97af31c7169851e3.png",
+              "static_url": "https://files.ioc.exchange/iocexchange/cache/custom_emojis/images/000/118/123/static/97af31c7169851e3.png",
+              "visible_in_picker": true
+            }
+          ],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://www.patrickcmiller.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">patrickcmiller.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Company",
+              "value": "<a href=\"https://www.ampyxcyber.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">ampyxcyber.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "LinkedIn",
+              "value": "<a href=\"https://www.linkedin.com/in/millerpatrickc/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">linkedin.com/in/millerpatrickc/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "Podcast",
+              "value": "<a href=\"https://ampyxcyber.com/podcast\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">ampyxcyber.com/podcast</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://infosec.exchange/@patrickcmiller/117576743130248962",
+        "content": "<p>Barracuda Networks is your new best friend (Barracuda Email Security Gateway Pre-Auth Remote Root RCE CVE-2026-116606 / CVE-2026-111560) <a href=\"https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">labs.watchtowr.com/barracuda-n</span><span class=\"invisible\">etworks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/</span></a></p>",
+        "created_at": "2026-11-07T19:12:02.000Z"
+      }
+    ],
+    "description": "Improper neutralization of shell metacharacters in the timezone configuration field in certain Barracuda appliance products using common Barracuda code allows an authenticated administrator to inject OS commands that execute with root privileges when the crafted timezone value is subsequently processed.",
+    "repos": [
+      "https://github.com/watchtowrlabs/watchTowr-vs-Barracuda-RCE-CVE-2026-116606-CVE-2026-111560"
+    ],
+    "updated": "2026-11-02T15:31:35",
+    "epss": 0.471
+  },
+  "CVE-2026-7527": {
+    "cvss3": 4.7,
+    "severity": "MEDIUM",
+    "epss_severity": "LOW",
+    "nuclei": null,
+    "posts": [
+      {
+        "account": {
+          "id": "114443602067941568",
+          "username": "hugovalters",
+          "acct": "hugovalters@mastodon.social",
+          "display_name": "Hugo | DevOps | Cybersecurity",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-05-01T00:00:00.000Z",
+          "note": "<p>Tech Lead &amp; DevSecOps. \ud83d\udee1\ufe0f Cybersecurity | \ud83d\udcbb IT Tutorials | \ud83c\udff4\u200d\u2620\ufe0f Ethical Hacking | \u2699\ufe0f Tech Reviews. Learn, secure, and explore cutting-edge IT solutions! \ud83d\udc47</p>",
+          "url": "https://mastodon.social/@hugovalters",
+          "uri": "https://mastodon.social/users/hugovalters",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/114/443/602/067/941/568/original/389ac35208593325.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/114/443/602/067/941/568/original/389ac35208593325.png",
+          "avatar_description": "",
+          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/114/443/602/067/941/568/original/41357cfc44442d1f.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/114/443/602/067/941/568/original/41357cfc44442d1f.png",
+          "header_description": "",
+          "followers_count": 158,
+          "following_count": 4,
+          "statuses_count": 7788,
+          "last_status_at": "2026-11-07",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "fields": [
+            {
+              "name": "CyberSecurity paradise",
+              "value": "<a href=\"https://www.valtersit.com\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">valtersit.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2026-11-07T15:09:28.662+00:00"
+            },
+            {
+              "name": "YouTube",
+              "value": "<a href=\"http://youtube.com/@hugovalters\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">http://</span><span class=\"\">youtube.com/@hugovalters</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "X.com",
+              "value": "<a href=\"https://x.com/hugovalters\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/hugovalters</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "About ValtersIT.com",
+              "value": "<a href=\"https://www.valtersit.com/about/\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">valtersit.com/about/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2026-11-07T15:09:29.463+00:00"
+            }
+          ]
+        },
+        "url": "https://mastodon.social/@hugovalters/117576459938166384",
+        "content": "<p>CVE-2026-7527: Open Redirect in WP Ghost (Hide My WP Ghost) WordPress plugin, all versions up to 7.0.02. CVSS 4.7. Unauthenticated attackers can redirect users to malicious sites via crafted logout links. Patch still under review - watch for updates. <a href=\"https://www.valtersit.com/cve/CVE-2026-7527/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">valtersit.com/cve/CVE-2026-752</span><span class=\"invisible\">7/</span></a></p>",
+        "created_at": "2026-11-07T18:00:00.000Z"
+      }
+    ],
+    "description": "The WP Ghost (Hide My WP Ghost) \u2013 Security & Firewall plugin for WordPress is vulnerable to Open Redirect in all versions up to, and including, 7.0.02. This is due to the plugin not properly validating user input. This makes it possible for unauthenticated attackers to redirect users to potentially malicious sites if they can successfully trick them into clicking on a specially crafted link. Exploitation requires tricking a logged-in user into clicking a crafted logout URL; the victim is fully logged out via wp_logout() before the malicious redirect is issued, making the logout irreversible as part of the attack chain.",
+    "repos": [],
+    "updated": "2026-09-19T09:32:14",
+    "epss": 0.395
+  },
+  "CVE-2026-109991": {
+    "cvss3": 7.5,
+    "severity": "HIGH",
+    "epss_severity": null,
+    "nuclei": null,
+    "posts": [
+      {
+        "account": {
+          "id": "115780929223240988",
+          "username": "thehackerwire",
+          "acct": "thehackerwire@mastodon.social",
+          "display_name": "TheHackerWire",
+          "locked": false,
+          "bot": true,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-12-21T00:00:00.000Z",
+          "note": "<p>Cybersecurity Chronicles \ud83c\udf10 | Breaking down the latest in security news, <a href=\"https://mastodon.social/tags/hacking\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>hacking</span></a> <a href=\"https://mastodon.social/tags/darkweb\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>darkweb</span></a> <a href=\"https://mastodon.social/tags/Cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Cybersecurity</span></a> <a href=\"https://mastodon.social/tags/InfoSec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>InfoSec</span></a> <a href=\"https://mastodon.social/tags/HackingNews\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>HackingNews</span></a></p>",
+          "url": "https://mastodon.social/@thehackerwire",
+          "uri": "https://mastodon.social/ap/users/115755483699003887",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/115/780/929/223/240/988/original/57ab1a2ca33e5310.jpg",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/115/780/929/223/240/988/original/57ab1a2ca33e5310.jpg",
+          "avatar_description": "",
+          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
+          "header_description": "",
+          "followers_count": 262,
+          "following_count": 2,
+          "statuses_count": 11503,
+          "last_status_at": "2026-11-07",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://www.thehackerwire.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">thehackerwire.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "X",
+              "value": "<a href=\"https://x.com/TheHackerWire\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/TheHackerWire</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://mastodon.social/@thehackerwire/117576420861191978",
+        "content": "<p>\ud83d\udfe0 CVE-2026-109991 - High (7.5)</p><p>The FunnelKit Payment Gateway for Stripe WooCommerce plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 1.15.0.2 via the 'order-pay (WP query var from /checkout/order-pay//)' parameter due ...</p><p>\ud83d\udd17 <a href=\"https://www.thehackerwire.com/vulnerability/CVE-2026-109991/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">thehackerwire.com/vulnerabilit</span><span class=\"invisible\">y/CVE-2026-109991/</span></a></p><p><a href=\"https://mastodon.social/tags/CVE\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE</span></a> <a href=\"https://mastodon.social/tags/vulnerability\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>vulnerability</span></a> <a href=\"https://mastodon.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://mastodon.social/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://mastodon.social/tags/security\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>security</span></a> <a href=\"https://mastodon.social/tags/Tenda\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Tenda</span></a> <a href=\"https://mastodon.social/tags/patchstack\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>patchstack</span></a></p>",
+        "created_at": "2026-11-07T17:50:04.000Z"
+      },
+      {
+        "account": {
+          "id": "115780929217569257",
+          "username": "thehackerwire",
+          "acct": "thehackerwire@mastodon.social",
+          "display_name": "TheHackerWire",
+          "locked": false,
+          "bot": true,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-12-21T00:00:00.000Z",
+          "note": "<p>Cybersecurity Chronicles \ud83c\udf10 | Breaking down the latest in security news, <a href=\"https://mastodon.social/tags/hacking\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>hacking</span></a> <a href=\"https://mastodon.social/tags/darkweb\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>darkweb</span></a> <a href=\"https://mastodon.social/tags/Cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Cybersecurity</span></a> <a href=\"https://mastodon.social/tags/InfoSec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>InfoSec</span></a> <a href=\"https://mastodon.social/tags/HackingNews\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>HackingNews</span></a></p>",
+          "url": "https://mastodon.social/@thehackerwire",
+          "uri": "https://mastodon.social/ap/users/115755483699003887",
+          "avatar": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/115/780/929/217/569/257/original/341133aeca71aa2f.jpg",
+          "avatar_static": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/115/780/929/217/569/257/original/341133aeca71aa2f.jpg",
+          "avatar_description": "",
+          "header": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/115/780/929/217/569/257/original/08799dcde5207ae9.jpeg",
+          "header_static": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/115/780/929/217/569/257/original/08799dcde5207ae9.jpeg",
+          "header_description": "",
+          "followers_count": 260,
+          "following_count": 2,
+          "statuses_count": 11503,
+          "last_status_at": "2026-11-07",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://www.thehackerwire.com/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"\">thehackerwire.com/</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "X",
+              "value": "<a href=\"https://x.com/TheHackerWire\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/TheHackerWire</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ]
+        },
+        "url": "https://mastodon.social/@thehackerwire/117576420861191978",
+        "content": "<p>\ud83d\udfe0 CVE-2026-109991 - High (7.5)</p><p>The FunnelKit Payment Gateway for Stripe WooCommerce plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 1.15.0.2 via the 'order-pay (WP query var from /checkout/order-pay//)' parameter due ...</p><p>\ud83d\udd17 <a href=\"https://www.thehackerwire.com/vulnerability/CVE-2026-109991/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">thehackerwire.com/vulnerabilit</span><span class=\"invisible\">y/CVE-2026-109991/</span></a></p><p><a href=\"https://mastodon.social/tags/CVE\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE</span></a> <a href=\"https://mastodon.social/tags/vulnerability\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>vulnerability</span></a> <a href=\"https://mastodon.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://mastodon.social/tags/cybersecurity\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>cybersecurity</span></a> <a href=\"https://mastodon.social/tags/security\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>security</span></a> <a href=\"https://mastodon.social/tags/Tenda\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Tenda</span></a> <a href=\"https://mastodon.social/tags/patchstack\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>patchstack</span></a></p>",
+        "created_at": "2026-11-07T17:50:04.000Z"
+      }
+    ],
+    "description": "The FunnelKit Payment Gateway for Stripe WooCommerce plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 1.15.0.2 via the 'order-pay (WP query var from /checkout/order-pay/<ID>/)' parameter due to missing validation on a user controlled key. This makes it possible for unauthenticated attackers to read the full billing PII \u2014 including name, email address, phone number, and complete street address \u2014 of any store order by enumerating sequential order IDs, as this data is emitted into the inline fkwcs_data JavaScript object via wp_localize_script on every matching page response. Exploitation occurs even when WooCommerce itself rejects the order-pay page request, because the plugin's wp_localize_script call runs independently of WooCommerce's own order-key validation on the same request.",
+    "repos": [],
+    "updated": "2026-11-07T12:32:00",
+    "epss": 0
+  },
+  "CVE-2026-15463": {
+    "cvss3": 6.1,
+    "severity": "MEDIUM",
+    "epss_severity": "LOW",
+    "nuclei": null,
+    "posts": [
+      {
+        "account": {
+          "id": "114443602067941568",
+          "username": "hugovalters",
+          "acct": "hugovalters@mastodon.social",
+          "display_name": "Hugo | DevOps | Cybersecurity",
+          "locked": false,
+          "bot": false,
+          "discoverable": true,
+          "indexable": true,
+          "group": false,
+          "created_at": "2025-05-01T00:00:00.000Z",
+          "note": "<p>Tech Lead &amp; DevSecOps. \ud83d\udee1\ufe0f Cybersecurity | \ud83d\udcbb IT Tutorials | \ud83c\udff4\u200d\u2620\ufe0f Ethical Hacking | \u2699\ufe0f Tech Reviews. Learn, secure, and explore cutting-edge IT solutions! \ud83d\udc47</p>",
+          "url": "https://mastodon.social/@hugovalters",
+          "uri": "https://mastodon.social/users/hugovalters",
+          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/114/443/602/067/941/568/original/389ac35208593325.png",
+          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/114/443/602/067/941/568/original/389ac35208593325.png",
+          "avatar_description": "",
+          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/114/443/602/067/941/568/original/41357cfc44442d1f.png",
+          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/114/443/602/067/941/568/original/41357cfc44442d1f.png",
+          "header_description": "",
+          "followers_count": 158,
+          "following_count": 4,
+          "statuses_count": 7788,
+          "last_status_at": "2026-11-07",
+          "hide_collections": false,
+          "show_media": true,
+          "show_media_replies": true,
+          "show_featured": true,
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "manual": [],
+            "current_user": "automatic"
+          },
+          "emojis": [],
+          "fields": [
+            {
+              "name": "CyberSecurity paradise",
+              "value": "<a href=\"https://www.valtersit.com\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">valtersit.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2026-11-07T15:09:28.662+00:00"
+            },
+            {
+              "name": "YouTube",
+              "value": "<a href=\"http://youtube.com/@hugovalters\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">http://</span><span class=\"\">youtube.com/@hugovalters</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "X.com",
+              "value": "<a href=\"https://x.com/hugovalters\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/hugovalters</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            },
+            {
+              "name": "About ValtersIT.com",
+              "value": "<a href=\"https://www.valtersit.com/about/\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">valtersit.com/about/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2026-11-07T15:09:29.463+00:00"
+            }
+          ]
+        },
+        "url": "https://mastodon.social/@hugovalters/117576107313109818",
+        "content": "<p>CVE-2026-15463: Reflected XSS in SSL Zen WordPress plugin (all versions up to 4.7.42), CVSS 6.1. Unauthenticated attackers can inject scripts via the host parameter. No patch confirmed. Update and check with the vendor now. <a href=\"https://mastodon.social/tags/CVE\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>CVE</span></a> <a href=\"https://mastodon.social/tags/infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>infosec</span></a> <a href=\"https://mastodon.social/tags/WordPress\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>WordPress</span></a> <a href=\"https://www.valtersit.com/cve/CVE-2026-15463/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">valtersit.com/cve/CVE-2026-154</span><span class=\"invisible\">63/</span></a></p>",
+        "created_at": "2026-11-07T16:30:20.000Z"
+      }
+    ],
+    "description": "The SSL Zen \u2014 SSL Certificate Installer & HTTPS Redirects plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'host' parameter in all versions up to, and including, 4.7.42 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link. The vulnerability is only exploitable when in the system_requirements stage.",
+    "repos": [],
+    "updated": "2026-09-19T09:32:13",
+    "epss": 0.22799999999999998
+  },
   "CVE-2026-119977": {
     "cvss3": 8.1,
     "severity": "HIGH",
@@ -57,15 +1861,15 @@
     ],
     "description": "WordPress Core is vulnerable to Remote Code Execution in versions 4.7 through 7.1.3. This is due to predictable, web-accessible staging paths used during full-package core upgrades. This makes it possible for unauthenticated attackers to execute code on the server during the upgrade window.",
     "repos": [
-      "https://github.com/riabinov/CVE-2026-119977",
-      "https://github.com/Worthes/CVE-2026-119977-WordPress-Upgrade-RCE-Bypasses-7.1.4",
-      "https://github.com/hacermuden/CVE-2026-119977",
-      "https://github.com/tc4dy/CVE-2026-119977-Toolkit",
-      "https://github.com/lysophavin18/CVE-2026-119977",
       "https://github.com/paulmann/Bash_WP-CLI_Update",
-      "https://github.com/foxcornlab/wordpress-core-scanner"
+      "https://github.com/tc4dy/CVE-2026-119977-Toolkit",
+      "https://github.com/riabinov/CVE-2026-119977",
+      "https://github.com/foxcornlab/wordpress-core-scanner",
+      "https://github.com/Worthes/CVE-2026-119977-WordPress-Upgrade-RCE-Bypasses-7.1.4",
+      "https://github.com/lysophavin18/CVE-2026-119977",
+      "https://github.com/hacermuden/CVE-2026-119977"
     ],
-    "updated": "2026-11-04T12:52:38.683000",
+    "updated": "2026-11-03T21:31:57",
     "epss": 1.157
   },
   "CVE-2026-118267": {
@@ -95,9 +1899,9 @@
           "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_description": "",
-          "followers_count": 261,
+          "followers_count": 262,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -151,7 +1955,7 @@
           "header_description": "",
           "followers_count": 260,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -185,7 +1989,7 @@
     ],
     "description": "The WP Data Access \u2013 App Builder for Tables, Forms, Dashboards, Charts & Maps plugin for WordPress is vulnerable to Incorrect Authorization leading to Privilege Escalation in all versions up to, and including, 5.5.89 This is due to the plugin's write endpoints (`wpda/app/update`, `wpda/app/delete`, `wpda/app/insert`) passing the attacker-supplied `key` and `val` parameters directly to `$wpdadb->update`, `$wpdadb->delete`, and `$wpdadb->insert` without enforcing the container's row-filter (`defaultWhere`) or per-column allow-list (`isSelected`) restrictions that are correctly applied on the read endpoints. This makes it possible for authenticated attackers, with Subscriber-level access and above, to write to arbitrary rows and columns outside the configured restrictions \u2014 including overwriting the `user_pass` field of the WordPress administrator account in `wp_users` \u2014 and subsequently authenticate as the administrator, achieving full site takeover. Exploitation requires an administrator to have published a Data App that enables write transactions (update, delete, or insert) for Subscriber-level or anonymous users, which is an explicitly advertised use-case of the plugin. Exploitation by unauthenticated attackers requires that the administrator has published a Data App whose rest_api.authorization is 'anonymous' and whose container has transactions.update (or delete/insert) enabled. On a default installation, where that is not configured, the vulnerability requires attackers with subscriber-level access and above.",
     "repos": [],
-    "updated": "2026-11-07T12:17:43.983000",
+    "updated": "2026-11-07T12:32:01",
     "epss": 0
   },
   "CVE-2026-123966": {
@@ -215,9 +2019,9 @@
           "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_description": "",
-          "followers_count": 261,
+          "followers_count": 262,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -271,7 +2075,7 @@
           "header_description": "",
           "followers_count": 260,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -305,7 +2109,7 @@
     ],
     "description": "A vulnerability was determined in Tenda AC19 16.03.10.07. Affected by this issue is the function saveParentControlInfo of the file /goform/saveParentControlInfo. This manipulation of the argument deviceId causes heap-based buffer overflow. The attack is possible to be carried out remotely. The exploit has been publicly disclosed and may be utilized.",
     "repos": [],
-    "updated": "2026-11-07T14:17:01.973000",
+    "updated": "2026-11-07T15:30:36",
     "epss": 0
   },
   "CVE-2026-120984": {
@@ -335,9 +2139,9 @@
           "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_description": "",
-          "followers_count": 261,
+          "followers_count": 262,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -391,7 +2195,7 @@
           "header_description": "",
           "followers_count": 260,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -425,7 +2229,7 @@
     ],
     "description": "A flaw was found in the Keycloak server's client management component. When a client is created or imported with authorization services enabled, the system fails to properly clear an internal session attribute used during the setup process. This allows an authenticated attacker with client management permissions to bypass security controls and upload a malicious JavaScript policy, which is then executed on the server when an authorization request is made. Successful exploitation could allow the attacker to run arbitrary code on the server, potentially compromising the entire system.",
     "repos": [],
-    "updated": "2026-11-07T14:17:01.717000",
+    "updated": "2026-11-07T15:30:36",
     "epss": 0
   },
   "CVE-2026-114713": {
@@ -523,7 +2327,7 @@
           "header_description": "",
           "followers_count": 158,
           "following_count": 4,
-          "statuses_count": 7767,
+          "statuses_count": 7788,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -737,30 +2541,31 @@
     ],
     "description": "sshd in OpenSSH before 10.6p2 on Linux, when musl libc is used without PAM, lacks a workaround for a password authentication bypass (related to misinterpretation of whether a string is intended to be a password hash). For some configurations of accounts, any password between 256 and 1024 characters succeeds. An example of a platform using musl libc without PAM is Alpine Linux.",
     "repos": [
-      "https://github.com/techtaek77/sshole-guide",
-      "https://github.com/mlazzarotto/ansible-sshole-remediate",
-      "https://github.com/shenxianpeng/check-sshole",
-      "https://github.com/Funcan/sshole",
-      "https://github.com/akarkode/alpine-openssh-sshole-auth-bypass",
-      "https://github.com/HackSpeak/CVE-2026-123158",
-      "https://github.com/The-DevOps-Daily/alpine-sshd-check",
-      "https://github.com/0xBlackash/CVE-2026-123158",
-      "https://github.com/techdevfun/alpinegate",
-      "https://github.com/mc493/openssh-musl-enterprise--hardening-cve-2026-123158",
-      "https://github.com/ersinkoc/sshole-check",
-      "https://github.com/lpizziniacofortinet/cve-2026-123158-openssh-musl-lab",
       "https://github.com/Hel1um17/sshole-bypass-openssh-password",
-      "https://github.com/gabrielunknown/CVE-2026-123158_SSHole",
-      "https://github.com/crash00xd/CVE-2026-123158_SSHRole_PoC",
-      "https://github.com/coboliqcom/cve-2026-123158-sshole-safe-rust",
-      "https://github.com/Maalfer/CVE-2026-123158",
-      "https://github.com/Hika-sec/sshole-scanner",
-      "https://github.com/halilkirazkaya/CVE-2026-123158",
       "https://github.com/ansonhsu-ai/sshhole-cve-2026-123158-ste",
+      "https://github.com/Maalfer/CVE-2026-123158",
+      "https://github.com/rothoma2/cve-2026-123158-sshole",
+      "https://github.com/mlazzarotto/ansible-sshole-remediate",
+      "https://github.com/lpizziniacofortinet/cve-2026-123158-openssh-musl-lab",
+      "https://github.com/The-DevOps-Daily/alpine-sshd-check",
+      "https://github.com/techtaek77/sshole-guide",
+      "https://github.com/Hika-sec/sshole-scanner",
       "https://github.com/CriticalWombat/sshole_scanner-CVE-2026-123158",
-      "https://github.com/rothoma2/cve-2026-123158-sshole"
+      "https://github.com/ersinkoc/sshole-check",
+      "https://github.com/coboliqcom/cve-2026-123158-sshole-safe-rust",
+      "https://github.com/halilkirazkaya/CVE-2026-123158",
+      "https://github.com/Funcan/sshole",
+      "https://github.com/mc493/openssh-musl-enterprise--hardening-cve-2026-123158",
+      "https://github.com/shenxianpeng/check-sshole",
+      "https://github.com/techdevfun/alpinegate",
+      "https://github.com/gabrielunknown/CVE-2026-123158_SSHole",
+      "https://github.com/HackSpeak/CVE-2026-123158",
+      "https://github.com/0xBlackash/CVE-2026-123158",
+      "https://github.com/crash00xd/CVE-2026-123158_SSHRole_PoC",
+      "https://github.com/akarkode/alpine-openssh-sshole-auth-bypass",
+      "https://github.com/MikeCase/check-sshole"
     ],
-    "updated": "2026-11-06T05:18:26.710000",
+    "updated": "2026-11-05T21:35:57",
     "epss": 0.976
   },
   "CVE-2026-119075": {
@@ -790,7 +2595,7 @@
           "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
           "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
           "header_description": "",
-          "followers_count": 158,
+          "followers_count": 159,
           "following_count": 0,
           "statuses_count": 4095,
           "last_status_at": "2026-11-07",
@@ -861,9 +2666,9 @@
           "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_description": "",
-          "followers_count": 261,
+          "followers_count": 262,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -986,7 +2791,7 @@
           "header_description": "",
           "followers_count": 260,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -1020,7 +2825,7 @@
     ],
     "description": "The Registration Form for WooCommerce plugin for WordPress is vulnerable to privilege escalation due to a missing allow-list check in the FormHandler::validate_checkout_fields() function in versions up to, and including, 1.1.4 The My Account registration path (validate_fields()) validates a submitted 'tgwcfb/user-roles' value against the form's configured allowed roles, but the checkout registration path (validate_checkout_fields(), hooked to woocommerce_after_checkout_validation) stores the raw $_POST['user_roles'] value in $this->valid_data without any allow-list enforcement, and add_user_data() then injects that value into woocommerce_new_customer_data as the new account's role. This makes it possible for unauthenticated attackers to elevate their privileges to Administrator by supplying a user_roles=administrator parameter when creating an account during checkout, resulting in full site takeover.",
     "repos": [],
-    "updated": "2026-11-07T12:17:44.157000",
+    "updated": "2026-11-07T12:32:01",
     "epss": 0
   },
   "CVE-2026-118066": {
@@ -1050,9 +2855,9 @@
           "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_description": "",
-          "followers_count": 261,
+          "followers_count": 262,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -1106,7 +2911,7 @@
           "header_description": "",
           "followers_count": 260,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -1140,7 +2945,7 @@
     ],
     "description": "The Appointment Booking Plugin \u2013 LatePoint | Calendar & Scheduling for WordPress plugin for WordPress is vulnerable to Authentication Bypass via Account Takeover in all versions up to, and including, 5.7.6. This is due to the `OsModel::build_conditions_query()` function in `lib/models/model.php` comparing WHERE-clause values against the literal strings `'IS NULL'` and `'IS NOT NULL'` and concatenating a match directly into SQL without binding it as a parameter, a flaw that neither `sanitize_text_field()` nor the 5.7.5 `is_scalar()` hardening guard closes, since both pass the scalar sentinel through unchanged. This makes it possible for unauthenticated attackers to send `params[password_reset_token]=IS NOT NULL` to the public `customer_cabinet__change_password` AJAX route to match every non-null `account_nonse` value, resolving to the lowest-id customer and overwriting that customer's password to an attacker-chosen value \u2014 granting full access to their bookings, orders, and PII, and, when the `wp_users_as_customers` option is enabled, takeover of the linked WordPress subscriber or customer-role account. The attacker can first identify the target customer's email by sending `params[order_intent_key]=IS NOT NULL` to the public `steps__start_from_order_intent` route, which returns the name and email from the first matching order intent, and can then self-arm the required 15-minute password-reset freshness window by triggering a reset for that customer directly.",
     "repos": [],
-    "updated": "2026-11-07T12:17:43.833000",
+    "updated": "2026-11-07T12:32:02",
     "epss": 0
   },
   "CVE-2026-116751": {
@@ -1170,9 +2975,9 @@
           "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_description": "",
-          "followers_count": 261,
+          "followers_count": 262,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -1226,7 +3031,7 @@
           "header_description": "",
           "followers_count": 260,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -1292,7 +3097,7 @@
           "header_description": "",
           "followers_count": 158,
           "following_count": 4,
-          "statuses_count": 7767,
+          "statuses_count": 7788,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -1336,7 +3141,7 @@
     ],
     "description": "The WP Customer Reviews plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'wpcr3_fname' parameter in all versions up to, and including, 3.7.8 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
     "repos": [],
-    "updated": "2026-09-21T13:33:33.387000",
+    "updated": "2026-09-19T09:32:14",
     "epss": 0.461
   },
   "CVE-2026-120839": {
@@ -1366,9 +3171,9 @@
           "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_description": "",
-          "followers_count": 261,
+          "followers_count": 262,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -1422,7 +3227,7 @@
           "header_description": "",
           "followers_count": 260,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -1486,9 +3291,9 @@
           "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_description": "",
-          "followers_count": 261,
+          "followers_count": 262,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -1542,7 +3347,7 @@
           "header_description": "",
           "followers_count": 260,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -1576,7 +3381,7 @@
     ],
     "description": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in Magepeople inc. WpTravelly tour-booking-manager allows PHP Local File Inclusion.This issue affects WpTravelly: from n/a through 2.3.8.",
     "repos": [],
-    "updated": "2026-11-07T15:30:36",
+    "updated": "2026-11-07T19:17:22.090000",
     "epss": 0
   },
   "CVE-2026-122041": {
@@ -1606,9 +3411,9 @@
           "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_description": "",
-          "followers_count": 261,
+          "followers_count": 262,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -1662,7 +3467,7 @@
           "header_description": "",
           "followers_count": 260,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -1839,10 +3644,11 @@
     ],
     "description": "Out-of-bounds read in Windows Paint allows an unauthorized attacker to execute code over a network.",
     "repos": [
-      "https://github.com/0xBlackash/CVE-2026-83844",
+      "https://github.com/LACHHAB-Anas/CVE-2026-83844",
+      "https://github.com/Cobrastrike62/CVE-2026-83844-Detection",
       "https://github.com/mokshshah18/CVE-2026-83844-PoC-MS-paint-v-11.2609.401.0",
       "https://github.com/LilPoule/CVE-2026-83844",
-      "https://github.com/Cobrastrike62/CVE-2026-83844-Detection"
+      "https://github.com/0xBlackash/CVE-2026-83844"
     ],
     "updated": "2026-10-13T21:35:04",
     "epss": 0.734
@@ -1876,7 +3682,7 @@
           "header_description": "",
           "followers_count": 222,
           "following_count": 1,
-          "statuses_count": 73558,
+          "statuses_count": 73579,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -1925,7 +3731,7 @@
           "header_description": "",
           "followers_count": 222,
           "following_count": 1,
-          "statuses_count": 73558,
+          "statuses_count": 73579,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -1954,160 +3760,8 @@
     ],
     "description": "A buffer overflow vulnerability in pcx_write_rle() in contrib/japanese/gdev10v.c of Artifex Software GhostScript v9.50 allows a remote attacker to cause a denial of service via a crafted PDF file. This is fixed in v9.51.",
     "repos": [],
-    "updated": "2023-01-27T05:02:30",
+    "updated": "2026-06-17T02:58:02.193000",
     "epss": 2.252
-  },
-  "CVE-2026-104014": {
-    "cvss3": 9.8,
-    "severity": "CRITICAL",
-    "epss_severity": null,
-    "nuclei": null,
-    "posts": [
-      {
-        "account": {
-          "id": "114267265908113668",
-          "username": "offseq",
-          "acct": "offseq",
-          "display_name": "OffSequence",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "indexable": true,
-          "group": false,
-          "created_at": "2025-04-02T00:00:00.000Z",
-          "note": "<p>OffSeq is a cybersecurity company enhancing organizational digital resilience through comprehensive protection against evolving cyber threats. We offer specialized services for businesses of all sizes, with particular expertise in Baltic, Scandinavian, Belgian markets and EU regulatory compliance.</p>",
-          "url": "https://infosec.exchange/@offseq",
-          "uri": "https://infosec.exchange/users/offseq",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/114/267/265/908/113/668/original/014780c34a5a61f4.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/114/267/265/908/113/668/original/014780c34a5a61f4.png",
-          "avatar_description": "",
-          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
-          "header_description": "",
-          "followers_count": 158,
-          "following_count": 0,
-          "statuses_count": 4095,
-          "last_status_at": "2026-11-07",
-          "hide_collections": null,
-          "show_media": true,
-          "show_media_replies": true,
-          "show_featured": true,
-          "noindex": false,
-          "feature_approval": {
-            "automatic": [
-              "public"
-            ],
-            "manual": [],
-            "current_user": "automatic"
-          },
-          "emojis": [],
-          "roles": [],
-          "fields": [
-            {
-              "name": "Website",
-              "value": "<a href=\"https://offseq.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">offseq.com</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Threat Radar",
-              "value": "<a href=\"https://radar.offseq.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">radar.offseq.com</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Guard",
-              "value": "<a href=\"https://guard.offseq.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">guard.offseq.com</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Breach",
-              "value": "<a href=\"https://breach.offseq.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">breach.offseq.com</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Training & Certifications",
-              "value": "<a href=\"https://training.offseq.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">training.offseq.com</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://infosec.exchange/@offseq/117575046664661582",
-        "content": "<p>CRITICAL vuln (CVE-2026-104014) in Naimur Email OTP Verification for WooCommerce \u22642.1.0: Auth bypass lets attackers reset passwords &amp; hijack accounts if a reset was started but not completed. No fix yet. Remove or disable plugin. <a href=\"https://radar.offseq.com/threat/cve-2026-104014-cwe-287-improper-authentication-in-naimurrahmannahid-naimur-email-otp-verification-for-fd45f297ed851e5e\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">radar.offseq.com/threat/cve-20</span><span class=\"invisible\">26-104014-cwe-287-improper-authentication-in-naimurrahmannahid-naimur-email-otp-verification-for-fd45f297ed851e5e</span></a> <a href=\"https://infosec.exchange/tags/OffSeq\" class=\"mention hashtag\" rel=\"tag\">#<span>OffSeq</span></a> <a href=\"https://infosec.exchange/tags/WordPress\" class=\"mention hashtag\" rel=\"tag\">#<span>WordPress</span></a> <a href=\"https://infosec.exchange/tags/WooCommerce\" class=\"mention hashtag\" rel=\"tag\">#<span>WooCommerce</span></a> <a href=\"https://infosec.exchange/tags/Infosec\" class=\"mention hashtag\" rel=\"tag\">#<span>Infosec</span></a></p>",
-        "created_at": "2026-11-07T12:00:36.072Z"
-      },
-      {
-        "account": {
-          "id": "114693833193257384",
-          "username": "offseq",
-          "acct": "offseq@infosec.exchange",
-          "display_name": "OffSequence",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "indexable": true,
-          "group": false,
-          "created_at": "2025-04-02T00:00:00.000Z",
-          "note": "<p>OffSeq is a cybersecurity company enhancing organizational digital resilience through comprehensive protection against evolving cyber threats. We offer specialized services for businesses of all sizes, with particular expertise in Baltic, Scandinavian, Belgian markets and EU regulatory compliance.</p>",
-          "url": "https://infosec.exchange/@offseq",
-          "uri": "https://infosec.exchange/users/offseq",
-          "avatar": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/114/693/833/193/257/384/original/732b82f232d5d6f6.png",
-          "avatar_static": "https://files.ioc.exchange/iocexchange/cache/accounts/avatars/114/693/833/193/257/384/original/732b82f232d5d6f6.png",
-          "avatar_description": "",
-          "header": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/114/693/833/193/257/384/original/3c2387f0cc43b0ab.jpg",
-          "header_static": "https://files.ioc.exchange/iocexchange/cache/accounts/headers/114/693/833/193/257/384/original/3c2387f0cc43b0ab.jpg",
-          "header_description": "",
-          "followers_count": 158,
-          "following_count": 0,
-          "statuses_count": 4096,
-          "last_status_at": "2026-11-07",
-          "hide_collections": false,
-          "show_media": true,
-          "show_media_replies": true,
-          "show_featured": true,
-          "feature_approval": {
-            "automatic": [
-              "public"
-            ],
-            "manual": [],
-            "current_user": "automatic"
-          },
-          "emojis": [],
-          "fields": [
-            {
-              "name": "Website",
-              "value": "<a href=\"https://offseq.com\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">offseq.com</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Threat Radar",
-              "value": "<a href=\"https://radar.offseq.com\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">radar.offseq.com</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2026-11-06T10:35:44.866+00:00"
-            },
-            {
-              "name": "Guard",
-              "value": "<a href=\"https://guard.offseq.com\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">guard.offseq.com</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2026-11-06T10:35:46.052+00:00"
-            },
-            {
-              "name": "Breach",
-              "value": "<a href=\"https://breach.offseq.com\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">breach.offseq.com</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2026-11-06T10:35:46.311+00:00"
-            },
-            {
-              "name": "Training & Certifications",
-              "value": "<a href=\"https://training.offseq.com\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">training.offseq.com</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://infosec.exchange/@offseq/117575046664661582",
-        "content": "<p>CRITICAL vuln (CVE-2026-104014) in Naimur Email OTP Verification for WooCommerce \u22642.1.0: Auth bypass lets attackers reset passwords &amp; hijack accounts if a reset was started but not completed. No fix yet. Remove or disable plugin. <a href=\"https://radar.offseq.com/threat/cve-2026-104014-cwe-287-improper-authentication-in-naimurrahmannahid-naimur-email-otp-verification-for-fd45f297ed851e5e\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">radar.offseq.com/threat/cve-20</span><span class=\"invisible\">26-104014-cwe-287-improper-authentication-in-naimurrahmannahid-naimur-email-otp-verification-for-fd45f297ed851e5e</span></a> <a href=\"https://infosec.exchange/tags/OffSeq\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>OffSeq</span></a> <a href=\"https://infosec.exchange/tags/WordPress\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>WordPress</span></a> <a href=\"https://infosec.exchange/tags/WooCommerce\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>WooCommerce</span></a> <a href=\"https://infosec.exchange/tags/Infosec\" class=\"mention hashtag\" rel=\"nofollow noopener\" target=\"_blank\">#<span>Infosec</span></a></p>",
-        "created_at": "2026-11-07T12:00:36.000Z"
-      }
-    ],
-    "description": "The Naimur Email OTP Verification for WooCommerce plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 2.1.0. This is due to the plugin's password-reset finalization endpoint (the wp_ajax_nopriv_ceovw_update_new_password action handled by CEOVW_AJAX::update_new_password()) authorizing the reset solely by the presence of a database row marking an email as 'VERIFIED', with no timestamp check, no session binding, and no per-reset token \u2014 combined with mark_otp_as_verified_for_reset() leaving the row in that state after a user enters their code (abandoning the flow leaves the row behind), and a scheduled 'ceovw_cleanup_expired_otps_event' cron that has no add_action() handler anywhere in the plugin so cleanup never runs. This makes it possible for unauthenticated attackers to take over any account whose owner previously requested and verified a password-reset code and did not immediately finish choosing a new password \u2014 the attacker needs only the victim's email address and a nonce that the plugin itself localizes publicly into the CEOVW_APP global on the WooCommerce account page for logged-out visitors, after which they call the endpoint, overwrite the victim's password, and are returned a live wordpress_logged_in_ session cookie for that user (full site takeover if the account is an administrator).",
-    "repos": [],
-    "updated": "2026-11-07T12:32:00",
-    "epss": 0
   },
   "CVE-2026-13770": {
     "cvss3": 6.4,
@@ -2138,7 +3792,7 @@
           "header_description": "",
           "followers_count": 158,
           "following_count": 4,
-          "statuses_count": 7767,
+          "statuses_count": 7788,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -2212,9 +3866,9 @@
           "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_description": "",
-          "followers_count": 261,
+          "followers_count": 262,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -2268,7 +3922,7 @@
           "header_description": "",
           "followers_count": 260,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -2332,9 +3986,9 @@
           "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_description": "",
-          "followers_count": 261,
+          "followers_count": 262,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -2388,7 +4042,7 @@
           "header_description": "",
           "followers_count": 260,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -2452,9 +4106,9 @@
           "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_description": "",
-          "followers_count": 261,
+          "followers_count": 262,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -2508,7 +4162,7 @@
           "header_description": "",
           "followers_count": 260,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -2542,7 +4196,7 @@
     ],
     "description": "Cross-Site Request Forgery (CSRF) vulnerability in Blubrry Podcasting PowerPress Podcasting powerpress allows Cross Site Request Forgery.This issue affects PowerPress Podcasting: from n/a through 11.18.0.",
     "repos": [],
-    "updated": "2026-11-07T12:32:00",
+    "updated": "2026-11-07T19:17:23.820000",
     "epss": 0.201
   },
   "CVE-2026-95870": {
@@ -2572,9 +4226,9 @@
           "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_description": "",
-          "followers_count": 261,
+          "followers_count": 262,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -2628,7 +4282,7 @@
           "header_description": "",
           "followers_count": 260,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -2692,9 +4346,9 @@
           "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_description": "",
-          "followers_count": 261,
+          "followers_count": 262,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -2727,77 +4381,6 @@
       },
       {
         "account": {
-          "id": "114267265908113668",
-          "username": "offseq",
-          "acct": "offseq",
-          "display_name": "OffSequence",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "indexable": true,
-          "group": false,
-          "created_at": "2025-04-02T00:00:00.000Z",
-          "note": "<p>OffSeq is a cybersecurity company enhancing organizational digital resilience through comprehensive protection against evolving cyber threats. We offer specialized services for businesses of all sizes, with particular expertise in Baltic, Scandinavian, Belgian markets and EU regulatory compliance.</p>",
-          "url": "https://infosec.exchange/@offseq",
-          "uri": "https://infosec.exchange/users/offseq",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/114/267/265/908/113/668/original/014780c34a5a61f4.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/accounts/avatars/114/267/265/908/113/668/original/014780c34a5a61f4.png",
-          "avatar_description": "",
-          "header": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/accounts/headers/114/267/265/908/113/668/original/7751777f16b62f40.jpg",
-          "header_description": "",
-          "followers_count": 158,
-          "following_count": 0,
-          "statuses_count": 4095,
-          "last_status_at": "2026-11-07",
-          "hide_collections": null,
-          "show_media": true,
-          "show_media_replies": true,
-          "show_featured": true,
-          "noindex": false,
-          "feature_approval": {
-            "automatic": [
-              "public"
-            ],
-            "manual": [],
-            "current_user": "automatic"
-          },
-          "emojis": [],
-          "roles": [],
-          "fields": [
-            {
-              "name": "Website",
-              "value": "<a href=\"https://offseq.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">offseq.com</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Threat Radar",
-              "value": "<a href=\"https://radar.offseq.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">radar.offseq.com</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Guard",
-              "value": "<a href=\"https://guard.offseq.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">guard.offseq.com</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Breach",
-              "value": "<a href=\"https://breach.offseq.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">breach.offseq.com</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "Training & Certifications",
-              "value": "<a href=\"https://training.offseq.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">training.offseq.com</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            }
-          ]
-        },
-        "url": "https://infosec.exchange/@offseq/117574692690806491",
-        "content": "<p>CVE-2026-123960: CRITICAL buffer overflow in TOTOLINK CA300-PoE (6.2c.884). Exploitable remotely via setWanConfig in /cgi-bin/cstecgi.cgi. Public exploit code available. Restrict mgmt access &amp; monitor endpoints. Patch TBD. <a href=\"https://radar.offseq.com/threat/cve-2026-123960-buffer-overflow-in-totolink-ca300-poe-069c019d3f9cb474\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">radar.offseq.com/threat/cve-20</span><span class=\"invisible\">26-123960-buffer-overflow-in-totolink-ca300-poe-069c019d3f9cb474</span></a> <a href=\"https://infosec.exchange/tags/OffSeq\" class=\"mention hashtag\" rel=\"tag\">#<span>OffSeq</span></a> <a href=\"https://infosec.exchange/tags/infosec\" class=\"mention hashtag\" rel=\"tag\">#<span>infosec</span></a> <a href=\"https://infosec.exchange/tags/netsec\" class=\"mention hashtag\" rel=\"tag\">#<span>netsec</span></a></p>",
-        "created_at": "2026-11-07T10:30:34.861Z"
-      },
-      {
-        "account": {
           "id": "115780929217569257",
           "username": "thehackerwire",
           "acct": "thehackerwire@mastodon.social",
@@ -2819,7 +4402,7 @@
           "header_description": "",
           "followers_count": 260,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -2952,9 +4535,9 @@
           "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/115/780/929/223/240/988/original/d791186b03aef409.jpeg",
           "header_description": "",
-          "followers_count": 261,
+          "followers_count": 262,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -3008,7 +4591,7 @@
           "header_description": "",
           "followers_count": 260,
           "following_count": 2,
-          "statuses_count": 11496,
+          "statuses_count": 11503,
           "last_status_at": "2026-11-07",
           "hide_collections": false,
           "show_media": true,
@@ -3042,83 +4625,7 @@
     ],
     "description": "A security flaw has been discovered in TOTOLINK CA300-PoE 6.2c.884. The impacted element is the function setLanguageCfg of the file /cgi-bin/cstecgi.cgi. Performing a manipulation of the argument langType results in buffer overflow. The attack can be initiated remotely. The exploit has been released to the public and may be used for attacks.",
     "repos": [],
-    "updated": "2026-11-07T12:32:00",
+    "updated": "2026-11-07T10:17:12.310000",
     "epss": 0.8410000000000001
-  },
-  "CVE-2026-1255": {
-    "cvss3": 7.5,
-    "severity": "HIGH",
-    "epss_severity": "LOW",
-    "nuclei": null,
-    "posts": [
-      {
-        "account": {
-          "id": "114443602067941568",
-          "username": "hugovalters",
-          "acct": "hugovalters@mastodon.social",
-          "display_name": "Hugo | DevOps | Cybersecurity",
-          "locked": false,
-          "bot": false,
-          "discoverable": true,
-          "indexable": true,
-          "group": false,
-          "created_at": "2025-05-01T00:00:00.000Z",
-          "note": "<p>Tech Lead &amp; DevSecOps. \ud83d\udee1\ufe0f Cybersecurity | \ud83d\udcbb IT Tutorials | \ud83c\udff4\u200d\u2620\ufe0f Ethical Hacking | \u2699\ufe0f Tech Reviews. Learn, secure, and explore cutting-edge IT solutions! \ud83d\udc47</p>",
-          "url": "https://mastodon.social/@hugovalters",
-          "uri": "https://mastodon.social/users/hugovalters",
-          "avatar": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/114/443/602/067/941/568/original/389ac35208593325.png",
-          "avatar_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/avatars/114/443/602/067/941/568/original/389ac35208593325.png",
-          "avatar_description": "",
-          "header": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/114/443/602/067/941/568/original/41357cfc44442d1f.png",
-          "header_static": "https://media.infosec.exchange/infosec.exchange/cache/accounts/headers/114/443/602/067/941/568/original/41357cfc44442d1f.png",
-          "header_description": "",
-          "followers_count": 158,
-          "following_count": 4,
-          "statuses_count": 7767,
-          "last_status_at": "2026-11-07",
-          "hide_collections": false,
-          "show_media": true,
-          "show_media_replies": true,
-          "show_featured": true,
-          "feature_approval": {
-            "automatic": [
-              "public"
-            ],
-            "manual": [],
-            "current_user": "automatic"
-          },
-          "emojis": [],
-          "fields": [
-            {
-              "name": "CyberSecurity paradise",
-              "value": "<a href=\"https://www.valtersit.com\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">valtersit.com</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2026-11-07T15:09:28.662+00:00"
-            },
-            {
-              "name": "YouTube",
-              "value": "<a href=\"http://youtube.com/@hugovalters\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">http://</span><span class=\"\">youtube.com/@hugovalters</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "X.com",
-              "value": "<a href=\"https://x.com/hugovalters\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">x.com/hugovalters</span><span class=\"invisible\"></span></a>",
-              "verified_at": null
-            },
-            {
-              "name": "About ValtersIT.com",
-              "value": "<a href=\"https://www.valtersit.com/about/\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">valtersit.com/about/</span><span class=\"invisible\"></span></a>",
-              "verified_at": "2026-11-07T15:09:29.463+00:00"
-            }
-          ]
-        },
-        "url": "https://mastodon.social/@hugovalters/117574611919643595",
-        "content": "<p>CVE-2026-1255: YS LeadGen WordPress plugin up to 2.1.4 exposes captured form data, including PII, to unauthenticated users via the ysleadgen_get_captured_data AJAX action. CVSS 7.5. <a href=\"https://www.valtersit.com/cve/CVE-2026-1255/\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">valtersit.com/cve/CVE-2026-125</span><span class=\"invisible\">5/</span></a></p>",
-        "created_at": "2026-11-07T10:10:02.000Z"
-      }
-    ],
-    "description": "The YS LeadGen plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 2.1.4 due to the 'ysleadgen_get_captured_data' AJAX action being accessible to unauthenticated users. This makes it possible for unauthenticated attackers to retrieve all captured form submission data, including personally identifiable information (PII) such as names, email addresses, and message content submitted through YS LeadGen forms.",
-    "repos": [],
-    "updated": "2026-09-19T09:32:16",
-    "epss": 0.514
   }
 }
